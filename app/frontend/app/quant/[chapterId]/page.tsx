@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { apiFetch } from '@/lib/auth';
+import MathText from '@/app/components/MathText';
 
 const F = '"DM Sans", "Inter", "Segoe UI", Arial, sans-serif';
 
@@ -14,14 +15,18 @@ interface Options { a: string; b: string; c: string; d: string; }
 interface PracticeQ {
   _id: string;
   question: string;
+  question_latex?: string;
   question_type: string;
   options: Options;
+  options_latex?: Options;
   lod: number;
   difficulty: string;
   question_number: number;
   directions?: string;
+  directions_latex?: string;
   correct_answer?: string;
   solution?: string;
+  solution_latex?: string;
   user_answer?: string;
   is_correct?: boolean;
 }
@@ -258,15 +263,19 @@ export default function QuantChapterPage() {
 
               {/* Body */}
               <div style={{ padding: '18px 20px 22px' }}>
-                {q.directions && (
-                  <div style={{ fontSize: 12, color: '#777', fontStyle: 'italic', marginBottom: 10, lineHeight: 1.6 }}>{q.directions}</div>
+                {(q.directions_latex || q.directions) && (
+                  <div style={{ fontSize: 12, color: '#777', fontStyle: 'italic', marginBottom: 10, lineHeight: 1.6 }}>
+                    <MathText>{q.directions_latex || q.directions || ''}</MathText>
+                  </div>
                 )}
-                <div style={{ fontSize: 14, color: '#111', lineHeight: 1.7, marginBottom: 18 }}>{q.question}</div>
+                <div style={{ fontSize: 14, color: '#111', lineHeight: 1.7, marginBottom: 18 }}>
+                  <MathText>{q.question_latex || q.question}</MathText>
+                </div>
 
                 {/* Options */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
                   {(['a', 'b', 'c', 'd'] as const).map(opt => {
-                    const text = q.options[opt];
+                    const text = (q.options_latex && q.options_latex[opt]) || q.options[opt];
                     if (!text) return null;
 
                     const isSelectedOpt  = isResults ? userAns === opt : selected === opt;
@@ -299,7 +308,9 @@ export default function QuantChapterPage() {
                         }}
                       >
                         <span style={{ fontSize: 11, fontWeight: 700, color: textCol, minWidth: 14, marginTop: 2, flexShrink: 0 }}>{opt.toUpperCase()}</span>
-                        <span style={{ fontSize: 13, color: textCol, lineHeight: 1.55 }}>{text}</span>
+                        <span style={{ fontSize: 13, color: textCol, lineHeight: 1.55 }}>
+                          <MathText inline>{text}</MathText>
+                        </span>
                         {isCorrectOpt && (
                           <span style={{ marginLeft: 'auto', fontSize: 11, fontWeight: 700, color: '#00a876', flexShrink: 0 }}>✓</span>
                         )}
@@ -309,10 +320,12 @@ export default function QuantChapterPage() {
                 </div>
 
                 {/* Solution */}
-                {isResults && q.solution && (
+                {isResults && (q.solution_latex || q.solution) && (
                   <div style={{ marginTop: 16, padding: '12px 16px', background: '#f9fafb', border: '1px solid #eeeeee', borderLeft: '3px solid #378ADD' }}>
                     <div style={{ fontSize: 10, fontWeight: 700, color: '#aaa', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 6 }}>Solution</div>
-                    <div style={{ fontSize: 13, color: '#444', lineHeight: 1.65 }}>{q.solution}</div>
+                    <div style={{ fontSize: 13, color: '#444', lineHeight: 1.65 }}>
+                      <MathText>{q.solution_latex || q.solution || ''}</MathText>
+                    </div>
                   </div>
                 )}
               </div>

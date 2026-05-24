@@ -482,6 +482,7 @@ app.get('/api/attempts/:id', authMiddleware, async (req, res) => {
 app.get('/api/topics', async (req, res) => {
   try {
     const topics = await TopicQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
       { $group: {
         _id: { topic: '$topic', block: '$block', chapter_id: '$chapter_id' },
         total:  { $sum: 1 },
@@ -509,7 +510,7 @@ app.post('/api/practice/start', authMiddleware, async (req, res) => {
     const { topic, lod, limit = 20 } = req.body;
     if (!topic) return res.status(400).json({ error: 'topic required' });
 
-    const filter = { topic };
+    const filter = { topic, removed: { $ne: true } };
     if (lod) filter.lod = Number(lod);
 
     const questions = await TopicQuestion.aggregate([
@@ -517,8 +518,9 @@ app.post('/api/practice/start', authMiddleware, async (req, res) => {
       { $sample: { size: Math.min(Number(limit), 50) } },
       { $project: {
         topic: 1, block: 1, lod: 1, difficulty: 1,
-        question_number: 1, directions: 1,
-        question: 1, question_type: 1, options: 1,
+        question_number: 1, directions: 1, directions_latex: 1,
+        question: 1, question_latex: 1,
+        question_type: 1, options: 1, options_latex: 1,
         // Do NOT send correct_answer to client
       }},
     ]);
@@ -557,7 +559,7 @@ app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => 
     // Fetch all questions with correct answers
     const questions = await TopicQuestion.find(
       { _id: { $in: session.question_ids } },
-      'question question_type options correct_answer solution topic lod difficulty'
+      'question question_latex question_type options options_latex correct_answer solution solution_latex directions directions_latex topic lod difficulty'
     ).lean();
 
     const qMap = {};
@@ -586,17 +588,22 @@ app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => 
 
     // Return results with correct answers and solutions
     const result_questions = questions.map(q => ({
-      _id:            q._id,
-      question:       q.question,
-      question_type:  q.question_type,
-      options:        q.options,
-      correct_answer: q.correct_answer,
-      solution:       q.solution,
-      topic:          q.topic,
-      difficulty:     q.difficulty,
-      lod:            q.lod,
-      user_answer:    enrichedResponses[String(q._id)]?.answer || '',
-      is_correct:     enrichedResponses[String(q._id)]?.is_correct || false,
+      _id:              q._id,
+      question:         q.question,
+      question_latex:   q.question_latex,
+      question_type:    q.question_type,
+      options:          q.options,
+      options_latex:    q.options_latex,
+      correct_answer:   q.correct_answer,
+      solution:         q.solution,
+      solution_latex:   q.solution_latex,
+      directions:       q.directions,
+      directions_latex: q.directions_latex,
+      topic:            q.topic,
+      difficulty:       q.difficulty,
+      lod:              q.lod,
+      user_answer:      enrichedResponses[String(q._id)]?.answer || '',
+      is_correct:       enrichedResponses[String(q._id)]?.is_correct || false,
     }));
 
     res.json({
@@ -613,6 +620,7 @@ app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => 
 app.get('/api/quant-chapters', async (req, res) => {
   try {
     const chapters = await TopicQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
       { $group: {
         _id: { chapter_id: '$chapter_id', topic: '$topic', block: '$block' },
         total:  { $sum: 1 },
