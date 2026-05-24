@@ -392,6 +392,9 @@ export default function LandingPage() {
           <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3 }}>PaperRoom</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <button onClick={() => router.push('/quant')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Quant Practice
+          </button>
           <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Blog
           </button>

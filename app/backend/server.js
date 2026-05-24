@@ -107,11 +107,49 @@ const attemptSchema = new mongoose.Schema({
   },
 }, { collection: 'attempts', timestamps: true });
 
-const Question     = mongoose.model('Question', questionSchema);
-const QuestionPaper = mongoose.model('QuestionPaper', paperSchema);
-const ExamPaper    = mongoose.model('ExamPaper', examPaperSchema);
-const User         = mongoose.model('User', userSchema);
-const Attempt      = mongoose.model('Attempt', attemptSchema);
+// ── Topic Question (Arun Sharma book) ─────────────────────────────────────────
+const topicQuestionSchema = new mongoose.Schema({
+  source:          { type: String, default: 'Arun Sharma QA 8e' },
+  chapter_id:      Number,
+  topic:           String,
+  block:           String,
+  lod:             { type: Number, enum: [1, 2, 3] },
+  difficulty:      { type: String, enum: ['Easy', 'Medium', 'Hard'] },
+  question_number: Number,
+  directions:      { type: String, default: '' },
+  question:        String,
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  options:         { a: String, b: String, c: String, d: String },
+  correct_answer:  String,
+  solution:        { type: String, default: '' },
+  tags:            [String],
+  verified:        { type: Boolean, default: false },
+}, { collection: 'topic_questions', timestamps: true });
+
+// Practice session schema
+const practiceSessionSchema = new mongoose.Schema({
+  user_id:    { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  topic:      String,
+  lod:        Number,
+  question_ids: [mongoose.Schema.Types.ObjectId],
+  responses:  { type: mongoose.Schema.Types.Mixed, default: {} },
+  // responses: { [question_id]: { answer: 'a'|'b'|'c'|'d'|string, is_correct: bool, time_s: number } }
+  finished_at: { type: Date, default: null },
+  score: {
+    total:     Number,
+    correct:   Number,
+    incorrect: Number,
+    skipped:   Number,
+  },
+}, { collection: 'practice_sessions', timestamps: true });
+
+const Question        = mongoose.model('Question', questionSchema);
+const QuestionPaper   = mongoose.model('QuestionPaper', paperSchema);
+const ExamPaper       = mongoose.model('ExamPaper', examPaperSchema);
+const User            = mongoose.model('User', userSchema);
+const Attempt         = mongoose.model('Attempt', attemptSchema);
+const TopicQuestion   = mongoose.model('TopicQuestion', topicQuestionSchema);
+const PracticeSession = mongoose.model('PracticeSession', practiceSessionSchema);
 
 // ── Middleware ────────────────────────────────────────────────────────────────
 function authMiddleware(req, res, next) {
@@ -433,6 +471,222 @@ app.get('/api/attempts/:id', authMiddleware, async (req, res) => {
     const attempt = await Attempt.findOne({ _id: req.params.id, user_id: req.user._id });
     if (!attempt) return res.status(404).json({ error: 'Attempt not found' });
     res.json(attempt);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── Topic Practice Routes ─────────────────────────────────────────────────────
+
+// GET /api/topics — list all available topics with question counts
+app.get('/api/topics', async (req, res) => {
+  try {
+    const topics = await TopicQuestion.aggregate([
+      { $group: {
+        _id: { topic: '$topic', block: '$block', chapter_id: '$chapter_id' },
+        total:  { $sum: 1 },
+        easy:   { $sum: { $cond: [{ $eq: ['$lod', 1] }, 1, 0] } },
+        medium: { $sum: { $cond: [{ $eq: ['$lod', 2] }, 1, 0] } },
+        hard:   { $sum: { $cond: [{ $eq: ['$lod', 3] }, 1, 0] } },
+      }},
+      { $sort: { '_id.chapter_id': 1 } },
+    ]);
+    res.json(topics.map(t => ({
+      topic:      t._id.topic,
+      block:      t._id.block,
+      chapter_id: t._id.chapter_id,
+      counts:     { total: t.total, easy: t.easy, medium: t.medium, hard: t.hard },
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/practice/start — create a new practice session
+// Body: { topic, lod (1|2|3|null=all), limit (default 20) }
+app.post('/api/practice/start', authMiddleware, async (req, res) => {
+  try {
+    const { topic, lod, limit = 20 } = req.body;
+    if (!topic) return res.status(400).json({ error: 'topic required' });
+
+    const filter = { topic };
+    if (lod) filter.lod = Number(lod);
+
+    const questions = await TopicQuestion.aggregate([
+      { $match: filter },
+      { $sample: { size: Math.min(Number(limit), 50) } },
+      { $project: {
+        topic: 1, block: 1, lod: 1, difficulty: 1,
+        question_number: 1, directions: 1,
+        question: 1, question_type: 1, options: 1,
+        // Do NOT send correct_answer to client
+      }},
+    ]);
+
+    if (questions.length === 0) {
+      return res.status(404).json({ error: 'No questions found for this topic/level' });
+    }
+
+    const session = await PracticeSession.create({
+      user_id:      req.user._id,
+      topic,
+      lod:          lod || null,
+      question_ids: questions.map(q => q._id),
+      responses:    {},
+    });
+
+    res.json({ session_id: session._id, questions });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/practice/:sessionId/submit — submit answers and get results
+app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => {
+  try {
+    const { responses } = req.body;
+    // responses: { [question_id]: 'a'|'b'|'c'|'d'|string }
+
+    const session = await PracticeSession.findOne({
+      _id: req.params.sessionId,
+      user_id: req.user._id,
+    });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.finished_at) return res.status(400).json({ error: 'Session already submitted' });
+
+    // Fetch all questions with correct answers
+    const questions = await TopicQuestion.find(
+      { _id: { $in: session.question_ids } },
+      'question question_type options correct_answer solution topic lod difficulty'
+    ).lean();
+
+    const qMap = {};
+    questions.forEach(q => { qMap[String(q._id)] = q; });
+
+    let correct = 0, incorrect = 0, skipped = 0;
+    const enrichedResponses = {};
+
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      const given = responses[qId];
+      if (!given || given === '') {
+        skipped++;
+        enrichedResponses[qId] = { answer: '', is_correct: false, skipped: true };
+      } else {
+        const is_correct = q.correct_answer && given.toLowerCase() === q.correct_answer.toLowerCase();
+        if (is_correct) correct++; else incorrect++;
+        enrichedResponses[qId] = { answer: given, is_correct: !!is_correct, skipped: false };
+      }
+    }
+
+    session.responses   = enrichedResponses;
+    session.finished_at = new Date();
+    session.score       = { total: questions.length, correct, incorrect, skipped };
+    await session.save();
+
+    // Return results with correct answers and solutions
+    const result_questions = questions.map(q => ({
+      _id:            q._id,
+      question:       q.question,
+      question_type:  q.question_type,
+      options:        q.options,
+      correct_answer: q.correct_answer,
+      solution:       q.solution,
+      topic:          q.topic,
+      difficulty:     q.difficulty,
+      lod:            q.lod,
+      user_answer:    enrichedResponses[String(q._id)]?.answer || '',
+      is_correct:     enrichedResponses[String(q._id)]?.is_correct || false,
+    }));
+
+    res.json({
+      session_id: session._id,
+      score:      session.score,
+      questions:  result_questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/quant-chapters — list all chapters with question counts
+app.get('/api/quant-chapters', async (req, res) => {
+  try {
+    const chapters = await TopicQuestion.aggregate([
+      { $group: {
+        _id: { chapter_id: '$chapter_id', topic: '$topic', block: '$block' },
+        total:  { $sum: 1 },
+        easy:   { $sum: { $cond: [{ $eq: ['$lod', 1] }, 1, 0] } },
+        medium: { $sum: { $cond: [{ $eq: ['$lod', 2] }, 1, 0] } },
+        hard:   { $sum: { $cond: [{ $eq: ['$lod', 3] }, 1, 0] } },
+      }},
+      { $sort: { '_id.chapter_id': 1 } },
+    ]);
+    res.json(chapters.map(c => ({
+      chapter_id: c._id.chapter_id,
+      topic:      c._id.topic,
+      block:      c._id.block,
+      counts:     { total: c.total, easy: c.easy, medium: c.medium, hard: c.hard },
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/quant-chapters/seed — seed questions from JSON files (run once)
+app.post('/api/quant-chapters/seed', async (req, res) => {
+  const { secret } = req.body;
+  if (secret !== process.env.SEED_SECRET && secret !== 'seed_quant_2024') {
+    return res.status(403).json({ error: 'forbidden' });
+  }
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const dir = path.join(__dirname, '../../chapter_questions');
+    if (!fs.existsSync(dir)) return res.status(404).json({ error: 'chapter_questions dir not found' });
+
+    const deleted = await TopicQuestion.deleteMany({ source: 'Arun Sharma QA 8e' });
+    const files = fs.readdirSync(dir).filter(f => f.startsWith('ch') && f.endsWith('.json')).sort();
+
+    const curatedPath = path.join(__dirname, '../../curated_selections.json');
+    const curated = fs.existsSync(curatedPath)
+      ? JSON.parse(fs.readFileSync(curatedPath, 'utf8'))
+      : null;
+
+    let total = 0;
+    for (const file of files) {
+      let data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      if (!data.length) continue;
+
+      if (curated) {
+        const chapterId = data[0]?.chapter_id;
+        const indices = curated[String(chapterId)];
+        if (indices) data = indices.map(i => data[i]).filter(Boolean);
+      }
+
+      const docs = data.map(q => ({
+        ...q,
+        correct_answer: (q.correct_answer || '').toLowerCase().trim().charAt(0),
+        solution: q.solution || '',
+        directions: q.directions || '',
+      }));
+      await TopicQuestion.insertMany(docs, { ordered: false });
+      total += docs.length;
+    }
+    res.json({ deleted: deleted.deletedCount, inserted: total, curated: !!curated });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/practice/history — user's past practice sessions
+app.get('/api/practice/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await PracticeSession.find(
+      { user_id: req.user._id, finished_at: { $ne: null } },
+      'topic lod score finished_at createdAt'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
