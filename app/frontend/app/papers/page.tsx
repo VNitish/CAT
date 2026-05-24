@@ -41,11 +41,11 @@ export default function PapersPage() {
   const [loadingCode, setLoadingCode] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/status')
+    fetch('/api/status')
       .then(r => r.json())
       .then(d => setDbStatus(d.connected ? 'connected' : 'error'))
       .catch(() => setDbStatus('error'));
-    fetch('http://localhost:4000/api/papers')
+    fetch('/api/papers')
       .then(r => r.json())
       .then(d => Array.isArray(d) && setPapers(d))
       .catch(() => setDbStatus('error'));

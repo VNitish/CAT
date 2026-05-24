@@ -37,7 +37,7 @@ export function authHeaders(): HeadersInit {
 }
 
 export async function apiFetch(path: string, options: RequestInit = {}): Promise<Response> {
-  return fetch(`http://localhost:4000${path}`, {
+  return fetch(path, {
     ...options,
     headers: {
       'Content-Type': 'application/json',

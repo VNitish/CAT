@@ -3,20 +3,54 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-require('dotenv').config();
+const path = require('path');
+// Next.js env precedence: process.env > .env.local > .env. We never override
+// process.env (shell + Vercel). On Vercel both .env files are absent and
+// values come from Vercel's project environment settings.
+require('dotenv').config({ path: path.join(__dirname, '..', '.env.local') });
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+// Same-origin in dev (Next dev server proxies /api/* to localhost:4000) and in
+// prod (function runs on the same Vercel domain as the app). CORS_ORIGINS only
+// matters when hitting the deployed API from a different origin.
+const ALLOWED_ORIGINS = (process.env.CORS_ORIGINS || 'http://localhost:3000')
+  .split(',').map(s => s.trim()).filter(Boolean);
+app.use(cors({
+  origin: (origin, cb) => {
+    if (!origin || ALLOWED_ORIGINS.includes('*') || ALLOWED_ORIGINS.includes(origin)) return cb(null, true);
+    return cb(null, false);
+  },
+  credentials: true,
+}));
 app.use(express.json());
 
 const JWT_SECRET = process.env.JWT_SECRET;
 const SALT_ROUNDS = 12;
 const FREE_PAPERS = new Set(['CAT_2025_S1', 'CAT_2025_S2', 'CAT_2025_S3']);
 
-// ── MongoDB connection ────────────────────────────────────────────────────────
-mongoose.connect(process.env.MONGODB_STRING)
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err.message));
+// ── MongoDB connection (cached across serverless invocations) ─────────────────
+let cached = global._mongoConn;
+if (!cached) cached = global._mongoConn = { conn: null, promise: null };
+
+async function dbConnect() {
+  if (cached.conn) return cached.conn;
+  if (!cached.promise) {
+    cached.promise = mongoose
+      .connect(process.env.MONGODB_STRING, { bufferCommands: false })
+      .then(m => m);
+  }
+  cached.conn = await cached.promise;
+  return cached.conn;
+}
+
+app.use(async (_req, res, next) => {
+  try { await dbConnect(); next(); }
+  catch (e) {
+    console.error('MongoDB connection failed:', e.message);
+    res.status(503).json({ error: 'database unavailable' });
+  }
+});
 
 // ── Schemas ───────────────────────────────────────────────────────────────────
 const optionSchema = new mongoose.Schema({ label: String, text: String }, { _id: false });
@@ -700,5 +734,4 @@ app.get('/api/practice/history', authMiddleware, async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
+module.exports = app;

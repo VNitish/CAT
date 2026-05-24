@@ -64,7 +64,7 @@ export default function QuantChapterPage() {
     setPhase('loading');
     setError(null);
 
-    fetch('http://localhost:4000/api/quant-chapters')
+    fetch('/api/quant-chapters')
       .then(r => r.json())
       .then(async (chs: ChapterInfo[]) => {
         const ch = chs.find(c => c.chapter_id === chapId);

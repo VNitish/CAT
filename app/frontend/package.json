@@ -4,12 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:api": "node --watch api/standalone.js",
+    "dev:all": "concurrently -k -n web,api -c blue,green \"npm:dev\" \"npm:dev:api\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "katex": "^0.17.0",
+    "mongoose": "^9.6.2",
     "next": "^15.5.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -22,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^9.1.0",
     "eslint": "^9",
     "eslint-config-next": "^15.5.0",
     "tailwindcss": "^4",

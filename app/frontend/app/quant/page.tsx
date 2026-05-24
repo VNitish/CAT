@@ -28,7 +28,7 @@ export default function QuantPage() {
   const [dbStatus, setDbStatus] = useState<'checking' | 'connected' | 'empty' | 'error'>('checking');
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/quant-chapters')
+    fetch('/api/quant-chapters')
       .then(r => r.json())
       .then(d => {
         if (Array.isArray(d)) {
