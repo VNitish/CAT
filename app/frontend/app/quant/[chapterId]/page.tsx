@@ -132,7 +132,11 @@ export default function QuantChapterPage() {
         setPhase('practicing');
       })
       .catch(() => { setError('Connection error — is the backend running?'); setPhase('results'); });
-  }, [authLoading, user, chapId, retryKey, router]);
+  // Depend on user._id (a stable primitive), not the user object reference,
+  // so that a background auth-revalidation that returns the same user does
+  // not re-run this effect and race two /start calls.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [authLoading, user?._id, chapId, retryKey]);
 
   const handleSubmit = async () => {
     if (!sessionId) return;
