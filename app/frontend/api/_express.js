@@ -165,9 +165,10 @@ const practiceSessionSchema = new mongoose.Schema({
   user_id:    { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
   topic:      String,
   lod:        Number,
+  status:     { type: String, enum: ['in_progress', 'submitted', 'abandoned'], default: 'in_progress', index: true },
   question_ids: [mongoose.Schema.Types.ObjectId],
   responses:  { type: mongoose.Schema.Types.Mixed, default: {} },
-  // responses: { [question_id]: { answer: 'a'|'b'|'c'|'d'|string, is_correct: bool, time_s: number } }
+  // responses: { [question_id]: { answer: 'a'|'b'|'c'|'d'|string, is_correct: bool, skipped: bool } }
   finished_at: { type: Date, default: null },
   score: {
     total:     Number,
@@ -176,6 +177,7 @@ const practiceSessionSchema = new mongoose.Schema({
     skipped:   Number,
   },
 }, { collection: 'practice_sessions', timestamps: true });
+practiceSessionSchema.index({ user_id: 1, topic: 1, status: 1 });
 
 const Question        = mongoose.model('Question', questionSchema);
 const QuestionPaper   = mongoose.model('QuestionPaper', paperSchema);
@@ -537,12 +539,18 @@ app.get('/api/topics', async (req, res) => {
   }
 });
 
-// POST /api/practice/start — create a new practice session
-// Body: { topic, lod (1|2|3|null=all), limit (default 20) }
+// POST /api/practice/start — create a NEW practice session (and abandon any in-progress one for this user+topic)
+// Body: { topic, lod (1|2|3|null=all), limit (default 30) }
 app.post('/api/practice/start', authMiddleware, async (req, res) => {
   try {
-    const { topic, lod, limit = 20 } = req.body;
+    const { topic, lod, limit = 30 } = req.body;
     if (!topic) return res.status(400).json({ error: 'topic required' });
+
+    // Mark any in-progress sessions for this user+topic as abandoned (clean restart)
+    await PracticeSession.updateMany(
+      { user_id: req.user._id, topic, status: 'in_progress' },
+      { $set: { status: 'abandoned', finished_at: new Date() } }
+    );
 
     const filter = { topic, removed: { $ne: true } };
     if (lod) filter.lod = Number(lod);
@@ -567,11 +575,116 @@ app.post('/api/practice/start', authMiddleware, async (req, res) => {
       user_id:      req.user._id,
       topic,
       lod:          lod || null,
+      status:       'in_progress',
       question_ids: questions.map(q => q._id),
       responses:    {},
     });
 
-    res.json({ session_id: session._id, questions });
+    res.json({ session_id: session._id, questions, responses: {} });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/practice/active?topic=<topic> — resume or read the user's latest session for this topic
+// Returns one of:
+//   { state: 'none' }
+//   { state: 'in_progress', session_id, questions (no answers), responses }
+//   { state: 'finished',    session_id, questions (with answers+solutions), responses, score }
+app.get('/api/practice/active', authMiddleware, async (req, res) => {
+  try {
+    const { topic } = req.query;
+    if (!topic) return res.status(400).json({ error: 'topic required' });
+
+    // 1) Prefer the in-progress session
+    let session = await PracticeSession.findOne({
+      user_id: req.user._id, topic, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+
+    // 2) Fall back to the most recent submitted session
+    if (!session) {
+      session = await PracticeSession.findOne({
+        user_id: req.user._id, topic, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+
+    if (!session) return res.json({ state: 'none' });
+
+    // Fetch the questions referenced by this session, preserving original order
+    const projection = isFinished
+      ? 'topic block lod difficulty question_number directions directions_latex question question_latex question_type options options_latex correct_answer solution solution_latex'
+      : 'topic block lod difficulty question_number directions directions_latex question question_latex question_type options options_latex';
+
+    const docs = await TopicQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const docMap = {};
+    docs.forEach(d => { docMap[String(d._id)] = d; });
+    const orderedQs = session.question_ids
+      .map(id => docMap[String(id)])
+      .filter(Boolean);
+
+    if (isFinished) {
+      // Enrich with user_answer / is_correct so the page renders the result UI
+      const enriched = orderedQs.map(q => {
+        const r = (session.responses || {})[String(q._id)] || {};
+        return {
+          ...q,
+          user_answer: r.answer || '',
+          is_correct: !!r.is_correct,
+        };
+      });
+      return res.json({
+        state:      'finished',
+        session_id: session._id,
+        questions:  enriched,
+        responses:  session.responses || {},
+        score:      session.score || null,
+      });
+    }
+
+    // In-progress — return raw saved-answer map { qId: 'a'|'b'|... } for the UI
+    const flatResponses = {};
+    for (const [qId, r] of Object.entries(session.responses || {})) {
+      if (r && r.answer) flatResponses[qId] = r.answer;
+    }
+
+    res.json({
+      state:      'in_progress',
+      session_id: session._id,
+      questions:  orderedQs,
+      responses:  flatResponses,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/practice/:sessionId/save — incrementally persist responses (no scoring yet)
+// Body: { responses: { [qId]: 'a'|'b'|'c'|'d'|string } }
+app.post('/api/practice/:sessionId/save', authMiddleware, async (req, res) => {
+  try {
+    const { responses = {} } = req.body;
+    const session = await PracticeSession.findOne({
+      _id: req.params.sessionId,
+      user_id: req.user._id,
+    });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') {
+      return res.status(400).json({ error: 'Session is not in progress' });
+    }
+
+    // Replace responses with raw map (no scoring); keep the same shape as submit for consistency
+    const raw = {};
+    for (const [qId, ans] of Object.entries(responses)) {
+      if (ans !== undefined && ans !== null && ans !== '') {
+        raw[qId] = { answer: ans, skipped: false };
+      }
+    }
+    session.responses = raw;
+    session.markModified('responses');
+    await session.save();
+    res.json({ ok: true, saved: Object.keys(raw).length });
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -588,7 +701,7 @@ app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => 
       user_id: req.user._id,
     });
     if (!session) return res.status(404).json({ error: 'Session not found' });
-    if (session.finished_at) return res.status(400).json({ error: 'Session already submitted' });
+    if (session.status === 'submitted' || session.finished_at) return res.status(400).json({ error: 'Session already submitted' });
 
     // Fetch all questions with correct answers
     const questions = await TopicQuestion.find(
@@ -616,7 +729,9 @@ app.post('/api/practice/:sessionId/submit', authMiddleware, async (req, res) => 
     }
 
     session.responses   = enrichedResponses;
+    session.markModified('responses');
     session.finished_at = new Date();
+    session.status      = 'submitted';
     session.score       = { total: questions.length, correct, incorrect, skipped };
     await session.save();
 
@@ -725,7 +840,7 @@ app.post('/api/quant-chapters/seed', async (req, res) => {
 app.get('/api/practice/history', authMiddleware, async (req, res) => {
   try {
     const sessions = await PracticeSession.find(
-      { user_id: req.user._id, finished_at: { $ne: null } },
+      { user_id: req.user._id, status: 'submitted' },
       'topic lod score finished_at createdAt'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);

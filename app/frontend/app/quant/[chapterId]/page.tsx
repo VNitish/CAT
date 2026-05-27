@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { apiFetch } from '@/lib/auth';
@@ -57,12 +57,41 @@ export default function QuantChapterPage() {
   const [score,     setScore]     = useState<Score | null>(null);
   const [error,     setError]     = useState<string | null>(null);
   const [retryKey,  setRetryKey]  = useState(0);
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved'>('idle');
+
+  // Debounced incremental save of in-progress answers
+  const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Schedule a save whenever answers change while practicing
+  useEffect(() => {
+    if (phase !== 'practicing') return;
+    if (!sessionId) return;
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    setSaveState('saving');
+    saveTimer.current = setTimeout(async () => {
+      try {
+        const res = await apiFetch(`/api/practice/${sessionId}/save`, {
+          method: 'POST',
+          body: JSON.stringify({ responses: answers }),
+        });
+        if (res.ok) setSaveState('saved');
+        else setSaveState('idle');
+      } catch {
+        setSaveState('idle');
+      }
+    }, 500);
+    return () => { if (saveTimer.current) clearTimeout(saveTimer.current); };
+  }, [answers, sessionId, phase]);
 
   useEffect(() => {
     if (authLoading) return;
     if (!user) { router.push('/login'); return; }
     setPhase('loading');
     setError(null);
+    setAnswers({});
+    setScore(null);
+    setQuestions([]);
+    setSessionId(null);
 
     fetch('/api/quant-chapters')
       .then(r => r.json())
@@ -71,6 +100,27 @@ export default function QuantChapterPage() {
         if (!ch) { setError('Chapter not found'); setPhase('results'); return; }
         setChapter(ch);
 
+        // 1) Try to resume an existing session for this topic
+        const activeRes = await apiFetch(`/api/practice/active?topic=${encodeURIComponent(ch.topic)}`);
+        if (activeRes.ok) {
+          const active = await activeRes.json();
+          if (active.state === 'in_progress') {
+            setSessionId(active.session_id);
+            setQuestions(active.questions);
+            setAnswers(active.responses || {});
+            setPhase('practicing');
+            return;
+          }
+          if (active.state === 'finished') {
+            setSessionId(active.session_id);
+            setQuestions(active.questions);
+            setScore(active.score);
+            setPhase('results');
+            return;
+          }
+        }
+
+        // 2) No existing session — create a fresh one
         const res = await apiFetch('/api/practice/start', {
           method: 'POST',
           body: JSON.stringify({ topic: ch.topic, lod: null, limit: 30 }),
@@ -82,10 +132,12 @@ export default function QuantChapterPage() {
         setPhase('practicing');
       })
       .catch(() => { setError('Connection error — is the backend running?'); setPhase('results'); });
-  }, [authLoading, user, chapId, retryKey]);
+  }, [authLoading, user, chapId, retryKey, router]);
 
   const handleSubmit = async () => {
     if (!sessionId) return;
+    // Flush any pending debounced save first
+    if (saveTimer.current) { clearTimeout(saveTimer.current); saveTimer.current = null; }
     setPhase('submitting');
     try {
       const res = await apiFetch(`/api/practice/${sessionId}/submit`, {
@@ -100,6 +152,34 @@ export default function QuantChapterPage() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch {
       setPhase('practicing');
+    }
+  };
+
+  const handlePracticeAgain = async () => {
+    if (!chapter) return;
+    // Reset UI state + start a brand-new session on the server (abandons any prior in-progress)
+    setAnswers({});
+    setScore(null);
+    setQuestions([]);
+    setSessionId(null);
+    setRetryKey(k => k + 1);
+    // The effect on [retryKey] will re-fetch active (which will be 'none' after start) and POST /start.
+    // Force-create here directly so we skip the "show finished session" branch:
+    setPhase('loading');
+    try {
+      const res = await apiFetch('/api/practice/start', {
+        method: 'POST',
+        body: JSON.stringify({ topic: chapter.topic, lod: null, limit: 30 }),
+      });
+      if (!res.ok) { setError('Failed to start new session'); setPhase('results'); return; }
+      const data = await res.json();
+      setSessionId(data.session_id);
+      setQuestions(data.questions);
+      setAnswers({});
+      setPhase('practicing');
+    } catch {
+      setError('Connection error');
+      setPhase('results');
     }
   };
 
@@ -135,6 +215,9 @@ export default function QuantChapterPage() {
         </div>
         {phase === 'practicing' && (
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <span style={{ fontSize: 11, color: saveState === 'saving' ? '#777' : '#00C48C', minWidth: 38, fontFamily: F }}>
+              {saveState === 'saving' ? 'Saving…' : saveState === 'saved' ? '✓ Saved' : ''}
+            </span>
             <span style={{ fontSize: 12, color: '#555' }}>{answered} / {questions.length} answered</span>
             <button
               onClick={handleSubmit}
@@ -337,10 +420,10 @@ export default function QuantChapterPage() {
         {phase === 'results' && !error && (
           <div style={{ display: 'flex', gap: 12, marginTop: 8 }}>
             <button
-              onClick={() => { setAnswers({}); setScore(null); setQuestions([]); setSessionId(null); setRetryKey(k => k + 1); }}
+              onClick={handlePracticeAgain}
               style={{ padding: '10px 24px', background: '#00C48C', color: '#fff', border: 'none', fontSize: 13, fontWeight: 600, fontFamily: F, cursor: 'pointer' }}
             >
-              Practice again
+              Practice again with fresh questions
             </button>
             <button
               onClick={() => router.push('/quant')}
