@@ -558,6 +558,8 @@ app.post('/api/practice/start', authMiddleware, async (req, res) => {
     const questions = await TopicQuestion.aggregate([
       { $match: filter },
       { $sample: { size: Math.min(Number(limit), 50) } },
+      // Present in book order (caselets grouped) rather than random sample order.
+      { $sort: { question_number: 1 } },
       { $project: {
         topic: 1, block: 1, lod: 1, difficulty: 1,
         question_number: 1, directions: 1, directions_latex: 1,
