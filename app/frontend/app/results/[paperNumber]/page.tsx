@@ -3,10 +3,23 @@ import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { QuestionState, SectionName } from '@/lib/types';
 import { DEMO_QUESTIONS } from '@/lib/demoData';
+import MathText from '@/app/components/MathText';
 
 const SECTION_ORDER: SectionName[] = ['VARC', 'DILR', 'QA'];
 const MARKS_CORRECT = 3;
 const MARKS_INCORRECT = -1;
+
+// Truncate without cutting inside a `$...$` math span.
+function mathSafePreview(text: string, max = 120): string {
+  if (!text) return '';
+  if (text.length <= max) return text;
+  let s = text.slice(0, max);
+  if (((s.match(/\$/g) || []).length) % 2 === 1) {
+    const i = s.lastIndexOf('$');
+    if (i > 0) s = s.slice(0, i);
+  }
+  return s + '…';
+}
 
 interface SectionScore {
   attempted: number;
@@ -324,7 +337,7 @@ export default function ResultsPage() {
                     {/* Question text */}
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-text-secondary)', lineHeight: 1.5, marginBottom: 'var(--space-2)' }}>
-                        {q.question_text.length > 120 ? q.question_text.slice(0, 120) + '…' : q.question_text}
+                        <MathText inline>{mathSafePreview(q.question_text)}</MathText>
                       </div>
                       <div style={{ display: 'flex', gap: 'var(--space-2)', flexWrap: 'wrap', fontSize: 'var(--text-tiny)' }}>
                         <span style={{ background: 'rgba(0,51,153,0.25)', color: 'var(--color-text-label)', padding: '2px var(--space-2)', borderRadius: 'var(--radius-sm)', fontWeight: 'bold' }}>{q.section}</span>
@@ -393,7 +406,7 @@ export default function ResultsPage() {
                                 color: 'var(--color-text-secondary)',
                               }}>
                                 <span style={{ fontWeight: 'bold', color: isCorrectOpt ? 'var(--color-success)' : isUserOpt ? 'var(--color-danger)' : 'var(--color-text-muted)' }}>({opt.label})</span>
-                                <span>{opt.text}</span>
+                                <span><MathText inline>{opt.text}</MathText></span>
                                 {isCorrectOpt && <span style={{ color: 'var(--color-success)', fontWeight: 'bold', marginLeft: 'auto' }}>✓ Correct</span>}
                                 {isUserOpt && !isCorrectOpt && <span style={{ color: 'var(--color-danger)', fontWeight: 'bold', marginLeft: 'auto' }}>✗ Your answer</span>}
                               </div>

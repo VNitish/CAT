@@ -4,6 +4,7 @@ import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import { Question, QuestionState, QuestionStatus, SectionName, ExamState } from '@/lib/types';
 import { DEMO_QUESTIONS } from '@/lib/demoData';
 import { apiFetch } from '@/lib/auth';
+import MathText from '@/app/components/MathText';
 
 const SECTION_ORDER: SectionName[] = ['VARC', 'DILR', 'QA'];
 const SECTION_TIME = 40 * 60; // 40 minutes in seconds
@@ -427,7 +428,7 @@ function ExamPageInner() {
             {/* Question */}
             <div style={{ marginBottom: 20 }}>
               <div style={{ fontWeight: 'bold', fontSize: 13, marginBottom: 10, color: '#003366' }}>Question No. {state.currentQuestionIndex + 1}</div>
-              <div style={{ fontSize: 14, lineHeight: 1.7, color: '#111', marginBottom: 16 }}>{q.question_text}</div>
+              <div style={{ fontSize: 14, lineHeight: 1.7, color: '#111', marginBottom: 16 }}><MathText>{q.question_text}</MathText></div>
 
               {/* MCQ options */}
               {q.question_type === 'MCQ' && q.options && (
@@ -449,7 +450,7 @@ function ExamPageInner() {
                           onChange={() => setPendingAnswer(opt.label)}
                           style={{ marginTop: 2, accentColor: '#003399', width: 16, height: 16, flexShrink: 0 }}
                         />
-                        <span><strong>{opt.label}.</strong> {opt.text}</span>
+                        <span><strong>{opt.label}.</strong> <MathText inline>{opt.text}</MathText></span>
                       </label>
                     );
                   })}
