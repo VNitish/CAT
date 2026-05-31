@@ -10,6 +10,16 @@ interface MathTextProps {
   className?: string;
 }
 
+// Allow inline data: URIs (used for our own trusted SVG Venn-diagram options).
+// react-markdown's defaultUrlTransform strips `data:` URIs, so pass them through.
+const allowDataUri = (url: string) => url;
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const imgRenderer = ({ src, alt }: any) => (
+  // eslint-disable-next-line @next/next/no-img-element
+  <img src={src} alt={alt || ''} style={{ display: 'inline-block', verticalAlign: 'middle', maxWidth: '100%' }} />
+);
+
 export default function MathText({ children, inline = false, className }: MathTextProps) {
   if (!children) return null;
   if (inline) {
@@ -18,8 +28,10 @@ export default function MathText({ children, inline = false, className }: MathTe
         <ReactMarkdown
           remarkPlugins={[remarkMath]}
           rehypePlugins={[rehypeKatex]}
+          urlTransform={allowDataUri}
           components={{
             p: ({ children }) => <>{children}</>,
+            img: imgRenderer,
           }}
         >
           {children}
@@ -32,8 +44,10 @@ export default function MathText({ children, inline = false, className }: MathTe
       <ReactMarkdown
         remarkPlugins={[remarkMath]}
         rehypePlugins={[rehypeKatex]}
+        urlTransform={allowDataUri}
         components={{
           p: ({ children }) => <p style={{ margin: 0 }}>{children}</p>,
+          img: imgRenderer,
         }}
       >
         {children}
