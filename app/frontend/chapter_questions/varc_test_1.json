@@ -1,0 +1,1311 @@
+[
+  {
+    "test": 1,
+    "question_number": 1,
+    "question_code": "VARC-T1-Q01",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Sentence Correction",
+    "set_id": "t1-sc1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: In each of the following sentences, a part of the sentence is underlined. Beneath each sentence, four different ways of phrasing the underlined part are indicated. Choose the best alternative from among the four.",
+    "question_text": "If you are on a three-month software design project and, in two weeks, you’ve put together a programme that solves part of the problem, show it to your Boss without delay.",
+    "underline": "and, in two weeks, you’ve put together a programme that solves part of the problem",
+    "options": [
+      {
+        "label": "a",
+        "text": "and, you’ve put together a programme that solves part of the problem in two weeks"
+      },
+      {
+        "label": "b",
+        "text": "and, in two weeks, you’ve put together a programme that solves part of the problem"
+      },
+      {
+        "label": "c",
+        "text": "and, you’ve put together a programme that has solved part of the problem in two weeks"
+      },
+      {
+        "label": "d",
+        "text": "and, in two weeks, you put together a programme that solved only part of the problem"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 2,
+    "question_code": "VARC-T1-Q02",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Sentence Correction",
+    "set_id": "t1-sc1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: In each of the following sentences, a part of the sentence is underlined. Beneath each sentence, four different ways of phrasing the underlined part are indicated. Choose the best alternative from among the four.",
+    "question_text": "Many of these environmentalists proclaim to save nothing less than the planet itself.",
+    "underline": "to save nothing less than",
+    "options": [
+      {
+        "label": "a",
+        "text": "to save nothing lesser than"
+      },
+      {
+        "label": "b",
+        "text": "that they are saving nothing lesser than"
+      },
+      {
+        "label": "c",
+        "text": "to save nothing less than"
+      },
+      {
+        "label": "d",
+        "text": "that they save nothing less than"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 3,
+    "question_code": "VARC-T1-Q03",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Sentence Correction",
+    "set_id": "t1-sc1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: In each of the following sentences, a part of the sentence is underlined. Beneath each sentence, four different ways of phrasing the underlined part are indicated. Choose the best alternative from among the four.",
+    "question_text": "Bacon believes that the medical profession should be permitted to ease and quicken death where the end would otherwise only delay for a few days and at the cost of great pain.",
+    "underline": "otherwise only delay for a few days and",
+    "options": [
+      {
+        "label": "a",
+        "text": "be delayed for a few days"
+      },
+      {
+        "label": "b",
+        "text": "be delayed for a few days and"
+      },
+      {
+        "label": "c",
+        "text": "be otherwise only delayed for a few days and"
+      },
+      {
+        "label": "d",
+        "text": "otherwise only delay for a few days and"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 4,
+    "question_code": "VARC-T1-Q04",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc1",
+    "set_position": 1,
+    "context_passage": "I met Tom Dunfee in the Year 1977, when he joined the National Endowment for the Humanities supported team of philosophers, business professors, and businessmen who proposed guidelines for a business ethics course. It was not long before Tom Dunfee invited me to co-teach some classes with him at Wharton. I came to class well-armed with my philosophical principles. However, Tom quickly convinced me that these principles needed to take account of the realm of the possible which meant taking account of how ethics is practiced in the world. And, when a social scientist or lawyer looked at the world, it was undeniable that there was a lot of disagreement about ethics. What people actually believed and institutionalized regarding ethics was too messy for an easy application of ethical principles. That was particularly true in the world of business ethics. That message of complexity, messiness, or noise in the system was a common theme in Tom Dunfee’s work. I believe that you can see it in Ties That Bind. The hyper norms are analogous to the universal principles of Tom Donaldson’s book “The Ethics of International Business” while all those micro-and macro-social contracts are examples of moral practice. And, the notion of moral free space is, I suspect, an attempt by Tom Dunfee to give validation to the variety of ethical opinion on a large amount of ethical matters, especially in business ethics. When you worked with Tom Dunfee, it was not enough to simply appeal to ethical principles; you needed to take into account how people thought about and practiced ethics.",
+    "directions": "Direction for questions 4 to 6: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author of this passage speaks from the perspective of the discipline of",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Philosophy"
+      },
+      {
+        "label": "b",
+        "text": "Business Management"
+      },
+      {
+        "label": "c",
+        "text": "Sociology"
+      },
+      {
+        "label": "d",
+        "text": "Ethics"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 5,
+    "question_code": "VARC-T1-Q05",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc1",
+    "set_position": 2,
+    "context_passage": "I met Tom Dunfee in the Year 1977, when he joined the National Endowment for the Humanities supported team of philosophers, business professors, and businessmen who proposed guidelines for a business ethics course. It was not long before Tom Dunfee invited me to co-teach some classes with him at Wharton. I came to class well-armed with my philosophical principles. However, Tom quickly convinced me that these principles needed to take account of the realm of the possible which meant taking account of how ethics is practiced in the world. And, when a social scientist or lawyer looked at the world, it was undeniable that there was a lot of disagreement about ethics. What people actually believed and institutionalized regarding ethics was too messy for an easy application of ethical principles. That was particularly true in the world of business ethics. That message of complexity, messiness, or noise in the system was a common theme in Tom Dunfee’s work. I believe that you can see it in Ties That Bind. The hyper norms are analogous to the universal principles of Tom Donaldson’s book “The Ethics of International Business” while all those micro-and macro-social contracts are examples of moral practice. And, the notion of moral free space is, I suspect, an attempt by Tom Dunfee to give validation to the variety of ethical opinion on a large amount of ethical matters, especially in business ethics. When you worked with Tom Dunfee, it was not enough to simply appeal to ethical principles; you needed to take into account how people thought about and practiced ethics.",
+    "directions": "Direction for questions 4 to 6: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following can be the MOST APPRO-PREATE title for the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Seminar on Business Ethics Course"
+      },
+      {
+        "label": "b",
+        "text": "Ethical Principles for Business Ethics"
+      },
+      {
+        "label": "c",
+        "text": "Balancing Principles and Practice in Business Ethics"
+      },
+      {
+        "label": "d",
+        "text": "The Ethics of International Business"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 6,
+    "question_code": "VARC-T1-Q06",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc1",
+    "set_position": 3,
+    "context_passage": "I met Tom Dunfee in the Year 1977, when he joined the National Endowment for the Humanities supported team of philosophers, business professors, and businessmen who proposed guidelines for a business ethics course. It was not long before Tom Dunfee invited me to co-teach some classes with him at Wharton. I came to class well-armed with my philosophical principles. However, Tom quickly convinced me that these principles needed to take account of the realm of the possible which meant taking account of how ethics is practiced in the world. And, when a social scientist or lawyer looked at the world, it was undeniable that there was a lot of disagreement about ethics. What people actually believed and institutionalized regarding ethics was too messy for an easy application of ethical principles. That was particularly true in the world of business ethics. That message of complexity, messiness, or noise in the system was a common theme in Tom Dunfee’s work. I believe that you can see it in Ties That Bind. The hyper norms are analogous to the universal principles of Tom Donaldson’s book “The Ethics of International Business” while all those micro-and macro-social contracts are examples of moral practice. And, the notion of moral free space is, I suspect, an attempt by Tom Dunfee to give validation to the variety of ethical opinion on a large amount of ethical matters, especially in business ethics. When you worked with Tom Dunfee, it was not enough to simply appeal to ethical principles; you needed to take into account how people thought about and practiced ethics.",
+    "directions": "Direction for questions 4 to 6: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author of the passage is most likely to believe that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ethics consist of micro-contracts among people."
+      },
+      {
+        "label": "b",
+        "text": "ethics consist of micro-contracts among people."
+      },
+      {
+        "label": "c",
+        "text": "ethics consist of what people practice."
+      },
+      {
+        "label": "d",
+        "text": "ethics consist of universal principles."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 7,
+    "question_code": "VARC-T1-Q07",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Analogy",
+    "set_id": "t1-an1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 7 and 8: Choose the option that BEST completes the relationship indicated in the capitalized pair.",
+    "question_text": "CRITICISE: FULMINATE",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Tease: Assuage"
+      },
+      {
+        "label": "b",
+        "text": "Flail: Control"
+      },
+      {
+        "label": "c",
+        "text": "Hurt: Torture"
+      },
+      {
+        "label": "d",
+        "text": "Laud: Prevaricate"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 8,
+    "question_code": "VARC-T1-Q08",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Analogy",
+    "set_id": "t1-an1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 7 and 8: Choose the option that BEST completes the relationship indicated in the capitalized pair.",
+    "question_text": "POETRY: BALLAD",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Reptile: Snake"
+      },
+      {
+        "label": "b",
+        "text": "Bulb: Tubelight"
+      },
+      {
+        "label": "c",
+        "text": "Snake: Reptile"
+      },
+      {
+        "label": "d",
+        "text": "Life: Death"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 9,
+    "question_code": "VARC-T1-Q09",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Idioms",
+    "set_id": "t1-id1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 9 and 10: Choose the option that is CLOSEST in meaning to the idioms.",
+    "question_text": "Up the apples and pears",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Up the trees"
+      },
+      {
+        "label": "b",
+        "text": "Up the wall"
+      },
+      {
+        "label": "c",
+        "text": "Up the stairs"
+      },
+      {
+        "label": "d",
+        "text": "Beyond imagination"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 10,
+    "question_code": "VARC-T1-Q10",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Idioms",
+    "set_id": "t1-id1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 9 and 10: Choose the option that is CLOSEST in meaning to the idioms.",
+    "question_text": "Jot or tittle",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Scribble"
+      },
+      {
+        "label": "b",
+        "text": "Trifle"
+      },
+      {
+        "label": "c",
+        "text": "Illegible"
+      },
+      {
+        "label": "d",
+        "text": "Talkative"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 11,
+    "question_code": "VARC-T1-Q11",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc2",
+    "set_position": 1,
+    "context_passage": "Cryptozoologist Loren Coleman visited Line Road last week to do his own investigation into a couple’s claim that something like Bigfoot walked in front of their car. On Monday, Coleman said that the man had reported seeing something hairy, 7 feet tall and walking upright, cross the road on the morning of February 8th near the Greene-Leeds town line. The woman with him put its height at closer to 6.5 feet. “They’re just afraid it would ruin their lives because of all the ridicule,” Coleman said. “They’re really very skittish.” Coleman, who has a museum in Portland dedicated to mostly unconfirmed creatures (Bigfoot, the Loch Ness monster, the Jersey Devil), was involved several years ago in naming the Turner Beast, a black animal that created enough mystery that it made national headlines before being unmasked as a dog. The area has had other historical Bigfoot sightings, he said, as well as sightings of animals described as black panthers and cougars. Mystery cats, Coleman said, seem to live in one place year-round; he questioned whether Bigfoot migrates through the area in spring and fall. “I think what’s happening, we may have a Turner Triangle where there’s lot of marshy land,” Coleman said. “My conceptualization is that the whole area is more wild than the people in Lewiston or Portland understand.” Eric Nickerson lives on Line Road, a quarter-mile from the point of the sighting. He said he’s never seen anything strange in the woods there. In the early 1980s, however, 8 miles away on Turner Center Bridge Road, he claims his brother saw a Bigfoot and that, riding home one day on his bike, he himself was chased by one. Section Test 1 ❏ 5.5 Bill Dubois, Manager at the family business Red Roof in Leeds, said people had been in the store gossiping about the sighting. Though most of the information was second or third-hand. “The people that saw it seemed pretty spooked,” he said. His take on whether something could be in the woods out that way: “In this world, you never know. I have one customer that was just a Bigfoot freak; he believes in it. Telling him, he got all excited.”",
+    "directions": "Direction for questions 11 to 13: Read the passage given below and solve the questions based on it.",
+    "question_text": "The word “skittish” in the passage means:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Shy"
+      },
+      {
+        "label": "b",
+        "text": "Aggressive"
+      },
+      {
+        "label": "c",
+        "text": "Methodical"
+      },
+      {
+        "label": "d",
+        "text": "Considerate"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 12,
+    "question_code": "VARC-T1-Q12",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc2",
+    "set_position": 2,
+    "context_passage": "Cryptozoologist Loren Coleman visited Line Road last week to do his own investigation into a couple’s claim that something like Bigfoot walked in front of their car. On Monday, Coleman said that the man had reported seeing something hairy, 7 feet tall and walking upright, cross the road on the morning of February 8th near the Greene-Leeds town line. The woman with him put its height at closer to 6.5 feet. “They’re just afraid it would ruin their lives because of all the ridicule,” Coleman said. “They’re really very skittish.” Coleman, who has a museum in Portland dedicated to mostly unconfirmed creatures (Bigfoot, the Loch Ness monster, the Jersey Devil), was involved several years ago in naming the Turner Beast, a black animal that created enough mystery that it made national headlines before being unmasked as a dog. The area has had other historical Bigfoot sightings, he said, as well as sightings of animals described as black panthers and cougars. Mystery cats, Coleman said, seem to live in one place year-round; he questioned whether Bigfoot migrates through the area in spring and fall. “I think what’s happening, we may have a Turner Triangle where there’s lot of marshy land,” Coleman said. “My conceptualization is that the whole area is more wild than the people in Lewiston or Portland understand.” Eric Nickerson lives on Line Road, a quarter-mile from the point of the sighting. He said he’s never seen anything strange in the woods there. In the early 1980s, however, 8 miles away on Turner Center Bridge Road, he claims his brother saw a Bigfoot and that, riding home one day on his bike, he himself was chased by one. Section Test 1 ❏ 5.5 Bill Dubois, Manager at the family business Red Roof in Leeds, said people had been in the store gossiping about the sighting. Though most of the information was second or third-hand. “The people that saw it seemed pretty spooked,” he said. His take on whether something could be in the woods out that way: “In this world, you never know. I have one customer that was just a Bigfoot freak; he believes in it. Telling him, he got all excited.”",
+    "directions": "Direction for questions 11 to 13: Read the passage given below and solve the questions based on it.",
+    "question_text": "From the passage, it is possible to infer that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "the sightings of mysterious animals are all unfounded."
+      },
+      {
+        "label": "b",
+        "text": "the sig htings of mysterious animals could be unfounded."
+      },
+      {
+        "label": "c",
+        "text": "none of the sightings of mysterious animals is unfounded."
+      },
+      {
+        "label": "d",
+        "text": "all the reports of the sightings were first-hand."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 13,
+    "question_code": "VARC-T1-Q13",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc2",
+    "set_position": 3,
+    "context_passage": "Cryptozoologist Loren Coleman visited Line Road last week to do his own investigation into a couple’s claim that something like Bigfoot walked in front of their car. On Monday, Coleman said that the man had reported seeing something hairy, 7 feet tall and walking upright, cross the road on the morning of February 8th near the Greene-Leeds town line. The woman with him put its height at closer to 6.5 feet. “They’re just afraid it would ruin their lives because of all the ridicule,” Coleman said. “They’re really very skittish.” Coleman, who has a museum in Portland dedicated to mostly unconfirmed creatures (Bigfoot, the Loch Ness monster, the Jersey Devil), was involved several years ago in naming the Turner Beast, a black animal that created enough mystery that it made national headlines before being unmasked as a dog. The area has had other historical Bigfoot sightings, he said, as well as sightings of animals described as black panthers and cougars. Mystery cats, Coleman said, seem to live in one place year-round; he questioned whether Bigfoot migrates through the area in spring and fall. “I think what’s happening, we may have a Turner Triangle where there’s lot of marshy land,” Coleman said. “My conceptualization is that the whole area is more wild than the people in Lewiston or Portland understand.” Eric Nickerson lives on Line Road, a quarter-mile from the point of the sighting. He said he’s never seen anything strange in the woods there. In the early 1980s, however, 8 miles away on Turner Center Bridge Road, he claims his brother saw a Bigfoot and that, riding home one day on his bike, he himself was chased by one. Section Test 1 ❏ 5.5 Bill Dubois, Manager at the family business Red Roof in Leeds, said people had been in the store gossiping about the sighting. Though most of the information was second or third-hand. “The people that saw it seemed pretty spooked,” he said. His take on whether something could be in the woods out that way: “In this world, you never know. I have one customer that was just a Bigfoot freak; he believes in it. Telling him, he got all excited.”",
+    "directions": "Direction for questions 11 to 13: Read the passage given below and solve the questions based on it.",
+    "question_text": "Choose the closest in meaning and grammatically correct option in passive voice of the following sentence “the whole area is wilder than the people in Lewiston or Portland understand.”",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The whole area is wilder than the people in Lewist on or Portland understand."
+      },
+      {
+        "label": "b",
+        "text": "The whole area is wilder than understood by the people in Lewiston or Portland."
+      },
+      {
+        "label": "c",
+        "text": "It is wilder in the whole area than the people in Lewiston or Portland understand."
+      },
+      {
+        "label": "d",
+        "text": "It is understood that the whole area is wilder than the people in Lewiston or Portland."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 14,
+    "question_code": "VARC-T1-Q14",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc3",
+    "set_position": 1,
+    "context_passage": "The behavioural economics literature provides several motivations for the common observation that agents appear somewhat unwilling to deviate from their recent choices. For instance, some researchers mention the bias towards recent choices as an example of the availability bias, the ease with which instances come to mind. Similarly, others have argued that players, when indifferent between strategies, choose the most salient strategy. In combination with the so-called recency effect, this may explain why agents appear to have a preference for recent choices. The recency effect refers to the cognitive bias that results from disproportionate salience of recent stimuli or observations. Other motivations include models for agents displaying defaulting behaviour or inertia, the formation of habits, the use of rules of thumb, or the locking in on certain modes or behaviour due to learning by doing or, as some express it: unlearning by not doing.",
+    "directions": "Direction for questions 14 to 16: Read the passage given below and solve the questions based on it.",
+    "question_text": "In the above passage, ‘rules of thumb’ means",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Rules based on theory"
+      },
+      {
+        "label": "b",
+        "text": "Rules based on practice"
+      },
+      {
+        "label": "c",
+        "text": "Rules based on signature"
+      },
+      {
+        "label": "d",
+        "text": "Rules based on law"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 15,
+    "question_code": "VARC-T1-Q15",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc3",
+    "set_position": 2,
+    "context_passage": "The behavioural economics literature provides several motivations for the common observation that agents appear somewhat unwilling to deviate from their recent choices. For instance, some researchers mention the bias towards recent choices as an example of the availability bias, the ease with which instances come to mind. Similarly, others have argued that players, when indifferent between strategies, choose the most salient strategy. In combination with the so-called recency effect, this may explain why agents appear to have a preference for recent choices. The recency effect refers to the cognitive bias that results from disproportionate salience of recent stimuli or observations. Other motivations include models for agents displaying defaulting behaviour or inertia, the formation of habits, the use of rules of thumb, or the locking in on certain modes or behaviour due to learning by doing or, as some express it: unlearning by not doing.",
+    "directions": "Direction for questions 14 to 16: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following sentences best sums up the meaning of the passage most accurately?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The passage enumerates biases towards recent choices."
+      },
+      {
+        "label": "b",
+        "text": "The passage suggests that learning is as valuable as unlearning."
+      },
+      {
+        "label": "c",
+        "text": "The passage draws a hierarchy among various kind s of motivations."
+      },
+      {
+        "label": "d",
+        "text": "The passage discusses the several motivations for agents, lack of deviation from their recent ch oices."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 16,
+    "question_code": "VARC-T1-Q16",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc3",
+    "set_position": 3,
+    "context_passage": "The behavioural economics literature provides several motivations for the common observation that agents appear somewhat unwilling to deviate from their recent choices. For instance, some researchers mention the bias towards recent choices as an example of the availability bias, the ease with which instances come to mind. Similarly, others have argued that players, when indifferent between strategies, choose the most salient strategy. In combination with the so-called recency effect, this may explain why agents appear to have a preference for recent choices. The recency effect refers to the cognitive bias that results from disproportionate salience of recent stimuli or observations. Other motivations include models for agents displaying defaulting behaviour or inertia, the formation of habits, the use of rules of thumb, or the locking in on certain modes or behaviour due to learning by doing or, as some express it: unlearning by not doing.",
+    "directions": "Direction for questions 14 to 16: Read the passage given below and solve the questions based on it.",
+    "question_text": "Identify the grammatically correct sentence form the following options without distorting the meaning of the passage.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "One of the agent’s choices is motivated by the availability bias."
+      },
+      {
+        "label": "b",
+        "text": "One of the agent’s choices is motivated by the availability bias."
+      },
+      {
+        "label": "c",
+        "text": "One of agent’s choices is motivated by the availability bias."
+      },
+      {
+        "label": "d",
+        "text": "One of the choices of the agents is motivated by the availability bias."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 17,
+    "question_code": "VARC-T1-Q17",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Spotting Errors",
+    "set_id": "t1-se1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction: Read the following options and answer the question.",
+    "question_text": "In the options given below, identify the one sentence which has an incorrect spelling:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The need t o handle hazardous radioactive materials in nuclear science has triggered the guest for robotic and remote-handling appliances in nuclear laboratories since the early days of nuclear research."
+      },
+      {
+        "label": "b",
+        "text": "Robotics is multidisciplinary in nature, and people working in this area come from varied bac kgrounds."
+      },
+      {
+        "label": "c",
+        "text": "There is a pressing need for intellectual property right s and trademark specialists along with corporate communication and sales personnel."
+      },
+      {
+        "label": "d",
+        "text": "More infrastructure and facilities will definitely provide a filip to the sector."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 18,
+    "question_code": "VARC-T1-Q18",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t1-pj1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction: Question 18 consists of four jumbled sentences, which need to be arranged in logical sequence. Choose the option which has the correct logical sequence.",
+    "question_text": "i. Ironically, the Iranian television programmers had mainly chosen that film because it lacks female characters. ii. A few years ago some members of the Iranian Parliament set up an investigative committee to examine the content of national television. iii. The cartoon version of “Around the World in Eighty Days” was also castigated, because the main character – a lion – was British and the film ended in that bastion of imperialism, London. iv. The committee issued a lengthy report in which it condemned the showing of Billy Budd, because it claimed, the story promoted homosexuality.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ii-i -iv-iii"
+      },
+      {
+        "label": "b",
+        "text": "ii-iv -iii-i"
+      },
+      {
+        "label": "c",
+        "text": "ii-i v-i-iii"
+      },
+      {
+        "label": "d",
+        "text": "i-iii -iv-ii"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 19,
+    "question_code": "VARC-T1-Q19",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t1-fb1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 19 and 20: Choose the closest grammatical and meaningful option to fill in the blank in the sentence.",
+    "question_text": "It is perhaps a tribute to his personal integrity and scrupulously honest reputation ______________ calls him a fine soldier.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "while none of the generals he acted against"
+      },
+      {
+        "label": "b",
+        "text": "whereas one of the generals he acted against also"
+      },
+      {
+        "label": "c",
+        "text": "that even one of the generals he acted against"
+      },
+      {
+        "label": "d",
+        "text": "that some of the generals he acted against"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 20,
+    "question_code": "VARC-T1-Q20",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t1-fb1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 19 and 20: Choose the closest grammatical and meaningful option to fill in the blank in the sentence.",
+    "question_text": "We lived in a culture that denied any merit to literary works, _____________ something seemingly more urgent, namely ideology.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "consider them more important only when th ey were handmaidens to"
+      },
+      {
+        "label": "b",
+        "text": "considering them important only when they were handmaidens to"
+      },
+      {
+        "label": "c",
+        "text": "are considering them important only when they were handmaidens to"
+      },
+      {
+        "label": "d",
+        "text": "seem to consider them important only when they were handmaidens to"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 21,
+    "question_code": "VARC-T1-Q21",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t1-pj2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 21 to 23: Arrange the sentences so that they make a coherent paragraph (Non-MCQ based questions).",
+    "question_text": "A. After racing back to New York City from a New Jersey farm where he gleaned 75 pounds of crookneck squash deemed by the farmers too crooked to sell, Stuart bolts from a car creeping through traffic and darts into a Greenwich Village bakery. B. Complic ating what sounds like a reality-show contest is a singular rule: Nearly all the ingredients must be sourced from farms and vendors intending to throw them out. C. Tristram Stuart has 24 hours to produce a restaurant meal for 50 people—to plan a menu, gather food, then welcome guests to a venue in a city not his own. D. Tall and blond, with a posh English accent, he launches into his ten-second spiel: “I run an organization that campaigns against food waste, and I’m pulling together a feast tomorrow made with food that won’t be sold or donated to charity; Do you have any bread that we could use?” E. The bakery doesn’t, but the clerk hands him two broken chocolate-chip cookies as consolation.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "CBADE",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 22,
+    "question_code": "VARC-T1-Q22",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t1-pj2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 21 to 23: Arrange the sentences so that they make a coherent paragraph (Non-MCQ based questions).",
+    "question_text": "A. What they discovered was unsettling both in what implied about how trypanosomes make us sick, but also about their ability to elude our defenses. B. To understand why, you need to know a little bit about trypanosome biology. C. Humans are actually immune to many trypanosome diseases by virtue of a suite of molecules called trypanosome lytic factors (TLF). D. These molecules circulate in our blood and blow up trypanosomes by punching holes in their sides, more or less. E. Scientists at the University of Georgia, the Pacific Northwest National Laboratory, and the University of Texas at El Paso tried to find out, and reported their results in Cell last month.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "EABCD",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 23,
+    "question_code": "VARC-T1-Q23",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t1-pj2",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 21 to 23: Arrange the sentences so that they make a coherent paragraph (Non-MCQ based questions).",
+    "question_text": "A. In the modern world, it’s easy to forget that complex animals are relative newcomers to Earth. B. Since life first emerged more than 3 billion years ago, single-celled organisms have dominated the planet for most of its history. Section Test 1 ❏ 5.7 C. Thriving in environments that lacked oxygen, they relied on compounds such as carbon dioxide, sulfur-containing molecules or iron minerals that act as oxidizing agents to break down food. D. Much of Earth’s microbial biosphere still surv ives on these anaerobic pathways. E. Animals, however, depend on oxygen—a much richer way to make a living.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "ABCDE",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 24,
+    "question_code": "VARC-T1-Q24",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc4",
+    "set_position": 1,
+    "context_passage": "Great comic art is never otherworldly, it does not seek to mystify us, and it does not deny ambiguity by branding as evil whatever differs from good. Great comic artists assume that truth may bear all lights, and thus they seek to accentuate contradictions in social action, not gloss over or transcend them by appeals to extra social symbols of divine ends, cosmic purpose, or laws of nature. The moment of transcendence in great comic art is a social moment, born out of the conviction that we are human, even though we try to be gods. The comic community to which artists address themselves is a community of reasoning, loving, joyful, compassionate beings, who are willing to assume the human risks of acting rationally. Without invoking gods or demons, great comic art arouses courage in reason, courage which grows out of trust in what human beings can do as humans.",
+    "directions": "Direction for questions 24 to 34: Each passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "The passage suggests that great comic art can be characterized as optimistic about the ability of humans to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "act rationally"
+      },
+      {
+        "label": "b",
+        "text": "rid themselves of pride"
+      },
+      {
+        "label": "c",
+        "text": "transcend the human condition"
+      },
+      {
+        "label": "d",
+        "text": "avoid social conflicts"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 25,
+    "question_code": "VARC-T1-Q25",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc4",
+    "set_position": 2,
+    "context_passage": "Great comic art is never otherworldly, it does not seek to mystify us, and it does not deny ambiguity by branding as evil whatever differs from good. Great comic artists assume that truth may bear all lights, and thus they seek to accentuate contradictions in social action, not gloss over or transcend them by appeals to extra social symbols of divine ends, cosmic purpose, or laws of nature. The moment of transcendence in great comic art is a social moment, born out of the conviction that we are human, even though we try to be gods. The comic community to which artists address themselves is a community of reasoning, loving, joyful, compassionate beings, who are willing to assume the human risks of acting rationally. Without invoking gods or demons, great comic art arouses courage in reason, courage which grows out of trust in what human beings can do as humans.",
+    "directions": "Direction for questions 24 to 34: Each passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "It can be inferred from the passage that the author admires great comic artists primarily for their",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ability to understand the frequently subtle differences between good and evil"
+      },
+      {
+        "label": "b",
+        "text": "ability to reconcile the contradictions in human behavior"
+      },
+      {
+        "label": "c",
+        "text": "ability to distinguish between rational and irrational behavior"
+      },
+      {
+        "label": "d",
+        "text": "insistence on confronting the truth about the human condition"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 26,
+    "question_code": "VARC-T1-Q26",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc4",
+    "set_position": 3,
+    "context_passage": "Great comic art is never otherworldly, it does not seek to mystify us, and it does not deny ambiguity by branding as evil whatever differs from good. Great comic artists assume that truth may bear all lights, and thus they seek to accentuate contradictions in social action, not gloss over or transcend them by appeals to extra social symbols of divine ends, cosmic purpose, or laws of nature. The moment of transcendence in great comic art is a social moment, born out of the conviction that we are human, even though we try to be gods. The comic community to which artists address themselves is a community of reasoning, loving, joyful, compassionate beings, who are willing to assume the human risks of acting rationally. Without invoking gods or demons, great comic art arouses courage in reason, courage which grows out of trust in what human beings can do as humans.",
+    "directions": "Direction for questions 24 to 34: Each passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "Which of the following is the most accurate description of the organization of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "A sequence of observations leading to a prediction"
+      },
+      {
+        "label": "b",
+        "text": "A list of inferences drawn from facts stated at the beginning of the passage"
+      },
+      {
+        "label": "c",
+        "text": "A series of assertions related to one general subject"
+      },
+      {
+        "label": "d",
+        "text": "A statement of the major idea, followed by specific examples"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 27,
+    "question_code": "VARC-T1-Q27",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 1,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "The primary purpose of the passage is to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "explain anaerobic glycolysis and its effects on ani mal survival"
+      },
+      {
+        "label": "b",
+        "text": "introduce a new hypothesis about anaerobic glycolysis"
+      },
+      {
+        "label": "c",
+        "text": "describe the limitations of anaerobic glycolysis"
+      },
+      {
+        "label": "d",
+        "text": "analyze the chemistry of anaerobic glycolysis and its similarity to oxidative metabolism"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 28,
+    "question_code": "VARC-T1-Q28",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 2,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "According to the author, glycogen is crucial t o the process of anaerobic glycolysis because glycogen",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "incre ases the organism’s need for ATP"
+      },
+      {
+        "label": "b",
+        "text": "is the material from which ATP is derived"
+      },
+      {
+        "label": "c",
+        "text": "ensures that the synthesis of ATP will occur speedily"
+      },
+      {
+        "label": "d",
+        "text": "is an inhibitor of the oxidative metabolic production of ATP"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 29,
+    "question_code": "VARC-T1-Q29",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 3,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "According to the author, a major limitation of anaerobic glycolysis is that it can",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "produce in large animals more lactic acid than the liver can safely reconvert"
+      },
+      {
+        "label": "b",
+        "text": "necessitate a dangerously long recovery period in large animals"
+      },
+      {
+        "label": "c",
+        "text": "produce energy more slowly than it can be used by large animals"
+      },
+      {
+        "label": "d",
+        "text": "consume all of the available glycogen regardless of need"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 30,
+    "question_code": "VARC-T1-Q30",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 4,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "The passage suggests that the total anaerobic energy reserves of a vertebrate are proportional to the vertebrate’s size because",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "large r vertebrates conserve more energy than smaller vertebrates"
+      },
+      {
+        "label": "b",
+        "text": "large r vertebrates use less oxygen per unit weight than smaller vertebrates"
+      },
+      {
+        "label": "c",
+        "text": "the ability of a vertebrate to consume food is a function of its size"
+      },
+      {
+        "label": "d",
+        "text": "the amount of muscle tissue in a vertebrate is directly related to its size"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 31,
+    "question_code": "VARC-T1-Q31",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 5,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "The author suggests that, on the basis of energy production, a 100-ton dinosaur would have been markedly vulnerable to which of the following? I. Repeated attacks by a single smaller, more active adversary. II. Sustained attack by numerous smaller, more active adversaries. III. An attack by an individual adversary of similar size.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "II only"
+      },
+      {
+        "label": "b",
+        "text": "I and II only"
+      },
+      {
+        "label": "c",
+        "text": "I and III only"
+      },
+      {
+        "label": "d",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 32,
+    "question_code": "VARC-T1-Q32",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 6,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "It can be inferred from the passage that the time required to replenish muscle glycogen following anaerobic glycolysis is determined by which of the following factors? I. Rate of oxidative metabolism II. Quantity of lactic acid in the body fluids III. Percentage of glucose that is returned to the muscl es",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "II only"
+      },
+      {
+        "label": "b",
+        "text": "I and II only"
+      },
+      {
+        "label": "c",
+        "text": "I and III only"
+      },
+      {
+        "label": "d",
+        "text": "I, II and III"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 33,
+    "question_code": "VARC-T1-Q33",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 7,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "The author is most probably addressing which of the following audiences?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "College students in an introductory course on animal physiology"
+      },
+      {
+        "label": "b",
+        "text": "Historians of science investigating the discovery of anaerobic glycolysis"
+      },
+      {
+        "label": "c",
+        "text": "Graduate students with specialized training in comparative anatomy"
+      },
+      {
+        "label": "d",
+        "text": "Zoolo gists interested in prehistoric animals"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 34,
+    "question_code": "VARC-T1-Q34",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-rc5",
+    "set_position": 8,
+    "context_passage": "It has long been known that the rate of oxidative metabolism (the process that uses oxygen to convert food into energy) in any animal has a profound effect on its living patterns. The high metabolic rate of small animals, for example, gives them sustained power and activity per unit of weight, but at the cost of requiring constant consumption of food and water. Very large animals, with their relatively low metabolic rates, can survive well on a sporadic food supply, but can generate little metabolic energy per gram of body weight. If only oxidative metabolic rate is considered, therefore, one might assume that smaller, more active, animals could prey on larger ones, at least if they attacked in groups. Perhaps they could if it were not for anaerobic glycolysis, the great equalizer. Anaerobic glcolysis is a process in which energy is produced, without oxygen, through the breakdown of muscle glycogen into lactic acid and adenosine tri-phosphate (ATP), the energy provider. The amount of energy that can be produced anaerobically is a function of the amount of glycogen present-in all vertebrates about 0.5 percent of their muscles’ wet weight. Thus the anaerobic energy reserves of a vertebrate are proportional to the size of the animal. If, for example, some predators had attacked a 100-ton dinosaur, normally torpid, the dinosaur would have been able to generate almost instantaneously, via anaerobic glycolysis, the energy of 3,000 humans at maximum oxidative metabolic energy production This explains how many large species have managed to compete with their more active neighbor: the compensation for a low oxidative metabolic rate is glycolysis. There are limitations, however, to this compensation. The glycogen reserves of any animal are good, at most, for only about two minutes at maximum effort, after which only the normal oxidative metabolic source of energy remains. With the conclusion of a burst of activity, the lactic acid level is high in the body fluids, leaving the large animal vulnerable to attack until the acid is reconverted, via oxidative metabolism, by the liver into glucose, which is then sent (in part) back to the muscles for glycogen resynthesis. During this process the enormous energy debt that the animal has run up through anaerobic glycolysis must be repaid, a debt that is proportionally much greater for the larger vertebrates than for the smaller ones. Whereas the tiny shrew can replace in minutes the glycogen used for maximum effort, for example, the gigantic dinosaur would have required more than three weeks. It might seem that this interminably long recovery time in a large vertebrate would prove a grave disadvantage for survival. Fortunately, muscle glycogen is used only when needed and even then only in whatever quantity is necessary. Only in times of panic or during mortal combat would the entire reserves be consumed.",
+    "directions": "",
+    "question_text": "Which of the following best states the central idea of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The disadvantage of a low oxidative metabolic rate in large animals can be offset by their ability to convert substantial amounts of glycogen into energy."
+      },
+      {
+        "label": "b",
+        "text": "The most significant problem facing animals that have used anaerobic glycolysis for energy is the resynthesis of its by-product, glucose, into glycogen."
+      },
+      {
+        "label": "c",
+        "text": "The benefits to animals of anaerobic glycolysis are offset by the profound costs that must be paid."
+      },
+      {
+        "label": "d",
+        "text": "The great differences that exist in metabolic rates between species of small animals and species of large animals can have important effects on the patterns of their activities. Section Test 1 ❏ 5.9"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  }
+]

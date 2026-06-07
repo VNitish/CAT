@@ -1,0 +1,1362 @@
+[
+  {
+    "test": 3,
+    "question_number": 1,
+    "question_code": "VARC-T3-Q01",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t3-cr1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 4: Answer the questions independently.",
+    "question_text": "A theory of population given by Malthus postulates that the supply of food can never move in step with growth rate in human population as food supply increases arithmetically while population multiplies geometrically. Which of the following statements, if true, could weaken the Malthusian argument?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The supply of food is lagging behind population in many of the countries."
+      },
+      {
+        "label": "b",
+        "text": "Technological advancements in long-distance transportation have facilitated migration greatly and this in part has contributed to removal of natural barriers to population."
+      },
+      {
+        "label": "c",
+        "text": "Medical advances in the development of better contraceptives may contribute to checking population growth."
+      },
+      {
+        "label": "d",
+        "text": "For many sections of society, using contraceptive methods militates against their religious tenets."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 2,
+    "question_code": "VARC-T3-Q02",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t3-cr1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 4: Answer the questions independently.",
+    "question_text": "“Power corrupts and absolute power corrupts absolutely” You are most likely to refute your opponent’s argument using the above line, if he says that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Power flows from the barrel of the gun"
+      },
+      {
+        "label": "b",
+        "text": "Uneasy lies the head that wears the crown"
+      },
+      {
+        "label": "c",
+        "text": "The opposition parties are redundant in a democracy and are valuable only for their decibel-power."
+      },
+      {
+        "label": "d",
+        "text": "Political power is a function of one’s professed honesty in public"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 3,
+    "question_code": "VARC-T3-Q03",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t3-cr1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 4: Answer the questions independently.",
+    "question_text": "“Ronaldo scored at least ten goals in the last World Cup Soccer Tournament”. This inference can be logically deduced from which of the following statements?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The average score in terms of goals of all those included in Ronaldo’s team was least above 100."
+      },
+      {
+        "label": "b",
+        "text": "Had someone not scored ten goals, he would have been refused a berth on the team for next tournament, Ronaldo was offered a berth in the team for the next tournament."
+      },
+      {
+        "label": "c",
+        "text": "Only those having scored at least ten goals can see the opening ceremony. Ronaldo can watch the parade ceremony."
+      },
+      {
+        "label": "d",
+        "text": "In green-room pre-match briefings, no one scoring less than ten goals in the last tournament is ever seated on the first few rows of sofas. Ronaldo is seated in the fourth row."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 4,
+    "question_code": "VARC-T3-Q04",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t3-cr1",
+    "set_position": 4,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 4: Answer the questions independently.",
+    "question_text": "The sense of delayed gratification, of working now for later pleasure, has helped shape the economic behavior of our society. However, that sense is no longer nurtured as consistently in our children as it once was. For example, it used to take a bit of patience to put together the toys that children got in cereal boxes; now the toys come from the boxes whole. Which of the following is an assumption of the passage above?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The toys in cereal boxes have changed partly because the economic conditions of our society have improved"
+      },
+      {
+        "label": "b",
+        "text": "The influence of promotion gimmicks on the economic behavior of our society has increased over the years"
+      },
+      {
+        "label": "c",
+        "text": "The to ys that use to come in cereal boxes were put together by the same children who played with them"
+      },
+      {
+        "label": "d",
+        "text": "Part of the pleasure of any toy lies in putting the toy together before playing with it"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 5,
+    "question_code": "VARC-T3-Q05",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc1",
+    "set_position": 1,
+    "context_passage": "The main idea conveyed by the report is that our children do not get a chance to enjoy learning at school because the syllabi are irrationally organized, teaching is textbook centered, and the system of examinations instills fear and encourages mechanical repetition. Textbooks developed along the lines of re-conceptualized syllabi can attempt to integrate positive values, life skills, aesthetic sensibility and concern for the environment. They are interactive and make a conscious effort to point both children and the teachers towards other sources of learning such as neighbourhood, nature, etc. In addition two parallel challenges deserve attention. The first is examination reforms. Rigid indifference to individual differences is the major flaw of the present system. From the quality of questions to the manner of evaluation, it favours drilled preparedness and ignores independent thought while the unrealistically high cut-offs in coveted colleges are a further sign of systematic inefficiency. It is hardly surprising that the very thought of examinations makes the young depressed. Moreover, practices of splitting unified topics into arbitrary bits carrying small marks value encourage teachers to concentrate on scoring topics overlooking the importance of perspective and overall understanding. Little surprise that many elite high-fee schools are opting for International Bac - calaureate not because it offers status with its global certification but for its flexibility and respect for individual differences in learning. The second area is teacher training, which suffers from obsolete notions. Most teachers are trained mainly to cover the syllabus in a mechanical exam-oriented manner. By insisting that every child move at the same pace in all subjects teacher encourage rote learning and ridicule for those who fall behind. Teacher training, whether for nursery or second ary school teachers should be embedded in courses which have the capacity to develop both the teacher’s personality and perspective on society by linking subject learning with reflective and creative project work. The ultimate responsibility lies with universities and institutes of higher learning to ensure the quality of all teachers. Initiatives to improve the content of teacher training courses will ensure utilization of desolate university campuses during summer vacations which conceal an enormous waste of infrastructure and expertise. The quality of education is a reflection of the quality of teachers and major improvements in their training and working conditions will motivate the young to pursue a teaching career and deter mine h ow India fares in the pursuit of economic and social development in the years to come.",
+    "directions": "Direction for questions 5 to 8: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following factors is responsible for children’s dislike of learning? A. Rigid, logical, systematic organization of syllabus. B. Teach ing methodology which does not focus on text books. C. Examination pattern which rewards rote learning.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Both A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "All A, B and C"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 6,
+    "question_code": "VARC-T3-Q06",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc1",
+    "set_position": 2,
+    "context_passage": "The main idea conveyed by the report is that our children do not get a chance to enjoy learning at school because the syllabi are irrationally organized, teaching is textbook centered, and the system of examinations instills fear and encourages mechanical repetition. Textbooks developed along the lines of re-conceptualized syllabi can attempt to integrate positive values, life skills, aesthetic sensibility and concern for the environment. They are interactive and make a conscious effort to point both children and the teachers towards other sources of learning such as neighbourhood, nature, etc. In addition two parallel challenges deserve attention. The first is examination reforms. Rigid indifference to individual differences is the major flaw of the present system. From the quality of questions to the manner of evaluation, it favours drilled preparedness and ignores independent thought while the unrealistically high cut-offs in coveted colleges are a further sign of systematic inefficiency. It is hardly surprising that the very thought of examinations makes the young depressed. Moreover, practices of splitting unified topics into arbitrary bits carrying small marks value encourage teachers to concentrate on scoring topics overlooking the importance of perspective and overall understanding. Little surprise that many elite high-fee schools are opting for International Bac - calaureate not because it offers status with its global certification but for its flexibility and respect for individual differences in learning. The second area is teacher training, which suffers from obsolete notions. Most teachers are trained mainly to cover the syllabus in a mechanical exam-oriented manner. By insisting that every child move at the same pace in all subjects teacher encourage rote learning and ridicule for those who fall behind. Teacher training, whether for nursery or second ary school teachers should be embedded in courses which have the capacity to develop both the teacher’s personality and perspective on society by linking subject learning with reflective and creative project work. The ultimate responsibility lies with universities and institutes of higher learning to ensure the quality of all teachers. Initiatives to improve the content of teacher training courses will ensure utilization of desolate university campuses during summer vacations which conceal an enormous waste of infrastructure and expertise. The quality of education is a reflection of the quality of teachers and major improvements in their training and working conditions will motivate the young to pursue a teaching career and deter mine h ow India fares in the pursuit of economic and social development in the years to come.",
+    "directions": "Direction for questions 5 to 8: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following is not true in the context of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Examina tions arouse negative emotions in students."
+      },
+      {
+        "label": "b",
+        "text": "Weak students are at a disadvantage if teachers force students to learn at same speed."
+      },
+      {
+        "label": "c",
+        "text": "Holding teacher training courses only during the academic year will help teachers cover the syllabus in an exam-oriented manner."
+      },
+      {
+        "label": "d",
+        "text": "The responsibility for improving the quality of t eachers lies in the hands of universities."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 7,
+    "question_code": "VARC-T3-Q07",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc1",
+    "set_position": 3,
+    "context_passage": "The main idea conveyed by the report is that our children do not get a chance to enjoy learning at school because the syllabi are irrationally organized, teaching is textbook centered, and the system of examinations instills fear and encourages mechanical repetition. Textbooks developed along the lines of re-conceptualized syllabi can attempt to integrate positive values, life skills, aesthetic sensibility and concern for the environment. They are interactive and make a conscious effort to point both children and the teachers towards other sources of learning such as neighbourhood, nature, etc. In addition two parallel challenges deserve attention. The first is examination reforms. Rigid indifference to individual differences is the major flaw of the present system. From the quality of questions to the manner of evaluation, it favours drilled preparedness and ignores independent thought while the unrealistically high cut-offs in coveted colleges are a further sign of systematic inefficiency. It is hardly surprising that the very thought of examinations makes the young depressed. Moreover, practices of splitting unified topics into arbitrary bits carrying small marks value encourage teachers to concentrate on scoring topics overlooking the importance of perspective and overall understanding. Little surprise that many elite high-fee schools are opting for International Bac - calaureate not because it offers status with its global certification but for its flexibility and respect for individual differences in learning. The second area is teacher training, which suffers from obsolete notions. Most teachers are trained mainly to cover the syllabus in a mechanical exam-oriented manner. By insisting that every child move at the same pace in all subjects teacher encourage rote learning and ridicule for those who fall behind. Teacher training, whether for nursery or second ary school teachers should be embedded in courses which have the capacity to develop both the teacher’s personality and perspective on society by linking subject learning with reflective and creative project work. The ultimate responsibility lies with universities and institutes of higher learning to ensure the quality of all teachers. Initiatives to improve the content of teacher training courses will ensure utilization of desolate university campuses during summer vacations which conceal an enormous waste of infrastructure and expertise. The quality of education is a reflection of the quality of teachers and major improvements in their training and working conditions will motivate the young to pursue a teaching career and deter mine h ow India fares in the pursuit of economic and social development in the years to come.",
+    "directions": "Direction for questions 5 to 8: Read the passage given below and solve the questions based on it.",
+    "question_text": "According to the author, which of the following conditions will influence India’s future development? A. Replacing traditional educational systems with globally accepted foreign system. Section Test 3 ❏ 5.23 B. Improving employment conditions of teaching staff. C. Getting global accreditation for India college courses",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Both A and B"
+      },
+      {
+        "label": "c",
+        "text": "Both B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only B"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 8,
+    "question_code": "VARC-T3-Q08",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc1",
+    "set_position": 4,
+    "context_passage": "The main idea conveyed by the report is that our children do not get a chance to enjoy learning at school because the syllabi are irrationally organized, teaching is textbook centered, and the system of examinations instills fear and encourages mechanical repetition. Textbooks developed along the lines of re-conceptualized syllabi can attempt to integrate positive values, life skills, aesthetic sensibility and concern for the environment. They are interactive and make a conscious effort to point both children and the teachers towards other sources of learning such as neighbourhood, nature, etc. In addition two parallel challenges deserve attention. The first is examination reforms. Rigid indifference to individual differences is the major flaw of the present system. From the quality of questions to the manner of evaluation, it favours drilled preparedness and ignores independent thought while the unrealistically high cut-offs in coveted colleges are a further sign of systematic inefficiency. It is hardly surprising that the very thought of examinations makes the young depressed. Moreover, practices of splitting unified topics into arbitrary bits carrying small marks value encourage teachers to concentrate on scoring topics overlooking the importance of perspective and overall understanding. Little surprise that many elite high-fee schools are opting for International Bac - calaureate not because it offers status with its global certification but for its flexibility and respect for individual differences in learning. The second area is teacher training, which suffers from obsolete notions. Most teachers are trained mainly to cover the syllabus in a mechanical exam-oriented manner. By insisting that every child move at the same pace in all subjects teacher encourage rote learning and ridicule for those who fall behind. Teacher training, whether for nursery or second ary school teachers should be embedded in courses which have the capacity to develop both the teacher’s personality and perspective on society by linking subject learning with reflective and creative project work. The ultimate responsibility lies with universities and institutes of higher learning to ensure the quality of all teachers. Initiatives to improve the content of teacher training courses will ensure utilization of desolate university campuses during summer vacations which conceal an enormous waste of infrastructure and expertise. The quality of education is a reflection of the quality of teachers and major improvements in their training and working conditions will motivate the young to pursue a teaching career and deter mine h ow India fares in the pursuit of economic and social development in the years to come.",
+    "directions": "Direction for questions 5 to 8: Read the passage given below and solve the questions based on it.",
+    "question_text": "What will be the impact of having an interactive syllabus?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Teachers and students will explore sources other than the textbook."
+      },
+      {
+        "label": "b",
+        "text": "Students may get distracted and perform poorly in examinations."
+      },
+      {
+        "label": "c",
+        "text": "Weake r students may get left behind."
+      },
+      {
+        "label": "d",
+        "text": "Teach ers may not be able to cover the entire syllabus for the examination."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 9,
+    "question_code": "VARC-T3-Q09",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t3-pj1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 9 to 11: Each question given below has on opening statement and a closing statement. In-between, there are four other sentences labelled A to D. You are required to choose the most coherent and logical sequencing of the four sentences.",
+    "question_text": "1. The prospe cts for democracy in the Third World are again a subject of practical concern. A. They have generally failed to produce mate rial prosperity or political stability. B. At worst their oppressiveness involved incar - ceration and brutality. C. Various forms of dictatorship have been tried. D. Their repressiveness has at best curtailed free dom of expression. 6. But is awareness of the consequences of dictatorship enough to ensure the triumph of democracy?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ABCD"
+      },
+      {
+        "label": "b",
+        "text": "CADB"
+      },
+      {
+        "label": "c",
+        "text": "DBAC"
+      },
+      {
+        "label": "d",
+        "text": "CBDA"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 10,
+    "question_code": "VARC-T3-Q10",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t3-pj1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 9 to 11: Each question given below has on opening statement and a closing statement. In-between, there are four other sentences labelled A to D. You are required to choose the most coherent and logical sequencing of the four sentences.",
+    "question_text": ". 1. The basic economic resource is knowledge. A. The wealth creating activities will be the allocation to productive uses of neither capital nor lab our. B. The representative social groups of the knowledge society will neither be the capitalist nor the worker. C. They will centre around productivity and innovation, both applications of knowledge to work. D. The ruling group will be the knowledge workers, knowledge executives, knowledge professionals and knowledge entrepreneurs. 6. Practically all of them will be employed, either originally, or eventually in knowledge organizations.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "BACD"
+      },
+      {
+        "label": "b",
+        "text": "BDCA"
+      },
+      {
+        "label": "c",
+        "text": "ACBD"
+      },
+      {
+        "label": "d",
+        "text": "ACDB"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 11,
+    "question_code": "VARC-T3-Q11",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t3-pj1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 9 to 11: Each question given below has on opening statement and a closing statement. In-between, there are four other sentences labelled A to D. You are required to choose the most coherent and logical sequencing of the four sentences.",
+    "question_text": ". 1. Science has sought to escape from the doctrine of perpetual flux by finding some permanent substratum amid changing phenomena. A. Accordingly it was supposed that atoms are indestructible, and that all change in the physical world consists merely in rearrangement of persistent elements. B. It was found that fire, which appears to destroy, only transmutes. C. Eleme nts are recombined, but each atom that existed before combustion still exists when the process is completed. D. Chemistry seemed to satisfy this desire. 6. The view prevailed until the discovery of radioactivity, when it was found that atom could disintegrate.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ACBD"
+      },
+      {
+        "label": "b",
+        "text": "CADB"
+      },
+      {
+        "label": "c",
+        "text": "DABC"
+      },
+      {
+        "label": "d",
+        "text": "DBCA"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 12,
+    "question_code": "VARC-T3-Q12",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc2",
+    "set_position": 1,
+    "context_passage": "In all languages, the most frequently used words evolve at the slowest pace, say researchers in a paper published in Nature. In one of the papers, Harvard University researchers researched the evolution of English verb conjugations spanning 1,200 years while the Reading University researchers reviewed cognates (words sounding similar in different languages and carrying the same connotation, such as “water” and the German “wasser ”) to discover how all Indo-European tongues have evolved from a single, common ancestor. Pagel and his co-workers examined some 210 words in 87 Indo-European languages, including those for “water,” “two,” “to die” and “where.” The number of cognate classes for each word ranged from one for frequent concepts such as numbers to 46 different basic sounds to portray a single entity like a bird. The word used to describe the idea of three in all Indo-European languages and English is quite similar: from tres in Spanish to drei in German to the Hindi teen. Contrarily, bird has several sounds like pajaro in Spanish and oiseau in French. Thereafter, they narrowed their attention to their usage frequency in four Indo-European languages— English, Spanish, Greek and Russian. It was found that they were used at similar rates even if the synonymous words were not cognates. “The high frequency words in Spanish are the same as in those the high frequency English,” say he. “That points to the possibility of our coming up with an Indo-European frequency of use.” The researchers have found that it would take just 750 years to replace less-used words and up to 10,000 years for new words to come into existence. The Harvard researchers studied the roots of the English language, tracing verb conjugations from 1,200 years ago to its current form. Over time, many past tense forms of verbs have died out in the English language and now only one persists as a rule: adding “-ed” to the verb-ending. Some research on grammatical texts from Old English catalogued all the irregular verbs. Among them: the still irregular “sing”/“sang,” “go”/“went” as well as the now-regularized “smite” which once was “smote” in Old English but since has become “smited,” and “slink,” which is now “slinked” but 1,200 years ago was “slunk.” The researchers identified 177 irregular verbs in Old English and 145 that were still irregular in Middle English; however today, only 98 of the 177 verbs remain not “regularized.” After computing their usage frequency, the researchers concluded that the words that evolved most quickly into regular forms were used less than others. In reality, given two verbs, if one was used 100 times less frequently than others, it would evolve 10 times faster than them. They also predict that the past tense of wed will regularize from wed to wedded in near future. Bela Sen, in her The Computational Nature of Language Learning and Evolution says these findings are in line with lexical evolution models. “Languages are constantly changing,” she notes. “In biological evolution, that fact has received great attention, but linguistically, this is happening constantly.”",
+    "directions": "Direction for questions 12 to 14: Read the passage given below and solve the questions based on it.",
+    "question_text": "The principal purpose of the passage is to:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Talk a bout the usage frequency of common words in four different Indo-European languages."
+      },
+      {
+        "label": "b",
+        "text": "Make the point that even now, there is uncertainty about the origins of some words in Indo-European languages."
+      },
+      {
+        "label": "c",
+        "text": "Inform the reader of the controversy surrounding a particular issue in linguistic research."
+      },
+      {
+        "label": "d",
+        "text": "Emphasize the idea that in linguistic research, certain issues are still not resolved."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 13,
+    "question_code": "VARC-T3-Q13",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc2",
+    "set_position": 2,
+    "context_passage": "In all languages, the most frequently used words evolve at the slowest pace, say researchers in a paper published in Nature. In one of the papers, Harvard University researchers researched the evolution of English verb conjugations spanning 1,200 years while the Reading University researchers reviewed cognates (words sounding similar in different languages and carrying the same connotation, such as “water” and the German “wasser ”) to discover how all Indo-European tongues have evolved from a single, common ancestor. Pagel and his co-workers examined some 210 words in 87 Indo-European languages, including those for “water,” “two,” “to die” and “where.” The number of cognate classes for each word ranged from one for frequent concepts such as numbers to 46 different basic sounds to portray a single entity like a bird. The word used to describe the idea of three in all Indo-European languages and English is quite similar: from tres in Spanish to drei in German to the Hindi teen. Contrarily, bird has several sounds like pajaro in Spanish and oiseau in French. Thereafter, they narrowed their attention to their usage frequency in four Indo-European languages— English, Spanish, Greek and Russian. It was found that they were used at similar rates even if the synonymous words were not cognates. “The high frequency words in Spanish are the same as in those the high frequency English,” say he. “That points to the possibility of our coming up with an Indo-European frequency of use.” The researchers have found that it would take just 750 years to replace less-used words and up to 10,000 years for new words to come into existence. The Harvard researchers studied the roots of the English language, tracing verb conjugations from 1,200 years ago to its current form. Over time, many past tense forms of verbs have died out in the English language and now only one persists as a rule: adding “-ed” to the verb-ending. Some research on grammatical texts from Old English catalogued all the irregular verbs. Among them: the still irregular “sing”/“sang,” “go”/“went” as well as the now-regularized “smite” which once was “smote” in Old English but since has become “smited,” and “slink,” which is now “slinked” but 1,200 years ago was “slunk.” The researchers identified 177 irregular verbs in Old English and 145 that were still irregular in Middle English; however today, only 98 of the 177 verbs remain not “regularized.” After computing their usage frequency, the researchers concluded that the words that evolved most quickly into regular forms were used less than others. In reality, given two verbs, if one was used 100 times less frequently than others, it would evolve 10 times faster than them. They also predict that the past tense of wed will regularize from wed to wedded in near future. Bela Sen, in her The Computational Nature of Language Learning and Evolution says these findings are in line with lexical evolution models. “Languages are constantly changing,” she notes. “In biological evolution, that fact has received great attention, but linguistically, this is happening constantly.”",
+    "directions": "Direction for questions 12 to 14: Read the passage given below and solve the questions based on it.",
+    "question_text": "If you were to complete the last paragraph above, which of the following would be the best bet?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Langu ages, all the more, are evolving over time just like the animal species do."
+      },
+      {
+        "label": "b",
+        "text": "This constant linguistic evolution has been the reason for all the confusion about the usage of specific words."
+      },
+      {
+        "label": "c",
+        "text": "In a nutshell, the survival of the fittest applies here, too."
+      },
+      {
+        "label": "d",
+        "text": "In the last analysis, nothing succeeds like success in language, too."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 14,
+    "question_code": "VARC-T3-Q14",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc2",
+    "set_position": 3,
+    "context_passage": "In all languages, the most frequently used words evolve at the slowest pace, say researchers in a paper published in Nature. In one of the papers, Harvard University researchers researched the evolution of English verb conjugations spanning 1,200 years while the Reading University researchers reviewed cognates (words sounding similar in different languages and carrying the same connotation, such as “water” and the German “wasser ”) to discover how all Indo-European tongues have evolved from a single, common ancestor. Pagel and his co-workers examined some 210 words in 87 Indo-European languages, including those for “water,” “two,” “to die” and “where.” The number of cognate classes for each word ranged from one for frequent concepts such as numbers to 46 different basic sounds to portray a single entity like a bird. The word used to describe the idea of three in all Indo-European languages and English is quite similar: from tres in Spanish to drei in German to the Hindi teen. Contrarily, bird has several sounds like pajaro in Spanish and oiseau in French. Thereafter, they narrowed their attention to their usage frequency in four Indo-European languages— English, Spanish, Greek and Russian. It was found that they were used at similar rates even if the synonymous words were not cognates. “The high frequency words in Spanish are the same as in those the high frequency English,” say he. “That points to the possibility of our coming up with an Indo-European frequency of use.” The researchers have found that it would take just 750 years to replace less-used words and up to 10,000 years for new words to come into existence. The Harvard researchers studied the roots of the English language, tracing verb conjugations from 1,200 years ago to its current form. Over time, many past tense forms of verbs have died out in the English language and now only one persists as a rule: adding “-ed” to the verb-ending. Some research on grammatical texts from Old English catalogued all the irregular verbs. Among them: the still irregular “sing”/“sang,” “go”/“went” as well as the now-regularized “smite” which once was “smote” in Old English but since has become “smited,” and “slink,” which is now “slinked” but 1,200 years ago was “slunk.” The researchers identified 177 irregular verbs in Old English and 145 that were still irregular in Middle English; however today, only 98 of the 177 verbs remain not “regularized.” After computing their usage frequency, the researchers concluded that the words that evolved most quickly into regular forms were used less than others. In reality, given two verbs, if one was used 100 times less frequently than others, it would evolve 10 times faster than them. They also predict that the past tense of wed will regularize from wed to wedded in near future. Bela Sen, in her The Computational Nature of Language Learning and Evolution says these findings are in line with lexical evolution models. “Languages are constantly changing,” she notes. “In biological evolution, that fact has received great attention, but linguistically, this is happening constantly.”",
+    "directions": "Direction for questions 12 to 14: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following CANNOT be inferred from the passage? A. The past tense verb of drink should become drinked instead of drank earlier than cost becomes costed in future. B. Many irregular verbs have been “regularized” with time. C. English has many features in common with Spanish.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "A and C"
+      },
+      {
+        "label": "b",
+        "text": "A and B"
+      },
+      {
+        "label": "c",
+        "text": "B only"
+      },
+      {
+        "label": "d",
+        "text": "A only"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 15,
+    "question_code": "VARC-T3-Q15",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 1,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author’s main purpose is to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "criticize the emphasis on social standing in discu ssions of the assimilation of Puerto Ricans in the United States."
+      },
+      {
+        "label": "b",
+        "text": "support the thesis that assimilation has not been a benign process for Puerto Ricans."
+      },
+      {
+        "label": "c",
+        "text": "defend a view of the assimilation of Puerto Ricans that emphasizes the preservation of national culture."
+      },
+      {
+        "label": "d",
+        "text": "indicate deficiencies in two schools of thought on the assimilation of Puerto Ricans in the United States."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 16,
+    "question_code": "VARC-T3-Q16",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 2,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "According to the passage, cultural accommodation is promoted by",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "many supporters of Puerto Rico’s common - wealth status."
+      },
+      {
+        "label": "b",
+        "text": "Manuel Maldonado-Denis."
+      },
+      {
+        "label": "c",
+        "text": "the author of Divided Society."
+      },
+      {
+        "label": "d",
+        "text": "the majority of social scientists writing on immigration."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 17,
+    "question_code": "VARC-T3-Q17",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 3,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "It can be inferred from the passage that a writer such as Eugenio Fernandez Mendez would most likely agree with which of the following statements concerning members of minority ethnic groups?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The membe rs of such groups generally encounter a culture that is static and undifferentiated."
+      },
+      {
+        "label": "b",
+        "text": "It is necessary for the members of such grou ps to adapt to the culture of the majority."
+      },
+      {
+        "label": "c",
+        "text": "Social mobility is the most important feature of the experience of members of such groups."
+      },
+      {
+        "label": "d",
+        "text": "Social sc ientists should emphasize the cultural and political aspects of the experience of members of such groups."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 18,
+    "question_code": "VARC-T3-Q18",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 4,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author implies that the Puerto Rican writers who have written most about assimilation do NOT do which of the following?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Regard assimilation as benign."
+      },
+      {
+        "label": "b",
+        "text": "Resist cultural integration."
+      },
+      {
+        "label": "c",
+        "text": "Describe in detail the process of assimilation."
+      },
+      {
+        "label": "d",
+        "text": "Take into account the colonial nature of the Puerto Rican case"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 19,
+    "question_code": "VARC-T3-Q19",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 5,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "It can be inferred from the passage that the “colonialist” approach is so called because its practitioners",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "support Puerto Rico’s commonwealth status."
+      },
+      {
+        "label": "b",
+        "text": "have a strong tradition of cultural accommodation."
+      },
+      {
+        "label": "c",
+        "text": "pose the clash of national cultures as an absolute polarity in which each culture is understood as static and undifferentiated."
+      },
+      {
+        "label": "d",
+        "text": "regard the political relation of Puerto Rico to the United States as a significant factor in the experience of Puerto Ricans."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 20,
+    "question_code": "VARC-T3-Q20",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc3",
+    "set_position": 6,
+    "context_passage": "Discussion of the assimilation of Puerto Ricans in the United States has focused on two factors: social standing and the loss of national culture. In general, excessive stress is placed on one factor or the other, depending on whether the commentator is North American or Puerto Rican. Many North American social scientists, such as Oscar Handlin, Joseph Fitzpatrick, and Oscar Lewis, consider Puerto Ricans as the most recent in a long line of ethnic entrants to occupy the lowest rung on the social ladder. Such a “sociodemographic” approach tends to regard assimilation as a benign process, taking for granted increased economic advantage and inevitable cultural integration, in a supposedly egalitarian context. However, this approach fails to take into account the colonial nature of the Puerto Rican case, with this group, unlike their European predecessors, coming from a nation politically subordinated to the United States. Even the “radical” critiques of this mainstream research model, such as the critique developed in Divided Society, attach the issue of ethnic assimilation too mechanically to factors of economic and social mobility and are thus unable to illuminate the cultural subordination of Puerto Ricans as a colonial minority. In contrast, the “colonialist” approach of island-based writers such as Eduardo Seda-Bonilla, Manuel Maldonado-Denis, and Luis Nieves-Falcon tends to view assimilation as the forced loss of national culture in an unequal contest with imposed foreign values. There is, of course, a strong tradition of cultural accommodation among other Puerto Rican thinkers. The writings of Eugenio Section Test 3 ❏ 5.25 Fernandez Mendez clearly exemplify this tradition, and many supporters of Puerto Rico’s commonwealth status share the same universalizing orientation. But the Puerto Rican intellectuals who have written most about the assimilation process in the United States all advance cultural nationalist views, advocating the preservation of minority cultural distinctions and rejecting what they see as the subjugation of colonial nationalities. This cultural and political emphasis is appropriate, but the colonialist thinkers misdirect it, overlooking the class relations at work in both Puerto Rican and North American history. They pose the clash of national cultures as an absolute polarity, with each culture understood as static and undifferentiated. Yet both the Puerto Rican and North American traditions have been subject to constant challenge from cultural forces within their own societies, forces that may move toward each other in ways that cannot be written off as mere “assimilation”. Consider, for example, the indigenous and Afro-Caribbean traditions in Puerto Rican culture and how they influence and are influenced by other Caribbean cultures and Black cultures in the United States. The elements of coercion and inequality, so central to cultural contact according to the colonialist framework play no role in this kind of convergence of racially and ethnically different elements of the same social class.",
+    "directions": "Direction for questions 15 to 20: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author regards the emphasis by island-based writers on the cultural and political dimensions of assimilation as",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "iron ic."
+      },
+      {
+        "label": "b",
+        "text": "dangerous."
+      },
+      {
+        "label": "c",
+        "text": "fitting but misdirected."
+      },
+      {
+        "label": "d",
+        "text": "illuminating but easily."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 21,
+    "question_code": "VARC-T3-Q21",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc4",
+    "set_position": 1,
+    "context_passage": "Read the passage below and solve the questions based on it. The education sector in India is in ferment, hit by a storm long waiting to happen. The butterfly that flapped its wings was the much-reiterated statement in a much publicized report that hardly a fourth of graduating engineers, and an even smaller percentage of other graduates, was of employable quality for IT-BPO jobs. This triggered a cyclone when similar views were echoed by other sectors which led to widespread debate. Increased industry academia interaction, “finishing schools”, and other efforts were initiated as immediate measures to bridge skill deficits. These, however, did not work as some felt that these are but band-aid solutions: instead, radical systemic reform is necessary. Yet, there will be serious challenges to overdue reforms in the education system. In India—as in many countries education is treated as a holy cow: sadly, the administrative system that oversees it has also been deceived. Today, unfortunately, there is no protest against selling drinking water or paying to be cured of illness, or for having to buy food when one is poor and starving; nor is there an outcry that in all these cases there are commercial companies operating on a profit making basis. Why then, is there an instinctively adverse reaction to the formal entry of ‘for-profit’ in statutes in the realm of education? Is potable water, health or food, less basic a need, less important a right, than higher education? While there are strong arguments for free or subsidized higher education, we are not written on a blank page. Some individuals and businessmen had entered this sector long back and found devious ways of making money, though the law stipulates that educational institutes must be ‘not-for-profit’ trusts or societies. Yet, there is opposition to the entry of ‘for-profit’ corporate, which would be more transparent and accountable. As a result, desperately needed investment in promoting the wider reach of quality education has been stagnated at a time when financial figures indicate that the allocation of funds for the purpose is but a fourth of the need. Well-run corporate organizations, within an appropriate regulatory framework, would be far better than the so-called trusts which barring some noteworthy exceptions are a blot on education. However, it is not necessarily a question of choosing one over the other: different organizational forms can co-exist, as they do in the health sector. A regulatory framework which creates competition, in tandem with a rating system, would automatically ensure the quality and relevance of education. As in sectors like telecom, and packaged goods, organizations will quickly expand into the hinterland to tap the large unmet demand. Easy loan/scholarship arrangements would ensure affordability and access. The only real structural reform in higher education was the creation of the Institutes for Technology and Management. They were also given autonomy and freedom beyond that of the universities. However, in the last few years, determined efforts have been underway to curb their autonomy. These institutes, however, need freedom to decide on recruitment, salaries and admissions, so as to compete globally. However, such institutes will be few. There we need a regulatory framework that will enable and encourage States and the Center, genuine philanthropists and also corporates to set up quality educational institutions. The regulatory system needs only to ensure transparency, accountability, competition and widely-available independent assessments or ratings. It is time for radical thinking, bold experimentation and new structures; it is time for the government to bite the bullet.",
+    "directions": "Direction for questions 21 to 23",
+    "question_text": "Which of the following suggestion have been made by the author to improve the state of education in India? A. Allowin g the corporate organizations to enter the education sector. B. Easy availability of loans and scholarships for making education more affordable. C. A rating system for all the organizations to ensure quality.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only A and C"
+      },
+      {
+        "label": "d",
+        "text": "All A, B, and C"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 22,
+    "question_code": "VARC-T3-Q22",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc4",
+    "set_position": 2,
+    "context_passage": "Read the passage below and solve the questions based on it. The education sector in India is in ferment, hit by a storm long waiting to happen. The butterfly that flapped its wings was the much-reiterated statement in a much publicized report that hardly a fourth of graduating engineers, and an even smaller percentage of other graduates, was of employable quality for IT-BPO jobs. This triggered a cyclone when similar views were echoed by other sectors which led to widespread debate. Increased industry academia interaction, “finishing schools”, and other efforts were initiated as immediate measures to bridge skill deficits. These, however, did not work as some felt that these are but band-aid solutions: instead, radical systemic reform is necessary. Yet, there will be serious challenges to overdue reforms in the education system. In India—as in many countries education is treated as a holy cow: sadly, the administrative system that oversees it has also been deceived. Today, unfortunately, there is no protest against selling drinking water or paying to be cured of illness, or for having to buy food when one is poor and starving; nor is there an outcry that in all these cases there are commercial companies operating on a profit making basis. Why then, is there an instinctively adverse reaction to the formal entry of ‘for-profit’ in statutes in the realm of education? Is potable water, health or food, less basic a need, less important a right, than higher education? While there are strong arguments for free or subsidized higher education, we are not written on a blank page. Some individuals and businessmen had entered this sector long back and found devious ways of making money, though the law stipulates that educational institutes must be ‘not-for-profit’ trusts or societies. Yet, there is opposition to the entry of ‘for-profit’ corporate, which would be more transparent and accountable. As a result, desperately needed investment in promoting the wider reach of quality education has been stagnated at a time when financial figures indicate that the allocation of funds for the purpose is but a fourth of the need. Well-run corporate organizations, within an appropriate regulatory framework, would be far better than the so-called trusts which barring some noteworthy exceptions are a blot on education. However, it is not necessarily a question of choosing one over the other: different organizational forms can co-exist, as they do in the health sector. A regulatory framework which creates competition, in tandem with a rating system, would automatically ensure the quality and relevance of education. As in sectors like telecom, and packaged goods, organizations will quickly expand into the hinterland to tap the large unmet demand. Easy loan/scholarship arrangements would ensure affordability and access. The only real structural reform in higher education was the creation of the Institutes for Technology and Management. They were also given autonomy and freedom beyond that of the universities. However, in the last few years, determined efforts have been underway to curb their autonomy. These institutes, however, need freedom to decide on recruitment, salaries and admissions, so as to compete globally. However, such institutes will be few. There we need a regulatory framework that will enable and encourage States and the Center, genuine philanthropists and also corporates to set up quality educational institutions. The regulatory system needs only to ensure transparency, accountability, competition and widely-available independent assessments or ratings. It is time for radical thinking, bold experimentation and new structures; it is time for the government to bite the bullet.",
+    "directions": "Direction for questions 21 to 23",
+    "question_text": "According to the author, what ‘triggered a cyclone’ which saw similar views on the state of education being echoed across other sectors as well?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The campaign for allowing corporates in the education sector on a ‘for-profit’ basis."
+      },
+      {
+        "label": "b",
+        "text": "The support for the increase in the industry-acade mia interaction."
+      },
+      {
+        "label": "c",
+        "text": "The report mentioning that only a small percentage of graduates were employable in software industry."
+      },
+      {
+        "label": "d",
+        "text": "The report supporting the idea of making the education completely ‘for-profit’, in order to improve upon the standards."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 23,
+    "question_code": "VARC-T3-Q23",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-rc4",
+    "set_position": 3,
+    "context_passage": "Read the passage below and solve the questions based on it. The education sector in India is in ferment, hit by a storm long waiting to happen. The butterfly that flapped its wings was the much-reiterated statement in a much publicized report that hardly a fourth of graduating engineers, and an even smaller percentage of other graduates, was of employable quality for IT-BPO jobs. This triggered a cyclone when similar views were echoed by other sectors which led to widespread debate. Increased industry academia interaction, “finishing schools”, and other efforts were initiated as immediate measures to bridge skill deficits. These, however, did not work as some felt that these are but band-aid solutions: instead, radical systemic reform is necessary. Yet, there will be serious challenges to overdue reforms in the education system. In India—as in many countries education is treated as a holy cow: sadly, the administrative system that oversees it has also been deceived. Today, unfortunately, there is no protest against selling drinking water or paying to be cured of illness, or for having to buy food when one is poor and starving; nor is there an outcry that in all these cases there are commercial companies operating on a profit making basis. Why then, is there an instinctively adverse reaction to the formal entry of ‘for-profit’ in statutes in the realm of education? Is potable water, health or food, less basic a need, less important a right, than higher education? While there are strong arguments for free or subsidized higher education, we are not written on a blank page. Some individuals and businessmen had entered this sector long back and found devious ways of making money, though the law stipulates that educational institutes must be ‘not-for-profit’ trusts or societies. Yet, there is opposition to the entry of ‘for-profit’ corporate, which would be more transparent and accountable. As a result, desperately needed investment in promoting the wider reach of quality education has been stagnated at a time when financial figures indicate that the allocation of funds for the purpose is but a fourth of the need. Well-run corporate organizations, within an appropriate regulatory framework, would be far better than the so-called trusts which barring some noteworthy exceptions are a blot on education. However, it is not necessarily a question of choosing one over the other: different organizational forms can co-exist, as they do in the health sector. A regulatory framework which creates competition, in tandem with a rating system, would automatically ensure the quality and relevance of education. As in sectors like telecom, and packaged goods, organizations will quickly expand into the hinterland to tap the large unmet demand. Easy loan/scholarship arrangements would ensure affordability and access. The only real structural reform in higher education was the creation of the Institutes for Technology and Management. They were also given autonomy and freedom beyond that of the universities. However, in the last few years, determined efforts have been underway to curb their autonomy. These institutes, however, need freedom to decide on recruitment, salaries and admissions, so as to compete globally. However, such institutes will be few. There we need a regulatory framework that will enable and encourage States and the Center, genuine philanthropists and also corporates to set up quality educational institutions. The regulatory system needs only to ensure transparency, accountability, competition and widely-available independent assessments or ratings. It is time for radical thinking, bold experimentation and new structures; it is time for the government to bite the bullet.",
+    "directions": "Direction for questions 21 to 23",
+    "question_text": "Which suggestion does the author make in order to make the institutes of higher learning for Technology and Management capable of competing globally?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To limit their autonomy to acceptable limit and give partial controls to the government."
+      },
+      {
+        "label": "b",
+        "text": "To allow corporate organizations to take them over in order to provide more funds."
+      },
+      {
+        "label": "c",
+        "text": "To increase the allocation of funds to such inst itutes."
+      },
+      {
+        "label": "d",
+        "text": "To provide freedom to decide on recruitment, salaries and admissions."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 24,
+    "question_code": "VARC-T3-Q24",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t3-pj2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 24 to 25: Sentences given in each question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentence from among the four given choices to construct a coherent paragraph. Section Test 3 ❏ 5.27",
+    "question_text": "A. With that, I swallowed the shampoo, and obtained most realistic results almost on the spot. B. The man shuffled away into the back regions to make up a prescription, and after a moment I got through on the shop-telephone to the Consulate, intimating my location. C. Then, while the pharmacist was wrapping up a six-ounce bottle of the mixture, I groaned and inquired whether he could give me something for acute gastric cramp. D. I intended to stage a sharp gastric attack, and entering an old-fashioned pharmacy, I asked for a popular shampoo mixture, consisting of olive oil and flaked soap.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "DCBA"
+      },
+      {
+        "label": "b",
+        "text": "DACB"
+      },
+      {
+        "label": "c",
+        "text": "BDAC"
+      },
+      {
+        "label": "d",
+        "text": "BCDA Q"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 25,
+    "question_code": "VARC-T3-Q25",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t3-pj2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 24 to 25: Sentences given in each question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentence from among the four given choices to construct a coherent paragraph. Section Test 3 ❏ 5.27",
+    "question_text": "A. Since then, intelligence tests have been mostly used to separate dull children in school from average or bright children, so that special education can be provided to the dull. B. In other words, intelligence tests give us a norm for each age. C. Intelligence is expressed as intelligence quotient, and tests are developed to indicate what an average child of a certain age can do, what a 5-year-old can answer, but a 4 year-old cannot, for instance. D. Binet developed the first set of such tests in the early 1900s to find out which children in school needed special attention. E. Intelligence can be measured by tests.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "CDABE"
+      },
+      {
+        "label": "b",
+        "text": "DECAB"
+      },
+      {
+        "label": "c",
+        "text": "EDACB"
+      },
+      {
+        "label": "d",
+        "text": "CBADE"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 26,
+    "question_code": "VARC-T3-Q26",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 26 to 27: The following sentences each contain ONE blank, indicating that something has been left out of the sentence. Each answer choice contains one word or a set of words. Select the word or set of words, that, when inserted in the blank(s), best fits the context of the sentence.",
+    "question_text": "Because Ranjan was generally ____________ on the football field, he was genuinely touched by the amount of praise he received for his game-winning touchdown.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "indelible"
+      },
+      {
+        "label": "b",
+        "text": "methodical"
+      },
+      {
+        "label": "c",
+        "text": "pious"
+      },
+      {
+        "label": "d",
+        "text": "unheralded"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 27,
+    "question_code": "VARC-T3-Q27",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 26 to 27: The following sentences each contain ONE blank, indicating that something has been left out of the sentence. Each answer choice contains one word or a set of words. Select the word or set of words, that, when inserted in the blank(s), best fits the context of the sentence.",
+    "question_text": "Although the professor was quite prominent in her field, she wore an air of __________ while lecturing her students.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "unanimity"
+      },
+      {
+        "label": "b",
+        "text": "sanction"
+      },
+      {
+        "label": "c",
+        "text": "modesty"
+      },
+      {
+        "label": "d",
+        "text": "parsimony"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 28,
+    "question_code": "VARC-T3-Q28",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Idioms",
+    "set_id": "t3-id1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 28 to 30: Each question consists of sentences each of which contains one or two idioms. Four possible meanings labelled options (1) through (4) are provided below each sentence. Choose the one which best expresses the meaning of the idiom.",
+    "question_text": "I would like to see Hari do his own work for a change instead of always backseat driving.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Driving a car form the back"
+      },
+      {
+        "label": "b",
+        "text": "Being nagging of work being done by others"
+      },
+      {
+        "label": "c",
+        "text": "Offering advice"
+      },
+      {
+        "label": "d",
+        "text": "Annoying"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 29,
+    "question_code": "VARC-T3-Q29",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Idioms",
+    "set_id": "t3-id1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 28 to 30: Each question consists of sentences each of which contains one or two idioms. Four possible meanings labelled options (1) through (4) are provided below each sentence. Choose the one which best expresses the meaning of the idiom.",
+    "question_text": "He proved to be quite a wet blanket at the party for he spoke to no one and sat by himself.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "He was crying"
+      },
+      {
+        "label": "b",
+        "text": "Not too involved and discouraged the rest from having fun"
+      },
+      {
+        "label": "c",
+        "text": "He wet the blanket"
+      },
+      {
+        "label": "d",
+        "text": "He had covered himself with a wet blanket"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 30,
+    "question_code": "VARC-T3-Q30",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Idioms",
+    "set_id": "t3-id1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 28 to 30: Each question consists of sentences each of which contains one or two idioms. Four possible meanings labelled options (1) through (4) are provided below each sentence. Choose the one which best expresses the meaning of the idiom.",
+    "question_text": "Anuj had a chequered career since I first knew him as a clerk in the local bank.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Had a variety of jobs and experiences"
+      },
+      {
+        "label": "b",
+        "text": "A career which helped him make lots of money"
+      },
+      {
+        "label": "c",
+        "text": "A car eer where he signed a lot of cheques"
+      },
+      {
+        "label": "d",
+        "text": "Did odd jobs"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 31,
+    "question_code": "VARC-T3-Q31",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "New research technology and public policy focuses on how seemingly ____________ design features generally overlooked in most analysis of public works projects or industrial machinery, actually ____________ social choices of profound significance.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "insig nificant….mask"
+      },
+      {
+        "label": "b",
+        "text": "inexp ensive……..produce"
+      },
+      {
+        "label": "c",
+        "text": "inno vative….represent"
+      },
+      {
+        "label": "d",
+        "text": "ingen ious….permit"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 32,
+    "question_code": "VARC-T3-Q32",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "Paradoxically, Robinson’s excessive denials of the worth of early works science fiction suggest that she has became quite ____________ them.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "reflective about"
+      },
+      {
+        "label": "b",
+        "text": "enamored of"
+      },
+      {
+        "label": "c",
+        "text": "encou raged by"
+      },
+      {
+        "label": "d",
+        "text": "offended by"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 33,
+    "question_code": "VARC-T3-Q33",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb2",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "Cezanne’s delicate watercolor sketches often served as ____________ of a subject, a way of gathering fuller knowledge before the artist’s final engagement of the subject in an oil painting.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "an abstraction"
+      },
+      {
+        "label": "b",
+        "text": "an enhancement"
+      },
+      {
+        "label": "c",
+        "text": "a synthesis"
+      },
+      {
+        "label": "d",
+        "text": "a reconnaissance"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 34,
+    "question_code": "VARC-T3-Q34",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t3-fb2",
+    "set_position": 4,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "As for the alleged value of expert opinion, one need only ____________ government records to see ____________ evidence of the failure of such opinions in many fields.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "inspe ct…questionable"
+      },
+      {
+        "label": "b",
+        "text": "retai n…circumstantial"
+      },
+      {
+        "label": "c",
+        "text": "distr ibute…possible"
+      },
+      {
+        "label": "d",
+        "text": "consul t….strong"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  }
+]
