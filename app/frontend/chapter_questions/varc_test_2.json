@@ -1,0 +1,1311 @@
+[
+  {
+    "test": 2,
+    "question_number": 1,
+    "question_code": "VARC-T2-Q01",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: Arrange the sentences so that they make a coherent paragraph(Non-MCQ based questions).",
+    "question_text": "A. In other words, the more you are identified with your mind, the more you suffer. B. The intensity of the pain depends on the degree of resistance to the present moment, and this in turn depends on how strongly you are identified with your mind. C. The mind always seeks to deny the Now and to escape from it. D. Or you may put it like this: the more you are able to honor and accept the Now, the more you are free of pain, of suffering - and free of the egoistic mind. E. The pain that you create now is always some form of non acceptance, some form of unconscious resistance to what is.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "EBCAD",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 2,
+    "question_code": "VARC-T2-Q02",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: Arrange the sentences so that they make a coherent paragraph(Non-MCQ based questions).",
+    "question_text": "A. You take a journey into the Unmanifested every night when you enter the phase of deep dreamless sleep. B. You merge with the Source. C. You draw from it the vital energy that sustains you for a while when you return to the manifested, the world of separate forms. D. This energy is much more vital than food: “Man does not live by bread alone.” E. But you don’t go into dreamless sleep consciously.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "ABCDE",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 3,
+    "question_code": "VARC-T2-Q03",
+    "section": "VARC",
+    "question_type": "TITA",
+    "answer_format": "sequence",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 1 to 3: Arrange the sentences so that they make a coherent paragraph(Non-MCQ based questions).",
+    "question_text": "A. His team puts bottles in specially adapted fishing nets and holds them aloft as they run through fields to ‘harvest’ the product, which is then left open for up to 10 minutes to capture the area’s aroma. B. So its not just air, but you even have various flavours you can breathe in, while De Watts sings his way to the bank. C. Delhi’s citizens, struggling to cope with the effects of pollution, now have a possible antidote—bottled fresh air! D. A former public schoolboy in Britain has been making thousands of pounds selling bottled air priced at £80 to the Chinese. E. Leo De Watts, who now lives in Hong Kong, ‘farms’ fresh-air from Dorset, Somerset, Wales, Wiltshire and Yorkshire and is selling the bottles to people in the smog-plagued cities of Beijing and Shanghai.",
+    "underline": "",
+    "options": null,
+    "correct_answer": "CDEAB",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 4,
+    "question_code": "VARC-T2-Q04",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 4 to 5: Answer the questions independently.",
+    "question_text": "Athletic director: “Members of our sports teams included, for the fall season, 80 football players and 40 cross-country runners; for the winter season, 20 wrestlers and 40 swimmers; for the spring season, 50 track-team members and 20 lacrosse players. Each team athlete participates in his or her sport five days a week for the whole three-month season, and no athlete is on two teams during any one season. Therefore, adding these figures, we find that our team sports program serves 250 different individual athletes.” In drawing the conclusion above, the athletic director fails to consider the relevant possibility that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "athletes can be on more than one team in a single season."
+      },
+      {
+        "label": "b",
+        "text": "athlete can be on teams in more than one season."
+      },
+      {
+        "label": "c",
+        "text": "some of the team sports require a larger number of athletes on the team than do others."
+      },
+      {
+        "label": "d",
+        "text": "more athletes participate in team sports during one season than during another."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 5,
+    "question_code": "VARC-T2-Q05",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 4 to 5: Answer the questions independently.",
+    "question_text": "As soon as any part of a person’s conduct affects prejudicially the interests of others, society has jurisdiction over it, and the question of whether the general welfare will or will not be promoted by interfering with it becomes open to discussion. If a person’s conduct does not affect prejudicially the interests of others, it should not come under the jurisdiction of society in the first place. The author in the passage above argues that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "society is independent of the actions of individuals."
+      },
+      {
+        "label": "b",
+        "text": "the general welfare of a society is promoted when a person’s conduct benefits others."
+      },
+      {
+        "label": "c",
+        "text": "conduct that does not infringe on the interests of others should not be under the jurisdiction of society."
+      },
+      {
+        "label": "d",
+        "text": "interference with the actions of individuals does not enhance the general welfare."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 6,
+    "question_code": "VARC-T2-Q06",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc1",
+    "set_position": 1,
+    "context_passage": "Have you ever come across a painting, by Picasso, Mondrian, Miro, or any other modem abstract painter of this century, and found yourself engulfed in a brightly coloured canvas which your senses cannot interpret? Many people would tend to denounce abstractionism as senseless trash. These people are disoriented by Miro’s bright, fanciful creatures and two-dimensional canvases. They click their tongues and shake their heads at Mondrian’s grid works, declaring the poor guy played too many scrabble games. They silently shake their heads in sympathy for Picasso, whose gruesome, distorted figures must be a reflection of his mental health. Then, standing in front of a work by Charlie Russell, the fa - mous Western artist, they’ll declare it a work of God. People feel more comfortable with something they can relate to and understand immediately without too much thought. This is the case with the work of Charlie Russell. Being able to recognize the elements in his paintings—trees, horses and cowboys, gives people a safety line to their world of “reality”. There are some who would disagree when I say abstract art requires more creativity and artistic talent to produce a good piece than does representational art, but there are many weaknesses in their arguments. People who look down on abstract art have several major arguments to support their beliefs. They feel that artists turn abstract because they are not capable of the technical drafting skills that appear in a Russell; therefore, such artists create an art form that anyone is capable of and that is less time consuming, and then parade it as artistic progress. Secondly, they feel that the purpose of art is to create something of beauty in an orderly, logical composition. Russell’s compositions are balanced and rational, everything sits calmly on the canvas, leaving the viewer satisfied that he has seen all there is to see. The modem abstractionists, on the other hand, seem to compose their pieces irrationally. For example, upon seeing Picasso’s Guernica, a friend of mine asked me, “What’s the point?” Finally, many people feel that art should portray the ideal and real. The exactness of detail in Charlie Russell’s work is an example of this. He has been called a great historian because his pieces depict the life style, dress, and events of the times. His subject matter is derived from his own experiences on the trail, and reproduced to the smallest detail. I agree in part with many of these arguments, and at one time even endorsed them. But now, I believe differently. Firstly I object to the argument that abstract artists are not capable of drafting. Many abstract artists, such as Picasso, are excellent draftsmen. As his work matured, Picasso became more abstract in order to increase the expressive quality of his work. Guernica was meant as a protest against the bombing of that city by the Germans. To express the terror and suffering of the victims more vividly, he distorted the figures and presented them in a black and white journalistic manner. If he had used representational images and colour, much of the emotional Section Test 2 ❏ 5.13 content would have been lost and the piece would not have caused the demand for justice that it did. Secondly, I do not think that a piece must be logical and aesthetically pleasing to be art. The message it conveys to its viewers is more important. It should reflect the ideals and issues of its time and be true to itself, not just a flowery, glossy surface. For example, through his work, Mondrian was trying to present a system of simplicity, logic, and rational order. As a result, his pieces did end up looking like a scrabble board. Miro created powerful, surrealistic images from his dreams and subconscious. These artists were trying to evoke a response from society through an expressionistic manner. Finally, abstract artists and representational artists maintain different ideas about ‘reality’. To the representational artist, reality is what he sees with his eyes. This is the reality he reproduces on canvas. To the abstract artist, reality is what he feels about what his eyes see. This is the reality he interprets on canvas. This can be illustrated by Mondrian’s Trees series. You can actually see the progression from the early recognizable, though abstracted, Trees, to his final solution, the grid system. A cycle of abstract and representational art began with the first scratching of prehistoric man. From the abstrac tions of ancient Egypt to representational, classical Rome, returning to abstractionism in early Christian art and so on up to the present day, the cycle has been going on. But this day and age may witness its death through the camera. With film, there is no need to produce finely detailed, historical records manually; the camera does this for us more efficiently. Maybe, representational art would cease to exist. With abstractionism as the victor of the first battle, may be a different kind of cycle will be touched off. Possibly, some time in the distant future, thousands of years from now, art itself will be physically non-existent. Some artists today believe that once they have planned and constructed a piece in their mind, there is no sense in finishing it with their hands; it has already been done and can never be duplicated.",
+    "directions": "Direction for questions 6 to 9: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author argues that many people look down upon abstract art because they feel that:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Modem abstract art does not portray what is ideal and real."
+      },
+      {
+        "label": "b",
+        "text": "Abstract artists are unskilled in matters of technical drafting."
+      },
+      {
+        "label": "c",
+        "text": "Abstractionists compose irrationally."
+      },
+      {
+        "label": "d",
+        "text": "All of the above."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 7,
+    "question_code": "VARC-T2-Q07",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc1",
+    "set_position": 2,
+    "context_passage": "Have you ever come across a painting, by Picasso, Mondrian, Miro, or any other modem abstract painter of this century, and found yourself engulfed in a brightly coloured canvas which your senses cannot interpret? Many people would tend to denounce abstractionism as senseless trash. These people are disoriented by Miro’s bright, fanciful creatures and two-dimensional canvases. They click their tongues and shake their heads at Mondrian’s grid works, declaring the poor guy played too many scrabble games. They silently shake their heads in sympathy for Picasso, whose gruesome, distorted figures must be a reflection of his mental health. Then, standing in front of a work by Charlie Russell, the fa - mous Western artist, they’ll declare it a work of God. People feel more comfortable with something they can relate to and understand immediately without too much thought. This is the case with the work of Charlie Russell. Being able to recognize the elements in his paintings—trees, horses and cowboys, gives people a safety line to their world of “reality”. There are some who would disagree when I say abstract art requires more creativity and artistic talent to produce a good piece than does representational art, but there are many weaknesses in their arguments. People who look down on abstract art have several major arguments to support their beliefs. They feel that artists turn abstract because they are not capable of the technical drafting skills that appear in a Russell; therefore, such artists create an art form that anyone is capable of and that is less time consuming, and then parade it as artistic progress. Secondly, they feel that the purpose of art is to create something of beauty in an orderly, logical composition. Russell’s compositions are balanced and rational, everything sits calmly on the canvas, leaving the viewer satisfied that he has seen all there is to see. The modem abstractionists, on the other hand, seem to compose their pieces irrationally. For example, upon seeing Picasso’s Guernica, a friend of mine asked me, “What’s the point?” Finally, many people feel that art should portray the ideal and real. The exactness of detail in Charlie Russell’s work is an example of this. He has been called a great historian because his pieces depict the life style, dress, and events of the times. His subject matter is derived from his own experiences on the trail, and reproduced to the smallest detail. I agree in part with many of these arguments, and at one time even endorsed them. But now, I believe differently. Firstly I object to the argument that abstract artists are not capable of drafting. Many abstract artists, such as Picasso, are excellent draftsmen. As his work matured, Picasso became more abstract in order to increase the expressive quality of his work. Guernica was meant as a protest against the bombing of that city by the Germans. To express the terror and suffering of the victims more vividly, he distorted the figures and presented them in a black and white journalistic manner. If he had used representational images and colour, much of the emotional Section Test 2 ❏ 5.13 content would have been lost and the piece would not have caused the demand for justice that it did. Secondly, I do not think that a piece must be logical and aesthetically pleasing to be art. The message it conveys to its viewers is more important. It should reflect the ideals and issues of its time and be true to itself, not just a flowery, glossy surface. For example, through his work, Mondrian was trying to present a system of simplicity, logic, and rational order. As a result, his pieces did end up looking like a scrabble board. Miro created powerful, surrealistic images from his dreams and subconscious. These artists were trying to evoke a response from society through an expressionistic manner. Finally, abstract artists and representational artists maintain different ideas about ‘reality’. To the representational artist, reality is what he sees with his eyes. This is the reality he reproduces on canvas. To the abstract artist, reality is what he feels about what his eyes see. This is the reality he interprets on canvas. This can be illustrated by Mondrian’s Trees series. You can actually see the progression from the early recognizable, though abstracted, Trees, to his final solution, the grid system. A cycle of abstract and representational art began with the first scratching of prehistoric man. From the abstrac tions of ancient Egypt to representational, classical Rome, returning to abstractionism in early Christian art and so on up to the present day, the cycle has been going on. But this day and age may witness its death through the camera. With film, there is no need to produce finely detailed, historical records manually; the camera does this for us more efficiently. Maybe, representational art would cease to exist. With abstractionism as the victor of the first battle, may be a different kind of cycle will be touched off. Possibly, some time in the distant future, thousands of years from now, art itself will be physically non-existent. Some artists today believe that once they have planned and constructed a piece in their mind, there is no sense in finishing it with their hands; it has already been done and can never be duplicated.",
+    "directions": "Direction for questions 6 to 9: Read the passage given below and solve the questions based on it.",
+    "question_text": "In the author’s opinion, Picasso’s Guernica created a strong demand for justice since:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It was a protest against the German bombing of Guernica."
+      },
+      {
+        "label": "b",
+        "text": "Picasso ma naged to express the emotional content well with his abstract depiction."
+      },
+      {
+        "label": "c",
+        "text": "It depicts the terror and suffering of the vic tims in a distorted manner."
+      },
+      {
+        "label": "d",
+        "text": "It was a mature work of Picasso’s, painted when the artist’s drafting skills were excellent."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 8,
+    "question_code": "VARC-T2-Q08",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc1",
+    "set_position": 3,
+    "context_passage": "Have you ever come across a painting, by Picasso, Mondrian, Miro, or any other modem abstract painter of this century, and found yourself engulfed in a brightly coloured canvas which your senses cannot interpret? Many people would tend to denounce abstractionism as senseless trash. These people are disoriented by Miro’s bright, fanciful creatures and two-dimensional canvases. They click their tongues and shake their heads at Mondrian’s grid works, declaring the poor guy played too many scrabble games. They silently shake their heads in sympathy for Picasso, whose gruesome, distorted figures must be a reflection of his mental health. Then, standing in front of a work by Charlie Russell, the fa - mous Western artist, they’ll declare it a work of God. People feel more comfortable with something they can relate to and understand immediately without too much thought. This is the case with the work of Charlie Russell. Being able to recognize the elements in his paintings—trees, horses and cowboys, gives people a safety line to their world of “reality”. There are some who would disagree when I say abstract art requires more creativity and artistic talent to produce a good piece than does representational art, but there are many weaknesses in their arguments. People who look down on abstract art have several major arguments to support their beliefs. They feel that artists turn abstract because they are not capable of the technical drafting skills that appear in a Russell; therefore, such artists create an art form that anyone is capable of and that is less time consuming, and then parade it as artistic progress. Secondly, they feel that the purpose of art is to create something of beauty in an orderly, logical composition. Russell’s compositions are balanced and rational, everything sits calmly on the canvas, leaving the viewer satisfied that he has seen all there is to see. The modem abstractionists, on the other hand, seem to compose their pieces irrationally. For example, upon seeing Picasso’s Guernica, a friend of mine asked me, “What’s the point?” Finally, many people feel that art should portray the ideal and real. The exactness of detail in Charlie Russell’s work is an example of this. He has been called a great historian because his pieces depict the life style, dress, and events of the times. His subject matter is derived from his own experiences on the trail, and reproduced to the smallest detail. I agree in part with many of these arguments, and at one time even endorsed them. But now, I believe differently. Firstly I object to the argument that abstract artists are not capable of drafting. Many abstract artists, such as Picasso, are excellent draftsmen. As his work matured, Picasso became more abstract in order to increase the expressive quality of his work. Guernica was meant as a protest against the bombing of that city by the Germans. To express the terror and suffering of the victims more vividly, he distorted the figures and presented them in a black and white journalistic manner. If he had used representational images and colour, much of the emotional Section Test 2 ❏ 5.13 content would have been lost and the piece would not have caused the demand for justice that it did. Secondly, I do not think that a piece must be logical and aesthetically pleasing to be art. The message it conveys to its viewers is more important. It should reflect the ideals and issues of its time and be true to itself, not just a flowery, glossy surface. For example, through his work, Mondrian was trying to present a system of simplicity, logic, and rational order. As a result, his pieces did end up looking like a scrabble board. Miro created powerful, surrealistic images from his dreams and subconscious. These artists were trying to evoke a response from society through an expressionistic manner. Finally, abstract artists and representational artists maintain different ideas about ‘reality’. To the representational artist, reality is what he sees with his eyes. This is the reality he reproduces on canvas. To the abstract artist, reality is what he feels about what his eyes see. This is the reality he interprets on canvas. This can be illustrated by Mondrian’s Trees series. You can actually see the progression from the early recognizable, though abstracted, Trees, to his final solution, the grid system. A cycle of abstract and representational art began with the first scratching of prehistoric man. From the abstrac tions of ancient Egypt to representational, classical Rome, returning to abstractionism in early Christian art and so on up to the present day, the cycle has been going on. But this day and age may witness its death through the camera. With film, there is no need to produce finely detailed, historical records manually; the camera does this for us more efficiently. Maybe, representational art would cease to exist. With abstractionism as the victor of the first battle, may be a different kind of cycle will be touched off. Possibly, some time in the distant future, thousands of years from now, art itself will be physically non-existent. Some artists today believe that once they have planned and constructed a piece in their mind, there is no sense in finishing it with their hands; it has already been done and can never be duplicated.",
+    "directions": "Direction for questions 6 to 9: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author acknowledges that Mondrian’s pieces may have ended up looking like a scrabble board because:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Many people declared the poor guy played too many scrabble games."
+      },
+      {
+        "label": "b",
+        "text": "Mondrian believed in the ‘grid-works’ approach to abstractionist painting."
+      },
+      {
+        "label": "c",
+        "text": "Mondrian was trying to convey the message of simplicity and rational order."
+      },
+      {
+        "label": "d",
+        "text": "Mondrian learned from his Trees series to evolve a grid system."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 9,
+    "question_code": "VARC-T2-Q09",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc1",
+    "set_position": 4,
+    "context_passage": "Have you ever come across a painting, by Picasso, Mondrian, Miro, or any other modem abstract painter of this century, and found yourself engulfed in a brightly coloured canvas which your senses cannot interpret? Many people would tend to denounce abstractionism as senseless trash. These people are disoriented by Miro’s bright, fanciful creatures and two-dimensional canvases. They click their tongues and shake their heads at Mondrian’s grid works, declaring the poor guy played too many scrabble games. They silently shake their heads in sympathy for Picasso, whose gruesome, distorted figures must be a reflection of his mental health. Then, standing in front of a work by Charlie Russell, the fa - mous Western artist, they’ll declare it a work of God. People feel more comfortable with something they can relate to and understand immediately without too much thought. This is the case with the work of Charlie Russell. Being able to recognize the elements in his paintings—trees, horses and cowboys, gives people a safety line to their world of “reality”. There are some who would disagree when I say abstract art requires more creativity and artistic talent to produce a good piece than does representational art, but there are many weaknesses in their arguments. People who look down on abstract art have several major arguments to support their beliefs. They feel that artists turn abstract because they are not capable of the technical drafting skills that appear in a Russell; therefore, such artists create an art form that anyone is capable of and that is less time consuming, and then parade it as artistic progress. Secondly, they feel that the purpose of art is to create something of beauty in an orderly, logical composition. Russell’s compositions are balanced and rational, everything sits calmly on the canvas, leaving the viewer satisfied that he has seen all there is to see. The modem abstractionists, on the other hand, seem to compose their pieces irrationally. For example, upon seeing Picasso’s Guernica, a friend of mine asked me, “What’s the point?” Finally, many people feel that art should portray the ideal and real. The exactness of detail in Charlie Russell’s work is an example of this. He has been called a great historian because his pieces depict the life style, dress, and events of the times. His subject matter is derived from his own experiences on the trail, and reproduced to the smallest detail. I agree in part with many of these arguments, and at one time even endorsed them. But now, I believe differently. Firstly I object to the argument that abstract artists are not capable of drafting. Many abstract artists, such as Picasso, are excellent draftsmen. As his work matured, Picasso became more abstract in order to increase the expressive quality of his work. Guernica was meant as a protest against the bombing of that city by the Germans. To express the terror and suffering of the victims more vividly, he distorted the figures and presented them in a black and white journalistic manner. If he had used representational images and colour, much of the emotional Section Test 2 ❏ 5.13 content would have been lost and the piece would not have caused the demand for justice that it did. Secondly, I do not think that a piece must be logical and aesthetically pleasing to be art. The message it conveys to its viewers is more important. It should reflect the ideals and issues of its time and be true to itself, not just a flowery, glossy surface. For example, through his work, Mondrian was trying to present a system of simplicity, logic, and rational order. As a result, his pieces did end up looking like a scrabble board. Miro created powerful, surrealistic images from his dreams and subconscious. These artists were trying to evoke a response from society through an expressionistic manner. Finally, abstract artists and representational artists maintain different ideas about ‘reality’. To the representational artist, reality is what he sees with his eyes. This is the reality he reproduces on canvas. To the abstract artist, reality is what he feels about what his eyes see. This is the reality he interprets on canvas. This can be illustrated by Mondrian’s Trees series. You can actually see the progression from the early recognizable, though abstracted, Trees, to his final solution, the grid system. A cycle of abstract and representational art began with the first scratching of prehistoric man. From the abstrac tions of ancient Egypt to representational, classical Rome, returning to abstractionism in early Christian art and so on up to the present day, the cycle has been going on. But this day and age may witness its death through the camera. With film, there is no need to produce finely detailed, historical records manually; the camera does this for us more efficiently. Maybe, representational art would cease to exist. With abstractionism as the victor of the first battle, may be a different kind of cycle will be touched off. Possibly, some time in the distant future, thousands of years from now, art itself will be physically non-existent. Some artists today believe that once they have planned and constructed a piece in their mind, there is no sense in finishing it with their hands; it has already been done and can never be duplicated.",
+    "directions": "Direction for questions 6 to 9: Read the passage given below and solve the questions based on it.",
+    "question_text": "The main difference between the abstract artist and the representational artist in matters of the ‘ideal’ and the ‘real’, according to the author, is:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "How each chooses to deal with ‘reality’ on his other canvas."
+      },
+      {
+        "label": "b",
+        "text": "The superiority of interpretation of reality over reproduction of reality."
+      },
+      {
+        "label": "c",
+        "text": "The different va lues attached by each to being a historian."
+      },
+      {
+        "label": "d",
+        "text": "The varyi ng levels of drafting skills and logical thinking abilities."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 10,
+    "question_code": "VARC-T2-Q10",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 1,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "According to the passage, Fogel, Engerman, Genovese, and Gutman have all done which of the following? I. Discounted the influence of plantation owners on slaves’ achievements. II. Empha sized the achievements of slaves. III. Pointed out the prevalence of the two-parent household among slaves. IV. Showed the connection between stable monogamy and slaves’ cultural heritage.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "I and II only"
+      },
+      {
+        "label": "b",
+        "text": "I and IV only"
+      },
+      {
+        "label": "c",
+        "text": "II an d III only"
+      },
+      {
+        "label": "d",
+        "text": "I, II I, and IV only"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 11,
+    "question_code": "VARC-T2-Q11",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 2,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "With which of the following statements regarding the resources that historians ought to use would the author of the passage be most likely to agree?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Historians ought to make use of written rather than oral accounts."
+      },
+      {
+        "label": "b",
+        "text": "Historians should rely primarily on birth regi sters."
+      },
+      {
+        "label": "c",
+        "text": "Historians should rely exclusively on data that can be quantified."
+      },
+      {
+        "label": "d",
+        "text": "Histori ans ought to make use of data that can be quantified."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 12,
+    "question_code": "VARC-T2-Q12",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 3,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "Which of the following statements about the formation of the Black heritage of folklore, music, and religious expression is best supported by the information presented in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The heritage was formed primarily out of the experiences of those slaves who attempted to preserve the stability of their families."
+      },
+      {
+        "label": "b",
+        "text": "The heritage was not formed out of the experiences of those slaves who married their cou sins."
+      },
+      {
+        "label": "c",
+        "text": "The heritage was formed more out of the African than out of the American experiences of slaves."
+      },
+      {
+        "label": "d",
+        "text": "The heritage was not formed out of the experiences of only a single generation of slav es."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 13,
+    "question_code": "VARC-T2-Q13",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 4,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "It can be inferred from the passage that, of the following, the most probable reason why a historian of slavery might be interested in studying the type of plantations mentioned in the passage is that this type would",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "furnish the historian with the opportunity to discover the kind of marital commitment that slaves themselves chose to have."
+      },
+      {
+        "label": "b",
+        "text": "permit the historian to observe the kinship patterns that had been most popular among West African tribes."
+      },
+      {
+        "label": "c",
+        "text": "provide the historian with evidence concerning the preference of freed slaves for stable monogamy."
+      },
+      {
+        "label": "d",
+        "text": "allow the historian to examine the influence of slaves’ preferences on the actions of plantation owners."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 14,
+    "question_code": "VARC-T2-Q14",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 5,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "According to the passage, all of the following are true of the West African rules governing marriage mentioned in the passage EXCEPT Section Test 2 ❏ 5.15",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The ru les were derived from rules governing fictive kinship arrangements."
+      },
+      {
+        "label": "b",
+        "text": "The rules forbade marriages between close kin."
+      },
+      {
+        "label": "c",
+        "text": "The ru les are mentioned in Herbert Gutman’s study."
+      },
+      {
+        "label": "d",
+        "text": "The rules were not uniform in all respects from one West African tribe to another."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 15,
+    "question_code": "VARC-T2-Q15",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc2",
+    "set_position": 6,
+    "context_passage": "In his 1976 study of slavery in the United States, Herbert Gutman, like Fogel, Engerman, and Genovese, has rightly stressed the slaves’ achievements. But unlike these historians, Gutman gives plantation owners little credit for these achievements. Rather, Gutman argues that one must look to the Black family and the slaves’ extended kinship system to understand how crucial achievements, such as the maintenance of a cultural heritage and the development of a communalconsciousness, were possible. His findings compel attention. Gutman recreates the family and extended kinship structure mainly through an ingenious use of what any historian should draw upon, quantifiable data, derived in this case mostly from plantation birth registers. He also uses accounts of ex-slaves to probe the human reality behind his statistics. These sources indicate that the two-parent household predominated in slave quarters just as it did among freed slaves after emancipation. Although Gutman admits that forced separation by sale was frequent, he shows that the slaves’ preference, revealed most clearly on plantations where sale was infrequent, was very much for stable monogamy. In less conclusive fashion Fogel, Engerman, and Genovese had already indicated the predominance of two-parent households; however, only Gutman emphasizes the preference for stable monogamy and points out what stable monogamy meant for the slaves’ cultural heritage. Gutman argues convincingly that the stability of the Black family encouraged the transmission of-and so was crucial in sustaining-the Black heritage of folklore, music, and religious expression from one generation to another, a heritage that slaves were continually fashioning out of their African and American experiences. Gutman’s examination of other facets of kinship also produces important findings. Gutman discovers that cousins rarely married, an exogamous tendency that contrasted sharply with the endogamy practiced by the plantation owners. This preference for exogamy, Gutman suggests, may have derived from West African rules governing marriage, which, though they differed from one tribal group to another, all involved some kind of prohibition against unions with close kin. This taboo against cousins’ marrying is important, argues Gutman, because it is one of many indications of a strong awareness among slaves of an extended kinship network. The fact that distantly related kin would care for children separated from their families also suggests this awareness. When blood relationships were few, as in newly created plantations in the Southwest, “fictive” kinship arrangements took their place until a new pattern of consanguinity developed. Gutman presents convincing evidence that this extended kinship structure-which he believes developed by the mid-to-late eighteenth century-provided the foundations for the strong communal consciousness that existed among slaves. In sum, Gutman’s study is significant because it offers a closely reasoned and original explanation of some of the slaves’ achievements, one that correctly emphasizes the resources that slaves themselves possessed.",
+    "directions": "Direction for questions 10 to 15: Following passage is followed by questions based on its content. After reading passage, choose the best answer to each question. Answer all questions following a passage on the basis of what is stated or implied in that passage.",
+    "question_text": "Which of the following statements concerning the marriage practices of plantation owners during the period of Black slavery in the United States can most logically be inferred from the information in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "These practices began to alter sometime around the mid-eighteenth century."
+      },
+      {
+        "label": "b",
+        "text": "These pract ices varied markedly from one region of the country to another."
+      },
+      {
+        "label": "c",
+        "text": "Plantation owners usually based their choice of marriage partners on economic considerations."
+      },
+      {
+        "label": "d",
+        "text": "Plantation owne rs often married their cousins."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 16,
+    "question_code": "VARC-T2-Q16",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 16 to 18: Sentences given in each question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentence from among the four given choices to construct a coherent paragraph.",
+    "question_text": "A. In reject ing the functionalism in positivist organization theory, either wholly or partially, there is often a move towards a political model of organi zatio n theory. B. Thus the analysis would shift to the power resources possessed by different groups in the organization and the way they use these resources in actual power plays to shape the organizational structure. C. At the extreme, in one set of writings, the growth of administrators in the organization is held to be completely unrelated to the work to be done and to be caused totally by the political pursuit of self-interest. D. The political model holds that individual interests are pursued in organizational life through the exercise of power and influence.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ADBC"
+      },
+      {
+        "label": "b",
+        "text": "CBAD"
+      },
+      {
+        "label": "c",
+        "text": "DBCA"
+      },
+      {
+        "label": "d",
+        "text": "ABDC"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 17,
+    "question_code": "VARC-T2-Q17",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 16 to 18: Sentences given in each question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentence from among the four given choices to construct a coherent paragraph.",
+    "question_text": ". A. Group decision-making, however, does not necessarily fully guard against arbitrariness and anarchy, for individual capriciousness can get substituted by collusion of group members. B. Nature itself is an intricate system of checks and balances, meant to preserve the delicate balance between various environmental factors that affect our ecology. C. In inst itutions also, there is a need to have in place a system of checks and balances which inhibits the concentration of power in only some individuals. D. When human interventions alter this delicate balance, the outcomes have been seen to be disastrous.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "CDAB"
+      },
+      {
+        "label": "b",
+        "text": "BCAD"
+      },
+      {
+        "label": "c",
+        "text": "CABD"
+      },
+      {
+        "label": "d",
+        "text": "BDCA"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 18,
+    "question_code": "VARC-T2-Q18",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Para Jumble",
+    "set_id": "t2-pj2",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 16 to 18: Sentences given in each question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentence from among the four given choices to construct a coherent paragraph.",
+    "question_text": ". A. He was b one-weary and soul-weary, and found him self muttering, “Either I cannot manage this place, or it’s unmanageable.” B. To his horror, he realized that he had become the victim of an amorphous, unwitting, unconscious conspiracy to immerse him in routine work that had no significance. C. It was one of those nights in the office. When the office clock was moving towards four in the morning and Bennis was still not through with the incredible mass of paper stacked before him. D. He reac hed for his calendar and ran his eyes down each hour, half-hour, and quarter-hour, to see where his time had gone that day, the day before, the month before.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "ABCD"
+      },
+      {
+        "label": "b",
+        "text": "CADB"
+      },
+      {
+        "label": "c",
+        "text": "BDCA"
+      },
+      {
+        "label": "d",
+        "text": "DCBA"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 19,
+    "question_code": "VARC-T2-Q19",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 19 to 22: Read each short passage given below and answer the question that follows it.",
+    "question_text": "Three airlines—IA, JA and SA operate on the Delhi-Mumbai route. To increase the number of seats sold, SA reduced its fares and this was emulated by IA and JA immediately. The general belief was that the volume of air travel between Delhi and Mumbai would increase as a result. Which of the following, if true, would add credence to the general belief?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Increase in profitability of the three airlines."
+      },
+      {
+        "label": "b",
+        "text": "Extension of the discount scheme to other routes."
+      },
+      {
+        "label": "c",
+        "text": "A study that shows that air travellers in India are price-conscious."
+      },
+      {
+        "label": "d",
+        "text": "A study that shows that as much as 80% of air travel in India is company-sponsored."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 20,
+    "question_code": "VARC-T2-Q20",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 19 to 22: Read each short passage given below and answer the question that follows it.",
+    "question_text": "According to McNeill, a Brahmin priest was expected to be able to recite at least one of the Vedas. The practice was essential for several centuries when the V edas had not yet been written down. It must have had a selective effect, since priests would have been recruited from those able or willing to memorize long passages. It must have helped in the dissemination of the work, since a memorized passage can be duplicated many times. Which one of the following can be inferred from the above passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Reciting the Vedas was a Bra hmin’s obligation."
+      },
+      {
+        "label": "b",
+        "text": "The Vedic priest was like a recorded audio ca ssette."
+      },
+      {
+        "label": "c",
+        "text": "McNeill studied the behaviour of Brahmin priests."
+      },
+      {
+        "label": "d",
+        "text": "Vedic hymns had not been scripted."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 21,
+    "question_code": "VARC-T2-Q21",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr2",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 19 to 22: Read each short passage given below and answer the question that follows it.",
+    "question_text": "Developed countries have made adequate provisions for social security for senior citizens. State insurers (as well as private ones) offer medicare and pension benefits to people who can no longer earn. In India, with the collapse of the joint family system, the traditional shelter of the elderly has disappeared. And a State faced with a financial crunch is not in a position to provide social security. So, it is advisable that the working population give serious thought to building a financial base for itself. Which one of the following, if it were to happen, weakens the conclusion drawn in the above passage the most?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The investable income of the working population, as a proportion of its total income, will grow in the future."
+      },
+      {
+        "label": "b",
+        "text": "The insurance sector is underdeveloped and trends indicate that it will be extensively priv atized in the future."
+      },
+      {
+        "label": "c",
+        "text": "India is on a path of development that will take it to a developed country status, with all its positive and negative implications."
+      },
+      {
+        "label": "d",
+        "text": "If the working population builds a stronger financial base, there will be a revival of the joint family system."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 22,
+    "question_code": "VARC-T2-Q22",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr2",
+    "set_position": 4,
+    "context_passage": "",
+    "directions": "Direction for questions 19 to 22: Read each short passage given below and answer the question that follows it.",
+    "question_text": "Various studies have shown that our forested and hilly regions and, in general, areas where biodiversity—as reflected in the variety of flora— is high, are the places where poverty appears to be high. And these same areas are also the ones where educational performance seems to be poor. Therefore, it may be surmised that, even disregarding poverty status, richness in biodiver sity goes hand-in-hand with educational backwardness. Which one of the following statements, if true, can be said to best provide supporting evidence for the surmise mentioned in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "In regions where there is little variety in flora, educational performance is seen to be as good as in regions with high variety in flora, when poverty levels are high."
+      },
+      {
+        "label": "b",
+        "text": "Regions which show high biodiversity also exhibit poor educational performance, at low levels of poverty."
+      },
+      {
+        "label": "c",
+        "text": "Regio ns which show high biodiversity reveal high lev els of poverty and poor educational performance."
+      },
+      {
+        "label": "d",
+        "text": "In reg ions where there is low biodiversity, at all lev els of poverty, educational performance is seen to be good."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 23,
+    "question_code": "VARC-T2-Q23",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc3",
+    "set_position": 1,
+    "context_passage": "Each one has his reasons: for one art is a flight; for another, a means of conquering. But one can flee into a hermitage, into madness, into death. One can conquer by arms. Why does it have to be writing, why does one have to manage his escapes and conquests by writing? Because, behind the various alms of authors, there is a deeper and more immediate choice which is common to all of us. We shall try to elucidate this choice, and we shall see whether it is not in the name of this very choice of writing that the engagement of writers must be required. Each of our perceptions is accompanied by the consciousness that human reality is a ‘revealer’, that is, it is through human reality that ‘there is’ being, or, to put it differently, that man is the means by which things are manifested. It is our presence in the world which multiplies rela tions. It is we who set up a relationship between this tree and that bit of sky. Thanks to us, that star which has been dead for millennia, that quarter moon, and that dark river are disclosed in the unity of a landscape. It is the speed of our auto and our airplane which organizes the great masses of the earth. With each of our acts, the world reveals to us a new face. But, if we know that we are directors of being, we also know that we are not its producers. If we turn away from this landscape, it will sink back into its dark permanence. At least, it will sink back; there is no one mad enough to think that it is going to be annihilated. It is we who shall be annihilated, and the earth will remain in its lethargy until another consciousness comes along to awaken it. Thus, to our inner certainty of being ‘revealers’ is added that of being inessential in relation to the thing revealed. Section Test 2 ❏ 5.17 One of the main motives of artistic creation is certainly the need of feeling that we are essential in relationship to the world. If I fix on canvas or in writing a certain aspect of the fields or the sea or a look on someone’s face which I have disclosed, I am conscious of having produced them by condensing relationships, by introducing order where there was none, by imposing the unity of mind on the diversity of things. That is, I think myself essential in relation to my creation. But this time it is the created object which escapes me; I cannot reveal and produce at the same time. The creation becomes inessential in relation to the creative activity. First of all, even if it appears to others as definitive, the created object always seems to us in a state of suspension; we can always change this line, that shade, that word. Thus, it never forces itself. A novice painter asked his teacher, ‘When should I consider my painting finished?’ And the teacher answered, ‘When you can look at it in amazement and say to yourself’ “I’m the one who did that!” Which amounts to saying ‘never’. For it is virtually considering one’s work with someone els e’s eyes and revealing what has been created. But it is self-evident that we are proportionally less conscious of the thing produced and more conscious of our productive activity. When it is a matter of poetry or carpentry, we work according to traditional norms, with tools whose usage is codified; it is Heidegger’s famous ‘they’ who are working with our hands. In this case, the result can seem to us sufficiently strange to preserve its objectivity in our eyes. But if we ourselves produce the rules of production, the measures, the criteria, and if our creative drive comes from the very depths of our heart, then we never find anything but ourselves in our work. It is we who have invented the laws by which we judge it. It is our history, our love, our gaiety that we recognize in it. Even if we should regard it without touching it any further, we never receive from it that gaiety or love. We put them into it. The results which we have obtained on canvas or paper never seem to us objective. We are too familiar with the processes of which they are the effects. These processes remain a subjective discovery; they are ourselves, our inspiration, our ruse, and when we seek to perceive our work, we create it again, we repeat mentally the operations which produced it; each of its aspects appears as a result. Thus, in the perception, the object is given as the essential thing and the subject as the inessential. The latter seeks essentiality in the creation and obtains it, but then it is the object which becomes the inessential. The dialectic is nowhere more apparent than in the art of writing, for the literary object is a peculiar top which ex ists only in movement. To make it come into view a concrete act called reading is necessary, and it lasts only as long as this act can last. Beyond that, there are only black marks on paper. Now, the writer cannot read what he writes, whereas the shoemaker can put on the shoes he has just made if they are to his size, and the architect can live in the house he has built. In reading, one foresees; one waits. He foresees the end of the sentence, the following sentence, the next page. He waits for them to confirm or disappoint his foresights. The reading is composed of a host of hypotheses, followed by awakenings, of hopes and deceptions, Readers are always ahead of the sentence they are reading in a merely probable future which partly collapses and partly comes together in proportion as they progress, which withdraws from one page to the next and forms the moving horizon of the literary object. Without waiting, without a future, with out ignorance, there is no objectivity.",
+    "directions": "Direction for questions 23 to 25: Read the passage given below and solve the questions based on it.",
+    "question_text": "It is the author’s contention that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "artistic creations are results of human con-sciou sness."
+      },
+      {
+        "label": "b",
+        "text": "the very act of artistic creation leads to the escape of the created object."
+      },
+      {
+        "label": "c",
+        "text": "man can produce and reveal at the same time."
+      },
+      {
+        "label": "d",
+        "text": "an act of creation forces itself on our conscious ness leaving us full of amazement."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 24,
+    "question_code": "VARC-T2-Q24",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc3",
+    "set_position": 2,
+    "context_passage": "Each one has his reasons: for one art is a flight; for another, a means of conquering. But one can flee into a hermitage, into madness, into death. One can conquer by arms. Why does it have to be writing, why does one have to manage his escapes and conquests by writing? Because, behind the various alms of authors, there is a deeper and more immediate choice which is common to all of us. We shall try to elucidate this choice, and we shall see whether it is not in the name of this very choice of writing that the engagement of writers must be required. Each of our perceptions is accompanied by the consciousness that human reality is a ‘revealer’, that is, it is through human reality that ‘there is’ being, or, to put it differently, that man is the means by which things are manifested. It is our presence in the world which multiplies rela tions. It is we who set up a relationship between this tree and that bit of sky. Thanks to us, that star which has been dead for millennia, that quarter moon, and that dark river are disclosed in the unity of a landscape. It is the speed of our auto and our airplane which organizes the great masses of the earth. With each of our acts, the world reveals to us a new face. But, if we know that we are directors of being, we also know that we are not its producers. If we turn away from this landscape, it will sink back into its dark permanence. At least, it will sink back; there is no one mad enough to think that it is going to be annihilated. It is we who shall be annihilated, and the earth will remain in its lethargy until another consciousness comes along to awaken it. Thus, to our inner certainty of being ‘revealers’ is added that of being inessential in relation to the thing revealed. Section Test 2 ❏ 5.17 One of the main motives of artistic creation is certainly the need of feeling that we are essential in relationship to the world. If I fix on canvas or in writing a certain aspect of the fields or the sea or a look on someone’s face which I have disclosed, I am conscious of having produced them by condensing relationships, by introducing order where there was none, by imposing the unity of mind on the diversity of things. That is, I think myself essential in relation to my creation. But this time it is the created object which escapes me; I cannot reveal and produce at the same time. The creation becomes inessential in relation to the creative activity. First of all, even if it appears to others as definitive, the created object always seems to us in a state of suspension; we can always change this line, that shade, that word. Thus, it never forces itself. A novice painter asked his teacher, ‘When should I consider my painting finished?’ And the teacher answered, ‘When you can look at it in amazement and say to yourself’ “I’m the one who did that!” Which amounts to saying ‘never’. For it is virtually considering one’s work with someone els e’s eyes and revealing what has been created. But it is self-evident that we are proportionally less conscious of the thing produced and more conscious of our productive activity. When it is a matter of poetry or carpentry, we work according to traditional norms, with tools whose usage is codified; it is Heidegger’s famous ‘they’ who are working with our hands. In this case, the result can seem to us sufficiently strange to preserve its objectivity in our eyes. But if we ourselves produce the rules of production, the measures, the criteria, and if our creative drive comes from the very depths of our heart, then we never find anything but ourselves in our work. It is we who have invented the laws by which we judge it. It is our history, our love, our gaiety that we recognize in it. Even if we should regard it without touching it any further, we never receive from it that gaiety or love. We put them into it. The results which we have obtained on canvas or paper never seem to us objective. We are too familiar with the processes of which they are the effects. These processes remain a subjective discovery; they are ourselves, our inspiration, our ruse, and when we seek to perceive our work, we create it again, we repeat mentally the operations which produced it; each of its aspects appears as a result. Thus, in the perception, the object is given as the essential thing and the subject as the inessential. The latter seeks essentiality in the creation and obtains it, but then it is the object which becomes the inessential. The dialectic is nowhere more apparent than in the art of writing, for the literary object is a peculiar top which ex ists only in movement. To make it come into view a concrete act called reading is necessary, and it lasts only as long as this act can last. Beyond that, there are only black marks on paper. Now, the writer cannot read what he writes, whereas the shoemaker can put on the shoes he has just made if they are to his size, and the architect can live in the house he has built. In reading, one foresees; one waits. He foresees the end of the sentence, the following sentence, the next page. He waits for them to confirm or disappoint his foresights. The reading is composed of a host of hypotheses, followed by awakenings, of hopes and deceptions, Readers are always ahead of the sentence they are reading in a merely probable future which partly collapses and partly comes together in proportion as they progress, which withdraws from one page to the next and forms the moving horizon of the literary object. Without waiting, without a future, with out ignorance, there is no objectivity.",
+    "directions": "Direction for questions 23 to 25: Read the passage given below and solve the questions based on it.",
+    "question_text": "The passage makes a distinction between perception and creation in terms of",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "objectivity and subjectivity."
+      },
+      {
+        "label": "b",
+        "text": "revelation and action."
+      },
+      {
+        "label": "c",
+        "text": "objective reality and perceived reality."
+      },
+      {
+        "label": "d",
+        "text": "essentiality and non-essentiality of objects and subjects."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 25,
+    "question_code": "VARC-T2-Q25",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-rc3",
+    "set_position": 3,
+    "context_passage": "Each one has his reasons: for one art is a flight; for another, a means of conquering. But one can flee into a hermitage, into madness, into death. One can conquer by arms. Why does it have to be writing, why does one have to manage his escapes and conquests by writing? Because, behind the various alms of authors, there is a deeper and more immediate choice which is common to all of us. We shall try to elucidate this choice, and we shall see whether it is not in the name of this very choice of writing that the engagement of writers must be required. Each of our perceptions is accompanied by the consciousness that human reality is a ‘revealer’, that is, it is through human reality that ‘there is’ being, or, to put it differently, that man is the means by which things are manifested. It is our presence in the world which multiplies rela tions. It is we who set up a relationship between this tree and that bit of sky. Thanks to us, that star which has been dead for millennia, that quarter moon, and that dark river are disclosed in the unity of a landscape. It is the speed of our auto and our airplane which organizes the great masses of the earth. With each of our acts, the world reveals to us a new face. But, if we know that we are directors of being, we also know that we are not its producers. If we turn away from this landscape, it will sink back into its dark permanence. At least, it will sink back; there is no one mad enough to think that it is going to be annihilated. It is we who shall be annihilated, and the earth will remain in its lethargy until another consciousness comes along to awaken it. Thus, to our inner certainty of being ‘revealers’ is added that of being inessential in relation to the thing revealed. Section Test 2 ❏ 5.17 One of the main motives of artistic creation is certainly the need of feeling that we are essential in relationship to the world. If I fix on canvas or in writing a certain aspect of the fields or the sea or a look on someone’s face which I have disclosed, I am conscious of having produced them by condensing relationships, by introducing order where there was none, by imposing the unity of mind on the diversity of things. That is, I think myself essential in relation to my creation. But this time it is the created object which escapes me; I cannot reveal and produce at the same time. The creation becomes inessential in relation to the creative activity. First of all, even if it appears to others as definitive, the created object always seems to us in a state of suspension; we can always change this line, that shade, that word. Thus, it never forces itself. A novice painter asked his teacher, ‘When should I consider my painting finished?’ And the teacher answered, ‘When you can look at it in amazement and say to yourself’ “I’m the one who did that!” Which amounts to saying ‘never’. For it is virtually considering one’s work with someone els e’s eyes and revealing what has been created. But it is self-evident that we are proportionally less conscious of the thing produced and more conscious of our productive activity. When it is a matter of poetry or carpentry, we work according to traditional norms, with tools whose usage is codified; it is Heidegger’s famous ‘they’ who are working with our hands. In this case, the result can seem to us sufficiently strange to preserve its objectivity in our eyes. But if we ourselves produce the rules of production, the measures, the criteria, and if our creative drive comes from the very depths of our heart, then we never find anything but ourselves in our work. It is we who have invented the laws by which we judge it. It is our history, our love, our gaiety that we recognize in it. Even if we should regard it without touching it any further, we never receive from it that gaiety or love. We put them into it. The results which we have obtained on canvas or paper never seem to us objective. We are too familiar with the processes of which they are the effects. These processes remain a subjective discovery; they are ourselves, our inspiration, our ruse, and when we seek to perceive our work, we create it again, we repeat mentally the operations which produced it; each of its aspects appears as a result. Thus, in the perception, the object is given as the essential thing and the subject as the inessential. The latter seeks essentiality in the creation and obtains it, but then it is the object which becomes the inessential. The dialectic is nowhere more apparent than in the art of writing, for the literary object is a peculiar top which ex ists only in movement. To make it come into view a concrete act called reading is necessary, and it lasts only as long as this act can last. Beyond that, there are only black marks on paper. Now, the writer cannot read what he writes, whereas the shoemaker can put on the shoes he has just made if they are to his size, and the architect can live in the house he has built. In reading, one foresees; one waits. He foresees the end of the sentence, the following sentence, the next page. He waits for them to confirm or disappoint his foresights. The reading is composed of a host of hypotheses, followed by awakenings, of hopes and deceptions, Readers are always ahead of the sentence they are reading in a merely probable future which partly collapses and partly comes together in proportion as they progress, which withdraws from one page to the next and forms the moving horizon of the literary object. Without waiting, without a future, with out ignorance, there is no objectivity.",
+    "directions": "Direction for questions 23 to 25: Read the passage given below and solve the questions based on it.",
+    "question_text": "The art of writing manifests the dialectic of perception and creation because",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "reading reveals the writing till the act of reading lasts."
+      },
+      {
+        "label": "b",
+        "text": "writing to be meaningful needs the concrete act of reading."
+      },
+      {
+        "label": "c",
+        "text": "this art is anticipated and progresses on a series of hypotheses."
+      },
+      {
+        "label": "d",
+        "text": "this literary object has a moving horizon brought about by the very act of creation."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 26,
+    "question_code": "VARC-T2-Q26",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb1",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 26 to 28: The following sentences each contain two blanks, indicating that something has been left out of the sentence. Each answer choice contains one word or a set of words. Select the word or set of words, that, when inserted in the blank(s), best fits the context of the sentence.",
+    "question_text": "Although some think the terms “bug” and “insect” are __________, the former term actually refers to ________ group of insects.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "parallel, an identical"
+      },
+      {
+        "label": "b",
+        "text": "precise, an exact"
+      },
+      {
+        "label": "c",
+        "text": "inter changeable, a particular"
+      },
+      {
+        "label": "d",
+        "text": "exclusive, a separate"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 27,
+    "question_code": "VARC-T2-Q27",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb1",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 26 to 28: The following sentences each contain two blanks, indicating that something has been left out of the sentence. Each answer choice contains one word or a set of words. Select the word or set of words, that, when inserted in the blank(s), best fits the context of the sentence.",
+    "question_text": "The novel’s protagonist, a pearl diver, naïvely expects that the buyers will compete among themselves to pay him the best price for his pearl, but instead they ___________ to ___________ him.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "venture, reward"
+      },
+      {
+        "label": "b",
+        "text": "pretend, praise"
+      },
+      {
+        "label": "c",
+        "text": "conspire, reimburse"
+      },
+      {
+        "label": "d",
+        "text": "collude, swindle"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 28,
+    "question_code": "VARC-T2-Q28",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb1",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 26 to 28: The following sentences each contain two blanks, indicating that something has been left out of the sentence. Each answer choice contains one word or a set of words. Select the word or set of words, that, when inserted in the blank(s), best fits the context of the sentence.",
+    "question_text": "His ___________ sense of humour caused more ___________ than he must have intended.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "debunk, sobriety"
+      },
+      {
+        "label": "b",
+        "text": "wry, confusion"
+      },
+      {
+        "label": "c",
+        "text": "prominent, impudence"
+      },
+      {
+        "label": "d",
+        "text": "incorrigible, paucity"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 29,
+    "question_code": "VARC-T2-Q29",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr3",
+    "set_position": 1,
+    "context_passage": "Unreasonableness is a tendency to do socially permissible things at the wrong time. The unreasonable man is the sort of person who comes to confide in you when you are busy. He serenades his beloved when she is ill. He asks a man who has just lost money by paying a bill for a friend to pay a bill for him. He invites a friend to go for a ride just after the friend has finished a long car trip. He is eager to offer services which are not wanted but which cannot be politely refused. If he is present at arbitration, he stirs up dissension between the two parties, who were really anxious to agree. Such is the unreasonable man.",
+    "directions": "Direction for questions 29 and 30: For each of the two questions, indicate which of the statements given, with that particular question is consistent with the description of the unseasonable man in the passage below.",
+    "question_text": "He tends to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "enter tain women."
+      },
+      {
+        "label": "b",
+        "text": "be a successful arbitrator when dissenting part ies are anxious to agree."
+      },
+      {
+        "label": "c",
+        "text": "be helpful when solicited."
+      },
+      {
+        "label": "d",
+        "text": "tell a long story to people who have heard it many times before."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 30,
+    "question_code": "VARC-T2-Q30",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Critical Reasoning",
+    "set_id": "t2-cr3",
+    "set_position": 2,
+    "context_passage": "Unreasonableness is a tendency to do socially permissible things at the wrong time. The unreasonable man is the sort of person who comes to confide in you when you are busy. He serenades his beloved when she is ill. He asks a man who has just lost money by paying a bill for a friend to pay a bill for him. He invites a friend to go for a ride just after the friend has finished a long car trip. He is eager to offer services which are not wanted but which cannot be politely refused. If he is present at arbitration, he stirs up dissension between the two parties, who were really anxious to agree. Such is the unreasonable man.",
+    "directions": "Direction for questions 29 and 30: For each of the two questions, indicate which of the statements given, with that particular question is consistent with the description of the unseasonable man in the passage below.",
+    "question_text": "The unreasonable man tends to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "bring a higher bidder to a salesman who has just closed a deal."
+      },
+      {
+        "label": "b",
+        "text": "disclose confidential information to others."
+      },
+      {
+        "label": "c",
+        "text": "sing the praises of the bride when he goes to a wedding."
+      },
+      {
+        "label": "d",
+        "text": "sleep late and rise early."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 31,
+    "question_code": "VARC-T2-Q31",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb2",
+    "set_position": 1,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "Psychology has slowly evolved into an ________ scientific discipline that now functions autonomously with the same privileges and responsibility as other sciences.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "inde pendent"
+      },
+      {
+        "label": "b",
+        "text": "unusual"
+      },
+      {
+        "label": "c",
+        "text": "uncontrolled"
+      },
+      {
+        "label": "d",
+        "text": "inactive"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 32,
+    "question_code": "VARC-T2-Q32",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb2",
+    "set_position": 2,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "A major goal of law, to deter potential criminals by punishing wrongdoers, is not served when the penalty is so seldom invoked that it ________ to be a ________ threat.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "tend s…serious"
+      },
+      {
+        "label": "b",
+        "text": "appea rs…..real"
+      },
+      {
+        "label": "c",
+        "text": "cease s….credible"
+      },
+      {
+        "label": "d",
+        "text": "fails….deceptive"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 33,
+    "question_code": "VARC-T2-Q33",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb2",
+    "set_position": 3,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "When people are happy, they tend to give ________ interpretations of events they witness: the eye of the beholder is ________ by the emotions of the beholder.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "char itable…colored"
+      },
+      {
+        "label": "b",
+        "text": "elabo rate…..disquieted"
+      },
+      {
+        "label": "c",
+        "text": "vagu e…sharpened"
+      },
+      {
+        "label": "d",
+        "text": "coher ent….confused"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 34,
+    "question_code": "VARC-T2-Q34",
+    "section": "VARC",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Fill in the Blanks",
+    "set_id": "t2-fb2",
+    "set_position": 4,
+    "context_passage": "",
+    "directions": "Direction for questions 31 to 34: Each sentence below has one or two blanks, each blank indicating that something has been omitted. Beneath the sentence are four lettered words or sets of words. Choose the word or set of words for each blank that best fits the meaning of the sentence as a whole.",
+    "question_text": "Even those who disagreed with Carmen’s views rarely faulted her for expressing them, for the positions she took were as ________ as they were controversial.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "complicated"
+      },
+      {
+        "label": "b",
+        "text": "thoughtful"
+      },
+      {
+        "label": "c",
+        "text": "political"
+      },
+      {
+        "label": "d",
+        "text": "subjective Section Test 2 ❏ 5.19"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": true,
+    "removed": false
+  }
+]

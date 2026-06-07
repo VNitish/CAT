@@ -179,6 +179,52 @@ const practiceSessionSchema = new mongoose.Schema({
 }, { collection: 'practice_sessions', timestamps: true });
 practiceSessionSchema.index({ user_id: 1, topic: 1, status: 1 });
 
+// ── VARC question (Nishit Sinha VA-RC section tests) ──────────────────────────
+const varcQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  test:            { type: Number, enum: [1, 2, 3], index: true },
+  section:         { type: String, default: 'VARC' },
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'sequence'], default: 'option' },
+  topic:           String,
+  set_id:          String,
+  set_position:    Number,
+  context_passage: { type: String, default: '' },
+  directions:      { type: String, default: '' },
+  question_text:   String,
+  underline:       { type: String, default: '' },
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  question_number: Number,
+  source:          String,
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'varc_questions', timestamps: true });
+
+// ── VARC session (one attempt of a 34-question test) ──────────────────────────
+const varcSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test:            { type: Number, enum: [1, 2, 3] },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  // question_states: { [qId]: { status: 'answered'|'not-answered'|'marked'|'answered-marked'|'not-visited', answer: string|null } }
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  time_left:       { type: Number, default: 60 * 60 }, // seconds; may go negative
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'varc_sessions', timestamps: true });
+varcSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
 const Question        = mongoose.model('Question', questionSchema);
 const QuestionPaper   = mongoose.model('QuestionPaper', paperSchema);
 const ExamPaper       = mongoose.model('ExamPaper', examPaperSchema);
@@ -186,6 +232,8 @@ const User            = mongoose.model('User', userSchema);
 const Attempt         = mongoose.model('Attempt', attemptSchema);
 const TopicQuestion   = mongoose.model('TopicQuestion', topicQuestionSchema);
 const PracticeSession = mongoose.model('PracticeSession', practiceSessionSchema);
+const VarcQuestion    = mongoose.model('VarcQuestion', varcQuestionSchema);
+const VarcSession     = mongoose.model('VarcSession', varcSessionSchema);
 
 // ── Middleware ────────────────────────────────────────────────────────────────
 function authMiddleware(req, res, next) {
@@ -844,6 +892,255 @@ app.get('/api/practice/history', authMiddleware, async (req, res) => {
     const sessions = await PracticeSession.find(
       { user_id: req.user._id, status: 'submitted' },
       'topic lod score finished_at createdAt'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+//  VARC Mocks (Nishit Sinha VA-RC section tests 1–3)
+// ════════════════════════════════════════════════════════════════════════════
+
+// Fields safe to expose before submission (withholds correct_answer + explanation)
+const VARC_SAFE_PROJECTION =
+  'question_code test section question_type answer_format topic set_id set_position ' +
+  'context_passage directions question_text underline options marks_correct marks_incorrect question_number';
+
+function orderedSessionQuestions(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+function normalizeAnswer(ans, format) {
+  if (ans == null) return '';
+  const s = String(ans).trim();
+  if (format === 'sequence') return s.toUpperCase().replace(/[^A-Z]/g, '');
+  return s.toLowerCase();
+}
+
+// GET /api/varc-tests — list the three tests with question counts
+app.get('/api/varc-tests', async (req, res) => {
+  try {
+    const rows = await VarcQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: { _id: '$test', count: { $sum: 1 } } },
+      { $sort: { _id: 1 } },
+    ]);
+    const byTest = {};
+    rows.forEach(r => { byTest[r._id] = r.count; });
+    const tests = [1, 2, 3].map(t => ({
+      test: t,
+      title: `Section Test ${t}`,
+      questions: byTest[t] || 0,
+      duration_minutes: 60,
+      marks: (byTest[t] || 0) * 3,
+    }));
+    res.json(tests);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/varc/start — resume-first: return the in-progress session if one
+// exists for this user+test, otherwise create a fresh one with all 34 questions.
+// Body: { test }
+app.post('/api/varc/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (![1, 2, 3].includes(test)) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await VarcSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await VarcQuestion
+      .find({ test, removed: { $ne: true } }, VARC_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+
+    if (!session) {
+      session = await VarcSession.create({
+        user_id:         req.user._id,
+        test,
+        status:          'in_progress',
+        question_ids:    docs.map(q => q._id),
+        question_states: {},
+        time_left:       60 * 60,
+        started_at:      new Date(),
+      });
+    }
+
+    const questions = orderedSessionQuestions(session, docs);
+    res.json({
+      session_id:      session._id,
+      test,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      status:          session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/varc/active?test=N — resume or read the latest session for this test
+app.get('/api/varc/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (![1, 2, 3].includes(test)) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await VarcSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await VarcSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : VARC_SAFE_PROJECTION;
+    const docs = await VarcQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const questions = orderedSessionQuestions(session, docs);
+
+    res.json({
+      state:           isFinished ? 'finished' : 'in_progress',
+      session_id:      session._id,
+      test,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      score:           isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/varc/:sid/save — persist question_states + time_left (no scoring)
+// Body: { question_states, time_left }
+app.post('/api/varc/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await VarcSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/varc/:sid/submit — server-side scoring, then reveal answers
+// Body: { question_states, time_left }
+app.post('/api/varc/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await VarcSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await VarcQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue; // not attempted
+      const key = normalizeAnswer(q.correct_answer, q.answer_format);
+      if (given === key) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = {
+      total:     net,
+      attempted: correct + incorrect,
+      correct,
+      incorrect,
+      max_score: maxScore,
+    };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/varc/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/varc/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await VarcSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const projection = reveal ? '' : VARC_SAFE_PROJECTION;
+    const docs = await VarcQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const ordered = orderedSessionQuestions(session, docs);
+    const states = session.question_states || {};
+
+    const questions = ordered.map(q => {
+      const st = states[String(q._id)] || {};
+      const out = { ...q, user_answer: st.answer || '', user_status: st.status || 'not-visited' };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id: session._id,
+      test:       session.test,
+      status:     session.status,
+      score:      session.score || null,
+      time_left:  session.time_left,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/varc/history — list this user's submitted VARC sessions
+app.get('/api/varc/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await VarcSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test score finished_at createdAt'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
   } catch (e) {
