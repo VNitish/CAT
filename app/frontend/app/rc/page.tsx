@@ -5,13 +5,11 @@ import { useAuth } from '@/contexts/AuthContext';
 
 const F = '"DM Sans", "Inter", "Segoe UI", Arial, sans-serif';
 
-const TEST_COLOR: Record<number, string> = {
-  1: '#378ADD',
-  2: '#9B6DFF',
-  3: '#EC4899',
-};
+// 10 tests — cycle through a small palette of accent colours
+const PALETTE = ['#378ADD', '#9B6DFF', '#EC4899', '#00C48C', '#F59E0B', '#EF4444'];
+const testColor = (t: number) => PALETTE[(t - 1) % PALETTE.length];
 
-interface VarcTest {
+interface RcTest {
   test: number;
   title: string;
   questions: number;
@@ -19,14 +17,14 @@ interface VarcTest {
   marks: number;
 }
 
-export default function VarcPage() {
+export default function RcPage() {
   const router = useRouter();
   const { user, loading: authLoading, logout } = useAuth();
-  const [tests, setTests] = useState<VarcTest[]>([]);
+  const [tests, setTests] = useState<RcTest[]>([]);
   const [dbStatus, setDbStatus] = useState<'checking' | 'connected' | 'empty' | 'error'>('checking');
 
   useEffect(() => {
-    fetch('/api/varc-tests')
+    fetch('/api/rc-tests')
       .then(r => r.json())
       .then(d => {
         if (Array.isArray(d)) {
@@ -58,7 +56,7 @@ export default function VarcPage() {
             <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3, fontFamily: F }}>PaperRoom</span>
           </div>
           <div style={{ width: 1, height: 16, background: '#2a2a2a' }} />
-          <span style={{ fontSize: 13, color: '#555555', fontFamily: F }}>VARC Mocks</span>
+          <span style={{ fontSize: 13, color: '#555555', fontFamily: F }}>Reading Comprehension</span>
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <div style={{ width: 6, height: 6, background: dbStatus === 'connected' ? '#00C48C' : dbStatus === 'error' ? '#ef4444' : '#f59e0b' }} />
             <span style={{ fontSize: 11, color: '#444444', fontFamily: F }}>
@@ -67,8 +65,8 @@ export default function VarcPage() {
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <button onClick={() => router.push('/rc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            RC Tests
+          <button onClick={() => router.push('/varc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            VARC Mocks
           </button>
           <button onClick={() => router.push('/quant')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant Practice
@@ -102,10 +100,10 @@ export default function VarcPage() {
       <div style={{ borderBottom: '1px solid #e4e4e4', background: '#ffffff' }}>
         <div style={{ maxWidth: 960, margin: '0 auto', padding: '28px 40px' }}>
           <h1 style={{ margin: '0 0 5px', fontSize: 20, fontWeight: 700, color: '#121212', letterSpacing: -0.3, fontFamily: F }}>
-            VARC Section Mocks
+            Reading Comprehension Tests
           </h1>
           <p style={{ margin: 0, fontSize: 13, color: '#777777', fontFamily: F }}>
-            3 section tests &nbsp;&middot;&nbsp; 34 questions each &nbsp;&middot;&nbsp; 60 minutes &nbsp;&middot;&nbsp; +3 / &minus;1 (0 for non-MCQ) &nbsp;&middot;&nbsp; Nishit Sinha VA-RC
+            10 tests &nbsp;&middot;&nbsp; 4 passages each &nbsp;&middot;&nbsp; +3 / &minus;1 &nbsp;&middot;&nbsp; Nishit Sinha &ldquo;RC A Day&rdquo;
           </p>
         </div>
       </div>
@@ -116,7 +114,7 @@ export default function VarcPage() {
         {dbStatus === 'empty' && (
           <div style={{ textAlign: 'center', padding: '60px 0', color: '#aaa' }}>
             <div style={{ fontSize: 14, marginBottom: 8 }}>Question bank not seeded yet.</div>
-            <div style={{ fontSize: 12, color: '#ccc' }}>Run <code>node api/seed_varc.js</code> to populate.</div>
+            <div style={{ fontSize: 12, color: '#ccc' }}>Run <code>node api/seed_rc.js</code> to populate.</div>
           </div>
         )}
 
@@ -128,7 +126,7 @@ export default function VarcPage() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 1, background: '#e4e4e4' }}>
           {tests.map(t => {
-            const color = TEST_COLOR[t.test] ?? '#378ADD';
+            const color = testColor(t.test);
             return (
               <div
                 key={t.test}
@@ -140,7 +138,7 @@ export default function VarcPage() {
                 <div style={{ padding: '16px 18px 18px' }}>
                   <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 14 }}>
                     <div>
-                      <div style={{ fontSize: 10, fontWeight: 700, color: '#aaaaaa', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 4, fontFamily: F }}>Section Test</div>
+                      <div style={{ fontSize: 10, fontWeight: 700, color: '#aaaaaa', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 4, fontFamily: F }}>RC Test</div>
                       <div style={{ fontSize: 14, fontWeight: 600, color: '#121212', letterSpacing: -0.2, fontFamily: F }}>{t.title}</div>
                     </div>
                     <span style={{ fontSize: 11, color: '#777', background: '#f5f5f5', border: '1px solid #eeeeee', padding: '3px 8px', fontFamily: F, flexShrink: 0 }}>{t.questions}Q</span>
@@ -161,7 +159,7 @@ export default function VarcPage() {
 
                   {user ? (
                     <button
-                      onClick={() => router.push(`/varc/${t.test}/instructions`)}
+                      onClick={() => router.push(`/rc/${t.test}/instructions`)}
                       style={{ width: '100%', padding: '9px', background: '#00C48C', color: '#fff', border: 'none', fontSize: 12, fontWeight: 600, fontFamily: F, cursor: 'pointer', transition: 'background 150ms' }}
                       onMouseEnter={e => { e.currentTarget.style.background = '#00a876'; }}
                       onMouseLeave={e => { e.currentTarget.style.background = '#00C48C'; }}

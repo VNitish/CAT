@@ -1,0 +1,602 @@
+[
+  {
+    "test": 1,
+    "question_number": 1,
+    "question_code": "RC-T1-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p1",
+    "set_position": 1,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it, if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements 2 they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following conclusion can be drawn from the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Experimental data might support multiple theoretical explanations at the same time, hence, validity of theories needs to be tested further."
+      },
+      {
+        "label": "b",
+        "text": "Precise measurement is a sufficient condition to ensure validity of conclusions resulting from an experiment."
+      },
+      {
+        "label": "c",
+        "text": "Precise measurement is both a necessary and sufficient condition to ensure validity of conclusions resulting from an experiment."
+      },
+      {
+        "label": "d",
+        "text": "Precise measurement along with experimenter’s knowledge of the theory underpinning the experiment is sufficient to ensure the validity of conclusions drawn from experiments."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 2,
+    "question_code": "RC-T1-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p1",
+    "set_position": 2,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it, if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements 2 they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage given below and solve the questions based on it.",
+    "question_text": "As per Mayo’s perspective, which of the following best defines the phrase ‘scientific explanation’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "One which is most detailed in its explanation of natural phenomena."
+      },
+      {
+        "label": "b",
+        "text": "One which has been thoroughly tested by scientific experts."
+      },
+      {
+        "label": "c",
+        "text": "One which survives examinations better than other explanations."
+      },
+      {
+        "label": "d",
+        "text": "One which refutes other explanations convincingly."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 3,
+    "question_code": "RC-T1-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p1",
+    "set_position": 3,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it, if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements 2 they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage given below and solve the questions based on it.",
+    "question_text": "The author’s use of Snell’s law of refraction to illustrate Mayo’s perspective can best said to be",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "contrived."
+      },
+      {
+        "label": "b",
+        "text": "premeditated."
+      },
+      {
+        "label": "c",
+        "text": "superfluous."
+      },
+      {
+        "label": "d",
+        "text": "illustrative."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 4,
+    "question_code": "RC-T1-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p2",
+    "set_position": 1,
+    "context_passage": "Though the last twenty-five years have seen China dazzle the world with its excellent economic performance it has shied away from playing the kind of active role in international affairs that would seem commensurate with its economic weight. This is because traditionally China’s politics have been defined by the need for economic development above all else. In the past, China’s authorities have tended to downplay the country’s international clout, choosing to stress instead its developing country status and limited military capabilities. Such modest rhetoric was intended to allay the fears that China’s rise was causing across its immediate neighbourhood. That Beijing is finally acknowledging its status as a major player in the international system is evidenced by the fact that the President has formally developed a theory of international relations; the concept of harmonious world. The concept, encompassing broad notions of multilateralism, prosperity for all through common development and tolerance for diversity has left world opinion perplexed. These are commendable objectives but the theory is short on specifics regarding the means to achieve them. China’s recent willingness to be a more active player internationally stems from complex factors. The country’s economic strength—having acquired the largest foreign exchange reserves in the world—is undeniable and reports favour it to be the largest economy in the next quarter of a century. For sustained double digit economic growth China, thus, has no choice but to become more active internationally. Moreover as a major proportion of the oil and other natural resources that China needs to feed its growing economy are imported, Beijing has to aggressively woo the countries rich in energy resources, which also represent emerging markets for Chinese products. To ensure a stable security environment within the region and thus facilitate economic growth. China played an active role in facilitating negotiations with North Korea. Destabilization of a potential flashpoint like the Korean peninsula would lead to a flood of refugees crossing the border, interrupting careful plans of economic rejuvenation of China’s North—East. China’s growing influence has caused a shift in the geopolitical status quo and its influence is beginning to replace that of the United States and European powers in Africa. China’s new diplomacy though has had its share of critics who have expressed their unease at China’s military modernization programme and its willingness to deal with regimes widely condemned as corrupt and oppressive. Despite this, when Africa was in need of aid and infrastructure or the US needed help in negotiating with Korea they turned to China. By taking a lead in a variety of international and regional forums, initiating bilateral and military exchanges and dispensing aid and technical assistance in parts of the world where traditional powers are cautions to tread China has signed that its days of sitting on the sidelines, content to let others shape world affairs are emphatically over.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why has China traditionally been a passive spectator in global affairs?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To safeguard its oil resources."
+      },
+      {
+        "label": "b",
+        "text": "To maintain security in its vicinity."
+      },
+      {
+        "label": "c",
+        "text": "To conceal its economic predicament."
+      },
+      {
+        "label": "d",
+        "text": "To focus on domestic economic growth."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 5,
+    "question_code": "RC-T1-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p2",
+    "set_position": 2,
+    "context_passage": "Though the last twenty-five years have seen China dazzle the world with its excellent economic performance it has shied away from playing the kind of active role in international affairs that would seem commensurate with its economic weight. This is because traditionally China’s politics have been defined by the need for economic development above all else. In the past, China’s authorities have tended to downplay the country’s international clout, choosing to stress instead its developing country status and limited military capabilities. Such modest rhetoric was intended to allay the fears that China’s rise was causing across its immediate neighbourhood. That Beijing is finally acknowledging its status as a major player in the international system is evidenced by the fact that the President has formally developed a theory of international relations; the concept of harmonious world. The concept, encompassing broad notions of multilateralism, prosperity for all through common development and tolerance for diversity has left world opinion perplexed. These are commendable objectives but the theory is short on specifics regarding the means to achieve them. China’s recent willingness to be a more active player internationally stems from complex factors. The country’s economic strength—having acquired the largest foreign exchange reserves in the world—is undeniable and reports favour it to be the largest economy in the next quarter of a century. For sustained double digit economic growth China, thus, has no choice but to become more active internationally. Moreover as a major proportion of the oil and other natural resources that China needs to feed its growing economy are imported, Beijing has to aggressively woo the countries rich in energy resources, which also represent emerging markets for Chinese products. To ensure a stable security environment within the region and thus facilitate economic growth. China played an active role in facilitating negotiations with North Korea. Destabilization of a potential flashpoint like the Korean peninsula would lead to a flood of refugees crossing the border, interrupting careful plans of economic rejuvenation of China’s North—East. China’s growing influence has caused a shift in the geopolitical status quo and its influence is beginning to replace that of the United States and European powers in Africa. China’s new diplomacy though has had its share of critics who have expressed their unease at China’s military modernization programme and its willingness to deal with regimes widely condemned as corrupt and oppressive. Despite this, when Africa was in need of aid and infrastructure or the US needed help in negotiating with Korea they turned to China. By taking a lead in a variety of international and regional forums, initiating bilateral and military exchanges and dispensing aid and technical assistance in parts of the world where traditional powers are cautions to tread China has signed that its days of sitting on the sidelines, content to let others shape world affairs are emphatically over.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following best describes China’s current international status?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Cause of insecurity among developing nations."
+      },
+      {
+        "label": "b",
+        "text": "Largest economy in the world."
+      },
+      {
+        "label": "c",
+        "text": "Largest donor of aid to developing countries."
+      },
+      {
+        "label": "d",
+        "text": "Pioneer of implementing a ‘harmonious world’ philosophy."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 6,
+    "question_code": "RC-T1-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p2",
+    "set_position": 3,
+    "context_passage": "Though the last twenty-five years have seen China dazzle the world with its excellent economic performance it has shied away from playing the kind of active role in international affairs that would seem commensurate with its economic weight. This is because traditionally China’s politics have been defined by the need for economic development above all else. In the past, China’s authorities have tended to downplay the country’s international clout, choosing to stress instead its developing country status and limited military capabilities. Such modest rhetoric was intended to allay the fears that China’s rise was causing across its immediate neighbourhood. That Beijing is finally acknowledging its status as a major player in the international system is evidenced by the fact that the President has formally developed a theory of international relations; the concept of harmonious world. The concept, encompassing broad notions of multilateralism, prosperity for all through common development and tolerance for diversity has left world opinion perplexed. These are commendable objectives but the theory is short on specifics regarding the means to achieve them. China’s recent willingness to be a more active player internationally stems from complex factors. The country’s economic strength—having acquired the largest foreign exchange reserves in the world—is undeniable and reports favour it to be the largest economy in the next quarter of a century. For sustained double digit economic growth China, thus, has no choice but to become more active internationally. Moreover as a major proportion of the oil and other natural resources that China needs to feed its growing economy are imported, Beijing has to aggressively woo the countries rich in energy resources, which also represent emerging markets for Chinese products. To ensure a stable security environment within the region and thus facilitate economic growth. China played an active role in facilitating negotiations with North Korea. Destabilization of a potential flashpoint like the Korean peninsula would lead to a flood of refugees crossing the border, interrupting careful plans of economic rejuvenation of China’s North—East. China’s growing influence has caused a shift in the geopolitical status quo and its influence is beginning to replace that of the United States and European powers in Africa. China’s new diplomacy though has had its share of critics who have expressed their unease at China’s military modernization programme and its willingness to deal with regimes widely condemned as corrupt and oppressive. Despite this, when Africa was in need of aid and infrastructure or the US needed help in negotiating with Korea they turned to China. By taking a lead in a variety of international and regional forums, initiating bilateral and military exchanges and dispensing aid and technical assistance in parts of the world where traditional powers are cautions to tread China has signed that its days of sitting on the sidelines, content to let others shape world affairs are emphatically over.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What has been the fall out of China’s increased participation in world affairs?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "International scrutiny of its economic policies."
+      },
+      {
+        "label": "b",
+        "text": "Growth of corruption among its politicians."
+      },
+      {
+        "label": "c",
+        "text": "Its influence and prestige have grown substantially."
+      },
+      {
+        "label": "d",
+        "text": "Its growth rate has stabilized."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 7,
+    "question_code": "RC-T1-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p2",
+    "set_position": 4,
+    "context_passage": "Though the last twenty-five years have seen China dazzle the world with its excellent economic performance it has shied away from playing the kind of active role in international affairs that would seem commensurate with its economic weight. This is because traditionally China’s politics have been defined by the need for economic development above all else. In the past, China’s authorities have tended to downplay the country’s international clout, choosing to stress instead its developing country status and limited military capabilities. Such modest rhetoric was intended to allay the fears that China’s rise was causing across its immediate neighbourhood. That Beijing is finally acknowledging its status as a major player in the international system is evidenced by the fact that the President has formally developed a theory of international relations; the concept of harmonious world. The concept, encompassing broad notions of multilateralism, prosperity for all through common development and tolerance for diversity has left world opinion perplexed. These are commendable objectives but the theory is short on specifics regarding the means to achieve them. China’s recent willingness to be a more active player internationally stems from complex factors. The country’s economic strength—having acquired the largest foreign exchange reserves in the world—is undeniable and reports favour it to be the largest economy in the next quarter of a century. For sustained double digit economic growth China, thus, has no choice but to become more active internationally. Moreover as a major proportion of the oil and other natural resources that China needs to feed its growing economy are imported, Beijing has to aggressively woo the countries rich in energy resources, which also represent emerging markets for Chinese products. To ensure a stable security environment within the region and thus facilitate economic growth. China played an active role in facilitating negotiations with North Korea. Destabilization of a potential flashpoint like the Korean peninsula would lead to a flood of refugees crossing the border, interrupting careful plans of economic rejuvenation of China’s North—East. China’s growing influence has caused a shift in the geopolitical status quo and its influence is beginning to replace that of the United States and European powers in Africa. China’s new diplomacy though has had its share of critics who have expressed their unease at China’s military modernization programme and its willingness to deal with regimes widely condemned as corrupt and oppressive. Despite this, when Africa was in need of aid and infrastructure or the US needed help in negotiating with Korea they turned to China. By taking a lead in a variety of international and regional forums, initiating bilateral and military exchanges and dispensing aid and technical assistance in parts of the world where traditional powers are cautions to tread China has signed that its days of sitting on the sidelines, content to let others shape world affairs are emphatically over.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is TRUE in the context of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "China’s current political standing internationally disproportionate to its financial strength."
+      },
+      {
+        "label": "b",
+        "text": "China is a reluctant participant in military dialogues."
+      },
+      {
+        "label": "c",
+        "text": "The harmonious world theory is the only utilitarian remedy to the current challenges facing the world."
+      },
+      {
+        "label": "d",
+        "text": "US has recognized and acknowledged China’ growing international reputation."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 8,
+    "question_code": "RC-T1-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p3",
+    "set_position": 1,
+    "context_passage": "In 1980, the US Supreme Court overturned decades of legal precedents that said that naturally occurring phenomenon, such as bacteria, could not be patented because they were discoveries rather than inventions. Yet that year, the Court decided that a biologist named Chakrabarty could patent a hybridized bacterium because, ‘his discovery was his handiwork, not that of nature’. A majority of the judges reiterated that, ‘a new mineral discovered in the earth or a new plant discovered in the wild is not patentable’. Yet they believed that Chakrabarty had concocted something new using his own ingenuity. Even Chakrabarty was surprised. He had simply cultured different strains of bacteria in the belief that they would exchange genetic material in a laboratory soup. The then embryonic industry used the case to argue that patents should be issued on gene, proteins and other materials of commercial value. By 1980s, the US Patent Office had embarked on a far-reaching change of policy to propel the US industry forward, routinely issuing patents on products of nature including genes, fragments of genes and human proteins. In 1987 for example, Genetics Institute Inc. was awarded a patent on erythropoietin, a protein of 165 amino acids that stimulates the production of red blood cells. It did not claim to have invented the protein: it had extracted small amounts of the naturally occurring substance from thousands of gallons of urine. Erythropoietin is now a multi-billion dollar-a-year treatment. The industry’s argument is that innovation prospers only when it is rewarded. Without rewards, innovation will not take place. The barriers to entry into biotechnology are relatively low. Biotechnology companies do not have to build costly factories of high street retail outlets or invest in brand reputations. The basic units of production are bacteria manipulated to deliver therapeutically and commercially valuable substances. Without the protection of a patent, an innovative biotechnology company will find its discoveries quickly copied by later entrant. If the ownership of rights to exploit a genetic discovery were left unclear, there would be less innovation in the economy as a whole and we would all be worse off. The biotechnology industry in USA is larger than anywhere else, in part because innovators there have been allowed to patent their ‘inventions’. In 1998, there were almost 1500 patents claiming rights to exploit human gene sequences. Yet the ownership regime for industries and products spawned by genetics is far from settled. A practical argument is about what should be owned—the gene or the treatment. The cystic fibrosis gene, for example, is patented, and anyone who makes or uses a diagnostic kit that uses knowledge of the gene sequence has to pay royalty to the patent holder. Many would argue that this is too broad a patent, which may be excessively strong and slow down innovation. As we move into the knowledge economy, issues such as the breadth and scope of a patent, the standards of novelty, even the duration, will become more problematical. To put in another way, who should own what and for how long will become more of an issue in a knowledge driven economy. That is because incentives to exploit knowledge need to be set against the value of sharing it. Scientific enquiry proceeds as a result of collaboration, the sharing and testing of ideas. We are lucky that James Watson and his collaborator Francis Creek did not work for Genentech or Glaxo Wellcome because every genetic researcher would now be paying a royalty to use their discovery. Genetics, as most sciences, is built on bedrock of shared knowledge. The more basic the knowledge, the more inappropriate strong property rights and exclusive private ownership becomes. Privatisation of knowledge may make it less likely that know-how will be shared. PerkinElme will publish its research on the human genome, but only once in three months and the company will reserve at least 300 genes for its own patent programme. Publicly funded researchers share their results more openly and more frequently.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "The erythropoietin episode shows that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "patenting is the only way to encourage exploration of new ideas."
+      },
+      {
+        "label": "b",
+        "text": "patenting accelerates exploitation of new ideas."
+      },
+      {
+        "label": "c",
+        "text": "claims to patentability are often false."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Patent resulted in a commercial treatment we can say that patenting gives a boost to new ideas.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 9,
+    "question_code": "RC-T1-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p3",
+    "set_position": 2,
+    "context_passage": "In 1980, the US Supreme Court overturned decades of legal precedents that said that naturally occurring phenomenon, such as bacteria, could not be patented because they were discoveries rather than inventions. Yet that year, the Court decided that a biologist named Chakrabarty could patent a hybridized bacterium because, ‘his discovery was his handiwork, not that of nature’. A majority of the judges reiterated that, ‘a new mineral discovered in the earth or a new plant discovered in the wild is not patentable’. Yet they believed that Chakrabarty had concocted something new using his own ingenuity. Even Chakrabarty was surprised. He had simply cultured different strains of bacteria in the belief that they would exchange genetic material in a laboratory soup. The then embryonic industry used the case to argue that patents should be issued on gene, proteins and other materials of commercial value. By 1980s, the US Patent Office had embarked on a far-reaching change of policy to propel the US industry forward, routinely issuing patents on products of nature including genes, fragments of genes and human proteins. In 1987 for example, Genetics Institute Inc. was awarded a patent on erythropoietin, a protein of 165 amino acids that stimulates the production of red blood cells. It did not claim to have invented the protein: it had extracted small amounts of the naturally occurring substance from thousands of gallons of urine. Erythropoietin is now a multi-billion dollar-a-year treatment. The industry’s argument is that innovation prospers only when it is rewarded. Without rewards, innovation will not take place. The barriers to entry into biotechnology are relatively low. Biotechnology companies do not have to build costly factories of high street retail outlets or invest in brand reputations. The basic units of production are bacteria manipulated to deliver therapeutically and commercially valuable substances. Without the protection of a patent, an innovative biotechnology company will find its discoveries quickly copied by later entrant. If the ownership of rights to exploit a genetic discovery were left unclear, there would be less innovation in the economy as a whole and we would all be worse off. The biotechnology industry in USA is larger than anywhere else, in part because innovators there have been allowed to patent their ‘inventions’. In 1998, there were almost 1500 patents claiming rights to exploit human gene sequences. Yet the ownership regime for industries and products spawned by genetics is far from settled. A practical argument is about what should be owned—the gene or the treatment. The cystic fibrosis gene, for example, is patented, and anyone who makes or uses a diagnostic kit that uses knowledge of the gene sequence has to pay royalty to the patent holder. Many would argue that this is too broad a patent, which may be excessively strong and slow down innovation. As we move into the knowledge economy, issues such as the breadth and scope of a patent, the standards of novelty, even the duration, will become more problematical. To put in another way, who should own what and for how long will become more of an issue in a knowledge driven economy. That is because incentives to exploit knowledge need to be set against the value of sharing it. Scientific enquiry proceeds as a result of collaboration, the sharing and testing of ideas. We are lucky that James Watson and his collaborator Francis Creek did not work for Genentech or Glaxo Wellcome because every genetic researcher would now be paying a royalty to use their discovery. Genetics, as most sciences, is built on bedrock of shared knowledge. The more basic the knowledge, the more inappropriate strong property rights and exclusive private ownership becomes. Privatisation of knowledge may make it less likely that know-how will be shared. PerkinElme will publish its research on the human genome, but only once in three months and the company will reserve at least 300 genes for its own patent programme. Publicly funded researchers share their results more openly and more frequently.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "After reading the passage, which of the following statements do you think captures best, the tenor of the piece?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The author is unequivocal about undesirability of a patenting system."
+      },
+      {
+        "label": "b",
+        "text": "The author explores the complexities in patenting."
+      },
+      {
+        "label": "c",
+        "text": "The author deliberately obfuscates issues."
+      },
+      {
+        "label": "d",
+        "text": "The passage is boring about."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Passage mentions both the advantages and disadvantages of patenting, hence, option (b) is the answer.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 10,
+    "question_code": "RC-T1-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p3",
+    "set_position": 3,
+    "context_passage": "In 1980, the US Supreme Court overturned decades of legal precedents that said that naturally occurring phenomenon, such as bacteria, could not be patented because they were discoveries rather than inventions. Yet that year, the Court decided that a biologist named Chakrabarty could patent a hybridized bacterium because, ‘his discovery was his handiwork, not that of nature’. A majority of the judges reiterated that, ‘a new mineral discovered in the earth or a new plant discovered in the wild is not patentable’. Yet they believed that Chakrabarty had concocted something new using his own ingenuity. Even Chakrabarty was surprised. He had simply cultured different strains of bacteria in the belief that they would exchange genetic material in a laboratory soup. The then embryonic industry used the case to argue that patents should be issued on gene, proteins and other materials of commercial value. By 1980s, the US Patent Office had embarked on a far-reaching change of policy to propel the US industry forward, routinely issuing patents on products of nature including genes, fragments of genes and human proteins. In 1987 for example, Genetics Institute Inc. was awarded a patent on erythropoietin, a protein of 165 amino acids that stimulates the production of red blood cells. It did not claim to have invented the protein: it had extracted small amounts of the naturally occurring substance from thousands of gallons of urine. Erythropoietin is now a multi-billion dollar-a-year treatment. The industry’s argument is that innovation prospers only when it is rewarded. Without rewards, innovation will not take place. The barriers to entry into biotechnology are relatively low. Biotechnology companies do not have to build costly factories of high street retail outlets or invest in brand reputations. The basic units of production are bacteria manipulated to deliver therapeutically and commercially valuable substances. Without the protection of a patent, an innovative biotechnology company will find its discoveries quickly copied by later entrant. If the ownership of rights to exploit a genetic discovery were left unclear, there would be less innovation in the economy as a whole and we would all be worse off. The biotechnology industry in USA is larger than anywhere else, in part because innovators there have been allowed to patent their ‘inventions’. In 1998, there were almost 1500 patents claiming rights to exploit human gene sequences. Yet the ownership regime for industries and products spawned by genetics is far from settled. A practical argument is about what should be owned—the gene or the treatment. The cystic fibrosis gene, for example, is patented, and anyone who makes or uses a diagnostic kit that uses knowledge of the gene sequence has to pay royalty to the patent holder. Many would argue that this is too broad a patent, which may be excessively strong and slow down innovation. As we move into the knowledge economy, issues such as the breadth and scope of a patent, the standards of novelty, even the duration, will become more problematical. To put in another way, who should own what and for how long will become more of an issue in a knowledge driven economy. That is because incentives to exploit knowledge need to be set against the value of sharing it. Scientific enquiry proceeds as a result of collaboration, the sharing and testing of ideas. We are lucky that James Watson and his collaborator Francis Creek did not work for Genentech or Glaxo Wellcome because every genetic researcher would now be paying a royalty to use their discovery. Genetics, as most sciences, is built on bedrock of shared knowledge. The more basic the knowledge, the more inappropriate strong property rights and exclusive private ownership becomes. Privatisation of knowledge may make it less likely that know-how will be shared. PerkinElme will publish its research on the human genome, but only once in three months and the company will reserve at least 300 genes for its own patent programme. Publicly funded researchers share their results more openly and more frequently.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "Chakrabarty patent issue shows that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "patent authorities are infallible."
+      },
+      {
+        "label": "b",
+        "text": "patent systems are adhoc."
+      },
+      {
+        "label": "c",
+        "text": "patenting rationale is socially embedded and evolutionary."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Look at the first paragraph – it is stated that the court went against its own guidelines, hence, it can be said that the system is ad hoc.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 11,
+    "question_code": "RC-T1-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p4",
+    "set_position": 1,
+    "context_passage": "Kodak decided that traditional film and prints would continue to dominate through the 1980s and that photo finishers, film retailers, and, of course, Kodak itself could expect to continue to occupy their long-held positions until 1990. Kodak was right and wrong. The quality of digital cameras greatly improved. Prices plunged because the cameras generally followed Moore’s Law, the famous prediction by Intel co-founder Gordon Moore in the 1960s that the cost of a unit of computing power would fall by 50 per cent every eighteen to twenty-four months. Cameras began to be equipped with what the industry called removable media – those little cards that hold the pictures – so pictures were easier to print or to move to other devices, such as computers. Printers improved. Their costs dropped, too. The internet caught the popular imagination, and people began e-mailing each other pictures rather than print them. Kodak did little to ready itself for the onslaught of digital technology because it consistently tried to hold on to the profits from its old technology and underestimated the speed with which the new would take hold. Kodak decided it could use digital technology to enhance film, rather than replace it. Instead of preparing for the digital world, Kodak headed off in a direction that cost it dearly. In 1988, Kodak bought sterling drug for $5.1 billion. Kodak had decided it was really a chemicals business, not a photography company. So, Kodak reasoned, it should move into adjacent chemical markets, such as drugs. Well, chemically treated photo paper really is not that similar to hormonal agents and cardiovascular drugs. The customers are different. The delivery channels are different. Kodak lost its shirt. It sold sterling in pieces in 1994 for about half the original purchase price. George M.C. Fisher was the new CEO of Kodak in 1993. Fisher’s solution was to hold on to the film business as long as possible, while adding a technology veneer to it. For instance, he introduced the advantix preview camera, a hybrid of digital and film technology. User took pictures the way they always had, and the images were captured on film. Kodak spent more than $500 million developing advantix, which flopped. Fisher also tried to move Kodak’s traditional retail photo- processing systems into digital world and in this regard installed tens of thousands of image magic kiosks. These kiosks came just as numerous companies introduced in-expensive, high-quality photo printers that people could use at home, which, in fact, is where customers preferred to view their images and fiddle with them. Fisher also tried to insert Kodak as an intermediary in the process of sharing images electronically. He formed partnerships that let customers receive electronic versions of their photos by e-mail and gave them access to kiosks that let them manipulate and reproduce old photographs. You do not need Kodak to upload photos to your computer and e-mail them. Fisher also formed a partnership with AOL called, ‘You have Got Pictures.’ Customers would have their film developed and posted online, where friends and family could view them. Customers would pay AOL $7 for this privilege, on top of the $9 paid for photo-processing. However, sites like snapfish were allowing pictures to be posted online free. Fisher promised early on, that Kodak’s digital-photography business would be profitable by 1997. It was not. In 1997 Philippe Kahn led the advent of cell phone camera. With the cell phone camera market growth, Kodak did not just lose out on more prints. The whole industry lost out on sales of digital cameras, because they became just a feature that was given away free on cell phones. Soon cameras became a free feature on many personal computers, too. What had been so profitable for Kodak for so long- capturing images and displaying them was going to become essentially free. In 1999, Fisher resigned and Carp became to new CEO. In 2000, Carp’s first year as CEO, profit was about flat, at $1.41 billion. Carp, too, retired early, at age fifty-seven. Carp had pursued Fisher’s basic strategy of ‘enhancing’ the film business to make it last as long as possible, while trying to figure out some way to get recurring revenue from the filmless, digital world. But the temporizing did not work any better for Carp than it had for Fisher. Kodak talked, for instance, about getting customers to digitize and upload to the internet more of the 300 million rolls of film that Kodak processed annually, as of 2000. Instead, customers increasingly skipped the film part. In 2002, sales of digital cameras in the United States passed those of traditional cameras- even though Kodak in the mid-1990s had projected that it would take twenty years for digital technology to eclipse film. The move to digital in the 2000s happened so fast that, in 2004, Kodak introduced a film camera that won a ‘camera of the year’ award, yet was discontinued by the time Kodak collected the award. Kodak staked out a position as one of the major sellers of digital cameras, but being ‘one of’ is a lot different from owning 70 per cent to 80 per cent of a market, as Kodak had with film, chemicals, and processing. In 2002 competition in the digital market was so intense that Kodak lost 75 per cent of its stockmarket value over the past decade, falling to a level about half of what it was when the reporter suggested to Carp that he might sell the company. As of 2005, Kodak employed less than a third of the number who worked for it twenty years earlier. To see what might have been, look at Kodak’s principal competitors in the film and paper markets. Agfa temporized on digital technology, then sold its film and paper business to private-equity investors in 2004. The business went into bankruptcy proceedings the following year, but that was not Agfa’s problem. It had cashed out at a halfway reasonable price.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "As per the passage which of the following statements truly reflects the real theme of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Moore’s law predicted that cost per unit of computing power would exhibit a standard deviation of 25% per annum."
+      },
+      {
+        "label": "b",
+        "text": "Popularity of removable media and internet lead to high demand for computers."
+      },
+      {
+        "label": "c",
+        "text": "Kodak managers were able to predict the flow of digital technology and their critical value drivers."
+      },
+      {
+        "label": "d",
+        "text": "Kodak did not have a vision to plough back the profits from old technology to research and development in new technology."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 12,
+    "question_code": "RC-T1-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p4",
+    "set_position": 2,
+    "context_passage": "Kodak decided that traditional film and prints would continue to dominate through the 1980s and that photo finishers, film retailers, and, of course, Kodak itself could expect to continue to occupy their long-held positions until 1990. Kodak was right and wrong. The quality of digital cameras greatly improved. Prices plunged because the cameras generally followed Moore’s Law, the famous prediction by Intel co-founder Gordon Moore in the 1960s that the cost of a unit of computing power would fall by 50 per cent every eighteen to twenty-four months. Cameras began to be equipped with what the industry called removable media – those little cards that hold the pictures – so pictures were easier to print or to move to other devices, such as computers. Printers improved. Their costs dropped, too. The internet caught the popular imagination, and people began e-mailing each other pictures rather than print them. Kodak did little to ready itself for the onslaught of digital technology because it consistently tried to hold on to the profits from its old technology and underestimated the speed with which the new would take hold. Kodak decided it could use digital technology to enhance film, rather than replace it. Instead of preparing for the digital world, Kodak headed off in a direction that cost it dearly. In 1988, Kodak bought sterling drug for $5.1 billion. Kodak had decided it was really a chemicals business, not a photography company. So, Kodak reasoned, it should move into adjacent chemical markets, such as drugs. Well, chemically treated photo paper really is not that similar to hormonal agents and cardiovascular drugs. The customers are different. The delivery channels are different. Kodak lost its shirt. It sold sterling in pieces in 1994 for about half the original purchase price. George M.C. Fisher was the new CEO of Kodak in 1993. Fisher’s solution was to hold on to the film business as long as possible, while adding a technology veneer to it. For instance, he introduced the advantix preview camera, a hybrid of digital and film technology. User took pictures the way they always had, and the images were captured on film. Kodak spent more than $500 million developing advantix, which flopped. Fisher also tried to move Kodak’s traditional retail photo- processing systems into digital world and in this regard installed tens of thousands of image magic kiosks. These kiosks came just as numerous companies introduced in-expensive, high-quality photo printers that people could use at home, which, in fact, is where customers preferred to view their images and fiddle with them. Fisher also tried to insert Kodak as an intermediary in the process of sharing images electronically. He formed partnerships that let customers receive electronic versions of their photos by e-mail and gave them access to kiosks that let them manipulate and reproduce old photographs. You do not need Kodak to upload photos to your computer and e-mail them. Fisher also formed a partnership with AOL called, ‘You have Got Pictures.’ Customers would have their film developed and posted online, where friends and family could view them. Customers would pay AOL $7 for this privilege, on top of the $9 paid for photo-processing. However, sites like snapfish were allowing pictures to be posted online free. Fisher promised early on, that Kodak’s digital-photography business would be profitable by 1997. It was not. In 1997 Philippe Kahn led the advent of cell phone camera. With the cell phone camera market growth, Kodak did not just lose out on more prints. The whole industry lost out on sales of digital cameras, because they became just a feature that was given away free on cell phones. Soon cameras became a free feature on many personal computers, too. What had been so profitable for Kodak for so long- capturing images and displaying them was going to become essentially free. In 1999, Fisher resigned and Carp became to new CEO. In 2000, Carp’s first year as CEO, profit was about flat, at $1.41 billion. Carp, too, retired early, at age fifty-seven. Carp had pursued Fisher’s basic strategy of ‘enhancing’ the film business to make it last as long as possible, while trying to figure out some way to get recurring revenue from the filmless, digital world. But the temporizing did not work any better for Carp than it had for Fisher. Kodak talked, for instance, about getting customers to digitize and upload to the internet more of the 300 million rolls of film that Kodak processed annually, as of 2000. Instead, customers increasingly skipped the film part. In 2002, sales of digital cameras in the United States passed those of traditional cameras- even though Kodak in the mid-1990s had projected that it would take twenty years for digital technology to eclipse film. The move to digital in the 2000s happened so fast that, in 2004, Kodak introduced a film camera that won a ‘camera of the year’ award, yet was discontinued by the time Kodak collected the award. Kodak staked out a position as one of the major sellers of digital cameras, but being ‘one of’ is a lot different from owning 70 per cent to 80 per cent of a market, as Kodak had with film, chemicals, and processing. In 2002 competition in the digital market was so intense that Kodak lost 75 per cent of its stockmarket value over the past decade, falling to a level about half of what it was when the reporter suggested to Carp that he might sell the company. As of 2005, Kodak employed less than a third of the number who worked for it twenty years earlier. To see what might have been, look at Kodak’s principal competitors in the film and paper markets. Agfa temporized on digital technology, then sold its film and paper business to private-equity investors in 2004. The business went into bankruptcy proceedings the following year, but that was not Agfa’s problem. It had cashed out at a halfway reasonable price.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following statements is not true? i. Kodak bought sterling drug as a strategic choice for a chemical business as it was already in the business of chemically treated photo paper. ii. The chemical business was in sync with the existing business of Kodak running across the customer segment, delivery channels and the regulatory environment. iii. Kodak committed a mistake by selling sterling in pieces at a loss of 50%. iv. Kodak’s diversification attempt with purchase of sterling to strengthen its core business and shift to digital world was a shift from its strategic focus.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only i and ii"
+      },
+      {
+        "label": "b",
+        "text": "Only ii and iii"
+      },
+      {
+        "label": "c",
+        "text": "Only iii and iv"
+      },
+      {
+        "label": "d",
+        "text": "Only i, ii, iii"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 13,
+    "question_code": "RC-T1-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p4",
+    "set_position": 3,
+    "context_passage": "Kodak decided that traditional film and prints would continue to dominate through the 1980s and that photo finishers, film retailers, and, of course, Kodak itself could expect to continue to occupy their long-held positions until 1990. Kodak was right and wrong. The quality of digital cameras greatly improved. Prices plunged because the cameras generally followed Moore’s Law, the famous prediction by Intel co-founder Gordon Moore in the 1960s that the cost of a unit of computing power would fall by 50 per cent every eighteen to twenty-four months. Cameras began to be equipped with what the industry called removable media – those little cards that hold the pictures – so pictures were easier to print or to move to other devices, such as computers. Printers improved. Their costs dropped, too. The internet caught the popular imagination, and people began e-mailing each other pictures rather than print them. Kodak did little to ready itself for the onslaught of digital technology because it consistently tried to hold on to the profits from its old technology and underestimated the speed with which the new would take hold. Kodak decided it could use digital technology to enhance film, rather than replace it. Instead of preparing for the digital world, Kodak headed off in a direction that cost it dearly. In 1988, Kodak bought sterling drug for $5.1 billion. Kodak had decided it was really a chemicals business, not a photography company. So, Kodak reasoned, it should move into adjacent chemical markets, such as drugs. Well, chemically treated photo paper really is not that similar to hormonal agents and cardiovascular drugs. The customers are different. The delivery channels are different. Kodak lost its shirt. It sold sterling in pieces in 1994 for about half the original purchase price. George M.C. Fisher was the new CEO of Kodak in 1993. Fisher’s solution was to hold on to the film business as long as possible, while adding a technology veneer to it. For instance, he introduced the advantix preview camera, a hybrid of digital and film technology. User took pictures the way they always had, and the images were captured on film. Kodak spent more than $500 million developing advantix, which flopped. Fisher also tried to move Kodak’s traditional retail photo- processing systems into digital world and in this regard installed tens of thousands of image magic kiosks. These kiosks came just as numerous companies introduced in-expensive, high-quality photo printers that people could use at home, which, in fact, is where customers preferred to view their images and fiddle with them. Fisher also tried to insert Kodak as an intermediary in the process of sharing images electronically. He formed partnerships that let customers receive electronic versions of their photos by e-mail and gave them access to kiosks that let them manipulate and reproduce old photographs. You do not need Kodak to upload photos to your computer and e-mail them. Fisher also formed a partnership with AOL called, ‘You have Got Pictures.’ Customers would have their film developed and posted online, where friends and family could view them. Customers would pay AOL $7 for this privilege, on top of the $9 paid for photo-processing. However, sites like snapfish were allowing pictures to be posted online free. Fisher promised early on, that Kodak’s digital-photography business would be profitable by 1997. It was not. In 1997 Philippe Kahn led the advent of cell phone camera. With the cell phone camera market growth, Kodak did not just lose out on more prints. The whole industry lost out on sales of digital cameras, because they became just a feature that was given away free on cell phones. Soon cameras became a free feature on many personal computers, too. What had been so profitable for Kodak for so long- capturing images and displaying them was going to become essentially free. In 1999, Fisher resigned and Carp became to new CEO. In 2000, Carp’s first year as CEO, profit was about flat, at $1.41 billion. Carp, too, retired early, at age fifty-seven. Carp had pursued Fisher’s basic strategy of ‘enhancing’ the film business to make it last as long as possible, while trying to figure out some way to get recurring revenue from the filmless, digital world. But the temporizing did not work any better for Carp than it had for Fisher. Kodak talked, for instance, about getting customers to digitize and upload to the internet more of the 300 million rolls of film that Kodak processed annually, as of 2000. Instead, customers increasingly skipped the film part. In 2002, sales of digital cameras in the United States passed those of traditional cameras- even though Kodak in the mid-1990s had projected that it would take twenty years for digital technology to eclipse film. The move to digital in the 2000s happened so fast that, in 2004, Kodak introduced a film camera that won a ‘camera of the year’ award, yet was discontinued by the time Kodak collected the award. Kodak staked out a position as one of the major sellers of digital cameras, but being ‘one of’ is a lot different from owning 70 per cent to 80 per cent of a market, as Kodak had with film, chemicals, and processing. In 2002 competition in the digital market was so intense that Kodak lost 75 per cent of its stockmarket value over the past decade, falling to a level about half of what it was when the reporter suggested to Carp that he might sell the company. As of 2005, Kodak employed less than a third of the number who worked for it twenty years earlier. To see what might have been, look at Kodak’s principal competitors in the film and paper markets. Agfa temporized on digital technology, then sold its film and paper business to private-equity investors in 2004. The business went into bankruptcy proceedings the following year, but that was not Agfa’s problem. It had cashed out at a halfway reasonable price.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Kodak lost a big piece of its market share to its competitors because of the following best explained reason. i. When Carp became the CEO the digital technology eclipsed film technology business and further Carp had been with the company for twenty-nine years and had no background in technology. ii. Carp in 2004 introduced a film camera that won camera of the year award, yet it was discontinued by the time Kodak collected the award. iii. Kodak moved from traditional retail photo processing systems into digital world installing several thousands of image magic kiosks that failed to deliver real benefits to the customers. iv. Phillipe Kahn led the advent of cell phone camera and Kodak lost out on the print business and ability to share images became a free feature with no additional charge.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "i and ii"
+      },
+      {
+        "label": "b",
+        "text": "ii and iii"
+      },
+      {
+        "label": "c",
+        "text": "i and iv"
+      },
+      {
+        "label": "d",
+        "text": "iii and iv"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 14,
+    "question_code": "RC-T1-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p4",
+    "set_position": 4,
+    "context_passage": "Kodak decided that traditional film and prints would continue to dominate through the 1980s and that photo finishers, film retailers, and, of course, Kodak itself could expect to continue to occupy their long-held positions until 1990. Kodak was right and wrong. The quality of digital cameras greatly improved. Prices plunged because the cameras generally followed Moore’s Law, the famous prediction by Intel co-founder Gordon Moore in the 1960s that the cost of a unit of computing power would fall by 50 per cent every eighteen to twenty-four months. Cameras began to be equipped with what the industry called removable media – those little cards that hold the pictures – so pictures were easier to print or to move to other devices, such as computers. Printers improved. Their costs dropped, too. The internet caught the popular imagination, and people began e-mailing each other pictures rather than print them. Kodak did little to ready itself for the onslaught of digital technology because it consistently tried to hold on to the profits from its old technology and underestimated the speed with which the new would take hold. Kodak decided it could use digital technology to enhance film, rather than replace it. Instead of preparing for the digital world, Kodak headed off in a direction that cost it dearly. In 1988, Kodak bought sterling drug for $5.1 billion. Kodak had decided it was really a chemicals business, not a photography company. So, Kodak reasoned, it should move into adjacent chemical markets, such as drugs. Well, chemically treated photo paper really is not that similar to hormonal agents and cardiovascular drugs. The customers are different. The delivery channels are different. Kodak lost its shirt. It sold sterling in pieces in 1994 for about half the original purchase price. George M.C. Fisher was the new CEO of Kodak in 1993. Fisher’s solution was to hold on to the film business as long as possible, while adding a technology veneer to it. For instance, he introduced the advantix preview camera, a hybrid of digital and film technology. User took pictures the way they always had, and the images were captured on film. Kodak spent more than $500 million developing advantix, which flopped. Fisher also tried to move Kodak’s traditional retail photo- processing systems into digital world and in this regard installed tens of thousands of image magic kiosks. These kiosks came just as numerous companies introduced in-expensive, high-quality photo printers that people could use at home, which, in fact, is where customers preferred to view their images and fiddle with them. Fisher also tried to insert Kodak as an intermediary in the process of sharing images electronically. He formed partnerships that let customers receive electronic versions of their photos by e-mail and gave them access to kiosks that let them manipulate and reproduce old photographs. You do not need Kodak to upload photos to your computer and e-mail them. Fisher also formed a partnership with AOL called, ‘You have Got Pictures.’ Customers would have their film developed and posted online, where friends and family could view them. Customers would pay AOL $7 for this privilege, on top of the $9 paid for photo-processing. However, sites like snapfish were allowing pictures to be posted online free. Fisher promised early on, that Kodak’s digital-photography business would be profitable by 1997. It was not. In 1997 Philippe Kahn led the advent of cell phone camera. With the cell phone camera market growth, Kodak did not just lose out on more prints. The whole industry lost out on sales of digital cameras, because they became just a feature that was given away free on cell phones. Soon cameras became a free feature on many personal computers, too. What had been so profitable for Kodak for so long- capturing images and displaying them was going to become essentially free. In 1999, Fisher resigned and Carp became to new CEO. In 2000, Carp’s first year as CEO, profit was about flat, at $1.41 billion. Carp, too, retired early, at age fifty-seven. Carp had pursued Fisher’s basic strategy of ‘enhancing’ the film business to make it last as long as possible, while trying to figure out some way to get recurring revenue from the filmless, digital world. But the temporizing did not work any better for Carp than it had for Fisher. Kodak talked, for instance, about getting customers to digitize and upload to the internet more of the 300 million rolls of film that Kodak processed annually, as of 2000. Instead, customers increasingly skipped the film part. In 2002, sales of digital cameras in the United States passed those of traditional cameras- even though Kodak in the mid-1990s had projected that it would take twenty years for digital technology to eclipse film. The move to digital in the 2000s happened so fast that, in 2004, Kodak introduced a film camera that won a ‘camera of the year’ award, yet was discontinued by the time Kodak collected the award. Kodak staked out a position as one of the major sellers of digital cameras, but being ‘one of’ is a lot different from owning 70 per cent to 80 per cent of a market, as Kodak had with film, chemicals, and processing. In 2002 competition in the digital market was so intense that Kodak lost 75 per cent of its stockmarket value over the past decade, falling to a level about half of what it was when the reporter suggested to Carp that he might sell the company. As of 2005, Kodak employed less than a third of the number who worked for it twenty years earlier. To see what might have been, look at Kodak’s principal competitors in the film and paper markets. Agfa temporized on digital technology, then sold its film and paper business to private-equity investors in 2004. The business went into bankruptcy proceedings the following year, but that was not Agfa’s problem. It had cashed out at a halfway reasonable price.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Arrange the given statements in the correct sequence as they appear in the passage. i. Kodak lost to its competitors a big pie of its market share. ii. Kodak ventured into chemical business to strengthen its digital technology business. iii. Kodak downsized its workforce drastically. iv. Kodak tied up with business firms for photo-processing.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "i, ii, iii, iv"
+      },
+      {
+        "label": "b",
+        "text": "iii, iv, ii, i"
+      },
+      {
+        "label": "c",
+        "text": "ii, iv, i, iii"
+      },
+      {
+        "label": "d",
+        "text": "i, iii, ii, iv"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 1,
+    "question_number": 15,
+    "question_code": "RC-T1-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t1-p4",
+    "set_position": 5,
+    "context_passage": "Kodak decided that traditional film and prints would continue to dominate through the 1980s and that photo finishers, film retailers, and, of course, Kodak itself could expect to continue to occupy their long-held positions until 1990. Kodak was right and wrong. The quality of digital cameras greatly improved. Prices plunged because the cameras generally followed Moore’s Law, the famous prediction by Intel co-founder Gordon Moore in the 1960s that the cost of a unit of computing power would fall by 50 per cent every eighteen to twenty-four months. Cameras began to be equipped with what the industry called removable media – those little cards that hold the pictures – so pictures were easier to print or to move to other devices, such as computers. Printers improved. Their costs dropped, too. The internet caught the popular imagination, and people began e-mailing each other pictures rather than print them. Kodak did little to ready itself for the onslaught of digital technology because it consistently tried to hold on to the profits from its old technology and underestimated the speed with which the new would take hold. Kodak decided it could use digital technology to enhance film, rather than replace it. Instead of preparing for the digital world, Kodak headed off in a direction that cost it dearly. In 1988, Kodak bought sterling drug for $5.1 billion. Kodak had decided it was really a chemicals business, not a photography company. So, Kodak reasoned, it should move into adjacent chemical markets, such as drugs. Well, chemically treated photo paper really is not that similar to hormonal agents and cardiovascular drugs. The customers are different. The delivery channels are different. Kodak lost its shirt. It sold sterling in pieces in 1994 for about half the original purchase price. George M.C. Fisher was the new CEO of Kodak in 1993. Fisher’s solution was to hold on to the film business as long as possible, while adding a technology veneer to it. For instance, he introduced the advantix preview camera, a hybrid of digital and film technology. User took pictures the way they always had, and the images were captured on film. Kodak spent more than $500 million developing advantix, which flopped. Fisher also tried to move Kodak’s traditional retail photo- processing systems into digital world and in this regard installed tens of thousands of image magic kiosks. These kiosks came just as numerous companies introduced in-expensive, high-quality photo printers that people could use at home, which, in fact, is where customers preferred to view their images and fiddle with them. Fisher also tried to insert Kodak as an intermediary in the process of sharing images electronically. He formed partnerships that let customers receive electronic versions of their photos by e-mail and gave them access to kiosks that let them manipulate and reproduce old photographs. You do not need Kodak to upload photos to your computer and e-mail them. Fisher also formed a partnership with AOL called, ‘You have Got Pictures.’ Customers would have their film developed and posted online, where friends and family could view them. Customers would pay AOL $7 for this privilege, on top of the $9 paid for photo-processing. However, sites like snapfish were allowing pictures to be posted online free. Fisher promised early on, that Kodak’s digital-photography business would be profitable by 1997. It was not. In 1997 Philippe Kahn led the advent of cell phone camera. With the cell phone camera market growth, Kodak did not just lose out on more prints. The whole industry lost out on sales of digital cameras, because they became just a feature that was given away free on cell phones. Soon cameras became a free feature on many personal computers, too. What had been so profitable for Kodak for so long- capturing images and displaying them was going to become essentially free. In 1999, Fisher resigned and Carp became to new CEO. In 2000, Carp’s first year as CEO, profit was about flat, at $1.41 billion. Carp, too, retired early, at age fifty-seven. Carp had pursued Fisher’s basic strategy of ‘enhancing’ the film business to make it last as long as possible, while trying to figure out some way to get recurring revenue from the filmless, digital world. But the temporizing did not work any better for Carp than it had for Fisher. Kodak talked, for instance, about getting customers to digitize and upload to the internet more of the 300 million rolls of film that Kodak processed annually, as of 2000. Instead, customers increasingly skipped the film part. In 2002, sales of digital cameras in the United States passed those of traditional cameras- even though Kodak in the mid-1990s had projected that it would take twenty years for digital technology to eclipse film. The move to digital in the 2000s happened so fast that, in 2004, Kodak introduced a film camera that won a ‘camera of the year’ award, yet was discontinued by the time Kodak collected the award. Kodak staked out a position as one of the major sellers of digital cameras, but being ‘one of’ is a lot different from owning 70 per cent to 80 per cent of a market, as Kodak had with film, chemicals, and processing. In 2002 competition in the digital market was so intense that Kodak lost 75 per cent of its stockmarket value over the past decade, falling to a level about half of what it was when the reporter suggested to Carp that he might sell the company. As of 2005, Kodak employed less than a third of the number who worked for it twenty years earlier. To see what might have been, look at Kodak’s principal competitors in the film and paper markets. Agfa temporized on digital technology, then sold its film and paper business to private-equity investors in 2004. The business went into bankruptcy proceedings the following year, but that was not Agfa’s problem. It had cashed out at a halfway reasonable price.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Match the following: 1. Intel a. Preview cameras that helped users to immediately see the pictures taken. 2. Fisher b. Photo-processing, developing and posting online photos. 3. AOL c. Lead to insolvency of digital technology business. 4. Agfa d. Price of technology product reduces to half every year or two.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "1-d, 2-a, 3-b, 4-c"
+      },
+      {
+        "label": "b",
+        "text": "1-a, 2-d, 3-c, 4-b"
+      },
+      {
+        "label": "c",
+        "text": "1-c, 2-b, 3-a, 4-d"
+      },
+      {
+        "label": "d",
+        "text": "1-d, 2-c, 3-a, 4-b"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

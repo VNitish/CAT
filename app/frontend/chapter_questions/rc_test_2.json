@@ -1,0 +1,722 @@
+[
+  {
+    "test": 2,
+    "question_number": 1,
+    "question_code": "RC-T2-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 1,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following follows from the passage above?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "A rhetoric laden talk can generate authentic democratic collective choice."
+      },
+      {
+        "label": "b",
+        "text": "Irrational persons alone can have values."
+      },
+      {
+        "label": "c",
+        "text": "Authenticity of democracy requires a strong reflection-action interaction."
+      },
+      {
+        "label": "d",
+        "text": "A paradigm of competition alone can sustain an authentic democracy."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Refer to the second line: ‘The authenticity of democracy requires in addition that these reflective preferences influence collective outcomes and action...’",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 2,
+    "question_code": "RC-T2-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 2,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Desire as ante-deliberation driving action refer to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "irrationality of deliberation."
+      },
+      {
+        "label": "b",
+        "text": "uselessness of deliberation."
+      },
+      {
+        "label": "c",
+        "text": "desire to act without thinking."
+      },
+      {
+        "label": "d",
+        "text": "temporal inconsistency in a position that argues for deliberative action constituting democracy."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It can be inferred from the beginning lines of the second paragraph.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 3,
+    "question_code": "RC-T2-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 3,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is true from the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Author argues that democracy is bound to fail."
+      },
+      {
+        "label": "b",
+        "text": "Author argues that Desire is primal."
+      },
+      {
+        "label": "c",
+        "text": "Author argues for an end to primal Desire so that an end to competition can come through."
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Author argues for cooperation in the last line but also says that it is never a state of cooperation alone as such.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 4,
+    "question_code": "RC-T2-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 4,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "A Foucauldian discourse as used in the passage does NOT refer to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "discourse based on power."
+      },
+      {
+        "label": "b",
+        "text": "community-based discourse."
+      },
+      {
+        "label": "c",
+        "text": "strategic discourse."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Refer to the second last line of the first paragraph ‘...trappings of a Foucauldian discourse ... do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines...’ This implies that it is not a strategic discourse.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 5,
+    "question_code": "RC-T2-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 5,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following words is closest to the word ‘primordial’ as used in the passage above?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Elemental"
+      },
+      {
+        "label": "b",
+        "text": "Anarchist"
+      },
+      {
+        "label": "c",
+        "text": "Animalistic"
+      },
+      {
+        "label": "d",
+        "text": "Nihilistic"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Primordial = existing from the beginning.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 6,
+    "question_code": "RC-T2-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p5",
+    "set_position": 6,
+    "context_passage": "Deliberative democracy demands a reflexive (or reflection driven) reordering of preferences in a non-coercive manner. The authenticity of democracy requires in addition that these reflective preferences, influence collective outcomes and action, and so long as the state is the main (though far from exclusive) locus of collective decisions; it requires discursive mechanisms for transmission of public opinion to the state. A deliberative or more properly a discursive democracy, in order that it can accommodate several competing versions of democracies such as the liberal, the minimal, the difference, etc., must also accommodate rhetoric, narratives, and empathy along with reasoning. A rationality and a reasoning that does not accommodate values is meaningless. However, it is also argued that individual rationality cannot be realised if values are embedded in the decision procedures, in other words, realisation of values could be made possible only when individuals behave non-rationally. Further if values having been abandoned at the individual level are accorded a place only collectively, the same must lead to either, ‘epistemological inconsistency or abandonment of autonomy of individual evaluations’. A talk or a rhetoric, otherwise, is strategic and is employed with the intention of signalling certain information. Such a talk can be, therefore, deceptive and coercive. The illocutionary force and the normative trappings of a Foucauldian discourse while allowing identification with a community and differences with the others, do simultaneously pose through coercion a threat to an utterance as such. If democracy cannot ensure utterance as freedom and if the illocutionary forces in a discursive democracy disciplines the thought and the talk, then how such a democracy could indeed be called authentic! Most human actions and discourses are actuated by a deeper or primordial ante-deliberation Desire (let us use a capital D). Speaking as such is out of such a Desire (one might use volition or passion). Engaging in a deliberation or else in an action is possible only since there has been such a Desire. Desire appears to both the reflection and also to an observer as a mental-state. A discourse can be set only when such mental states are in harmony, or share a common predisposition or attitude. In the absence of such shared mental-states, no discourse and no deliberation can begin. A running underlying and most often unstated theme that remains at the back of the idea of deliberative democracy is competition – a competition with the ‘other’ which introduces strategy. The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ in the light of a memory that this ‘one’ and the ‘other’ were but the same and would again become the same, do not appear in the known Anglo-American literature. Such a mental-state might generate and keep alive possibilities, of cooperation although is never a state of cooperation alone as such.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following captures the spirit of the position that the author hints at through the phrase ‘alternative to competition’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "All the pragmatic world is a stage – a play unfolding."
+      },
+      {
+        "label": "b",
+        "text": "Democracy is an unruly fight among citizens."
+      },
+      {
+        "label": "c",
+        "text": "Socialist planning does away with the chaos of competition."
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "‘The alternative to competition, a mental-state which is out of a Desire to enjoy the ‘other’ ...’ None of the given choices matches this description.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 7,
+    "question_code": "RC-T2-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p6",
+    "set_position": 1,
+    "context_passage": "Democracies everywhere, but perhaps nowhere more so than in India, present a complex scenario of tensions between constraints and liberty, unfreedom and freedom, the imperatives of the modern national security state and the aspirations of a free citizenry. The very fact that India has repeatedly been able to mount general elections since it gained its freedom from British rule in 1947, and on a scale never before witnessed in history, is adduced as evidence of the strength of Indian democracy—an accomplishment that seems all the more remarkable given the precarious state of democracy in most of the world. Indeed, assumptions about the robustness of democracy in India always take as their implied referent the contrast that comes to mind with Pakistan and many other states in the global South. Pakistan has been under military rulers for 32 of its sixty years of its existence, and even its civilian rulers have always governed with the apprehension that a coup might summarily remove them from office – as the constant tussle between Benazir Bhutto and Nawaz Sharif, each removed from office more than once to pave the way for the other, amply suggests. In Africa, democratic states have had at least as fragile an existence, and military dictatorships, despotisms, and authoritarian democracies have indisputably been the norm.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What can be said about democracy in India?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It is the epitome of freedom for all."
+      },
+      {
+        "label": "b",
+        "text": "It’s a mix of polarities."
+      },
+      {
+        "label": "c",
+        "text": "It’s superior to the other democracies."
+      },
+      {
+        "label": "d",
+        "text": "It promotes tension among the masses."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Option (a) is not supported by the passage. Option (b) is mentioned in the 1st two lines. Hence, option (b) is the answer. Option (c) and option (d) are not mentioned in the passage.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 8,
+    "question_code": "RC-T2-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p6",
+    "set_position": 2,
+    "context_passage": "Democracies everywhere, but perhaps nowhere more so than in India, present a complex scenario of tensions between constraints and liberty, unfreedom and freedom, the imperatives of the modern national security state and the aspirations of a free citizenry. The very fact that India has repeatedly been able to mount general elections since it gained its freedom from British rule in 1947, and on a scale never before witnessed in history, is adduced as evidence of the strength of Indian democracy—an accomplishment that seems all the more remarkable given the precarious state of democracy in most of the world. Indeed, assumptions about the robustness of democracy in India always take as their implied referent the contrast that comes to mind with Pakistan and many other states in the global South. Pakistan has been under military rulers for 32 of its sixty years of its existence, and even its civilian rulers have always governed with the apprehension that a coup might summarily remove them from office – as the constant tussle between Benazir Bhutto and Nawaz Sharif, each removed from office more than once to pave the way for the other, amply suggests. In Africa, democratic states have had at least as fragile an existence, and military dictatorships, despotisms, and authoritarian democracies have indisputably been the norm.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why does the Indian democracy appear like an accomplishment?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Other democracies have not fared well."
+      },
+      {
+        "label": "b",
+        "text": "India is far superior because of its rich culture."
+      },
+      {
+        "label": "c",
+        "text": "Indians are devoted to their country."
+      },
+      {
+        "label": "d",
+        "text": "It is inherently strong."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Look at the statement ‘…given the precarious state of democracy in most of the world.’ Hence, option (a) is the answer. Option (c) is beyond the scope of the passage and option (d) is not mentioned as the reason by the author.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 9,
+    "question_code": "RC-T2-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p6",
+    "set_position": 3,
+    "context_passage": "Democracies everywhere, but perhaps nowhere more so than in India, present a complex scenario of tensions between constraints and liberty, unfreedom and freedom, the imperatives of the modern national security state and the aspirations of a free citizenry. The very fact that India has repeatedly been able to mount general elections since it gained its freedom from British rule in 1947, and on a scale never before witnessed in history, is adduced as evidence of the strength of Indian democracy—an accomplishment that seems all the more remarkable given the precarious state of democracy in most of the world. Indeed, assumptions about the robustness of democracy in India always take as their implied referent the contrast that comes to mind with Pakistan and many other states in the global South. Pakistan has been under military rulers for 32 of its sixty years of its existence, and even its civilian rulers have always governed with the apprehension that a coup might summarily remove them from office – as the constant tussle between Benazir Bhutto and Nawaz Sharif, each removed from office more than once to pave the way for the other, amply suggests. In Africa, democratic states have had at least as fragile an existence, and military dictatorships, despotisms, and authoritarian democracies have indisputably been the norm.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the meaning of robustness used in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Status"
+      },
+      {
+        "label": "b",
+        "text": "Significance"
+      },
+      {
+        "label": "c",
+        "text": "Success"
+      },
+      {
+        "label": "d",
+        "text": "Debacle"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Option (d) contradicts the meaning and essence, hence, cannot be the answer. We need a positive connotation word, and option (c) fits the context best out of the remaining three options. Hence, option (c) is the answer.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 10,
+    "question_code": "RC-T2-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p6",
+    "set_position": 4,
+    "context_passage": "Democracies everywhere, but perhaps nowhere more so than in India, present a complex scenario of tensions between constraints and liberty, unfreedom and freedom, the imperatives of the modern national security state and the aspirations of a free citizenry. The very fact that India has repeatedly been able to mount general elections since it gained its freedom from British rule in 1947, and on a scale never before witnessed in history, is adduced as evidence of the strength of Indian democracy—an accomplishment that seems all the more remarkable given the precarious state of democracy in most of the world. Indeed, assumptions about the robustness of democracy in India always take as their implied referent the contrast that comes to mind with Pakistan and many other states in the global South. Pakistan has been under military rulers for 32 of its sixty years of its existence, and even its civilian rulers have always governed with the apprehension that a coup might summarily remove them from office – as the constant tussle between Benazir Bhutto and Nawaz Sharif, each removed from office more than once to pave the way for the other, amply suggests. In Africa, democratic states have had at least as fragile an existence, and military dictatorships, despotisms, and authoritarian democracies have indisputably been the norm.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What should be the title of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The achievement of the Indian Democracy"
+      },
+      {
+        "label": "b",
+        "text": "The best democracy in the world"
+      },
+      {
+        "label": "c",
+        "text": "Indian democracy – the best in South Asia"
+      },
+      {
+        "label": "d",
+        "text": "Indian democracy – a relative success"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Option (a) cannot be the answer as the passage highlights the other extremes as well. Option (b) cannot be the answer as passage analyses; it does not pass a judgment. Option (c ) is not the answer as the scope of the passage is not restricted. Option (d) fits as it talks about the relative success of India’s democratic set up. Hence, option (d) is the answer.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 11,
+    "question_code": "RC-T2-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p7",
+    "set_position": 1,
+    "context_passage": "Enunciated by Jung as an integral part of his psychology in 1916 immediately after his unsettling confrontation with the unconscious, the transcendent function was seen by Jung as uniting the opposites, transforming psyche, and central to the individuation process. It also undoubtedly reflects his personal experience in coming to terms with the unconscious. Jung portrayed the transcendent function as operating through symbol and fantasy and mediating between the opposites of consciousness and the unconscious to prompt the emergence of a new, third posture that transcends the two. In exploring the details of the transcendent function and its connection to other Jungian constructs, this work has unearthed significant changes, ambiguities, and inconsistencies in Jung’s writings. Further, it has identified two separate images of the transcendent function: (1) the narrow transcendent function, the function or process within Jung’s pantheon of psychic structures, generally seen as the uniting of the opposites of consciousness and the unconscious from which a new attitude emerges; and (2) the expansive transcendent function, the root metaphor for psyche or being psychological that subsumes Jung’s pantheon and that apprehends the most fundamental psychic activity of interacting with the unknown or other. This book has also posited that the expansive transcendent function, as the root metaphor for exchanges between conscious and the unconscious, is the wellspring from whence, flows other key Jungian structures such as the archetypes and the Self, and is the core of the individuation process. The expansive transcendent function has been explored further by surveying other schools of psychology, with both depth and non-depth orientations, and evaluating the transcendent function alongside structures or processes in those other schools which play similar mediatory and/or transitional roles.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "The above passage is most likely an excerpt from",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "a research note."
+      },
+      {
+        "label": "b",
+        "text": "an entry on a psychopathology blog."
+      },
+      {
+        "label": "c",
+        "text": "a popular magazine article."
+      },
+      {
+        "label": "d",
+        "text": "a scholarly treatise."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 12,
+    "question_code": "RC-T2-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p7",
+    "set_position": 2,
+    "context_passage": "Enunciated by Jung as an integral part of his psychology in 1916 immediately after his unsettling confrontation with the unconscious, the transcendent function was seen by Jung as uniting the opposites, transforming psyche, and central to the individuation process. It also undoubtedly reflects his personal experience in coming to terms with the unconscious. Jung portrayed the transcendent function as operating through symbol and fantasy and mediating between the opposites of consciousness and the unconscious to prompt the emergence of a new, third posture that transcends the two. In exploring the details of the transcendent function and its connection to other Jungian constructs, this work has unearthed significant changes, ambiguities, and inconsistencies in Jung’s writings. Further, it has identified two separate images of the transcendent function: (1) the narrow transcendent function, the function or process within Jung’s pantheon of psychic structures, generally seen as the uniting of the opposites of consciousness and the unconscious from which a new attitude emerges; and (2) the expansive transcendent function, the root metaphor for psyche or being psychological that subsumes Jung’s pantheon and that apprehends the most fundamental psychic activity of interacting with the unknown or other. This book has also posited that the expansive transcendent function, as the root metaphor for exchanges between conscious and the unconscious, is the wellspring from whence, flows other key Jungian structures such as the archetypes and the Self, and is the core of the individuation process. The expansive transcendent function has been explored further by surveying other schools of psychology, with both depth and non-depth orientations, and evaluating the transcendent function alongside structures or processes in those other schools which play similar mediatory and/or transitional roles.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "It can be definitely inferred from the passage above that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "the expansive transcendent function would include elements of both the consciousness and the unconscious."
+      },
+      {
+        "label": "b",
+        "text": "archetypes emerge from the narrow transcendent function."
+      },
+      {
+        "label": "c",
+        "text": "the whole work, from which this excerpt is taken, primarily concerns itself with the inconsistencies in Jung’s writings."
+      },
+      {
+        "label": "d",
+        "text": "the transcendent is the core of the individuation process."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 13,
+    "question_code": "RC-T2-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p7",
+    "set_position": 3,
+    "context_passage": "Enunciated by Jung as an integral part of his psychology in 1916 immediately after his unsettling confrontation with the unconscious, the transcendent function was seen by Jung as uniting the opposites, transforming psyche, and central to the individuation process. It also undoubtedly reflects his personal experience in coming to terms with the unconscious. Jung portrayed the transcendent function as operating through symbol and fantasy and mediating between the opposites of consciousness and the unconscious to prompt the emergence of a new, third posture that transcends the two. In exploring the details of the transcendent function and its connection to other Jungian constructs, this work has unearthed significant changes, ambiguities, and inconsistencies in Jung’s writings. Further, it has identified two separate images of the transcendent function: (1) the narrow transcendent function, the function or process within Jung’s pantheon of psychic structures, generally seen as the uniting of the opposites of consciousness and the unconscious from which a new attitude emerges; and (2) the expansive transcendent function, the root metaphor for psyche or being psychological that subsumes Jung’s pantheon and that apprehends the most fundamental psychic activity of interacting with the unknown or other. This book has also posited that the expansive transcendent function, as the root metaphor for exchanges between conscious and the unconscious, is the wellspring from whence, flows other key Jungian structures such as the archetypes and the Self, and is the core of the individuation process. The expansive transcendent function has been explored further by surveying other schools of psychology, with both depth and non-depth orientations, and evaluating the transcendent function alongside structures or processes in those other schools which play similar mediatory and/or transitional roles.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "A comparison similar to the distinction between the two images of the transcendent function would be;",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Raucous:Hilarious"
+      },
+      {
+        "label": "b",
+        "text": "Synchronicity:Ontology"
+      },
+      {
+        "label": "c",
+        "text": "Recession:Withdrawal"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 14,
+    "question_code": "RC-T2-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p7",
+    "set_position": 4,
+    "context_passage": "Enunciated by Jung as an integral part of his psychology in 1916 immediately after his unsettling confrontation with the unconscious, the transcendent function was seen by Jung as uniting the opposites, transforming psyche, and central to the individuation process. It also undoubtedly reflects his personal experience in coming to terms with the unconscious. Jung portrayed the transcendent function as operating through symbol and fantasy and mediating between the opposites of consciousness and the unconscious to prompt the emergence of a new, third posture that transcends the two. In exploring the details of the transcendent function and its connection to other Jungian constructs, this work has unearthed significant changes, ambiguities, and inconsistencies in Jung’s writings. Further, it has identified two separate images of the transcendent function: (1) the narrow transcendent function, the function or process within Jung’s pantheon of psychic structures, generally seen as the uniting of the opposites of consciousness and the unconscious from which a new attitude emerges; and (2) the expansive transcendent function, the root metaphor for psyche or being psychological that subsumes Jung’s pantheon and that apprehends the most fundamental psychic activity of interacting with the unknown or other. This book has also posited that the expansive transcendent function, as the root metaphor for exchanges between conscious and the unconscious, is the wellspring from whence, flows other key Jungian structures such as the archetypes and the Self, and is the core of the individuation process. The expansive transcendent function has been explored further by surveying other schools of psychology, with both depth and non-depth orientations, and evaluating the transcendent function alongside structures or processes in those other schools which play similar mediatory and/or transitional roles.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "As per the passage, the key Jungian structure – other than the Self – that emerges from the expansive transcendent function may NOT be expressed as a(n):",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Stereotype"
+      },
+      {
+        "label": "b",
+        "text": "Anomaly"
+      },
+      {
+        "label": "c",
+        "text": "Idealized model"
+      },
+      {
+        "label": "d",
+        "text": "Original pattern"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 15,
+    "question_code": "RC-T2-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p8",
+    "set_position": 1,
+    "context_passage": "Can poor countries afford to be green? That is a question which politicians in the developing world have often asked pointedly. To them, it seems that the obsession of some rich type with preserving forests and saving cuddly animals like pandas or lemurs, while paying less attention to the human brings living nearby, is both cynical and hypocritical. There is of course plenty of evidence that greenery and growth are not polar opposite. After decades of expansion in China and other fast-emerging economies, some of the negative side-effects and their impact on human welfare, above all the death toll caused by foul air and water, are horribly clear. Yet the relationship between growth and the state of environment is far from simple. Some experts feel that poor countries have been quiet right to challenge the sort of green orthodox which rejects the very idea of economic growth. Indeed, the single biggest variable in determining the countrie’s ranking is income per head. But that does not imply that economic growth automatically leads to an improvement in the environment. Growth does offer solutions to the sorts of environmental woes (local air pollution, for example), that directly kill humans. This matters, because about a quarter of all deaths in the world have some link to environmental factors. Most of the victims are poor people who are already vulnerable because of bad living conditions, lack of access to medicine, and malnutrition. Among the killers especially of children, in which the environment plays the role, are diarrhoea, respiratory and infections and malaria. These diseases reinforce a vicious circle of poverty and hopelessness by depressing production. According to the World Bank the economic burden on society caused by bad environmental health amounts to between 2% and 5% of GDP. As poor countries get richer, they usually invest heavily in environmental improvements, such as cleaning up water supplies and improving sanitation, that boost human health. But the link between growth and environmentally benign outcomes is, much less clear when it comes to the sort of pollution that fouls up nature (such as acid rain, which poisons lakes and forests) as opposed to directly killing human beings. The key to addressing that sort of pollution is not just money but good governance. Hence, the poor Dominican Republic is much healthier than nearby Haiti, Costa Rica is far ahead of Nicaragua, in spite of broadly similar nature and resources, and wealthy Belgium is the sick man of Western Europe, with an environmental record worse than that of many developing countries.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "The passage DOES NOT talk about",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "the impact of environmental health no economic growth."
+      },
+      {
+        "label": "b",
+        "text": "factors determining good governance."
+      },
+      {
+        "label": "c",
+        "text": "the impact of economic growth on environment health."
+      },
+      {
+        "label": "d",
+        "text": "environmental factors affecting child mortality."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 16,
+    "question_code": "RC-T2-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p8",
+    "set_position": 2,
+    "context_passage": "Can poor countries afford to be green? That is a question which politicians in the developing world have often asked pointedly. To them, it seems that the obsession of some rich type with preserving forests and saving cuddly animals like pandas or lemurs, while paying less attention to the human brings living nearby, is both cynical and hypocritical. There is of course plenty of evidence that greenery and growth are not polar opposite. After decades of expansion in China and other fast-emerging economies, some of the negative side-effects and their impact on human welfare, above all the death toll caused by foul air and water, are horribly clear. Yet the relationship between growth and the state of environment is far from simple. Some experts feel that poor countries have been quiet right to challenge the sort of green orthodox which rejects the very idea of economic growth. Indeed, the single biggest variable in determining the countrie’s ranking is income per head. But that does not imply that economic growth automatically leads to an improvement in the environment. Growth does offer solutions to the sorts of environmental woes (local air pollution, for example), that directly kill humans. This matters, because about a quarter of all deaths in the world have some link to environmental factors. Most of the victims are poor people who are already vulnerable because of bad living conditions, lack of access to medicine, and malnutrition. Among the killers especially of children, in which the environment plays the role, are diarrhoea, respiratory and infections and malaria. These diseases reinforce a vicious circle of poverty and hopelessness by depressing production. According to the World Bank the economic burden on society caused by bad environmental health amounts to between 2% and 5% of GDP. As poor countries get richer, they usually invest heavily in environmental improvements, such as cleaning up water supplies and improving sanitation, that boost human health. But the link between growth and environmentally benign outcomes is, much less clear when it comes to the sort of pollution that fouls up nature (such as acid rain, which poisons lakes and forests) as opposed to directly killing human beings. The key to addressing that sort of pollution is not just money but good governance. Hence, the poor Dominican Republic is much healthier than nearby Haiti, Costa Rica is far ahead of Nicaragua, in spite of broadly similar nature and resources, and wealthy Belgium is the sick man of Western Europe, with an environmental record worse than that of many developing countries.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which one of the following statements CANNOT be inferred from the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Fast-emerging economies are responsible for polluting their environment."
+      },
+      {
+        "label": "b",
+        "text": "Bad environmental health affects a country’s production."
+      },
+      {
+        "label": "c",
+        "text": "Environment can be protected only after economic prosperity has been achieved."
+      },
+      {
+        "label": "d",
+        "text": "The link between the state of the environment and human health is ambiguous."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 17,
+    "question_code": "RC-T2-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p8",
+    "set_position": 3,
+    "context_passage": "Can poor countries afford to be green? That is a question which politicians in the developing world have often asked pointedly. To them, it seems that the obsession of some rich type with preserving forests and saving cuddly animals like pandas or lemurs, while paying less attention to the human brings living nearby, is both cynical and hypocritical. There is of course plenty of evidence that greenery and growth are not polar opposite. After decades of expansion in China and other fast-emerging economies, some of the negative side-effects and their impact on human welfare, above all the death toll caused by foul air and water, are horribly clear. Yet the relationship between growth and the state of environment is far from simple. Some experts feel that poor countries have been quiet right to challenge the sort of green orthodox which rejects the very idea of economic growth. Indeed, the single biggest variable in determining the countrie’s ranking is income per head. But that does not imply that economic growth automatically leads to an improvement in the environment. Growth does offer solutions to the sorts of environmental woes (local air pollution, for example), that directly kill humans. This matters, because about a quarter of all deaths in the world have some link to environmental factors. Most of the victims are poor people who are already vulnerable because of bad living conditions, lack of access to medicine, and malnutrition. Among the killers especially of children, in which the environment plays the role, are diarrhoea, respiratory and infections and malaria. These diseases reinforce a vicious circle of poverty and hopelessness by depressing production. According to the World Bank the economic burden on society caused by bad environmental health amounts to between 2% and 5% of GDP. As poor countries get richer, they usually invest heavily in environmental improvements, such as cleaning up water supplies and improving sanitation, that boost human health. But the link between growth and environmentally benign outcomes is, much less clear when it comes to the sort of pollution that fouls up nature (such as acid rain, which poisons lakes and forests) as opposed to directly killing human beings. The key to addressing that sort of pollution is not just money but good governance. Hence, the poor Dominican Republic is much healthier than nearby Haiti, Costa Rica is far ahead of Nicaragua, in spite of broadly similar nature and resources, and wealthy Belgium is the sick man of Western Europe, with an environmental record worse than that of many developing countries.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "The MOST APPROPRIATE title for the passage would be:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "How Green is Their Growth?"
+      },
+      {
+        "label": "b",
+        "text": "Green Orthodoxy"
+      },
+      {
+        "label": "c",
+        "text": "Growth vs Greenery"
+      },
+      {
+        "label": "d",
+        "text": "Global Warming"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 2,
+    "question_number": 18,
+    "question_code": "RC-T2-Q18",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t2-p8",
+    "set_position": 4,
+    "context_passage": "Can poor countries afford to be green? That is a question which politicians in the developing world have often asked pointedly. To them, it seems that the obsession of some rich type with preserving forests and saving cuddly animals like pandas or lemurs, while paying less attention to the human brings living nearby, is both cynical and hypocritical. There is of course plenty of evidence that greenery and growth are not polar opposite. After decades of expansion in China and other fast-emerging economies, some of the negative side-effects and their impact on human welfare, above all the death toll caused by foul air and water, are horribly clear. Yet the relationship between growth and the state of environment is far from simple. Some experts feel that poor countries have been quiet right to challenge the sort of green orthodox which rejects the very idea of economic growth. Indeed, the single biggest variable in determining the countrie’s ranking is income per head. But that does not imply that economic growth automatically leads to an improvement in the environment. Growth does offer solutions to the sorts of environmental woes (local air pollution, for example), that directly kill humans. This matters, because about a quarter of all deaths in the world have some link to environmental factors. Most of the victims are poor people who are already vulnerable because of bad living conditions, lack of access to medicine, and malnutrition. Among the killers especially of children, in which the environment plays the role, are diarrhoea, respiratory and infections and malaria. These diseases reinforce a vicious circle of poverty and hopelessness by depressing production. According to the World Bank the economic burden on society caused by bad environmental health amounts to between 2% and 5% of GDP. As poor countries get richer, they usually invest heavily in environmental improvements, such as cleaning up water supplies and improving sanitation, that boost human health. But the link between growth and environmentally benign outcomes is, much less clear when it comes to the sort of pollution that fouls up nature (such as acid rain, which poisons lakes and forests) as opposed to directly killing human beings. The key to addressing that sort of pollution is not just money but good governance. Hence, the poor Dominican Republic is much healthier than nearby Haiti, Costa Rica is far ahead of Nicaragua, in spite of broadly similar nature and resources, and wealthy Belgium is the sick man of Western Europe, with an environmental record worse than that of many developing countries.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which one of the following can be MOST APPROPRIATELY inferred from the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Environmental health should be the single biggest variable in determining a country’s ranking."
+      },
+      {
+        "label": "b",
+        "text": "Poor countries cannot afford to save forests or protect cuddly animals."
+      },
+      {
+        "label": "c",
+        "text": "Haiti, Nicargagua and Belgium are the most polluted countries in the world."
+      },
+      {
+        "label": "d",
+        "text": "Economic progress can help to ease environmental woes, as long as the governance is good."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

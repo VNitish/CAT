@@ -22,3 +22,10 @@ __pycache__/
 *.pyc
 *.pyo
 docs/pattern-guides/
+
+# Source textbook PDFs — copyrighted, do not commit/distribute
+*.pdf
+
+# Local extraction scratch & agent tooling
+.varc_extract/
+.claude/

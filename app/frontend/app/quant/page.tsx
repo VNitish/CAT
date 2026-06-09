@@ -78,6 +78,9 @@ export default function QuantPage() {
           <button onClick={() => router.push('/varc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             VARC Mocks
           </button>
+          <button onClick={() => router.push('/rc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            RC Tests
+          </button>
           <button onClick={() => router.push('/papers')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Papers
           </button>

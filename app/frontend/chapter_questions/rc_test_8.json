@@ -1,0 +1,642 @@
+[
+  {
+    "test": 8,
+    "question_number": 1,
+    "question_code": "RC-T8-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p29",
+    "set_position": 1,
+    "context_passage": "John Maynard Keynes, the trendiest dead economist of this apocalyptic moment, was the godfather of government stimulus. Keynes had the radical idea that throwing money at recessions through aggressive deficit spending would resuscitate flatinged economies and he was not too particular about where the money was thrown. In the depths of the Depressing, he suggested that the Treasury could, ‘fill old bottles with banknotes, bury them at suitable depths in disused coal mines’, then sit back and watch a money-mining boom create jobs and prosperity. ‘It would, indeed, be more sensible to build houses and the like,’ he wrote, but above would be better than nothing. As President-elect Barack Obama prepares to throw money at the current down turn a stimulus package starting at about $350 billion chunk of the financial bailout-we all really do seem to be Keynesians now. Just about every expect agrees that pumping $1 trillion into a moribund economy will rev up the ethereal goods-and services engine that Keynes called ‘aggregate demand’ and stimulate at least some short-term activity, even if it is all wasted on money pits. But Keynes was also right that there would be more sensible ways to spend it. A trillion dollars’ worth of bad ideas sprawl- inducing highways and bridges to nowhere, ethanol plants and pipelines that accelerate global warming, tax breaks for overleveraged Mac mansion builders and burdensome new long-term federal entitlements-would be worse than mere waste. It would be smarter to buy every American an iPod, a set of Ginsu knives and 600 Subway footlongs. It would be smarter still to throw all that money at things we need to do anyway which is the goal of Obama’s upcoming American Recovery and Reinvestment Plan. It will include a mix of tax cuts, aid to beleaguered state and local governments, and spending to address needed ranging from food stamps to computerized health records to bridge repairs to broadband networks to energy-efficiency retrofits, all designed to save or create 3 million to 4 million jobs by the end of 2010. Obama has said speed is his top priority because the faster Washington injects cash into the financial bloodstream, the better it stands to help avert a multi year slump with double-digit unemployment and deflation. But he also wants to use the stimulus to advance his long-term priorities: reducing energy use and carbon emissions, cutting middle-class taxes, upgrading neglected infrastructure, reining in health-care costs and eventually reducing the budget deficits that exploded under Gerorge W. Bush. Obama’s goal is to exploit this crisis in the best sense of the word, to start pursuing his vision of a greener, fairer, more competitive, more sustainable economy. Unfortunately, while 21st century Washington has demonstrated an impressive ability to spend money quickly, it has yet to prove that it can spend money wisely. And the chum of a 1 with 12 zeros is already creating a feeding frenzy for the ages. Lobbyists for shoe companies, zoos, catfish farmers. Mall owners, airlines, public broadcasters, car dealers and everyone else who can afford their retainers are lining up for a piece of the stimulus. States that embarked on raucous spending and tax-cutting sprees when they were flush are begging for bailouts now that they’re broke. And politicians are dusting off their unfunded mobster museums, waterslides and other pet projects for regrinding as shovel ready infrastructure investments. As Obama’s aides scramble to assemble something effectives and transformative as well as politically achievable, they acknowledge the tension between his desires for speed and reform.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "John M. Keynes was advocate of which of the following suggestions?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Spending money recklessly during recessions is suicidal."
+      },
+      {
+        "label": "b",
+        "text": "Exorbitant spending during recessions is likely to boost economy."
+      },
+      {
+        "label": "c",
+        "text": "Aggressive deficit spending is likely to be fatal for economic meltdown."
+      },
+      {
+        "label": "d",
+        "text": "Government stimulus to economy may not help because of redtapism."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 2,
+    "question_code": "RC-T8-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p29",
+    "set_position": 2,
+    "context_passage": "John Maynard Keynes, the trendiest dead economist of this apocalyptic moment, was the godfather of government stimulus. Keynes had the radical idea that throwing money at recessions through aggressive deficit spending would resuscitate flatinged economies and he was not too particular about where the money was thrown. In the depths of the Depressing, he suggested that the Treasury could, ‘fill old bottles with banknotes, bury them at suitable depths in disused coal mines’, then sit back and watch a money-mining boom create jobs and prosperity. ‘It would, indeed, be more sensible to build houses and the like,’ he wrote, but above would be better than nothing. As President-elect Barack Obama prepares to throw money at the current down turn a stimulus package starting at about $350 billion chunk of the financial bailout-we all really do seem to be Keynesians now. Just about every expect agrees that pumping $1 trillion into a moribund economy will rev up the ethereal goods-and services engine that Keynes called ‘aggregate demand’ and stimulate at least some short-term activity, even if it is all wasted on money pits. But Keynes was also right that there would be more sensible ways to spend it. A trillion dollars’ worth of bad ideas sprawl- inducing highways and bridges to nowhere, ethanol plants and pipelines that accelerate global warming, tax breaks for overleveraged Mac mansion builders and burdensome new long-term federal entitlements-would be worse than mere waste. It would be smarter to buy every American an iPod, a set of Ginsu knives and 600 Subway footlongs. It would be smarter still to throw all that money at things we need to do anyway which is the goal of Obama’s upcoming American Recovery and Reinvestment Plan. It will include a mix of tax cuts, aid to beleaguered state and local governments, and spending to address needed ranging from food stamps to computerized health records to bridge repairs to broadband networks to energy-efficiency retrofits, all designed to save or create 3 million to 4 million jobs by the end of 2010. Obama has said speed is his top priority because the faster Washington injects cash into the financial bloodstream, the better it stands to help avert a multi year slump with double-digit unemployment and deflation. But he also wants to use the stimulus to advance his long-term priorities: reducing energy use and carbon emissions, cutting middle-class taxes, upgrading neglected infrastructure, reining in health-care costs and eventually reducing the budget deficits that exploded under Gerorge W. Bush. Obama’s goal is to exploit this crisis in the best sense of the word, to start pursuing his vision of a greener, fairer, more competitive, more sustainable economy. Unfortunately, while 21st century Washington has demonstrated an impressive ability to spend money quickly, it has yet to prove that it can spend money wisely. And the chum of a 1 with 12 zeros is already creating a feeding frenzy for the ages. Lobbyists for shoe companies, zoos, catfish farmers. Mall owners, airlines, public broadcasters, car dealers and everyone else who can afford their retainers are lining up for a piece of the stimulus. States that embarked on raucous spending and tax-cutting sprees when they were flush are begging for bailouts now that they’re broke. And politicians are dusting off their unfunded mobster museums, waterslides and other pet projects for regrinding as shovel ready infrastructure investments. As Obama’s aides scramble to assemble something effectives and transformative as well as politically achievable, they acknowledge the tension between his desires for speed and reform.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "The author of the passage calls Barack Obama and his team as ‘Keynesians’ because",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Barack Obama has been reluctant to follow Keynes’ philosophy."
+      },
+      {
+        "label": "b",
+        "text": "his team is advising Barack to refrain from Keynes’ philosophy."
+      },
+      {
+        "label": "c",
+        "text": "Barak Obama and his team have decided to fill old bottles with banknotes."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 3,
+    "question_code": "RC-T8-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p29",
+    "set_position": 3,
+    "context_passage": "John Maynard Keynes, the trendiest dead economist of this apocalyptic moment, was the godfather of government stimulus. Keynes had the radical idea that throwing money at recessions through aggressive deficit spending would resuscitate flatinged economies and he was not too particular about where the money was thrown. In the depths of the Depressing, he suggested that the Treasury could, ‘fill old bottles with banknotes, bury them at suitable depths in disused coal mines’, then sit back and watch a money-mining boom create jobs and prosperity. ‘It would, indeed, be more sensible to build houses and the like,’ he wrote, but above would be better than nothing. As President-elect Barack Obama prepares to throw money at the current down turn a stimulus package starting at about $350 billion chunk of the financial bailout-we all really do seem to be Keynesians now. Just about every expect agrees that pumping $1 trillion into a moribund economy will rev up the ethereal goods-and services engine that Keynes called ‘aggregate demand’ and stimulate at least some short-term activity, even if it is all wasted on money pits. But Keynes was also right that there would be more sensible ways to spend it. A trillion dollars’ worth of bad ideas sprawl- inducing highways and bridges to nowhere, ethanol plants and pipelines that accelerate global warming, tax breaks for overleveraged Mac mansion builders and burdensome new long-term federal entitlements-would be worse than mere waste. It would be smarter to buy every American an iPod, a set of Ginsu knives and 600 Subway footlongs. It would be smarter still to throw all that money at things we need to do anyway which is the goal of Obama’s upcoming American Recovery and Reinvestment Plan. It will include a mix of tax cuts, aid to beleaguered state and local governments, and spending to address needed ranging from food stamps to computerized health records to bridge repairs to broadband networks to energy-efficiency retrofits, all designed to save or create 3 million to 4 million jobs by the end of 2010. Obama has said speed is his top priority because the faster Washington injects cash into the financial bloodstream, the better it stands to help avert a multi year slump with double-digit unemployment and deflation. But he also wants to use the stimulus to advance his long-term priorities: reducing energy use and carbon emissions, cutting middle-class taxes, upgrading neglected infrastructure, reining in health-care costs and eventually reducing the budget deficits that exploded under Gerorge W. Bush. Obama’s goal is to exploit this crisis in the best sense of the word, to start pursuing his vision of a greener, fairer, more competitive, more sustainable economy. Unfortunately, while 21st century Washington has demonstrated an impressive ability to spend money quickly, it has yet to prove that it can spend money wisely. And the chum of a 1 with 12 zeros is already creating a feeding frenzy for the ages. Lobbyists for shoe companies, zoos, catfish farmers. Mall owners, airlines, public broadcasters, car dealers and everyone else who can afford their retainers are lining up for a piece of the stimulus. States that embarked on raucous spending and tax-cutting sprees when they were flush are begging for bailouts now that they’re broke. And politicians are dusting off their unfunded mobster museums, waterslides and other pet projects for regrinding as shovel ready infrastructure investments. As Obama’s aides scramble to assemble something effectives and transformative as well as politically achievable, they acknowledge the tension between his desires for speed and reform.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Obama’s upcoming American Recovery and Reinvestment Plan focuses on which of the following? A. Recovery of all debts from the debtors in a phased manner. B. Pumping money very liberally in projects that are mandatory. C. Investing money recklessly in any project regardless of its utility.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "A only"
+      },
+      {
+        "label": "b",
+        "text": "B only"
+      },
+      {
+        "label": "c",
+        "text": "C only"
+      },
+      {
+        "label": "d",
+        "text": "B and C only"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 4,
+    "question_code": "RC-T8-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p29",
+    "set_position": 4,
+    "context_passage": "John Maynard Keynes, the trendiest dead economist of this apocalyptic moment, was the godfather of government stimulus. Keynes had the radical idea that throwing money at recessions through aggressive deficit spending would resuscitate flatinged economies and he was not too particular about where the money was thrown. In the depths of the Depressing, he suggested that the Treasury could, ‘fill old bottles with banknotes, bury them at suitable depths in disused coal mines’, then sit back and watch a money-mining boom create jobs and prosperity. ‘It would, indeed, be more sensible to build houses and the like,’ he wrote, but above would be better than nothing. As President-elect Barack Obama prepares to throw money at the current down turn a stimulus package starting at about $350 billion chunk of the financial bailout-we all really do seem to be Keynesians now. Just about every expect agrees that pumping $1 trillion into a moribund economy will rev up the ethereal goods-and services engine that Keynes called ‘aggregate demand’ and stimulate at least some short-term activity, even if it is all wasted on money pits. But Keynes was also right that there would be more sensible ways to spend it. A trillion dollars’ worth of bad ideas sprawl- inducing highways and bridges to nowhere, ethanol plants and pipelines that accelerate global warming, tax breaks for overleveraged Mac mansion builders and burdensome new long-term federal entitlements-would be worse than mere waste. It would be smarter to buy every American an iPod, a set of Ginsu knives and 600 Subway footlongs. It would be smarter still to throw all that money at things we need to do anyway which is the goal of Obama’s upcoming American Recovery and Reinvestment Plan. It will include a mix of tax cuts, aid to beleaguered state and local governments, and spending to address needed ranging from food stamps to computerized health records to bridge repairs to broadband networks to energy-efficiency retrofits, all designed to save or create 3 million to 4 million jobs by the end of 2010. Obama has said speed is his top priority because the faster Washington injects cash into the financial bloodstream, the better it stands to help avert a multi year slump with double-digit unemployment and deflation. But he also wants to use the stimulus to advance his long-term priorities: reducing energy use and carbon emissions, cutting middle-class taxes, upgrading neglected infrastructure, reining in health-care costs and eventually reducing the budget deficits that exploded under Gerorge W. Bush. Obama’s goal is to exploit this crisis in the best sense of the word, to start pursuing his vision of a greener, fairer, more competitive, more sustainable economy. Unfortunately, while 21st century Washington has demonstrated an impressive ability to spend money quickly, it has yet to prove that it can spend money wisely. And the chum of a 1 with 12 zeros is already creating a feeding frenzy for the ages. Lobbyists for shoe companies, zoos, catfish farmers. Mall owners, airlines, public broadcasters, car dealers and everyone else who can afford their retainers are lining up for a piece of the stimulus. States that embarked on raucous spending and tax-cutting sprees when they were flush are begging for bailouts now that they’re broke. And politicians are dusting off their unfunded mobster museums, waterslides and other pet projects for regrinding as shovel ready infrastructure investments. As Obama’s aides scramble to assemble something effectives and transformative as well as politically achievable, they acknowledge the tension between his desires for speed and reform.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is/are corrective measure(s) as part of the long- term priorities of Obama that was an outcome of his predecessor’s regime? A. Countering recession through immediate rescue operations. B. Reducing the budget deficit. C. Creating a more sustainable economy.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "A and B only"
+      },
+      {
+        "label": "b",
+        "text": "B and C only"
+      },
+      {
+        "label": "c",
+        "text": "A and C only"
+      },
+      {
+        "label": "d",
+        "text": "B only"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 5,
+    "question_code": "RC-T8-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p30",
+    "set_position": 1,
+    "context_passage": "Goldman Sachs predicted that crude oil price would hit $200 and just as it appeared that alternative renewable energy had a chance of becoming an economically viable option, the international price of oil fell by over 70%. After hitting the all-time high of $147 a barrel, a month ago, crude fell to less than $40 a barrel. What explains this sharp decline in the international price of oil? There has not been any major new discovery of a hitherto unknown source of oil or gas. The short answer is that the demand does not have to fall by a very sizeable quantity for the price of crude to respond as it did. In the short run, the price elasticity of demand for crude oil is very low. Conversely, in the short run, even a relatively big change in the price of oil does not immediately lower consumption. It takes months, or years, of high oil price to inculcate habits of energy conservation. World crude oil price had remained at over $60 a barrel for most of 2005-2007 without making any major dent in demand. The long answer is more complex. The economic slowdown in the US, Europe and Asia along with dollar depreciation and commodity speculation have all had some role in the downward descent in the international price of oil. In recent years, the supply of oil has been rising but not enough to catch up with the rising demand, resulting in an almost vertical escalation in its price. The number of crude oil futures and options contracts have also increased manifold which has led to significant speculation in the oil market. In comparison, the role of the Organization of Petroleum Exporting Countries (OPEC) in fixing crude price has considerably weakened. OPEC is often accused of operating as a cartel restricting output thus keeping prices artificially high. It did succeed in setting the price of crude during the 1970s and the first half of the ’80s. But, with increased futures trading and contracts, the control of crude pricing has moved from OPEC to banks and markets that deal with futures trading and contracts. It is true that most oil exporting regions of the world have remained politically unstable fuelling speculation over the price of crude. But there is little evidence that the geopolitical uncertainties in West Asia have improved to weaken the price of oil. Threatened by the downward slide of oil price, OPEC has, in fact, announced its decision to curtail output. However most oil importers will heave a sigh of relief as they find their oil bought options to import oil at prices higher than market prices. Exporting nations, on the other hand, will see their economic prosperity slip. Relatively low price of crude is also bad news for investments in alternative renewable energy that cannot complete with cheaper and non- renewable sources of energy.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the phrase ‘the price elasticity of demand for crude oil is very low’ imply?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "When the price rises the demand for crude oil fails immediately."
+      },
+      {
+        "label": "b",
+        "text": "A small change in demand will result in a sharp change in the price of crude."
+      },
+      {
+        "label": "c",
+        "text": "Within a short span of time the price of crude oil has fluctuated sharply."
+      },
+      {
+        "label": "d",
+        "text": "A small change in price does not affect much the consumption of crude oil."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 6,
+    "question_code": "RC-T8-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p30",
+    "set_position": 2,
+    "context_passage": "Goldman Sachs predicted that crude oil price would hit $200 and just as it appeared that alternative renewable energy had a chance of becoming an economically viable option, the international price of oil fell by over 70%. After hitting the all-time high of $147 a barrel, a month ago, crude fell to less than $40 a barrel. What explains this sharp decline in the international price of oil? There has not been any major new discovery of a hitherto unknown source of oil or gas. The short answer is that the demand does not have to fall by a very sizeable quantity for the price of crude to respond as it did. In the short run, the price elasticity of demand for crude oil is very low. Conversely, in the short run, even a relatively big change in the price of oil does not immediately lower consumption. It takes months, or years, of high oil price to inculcate habits of energy conservation. World crude oil price had remained at over $60 a barrel for most of 2005-2007 without making any major dent in demand. The long answer is more complex. The economic slowdown in the US, Europe and Asia along with dollar depreciation and commodity speculation have all had some role in the downward descent in the international price of oil. In recent years, the supply of oil has been rising but not enough to catch up with the rising demand, resulting in an almost vertical escalation in its price. The number of crude oil futures and options contracts have also increased manifold which has led to significant speculation in the oil market. In comparison, the role of the Organization of Petroleum Exporting Countries (OPEC) in fixing crude price has considerably weakened. OPEC is often accused of operating as a cartel restricting output thus keeping prices artificially high. It did succeed in setting the price of crude during the 1970s and the first half of the ’80s. But, with increased futures trading and contracts, the control of crude pricing has moved from OPEC to banks and markets that deal with futures trading and contracts. It is true that most oil exporting regions of the world have remained politically unstable fuelling speculation over the price of crude. But there is little evidence that the geopolitical uncertainties in West Asia have improved to weaken the price of oil. Threatened by the downward slide of oil price, OPEC has, in fact, announced its decision to curtail output. However most oil importers will heave a sigh of relief as they find their oil bought options to import oil at prices higher than market prices. Exporting nations, on the other hand, will see their economic prosperity slip. Relatively low price of crude is also bad news for investments in alternative renewable energy that cannot complete with cheaper and non- renewable sources of energy.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following factors is responsible for rise in speculation in crude oil markets? A. OPEC has not been able to restrict the oil output and control prices. B. The supply of oil has been rising to match demand. C. Existence of large number of oil future and oil contracts.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Both A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "All A, B and C"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 7,
+    "question_code": "RC-T8-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p30",
+    "set_position": 3,
+    "context_passage": "Goldman Sachs predicted that crude oil price would hit $200 and just as it appeared that alternative renewable energy had a chance of becoming an economically viable option, the international price of oil fell by over 70%. After hitting the all-time high of $147 a barrel, a month ago, crude fell to less than $40 a barrel. What explains this sharp decline in the international price of oil? There has not been any major new discovery of a hitherto unknown source of oil or gas. The short answer is that the demand does not have to fall by a very sizeable quantity for the price of crude to respond as it did. In the short run, the price elasticity of demand for crude oil is very low. Conversely, in the short run, even a relatively big change in the price of oil does not immediately lower consumption. It takes months, or years, of high oil price to inculcate habits of energy conservation. World crude oil price had remained at over $60 a barrel for most of 2005-2007 without making any major dent in demand. The long answer is more complex. The economic slowdown in the US, Europe and Asia along with dollar depreciation and commodity speculation have all had some role in the downward descent in the international price of oil. In recent years, the supply of oil has been rising but not enough to catch up with the rising demand, resulting in an almost vertical escalation in its price. The number of crude oil futures and options contracts have also increased manifold which has led to significant speculation in the oil market. In comparison, the role of the Organization of Petroleum Exporting Countries (OPEC) in fixing crude price has considerably weakened. OPEC is often accused of operating as a cartel restricting output thus keeping prices artificially high. It did succeed in setting the price of crude during the 1970s and the first half of the ’80s. But, with increased futures trading and contracts, the control of crude pricing has moved from OPEC to banks and markets that deal with futures trading and contracts. It is true that most oil exporting regions of the world have remained politically unstable fuelling speculation over the price of crude. But there is little evidence that the geopolitical uncertainties in West Asia have improved to weaken the price of oil. Threatened by the downward slide of oil price, OPEC has, in fact, announced its decision to curtail output. However most oil importers will heave a sigh of relief as they find their oil bought options to import oil at prices higher than market prices. Exporting nations, on the other hand, will see their economic prosperity slip. Relatively low price of crude is also bad news for investments in alternative renewable energy that cannot complete with cheaper and non- renewable sources of energy.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the author want to convey by citing the statistics of 2005- 2007?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The prices of crude were rising gradually so people were not alarmed."
+      },
+      {
+        "label": "b",
+        "text": "The dollar was a strong currency during that period."
+      },
+      {
+        "label": "c",
+        "text": "Many people turned to alternative renewable energy sources because of high oil prices."
+      },
+      {
+        "label": "d",
+        "text": "If the price of oil is high for a short time it does not necessarily result in a drop in consumption."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 8,
+    "question_code": "RC-T8-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p30",
+    "set_position": 4,
+    "context_passage": "Goldman Sachs predicted that crude oil price would hit $200 and just as it appeared that alternative renewable energy had a chance of becoming an economically viable option, the international price of oil fell by over 70%. After hitting the all-time high of $147 a barrel, a month ago, crude fell to less than $40 a barrel. What explains this sharp decline in the international price of oil? There has not been any major new discovery of a hitherto unknown source of oil or gas. The short answer is that the demand does not have to fall by a very sizeable quantity for the price of crude to respond as it did. In the short run, the price elasticity of demand for crude oil is very low. Conversely, in the short run, even a relatively big change in the price of oil does not immediately lower consumption. It takes months, or years, of high oil price to inculcate habits of energy conservation. World crude oil price had remained at over $60 a barrel for most of 2005-2007 without making any major dent in demand. The long answer is more complex. The economic slowdown in the US, Europe and Asia along with dollar depreciation and commodity speculation have all had some role in the downward descent in the international price of oil. In recent years, the supply of oil has been rising but not enough to catch up with the rising demand, resulting in an almost vertical escalation in its price. The number of crude oil futures and options contracts have also increased manifold which has led to significant speculation in the oil market. In comparison, the role of the Organization of Petroleum Exporting Countries (OPEC) in fixing crude price has considerably weakened. OPEC is often accused of operating as a cartel restricting output thus keeping prices artificially high. It did succeed in setting the price of crude during the 1970s and the first half of the ’80s. But, with increased futures trading and contracts, the control of crude pricing has moved from OPEC to banks and markets that deal with futures trading and contracts. It is true that most oil exporting regions of the world have remained politically unstable fuelling speculation over the price of crude. But there is little evidence that the geopolitical uncertainties in West Asia have improved to weaken the price of oil. Threatened by the downward slide of oil price, OPEC has, in fact, announced its decision to curtail output. However most oil importers will heave a sigh of relief as they find their oil bought options to import oil at prices higher than market prices. Exporting nations, on the other hand, will see their economic prosperity slip. Relatively low price of crude is also bad news for investments in alternative renewable energy that cannot complete with cheaper and non- renewable sources of energy.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What led to alternative energy sources being considered economically feasible?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The price of oil rose by 70 per cent while renewable energy sources are cheap."
+      },
+      {
+        "label": "b",
+        "text": "Exorbitant crude oil prices made alternative energy sources an attractive option."
+      },
+      {
+        "label": "c",
+        "text": "Expert predictions that the price of oil would alternately escalate and plunge sharply."
+      },
+      {
+        "label": "d",
+        "text": "Evidence that no new sources of oil and gas are available."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 9,
+    "question_code": "RC-T8-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p31",
+    "set_position": 1,
+    "context_passage": "Indeed the Western recession is really the beginning of good news for India! But to understand that we will have to move away for a while from the topic of Western recession … to the Japanese recession! For years the Japanese style of management has been admired. However over the last decade or so, one key question has sprung up ‘if Japanese management style is as wonderful as described then why has Japan been in a recession for more than a decade?’ The answer to this question is very simple. Culture plays a very important part in shaping up economies. What succeeds in one culture fails in another. Japanese are basically non-materialistic. And however rich they become unlike others, they cannot just keep throwing and buying endlessly. And once they have everything they need there is a saturation point. It was only when companies like Toyota realized that they cannot keep selling cars endlessly to their home market that they went really aggressive in the Western markets and the rest is history. Japanese companies grew bigger by catering to the world markets when their home markets shrunk. And the markets have to shrink finally after attaining a level of affluence! And that’s great for the world because earth needs sustainable development. It does not need monstrous consumers who keep consuming at the cost of the environment and the earth. There should be limits to growth so that consumers are not converted into material dustbins for the profit of a handful of corporations. Owing to the materialistic culture elsewhere, it was possible to keep selling newer products to the consumers despite having existing ones which served equally well. They were lured techniques of destabilization’ of the customer: and then finally once they became ready customers, they were given loans and credits to help them buy more and more. When all the creditworthy people were given loans to a logical limit, they ceased to be a part of the market. Even this would have been understandable if it could work as an eye-opener. Instead of taking the Right Step’ as Toyota did, they preferred to take a ‘shortcut’. Now banks went to the non-creditworthy people and gave them loans. The people expectedly defaulted and the entire system collapsed. Now like Toyota, Western companies will learn to find new markets. They will now lean towards India because of its common man! The billion plus population in the next 25 years will become a consuming middle-class. Finally the world’s attention will shift to the developing world. Finally there will be a real surge in income of these people and in the next fifty odd years, one can really hope to see an equal world in terms of material plenty, with poverty being almost non-existent! And this will happen not by selling more cars to Americans and Europeans. It will happen by creating markets in India, China, Latin America and Africa by giving their people purchasing power and by making products for them. The recession has made us realize that it is not because of worse management techniques, but because of limits to growth. And they will realize that it is great for planet earth. After all, how many cars and houses must the rich own before calling it enough? It’s time for them to look at others as well. Many years back, to increase his own profits, Henry Ford had started paying his workers more, so that they could buy his cars. In similar fashion, now the developed world will pay the developing world people so that they can buy their cars and washing machines. The recession will kick-start the process of making the entire world more prosperous, and lay the foundation of limits to growth in the west and the foundation of real globalization in the world or the globalization of prosperity. And one of its first beneficiaries will be India.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the author mean by the ‘Right Step’ in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Giving loans to creditworthy people only."
+      },
+      {
+        "label": "b",
+        "text": "Considering market growth along with environment protection."
+      },
+      {
+        "label": "c",
+        "text": "Restricting people to buy only such products which are needed by them."
+      },
+      {
+        "label": "d",
+        "text": "To start looking at newer avenues and markets."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 10,
+    "question_code": "RC-T8-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p31",
+    "set_position": 2,
+    "context_passage": "Indeed the Western recession is really the beginning of good news for India! But to understand that we will have to move away for a while from the topic of Western recession … to the Japanese recession! For years the Japanese style of management has been admired. However over the last decade or so, one key question has sprung up ‘if Japanese management style is as wonderful as described then why has Japan been in a recession for more than a decade?’ The answer to this question is very simple. Culture plays a very important part in shaping up economies. What succeeds in one culture fails in another. Japanese are basically non-materialistic. And however rich they become unlike others, they cannot just keep throwing and buying endlessly. And once they have everything they need there is a saturation point. It was only when companies like Toyota realized that they cannot keep selling cars endlessly to their home market that they went really aggressive in the Western markets and the rest is history. Japanese companies grew bigger by catering to the world markets when their home markets shrunk. And the markets have to shrink finally after attaining a level of affluence! And that’s great for the world because earth needs sustainable development. It does not need monstrous consumers who keep consuming at the cost of the environment and the earth. There should be limits to growth so that consumers are not converted into material dustbins for the profit of a handful of corporations. Owing to the materialistic culture elsewhere, it was possible to keep selling newer products to the consumers despite having existing ones which served equally well. They were lured techniques of destabilization’ of the customer: and then finally once they became ready customers, they were given loans and credits to help them buy more and more. When all the creditworthy people were given loans to a logical limit, they ceased to be a part of the market. Even this would have been understandable if it could work as an eye-opener. Instead of taking the Right Step’ as Toyota did, they preferred to take a ‘shortcut’. Now banks went to the non-creditworthy people and gave them loans. The people expectedly defaulted and the entire system collapsed. Now like Toyota, Western companies will learn to find new markets. They will now lean towards India because of its common man! The billion plus population in the next 25 years will become a consuming middle-class. Finally the world’s attention will shift to the developing world. Finally there will be a real surge in income of these people and in the next fifty odd years, one can really hope to see an equal world in terms of material plenty, with poverty being almost non-existent! And this will happen not by selling more cars to Americans and Europeans. It will happen by creating markets in India, China, Latin America and Africa by giving their people purchasing power and by making products for them. The recession has made us realize that it is not because of worse management techniques, but because of limits to growth. And they will realize that it is great for planet earth. After all, how many cars and houses must the rich own before calling it enough? It’s time for them to look at others as well. Many years back, to increase his own profits, Henry Ford had started paying his workers more, so that they could buy his cars. In similar fashion, now the developed world will pay the developing world people so that they can buy their cars and washing machines. The recession will kick-start the process of making the entire world more prosperous, and lay the foundation of limits to growth in the west and the foundation of real globalization in the world or the globalization of prosperity. And one of its first beneficiaries will be India.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Although admired since years, why did the skepticism over the Japanese management style start since the last decade?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Japanese companies have been moving out of their home markets since the last decade."
+      },
+      {
+        "label": "b",
+        "text": "Japanese banks have provided loans indiscriminately to the creditworthy as well as non-creditworthy people."
+      },
+      {
+        "label": "c",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "label": "d",
+        "text": "Only (b)"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 11,
+    "question_code": "RC-T8-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p31",
+    "set_position": 3,
+    "context_passage": "Indeed the Western recession is really the beginning of good news for India! But to understand that we will have to move away for a while from the topic of Western recession … to the Japanese recession! For years the Japanese style of management has been admired. However over the last decade or so, one key question has sprung up ‘if Japanese management style is as wonderful as described then why has Japan been in a recession for more than a decade?’ The answer to this question is very simple. Culture plays a very important part in shaping up economies. What succeeds in one culture fails in another. Japanese are basically non-materialistic. And however rich they become unlike others, they cannot just keep throwing and buying endlessly. And once they have everything they need there is a saturation point. It was only when companies like Toyota realized that they cannot keep selling cars endlessly to their home market that they went really aggressive in the Western markets and the rest is history. Japanese companies grew bigger by catering to the world markets when their home markets shrunk. And the markets have to shrink finally after attaining a level of affluence! And that’s great for the world because earth needs sustainable development. It does not need monstrous consumers who keep consuming at the cost of the environment and the earth. There should be limits to growth so that consumers are not converted into material dustbins for the profit of a handful of corporations. Owing to the materialistic culture elsewhere, it was possible to keep selling newer products to the consumers despite having existing ones which served equally well. They were lured techniques of destabilization’ of the customer: and then finally once they became ready customers, they were given loans and credits to help them buy more and more. When all the creditworthy people were given loans to a logical limit, they ceased to be a part of the market. Even this would have been understandable if it could work as an eye-opener. Instead of taking the Right Step’ as Toyota did, they preferred to take a ‘shortcut’. Now banks went to the non-creditworthy people and gave them loans. The people expectedly defaulted and the entire system collapsed. Now like Toyota, Western companies will learn to find new markets. They will now lean towards India because of its common man! The billion plus population in the next 25 years will become a consuming middle-class. Finally the world’s attention will shift to the developing world. Finally there will be a real surge in income of these people and in the next fifty odd years, one can really hope to see an equal world in terms of material plenty, with poverty being almost non-existent! And this will happen not by selling more cars to Americans and Europeans. It will happen by creating markets in India, China, Latin America and Africa by giving their people purchasing power and by making products for them. The recession has made us realize that it is not because of worse management techniques, but because of limits to growth. And they will realize that it is great for planet earth. After all, how many cars and houses must the rich own before calling it enough? It’s time for them to look at others as well. Many years back, to increase his own profits, Henry Ford had started paying his workers more, so that they could buy his cars. In similar fashion, now the developed world will pay the developing world people so that they can buy their cars and washing machines. The recession will kick-start the process of making the entire world more prosperous, and lay the foundation of limits to growth in the west and the foundation of real globalization in the world or the globalization of prosperity. And one of its first beneficiaries will be India.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why does the author foresee the markets being created in the developing countries instead of America and Europe?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "All developing countries have materialistic culture."
+      },
+      {
+        "label": "b",
+        "text": "Developed countries are willing to make an effort to achieve globalization."
+      },
+      {
+        "label": "c",
+        "text": "American and European markets have had a large number of credit defaulters."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 12,
+    "question_code": "RC-T8-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p31",
+    "set_position": 4,
+    "context_passage": "Indeed the Western recession is really the beginning of good news for India! But to understand that we will have to move away for a while from the topic of Western recession … to the Japanese recession! For years the Japanese style of management has been admired. However over the last decade or so, one key question has sprung up ‘if Japanese management style is as wonderful as described then why has Japan been in a recession for more than a decade?’ The answer to this question is very simple. Culture plays a very important part in shaping up economies. What succeeds in one culture fails in another. Japanese are basically non-materialistic. And however rich they become unlike others, they cannot just keep throwing and buying endlessly. And once they have everything they need there is a saturation point. It was only when companies like Toyota realized that they cannot keep selling cars endlessly to their home market that they went really aggressive in the Western markets and the rest is history. Japanese companies grew bigger by catering to the world markets when their home markets shrunk. And the markets have to shrink finally after attaining a level of affluence! And that’s great for the world because earth needs sustainable development. It does not need monstrous consumers who keep consuming at the cost of the environment and the earth. There should be limits to growth so that consumers are not converted into material dustbins for the profit of a handful of corporations. Owing to the materialistic culture elsewhere, it was possible to keep selling newer products to the consumers despite having existing ones which served equally well. They were lured techniques of destabilization’ of the customer: and then finally once they became ready customers, they were given loans and credits to help them buy more and more. When all the creditworthy people were given loans to a logical limit, they ceased to be a part of the market. Even this would have been understandable if it could work as an eye-opener. Instead of taking the Right Step’ as Toyota did, they preferred to take a ‘shortcut’. Now banks went to the non-creditworthy people and gave them loans. The people expectedly defaulted and the entire system collapsed. Now like Toyota, Western companies will learn to find new markets. They will now lean towards India because of its common man! The billion plus population in the next 25 years will become a consuming middle-class. Finally the world’s attention will shift to the developing world. Finally there will be a real surge in income of these people and in the next fifty odd years, one can really hope to see an equal world in terms of material plenty, with poverty being almost non-existent! And this will happen not by selling more cars to Americans and Europeans. It will happen by creating markets in India, China, Latin America and Africa by giving their people purchasing power and by making products for them. The recession has made us realize that it is not because of worse management techniques, but because of limits to growth. And they will realize that it is great for planet earth. After all, how many cars and houses must the rich own before calling it enough? It’s time for them to look at others as well. Many years back, to increase his own profits, Henry Ford had started paying his workers more, so that they could buy his cars. In similar fashion, now the developed world will pay the developing world people so that they can buy their cars and washing machines. The recession will kick-start the process of making the entire world more prosperous, and lay the foundation of limits to growth in the west and the foundation of real globalization in the world or the globalization of prosperity. And one of its first beneficiaries will be India.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "How does the author foresee the future globalization as an analogy to Henry Ford’s example? A. Car companies would start selling cars in developing countries as well. B. By paying the developing world the developed world would increase its own profit in turn bringing affluence to developing world as well. C. To earn profit, the companies in developing countries would move to foreignland.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only B"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "Only A and C"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 13,
+    "question_code": "RC-T8-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p32",
+    "set_position": 1,
+    "context_passage": "Capitalism is a great slave, but a pathetic master. This truth unfortunately gets lost in our chase for the elusive dream. It’s the dream of being independent masters of our lives or making big bucks and of being happy even if that happiness is being bought by money which all of them chase out there. No doubt, the West, on its part, has been fairly successful in creating material comforts a plenty. It has improved the living standard of its average citizen. However it has been achieved as a result of more than 200 years of unbridled growth and exploitation. And that is what has made the rest of the world mindlessly chase Westernism not necessarily happiness or an ideal form of society. All because the shop window looks very impressive and it has been marketed very well. But a deep look inside the shop tells a different tale. A different world lies behind; a world that is not quite visible to the starry eyed millions – for whom the Western way of life seems to be the ultimate dream. Thus, we have Indians dreaming to become or to get married to an NRI and Indian middle-class fathers dreaming of their sons reaching the Bay area and landing tech jobs, unmindful of the second-class life they end up leading in the West. What goes unseen and almost unheard is that the West also happens to be the land that is right amongst the top in terms of the number of divorces per thousand, the number of single parent families per thousand, the number of old people in old age homes, the number of suicides, homicides, and of course, the number of college/school shootouts. And why not! After all, such societies are constantly driven towards higher profits and materialism. Expectedly, this materialism comes at a cost that the world is paying today. This is the reason why we have millions dying of curable diseases in Africa and other underdeveloped countries, while the rich grow richer. Their growth will be reduced, if they were to start thinking of the poor so what do they do to justify their greed for more? They most shrewdly propagate and market a ridiculously primitive law of the jungle for our 21st century civilian, the ‘Law of Survival of the Fittest’! The interesting thing about material things is that they only give an illusion of happiness; however such happiness is always momentary in nature. Ergo, at this juncture, you feel you are buying your new car or flat screen TV, and just a few days later, these are the very possessions that cease to make you happy. While you chase the bigger car and spend that extra bit of the wealth, you intercept someone’s share of the daily bread and also sacrifice those who have the maximum power to make you happy-family, emotions and love. Prolonged abstinence in feeling emotions finally destroys bliss; and you do not even realize when you have become a dry-eyed cripple … and then you land up in a sermon workshop to find out the real meaning of life – or whatever these workshops are capable of explaining. The truth is that such workshops are also driven by merchants who cash in on the dejected state of the people, a state created by their own fictional dreams. But by then it’s really too late. By then, you have made profits out of arms, and engineered wars to keep that industry alive. You have sold guns across counters at supermarkets and made more profits. You have lobbied that guns should be made accessible to the common man, and all for the sake of profits. This makes you realize one day that they are your own children who are in the line of fire against the school goer who opens fire at his schoolmates. This is the society that finally creates an emotionless monster, who gets satisfaction in killing innocent adults and children alike for no cause no reason and for none, for himself. It is the utter destruction of spiritualism and the total focus on endless self-gratification. Where so many single parent families and divorces exist, it is impossible to bring up children or influence the killers, any better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Who does the author hold responsible for the shooting spree in schools and colleges? A. Lack of love and emotion in the society in general. B. Increased focus on self-gratification even when it comes at the cost of innocent lives. C. Deteriorating social structure leading to break up of families resulting in lack of families resulting in lack of moral development in children.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only C"
+      },
+      {
+        "label": "c",
+        "text": "Only B and C"
+      },
+      {
+        "label": "d",
+        "text": "All of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 14,
+    "question_code": "RC-T8-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p32",
+    "set_position": 2,
+    "context_passage": "Capitalism is a great slave, but a pathetic master. This truth unfortunately gets lost in our chase for the elusive dream. It’s the dream of being independent masters of our lives or making big bucks and of being happy even if that happiness is being bought by money which all of them chase out there. No doubt, the West, on its part, has been fairly successful in creating material comforts a plenty. It has improved the living standard of its average citizen. However it has been achieved as a result of more than 200 years of unbridled growth and exploitation. And that is what has made the rest of the world mindlessly chase Westernism not necessarily happiness or an ideal form of society. All because the shop window looks very impressive and it has been marketed very well. But a deep look inside the shop tells a different tale. A different world lies behind; a world that is not quite visible to the starry eyed millions – for whom the Western way of life seems to be the ultimate dream. Thus, we have Indians dreaming to become or to get married to an NRI and Indian middle-class fathers dreaming of their sons reaching the Bay area and landing tech jobs, unmindful of the second-class life they end up leading in the West. What goes unseen and almost unheard is that the West also happens to be the land that is right amongst the top in terms of the number of divorces per thousand, the number of single parent families per thousand, the number of old people in old age homes, the number of suicides, homicides, and of course, the number of college/school shootouts. And why not! After all, such societies are constantly driven towards higher profits and materialism. Expectedly, this materialism comes at a cost that the world is paying today. This is the reason why we have millions dying of curable diseases in Africa and other underdeveloped countries, while the rich grow richer. Their growth will be reduced, if they were to start thinking of the poor so what do they do to justify their greed for more? They most shrewdly propagate and market a ridiculously primitive law of the jungle for our 21st century civilian, the ‘Law of Survival of the Fittest’! The interesting thing about material things is that they only give an illusion of happiness; however such happiness is always momentary in nature. Ergo, at this juncture, you feel you are buying your new car or flat screen TV, and just a few days later, these are the very possessions that cease to make you happy. While you chase the bigger car and spend that extra bit of the wealth, you intercept someone’s share of the daily bread and also sacrifice those who have the maximum power to make you happy-family, emotions and love. Prolonged abstinence in feeling emotions finally destroys bliss; and you do not even realize when you have become a dry-eyed cripple … and then you land up in a sermon workshop to find out the real meaning of life – or whatever these workshops are capable of explaining. The truth is that such workshops are also driven by merchants who cash in on the dejected state of the people, a state created by their own fictional dreams. But by then it’s really too late. By then, you have made profits out of arms, and engineered wars to keep that industry alive. You have sold guns across counters at supermarkets and made more profits. You have lobbied that guns should be made accessible to the common man, and all for the sake of profits. This makes you realize one day that they are your own children who are in the line of fire against the school goer who opens fire at his schoolmates. This is the society that finally creates an emotionless monster, who gets satisfaction in killing innocent adults and children alike for no cause no reason and for none, for himself. It is the utter destruction of spiritualism and the total focus on endless self-gratification. Where so many single parent families and divorces exist, it is impossible to bring up children or influence the killers, any better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the passage, which of the following is a reason for poverty and hunger in underdeveloped countries? A. Mindlessly chasing the Western way of living. B. They have fallen prey to the idea of happiness through material comforts rather than love and emotional bond. C. They do not have marketing techniques as good as the Western countries.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only B"
+      },
+      {
+        "label": "b",
+        "text": "Only C"
+      },
+      {
+        "label": "c",
+        "text": "Only A"
+      },
+      {
+        "label": "d",
+        "text": "Non-mentioned in the passage."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 15,
+    "question_code": "RC-T8-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p32",
+    "set_position": 3,
+    "context_passage": "Capitalism is a great slave, but a pathetic master. This truth unfortunately gets lost in our chase for the elusive dream. It’s the dream of being independent masters of our lives or making big bucks and of being happy even if that happiness is being bought by money which all of them chase out there. No doubt, the West, on its part, has been fairly successful in creating material comforts a plenty. It has improved the living standard of its average citizen. However it has been achieved as a result of more than 200 years of unbridled growth and exploitation. And that is what has made the rest of the world mindlessly chase Westernism not necessarily happiness or an ideal form of society. All because the shop window looks very impressive and it has been marketed very well. But a deep look inside the shop tells a different tale. A different world lies behind; a world that is not quite visible to the starry eyed millions – for whom the Western way of life seems to be the ultimate dream. Thus, we have Indians dreaming to become or to get married to an NRI and Indian middle-class fathers dreaming of their sons reaching the Bay area and landing tech jobs, unmindful of the second-class life they end up leading in the West. What goes unseen and almost unheard is that the West also happens to be the land that is right amongst the top in terms of the number of divorces per thousand, the number of single parent families per thousand, the number of old people in old age homes, the number of suicides, homicides, and of course, the number of college/school shootouts. And why not! After all, such societies are constantly driven towards higher profits and materialism. Expectedly, this materialism comes at a cost that the world is paying today. This is the reason why we have millions dying of curable diseases in Africa and other underdeveloped countries, while the rich grow richer. Their growth will be reduced, if they were to start thinking of the poor so what do they do to justify their greed for more? They most shrewdly propagate and market a ridiculously primitive law of the jungle for our 21st century civilian, the ‘Law of Survival of the Fittest’! The interesting thing about material things is that they only give an illusion of happiness; however such happiness is always momentary in nature. Ergo, at this juncture, you feel you are buying your new car or flat screen TV, and just a few days later, these are the very possessions that cease to make you happy. While you chase the bigger car and spend that extra bit of the wealth, you intercept someone’s share of the daily bread and also sacrifice those who have the maximum power to make you happy-family, emotions and love. Prolonged abstinence in feeling emotions finally destroys bliss; and you do not even realize when you have become a dry-eyed cripple … and then you land up in a sermon workshop to find out the real meaning of life – or whatever these workshops are capable of explaining. The truth is that such workshops are also driven by merchants who cash in on the dejected state of the people, a state created by their own fictional dreams. But by then it’s really too late. By then, you have made profits out of arms, and engineered wars to keep that industry alive. You have sold guns across counters at supermarkets and made more profits. You have lobbied that guns should be made accessible to the common man, and all for the sake of profits. This makes you realize one day that they are your own children who are in the line of fire against the school goer who opens fire at his schoolmates. This is the society that finally creates an emotionless monster, who gets satisfaction in killing innocent adults and children alike for no cause no reason and for none, for himself. It is the utter destruction of spiritualism and the total focus on endless self-gratification. Where so many single parent families and divorces exist, it is impossible to bring up children or influence the killers, any better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the author mean by, ‘intercepting someone’s share of daily bread’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Hindering the process of marketing in underdeveloped countries by the developed countries."
+      },
+      {
+        "label": "b",
+        "text": "Denying material comfort to the Western world."
+      },
+      {
+        "label": "c",
+        "text": "Affecting the social life of those working towards material comforts only."
+      },
+      {
+        "label": "d",
+        "text": "Excess of wealth in western world while people in poorer nations struggle for survival."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 8,
+    "question_number": 16,
+    "question_code": "RC-T8-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t8-p32",
+    "set_position": 4,
+    "context_passage": "Capitalism is a great slave, but a pathetic master. This truth unfortunately gets lost in our chase for the elusive dream. It’s the dream of being independent masters of our lives or making big bucks and of being happy even if that happiness is being bought by money which all of them chase out there. No doubt, the West, on its part, has been fairly successful in creating material comforts a plenty. It has improved the living standard of its average citizen. However it has been achieved as a result of more than 200 years of unbridled growth and exploitation. And that is what has made the rest of the world mindlessly chase Westernism not necessarily happiness or an ideal form of society. All because the shop window looks very impressive and it has been marketed very well. But a deep look inside the shop tells a different tale. A different world lies behind; a world that is not quite visible to the starry eyed millions – for whom the Western way of life seems to be the ultimate dream. Thus, we have Indians dreaming to become or to get married to an NRI and Indian middle-class fathers dreaming of their sons reaching the Bay area and landing tech jobs, unmindful of the second-class life they end up leading in the West. What goes unseen and almost unheard is that the West also happens to be the land that is right amongst the top in terms of the number of divorces per thousand, the number of single parent families per thousand, the number of old people in old age homes, the number of suicides, homicides, and of course, the number of college/school shootouts. And why not! After all, such societies are constantly driven towards higher profits and materialism. Expectedly, this materialism comes at a cost that the world is paying today. This is the reason why we have millions dying of curable diseases in Africa and other underdeveloped countries, while the rich grow richer. Their growth will be reduced, if they were to start thinking of the poor so what do they do to justify their greed for more? They most shrewdly propagate and market a ridiculously primitive law of the jungle for our 21st century civilian, the ‘Law of Survival of the Fittest’! The interesting thing about material things is that they only give an illusion of happiness; however such happiness is always momentary in nature. Ergo, at this juncture, you feel you are buying your new car or flat screen TV, and just a few days later, these are the very possessions that cease to make you happy. While you chase the bigger car and spend that extra bit of the wealth, you intercept someone’s share of the daily bread and also sacrifice those who have the maximum power to make you happy-family, emotions and love. Prolonged abstinence in feeling emotions finally destroys bliss; and you do not even realize when you have become a dry-eyed cripple … and then you land up in a sermon workshop to find out the real meaning of life – or whatever these workshops are capable of explaining. The truth is that such workshops are also driven by merchants who cash in on the dejected state of the people, a state created by their own fictional dreams. But by then it’s really too late. By then, you have made profits out of arms, and engineered wars to keep that industry alive. You have sold guns across counters at supermarkets and made more profits. You have lobbied that guns should be made accessible to the common man, and all for the sake of profits. This makes you realize one day that they are your own children who are in the line of fire against the school goer who opens fire at his schoolmates. This is the society that finally creates an emotionless monster, who gets satisfaction in killing innocent adults and children alike for no cause no reason and for none, for himself. It is the utter destruction of spiritualism and the total focus on endless self-gratification. Where so many single parent families and divorces exist, it is impossible to bring up children or influence the killers, any better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "The author’s main objective in writing the passage is",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "to explain that consumerist societies have their own drawbacks which are over blinded by its material glare."
+      },
+      {
+        "label": "b",
+        "text": "to explain how too many material comforts have improved the living standard of common man in the west."
+      },
+      {
+        "label": "c",
+        "text": "that young children should not given access to guns and other ammunitions."
+      },
+      {
+        "label": "d",
+        "text": "all NRIs are leading unmindful, second-class lives abroad."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

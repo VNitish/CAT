@@ -1,0 +1,722 @@
+[
+  {
+    "test": 3,
+    "question_number": 1,
+    "question_code": "RC-T3-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p9",
+    "set_position": 1,
+    "context_passage": "The starting point for our discussion is the common view expressed in the saying ‘Necessity is the mother of invention.’ That is, inventions supposedly arise when a society has an unfulfilled need. Would be inventors, motivated by the prospect of money or fame, perceive the need and try to meet it. Some inventor finally comes up with a solution superior to an existing, unsatisfactory technology. Society adopts the solution if it is compatible with the society’s values and other technologies. Some inventions do conform to this common sense view of necessity as inventions’ mother. Eli Whitney’s 1794 invention of a cotton gin to replace laborious hand cleaning of cotton, and James Watt’s 1769 invention of steam engine to solve the problem of pumping out water out of British coal mines were some such instances. These familiar examples deceive us into assuming that other major inventions were also responses to perceived needs. In fact, many or most inventions were developed by people driven by curiosity or by a love of tinkering, in the absence of any initial demand for the product they had in mind. Once a device had been invented, the inventor then had to find an application for it. Only after it had been in use for a considerable time did consumers come to feel that they needed it. Still other devices, invented to serve one purpose, eventually found most of their use for other, unanticipated purposes. Some inventions in search of an initial use included most of the major technological breakthroughs of modern times, including the airplane, the automobile, internal combustion engine, electric light bulb, the phonograph and transistor. Thus, invention is often the mother of necessity, rather than vice versa. For example, when Edison built his first phonograph in 1877, he published an article listing ten uses to which his invention might be put. Reproduction of music did not figure high on that list. Only after 20 years, did Edison reluctantly concede that the main use of his phonograph was to play and record music. Again, when Nikolaus Otto built his first gas engine, in 1866, horses had been supplying people’s land transportation needs for nearly 600 years, supplemented increasingly by steam-powered railroads, for several decades. There was no crisis in the availability of horses, no dissatisfaction with railroads. In 1896, Gottfried Daimler built the first truck. In 1905, motor vehicles were still expensive, unreliable toys for the rich. Public contentment with horses and railroads remained high until World War I, when the military concluded that it really did need trucks. Intensive postwar lobbying by truck manufacturers and armies finally convinced the public of its own needs and enabled trucks to begin to supplant horse drawn wagons in industrialized countries. Thus the common sense view of invention that served as our starting point reverses the role of invention and need, and probably overstates the importance of rare geniuses such as Watt and Edison. That ‘Heroic Theory of Invention’ is encouraged by patent law, because an applicant for a patent must prove the novelty of the invention submitted. Inventors thereby have a financial incentive to denigrate or ignore previous work. In truth, technology develops cumulatively, and through the inventions and improvements of many predecessors and successors; rather than in isolated heroic acts, and it finds most of its uses after it has been invented, rather than being invented to meet a foreseen need.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "The MOST APPROPRIATE title for the passage would be:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Mother of Necessity"
+      },
+      {
+        "label": "b",
+        "text": "Inventors or Villains"
+      },
+      {
+        "label": "c",
+        "text": "The Heroic Theory of Invention"
+      },
+      {
+        "label": "d",
+        "text": "Inventions, not Necessities"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 2,
+    "question_code": "RC-T3-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p9",
+    "set_position": 2,
+    "context_passage": "The starting point for our discussion is the common view expressed in the saying ‘Necessity is the mother of invention.’ That is, inventions supposedly arise when a society has an unfulfilled need. Would be inventors, motivated by the prospect of money or fame, perceive the need and try to meet it. Some inventor finally comes up with a solution superior to an existing, unsatisfactory technology. Society adopts the solution if it is compatible with the society’s values and other technologies. Some inventions do conform to this common sense view of necessity as inventions’ mother. Eli Whitney’s 1794 invention of a cotton gin to replace laborious hand cleaning of cotton, and James Watt’s 1769 invention of steam engine to solve the problem of pumping out water out of British coal mines were some such instances. These familiar examples deceive us into assuming that other major inventions were also responses to perceived needs. In fact, many or most inventions were developed by people driven by curiosity or by a love of tinkering, in the absence of any initial demand for the product they had in mind. Once a device had been invented, the inventor then had to find an application for it. Only after it had been in use for a considerable time did consumers come to feel that they needed it. Still other devices, invented to serve one purpose, eventually found most of their use for other, unanticipated purposes. Some inventions in search of an initial use included most of the major technological breakthroughs of modern times, including the airplane, the automobile, internal combustion engine, electric light bulb, the phonograph and transistor. Thus, invention is often the mother of necessity, rather than vice versa. For example, when Edison built his first phonograph in 1877, he published an article listing ten uses to which his invention might be put. Reproduction of music did not figure high on that list. Only after 20 years, did Edison reluctantly concede that the main use of his phonograph was to play and record music. Again, when Nikolaus Otto built his first gas engine, in 1866, horses had been supplying people’s land transportation needs for nearly 600 years, supplemented increasingly by steam-powered railroads, for several decades. There was no crisis in the availability of horses, no dissatisfaction with railroads. In 1896, Gottfried Daimler built the first truck. In 1905, motor vehicles were still expensive, unreliable toys for the rich. Public contentment with horses and railroads remained high until World War I, when the military concluded that it really did need trucks. Intensive postwar lobbying by truck manufacturers and armies finally convinced the public of its own needs and enabled trucks to begin to supplant horse drawn wagons in industrialized countries. Thus the common sense view of invention that served as our starting point reverses the role of invention and need, and probably overstates the importance of rare geniuses such as Watt and Edison. That ‘Heroic Theory of Invention’ is encouraged by patent law, because an applicant for a patent must prove the novelty of the invention submitted. Inventors thereby have a financial incentive to denigrate or ignore previous work. In truth, technology develops cumulatively, and through the inventions and improvements of many predecessors and successors; rather than in isolated heroic acts, and it finds most of its uses after it has been invented, rather than being invented to meet a foreseen need.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following statements is INCORRECT as per the given passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Patent laws facilitate unnecessary inventions."
+      },
+      {
+        "label": "b",
+        "text": "Inventions give rise to needs in society."
+      },
+      {
+        "label": "c",
+        "text": "Curiosity is the mother of invention."
+      },
+      {
+        "label": "d",
+        "text": "The military helped to popularize the use of trucks."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 3,
+    "question_code": "RC-T3-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p9",
+    "set_position": 3,
+    "context_passage": "The starting point for our discussion is the common view expressed in the saying ‘Necessity is the mother of invention.’ That is, inventions supposedly arise when a society has an unfulfilled need. Would be inventors, motivated by the prospect of money or fame, perceive the need and try to meet it. Some inventor finally comes up with a solution superior to an existing, unsatisfactory technology. Society adopts the solution if it is compatible with the society’s values and other technologies. Some inventions do conform to this common sense view of necessity as inventions’ mother. Eli Whitney’s 1794 invention of a cotton gin to replace laborious hand cleaning of cotton, and James Watt’s 1769 invention of steam engine to solve the problem of pumping out water out of British coal mines were some such instances. These familiar examples deceive us into assuming that other major inventions were also responses to perceived needs. In fact, many or most inventions were developed by people driven by curiosity or by a love of tinkering, in the absence of any initial demand for the product they had in mind. Once a device had been invented, the inventor then had to find an application for it. Only after it had been in use for a considerable time did consumers come to feel that they needed it. Still other devices, invented to serve one purpose, eventually found most of their use for other, unanticipated purposes. Some inventions in search of an initial use included most of the major technological breakthroughs of modern times, including the airplane, the automobile, internal combustion engine, electric light bulb, the phonograph and transistor. Thus, invention is often the mother of necessity, rather than vice versa. For example, when Edison built his first phonograph in 1877, he published an article listing ten uses to which his invention might be put. Reproduction of music did not figure high on that list. Only after 20 years, did Edison reluctantly concede that the main use of his phonograph was to play and record music. Again, when Nikolaus Otto built his first gas engine, in 1866, horses had been supplying people’s land transportation needs for nearly 600 years, supplemented increasingly by steam-powered railroads, for several decades. There was no crisis in the availability of horses, no dissatisfaction with railroads. In 1896, Gottfried Daimler built the first truck. In 1905, motor vehicles were still expensive, unreliable toys for the rich. Public contentment with horses and railroads remained high until World War I, when the military concluded that it really did need trucks. Intensive postwar lobbying by truck manufacturers and armies finally convinced the public of its own needs and enabled trucks to begin to supplant horse drawn wagons in industrialized countries. Thus the common sense view of invention that served as our starting point reverses the role of invention and need, and probably overstates the importance of rare geniuses such as Watt and Edison. That ‘Heroic Theory of Invention’ is encouraged by patent law, because an applicant for a patent must prove the novelty of the invention submitted. Inventors thereby have a financial incentive to denigrate or ignore previous work. In truth, technology develops cumulatively, and through the inventions and improvements of many predecessors and successors; rather than in isolated heroic acts, and it finds most of its uses after it has been invented, rather than being invented to meet a foreseen need.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "According to the passage:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Airplanes and automobiles were invented out of curiosity."
+      },
+      {
+        "label": "b",
+        "text": "Curiosity and necessity are the main obstacles for invention."
+      },
+      {
+        "label": "c",
+        "text": "The applications of an invention are often not apparent immediately."
+      },
+      {
+        "label": "d",
+        "text": "Society helps to fulfillan inventor’s need for money and fame."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 4,
+    "question_code": "RC-T3-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p9",
+    "set_position": 4,
+    "context_passage": "The starting point for our discussion is the common view expressed in the saying ‘Necessity is the mother of invention.’ That is, inventions supposedly arise when a society has an unfulfilled need. Would be inventors, motivated by the prospect of money or fame, perceive the need and try to meet it. Some inventor finally comes up with a solution superior to an existing, unsatisfactory technology. Society adopts the solution if it is compatible with the society’s values and other technologies. Some inventions do conform to this common sense view of necessity as inventions’ mother. Eli Whitney’s 1794 invention of a cotton gin to replace laborious hand cleaning of cotton, and James Watt’s 1769 invention of steam engine to solve the problem of pumping out water out of British coal mines were some such instances. These familiar examples deceive us into assuming that other major inventions were also responses to perceived needs. In fact, many or most inventions were developed by people driven by curiosity or by a love of tinkering, in the absence of any initial demand for the product they had in mind. Once a device had been invented, the inventor then had to find an application for it. Only after it had been in use for a considerable time did consumers come to feel that they needed it. Still other devices, invented to serve one purpose, eventually found most of their use for other, unanticipated purposes. Some inventions in search of an initial use included most of the major technological breakthroughs of modern times, including the airplane, the automobile, internal combustion engine, electric light bulb, the phonograph and transistor. Thus, invention is often the mother of necessity, rather than vice versa. For example, when Edison built his first phonograph in 1877, he published an article listing ten uses to which his invention might be put. Reproduction of music did not figure high on that list. Only after 20 years, did Edison reluctantly concede that the main use of his phonograph was to play and record music. Again, when Nikolaus Otto built his first gas engine, in 1866, horses had been supplying people’s land transportation needs for nearly 600 years, supplemented increasingly by steam-powered railroads, for several decades. There was no crisis in the availability of horses, no dissatisfaction with railroads. In 1896, Gottfried Daimler built the first truck. In 1905, motor vehicles were still expensive, unreliable toys for the rich. Public contentment with horses and railroads remained high until World War I, when the military concluded that it really did need trucks. Intensive postwar lobbying by truck manufacturers and armies finally convinced the public of its own needs and enabled trucks to begin to supplant horse drawn wagons in industrialized countries. Thus the common sense view of invention that served as our starting point reverses the role of invention and need, and probably overstates the importance of rare geniuses such as Watt and Edison. That ‘Heroic Theory of Invention’ is encouraged by patent law, because an applicant for a patent must prove the novelty of the invention submitted. Inventors thereby have a financial incentive to denigrate or ignore previous work. In truth, technology develops cumulatively, and through the inventions and improvements of many predecessors and successors; rather than in isolated heroic acts, and it finds most of its uses after it has been invented, rather than being invented to meet a foreseen need.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "The last sentence of the passage implies that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "the author does not believe in the concept of ‘heroic inventions’."
+      },
+      {
+        "label": "b",
+        "text": "an invention does not always have to be in response to some perceived need."
+      },
+      {
+        "label": "c",
+        "text": "isolated heroic acts do not give rise to inventions."
+      },
+      {
+        "label": "d",
+        "text": "initial inventors are never recognized."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 5,
+    "question_code": "RC-T3-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p10",
+    "set_position": 1,
+    "context_passage": "‘Beliefs’ soften the hardships, even can make them pleasant. In God, man can find very strong consolation and support. Without him, man has to depend upon himself. At testing moments, vanity, if any, evaporates and man cannot dare to defy the general beliefs; if he does, then we must conclude that he has got certain other strengths than mere vanity. This is exactly the situation now. Judgment is already too well-known. Within a week it is to be pronounced. What is the consolation with the exception of the idea that I am going to sacrifice my life for a cause? A God-believing Hindu might be expecting to be reborn as a king, a Muslim or a Christian might dream of the luxuries to be enjoyed in paradise and the reward he is to get for his sufferings and sacrifices. But what am I to expect? I know the moment the rope is fitted round my neck and rafters removed, form under my feet: that will be the final moment, that will be the last moment. I, or to be more precise, my soul, as interpreted in the metaphysical terminology, shall all be finished there. Nothing further. A short life of struggle with no such magnificent end shall in itself be the reward if I have the courage to take it in that light. That is all. With no selfish motive or desire to be awarded here or hereafter, quite disinterestedly have I devoted my life to the cause of independence, because I could not do otherwise. The day we find a great number of men and women with this psychology who cannot devote themselves to anything else than the service of mankind and emancipation of the suffering humanity that day shall inaugurate the era of liberty. Not to become a king nor to gain any other rewards here, or in the next birth or after dearth in paradise, shall they be inspired to challenge the oppressors, exploiters, and tyrants, but to cast off the yoke of serfdom from the neck of humanity and to establish liberty and peace shall they tread this to their individual selves perilous and to their noble selves the only glorious imaginable path. Is the pride in their noble cause to be misinterpreted as vanity? Who dares to utter such an abominable epithet? To him, I say either he is a fool or a knave. Let us forgive him for he cannot realize the depth, the emotion, the sentiment and the noble feelings that surge in that heart. His heart is dead as a mere lump of flesh, his eyes are weak, the evils of other interests having been cast over them. Self-reliance is always liable to be interpreted as vanity. It is sad and miserable but there is no help. You go and oppose the prevailing faith, you go and criticize a hero, a great man, who is generally believed to be above criticism because he is thought to be infallible, the strength of your argument shall force the multitude to decry you as vainglorious. This is due to the mental stagnation: criticism and independent thinking are the two indispensable qualities of a revolutionary. Because Mahatmaji is great, therefore none should criticize him. Because he has risen above, therefore everything he says: may be in the field of politics or religion, economics or ethics is right. Whether you are convinced or not you must say, ‘Yes. That’s true’. This mentality does not lead towards progress. It is rather too obviously, reactionary.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which one of the following statements can be deduced from the above passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Individuals who neither believe in God nor in the infallibility of great men are arrogant."
+      },
+      {
+        "label": "b",
+        "text": "Belief is convenient as it even makes a hard reality at present more bearable because of a promise of a better future."
+      },
+      {
+        "label": "c",
+        "text": "Only some individuals are able to attain greatness and by following them uncritically the society can make significant progress."
+      },
+      {
+        "label": "d",
+        "text": "If you do not believe in God, then you can never hope to achieve anything great in life."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 6,
+    "question_code": "RC-T3-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p10",
+    "set_position": 2,
+    "context_passage": "‘Beliefs’ soften the hardships, even can make them pleasant. In God, man can find very strong consolation and support. Without him, man has to depend upon himself. At testing moments, vanity, if any, evaporates and man cannot dare to defy the general beliefs; if he does, then we must conclude that he has got certain other strengths than mere vanity. This is exactly the situation now. Judgment is already too well-known. Within a week it is to be pronounced. What is the consolation with the exception of the idea that I am going to sacrifice my life for a cause? A God-believing Hindu might be expecting to be reborn as a king, a Muslim or a Christian might dream of the luxuries to be enjoyed in paradise and the reward he is to get for his sufferings and sacrifices. But what am I to expect? I know the moment the rope is fitted round my neck and rafters removed, form under my feet: that will be the final moment, that will be the last moment. I, or to be more precise, my soul, as interpreted in the metaphysical terminology, shall all be finished there. Nothing further. A short life of struggle with no such magnificent end shall in itself be the reward if I have the courage to take it in that light. That is all. With no selfish motive or desire to be awarded here or hereafter, quite disinterestedly have I devoted my life to the cause of independence, because I could not do otherwise. The day we find a great number of men and women with this psychology who cannot devote themselves to anything else than the service of mankind and emancipation of the suffering humanity that day shall inaugurate the era of liberty. Not to become a king nor to gain any other rewards here, or in the next birth or after dearth in paradise, shall they be inspired to challenge the oppressors, exploiters, and tyrants, but to cast off the yoke of serfdom from the neck of humanity and to establish liberty and peace shall they tread this to their individual selves perilous and to their noble selves the only glorious imaginable path. Is the pride in their noble cause to be misinterpreted as vanity? Who dares to utter such an abominable epithet? To him, I say either he is a fool or a knave. Let us forgive him for he cannot realize the depth, the emotion, the sentiment and the noble feelings that surge in that heart. His heart is dead as a mere lump of flesh, his eyes are weak, the evils of other interests having been cast over them. Self-reliance is always liable to be interpreted as vanity. It is sad and miserable but there is no help. You go and oppose the prevailing faith, you go and criticize a hero, a great man, who is generally believed to be above criticism because he is thought to be infallible, the strength of your argument shall force the multitude to decry you as vainglorious. This is due to the mental stagnation: criticism and independent thinking are the two indispensable qualities of a revolutionary. Because Mahatmaji is great, therefore none should criticize him. Because he has risen above, therefore everything he says: may be in the field of politics or religion, economics or ethics is right. Whether you are convinced or not you must say, ‘Yes. That’s true’. This mentality does not lead towards progress. It is rather too obviously, reactionary.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following statements BEST captures the essence of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "When we criticize a great man like Mahatmaji, we are motivated by arrogance and a desire to question anything good through meaningless arguments."
+      },
+      {
+        "label": "b",
+        "text": "All human beings ought to desist from believing anything in order to be able to achieve something meaningful."
+      },
+      {
+        "label": "c",
+        "text": "The author is trying to present his defence for not believing in the existence of God, even though it is probably more convenient to do so, than going against the generally accepted norms of the society."
+      },
+      {
+        "label": "d",
+        "text": "It is wrong to believe in God for achieving kingship or for rewards in this world, or for paradise after death, and instead, one should believe in God without expecting anything in return."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 7,
+    "question_code": "RC-T3-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p10",
+    "set_position": 3,
+    "context_passage": "‘Beliefs’ soften the hardships, even can make them pleasant. In God, man can find very strong consolation and support. Without him, man has to depend upon himself. At testing moments, vanity, if any, evaporates and man cannot dare to defy the general beliefs; if he does, then we must conclude that he has got certain other strengths than mere vanity. This is exactly the situation now. Judgment is already too well-known. Within a week it is to be pronounced. What is the consolation with the exception of the idea that I am going to sacrifice my life for a cause? A God-believing Hindu might be expecting to be reborn as a king, a Muslim or a Christian might dream of the luxuries to be enjoyed in paradise and the reward he is to get for his sufferings and sacrifices. But what am I to expect? I know the moment the rope is fitted round my neck and rafters removed, form under my feet: that will be the final moment, that will be the last moment. I, or to be more precise, my soul, as interpreted in the metaphysical terminology, shall all be finished there. Nothing further. A short life of struggle with no such magnificent end shall in itself be the reward if I have the courage to take it in that light. That is all. With no selfish motive or desire to be awarded here or hereafter, quite disinterestedly have I devoted my life to the cause of independence, because I could not do otherwise. The day we find a great number of men and women with this psychology who cannot devote themselves to anything else than the service of mankind and emancipation of the suffering humanity that day shall inaugurate the era of liberty. Not to become a king nor to gain any other rewards here, or in the next birth or after dearth in paradise, shall they be inspired to challenge the oppressors, exploiters, and tyrants, but to cast off the yoke of serfdom from the neck of humanity and to establish liberty and peace shall they tread this to their individual selves perilous and to their noble selves the only glorious imaginable path. Is the pride in their noble cause to be misinterpreted as vanity? Who dares to utter such an abominable epithet? To him, I say either he is a fool or a knave. Let us forgive him for he cannot realize the depth, the emotion, the sentiment and the noble feelings that surge in that heart. His heart is dead as a mere lump of flesh, his eyes are weak, the evils of other interests having been cast over them. Self-reliance is always liable to be interpreted as vanity. It is sad and miserable but there is no help. You go and oppose the prevailing faith, you go and criticize a hero, a great man, who is generally believed to be above criticism because he is thought to be infallible, the strength of your argument shall force the multitude to decry you as vainglorious. This is due to the mental stagnation: criticism and independent thinking are the two indispensable qualities of a revolutionary. Because Mahatmaji is great, therefore none should criticize him. Because he has risen above, therefore everything he says: may be in the field of politics or religion, economics or ethics is right. Whether you are convinced or not you must say, ‘Yes. That’s true’. This mentality does not lead towards progress. It is rather too obviously, reactionary.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "The word ‘vainglorious’ as used in the passage is EXACTLY OPPOSITE in meaning to:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Truthful"
+      },
+      {
+        "label": "b",
+        "text": "Proud"
+      },
+      {
+        "label": "c",
+        "text": "Dishonest"
+      },
+      {
+        "label": "d",
+        "text": "Humble"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 8,
+    "question_code": "RC-T3-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p10",
+    "set_position": 4,
+    "context_passage": "‘Beliefs’ soften the hardships, even can make them pleasant. In God, man can find very strong consolation and support. Without him, man has to depend upon himself. At testing moments, vanity, if any, evaporates and man cannot dare to defy the general beliefs; if he does, then we must conclude that he has got certain other strengths than mere vanity. This is exactly the situation now. Judgment is already too well-known. Within a week it is to be pronounced. What is the consolation with the exception of the idea that I am going to sacrifice my life for a cause? A God-believing Hindu might be expecting to be reborn as a king, a Muslim or a Christian might dream of the luxuries to be enjoyed in paradise and the reward he is to get for his sufferings and sacrifices. But what am I to expect? I know the moment the rope is fitted round my neck and rafters removed, form under my feet: that will be the final moment, that will be the last moment. I, or to be more precise, my soul, as interpreted in the metaphysical terminology, shall all be finished there. Nothing further. A short life of struggle with no such magnificent end shall in itself be the reward if I have the courage to take it in that light. That is all. With no selfish motive or desire to be awarded here or hereafter, quite disinterestedly have I devoted my life to the cause of independence, because I could not do otherwise. The day we find a great number of men and women with this psychology who cannot devote themselves to anything else than the service of mankind and emancipation of the suffering humanity that day shall inaugurate the era of liberty. Not to become a king nor to gain any other rewards here, or in the next birth or after dearth in paradise, shall they be inspired to challenge the oppressors, exploiters, and tyrants, but to cast off the yoke of serfdom from the neck of humanity and to establish liberty and peace shall they tread this to their individual selves perilous and to their noble selves the only glorious imaginable path. Is the pride in their noble cause to be misinterpreted as vanity? Who dares to utter such an abominable epithet? To him, I say either he is a fool or a knave. Let us forgive him for he cannot realize the depth, the emotion, the sentiment and the noble feelings that surge in that heart. His heart is dead as a mere lump of flesh, his eyes are weak, the evils of other interests having been cast over them. Self-reliance is always liable to be interpreted as vanity. It is sad and miserable but there is no help. You go and oppose the prevailing faith, you go and criticize a hero, a great man, who is generally believed to be above criticism because he is thought to be infallible, the strength of your argument shall force the multitude to decry you as vainglorious. This is due to the mental stagnation: criticism and independent thinking are the two indispensable qualities of a revolutionary. Because Mahatmaji is great, therefore none should criticize him. Because he has risen above, therefore everything he says: may be in the field of politics or religion, economics or ethics is right. Whether you are convinced or not you must say, ‘Yes. That’s true’. This mentality does not lead towards progress. It is rather too obviously, reactionary.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "Which of the following statements is NOT TRUE as per the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Pride in a noble cause should not be interpreted as vanity."
+      },
+      {
+        "label": "b",
+        "text": "Service to mankind is the ultimate path to freedom."
+      },
+      {
+        "label": "c",
+        "text": "Criticizing heroes and great men can lead to progress."
+      },
+      {
+        "label": "d",
+        "text": "The author is upset because he has nothing to expect in the afterlife."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 9,
+    "question_code": "RC-T3-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 1,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "What could be the closest reason why the WTO was not formed in the 1970s?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The US government did not like it."
+      },
+      {
+        "label": "b",
+        "text": "Important players did not find it in their best interest to do so."
+      },
+      {
+        "label": "c",
+        "text": "Lawyers did not work for the dispute settlement system."
+      },
+      {
+        "label": "d",
+        "text": "The Tokyo Round Negotiation was an attempt at constitutional reform."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 10,
+    "question_code": "RC-T3-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 2,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "The most likely reason for the acceptance of the WTO package by nations was that",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "it had the means to prevent the US from taking unilateral measures."
+      },
+      {
+        "label": "b",
+        "text": "they recognized the need for a rule-based environment to protect the benefits of increased trade."
+      },
+      {
+        "label": "c",
+        "text": "it settles disputes more legally and more effectively."
+      },
+      {
+        "label": "d",
+        "text": "its rule-based system leads to export gains."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 11,
+    "question_code": "RC-T3-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 3,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the passage, WTO promoted the technical legal values partly through",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "integrating under one roof the agreements signed under GATT."
+      },
+      {
+        "label": "b",
+        "text": "rules that create their own incentive for fulfillment."
+      },
+      {
+        "label": "c",
+        "text": "grandfather-rights exceptions and defects in dispute settlement procedures."
+      },
+      {
+        "label": "d",
+        "text": "ambiguities about the powers of contracting parties to make certain decisions."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 12,
+    "question_code": "RC-T3-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 4,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "In the method of interpretation of the European Court of Justice,",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "current policies needed to be consistent with stated goals."
+      },
+      {
+        "label": "b",
+        "text": "contracting party trade practices needed to be consistent with stated rules."
+      },
+      {
+        "label": "c",
+        "text": "enunciation of the most elementary community goals needed to be emphasized."
+      },
+      {
+        "label": "d",
+        "text": "actions of member states needed to be evaluated against the stated community goals."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 13,
+    "question_code": "RC-T3-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 5,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "In the statement ‘...it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment.’, ‘it’ refers to:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Ambassador Kantor’s defence of the WTO."
+      },
+      {
+        "label": "b",
+        "text": "The higher priority on export gains placed by many countries at the Uruguay Round."
+      },
+      {
+        "label": "c",
+        "text": "The export gains many countries came to associate with a rule- based system."
+      },
+      {
+        "label": "d",
+        "text": "The provision of a rule-based system by the WTO."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 14,
+    "question_code": "RC-T3-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p11",
+    "set_position": 6,
+    "context_passage": "The World Trade Organisation (WTO) was created in the early 1990s as a component of the Uruguay Round Negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new Organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rule-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rule-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organizations based on rules, and it is inevitable that an organization created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the The World Trade Organization (WTO) was created in the early 1990s as a component of the Uruguay Round negotiation. However, it could have been negotiated as part of the Tokyo Round of the 1970s, since that negotiation was an attempt at a ‘constitutional reform’ of the General Agreement on Tariffs and Trade (GATT). Or it could have been put off to the future, as the US government wanted. What factors led to the creation of the WTO in the early 1990s? One factor was the pattern of multilateral bargaining that developed late in the Uruguay Round. Like all complex international agreements, the WTO was a product of a series of trade-offs between principal actors and groups. For the United States, which did not want a new organisation, the dispute settlement part of the WTO package achieved its longstanding goal of a more effective and more legal dispute settlement system. For the Europeans, who by the 1990s had come to view GATT dispute settlement less in political terms and more as a regime of legal obligations, the WTO package was acceptable as a means to discipline the resort to unilateral measures by the United States. Countries like Canada and other middle and smaller trading partners were attracted by the expansion of a rule-based system and by the symbolic value of a trade Organisation, both of which inherently support the weak against the strong. The developing countries were attracted due to the provisions banning unilateral measures. Finally, and perhaps most important, many countries at the Uruguay Round came to put a higher priority on the export gains than on the import losses that the negotiation would produce, and they came to associate the WTO and a rules-based system with those gains. This reasoning—replicated in many countries—was contained in US Ambassador Kantor’s defence of the WTO, and it amounted to a recognition that international trade and its benefits cannot be enjoyed unless trading nations accept the discipline of a negotiated rules-based environment. A second factor in the creation of the WTO was pressure from lawyers and the legal process. The dispute settlement system of the WTO was seen as a victory of legalists over pragmatists but the matter went deeper than that. The GATT, and the WTO, are contract organisations based on rules, and it is inevitable that an Organisation created to further rules will in turn be influenced by the legal process. Robert Hudec has written of the ‘momentum of legal development’, but what is this precisely? Legal development can be defined as promotion of the technical legal values of consistency, clarity (or, certainty) and effectiveness; these are values that those responsible for administering any legal system will seek to maximise. As it played out in the WTO, consistency meant integrating under one roof the whole lot of separate agreements signed under GATT auspices; clarity meant removing ambiguities about the powers of contracting parties to make certain decisions or to undertake waivers; and effectiveness meant eliminating exceptions arising out of grandfather-rights and resolving defects in dispute settlement procedures and institutional provisions. Concern for these values is inherent in any rules-based system of cooperation, since without these values rules would be meaningless in the first place. Rules, therefore, create their own incentive for fulfillment. The momentum of legal development has occurred in other institutions besides the GATT, most notably in the European Union (EU). Over the past two decades, the European Court of Justice (ECJ) has consistently rendered decisions that have expanded incrementally the EU’s internal market, in which the doctrine of ‘mutual recognition’, handed down in the case Cassis de Dijon in 1979 was a key turning point. The Court is now widely recognised as a major player in European integration, even though arguably such a strong role was not originally envisaged in the Treaty of Rome, which initiated the current European Union. One means the Court used to expand integration was the ‘teleological method of interpretation’, whereby the actions of member states were evaluated against, ‘the accomplishment of the most elementary community goals set forth in the Preamble to the [Rome] treaty’. The teleological method represents an effort to keep current policies consistent with stated goals, and it is analogous to the effort in GATT to keep contracting party trade practices consistent with stated rules. In both cases, legal concerns and procedures are an independent force for further cooperation. In large part, the WTO was an exercise in consolidation. In the context of a trade negotiation that created a near-revolutionary expansion of international trade rules, the formation of the WTO was a deeply conservative act needed to ensure that the benefits of the new rules would not be lost. The WTO was all about institutional structure and dispute settlement: these are the concerns of conservatives and not revolutionaries, which is why lawyers and legalists took the lead on these issues. The WTO codified the GATT institutional practice that had developed by custom over three decades, and it incorporated a new dispute settlement system that was necessary to keep both old and new rules from becoming a sham. Both the international structure and the dispute settlement system were necessary to preserve and enhance the integrity of the multilateral trade regime that had been built incrementally from the 1940s to the 1990s.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "The importance of Cassis de Dijon is that it",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "gave a new impetus to the momentum of legal development at the European Court of Justice."
+      },
+      {
+        "label": "b",
+        "text": "resulted in a decision that expanded incrementally the EU’s internal market."
+      },
+      {
+        "label": "c",
+        "text": "strengthened the role of the Court more than envisaged in the Treaty of Rome."
+      },
+      {
+        "label": "d",
+        "text": "led to a doctrine that was a key turning point in European integration."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 15,
+    "question_code": "RC-T3-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p12",
+    "set_position": 1,
+    "context_passage": "It is being projected a boon for the agricultural sector. In reality, it will be the beginning of the end for Indian farmers. It has happened in the west. Ever since big retail – dominated by multi-brand retailers has entered the market, farmers have disappeared and poverty has increased. Today, not more than seven lakh farmers remain on the farms in the west. According to a report, every minute one farmer quits agriculture. Farmers’ income have come down by more than forty per cent. These days low supermarket prices are being cited as the reason for the exodus of dairy farmers too. It is, therefore, futile to expect the supermarkets rescuing farmers in India. Despite the destruction of farming globally, administrators in India are gung-ho about allowing foreign direct investment in multi-brand retailing. ‘The agriculture sector needs well functioning markets to drive growth, employment and economic prosperity in rural areas,’ says a discussion paper. Since 2006, India has allowed a partial opening up of the retail sector. Have these retail units benefited Indian farmers and the consumers? The answer is number the argument for setting up of big retail chains is that the supermarket chains will squeeze out the middlemen thereby providing higher prices to farmers and at the same time provide large investments for the development of post-harvest infrastructure. All these claims are untrue, and big retail has not helped farmers anywhere in the world. If the supermarkets were so efficient, why is the west providing a massive subsidy for agriculture? After all, the world’s biggest retail giants are based in the west and it should have helped their farmers become economically viable. But it did not happen. Till 1950, a farmer who would receive about seventy per cent of what was spent on food receives no more than, 3 to 4 per cent today. And that is why the farmers there are being supported in the form of direct income support by the government. A report by the Organization for Economic Cooperation and Development (OECD), a group comprising the richest 30 countries in the world, states explicitly that arm subsidies rose by 22 per cent in 2008. In just 2009, industrialized countries provided a subsidy of Rs. 1,260 billion. And it is primarily for this reason that farm income is lucrative. Take the Netherlands: the average farm family income in 275 per cent of the average household income. This is because of farm subsidies, not supermarkets India is, therefore, importing a failed model from the west especially when India is incapable of providing such heavy subsidies to its farmers. Regarding employment, big tail does not squeeze out middlemen from the food chain. Supermarkets claim that they remove middlemen and therefore are able to provide a higher price to farmers. In reality what happens is the opposite. Supermarkets are themselves the big middlemen. They replace the small fish supermarkets replace the plethora of small middlemen. The muneem clad in a dhoti-kurta is replaced by a smartly dressed up middlemen. So while the farmer pauperizes the profit of supermarkets multiple. Based on biased studies by consultancy firms and some institutes, it is believed that supermarkets will create employment and therefore help in ameliorating poverty. This is a flawed assumption. Lessons need to be drawn from a 2004 study done at Pennsylvanian State University. The authors measured the impact of a retail boom on poverty in various adjoining states. The comprehensive study clearly brings out that those American states that had more retail stores in 1987, had higher poverty rates by 1999 than the states where fewer stores were set up. At stake is the livelihood security of 120 lakh small shopkeepers, 4 crores hawkers and at least 20 crores (of the 60 crores) small farmers. What is needed is more public sector investment in setting up a chain of mandis across the country. Providing an assured market and reasonable procurement price is what Indian farmers need. This has to be supplemented by a network of food- grain banks at Panchayat level that assure local production and distribution.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why does the author disagree with the idea that big retail stores can salvage farmers condition in India?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The farmers in India still prefer to sell their produce to local middlemen and mandis than to the big retail stores."
+      },
+      {
+        "label": "b",
+        "text": "There have been examples throughout the world that the big retail chains further deteriorate the condition of the farmers."
+      },
+      {
+        "label": "c",
+        "text": "Big retail chains buy the farmers produce at a much lower cost as compared to the present middlemen."
+      },
+      {
+        "label": "d",
+        "text": "The government subsidies to the farmers selling their produce directly to big retail stores is far lesser than the ones who sell their produce to the government itself."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 16,
+    "question_code": "RC-T3-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p12",
+    "set_position": 2,
+    "context_passage": "It is being projected a boon for the agricultural sector. In reality, it will be the beginning of the end for Indian farmers. It has happened in the west. Ever since big retail – dominated by multi-brand retailers has entered the market, farmers have disappeared and poverty has increased. Today, not more than seven lakh farmers remain on the farms in the west. According to a report, every minute one farmer quits agriculture. Farmers’ income have come down by more than forty per cent. These days low supermarket prices are being cited as the reason for the exodus of dairy farmers too. It is, therefore, futile to expect the supermarkets rescuing farmers in India. Despite the destruction of farming globally, administrators in India are gung-ho about allowing foreign direct investment in multi-brand retailing. ‘The agriculture sector needs well functioning markets to drive growth, employment and economic prosperity in rural areas,’ says a discussion paper. Since 2006, India has allowed a partial opening up of the retail sector. Have these retail units benefited Indian farmers and the consumers? The answer is number the argument for setting up of big retail chains is that the supermarket chains will squeeze out the middlemen thereby providing higher prices to farmers and at the same time provide large investments for the development of post-harvest infrastructure. All these claims are untrue, and big retail has not helped farmers anywhere in the world. If the supermarkets were so efficient, why is the west providing a massive subsidy for agriculture? After all, the world’s biggest retail giants are based in the west and it should have helped their farmers become economically viable. But it did not happen. Till 1950, a farmer who would receive about seventy per cent of what was spent on food receives no more than, 3 to 4 per cent today. And that is why the farmers there are being supported in the form of direct income support by the government. A report by the Organization for Economic Cooperation and Development (OECD), a group comprising the richest 30 countries in the world, states explicitly that arm subsidies rose by 22 per cent in 2008. In just 2009, industrialized countries provided a subsidy of Rs. 1,260 billion. And it is primarily for this reason that farm income is lucrative. Take the Netherlands: the average farm family income in 275 per cent of the average household income. This is because of farm subsidies, not supermarkets India is, therefore, importing a failed model from the west especially when India is incapable of providing such heavy subsidies to its farmers. Regarding employment, big tail does not squeeze out middlemen from the food chain. Supermarkets claim that they remove middlemen and therefore are able to provide a higher price to farmers. In reality what happens is the opposite. Supermarkets are themselves the big middlemen. They replace the small fish supermarkets replace the plethora of small middlemen. The muneem clad in a dhoti-kurta is replaced by a smartly dressed up middlemen. So while the farmer pauperizes the profit of supermarkets multiple. Based on biased studies by consultancy firms and some institutes, it is believed that supermarkets will create employment and therefore help in ameliorating poverty. This is a flawed assumption. Lessons need to be drawn from a 2004 study done at Pennsylvanian State University. The authors measured the impact of a retail boom on poverty in various adjoining states. The comprehensive study clearly brings out that those American states that had more retail stores in 1987, had higher poverty rates by 1999 than the states where fewer stores were set up. At stake is the livelihood security of 120 lakh small shopkeepers, 4 crores hawkers and at least 20 crores (of the 60 crores) small farmers. What is needed is more public sector investment in setting up a chain of mandis across the country. Providing an assured market and reasonable procurement price is what Indian farmers need. This has to be supplemented by a network of food- grain banks at Panchayat level that assure local production and distribution.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is true in context of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Noticing the state of farmers in the west owing to the advent of retail giants, Indian administrators are not too keen to allow multigrain retailing in India."
+      },
+      {
+        "label": "b",
+        "text": "Supermarket chains have provided large investments for the development of post harvest infrastructure."
+      },
+      {
+        "label": "c",
+        "text": "Supermarkets have indeed helped in making farming a lucrative business."
+      },
+      {
+        "label": "d",
+        "text": "The retail chains have failed to benefit the farmers thus forcing the government to come to their rescue."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 17,
+    "question_code": "RC-T3-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p12",
+    "set_position": 3,
+    "context_passage": "It is being projected a boon for the agricultural sector. In reality, it will be the beginning of the end for Indian farmers. It has happened in the west. Ever since big retail – dominated by multi-brand retailers has entered the market, farmers have disappeared and poverty has increased. Today, not more than seven lakh farmers remain on the farms in the west. According to a report, every minute one farmer quits agriculture. Farmers’ income have come down by more than forty per cent. These days low supermarket prices are being cited as the reason for the exodus of dairy farmers too. It is, therefore, futile to expect the supermarkets rescuing farmers in India. Despite the destruction of farming globally, administrators in India are gung-ho about allowing foreign direct investment in multi-brand retailing. ‘The agriculture sector needs well functioning markets to drive growth, employment and economic prosperity in rural areas,’ says a discussion paper. Since 2006, India has allowed a partial opening up of the retail sector. Have these retail units benefited Indian farmers and the consumers? The answer is number the argument for setting up of big retail chains is that the supermarket chains will squeeze out the middlemen thereby providing higher prices to farmers and at the same time provide large investments for the development of post-harvest infrastructure. All these claims are untrue, and big retail has not helped farmers anywhere in the world. If the supermarkets were so efficient, why is the west providing a massive subsidy for agriculture? After all, the world’s biggest retail giants are based in the west and it should have helped their farmers become economically viable. But it did not happen. Till 1950, a farmer who would receive about seventy per cent of what was spent on food receives no more than, 3 to 4 per cent today. And that is why the farmers there are being supported in the form of direct income support by the government. A report by the Organization for Economic Cooperation and Development (OECD), a group comprising the richest 30 countries in the world, states explicitly that arm subsidies rose by 22 per cent in 2008. In just 2009, industrialized countries provided a subsidy of Rs. 1,260 billion. And it is primarily for this reason that farm income is lucrative. Take the Netherlands: the average farm family income in 275 per cent of the average household income. This is because of farm subsidies, not supermarkets India is, therefore, importing a failed model from the west especially when India is incapable of providing such heavy subsidies to its farmers. Regarding employment, big tail does not squeeze out middlemen from the food chain. Supermarkets claim that they remove middlemen and therefore are able to provide a higher price to farmers. In reality what happens is the opposite. Supermarkets are themselves the big middlemen. They replace the small fish supermarkets replace the plethora of small middlemen. The muneem clad in a dhoti-kurta is replaced by a smartly dressed up middlemen. So while the farmer pauperizes the profit of supermarkets multiple. Based on biased studies by consultancy firms and some institutes, it is believed that supermarkets will create employment and therefore help in ameliorating poverty. This is a flawed assumption. Lessons need to be drawn from a 2004 study done at Pennsylvanian State University. The authors measured the impact of a retail boom on poverty in various adjoining states. The comprehensive study clearly brings out that those American states that had more retail stores in 1987, had higher poverty rates by 1999 than the states where fewer stores were set up. At stake is the livelihood security of 120 lakh small shopkeepers, 4 crores hawkers and at least 20 crores (of the 60 crores) small farmers. What is needed is more public sector investment in setting up a chain of mandis across the country. Providing an assured market and reasonable procurement price is what Indian farmers need. This has to be supplemented by a network of food- grain banks at Panchayat level that assure local production and distribution.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following have been the arguments for setting up big retail stores in India? A. The retail chains would sell the farmers produce at a comparatively higher price than the smaller shops so as to improve the farmer’s profit. B. The retail chains would drive the middlemen out of the system, thus improving farmer’s profit margin. C. Big retail chains in the west have been taking strides of growth and have been benefiting the farmers. D. The big retail chains would provide an organized market which would bring about growth in the rural areas.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A and C"
+      },
+      {
+        "label": "b",
+        "text": "Only C and D"
+      },
+      {
+        "label": "c",
+        "text": "Only A, C and D"
+      },
+      {
+        "label": "d",
+        "text": "Only B and D"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 3,
+    "question_number": 18,
+    "question_code": "RC-T3-Q18",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t3-p12",
+    "set_position": 4,
+    "context_passage": "It is being projected a boon for the agricultural sector. In reality, it will be the beginning of the end for Indian farmers. It has happened in the west. Ever since big retail – dominated by multi-brand retailers has entered the market, farmers have disappeared and poverty has increased. Today, not more than seven lakh farmers remain on the farms in the west. According to a report, every minute one farmer quits agriculture. Farmers’ income have come down by more than forty per cent. These days low supermarket prices are being cited as the reason for the exodus of dairy farmers too. It is, therefore, futile to expect the supermarkets rescuing farmers in India. Despite the destruction of farming globally, administrators in India are gung-ho about allowing foreign direct investment in multi-brand retailing. ‘The agriculture sector needs well functioning markets to drive growth, employment and economic prosperity in rural areas,’ says a discussion paper. Since 2006, India has allowed a partial opening up of the retail sector. Have these retail units benefited Indian farmers and the consumers? The answer is number the argument for setting up of big retail chains is that the supermarket chains will squeeze out the middlemen thereby providing higher prices to farmers and at the same time provide large investments for the development of post-harvest infrastructure. All these claims are untrue, and big retail has not helped farmers anywhere in the world. If the supermarkets were so efficient, why is the west providing a massive subsidy for agriculture? After all, the world’s biggest retail giants are based in the west and it should have helped their farmers become economically viable. But it did not happen. Till 1950, a farmer who would receive about seventy per cent of what was spent on food receives no more than, 3 to 4 per cent today. And that is why the farmers there are being supported in the form of direct income support by the government. A report by the Organization for Economic Cooperation and Development (OECD), a group comprising the richest 30 countries in the world, states explicitly that arm subsidies rose by 22 per cent in 2008. In just 2009, industrialized countries provided a subsidy of Rs. 1,260 billion. And it is primarily for this reason that farm income is lucrative. Take the Netherlands: the average farm family income in 275 per cent of the average household income. This is because of farm subsidies, not supermarkets India is, therefore, importing a failed model from the west especially when India is incapable of providing such heavy subsidies to its farmers. Regarding employment, big tail does not squeeze out middlemen from the food chain. Supermarkets claim that they remove middlemen and therefore are able to provide a higher price to farmers. In reality what happens is the opposite. Supermarkets are themselves the big middlemen. They replace the small fish supermarkets replace the plethora of small middlemen. The muneem clad in a dhoti-kurta is replaced by a smartly dressed up middlemen. So while the farmer pauperizes the profit of supermarkets multiple. Based on biased studies by consultancy firms and some institutes, it is believed that supermarkets will create employment and therefore help in ameliorating poverty. This is a flawed assumption. Lessons need to be drawn from a 2004 study done at Pennsylvanian State University. The authors measured the impact of a retail boom on poverty in various adjoining states. The comprehensive study clearly brings out that those American states that had more retail stores in 1987, had higher poverty rates by 1999 than the states where fewer stores were set up. At stake is the livelihood security of 120 lakh small shopkeepers, 4 crores hawkers and at least 20 crores (of the 60 crores) small farmers. What is needed is more public sector investment in setting up a chain of mandis across the country. Providing an assured market and reasonable procurement price is what Indian farmers need. This has to be supplemented by a network of food- grain banks at Panchayat level that assure local production and distribution.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following would be the most appropriate title for the given passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Multi brand retailing – making farming more lucrative."
+      },
+      {
+        "label": "b",
+        "text": "Supermarkets – towards employment and growth in rural areas."
+      },
+      {
+        "label": "c",
+        "text": "Supermarket – a super risk for farmers."
+      },
+      {
+        "label": "d",
+        "text": "Allowing Supermarkets in India – why are administrators unwilling?"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

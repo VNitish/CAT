@@ -1,0 +1,722 @@
+[
+  {
+    "test": 9,
+    "question_number": 1,
+    "question_code": "RC-T9-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p33",
+    "set_position": 1,
+    "context_passage": "The conceptions of life and the world which we call ‘philosophical’ are a product of two factors: one, inherited religious and ethical conceptions; the other, the sort of investigation which may be called ‘scientific’, using this word in its broadest sense. Individual philosophers have differed widely in regard to the proportions in which these two factors entered into their systems, but it is the presence of both, in some degree, that characterizes philosophy. ‘Philosophy’ is a word which has been used in many ways, some wider, some narrower. I propose to use it in a very wide sense, which I will now try to explain. Philosophy, as I shall understand the word, is something intermediate between theology and science. Like theology, it consists of speculations on matters as to which definite knowledge has, so far, been unascertainable; but like science, it appeals to human reason rather than to authority, whether that of tradition or that of revelation. All definite knowledge, so I should contend-belongs to science; all dogma as to what surpasses definite knowledge belongs to theology. But between theology and science there is a ‘No Man’s Land’, exposed to attack from both sides; this ‘No Man’s Land’ is philosophy. Almost all the questions of most interest to speculative minds are such as science cannot answer, and the confident answers of theologians no longer seem so convincing as they did in former centuries. Is the world divided into mind and matter, and if so, what is mind and what is matter? Is mind subject to matter, or is it possessed of independent powers? Has the universe any unity or purpose? Is it evolving towards some goal? Are there really laws of nature, or do we believe in them only because of our innate love of order? Is man what he seems to the astronomer, a tiny lump of carbon and water impotently crawling on a small and unimportant planet? Or is he what he appears to Hamlet? Is he perhaps both at once? Is there a way of living that is noble and another that is base, or are all ways of living merely futile? If there is a way of living that is noble, in what does it consist, and how shall we achieve it? Must the good be eternal in order to deserve to be valued, or is it worth seeking even if the universe is inexorably moving towards death? Is there such a thing as wisdom, or is what seems such merely the ultimate refinement of folly? To such questions, no answer can be found in the laboratory. Theologies have professed to give answers, all too definite; but their definiteness causes modem minds to view them with suspicion. The studying of these questions, if not the answering of them, is the business of philosophy. Why, then, you may ask, waste time on such insoluble problems? To this one may answer as a historian, or as an individual facing the terror of cosmic loneliness. The answer of the historian, in so far as I am capable of giving it, will appear in the course of this work. Ever since men became capable of free speculation, their actions in innumerable important respects, have depended upon their theories as to the world and human life, as to what is good and what is evil. This is as true in the present day as at any former time. To understand an age or a nation, we must understand its philosophy, and to understand its philosophy we must ourselves be in some degree philosophers. There is here a reciprocal causation: the circumstances of men’s lives do much to determine their philosophy, but, conversely, their philosophy does much to determine their circumstances. There is also, however, a more personal answer. Science tells us what we can know, but what we can know is little, and if we forget how much we cannot know we may become insensitive to many things of very great importance. Theology, on the other hand, induces a dogmatic belief that we have knowledge, where in fact we have ignorance, and by doing so generates a kind of impertinent insolence towards the universe. Uncertainty, in the presence of vivid hopes and fears, is painful, but must be endured if we wish to live without the support of comforting fairy tales. It is not good either to forget the questions that philosophy asks, or to persuade ourselves that we have found indubitable answers to them. To teach how to live without certainty, and yet without being paralyzed by hesitation, is perhaps the main thing that philosophy, in our age, can still do for those who study it.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "The purpose of philosophy is to:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "reduce uncertainty and chaos."
+      },
+      {
+        "label": "b",
+        "text": "help us to cope with uncertainty and ambiguity."
+      },
+      {
+        "label": "c",
+        "text": "help us to find explanations for uncertainty."
+      },
+      {
+        "label": "d",
+        "text": "reduce the terror of cosmic loneliness."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 2,
+    "question_code": "RC-T9-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p33",
+    "set_position": 2,
+    "context_passage": "The conceptions of life and the world which we call ‘philosophical’ are a product of two factors: one, inherited religious and ethical conceptions; the other, the sort of investigation which may be called ‘scientific’, using this word in its broadest sense. Individual philosophers have differed widely in regard to the proportions in which these two factors entered into their systems, but it is the presence of both, in some degree, that characterizes philosophy. ‘Philosophy’ is a word which has been used in many ways, some wider, some narrower. I propose to use it in a very wide sense, which I will now try to explain. Philosophy, as I shall understand the word, is something intermediate between theology and science. Like theology, it consists of speculations on matters as to which definite knowledge has, so far, been unascertainable; but like science, it appeals to human reason rather than to authority, whether that of tradition or that of revelation. All definite knowledge, so I should contend-belongs to science; all dogma as to what surpasses definite knowledge belongs to theology. But between theology and science there is a ‘No Man’s Land’, exposed to attack from both sides; this ‘No Man’s Land’ is philosophy. Almost all the questions of most interest to speculative minds are such as science cannot answer, and the confident answers of theologians no longer seem so convincing as they did in former centuries. Is the world divided into mind and matter, and if so, what is mind and what is matter? Is mind subject to matter, or is it possessed of independent powers? Has the universe any unity or purpose? Is it evolving towards some goal? Are there really laws of nature, or do we believe in them only because of our innate love of order? Is man what he seems to the astronomer, a tiny lump of carbon and water impotently crawling on a small and unimportant planet? Or is he what he appears to Hamlet? Is he perhaps both at once? Is there a way of living that is noble and another that is base, or are all ways of living merely futile? If there is a way of living that is noble, in what does it consist, and how shall we achieve it? Must the good be eternal in order to deserve to be valued, or is it worth seeking even if the universe is inexorably moving towards death? Is there such a thing as wisdom, or is what seems such merely the ultimate refinement of folly? To such questions, no answer can be found in the laboratory. Theologies have professed to give answers, all too definite; but their definiteness causes modem minds to view them with suspicion. The studying of these questions, if not the answering of them, is the business of philosophy. Why, then, you may ask, waste time on such insoluble problems? To this one may answer as a historian, or as an individual facing the terror of cosmic loneliness. The answer of the historian, in so far as I am capable of giving it, will appear in the course of this work. Ever since men became capable of free speculation, their actions in innumerable important respects, have depended upon their theories as to the world and human life, as to what is good and what is evil. This is as true in the present day as at any former time. To understand an age or a nation, we must understand its philosophy, and to understand its philosophy we must ourselves be in some degree philosophers. There is here a reciprocal causation: the circumstances of men’s lives do much to determine their philosophy, but, conversely, their philosophy does much to determine their circumstances. There is also, however, a more personal answer. Science tells us what we can know, but what we can know is little, and if we forget how much we cannot know we may become insensitive to many things of very great importance. Theology, on the other hand, induces a dogmatic belief that we have knowledge, where in fact we have ignorance, and by doing so generates a kind of impertinent insolence towards the universe. Uncertainty, in the presence of vivid hopes and fears, is painful, but must be endured if we wish to live without the support of comforting fairy tales. It is not good either to forget the questions that philosophy asks, or to persuade ourselves that we have found indubitable answers to them. To teach how to live without certainty, and yet without being paralyzed by hesitation, is perhaps the main thing that philosophy, in our age, can still do for those who study it.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "Based on this passage what can be concluded about the relation between philosophy and science?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The two are antagonistic."
+      },
+      {
+        "label": "b",
+        "text": "The two are complementary."
+      },
+      {
+        "label": "c",
+        "text": "There is no relation between the two."
+      },
+      {
+        "label": "d",
+        "text": "Philosophy derives from science."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 3,
+    "question_code": "RC-T9-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p33",
+    "set_position": 3,
+    "context_passage": "The conceptions of life and the world which we call ‘philosophical’ are a product of two factors: one, inherited religious and ethical conceptions; the other, the sort of investigation which may be called ‘scientific’, using this word in its broadest sense. Individual philosophers have differed widely in regard to the proportions in which these two factors entered into their systems, but it is the presence of both, in some degree, that characterizes philosophy. ‘Philosophy’ is a word which has been used in many ways, some wider, some narrower. I propose to use it in a very wide sense, which I will now try to explain. Philosophy, as I shall understand the word, is something intermediate between theology and science. Like theology, it consists of speculations on matters as to which definite knowledge has, so far, been unascertainable; but like science, it appeals to human reason rather than to authority, whether that of tradition or that of revelation. All definite knowledge, so I should contend-belongs to science; all dogma as to what surpasses definite knowledge belongs to theology. But between theology and science there is a ‘No Man’s Land’, exposed to attack from both sides; this ‘No Man’s Land’ is philosophy. Almost all the questions of most interest to speculative minds are such as science cannot answer, and the confident answers of theologians no longer seem so convincing as they did in former centuries. Is the world divided into mind and matter, and if so, what is mind and what is matter? Is mind subject to matter, or is it possessed of independent powers? Has the universe any unity or purpose? Is it evolving towards some goal? Are there really laws of nature, or do we believe in them only because of our innate love of order? Is man what he seems to the astronomer, a tiny lump of carbon and water impotently crawling on a small and unimportant planet? Or is he what he appears to Hamlet? Is he perhaps both at once? Is there a way of living that is noble and another that is base, or are all ways of living merely futile? If there is a way of living that is noble, in what does it consist, and how shall we achieve it? Must the good be eternal in order to deserve to be valued, or is it worth seeking even if the universe is inexorably moving towards death? Is there such a thing as wisdom, or is what seems such merely the ultimate refinement of folly? To such questions, no answer can be found in the laboratory. Theologies have professed to give answers, all too definite; but their definiteness causes modem minds to view them with suspicion. The studying of these questions, if not the answering of them, is the business of philosophy. Why, then, you may ask, waste time on such insoluble problems? To this one may answer as a historian, or as an individual facing the terror of cosmic loneliness. The answer of the historian, in so far as I am capable of giving it, will appear in the course of this work. Ever since men became capable of free speculation, their actions in innumerable important respects, have depended upon their theories as to the world and human life, as to what is good and what is evil. This is as true in the present day as at any former time. To understand an age or a nation, we must understand its philosophy, and to understand its philosophy we must ourselves be in some degree philosophers. There is here a reciprocal causation: the circumstances of men’s lives do much to determine their philosophy, but, conversely, their philosophy does much to determine their circumstances. There is also, however, a more personal answer. Science tells us what we can know, but what we can know is little, and if we forget how much we cannot know we may become insensitive to many things of very great importance. Theology, on the other hand, induces a dogmatic belief that we have knowledge, where in fact we have ignorance, and by doing so generates a kind of impertinent insolence towards the universe. Uncertainty, in the presence of vivid hopes and fears, is painful, but must be endured if we wish to live without the support of comforting fairy tales. It is not good either to forget the questions that philosophy asks, or to persuade ourselves that we have found indubitable answers to them. To teach how to live without certainty, and yet without being paralyzed by hesitation, is perhaps the main thing that philosophy, in our age, can still do for those who study it.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "From reading the passage, what can be concluded about the profession of the author? He is most likely not to be a:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Historian"
+      },
+      {
+        "label": "b",
+        "text": "Philosopher"
+      },
+      {
+        "label": "c",
+        "text": "Scientist"
+      },
+      {
+        "label": "d",
+        "text": "Theologian"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 4,
+    "question_code": "RC-T9-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p33",
+    "set_position": 4,
+    "context_passage": "The conceptions of life and the world which we call ‘philosophical’ are a product of two factors: one, inherited religious and ethical conceptions; the other, the sort of investigation which may be called ‘scientific’, using this word in its broadest sense. Individual philosophers have differed widely in regard to the proportions in which these two factors entered into their systems, but it is the presence of both, in some degree, that characterizes philosophy. ‘Philosophy’ is a word which has been used in many ways, some wider, some narrower. I propose to use it in a very wide sense, which I will now try to explain. Philosophy, as I shall understand the word, is something intermediate between theology and science. Like theology, it consists of speculations on matters as to which definite knowledge has, so far, been unascertainable; but like science, it appeals to human reason rather than to authority, whether that of tradition or that of revelation. All definite knowledge, so I should contend-belongs to science; all dogma as to what surpasses definite knowledge belongs to theology. But between theology and science there is a ‘No Man’s Land’, exposed to attack from both sides; this ‘No Man’s Land’ is philosophy. Almost all the questions of most interest to speculative minds are such as science cannot answer, and the confident answers of theologians no longer seem so convincing as they did in former centuries. Is the world divided into mind and matter, and if so, what is mind and what is matter? Is mind subject to matter, or is it possessed of independent powers? Has the universe any unity or purpose? Is it evolving towards some goal? Are there really laws of nature, or do we believe in them only because of our innate love of order? Is man what he seems to the astronomer, a tiny lump of carbon and water impotently crawling on a small and unimportant planet? Or is he what he appears to Hamlet? Is he perhaps both at once? Is there a way of living that is noble and another that is base, or are all ways of living merely futile? If there is a way of living that is noble, in what does it consist, and how shall we achieve it? Must the good be eternal in order to deserve to be valued, or is it worth seeking even if the universe is inexorably moving towards death? Is there such a thing as wisdom, or is what seems such merely the ultimate refinement of folly? To such questions, no answer can be found in the laboratory. Theologies have professed to give answers, all too definite; but their definiteness causes modem minds to view them with suspicion. The studying of these questions, if not the answering of them, is the business of philosophy. Why, then, you may ask, waste time on such insoluble problems? To this one may answer as a historian, or as an individual facing the terror of cosmic loneliness. The answer of the historian, in so far as I am capable of giving it, will appear in the course of this work. Ever since men became capable of free speculation, their actions in innumerable important respects, have depended upon their theories as to the world and human life, as to what is good and what is evil. This is as true in the present day as at any former time. To understand an age or a nation, we must understand its philosophy, and to understand its philosophy we must ourselves be in some degree philosophers. There is here a reciprocal causation: the circumstances of men’s lives do much to determine their philosophy, but, conversely, their philosophy does much to determine their circumstances. There is also, however, a more personal answer. Science tells us what we can know, but what we can know is little, and if we forget how much we cannot know we may become insensitive to many things of very great importance. Theology, on the other hand, induces a dogmatic belief that we have knowledge, where in fact we have ignorance, and by doing so generates a kind of impertinent insolence towards the universe. Uncertainty, in the presence of vivid hopes and fears, is painful, but must be endured if we wish to live without the support of comforting fairy tales. It is not good either to forget the questions that philosophy asks, or to persuade ourselves that we have found indubitable answers to them. To teach how to live without certainty, and yet without being paralyzed by hesitation, is perhaps the main thing that philosophy, in our age, can still do for those who study it.",
+    "directions": "Direction for questions 1 to 4: Read the passage given below and solve the questions based on it.",
+    "question_text": "According to the author, which of the following statements about the nature of the universe must be definitely true?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The universe has unity."
+      },
+      {
+        "label": "b",
+        "text": "The universe has a purpose."
+      },
+      {
+        "label": "c",
+        "text": "The universe is evolving towards a goal."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 5,
+    "question_code": "RC-T9-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p34",
+    "set_position": 1,
+    "context_passage": "‘We have always known that heedless self-interest was bad morals. We now know that it is bad economics said American President Franklin D. Roosevelt in 1937 in the midst of the Great Depression. And the world has learnt that enlightened self-interest is good economics all over again after the Great Recession of 2009. Americans are entering a period of social change as they are recalibrating their sense of what it means to be a citizen, not just through voting or volunteering but also through commerce. There is a new dimension to civic duty that is growing among Americans the idea that they can serve not only by spending time in communities and classrooms but by spending more responsibly. In short, Americans are beginning to put their money where their ideals are’. In a recent poll, most said they had consciously supported local or small neighbourhood businesses and 40 per cent said that they had purchased a product because they liked the social or political values of the company that produced it. People were alarmed about ‘blood diamonds’ mined in war zones and used to finance conflict in Africa. They were also willing to pay $2000 more for a car that gets 35 miles per gallon than for one that gives less, though the former is more expensive but environment-friendly. Of course, consumers have done their own doing-well-by doing-good calculation – a more expensive car that gives; better mileage will save them money in the long run and makes them feel good about protecting the environment. Moreover since 1995, the number of Socially Responsible Investment (SRI) mutual funds, which generally avoid buying shares of companies that profit from tobacco, oil or child labour has grown from 55 to 260. SRI funds now manage approximately 11 per cent of all the money invested in the US financial markets – an estimating mindset in a nation whose most iconic economist Milton Friedman wrote in 1970 that a corporation’s only moral responsibility was to increase shareholder profits. At first the corporate stance was defensive: companies were punished by consumers for unethical behaviour such as discriminatory labour practices. The nexus of activist groups, consumers and government regulation could not merely tarnish a company but put it out of business. But corporate America quickly discerned that social responsibility attracts investment capital as well as customer loyalty, creating a virtuous circle. Some companies quickly embraced the new ethos that consumers boycotted products they considered unethical and others purchase products in part because their manufacturers were responsible. With global warming on the minds of many consumers lots of companies are racing to ‘out green’ each other. The most progressive companies are talking about a triple bottom line-profit, planet and people that focuses on how to run a business while trying to improve environmental and worker conditions. This is a time when the only thing that has sunk lower than the American public’s opinion of Congress is its opinion of business. One burning question is how many of these Corporate Social Responsibility (CSR) initiatives are just shrewd marketing to give companies a halo effect? After all only 8 per cent of the large American corporations go through the trouble of verifying their CSR reports, which many consumers do not bother to read. And while social responsibility is one way for companies to get back their reputations consumers too need to make ethical choices.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following represents the change/s that has/have occurred in the American outlook? A. The perception that the government needs to invest resources in business rather than in education. B. Loss of faith in American corporations as they do not disburse their profits equitably among shareholders. C. Americans have cut down on their expenditure drastically to invest only in socially responsible mutual funds.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "None of these"
+      },
+      {
+        "label": "b",
+        "text": "Only C"
+      },
+      {
+        "label": "c",
+        "text": "Only A and B"
+      },
+      {
+        "label": "d",
+        "text": "Only A and C"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 6,
+    "question_code": "RC-T9-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p34",
+    "set_position": 2,
+    "context_passage": "‘We have always known that heedless self-interest was bad morals. We now know that it is bad economics said American President Franklin D. Roosevelt in 1937 in the midst of the Great Depression. And the world has learnt that enlightened self-interest is good economics all over again after the Great Recession of 2009. Americans are entering a period of social change as they are recalibrating their sense of what it means to be a citizen, not just through voting or volunteering but also through commerce. There is a new dimension to civic duty that is growing among Americans the idea that they can serve not only by spending time in communities and classrooms but by spending more responsibly. In short, Americans are beginning to put their money where their ideals are’. In a recent poll, most said they had consciously supported local or small neighbourhood businesses and 40 per cent said that they had purchased a product because they liked the social or political values of the company that produced it. People were alarmed about ‘blood diamonds’ mined in war zones and used to finance conflict in Africa. They were also willing to pay $2000 more for a car that gets 35 miles per gallon than for one that gives less, though the former is more expensive but environment-friendly. Of course, consumers have done their own doing-well-by doing-good calculation – a more expensive car that gives; better mileage will save them money in the long run and makes them feel good about protecting the environment. Moreover since 1995, the number of Socially Responsible Investment (SRI) mutual funds, which generally avoid buying shares of companies that profit from tobacco, oil or child labour has grown from 55 to 260. SRI funds now manage approximately 11 per cent of all the money invested in the US financial markets – an estimating mindset in a nation whose most iconic economist Milton Friedman wrote in 1970 that a corporation’s only moral responsibility was to increase shareholder profits. At first the corporate stance was defensive: companies were punished by consumers for unethical behaviour such as discriminatory labour practices. The nexus of activist groups, consumers and government regulation could not merely tarnish a company but put it out of business. But corporate America quickly discerned that social responsibility attracts investment capital as well as customer loyalty, creating a virtuous circle. Some companies quickly embraced the new ethos that consumers boycotted products they considered unethical and others purchase products in part because their manufacturers were responsible. With global warming on the minds of many consumers lots of companies are racing to ‘out green’ each other. The most progressive companies are talking about a triple bottom line-profit, planet and people that focuses on how to run a business while trying to improve environmental and worker conditions. This is a time when the only thing that has sunk lower than the American public’s opinion of Congress is its opinion of business. One burning question is how many of these Corporate Social Responsibility (CSR) initiatives are just shrewd marketing to give companies a halo effect? After all only 8 per cent of the large American corporations go through the trouble of verifying their CSR reports, which many consumers do not bother to read. And while social responsibility is one way for companies to get back their reputations consumers too need to make ethical choices.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is/are TRUE in the context of the passage? A. The voter turnout during the 2009 American elections was high. B. African diamonds are highly valued by the American public. C. American firms have to spend vast amounts on advertising because activists cast aspersions on their images.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "None of these"
+      },
+      {
+        "label": "b",
+        "text": "Only A"
+      },
+      {
+        "label": "c",
+        "text": "Only B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only C"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 7,
+    "question_code": "RC-T9-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p34",
+    "set_position": 3,
+    "context_passage": "‘We have always known that heedless self-interest was bad morals. We now know that it is bad economics said American President Franklin D. Roosevelt in 1937 in the midst of the Great Depression. And the world has learnt that enlightened self-interest is good economics all over again after the Great Recession of 2009. Americans are entering a period of social change as they are recalibrating their sense of what it means to be a citizen, not just through voting or volunteering but also through commerce. There is a new dimension to civic duty that is growing among Americans the idea that they can serve not only by spending time in communities and classrooms but by spending more responsibly. In short, Americans are beginning to put their money where their ideals are’. In a recent poll, most said they had consciously supported local or small neighbourhood businesses and 40 per cent said that they had purchased a product because they liked the social or political values of the company that produced it. People were alarmed about ‘blood diamonds’ mined in war zones and used to finance conflict in Africa. They were also willing to pay $2000 more for a car that gets 35 miles per gallon than for one that gives less, though the former is more expensive but environment-friendly. Of course, consumers have done their own doing-well-by doing-good calculation – a more expensive car that gives; better mileage will save them money in the long run and makes them feel good about protecting the environment. Moreover since 1995, the number of Socially Responsible Investment (SRI) mutual funds, which generally avoid buying shares of companies that profit from tobacco, oil or child labour has grown from 55 to 260. SRI funds now manage approximately 11 per cent of all the money invested in the US financial markets – an estimating mindset in a nation whose most iconic economist Milton Friedman wrote in 1970 that a corporation’s only moral responsibility was to increase shareholder profits. At first the corporate stance was defensive: companies were punished by consumers for unethical behaviour such as discriminatory labour practices. The nexus of activist groups, consumers and government regulation could not merely tarnish a company but put it out of business. But corporate America quickly discerned that social responsibility attracts investment capital as well as customer loyalty, creating a virtuous circle. Some companies quickly embraced the new ethos that consumers boycotted products they considered unethical and others purchase products in part because their manufacturers were responsible. With global warming on the minds of many consumers lots of companies are racing to ‘out green’ each other. The most progressive companies are talking about a triple bottom line-profit, planet and people that focuses on how to run a business while trying to improve environmental and worker conditions. This is a time when the only thing that has sunk lower than the American public’s opinion of Congress is its opinion of business. One burning question is how many of these Corporate Social Responsibility (CSR) initiatives are just shrewd marketing to give companies a halo effect? After all only 8 per cent of the large American corporations go through the trouble of verifying their CSR reports, which many consumers do not bother to read. And while social responsibility is one way for companies to get back their reputations consumers too need to make ethical choices.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is the central idea of the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It is beneficial to invest in American companies as they are socially responsible and profitable."
+      },
+      {
+        "label": "b",
+        "text": "Large corporations should be penalised by the American government for their greed."
+      },
+      {
+        "label": "c",
+        "text": "Ethical consumerism is profitable for organizations as well as society as a whole."
+      },
+      {
+        "label": "d",
+        "text": "Companies should be required by law to account for their impact on the environment in their balance sheet."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 8,
+    "question_code": "RC-T9-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p34",
+    "set_position": 4,
+    "context_passage": "‘We have always known that heedless self-interest was bad morals. We now know that it is bad economics said American President Franklin D. Roosevelt in 1937 in the midst of the Great Depression. And the world has learnt that enlightened self-interest is good economics all over again after the Great Recession of 2009. Americans are entering a period of social change as they are recalibrating their sense of what it means to be a citizen, not just through voting or volunteering but also through commerce. There is a new dimension to civic duty that is growing among Americans the idea that they can serve not only by spending time in communities and classrooms but by spending more responsibly. In short, Americans are beginning to put their money where their ideals are’. In a recent poll, most said they had consciously supported local or small neighbourhood businesses and 40 per cent said that they had purchased a product because they liked the social or political values of the company that produced it. People were alarmed about ‘blood diamonds’ mined in war zones and used to finance conflict in Africa. They were also willing to pay $2000 more for a car that gets 35 miles per gallon than for one that gives less, though the former is more expensive but environment-friendly. Of course, consumers have done their own doing-well-by doing-good calculation – a more expensive car that gives; better mileage will save them money in the long run and makes them feel good about protecting the environment. Moreover since 1995, the number of Socially Responsible Investment (SRI) mutual funds, which generally avoid buying shares of companies that profit from tobacco, oil or child labour has grown from 55 to 260. SRI funds now manage approximately 11 per cent of all the money invested in the US financial markets – an estimating mindset in a nation whose most iconic economist Milton Friedman wrote in 1970 that a corporation’s only moral responsibility was to increase shareholder profits. At first the corporate stance was defensive: companies were punished by consumers for unethical behaviour such as discriminatory labour practices. The nexus of activist groups, consumers and government regulation could not merely tarnish a company but put it out of business. But corporate America quickly discerned that social responsibility attracts investment capital as well as customer loyalty, creating a virtuous circle. Some companies quickly embraced the new ethos that consumers boycotted products they considered unethical and others purchase products in part because their manufacturers were responsible. With global warming on the minds of many consumers lots of companies are racing to ‘out green’ each other. The most progressive companies are talking about a triple bottom line-profit, planet and people that focuses on how to run a business while trying to improve environmental and worker conditions. This is a time when the only thing that has sunk lower than the American public’s opinion of Congress is its opinion of business. One burning question is how many of these Corporate Social Responsibility (CSR) initiatives are just shrewd marketing to give companies a halo effect? After all only 8 per cent of the large American corporations go through the trouble of verifying their CSR reports, which many consumers do not bother to read. And while social responsibility is one way for companies to get back their reputations consumers too need to make ethical choices.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following best describes the widespread view among Americans about big corporations?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "They have been lax in fulfilling their moral responsibility of increasing profits and benefiting shareholders."
+      },
+      {
+        "label": "b",
+        "text": "They are being too severely penalised by activities and the government for their role in the economic crisis."
+      },
+      {
+        "label": "c",
+        "text": "Their innovations have brought commercial success and benefited America tremendously."
+      },
+      {
+        "label": "d",
+        "text": "They need to be held accountable for their unethical business practices."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 9,
+    "question_code": "RC-T9-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p34",
+    "set_position": 5,
+    "context_passage": "‘We have always known that heedless self-interest was bad morals. We now know that it is bad economics said American President Franklin D. Roosevelt in 1937 in the midst of the Great Depression. And the world has learnt that enlightened self-interest is good economics all over again after the Great Recession of 2009. Americans are entering a period of social change as they are recalibrating their sense of what it means to be a citizen, not just through voting or volunteering but also through commerce. There is a new dimension to civic duty that is growing among Americans the idea that they can serve not only by spending time in communities and classrooms but by spending more responsibly. In short, Americans are beginning to put their money where their ideals are’. In a recent poll, most said they had consciously supported local or small neighbourhood businesses and 40 per cent said that they had purchased a product because they liked the social or political values of the company that produced it. People were alarmed about ‘blood diamonds’ mined in war zones and used to finance conflict in Africa. They were also willing to pay $2000 more for a car that gets 35 miles per gallon than for one that gives less, though the former is more expensive but environment-friendly. Of course, consumers have done their own doing-well-by doing-good calculation – a more expensive car that gives; better mileage will save them money in the long run and makes them feel good about protecting the environment. Moreover since 1995, the number of Socially Responsible Investment (SRI) mutual funds, which generally avoid buying shares of companies that profit from tobacco, oil or child labour has grown from 55 to 260. SRI funds now manage approximately 11 per cent of all the money invested in the US financial markets – an estimating mindset in a nation whose most iconic economist Milton Friedman wrote in 1970 that a corporation’s only moral responsibility was to increase shareholder profits. At first the corporate stance was defensive: companies were punished by consumers for unethical behaviour such as discriminatory labour practices. The nexus of activist groups, consumers and government regulation could not merely tarnish a company but put it out of business. But corporate America quickly discerned that social responsibility attracts investment capital as well as customer loyalty, creating a virtuous circle. Some companies quickly embraced the new ethos that consumers boycotted products they considered unethical and others purchase products in part because their manufacturers were responsible. With global warming on the minds of many consumers lots of companies are racing to ‘out green’ each other. The most progressive companies are talking about a triple bottom line-profit, planet and people that focuses on how to run a business while trying to improve environmental and worker conditions. This is a time when the only thing that has sunk lower than the American public’s opinion of Congress is its opinion of business. One burning question is how many of these Corporate Social Responsibility (CSR) initiatives are just shrewd marketing to give companies a halo effect? After all only 8 per cent of the large American corporations go through the trouble of verifying their CSR reports, which many consumers do not bother to read. And while social responsibility is one way for companies to get back their reputations consumers too need to make ethical choices.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the author trying to convey through the phrase ‘companies are racing to outgreen each other’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The competition among companies to boost their bottom line profit, planet and people – is very stiff."
+      },
+      {
+        "label": "b",
+        "text": "The conflict facing businesses of whether to benefit their shareholders or the environment."
+      },
+      {
+        "label": "c",
+        "text": "Corporations are vying with each other to solicit investment."
+      },
+      {
+        "label": "d",
+        "text": "Companies are striving to find the necessary funds to finance their environment-friendly initiatives."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 10,
+    "question_code": "RC-T9-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 1,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "To which of the following has the author attributed the 2008 Asian financial crisis? A. Reluctance of Asian governments to taper off the economic stimulus. B. Greed of Asian investors causing them to trade stocks of American companies at high prices. C. Inflated real estate prices in Asian countries.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "None of these"
+      },
+      {
+        "label": "b",
+        "text": "Only A"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "Only A and B"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 11,
+    "question_code": "RC-T9-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 2,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the author’s main objective in writing the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Illustrating that Asian economies are financially more sound than those of developed countries."
+      },
+      {
+        "label": "b",
+        "text": "Disputing financial theories about how recessions can be predicted and avoided."
+      },
+      {
+        "label": "c",
+        "text": "Warning Asian countries about the dangers of favouring fast growth and profits over sound economic principles."
+      },
+      {
+        "label": "d",
+        "text": "Extolling China’s incredible growth and urging other countries to emulate it."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 12,
+    "question_code": "RC-T9-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 3,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the author want to convey through the phrase, ‘The world has not changed it has just moved place’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "At present countries are more dependent on Asian economies than on the US economy."
+      },
+      {
+        "label": "b",
+        "text": "Economies have become interlinked on account of globalization."
+      },
+      {
+        "label": "c",
+        "text": "Asian governments are implementing the same economic reforms as developed countries."
+      },
+      {
+        "label": "d",
+        "text": "All economies are susceptible to recession because of the state of the US economy."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 13,
+    "question_code": "RC-T9-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 4,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the passage, which of the following factor(s) has/have had a negative impact on the Asian stock markets? A. Abrupt drop in exports by Asian countries. B. Extravagant disbursement of housing loans in 2009. C. Raising of interest rates by the Central Bank.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "None"
+      },
+      {
+        "label": "b",
+        "text": "Only A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only A"
+      },
+      {
+        "label": "d",
+        "text": "Only A and C"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 14,
+    "question_code": "RC-T9-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 5,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following can be inferred from the passage? A. All Asian economies are recovering at the same pace. B. Experts are apprehensive about the state of Asian economies despite their recovery. C. Developed countries should implement the same economic reforms as Asian ones.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only B and C"
+      },
+      {
+        "label": "c",
+        "text": "Only A and B"
+      },
+      {
+        "label": "d",
+        "text": "Only B"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 15,
+    "question_code": "RC-T9-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p35",
+    "set_position": 6,
+    "context_passage": "The great fear in Asia a shortwhile ago was that the region would suffer through the wealth destruction already taking place in the U.S. as a result of the financial crisis. Stock markets turn bled as exports plunged and economic growth deteriorated. Lofty property prices in China and elsewhere looked set to bust as credit tightened and buyers evaporated. But with surprising speed, fear in Asia swung back to greed as the region shows signs of recovery and property and stock prices are soaring in many parts of Asia. Why should this sharp Asian turnaround be greeted with skepticism? Higher assets prices mean households feel wealthier and better able to spend, which could further fuel the region’s nascent rebound. But just as easily. Asia could soon find itself saddled with overheated markets similar to the U.S. housing market. In short the world has not changed, it has just moved places. The incipient bubble is being created by government policy. In response to the global credit crunch of 2008, policy makers in Asia slashed interest rates and flooded financial sectors with cash in frantic attempts to keep loans flowing and economies growing. These steps were logical for central bankers striving to reverse a deepening economic crisis. But there’s evidence that there is too much easy money around it’s winding up in stocks and real estate, pushing prices up too far and too fast for the underlying economic fundamentals. Much of the concern is focused on China, where government stimulus efforts have been large and effective. Money in China has been especially easy to find. Aggregate new bank lending surged 201% in the first half of 2009 from the same period a year earlier, to nearly $1.1 trillion. Exuberance over a quick recovery which was given a boost by China’s surprisingly strong 7.9% GDP growth in the second quarter has buoyed investor sentiment not just for stocks but also for real estate. Former U.S. Federal Reserve Chairman Alan Greenspan argued that bubble could only be recognized in hindsight. But investors who have been well schooled in the dangers of bubbles over the past decade are increasingly wary that prices have resent too far, and that the slightest bit of negative economic news could knock markets for a loop. These fears are compounded by the possibility that Asia’s central bankers will begin taking steps to shut off the money. Rumours that Beijing was on the verge of tightening credit led to Shanghai stocks plunging 5%. Yet many economists believe that, ‘there is close to a zero possibility that the Chinese government will do anything this year that constitutes tightening.’ And without a major shift in thinking, the easy money conditions will stay in place. In a global economy that has produced more dramatic ups and downs that anyone thought possible over the past two years, Asia may be heading for another disheartening plunge.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "What do the Statistics about loans given by Chinese banks in 2009 indicate?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "There was hardly any demand for loans in 2008."
+      },
+      {
+        "label": "b",
+        "text": "The Chinese government has borrowed funds from the U.S."
+      },
+      {
+        "label": "c",
+        "text": "China will take longer than the US to recover from the economic crisis."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 16,
+    "question_code": "RC-T9-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p36",
+    "set_position": 1,
+    "context_passage": "There are various sectors in India that are to be assessed for their strengths, weaknesses, opportunities and threats. The total population is over 1 billion which will increase to 1.46 billion populations will result in higher unemployment and deterioration of quality. Literacy in India is yet another factor to be discussed. According to 1991 census, 64.8% of the population was illiterate. The major downtrend of education is due to child labour which has spread all over India and this should be totally eradicated by way of surveillance and a good educational system implemented properly by the Government. Pollution is one more threat to the environment and for the country’s prospects. This has been experienced more in urban areas mainly in metropolitan cities. The water pollution by the sewage seepage into the ground water and improper maintenance will lead to various diseases which in turn will affect the next generation. In most of the cities there is no proper sewage disposal. The Government has to take effective steps to control population which, in turn, will minimize the pollution. Poverty questions the entire strength of India’s political view and minimizes the energetic way of approach. The shortfall of rains, enormous floods, unexpected famine, drought, earthquake and the recent tsunami hit the country in a negative way. The proactive approach through effective research and analytical study helps us to determine the effects in advance. Proper allocation of funds is a prerequisite. In developed countries like U.S., Japan precautionary methods are adopted to overcome this, but it has to be improved a lot in our systems. Increased population is one of the major reasons for poverty and the Government is unable to allocate funds for basic needs to the society. India has nearly 400 million people living below the poverty line and 90% of active population is in informal economy. The children are forced to work due to their poverty and differential caste system. They work in match industry for daily wages, as servants, mechanics, stone breaker, agricultural workers, etc., to prevent child labour, existing laws which favour the Anti Child Labour Act should be implemented by the Government vigorously. More population results in cheap cost by virtue of the demand supply concept. Most of the foreign countries try to utilize this factor by outsourcing their business in India with a very low capital. According to U.S., India is a ‘Knowledge Pool’ with cheap labour. The major advantage is our communication and technical skill which is adaptable to any environment. The cutting edge skill in IT of our professionals helps the outsourcing companies to commensurate with the needs of the consumers in a short span. The major competitors for India are China and Philippines and by the way of technical ability, Indians are ahead of the race. The major Metropolitan states are targeting the outsourcing field vigorously by giving various amenities to the outsourcing companies like tax concession, allotting land, etc., to start their businesses in its cities without any hurdles. Thereby most of the MNCs prefer India as their destinations and capitalize the resources to maximize their assets. Infrastructure is another key factor for an outsourcing company to start a business in a particular city. It includes road, rail, ports, power and water. The increased input in infrastructure in India is very limited where China’s record is excellent. India in earlier days gave more importance to the development of industry and less importance to other departments. But the scenario has quite changed nowadays by allocating a special budget of funds for security. This is because of the frightening increase in terrorism all-around the world especially emerging after the 9/11 terror attack in U.S. in the last ten years, budget towards the development of military forces is higher when compared to others. It shows when compared to others. It shows that the threat from our neighbouring countries is escalating. India has to concentrate more on this security factor to wipe out the problem in the way of cross border terrorism. Making India, a developed country in 2020 is not an easy task. India has to keep in check a variety of factors in order to progress rapidly. To quote China as an example is that they demolished an old building to construct a very big port to meet future things to happen. The profits gained by India through various sectors are welfare of the country. India’s vision for a brighter path will come true not only by mere words or speech. But extra effort needed at all levels to overcome the pitfalls.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following, according to the author, is/are result(s) of increased population in India? A. Pollution B. Poverty C. Unemployment",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only B"
+      },
+      {
+        "label": "d",
+        "text": "All A, B and C"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 17,
+    "question_code": "RC-T9-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p36",
+    "set_position": 2,
+    "context_passage": "There are various sectors in India that are to be assessed for their strengths, weaknesses, opportunities and threats. The total population is over 1 billion which will increase to 1.46 billion populations will result in higher unemployment and deterioration of quality. Literacy in India is yet another factor to be discussed. According to 1991 census, 64.8% of the population was illiterate. The major downtrend of education is due to child labour which has spread all over India and this should be totally eradicated by way of surveillance and a good educational system implemented properly by the Government. Pollution is one more threat to the environment and for the country’s prospects. This has been experienced more in urban areas mainly in metropolitan cities. The water pollution by the sewage seepage into the ground water and improper maintenance will lead to various diseases which in turn will affect the next generation. In most of the cities there is no proper sewage disposal. The Government has to take effective steps to control population which, in turn, will minimize the pollution. Poverty questions the entire strength of India’s political view and minimizes the energetic way of approach. The shortfall of rains, enormous floods, unexpected famine, drought, earthquake and the recent tsunami hit the country in a negative way. The proactive approach through effective research and analytical study helps us to determine the effects in advance. Proper allocation of funds is a prerequisite. In developed countries like U.S., Japan precautionary methods are adopted to overcome this, but it has to be improved a lot in our systems. Increased population is one of the major reasons for poverty and the Government is unable to allocate funds for basic needs to the society. India has nearly 400 million people living below the poverty line and 90% of active population is in informal economy. The children are forced to work due to their poverty and differential caste system. They work in match industry for daily wages, as servants, mechanics, stone breaker, agricultural workers, etc., to prevent child labour, existing laws which favour the Anti Child Labour Act should be implemented by the Government vigorously. More population results in cheap cost by virtue of the demand supply concept. Most of the foreign countries try to utilize this factor by outsourcing their business in India with a very low capital. According to U.S., India is a ‘Knowledge Pool’ with cheap labour. The major advantage is our communication and technical skill which is adaptable to any environment. The cutting edge skill in IT of our professionals helps the outsourcing companies to commensurate with the needs of the consumers in a short span. The major competitors for India are China and Philippines and by the way of technical ability, Indians are ahead of the race. The major Metropolitan states are targeting the outsourcing field vigorously by giving various amenities to the outsourcing companies like tax concession, allotting land, etc., to start their businesses in its cities without any hurdles. Thereby most of the MNCs prefer India as their destinations and capitalize the resources to maximize their assets. Infrastructure is another key factor for an outsourcing company to start a business in a particular city. It includes road, rail, ports, power and water. The increased input in infrastructure in India is very limited where China’s record is excellent. India in earlier days gave more importance to the development of industry and less importance to other departments. But the scenario has quite changed nowadays by allocating a special budget of funds for security. This is because of the frightening increase in terrorism all-around the world especially emerging after the 9/11 terror attack in U.S. in the last ten years, budget towards the development of military forces is higher when compared to others. It shows when compared to others. It shows that the threat from our neighbouring countries is escalating. India has to concentrate more on this security factor to wipe out the problem in the way of cross border terrorism. Making India, a developed country in 2020 is not an easy task. India has to keep in check a variety of factors in order to progress rapidly. To quote China as an example is that they demolished an old building to construct a very big port to meet future things to happen. The profits gained by India through various sectors are welfare of the country. India’s vision for a brighter path will come true not only by mere words or speech. But extra effort needed at all levels to overcome the pitfalls.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "Why according to the author has the Indian Government allotted more funds to strengthen the military forces?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To improve security in order to counter increasing terrorism."
+      },
+      {
+        "label": "b",
+        "text": "As the security in India over the past ten years was grossly inadequate."
+      },
+      {
+        "label": "c",
+        "text": "As the U.S. too has strengthened its military forces after the 9/11 attack."
+      },
+      {
+        "label": "d",
+        "text": "As the industry is developed enough and is not in need of any more funds."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 9,
+    "question_number": 18,
+    "question_code": "RC-T9-Q18",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t9-p36",
+    "set_position": 3,
+    "context_passage": "There are various sectors in India that are to be assessed for their strengths, weaknesses, opportunities and threats. The total population is over 1 billion which will increase to 1.46 billion populations will result in higher unemployment and deterioration of quality. Literacy in India is yet another factor to be discussed. According to 1991 census, 64.8% of the population was illiterate. The major downtrend of education is due to child labour which has spread all over India and this should be totally eradicated by way of surveillance and a good educational system implemented properly by the Government. Pollution is one more threat to the environment and for the country’s prospects. This has been experienced more in urban areas mainly in metropolitan cities. The water pollution by the sewage seepage into the ground water and improper maintenance will lead to various diseases which in turn will affect the next generation. In most of the cities there is no proper sewage disposal. The Government has to take effective steps to control population which, in turn, will minimize the pollution. Poverty questions the entire strength of India’s political view and minimizes the energetic way of approach. The shortfall of rains, enormous floods, unexpected famine, drought, earthquake and the recent tsunami hit the country in a negative way. The proactive approach through effective research and analytical study helps us to determine the effects in advance. Proper allocation of funds is a prerequisite. In developed countries like U.S., Japan precautionary methods are adopted to overcome this, but it has to be improved a lot in our systems. Increased population is one of the major reasons for poverty and the Government is unable to allocate funds for basic needs to the society. India has nearly 400 million people living below the poverty line and 90% of active population is in informal economy. The children are forced to work due to their poverty and differential caste system. They work in match industry for daily wages, as servants, mechanics, stone breaker, agricultural workers, etc., to prevent child labour, existing laws which favour the Anti Child Labour Act should be implemented by the Government vigorously. More population results in cheap cost by virtue of the demand supply concept. Most of the foreign countries try to utilize this factor by outsourcing their business in India with a very low capital. According to U.S., India is a ‘Knowledge Pool’ with cheap labour. The major advantage is our communication and technical skill which is adaptable to any environment. The cutting edge skill in IT of our professionals helps the outsourcing companies to commensurate with the needs of the consumers in a short span. The major competitors for India are China and Philippines and by the way of technical ability, Indians are ahead of the race. The major Metropolitan states are targeting the outsourcing field vigorously by giving various amenities to the outsourcing companies like tax concession, allotting land, etc., to start their businesses in its cities without any hurdles. Thereby most of the MNCs prefer India as their destinations and capitalize the resources to maximize their assets. Infrastructure is another key factor for an outsourcing company to start a business in a particular city. It includes road, rail, ports, power and water. The increased input in infrastructure in India is very limited where China’s record is excellent. India in earlier days gave more importance to the development of industry and less importance to other departments. But the scenario has quite changed nowadays by allocating a special budget of funds for security. This is because of the frightening increase in terrorism all-around the world especially emerging after the 9/11 terror attack in U.S. in the last ten years, budget towards the development of military forces is higher when compared to others. It shows when compared to others. It shows that the threat from our neighbouring countries is escalating. India has to concentrate more on this security factor to wipe out the problem in the way of cross border terrorism. Making India, a developed country in 2020 is not an easy task. India has to keep in check a variety of factors in order to progress rapidly. To quote China as an example is that they demolished an old building to construct a very big port to meet future things to happen. The profits gained by India through various sectors are welfare of the country. India’s vision for a brighter path will come true not only by mere words or speech. But extra effort needed at all levels to overcome the pitfalls.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the author’s main objective in writing this passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To exhort the Government to garner support from its neighbouring countries."
+      },
+      {
+        "label": "b",
+        "text": "To suggest to the Government to follow China’s example blindly thereby bringing about rapid development."
+      },
+      {
+        "label": "c",
+        "text": "To highlight the plight of the poor."
+      },
+      {
+        "label": "d",
+        "text": "To bring froth the problems associated with the India’s development and to suggest measures to counter them."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

@@ -398,6 +398,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/varc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             VARC Mocks
           </button>
+          <button onClick={() => router.push('/rc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            RC Tests
+          </button>
           <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Blog
           </button>
@@ -474,6 +477,65 @@ export default function LandingPage() {
                 <AnimatedNumber target={s.value} suffix={s.suffix} />
               </div>
               <div style={{ fontSize: 11, color: '#444444', marginTop: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Practice areas — Quant, VARC & RC */}
+      <div style={{ maxWidth: 860, margin: '0 auto', padding: '72px 48px 0' }}>
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', color: '#aaaaaa', marginBottom: 8, textAlign: 'center' }}>Practice by section</div>
+        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Three focused ways to prepare</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 1, background: '#e4e4e4', border: '1px solid #e4e4e4' }}>
+          {[
+            {
+              accent: '#378ADD',
+              eyebrow: 'Quantitative Aptitude',
+              title: 'Quant Practice',
+              desc: 'Drill chapter by chapter across the full QA syllabus — arithmetic, algebra, geometry and more, organised into six blocks.',
+              points: ['Topic-wise question banks', 'Easy / medium / hard breakdown', 'Step-by-step worked solutions'],
+              cta: 'Start Quant practice',
+              href: '/quant',
+            },
+            {
+              accent: '#9B6DFF',
+              eyebrow: 'Verbal Ability & RC',
+              title: 'VARC Mocks',
+              desc: 'Three full section tests modelled on the real exam — passage-based RC, parajumbles, sentence correction and para completion.',
+              points: ['3 section tests · 34 questions each', 'Timed, scored, exam-style palette', 'Answer key with explanations'],
+              cta: 'Start VARC mocks',
+              href: '/varc',
+            },
+            {
+              accent: '#EC4899',
+              eyebrow: 'Reading Comprehension',
+              title: 'RC Tests',
+              desc: 'Ten passage-based tests built from 40 reading passages — grouped four passages per test in the exam-day interface.',
+              points: ['10 tests · 4 passages each', 'Timed, scored, exam-style palette', 'Answers & explanations on review'],
+              cta: 'Start RC tests',
+              href: '/rc',
+            },
+          ].map(c => (
+            <div key={c.title} style={{ background: '#ffffff', padding: '36px 34px', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1.5, textTransform: 'uppercase', color: c.accent, marginBottom: 12 }}>{c.eyebrow}</div>
+              <div style={{ fontSize: 22, fontWeight: 700, color: '#121212', marginBottom: 12, letterSpacing: -0.4 }}>{c.title}</div>
+              <div style={{ fontSize: 13.5, color: '#777777', lineHeight: 1.75, marginBottom: 20 }}>{c.desc}</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 9, marginBottom: 28 }}>
+                {c.points.map(p => (
+                  <div key={p} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 13, color: '#444444' }}>
+                    <div style={{ width: 5, height: 5, background: c.accent, flexShrink: 0 }} />
+                    {p}
+                  </div>
+                ))}
+              </div>
+              <button
+                onClick={() => router.push(c.href)}
+                style={{ marginTop: 'auto', alignSelf: 'flex-start', padding: '11px 24px', background: c.accent, color: '#fff', border: 'none', fontSize: 13.5, fontWeight: 700, fontFamily: F, cursor: 'pointer', transition: 'opacity 150ms' }}
+                onMouseEnter={e => { e.currentTarget.style.opacity = '0.88'; }}
+                onMouseLeave={e => { e.currentTarget.style.opacity = '1'; }}
+              >
+                {c.cta} &rarr;
+              </button>
             </div>
           ))}
         </div>

@@ -1,0 +1,682 @@
+[
+  {
+    "test": 6,
+    "question_number": 1,
+    "question_code": "RC-T6-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p21",
+    "set_position": 1,
+    "context_passage": "The University Grants Commission’s (UGC), directive to college and university lecturers to spend a minimum of 22 hours a week in direct teaching is the product of budgetary cutbacks rather than pedagogic wisdom. It may seem odd, at first blush, that teachers should protest about teaching a mere 22 hours. However, if one considers the amount of time academics require to prepare lectures of good quality as well as the time they need to spend doing research, it is clear that most conscientious teachers work more than 40 hours a week. In university systems around the world, lecturers rarely spend more than 12 to 15 hours in direct teaching activities a week. The average college lecturer in India does not have any office space. If computers are available, internet connectivity is unlikely. Libraries are poorly stocked. Now, the UGC says universities must implement a complete freeze on all permanent recruitment, abolish all posts which have been vacant for more than a year, and cut staff strength by 10 per cent. And it is in order to ensure that these cutbacks do not affect the quantum of teaching that existing lecturers are being asked to work longer. Obviously, the quality of teaching and academic work in general will decline. While it is true that some college teachers do not take their classes regularly, the UGC and the Institutions concerned must find a proper way to hold them accountable. An absentee teacher will continue to play truant even if the number of hours he is required to teach goes up. All of us are well aware of the unsound state that the Indian higher education system is in today. Thanks to years of sustained financial neglect, most Indian universities and colleges do no research worth the name. Even as the number of students entering colleges has increased dramatically, public investment in higher education has actually declined in relative terms. Between 1985 and 1997, when public expenditure on higher education as a percentage of outlays on all levels of education grew by more than 60 per cent in Malaysia and 20 per cent in Thailand, India showed a decline of more than 10 per cent. Throughout the world, the number of teachers in higher education per million populations grew by more than 10 per cent. In the same period in India, it fell by one per cent. Instead of transferring the burden of government apathy on to the backs of the teachers, the UGC should insist that the needs of the country’s university system are adequately catered for.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is the reason for the sorry state of affairs of the Indian Universities as mentioned in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The poor quality of teachers."
+      },
+      {
+        "label": "b",
+        "text": "Involvement of teachers in extra-curricular activities."
+      },
+      {
+        "label": "c",
+        "text": "Politics within and outside the departments."
+      },
+      {
+        "label": "d",
+        "text": "Not getting enough financial assistance."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 2,
+    "question_code": "RC-T6-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p21",
+    "set_position": 2,
+    "context_passage": "The University Grants Commission’s (UGC), directive to college and university lecturers to spend a minimum of 22 hours a week in direct teaching is the product of budgetary cutbacks rather than pedagogic wisdom. It may seem odd, at first blush, that teachers should protest about teaching a mere 22 hours. However, if one considers the amount of time academics require to prepare lectures of good quality as well as the time they need to spend doing research, it is clear that most conscientious teachers work more than 40 hours a week. In university systems around the world, lecturers rarely spend more than 12 to 15 hours in direct teaching activities a week. The average college lecturer in India does not have any office space. If computers are available, internet connectivity is unlikely. Libraries are poorly stocked. Now, the UGC says universities must implement a complete freeze on all permanent recruitment, abolish all posts which have been vacant for more than a year, and cut staff strength by 10 per cent. And it is in order to ensure that these cutbacks do not affect the quantum of teaching that existing lecturers are being asked to work longer. Obviously, the quality of teaching and academic work in general will decline. While it is true that some college teachers do not take their classes regularly, the UGC and the Institutions concerned must find a proper way to hold them accountable. An absentee teacher will continue to play truant even if the number of hours he is required to teach goes up. All of us are well aware of the unsound state that the Indian higher education system is in today. Thanks to years of sustained financial neglect, most Indian universities and colleges do no research worth the name. Even as the number of students entering colleges has increased dramatically, public investment in higher education has actually declined in relative terms. Between 1985 and 1997, when public expenditure on higher education as a percentage of outlays on all levels of education grew by more than 60 per cent in Malaysia and 20 per cent in Thailand, India showed a decline of more than 10 per cent. Throughout the world, the number of teachers in higher education per million populations grew by more than 10 per cent. In the same period in India, it fell by one per cent. Instead of transferring the burden of government apathy on to the backs of the teachers, the UGC should insist that the needs of the country’s university system are adequately catered for.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following statements/is/are TRUE in the context of the passage? A. Most colleges do not carry out research worth the name. B. UGC wants lecturers to spend minimum 22 hours a week in direct teaching. C. Indian higher education system is in unsound state.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A and C"
+      },
+      {
+        "label": "b",
+        "text": "All A, B and C"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "Only B"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 3,
+    "question_code": "RC-T6-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p21",
+    "set_position": 3,
+    "context_passage": "The University Grants Commission’s (UGC), directive to college and university lecturers to spend a minimum of 22 hours a week in direct teaching is the product of budgetary cutbacks rather than pedagogic wisdom. It may seem odd, at first blush, that teachers should protest about teaching a mere 22 hours. However, if one considers the amount of time academics require to prepare lectures of good quality as well as the time they need to spend doing research, it is clear that most conscientious teachers work more than 40 hours a week. In university systems around the world, lecturers rarely spend more than 12 to 15 hours in direct teaching activities a week. The average college lecturer in India does not have any office space. If computers are available, internet connectivity is unlikely. Libraries are poorly stocked. Now, the UGC says universities must implement a complete freeze on all permanent recruitment, abolish all posts which have been vacant for more than a year, and cut staff strength by 10 per cent. And it is in order to ensure that these cutbacks do not affect the quantum of teaching that existing lecturers are being asked to work longer. Obviously, the quality of teaching and academic work in general will decline. While it is true that some college teachers do not take their classes regularly, the UGC and the Institutions concerned must find a proper way to hold them accountable. An absentee teacher will continue to play truant even if the number of hours he is required to teach goes up. All of us are well aware of the unsound state that the Indian higher education system is in today. Thanks to years of sustained financial neglect, most Indian universities and colleges do no research worth the name. Even as the number of students entering colleges has increased dramatically, public investment in higher education has actually declined in relative terms. Between 1985 and 1997, when public expenditure on higher education as a percentage of outlays on all levels of education grew by more than 60 per cent in Malaysia and 20 per cent in Thailand, India showed a decline of more than 10 per cent. Throughout the world, the number of teachers in higher education per million populations grew by more than 10 per cent. In the same period in India, it fell by one per cent. Instead of transferring the burden of government apathy on to the backs of the teachers, the UGC should insist that the needs of the country’s university system are adequately catered for.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Besides direct teaching, University teachers spend considerable time in/on",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "administrative activities such as admissions."
+      },
+      {
+        "label": "b",
+        "text": "supervising examinations and correction of answer papers."
+      },
+      {
+        "label": "c",
+        "text": "carrying out research in the area of their interest."
+      },
+      {
+        "label": "d",
+        "text": "maintaining research equipment and libraries."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 4,
+    "question_code": "RC-T6-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p21",
+    "set_position": 4,
+    "context_passage": "The University Grants Commission’s (UGC), directive to college and university lecturers to spend a minimum of 22 hours a week in direct teaching is the product of budgetary cutbacks rather than pedagogic wisdom. It may seem odd, at first blush, that teachers should protest about teaching a mere 22 hours. However, if one considers the amount of time academics require to prepare lectures of good quality as well as the time they need to spend doing research, it is clear that most conscientious teachers work more than 40 hours a week. In university systems around the world, lecturers rarely spend more than 12 to 15 hours in direct teaching activities a week. The average college lecturer in India does not have any office space. If computers are available, internet connectivity is unlikely. Libraries are poorly stocked. Now, the UGC says universities must implement a complete freeze on all permanent recruitment, abolish all posts which have been vacant for more than a year, and cut staff strength by 10 per cent. And it is in order to ensure that these cutbacks do not affect the quantum of teaching that existing lecturers are being asked to work longer. Obviously, the quality of teaching and academic work in general will decline. While it is true that some college teachers do not take their classes regularly, the UGC and the Institutions concerned must find a proper way to hold them accountable. An absentee teacher will continue to play truant even if the number of hours he is required to teach goes up. All of us are well aware of the unsound state that the Indian higher education system is in today. Thanks to years of sustained financial neglect, most Indian universities and colleges do no research worth the name. Even as the number of students entering colleges has increased dramatically, public investment in higher education has actually declined in relative terms. Between 1985 and 1997, when public expenditure on higher education as a percentage of outlays on all levels of education grew by more than 60 per cent in Malaysia and 20 per cent in Thailand, India showed a decline of more than 10 per cent. Throughout the world, the number of teachers in higher education per million populations grew by more than 10 per cent. In the same period in India, it fell by one per cent. Instead of transferring the burden of government apathy on to the backs of the teachers, the UGC should insist that the needs of the country’s university system are adequately catered for.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the UGC directive to the universities?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Improve the quality of teaching."
+      },
+      {
+        "label": "b",
+        "text": "Spend time on research activities."
+      },
+      {
+        "label": "c",
+        "text": "Do not appoint any permanent teacher."
+      },
+      {
+        "label": "d",
+        "text": "Provide computer and internet facilities."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 5,
+    "question_code": "RC-T6-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p22",
+    "set_position": 1,
+    "context_passage": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it. At one time, it would have been impossible to imagine the integration of different religious thoughts, ideas and ideals. That is because of the closed society, the lack of any communication or interdependence on other nations. People were happy and content amongst themselves; they did not need any more. The physical distance and cultural barriers prevented any exchange of thought and beliefs. But such is not the case today. Today, the world has become a much smaller place, thanks to the adventures and miracles of science. Foreign nations have become our next door neighbours. Mingling of population is bringing about an interchange of thought. We are slowly realizing that the world is a single cooperative group. Other religions have become forces with which we have to reckon and we are seeking for ways and means by which we can live together in peace and harmony. We cannot have religious unity and peace so long as we assert that we are in possession of the light and all others are groping in the darkness. That very assertion is a challenge to a fight. The political ideal of the world is not so much a single empire with a homogeneous, civilization and single communal will a brotherhood of free nations differing profoundly in life and mind, habits and institutions, existing side by side in peace and order, harmony and cooperation and each contributing to the world its own unique and specific best, which is irreducible to the terms of the others. The cosmopolitanism of the eighteenth century and the nationalism of the nineteenth are combined in our ideal of a world commonwealth, which allows every branch of the human family to find freedom, security and self-realisation in the larger life of making. I see no hope for the religious future of the world, if this ideal is not extended to the religious sphere also. When two or three different systems claim that they contain the revelation of the very core and center of truth and the acceptance of it is the exclusive pathway to heaven, conflicts are inevitable. In such conflicts one religion will not allow others to steal a march over it and no one can gain ascendancy until the world is reduced to dust and ashes. To obliterate every other religion than one’s is a sort of Bolshevism in religion which we must try to prevent. We can do so only if we accept something like the Indian solution, which seeks the unity of religion not in a common creed but in a common quest. Let us believe in a unity of spirit and not of organization, a unity which secures ample liberty not only for every individual but for every type of organized life which has proved itself effective. For almost all historical forms of life and thought can claim the sanction of experience and so the authority of God. The world would be a much poorer thing if one creed absorbed the rest. God wills a rich harmony and not a colourless uniformity. The comprehensive and synthetic spirit of Indianism had made it a mighty forest with a thousand waving arms each fulfilling its function and all directed by the spirit of God. Each thing in its place and all associated in the divine concert making with their various voices and even dissonance, as Heraclites would say, the most exquisite harmony should be our ideal.",
+    "directions": "",
+    "question_text": "According to the passage, religious unity and peace can be obtained if",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "we believe that the world is a single cooperative group."
+      },
+      {
+        "label": "b",
+        "text": "we do not assert that we alone are in possession of the real knowledge."
+      },
+      {
+        "label": "c",
+        "text": "we believe in a unity of spirit and not of organization."
+      },
+      {
+        "label": "d",
+        "text": "we believe that truth does matter and will prevail."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 6,
+    "question_code": "RC-T6-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p22",
+    "set_position": 2,
+    "context_passage": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it. At one time, it would have been impossible to imagine the integration of different religious thoughts, ideas and ideals. That is because of the closed society, the lack of any communication or interdependence on other nations. People were happy and content amongst themselves; they did not need any more. The physical distance and cultural barriers prevented any exchange of thought and beliefs. But such is not the case today. Today, the world has become a much smaller place, thanks to the adventures and miracles of science. Foreign nations have become our next door neighbours. Mingling of population is bringing about an interchange of thought. We are slowly realizing that the world is a single cooperative group. Other religions have become forces with which we have to reckon and we are seeking for ways and means by which we can live together in peace and harmony. We cannot have religious unity and peace so long as we assert that we are in possession of the light and all others are groping in the darkness. That very assertion is a challenge to a fight. The political ideal of the world is not so much a single empire with a homogeneous, civilization and single communal will a brotherhood of free nations differing profoundly in life and mind, habits and institutions, existing side by side in peace and order, harmony and cooperation and each contributing to the world its own unique and specific best, which is irreducible to the terms of the others. The cosmopolitanism of the eighteenth century and the nationalism of the nineteenth are combined in our ideal of a world commonwealth, which allows every branch of the human family to find freedom, security and self-realisation in the larger life of making. I see no hope for the religious future of the world, if this ideal is not extended to the religious sphere also. When two or three different systems claim that they contain the revelation of the very core and center of truth and the acceptance of it is the exclusive pathway to heaven, conflicts are inevitable. In such conflicts one religion will not allow others to steal a march over it and no one can gain ascendancy until the world is reduced to dust and ashes. To obliterate every other religion than one’s is a sort of Bolshevism in religion which we must try to prevent. We can do so only if we accept something like the Indian solution, which seeks the unity of religion not in a common creed but in a common quest. Let us believe in a unity of spirit and not of organization, a unity which secures ample liberty not only for every individual but for every type of organized life which has proved itself effective. For almost all historical forms of life and thought can claim the sanction of experience and so the authority of God. The world would be a much poorer thing if one creed absorbed the rest. God wills a rich harmony and not a colourless uniformity. The comprehensive and synthetic spirit of Indianism had made it a mighty forest with a thousand waving arms each fulfilling its function and all directed by the spirit of God. Each thing in its place and all associated in the divine concert making with their various voices and even dissonance, as Heraclites would say, the most exquisite harmony should be our ideal.",
+    "directions": "",
+    "question_text": "Which of the following according to the passage is the Indian solution?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Belief"
+      },
+      {
+        "label": "b",
+        "text": "Organization"
+      },
+      {
+        "label": "c",
+        "text": "Creed"
+      },
+      {
+        "label": "d",
+        "text": "Search"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 7,
+    "question_code": "RC-T6-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p22",
+    "set_position": 3,
+    "context_passage": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it. At one time, it would have been impossible to imagine the integration of different religious thoughts, ideas and ideals. That is because of the closed society, the lack of any communication or interdependence on other nations. People were happy and content amongst themselves; they did not need any more. The physical distance and cultural barriers prevented any exchange of thought and beliefs. But such is not the case today. Today, the world has become a much smaller place, thanks to the adventures and miracles of science. Foreign nations have become our next door neighbours. Mingling of population is bringing about an interchange of thought. We are slowly realizing that the world is a single cooperative group. Other religions have become forces with which we have to reckon and we are seeking for ways and means by which we can live together in peace and harmony. We cannot have religious unity and peace so long as we assert that we are in possession of the light and all others are groping in the darkness. That very assertion is a challenge to a fight. The political ideal of the world is not so much a single empire with a homogeneous, civilization and single communal will a brotherhood of free nations differing profoundly in life and mind, habits and institutions, existing side by side in peace and order, harmony and cooperation and each contributing to the world its own unique and specific best, which is irreducible to the terms of the others. The cosmopolitanism of the eighteenth century and the nationalism of the nineteenth are combined in our ideal of a world commonwealth, which allows every branch of the human family to find freedom, security and self-realisation in the larger life of making. I see no hope for the religious future of the world, if this ideal is not extended to the religious sphere also. When two or three different systems claim that they contain the revelation of the very core and center of truth and the acceptance of it is the exclusive pathway to heaven, conflicts are inevitable. In such conflicts one religion will not allow others to steal a march over it and no one can gain ascendancy until the world is reduced to dust and ashes. To obliterate every other religion than one’s is a sort of Bolshevism in religion which we must try to prevent. We can do so only if we accept something like the Indian solution, which seeks the unity of religion not in a common creed but in a common quest. Let us believe in a unity of spirit and not of organization, a unity which secures ample liberty not only for every individual but for every type of organized life which has proved itself effective. For almost all historical forms of life and thought can claim the sanction of experience and so the authority of God. The world would be a much poorer thing if one creed absorbed the rest. God wills a rich harmony and not a colourless uniformity. The comprehensive and synthetic spirit of Indianism had made it a mighty forest with a thousand waving arms each fulfilling its function and all directed by the spirit of God. Each thing in its place and all associated in the divine concert making with their various voices and even dissonance, as Heraclites would say, the most exquisite harmony should be our ideal.",
+    "directions": "",
+    "question_text": "According to the passage, the political ideal of the contemporary world is to",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "create a single empire with a homogeneous civilization."
+      },
+      {
+        "label": "b",
+        "text": "foster the unity of all the religions of the world."
+      },
+      {
+        "label": "c",
+        "text": "create a world commonwealth preserving religious diversity of all the nations."
+      },
+      {
+        "label": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 8,
+    "question_code": "RC-T6-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p22",
+    "set_position": 4,
+    "context_passage": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it. At one time, it would have been impossible to imagine the integration of different religious thoughts, ideas and ideals. That is because of the closed society, the lack of any communication or interdependence on other nations. People were happy and content amongst themselves; they did not need any more. The physical distance and cultural barriers prevented any exchange of thought and beliefs. But such is not the case today. Today, the world has become a much smaller place, thanks to the adventures and miracles of science. Foreign nations have become our next door neighbours. Mingling of population is bringing about an interchange of thought. We are slowly realizing that the world is a single cooperative group. Other religions have become forces with which we have to reckon and we are seeking for ways and means by which we can live together in peace and harmony. We cannot have religious unity and peace so long as we assert that we are in possession of the light and all others are groping in the darkness. That very assertion is a challenge to a fight. The political ideal of the world is not so much a single empire with a homogeneous, civilization and single communal will a brotherhood of free nations differing profoundly in life and mind, habits and institutions, existing side by side in peace and order, harmony and cooperation and each contributing to the world its own unique and specific best, which is irreducible to the terms of the others. The cosmopolitanism of the eighteenth century and the nationalism of the nineteenth are combined in our ideal of a world commonwealth, which allows every branch of the human family to find freedom, security and self-realisation in the larger life of making. I see no hope for the religious future of the world, if this ideal is not extended to the religious sphere also. When two or three different systems claim that they contain the revelation of the very core and center of truth and the acceptance of it is the exclusive pathway to heaven, conflicts are inevitable. In such conflicts one religion will not allow others to steal a march over it and no one can gain ascendancy until the world is reduced to dust and ashes. To obliterate every other religion than one’s is a sort of Bolshevism in religion which we must try to prevent. We can do so only if we accept something like the Indian solution, which seeks the unity of religion not in a common creed but in a common quest. Let us believe in a unity of spirit and not of organization, a unity which secures ample liberty not only for every individual but for every type of organized life which has proved itself effective. For almost all historical forms of life and thought can claim the sanction of experience and so the authority of God. The world would be a much poorer thing if one creed absorbed the rest. God wills a rich harmony and not a colourless uniformity. The comprehensive and synthetic spirit of Indianism had made it a mighty forest with a thousand waving arms each fulfilling its function and all directed by the spirit of God. Each thing in its place and all associated in the divine concert making with their various voices and even dissonance, as Heraclites would say, the most exquisite harmony should be our ideal.",
+    "directions": "",
+    "question_text": "According to the passage, the world would be a much poorer thing if",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "one religion swallows all other religions."
+      },
+      {
+        "label": "b",
+        "text": "one religion accepts the supremacy of other religions."
+      },
+      {
+        "label": "c",
+        "text": "religions adopt toleration as a principle of spiritual life."
+      },
+      {
+        "label": "d",
+        "text": "we do not achieve the ideal of brotherhood of free nations."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 9,
+    "question_code": "RC-T6-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p23",
+    "set_position": 1,
+    "context_passage": "The debt swap scheme is one among the various market-based debt restructuring measures available to provide debt relief without hampering the interest of the creditor. The basic notion of debt swap/conversion is relatively simple. The principle is that instead of continuing to make interest payments on outstanding loans contracted in past at a very high rate, the debtor is able to find some other means of setting the debt which is satisfactory to both the debtor and creditor. The debt swap can be of various types, the most prominent being the debt-equity swaps, or debt-to-debt swaps. Debt-equity swaps are exchange of bonds or bank loans for ownership right to equity. Such debt-equity swaps have formed part of private corporations restructuring process for some time. The debt swap whether internal or external has an array of macroeconomic effects. It is to be noted that in any debt swap scheme, the debtor must surrender an asset in return for having a liability extinguished. For example, in case of debt-equity swap, debt is exchanged by a claim on capital stock owned by the debtor. In the case of external debt, if the government retires external debt by issuing domestic bonds, in a balanced budget there are no real effects beyond those created by the initial wealth effect: the economy will display a current account surplus, accompanied by an initial appreciation of parallel exchange rate and a high real interest rate. These effects are independent of the discounts received by the government. The practice of debt-equity swap or debt-to-debt swap particularly in the context of external debt has given rise to active controversy. The debate covers wide-ranging issues such as welfare characteristics of such swaps, their potential for reducing net capital flows, and the degree to which swap can reduce the negative incentive effects of debt overhang. Attention has also been paid on the effect of debt swap on the secondary market prices of debt. In the case of external debt, Mexico and Brazil suspended the debt conversion programme, because they can be inflationary as they put excessive pressure on the free market for foreign exchange or because swapping of foreign debt with domestic debt can be expensive. If the debt is swapped through money financing, it leads to an expansion of money supply. If the government can run sustained deficits, the fiscal side provides a key link through which swaps can create macroeconomic disequilibrium. In a deficit situation, if the supply of bond is increased to swap the debt, and if the discounts obtained by the government due to interest rate differential are not large enough to cover the deficit, government will have to issue fresh bonds, which in turn may push up the interest rate. Finally, if the government continues to run a fiscal deficit and to avoid inflationary effects if it relies mostly on debt for bonds swapped and if this in turn leads to an accumulation of domestic debt, which the public expects will eventually be monetized, the domestic rate of inflation will immediately begin to rise. In the case of the debt swap scheme between central and state governments in India, states can restructure their debt by pre-payment of high cost central debt with additional market borrowing at a lower rate of interest. Essentially, this should result in the reduction in the average cost of debt of the State Government. However, that would largely depend on the volume of savings in the interest cost in relation to the outstanding debt stock available for swapping. Despite the savings in interest cost due to debt swap, if a large gap is to be filled by additional borrowing, there is a possibility that swap-induced additional market borrowing may put pressure on the interest rate. Also, in an extreme case, continuous financing of swappable debt through bond financing may fuel inflation if the holder of the bond expects that debt will eventually be monetized. It is evident from this discussion that aggressive debt restructuring proposed to reap the benefit of low interest rate regime at times may itself become the cause of hardening of future interest rates.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following measures had been adopted by private Corporations in restructuring process?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Exchange of bonds for ownership rights with share-holders."
+      },
+      {
+        "label": "b",
+        "text": "Providing debt relief to bond holders without raising the interest rate."
+      },
+      {
+        "label": "c",
+        "text": "Settling the debt in exchange of reserves."
+      },
+      {
+        "label": "d",
+        "text": "Borrowing from banks by mortgaging equity shares."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 10,
+    "question_code": "RC-T6-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p23",
+    "set_position": 2,
+    "context_passage": "The debt swap scheme is one among the various market-based debt restructuring measures available to provide debt relief without hampering the interest of the creditor. The basic notion of debt swap/conversion is relatively simple. The principle is that instead of continuing to make interest payments on outstanding loans contracted in past at a very high rate, the debtor is able to find some other means of setting the debt which is satisfactory to both the debtor and creditor. The debt swap can be of various types, the most prominent being the debt-equity swaps, or debt-to-debt swaps. Debt-equity swaps are exchange of bonds or bank loans for ownership right to equity. Such debt-equity swaps have formed part of private corporations restructuring process for some time. The debt swap whether internal or external has an array of macroeconomic effects. It is to be noted that in any debt swap scheme, the debtor must surrender an asset in return for having a liability extinguished. For example, in case of debt-equity swap, debt is exchanged by a claim on capital stock owned by the debtor. In the case of external debt, if the government retires external debt by issuing domestic bonds, in a balanced budget there are no real effects beyond those created by the initial wealth effect: the economy will display a current account surplus, accompanied by an initial appreciation of parallel exchange rate and a high real interest rate. These effects are independent of the discounts received by the government. The practice of debt-equity swap or debt-to-debt swap particularly in the context of external debt has given rise to active controversy. The debate covers wide-ranging issues such as welfare characteristics of such swaps, their potential for reducing net capital flows, and the degree to which swap can reduce the negative incentive effects of debt overhang. Attention has also been paid on the effect of debt swap on the secondary market prices of debt. In the case of external debt, Mexico and Brazil suspended the debt conversion programme, because they can be inflationary as they put excessive pressure on the free market for foreign exchange or because swapping of foreign debt with domestic debt can be expensive. If the debt is swapped through money financing, it leads to an expansion of money supply. If the government can run sustained deficits, the fiscal side provides a key link through which swaps can create macroeconomic disequilibrium. In a deficit situation, if the supply of bond is increased to swap the debt, and if the discounts obtained by the government due to interest rate differential are not large enough to cover the deficit, government will have to issue fresh bonds, which in turn may push up the interest rate. Finally, if the government continues to run a fiscal deficit and to avoid inflationary effects if it relies mostly on debt for bonds swapped and if this in turn leads to an accumulation of domestic debt, which the public expects will eventually be monetized, the domestic rate of inflation will immediately begin to rise. In the case of the debt swap scheme between central and state governments in India, states can restructure their debt by pre-payment of high cost central debt with additional market borrowing at a lower rate of interest. Essentially, this should result in the reduction in the average cost of debt of the State Government. However, that would largely depend on the volume of savings in the interest cost in relation to the outstanding debt stock available for swapping. Despite the savings in interest cost due to debt swap, if a large gap is to be filled by additional borrowing, there is a possibility that swap-induced additional market borrowing may put pressure on the interest rate. Also, in an extreme case, continuous financing of swappable debt through bond financing may fuel inflation if the holder of the bond expects that debt will eventually be monetized. It is evident from this discussion that aggressive debt restructuring proposed to reap the benefit of low interest rate regime at times may itself become the cause of hardening of future interest rates.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is the recommendation of the author to stabilize the interest rates?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "State Government should stop borrowing from Central Government."
+      },
+      {
+        "label": "b",
+        "text": "The debt restructuring should be done at bare minimum level."
+      },
+      {
+        "label": "c",
+        "text": "The foreign debts should be swapped immediately."
+      },
+      {
+        "label": "d",
+        "text": "The debt-equality swap should be banned."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 11,
+    "question_code": "RC-T6-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p23",
+    "set_position": 3,
+    "context_passage": "The debt swap scheme is one among the various market-based debt restructuring measures available to provide debt relief without hampering the interest of the creditor. The basic notion of debt swap/conversion is relatively simple. The principle is that instead of continuing to make interest payments on outstanding loans contracted in past at a very high rate, the debtor is able to find some other means of setting the debt which is satisfactory to both the debtor and creditor. The debt swap can be of various types, the most prominent being the debt-equity swaps, or debt-to-debt swaps. Debt-equity swaps are exchange of bonds or bank loans for ownership right to equity. Such debt-equity swaps have formed part of private corporations restructuring process for some time. The debt swap whether internal or external has an array of macroeconomic effects. It is to be noted that in any debt swap scheme, the debtor must surrender an asset in return for having a liability extinguished. For example, in case of debt-equity swap, debt is exchanged by a claim on capital stock owned by the debtor. In the case of external debt, if the government retires external debt by issuing domestic bonds, in a balanced budget there are no real effects beyond those created by the initial wealth effect: the economy will display a current account surplus, accompanied by an initial appreciation of parallel exchange rate and a high real interest rate. These effects are independent of the discounts received by the government. The practice of debt-equity swap or debt-to-debt swap particularly in the context of external debt has given rise to active controversy. The debate covers wide-ranging issues such as welfare characteristics of such swaps, their potential for reducing net capital flows, and the degree to which swap can reduce the negative incentive effects of debt overhang. Attention has also been paid on the effect of debt swap on the secondary market prices of debt. In the case of external debt, Mexico and Brazil suspended the debt conversion programme, because they can be inflationary as they put excessive pressure on the free market for foreign exchange or because swapping of foreign debt with domestic debt can be expensive. If the debt is swapped through money financing, it leads to an expansion of money supply. If the government can run sustained deficits, the fiscal side provides a key link through which swaps can create macroeconomic disequilibrium. In a deficit situation, if the supply of bond is increased to swap the debt, and if the discounts obtained by the government due to interest rate differential are not large enough to cover the deficit, government will have to issue fresh bonds, which in turn may push up the interest rate. Finally, if the government continues to run a fiscal deficit and to avoid inflationary effects if it relies mostly on debt for bonds swapped and if this in turn leads to an accumulation of domestic debt, which the public expects will eventually be monetized, the domestic rate of inflation will immediately begin to rise. In the case of the debt swap scheme between central and state governments in India, states can restructure their debt by pre-payment of high cost central debt with additional market borrowing at a lower rate of interest. Essentially, this should result in the reduction in the average cost of debt of the State Government. However, that would largely depend on the volume of savings in the interest cost in relation to the outstanding debt stock available for swapping. Despite the savings in interest cost due to debt swap, if a large gap is to be filled by additional borrowing, there is a possibility that swap-induced additional market borrowing may put pressure on the interest rate. Also, in an extreme case, continuous financing of swappable debt through bond financing may fuel inflation if the holder of the bond expects that debt will eventually be monetized. It is evident from this discussion that aggressive debt restructuring proposed to reap the benefit of low interest rate regime at times may itself become the cause of hardening of future interest rates.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which factors complied Latin American countries to keep in abeyance the debt swap programme?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The welfare characteristics of the programme were unfavourable."
+      },
+      {
+        "label": "b",
+        "text": "The conversion with foreign debts was perceived to be expensive."
+      },
+      {
+        "label": "c",
+        "text": "Net capital flow started increasing."
+      },
+      {
+        "label": "d",
+        "text": "Positive incentive effects of debt started decreasing."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 12,
+    "question_code": "RC-T6-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p23",
+    "set_position": 4,
+    "context_passage": "The debt swap scheme is one among the various market-based debt restructuring measures available to provide debt relief without hampering the interest of the creditor. The basic notion of debt swap/conversion is relatively simple. The principle is that instead of continuing to make interest payments on outstanding loans contracted in past at a very high rate, the debtor is able to find some other means of setting the debt which is satisfactory to both the debtor and creditor. The debt swap can be of various types, the most prominent being the debt-equity swaps, or debt-to-debt swaps. Debt-equity swaps are exchange of bonds or bank loans for ownership right to equity. Such debt-equity swaps have formed part of private corporations restructuring process for some time. The debt swap whether internal or external has an array of macroeconomic effects. It is to be noted that in any debt swap scheme, the debtor must surrender an asset in return for having a liability extinguished. For example, in case of debt-equity swap, debt is exchanged by a claim on capital stock owned by the debtor. In the case of external debt, if the government retires external debt by issuing domestic bonds, in a balanced budget there are no real effects beyond those created by the initial wealth effect: the economy will display a current account surplus, accompanied by an initial appreciation of parallel exchange rate and a high real interest rate. These effects are independent of the discounts received by the government. The practice of debt-equity swap or debt-to-debt swap particularly in the context of external debt has given rise to active controversy. The debate covers wide-ranging issues such as welfare characteristics of such swaps, their potential for reducing net capital flows, and the degree to which swap can reduce the negative incentive effects of debt overhang. Attention has also been paid on the effect of debt swap on the secondary market prices of debt. In the case of external debt, Mexico and Brazil suspended the debt conversion programme, because they can be inflationary as they put excessive pressure on the free market for foreign exchange or because swapping of foreign debt with domestic debt can be expensive. If the debt is swapped through money financing, it leads to an expansion of money supply. If the government can run sustained deficits, the fiscal side provides a key link through which swaps can create macroeconomic disequilibrium. In a deficit situation, if the supply of bond is increased to swap the debt, and if the discounts obtained by the government due to interest rate differential are not large enough to cover the deficit, government will have to issue fresh bonds, which in turn may push up the interest rate. Finally, if the government continues to run a fiscal deficit and to avoid inflationary effects if it relies mostly on debt for bonds swapped and if this in turn leads to an accumulation of domestic debt, which the public expects will eventually be monetized, the domestic rate of inflation will immediately begin to rise. In the case of the debt swap scheme between central and state governments in India, states can restructure their debt by pre-payment of high cost central debt with additional market borrowing at a lower rate of interest. Essentially, this should result in the reduction in the average cost of debt of the State Government. However, that would largely depend on the volume of savings in the interest cost in relation to the outstanding debt stock available for swapping. Despite the savings in interest cost due to debt swap, if a large gap is to be filled by additional borrowing, there is a possibility that swap-induced additional market borrowing may put pressure on the interest rate. Also, in an extreme case, continuous financing of swappable debt through bond financing may fuel inflation if the holder of the bond expects that debt will eventually be monetized. It is evident from this discussion that aggressive debt restructuring proposed to reap the benefit of low interest rate regime at times may itself become the cause of hardening of future interest rates.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "What will happen if government decides to issue fresh bonds in a deficit situation?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The microeconomic equilibrium will shift to negative side."
+      },
+      {
+        "label": "b",
+        "text": "The price of initial bonds will decrease."
+      },
+      {
+        "label": "c",
+        "text": "This step will mess up the economy completely."
+      },
+      {
+        "label": "d",
+        "text": "The interest rates will start increasing."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 13,
+    "question_code": "RC-T6-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p23",
+    "set_position": 5,
+    "context_passage": "The debt swap scheme is one among the various market-based debt restructuring measures available to provide debt relief without hampering the interest of the creditor. The basic notion of debt swap/conversion is relatively simple. The principle is that instead of continuing to make interest payments on outstanding loans contracted in past at a very high rate, the debtor is able to find some other means of setting the debt which is satisfactory to both the debtor and creditor. The debt swap can be of various types, the most prominent being the debt-equity swaps, or debt-to-debt swaps. Debt-equity swaps are exchange of bonds or bank loans for ownership right to equity. Such debt-equity swaps have formed part of private corporations restructuring process for some time. The debt swap whether internal or external has an array of macroeconomic effects. It is to be noted that in any debt swap scheme, the debtor must surrender an asset in return for having a liability extinguished. For example, in case of debt-equity swap, debt is exchanged by a claim on capital stock owned by the debtor. In the case of external debt, if the government retires external debt by issuing domestic bonds, in a balanced budget there are no real effects beyond those created by the initial wealth effect: the economy will display a current account surplus, accompanied by an initial appreciation of parallel exchange rate and a high real interest rate. These effects are independent of the discounts received by the government. The practice of debt-equity swap or debt-to-debt swap particularly in the context of external debt has given rise to active controversy. The debate covers wide-ranging issues such as welfare characteristics of such swaps, their potential for reducing net capital flows, and the degree to which swap can reduce the negative incentive effects of debt overhang. Attention has also been paid on the effect of debt swap on the secondary market prices of debt. In the case of external debt, Mexico and Brazil suspended the debt conversion programme, because they can be inflationary as they put excessive pressure on the free market for foreign exchange or because swapping of foreign debt with domestic debt can be expensive. If the debt is swapped through money financing, it leads to an expansion of money supply. If the government can run sustained deficits, the fiscal side provides a key link through which swaps can create macroeconomic disequilibrium. In a deficit situation, if the supply of bond is increased to swap the debt, and if the discounts obtained by the government due to interest rate differential are not large enough to cover the deficit, government will have to issue fresh bonds, which in turn may push up the interest rate. Finally, if the government continues to run a fiscal deficit and to avoid inflationary effects if it relies mostly on debt for bonds swapped and if this in turn leads to an accumulation of domestic debt, which the public expects will eventually be monetized, the domestic rate of inflation will immediately begin to rise. In the case of the debt swap scheme between central and state governments in India, states can restructure their debt by pre-payment of high cost central debt with additional market borrowing at a lower rate of interest. Essentially, this should result in the reduction in the average cost of debt of the State Government. However, that would largely depend on the volume of savings in the interest cost in relation to the outstanding debt stock available for swapping. Despite the savings in interest cost due to debt swap, if a large gap is to be filled by additional borrowing, there is a possibility that swap-induced additional market borrowing may put pressure on the interest rate. Also, in an extreme case, continuous financing of swappable debt through bond financing may fuel inflation if the holder of the bond expects that debt will eventually be monetized. It is evident from this discussion that aggressive debt restructuring proposed to reap the benefit of low interest rate regime at times may itself become the cause of hardening of future interest rates.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which factors may raise the inflation rate on domestic side? A. If accumulated internal debts start getting monetized. B. If interest rates start reducing for public borrowings. C. If debt swap is done through his sue of bonds in a deficit situation.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "Only B"
+      },
+      {
+        "label": "c",
+        "text": "Only A and B"
+      },
+      {
+        "label": "d",
+        "text": "Either A and C"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 14,
+    "question_code": "RC-T6-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p24",
+    "set_position": 1,
+    "context_passage": "For more than three years, Anna Feng did not tell her husband that she had sunk nearly half of their savings into the Shanghai stock market. While he thought all their money was safely sitting in a bank, the value of the stocks plunged by almost 75%. But over the past couple of months, the Shanghai market has shown signs of life, and Feng, a 56-year old retiree, has recouped half her losses. She is quietly hopeful that may be she will make it all back. ‘Everyone seems to be so optimistic about the markets now,’ she says. Around the world, stocks have been on a tear. In Asia, for example, the Tokyo TOPIX stock index hit a 14-year high last week as a bull run in once-dormant Japan gathered momentum; Mumbai’s main equity index hit an all-time high in trading early Friday amid India’s continuing economic boom; and Hong Kong shares reached a five year high while indices in Singapore, Jakarta and Sydney set new records. And though stock in Asia, in particular, are on fire, they are not alone. From Germany to Venezuela to South Africa, equity markets in both mature and emerging markets have moved up sharply this year and show little sign of slowing. The underpinning of stocks strong performance, global bulls say, is straightforward. Economic growth continues to be strong in places where it has been buoyant for several years (the U.S., China and India) and is finally picking up in places where it had been notably absent Japan and parts of ‘old’ Europe. Moreover, earning and corporate balance sheets around the world as healthy as they have been in years. In Japan, corporate profits have climbed for four straight years and consumer spending is rising briskly on the back of declining unemployment. Economists say that Japan is now in a golden cycle. So, for now, is much of the world. ‘It comes down to very simple macroeconomics.’ Says Subir Gokam, an economist at CRISIL, India’s largest credit rating firm, ‘the global economy is growing without much inflationary pressure.’ Is anything wrong with this picture? One very big thing. Warn the skeptics. Interest rates are rising nearly everywhere, and if there is one simple adage that many investment advisers live by, it’s this ‘when rates are high, stocks will die.’ Indeed, one of the most impressive-or scariest-aspects of the current global bull run is that it has come in the teeth of central-bank tightening. Most importantly by the U.S. Federal Reserve, which could slow growth in the world’s key economic locomotives. The Fed has increased key short-term interest rate the so-called Fed funds rate 15 times dating back to June 2004, and is widely expected to raise it once or twice more over the next few months. A brief recession and the Sept. 11 terrorist attacks in 2001 spurred a prolonged period of very low interest rates. That boosted U.S. consumption-in particular the rate-sensitive housing market-and kept the global economy humming. But long-term rates are now beginning to tick upward: last week the U.S 30-year treasury bond reached 5.04% – it’s highest level since late 2004, and the housing market is cooling off-potentially triggering an economic slowdown as home-owners cut their spending.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the passage, what makes people hopeful about the markets?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The descent in the value of stocks."
+      },
+      {
+        "label": "b",
+        "text": "The trend of substantial increase in value of stocks."
+      },
+      {
+        "label": "c",
+        "text": "Safety provided by banks to their deposits."
+      },
+      {
+        "label": "d",
+        "text": "Optimism of the stock market players."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 15,
+    "question_code": "RC-T6-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p24",
+    "set_position": 2,
+    "context_passage": "For more than three years, Anna Feng did not tell her husband that she had sunk nearly half of their savings into the Shanghai stock market. While he thought all their money was safely sitting in a bank, the value of the stocks plunged by almost 75%. But over the past couple of months, the Shanghai market has shown signs of life, and Feng, a 56-year old retiree, has recouped half her losses. She is quietly hopeful that may be she will make it all back. ‘Everyone seems to be so optimistic about the markets now,’ she says. Around the world, stocks have been on a tear. In Asia, for example, the Tokyo TOPIX stock index hit a 14-year high last week as a bull run in once-dormant Japan gathered momentum; Mumbai’s main equity index hit an all-time high in trading early Friday amid India’s continuing economic boom; and Hong Kong shares reached a five year high while indices in Singapore, Jakarta and Sydney set new records. And though stock in Asia, in particular, are on fire, they are not alone. From Germany to Venezuela to South Africa, equity markets in both mature and emerging markets have moved up sharply this year and show little sign of slowing. The underpinning of stocks strong performance, global bulls say, is straightforward. Economic growth continues to be strong in places where it has been buoyant for several years (the U.S., China and India) and is finally picking up in places where it had been notably absent Japan and parts of ‘old’ Europe. Moreover, earning and corporate balance sheets around the world as healthy as they have been in years. In Japan, corporate profits have climbed for four straight years and consumer spending is rising briskly on the back of declining unemployment. Economists say that Japan is now in a golden cycle. So, for now, is much of the world. ‘It comes down to very simple macroeconomics.’ Says Subir Gokam, an economist at CRISIL, India’s largest credit rating firm, ‘the global economy is growing without much inflationary pressure.’ Is anything wrong with this picture? One very big thing. Warn the skeptics. Interest rates are rising nearly everywhere, and if there is one simple adage that many investment advisers live by, it’s this ‘when rates are high, stocks will die.’ Indeed, one of the most impressive-or scariest-aspects of the current global bull run is that it has come in the teeth of central-bank tightening. Most importantly by the U.S. Federal Reserve, which could slow growth in the world’s key economic locomotives. The Fed has increased key short-term interest rate the so-called Fed funds rate 15 times dating back to June 2004, and is widely expected to raise it once or twice more over the next few months. A brief recession and the Sept. 11 terrorist attacks in 2001 spurred a prolonged period of very low interest rates. That boosted U.S. consumption-in particular the rate-sensitive housing market-and kept the global economy humming. But long-term rates are now beginning to tick upward: last week the U.S 30-year treasury bond reached 5.04% – it’s highest level since late 2004, and the housing market is cooling off-potentially triggering an economic slowdown as home-owners cut their spending.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is TRUE about the comparison between market indices of Mumbai and Hong Kong on the one hand and Singapore, Jakarta and Sydney on the other?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The indices in the former case are increasing while those in the latter are decreasing."
+      },
+      {
+        "label": "b",
+        "text": "There is no remarkable trend visible between the two sets of indices."
+      },
+      {
+        "label": "c",
+        "text": "Indices in both the groups of exercises are stable over a period of last five years."
+      },
+      {
+        "label": "d",
+        "text": "The markets in both the groups of countries have shown upward trend."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 16,
+    "question_code": "RC-T6-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p24",
+    "set_position": 3,
+    "context_passage": "For more than three years, Anna Feng did not tell her husband that she had sunk nearly half of their savings into the Shanghai stock market. While he thought all their money was safely sitting in a bank, the value of the stocks plunged by almost 75%. But over the past couple of months, the Shanghai market has shown signs of life, and Feng, a 56-year old retiree, has recouped half her losses. She is quietly hopeful that may be she will make it all back. ‘Everyone seems to be so optimistic about the markets now,’ she says. Around the world, stocks have been on a tear. In Asia, for example, the Tokyo TOPIX stock index hit a 14-year high last week as a bull run in once-dormant Japan gathered momentum; Mumbai’s main equity index hit an all-time high in trading early Friday amid India’s continuing economic boom; and Hong Kong shares reached a five year high while indices in Singapore, Jakarta and Sydney set new records. And though stock in Asia, in particular, are on fire, they are not alone. From Germany to Venezuela to South Africa, equity markets in both mature and emerging markets have moved up sharply this year and show little sign of slowing. The underpinning of stocks strong performance, global bulls say, is straightforward. Economic growth continues to be strong in places where it has been buoyant for several years (the U.S., China and India) and is finally picking up in places where it had been notably absent Japan and parts of ‘old’ Europe. Moreover, earning and corporate balance sheets around the world as healthy as they have been in years. In Japan, corporate profits have climbed for four straight years and consumer spending is rising briskly on the back of declining unemployment. Economists say that Japan is now in a golden cycle. So, for now, is much of the world. ‘It comes down to very simple macroeconomics.’ Says Subir Gokam, an economist at CRISIL, India’s largest credit rating firm, ‘the global economy is growing without much inflationary pressure.’ Is anything wrong with this picture? One very big thing. Warn the skeptics. Interest rates are rising nearly everywhere, and if there is one simple adage that many investment advisers live by, it’s this ‘when rates are high, stocks will die.’ Indeed, one of the most impressive-or scariest-aspects of the current global bull run is that it has come in the teeth of central-bank tightening. Most importantly by the U.S. Federal Reserve, which could slow growth in the world’s key economic locomotives. The Fed has increased key short-term interest rate the so-called Fed funds rate 15 times dating back to June 2004, and is widely expected to raise it once or twice more over the next few months. A brief recession and the Sept. 11 terrorist attacks in 2001 spurred a prolonged period of very low interest rates. That boosted U.S. consumption-in particular the rate-sensitive housing market-and kept the global economy humming. But long-term rates are now beginning to tick upward: last week the U.S 30-year treasury bond reached 5.04% – it’s highest level since late 2004, and the housing market is cooling off-potentially triggering an economic slowdown as home-owners cut their spending.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "In what way did the terrorist attack in the US influence the markets?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It led to a brief recession."
+      },
+      {
+        "label": "b",
+        "text": "It increased long-term need for housing."
+      },
+      {
+        "label": "c",
+        "text": "It helped increase the interest rates on housing."
+      },
+      {
+        "label": "d",
+        "text": "It prolonged the low interest rate regime."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 6,
+    "question_number": 17,
+    "question_code": "RC-T6-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t6-p24",
+    "set_position": 4,
+    "context_passage": "For more than three years, Anna Feng did not tell her husband that she had sunk nearly half of their savings into the Shanghai stock market. While he thought all their money was safely sitting in a bank, the value of the stocks plunged by almost 75%. But over the past couple of months, the Shanghai market has shown signs of life, and Feng, a 56-year old retiree, has recouped half her losses. She is quietly hopeful that may be she will make it all back. ‘Everyone seems to be so optimistic about the markets now,’ she says. Around the world, stocks have been on a tear. In Asia, for example, the Tokyo TOPIX stock index hit a 14-year high last week as a bull run in once-dormant Japan gathered momentum; Mumbai’s main equity index hit an all-time high in trading early Friday amid India’s continuing economic boom; and Hong Kong shares reached a five year high while indices in Singapore, Jakarta and Sydney set new records. And though stock in Asia, in particular, are on fire, they are not alone. From Germany to Venezuela to South Africa, equity markets in both mature and emerging markets have moved up sharply this year and show little sign of slowing. The underpinning of stocks strong performance, global bulls say, is straightforward. Economic growth continues to be strong in places where it has been buoyant for several years (the U.S., China and India) and is finally picking up in places where it had been notably absent Japan and parts of ‘old’ Europe. Moreover, earning and corporate balance sheets around the world as healthy as they have been in years. In Japan, corporate profits have climbed for four straight years and consumer spending is rising briskly on the back of declining unemployment. Economists say that Japan is now in a golden cycle. So, for now, is much of the world. ‘It comes down to very simple macroeconomics.’ Says Subir Gokam, an economist at CRISIL, India’s largest credit rating firm, ‘the global economy is growing without much inflationary pressure.’ Is anything wrong with this picture? One very big thing. Warn the skeptics. Interest rates are rising nearly everywhere, and if there is one simple adage that many investment advisers live by, it’s this ‘when rates are high, stocks will die.’ Indeed, one of the most impressive-or scariest-aspects of the current global bull run is that it has come in the teeth of central-bank tightening. Most importantly by the U.S. Federal Reserve, which could slow growth in the world’s key economic locomotives. The Fed has increased key short-term interest rate the so-called Fed funds rate 15 times dating back to June 2004, and is widely expected to raise it once or twice more over the next few months. A brief recession and the Sept. 11 terrorist attacks in 2001 spurred a prolonged period of very low interest rates. That boosted U.S. consumption-in particular the rate-sensitive housing market-and kept the global economy humming. But long-term rates are now beginning to tick upward: last week the U.S 30-year treasury bond reached 5.04% – it’s highest level since late 2004, and the housing market is cooling off-potentially triggering an economic slowdown as home-owners cut their spending.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is/are the reason(s) for the statement that ‘Japan is now in golden cycle’? A. It is an economic growth without much inflationary pressure. B. Japan witnessed a substantial increase in corporate profits for the last four years. C. There are more employment avenues open and consumer’s spending has increased significantly.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "All the three A, B and C"
+      },
+      {
+        "label": "b",
+        "text": "A and B only"
+      },
+      {
+        "label": "c",
+        "text": "Either B and C only"
+      },
+      {
+        "label": "d",
+        "text": "A and C only"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

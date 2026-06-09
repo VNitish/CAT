@@ -1,0 +1,682 @@
+[
+  {
+    "test": 10,
+    "question_number": 1,
+    "question_code": "RC-T10-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p37",
+    "set_position": 1,
+    "context_passage": "Thinking of what education might looked like in the next decade, one quickly realizes that the trends in technology are leaving a large number of our students behind. Today is an age of exponential change. New and ever improving technologies are popping up every day and in every corner of society. Educating the best and the brightest in this brave new world will take a new and improved educational paradigm. Allowing our educational tools to age in the corner of the classroom will be the mistake that may cost us our future. Throwing away masses of children to inequitable access will ensure that we languish at the bottom of the global pool of employable workers for decades to come. Technology will shape the way we educate students in the next decade. A user is not simply a person who uses. For the student, being a user should involve using the latest technology in a free and autonomous manner. This new-found freedom will allow the student to become an active participant in his/her education instead of a passive passenger. In our current technological society, being a user also means being tracked. Tracking a student means having the ability to target education towards weaknesses and strengths. The ability to accurately customize curricula to the individual has been the holy grail of educational philosophy for many years. This golden age of technological development may soon enable this dream to become a reality. Current educational curricula and individual assessment is arbitrary at best. Accurately assessing a student can only be achieved by using modern tracking and database technologies. Imagine a world where every child has a tablet computer with ready access to the internet. Further, imagine that every student can access all the knowledge of humankind freely at any moment in time. Continue to imagine world where a misspelled word brings up a spelling challenge application instead of an autocorrection. Try to contemplate what it would mean for a teacher to have a database of every misspelled word, every misunderstood concept or every missed, equation for each of their students. Try to envision a teacher with the ability to customize the experience of the individual ‘user’ with minimal effort. Imagine the curriculum being automatically targeted to the user through an intuitive educational platform that knows all strengths and each unique weakness. In the last few hundred years, most individuals would consider an education as something you receive. You often hear the question asked, ‘Where did you receive your education?’ as we proceed through the next decade, education will slowly move away from reception and toward being custom designed for the individual user. New technology will not only allow us to receive an education, but also develop an education. The question we might ask in ten years, ‘How did you develop your education?’ the question of where will still be important, but the how of the matter will be the focus that defines the individual. To make this a reality we will need a standardized platform from which to develop a student’s unique education. This standardized platform will allows to tailor a custom curriculum that will be matched to talents, interests and life goals. For the educator, a standardized platform will create a way to assist the student in discovering a true purpose in life through a unique educational experience. The basics of reading, writing and arithmetic will not be taught as much as they will be discovered and used. Learning will become a reciprocal experience between the teachers the student and the machine. Under a standardized platform, each of these three participants will have a role to play. The teacher will be the facilitator assisting the development of the curriculum and inspiring the direction the student takes. The student will be the user, gathering resources, skills and knowledge in an efficient and measured sequence. The machine will do the work of data gathering and analysis, which will assist the teacher and student in refining the curriculum. This data gathering work of the machine will also free the teacher from the burden of record-keeping and tedious tasks that currently distract from the real job of teaching and learning. Under a standardized system, grade level will be far less important. Achievement and progression will be measured by accomplishment and intelligence as a benchmark for success. The question of failure or success will be irrelevant and replaced with a standard and consistent measurement of potential and overall intelligence. Information will no longer be missed but continually rehearsed and monitored for retention by the machine. Tasks such as data tracking reporting and record keeping are currently accomplished manually. These tasks could easily be delegated to an intuitive database. Developing a standard to follow would eliminate these tasks and free the teacher to do their main job of teaching students. The next decade may mark the moment in history when all are granted equal access to technology. Access to quality education will only be gained through investment and universal standardization of this technology. If we continue to divert wealth towards fruitless goals and corporate greed, this opportunity will be lost or hopelessly delayed.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the author, which of the following will be the benefit(s) of introducing a standardized technological platform? A. Potential of a child will take precedence over the grad he/she scores. B. Improving the educational syllabus would become easier. C. Teachers would be able to devote more time to teaching.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only C"
+      },
+      {
+        "label": "b",
+        "text": "All A, B and C"
+      },
+      {
+        "label": "c",
+        "text": "Only B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only A and B"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 2,
+    "question_code": "RC-T10-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p37",
+    "set_position": 2,
+    "context_passage": "Thinking of what education might looked like in the next decade, one quickly realizes that the trends in technology are leaving a large number of our students behind. Today is an age of exponential change. New and ever improving technologies are popping up every day and in every corner of society. Educating the best and the brightest in this brave new world will take a new and improved educational paradigm. Allowing our educational tools to age in the corner of the classroom will be the mistake that may cost us our future. Throwing away masses of children to inequitable access will ensure that we languish at the bottom of the global pool of employable workers for decades to come. Technology will shape the way we educate students in the next decade. A user is not simply a person who uses. For the student, being a user should involve using the latest technology in a free and autonomous manner. This new-found freedom will allow the student to become an active participant in his/her education instead of a passive passenger. In our current technological society, being a user also means being tracked. Tracking a student means having the ability to target education towards weaknesses and strengths. The ability to accurately customize curricula to the individual has been the holy grail of educational philosophy for many years. This golden age of technological development may soon enable this dream to become a reality. Current educational curricula and individual assessment is arbitrary at best. Accurately assessing a student can only be achieved by using modern tracking and database technologies. Imagine a world where every child has a tablet computer with ready access to the internet. Further, imagine that every student can access all the knowledge of humankind freely at any moment in time. Continue to imagine world where a misspelled word brings up a spelling challenge application instead of an autocorrection. Try to contemplate what it would mean for a teacher to have a database of every misspelled word, every misunderstood concept or every missed, equation for each of their students. Try to envision a teacher with the ability to customize the experience of the individual ‘user’ with minimal effort. Imagine the curriculum being automatically targeted to the user through an intuitive educational platform that knows all strengths and each unique weakness. In the last few hundred years, most individuals would consider an education as something you receive. You often hear the question asked, ‘Where did you receive your education?’ as we proceed through the next decade, education will slowly move away from reception and toward being custom designed for the individual user. New technology will not only allow us to receive an education, but also develop an education. The question we might ask in ten years, ‘How did you develop your education?’ the question of where will still be important, but the how of the matter will be the focus that defines the individual. To make this a reality we will need a standardized platform from which to develop a student’s unique education. This standardized platform will allows to tailor a custom curriculum that will be matched to talents, interests and life goals. For the educator, a standardized platform will create a way to assist the student in discovering a true purpose in life through a unique educational experience. The basics of reading, writing and arithmetic will not be taught as much as they will be discovered and used. Learning will become a reciprocal experience between the teachers the student and the machine. Under a standardized platform, each of these three participants will have a role to play. The teacher will be the facilitator assisting the development of the curriculum and inspiring the direction the student takes. The student will be the user, gathering resources, skills and knowledge in an efficient and measured sequence. The machine will do the work of data gathering and analysis, which will assist the teacher and student in refining the curriculum. This data gathering work of the machine will also free the teacher from the burden of record-keeping and tedious tasks that currently distract from the real job of teaching and learning. Under a standardized system, grade level will be far less important. Achievement and progression will be measured by accomplishment and intelligence as a benchmark for success. The question of failure or success will be irrelevant and replaced with a standard and consistent measurement of potential and overall intelligence. Information will no longer be missed but continually rehearsed and monitored for retention by the machine. Tasks such as data tracking reporting and record keeping are currently accomplished manually. These tasks could easily be delegated to an intuitive database. Developing a standard to follow would eliminate these tasks and free the teacher to do their main job of teaching students. The next decade may mark the moment in history when all are granted equal access to technology. Access to quality education will only be gained through investment and universal standardization of this technology. If we continue to divert wealth towards fruitless goals and corporate greed, this opportunity will be lost or hopelessly delayed.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is/are true in the context of the passage? A. In the presence of technology each student would require constant monitoring by other individuals to maximize learning. B. Educational philosophy is based on the belief of tailoring educational syllabus to individual student capability. C. The author visualizes that each student will have access to technology in the future.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A and B"
+      },
+      {
+        "label": "b",
+        "text": "Only B"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "Only B and C"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 3,
+    "question_code": "RC-T10-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p37",
+    "set_position": 3,
+    "context_passage": "Thinking of what education might looked like in the next decade, one quickly realizes that the trends in technology are leaving a large number of our students behind. Today is an age of exponential change. New and ever improving technologies are popping up every day and in every corner of society. Educating the best and the brightest in this brave new world will take a new and improved educational paradigm. Allowing our educational tools to age in the corner of the classroom will be the mistake that may cost us our future. Throwing away masses of children to inequitable access will ensure that we languish at the bottom of the global pool of employable workers for decades to come. Technology will shape the way we educate students in the next decade. A user is not simply a person who uses. For the student, being a user should involve using the latest technology in a free and autonomous manner. This new-found freedom will allow the student to become an active participant in his/her education instead of a passive passenger. In our current technological society, being a user also means being tracked. Tracking a student means having the ability to target education towards weaknesses and strengths. The ability to accurately customize curricula to the individual has been the holy grail of educational philosophy for many years. This golden age of technological development may soon enable this dream to become a reality. Current educational curricula and individual assessment is arbitrary at best. Accurately assessing a student can only be achieved by using modern tracking and database technologies. Imagine a world where every child has a tablet computer with ready access to the internet. Further, imagine that every student can access all the knowledge of humankind freely at any moment in time. Continue to imagine world where a misspelled word brings up a spelling challenge application instead of an autocorrection. Try to contemplate what it would mean for a teacher to have a database of every misspelled word, every misunderstood concept or every missed, equation for each of their students. Try to envision a teacher with the ability to customize the experience of the individual ‘user’ with minimal effort. Imagine the curriculum being automatically targeted to the user through an intuitive educational platform that knows all strengths and each unique weakness. In the last few hundred years, most individuals would consider an education as something you receive. You often hear the question asked, ‘Where did you receive your education?’ as we proceed through the next decade, education will slowly move away from reception and toward being custom designed for the individual user. New technology will not only allow us to receive an education, but also develop an education. The question we might ask in ten years, ‘How did you develop your education?’ the question of where will still be important, but the how of the matter will be the focus that defines the individual. To make this a reality we will need a standardized platform from which to develop a student’s unique education. This standardized platform will allows to tailor a custom curriculum that will be matched to talents, interests and life goals. For the educator, a standardized platform will create a way to assist the student in discovering a true purpose in life through a unique educational experience. The basics of reading, writing and arithmetic will not be taught as much as they will be discovered and used. Learning will become a reciprocal experience between the teachers the student and the machine. Under a standardized platform, each of these three participants will have a role to play. The teacher will be the facilitator assisting the development of the curriculum and inspiring the direction the student takes. The student will be the user, gathering resources, skills and knowledge in an efficient and measured sequence. The machine will do the work of data gathering and analysis, which will assist the teacher and student in refining the curriculum. This data gathering work of the machine will also free the teacher from the burden of record-keeping and tedious tasks that currently distract from the real job of teaching and learning. Under a standardized system, grade level will be far less important. Achievement and progression will be measured by accomplishment and intelligence as a benchmark for success. The question of failure or success will be irrelevant and replaced with a standard and consistent measurement of potential and overall intelligence. Information will no longer be missed but continually rehearsed and monitored for retention by the machine. Tasks such as data tracking reporting and record keeping are currently accomplished manually. These tasks could easily be delegated to an intuitive database. Developing a standard to follow would eliminate these tasks and free the teacher to do their main job of teaching students. The next decade may mark the moment in history when all are granted equal access to technology. Access to quality education will only be gained through investment and universal standardization of this technology. If we continue to divert wealth towards fruitless goals and corporate greed, this opportunity will be lost or hopelessly delayed.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "What does the author mean by the term ‘tracking a student’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Analyzing the strengths and weaknesses of a student and designing an educational syllabus accordingly."
+      },
+      {
+        "label": "b",
+        "text": "Assessing whether a student is paying due attention to the existing curriculum offered by an institute of learning’s."
+      },
+      {
+        "label": "c",
+        "text": "Analyzing the positives and negatives of an educational institute of modifying it suitably to cater to industrial requirements."
+      },
+      {
+        "label": "d",
+        "text": "Following a student to the educational institute that he visits frequently in order to estimate the time he spends there."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 4,
+    "question_code": "RC-T10-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p37",
+    "set_position": 4,
+    "context_passage": "Thinking of what education might looked like in the next decade, one quickly realizes that the trends in technology are leaving a large number of our students behind. Today is an age of exponential change. New and ever improving technologies are popping up every day and in every corner of society. Educating the best and the brightest in this brave new world will take a new and improved educational paradigm. Allowing our educational tools to age in the corner of the classroom will be the mistake that may cost us our future. Throwing away masses of children to inequitable access will ensure that we languish at the bottom of the global pool of employable workers for decades to come. Technology will shape the way we educate students in the next decade. A user is not simply a person who uses. For the student, being a user should involve using the latest technology in a free and autonomous manner. This new-found freedom will allow the student to become an active participant in his/her education instead of a passive passenger. In our current technological society, being a user also means being tracked. Tracking a student means having the ability to target education towards weaknesses and strengths. The ability to accurately customize curricula to the individual has been the holy grail of educational philosophy for many years. This golden age of technological development may soon enable this dream to become a reality. Current educational curricula and individual assessment is arbitrary at best. Accurately assessing a student can only be achieved by using modern tracking and database technologies. Imagine a world where every child has a tablet computer with ready access to the internet. Further, imagine that every student can access all the knowledge of humankind freely at any moment in time. Continue to imagine world where a misspelled word brings up a spelling challenge application instead of an autocorrection. Try to contemplate what it would mean for a teacher to have a database of every misspelled word, every misunderstood concept or every missed, equation for each of their students. Try to envision a teacher with the ability to customize the experience of the individual ‘user’ with minimal effort. Imagine the curriculum being automatically targeted to the user through an intuitive educational platform that knows all strengths and each unique weakness. In the last few hundred years, most individuals would consider an education as something you receive. You often hear the question asked, ‘Where did you receive your education?’ as we proceed through the next decade, education will slowly move away from reception and toward being custom designed for the individual user. New technology will not only allow us to receive an education, but also develop an education. The question we might ask in ten years, ‘How did you develop your education?’ the question of where will still be important, but the how of the matter will be the focus that defines the individual. To make this a reality we will need a standardized platform from which to develop a student’s unique education. This standardized platform will allows to tailor a custom curriculum that will be matched to talents, interests and life goals. For the educator, a standardized platform will create a way to assist the student in discovering a true purpose in life through a unique educational experience. The basics of reading, writing and arithmetic will not be taught as much as they will be discovered and used. Learning will become a reciprocal experience between the teachers the student and the machine. Under a standardized platform, each of these three participants will have a role to play. The teacher will be the facilitator assisting the development of the curriculum and inspiring the direction the student takes. The student will be the user, gathering resources, skills and knowledge in an efficient and measured sequence. The machine will do the work of data gathering and analysis, which will assist the teacher and student in refining the curriculum. This data gathering work of the machine will also free the teacher from the burden of record-keeping and tedious tasks that currently distract from the real job of teaching and learning. Under a standardized system, grade level will be far less important. Achievement and progression will be measured by accomplishment and intelligence as a benchmark for success. The question of failure or success will be irrelevant and replaced with a standard and consistent measurement of potential and overall intelligence. Information will no longer be missed but continually rehearsed and monitored for retention by the machine. Tasks such as data tracking reporting and record keeping are currently accomplished manually. These tasks could easily be delegated to an intuitive database. Developing a standard to follow would eliminate these tasks and free the teacher to do their main job of teaching students. The next decade may mark the moment in history when all are granted equal access to technology. Access to quality education will only be gained through investment and universal standardization of this technology. If we continue to divert wealth towards fruitless goals and corporate greed, this opportunity will be lost or hopelessly delayed.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the author, why is the current education provided not satisfactory?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The teachers providing education are not qualified enough to emphasize on quality."
+      },
+      {
+        "label": "b",
+        "text": "Quality of education provided is not uniform across the globe and individual assessment is subjective."
+      },
+      {
+        "label": "c",
+        "text": "The education sector is fraught with corrupt practices and thus does not produce the desired."
+      },
+      {
+        "label": "d",
+        "text": "The education system is not guided by technology and hence, the pace of learning is slow."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 5,
+    "question_code": "RC-T10-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p37",
+    "set_position": 5,
+    "context_passage": "Thinking of what education might looked like in the next decade, one quickly realizes that the trends in technology are leaving a large number of our students behind. Today is an age of exponential change. New and ever improving technologies are popping up every day and in every corner of society. Educating the best and the brightest in this brave new world will take a new and improved educational paradigm. Allowing our educational tools to age in the corner of the classroom will be the mistake that may cost us our future. Throwing away masses of children to inequitable access will ensure that we languish at the bottom of the global pool of employable workers for decades to come. Technology will shape the way we educate students in the next decade. A user is not simply a person who uses. For the student, being a user should involve using the latest technology in a free and autonomous manner. This new-found freedom will allow the student to become an active participant in his/her education instead of a passive passenger. In our current technological society, being a user also means being tracked. Tracking a student means having the ability to target education towards weaknesses and strengths. The ability to accurately customize curricula to the individual has been the holy grail of educational philosophy for many years. This golden age of technological development may soon enable this dream to become a reality. Current educational curricula and individual assessment is arbitrary at best. Accurately assessing a student can only be achieved by using modern tracking and database technologies. Imagine a world where every child has a tablet computer with ready access to the internet. Further, imagine that every student can access all the knowledge of humankind freely at any moment in time. Continue to imagine world where a misspelled word brings up a spelling challenge application instead of an autocorrection. Try to contemplate what it would mean for a teacher to have a database of every misspelled word, every misunderstood concept or every missed, equation for each of their students. Try to envision a teacher with the ability to customize the experience of the individual ‘user’ with minimal effort. Imagine the curriculum being automatically targeted to the user through an intuitive educational platform that knows all strengths and each unique weakness. In the last few hundred years, most individuals would consider an education as something you receive. You often hear the question asked, ‘Where did you receive your education?’ as we proceed through the next decade, education will slowly move away from reception and toward being custom designed for the individual user. New technology will not only allow us to receive an education, but also develop an education. The question we might ask in ten years, ‘How did you develop your education?’ the question of where will still be important, but the how of the matter will be the focus that defines the individual. To make this a reality we will need a standardized platform from which to develop a student’s unique education. This standardized platform will allows to tailor a custom curriculum that will be matched to talents, interests and life goals. For the educator, a standardized platform will create a way to assist the student in discovering a true purpose in life through a unique educational experience. The basics of reading, writing and arithmetic will not be taught as much as they will be discovered and used. Learning will become a reciprocal experience between the teachers the student and the machine. Under a standardized platform, each of these three participants will have a role to play. The teacher will be the facilitator assisting the development of the curriculum and inspiring the direction the student takes. The student will be the user, gathering resources, skills and knowledge in an efficient and measured sequence. The machine will do the work of data gathering and analysis, which will assist the teacher and student in refining the curriculum. This data gathering work of the machine will also free the teacher from the burden of record-keeping and tedious tasks that currently distract from the real job of teaching and learning. Under a standardized system, grade level will be far less important. Achievement and progression will be measured by accomplishment and intelligence as a benchmark for success. The question of failure or success will be irrelevant and replaced with a standard and consistent measurement of potential and overall intelligence. Information will no longer be missed but continually rehearsed and monitored for retention by the machine. Tasks such as data tracking reporting and record keeping are currently accomplished manually. These tasks could easily be delegated to an intuitive database. Developing a standard to follow would eliminate these tasks and free the teacher to do their main job of teaching students. The next decade may mark the moment in history when all are granted equal access to technology. Access to quality education will only be gained through investment and universal standardization of this technology. If we continue to divert wealth towards fruitless goals and corporate greed, this opportunity will be lost or hopelessly delayed.",
+    "directions": "Direction for questions 1 to 5: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the author’s vision regarding the integration of technology with education? A. A substantial database consisting of each student’s learning curve would be readily available. B. An error would activate software which would encourage learning rather than autocorrecting. C. Experimentation in academics would be encouraged.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only C"
+      },
+      {
+        "label": "b",
+        "text": "Only A and B"
+      },
+      {
+        "label": "c",
+        "text": "All A, B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only A and C"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 6,
+    "question_code": "RC-T10-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p38",
+    "set_position": 1,
+    "context_passage": "A few weeks ago, a newspaper article quoted a well-known scientist saying, ‘IT has destroyed Indian science’. One can speculate about the various ways in which the growth of the IT sector and other similar knowledge industries such as biotechnology has led to a decline in basic scientific research in India. The most obvious reason is money; pay scales in IT and BT are much higher than one can aspire to in academia. The argument goes; why should a bright B.Tech. or M.Sc. Student enroll in a Ph.D. programme when she can make a lot more money writing code? Not only does a fresh IT employee make a lot more than a fresh M. Tech. student, his/her pay will rise much faster in IT than in academia. A professor/s pay at a government-run university, even after the Sixth Pay Commission, tops out at far less than a senior executive’s salary in a major industry. Second, the social status of IT and BT jobs equal or even exceed the social status of corresponding academic positions, since they are seen as knowledge industries, which plays to the best and worst instincts of the societal order. As quintessential white collar professions, neither do they compel a successful entrepreneur to resort to violence and corruption, nor do they demand any physical labour. Unlike real estate or road construction, it is felt that IT workers can become rich while staying honest and sweat-free. Assuming that the labour pool for academia and IT is roughly the same, the difference in our collective preferences biases the labour market towards IT and away from academia. Further, when the imbalance between IT and academia continues for years and even decades, a destructive loop, from academia’s point of view, is created. When our best and brightest take IT jobs over academic ones for a decade or more, faculty positions in our universities and research centers are no longer filled by the best candidates. As faculty quality goes down, so does the capacity to train top-class graduate students who, after all, are teachers in training. In response to decreasing faculty quality, even those students who otherwise choose an academic profession, decide to join industry or go abroad for their studies. These foreign trained graduates prefer to come back to corporate India if at all they do come back – and the downward cycle replicates itself in each generation. In other words, academia is trapped within a perfect storm created by a combination of social and economic factors. In this social-economic calculus, the members of our societal classes should prefer an IT job to an academic one. Or, to put it another way, the knowledge economy, i.e., the creation of knowledge for profit, trumps the knowledge society, i.e., the creation of knowledge for its own sake or the sake of the greater good. As is said. ‘Knowledge is power, but money is even more power.’ Perhaps the scientist was alluding to this victory of capitalism over the pursuit of pure knowledge when he accused IT of having a negative influence on Indian science. Surely, knowledge has become a commodity like any other and as a result, knowledge workers are like any other labourers, who will sell their wares to the highest bidder. One solution is to accept and even encourage the commoditization of knowledge; if so, Indian universities and research centers should copy their western counterparts by becoming more and more like corporations. These centers of learning should convert themselves into engines of growth. In this logic, if we increase academic salaries and research grants to match IT pay cheques we will attract good people into academia, where, in any case, it is rumoured that a certain elusive feeling called ‘the quality of life’ is better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the passage what did the scientist actually mean when he said, ‘IT has destroyed Indian Science?’",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The centres meant for scientific research are being utilized by IT industries."
+      },
+      {
+        "label": "b",
+        "text": "The IT industry does not employ people pursuing higher studies."
+      },
+      {
+        "label": "c",
+        "text": "As information is readily available on the internet because of IT. There is no need to seek further information."
+      },
+      {
+        "label": "d",
+        "text": "The desire for money has overshadowed the search for knowledge."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 7,
+    "question_code": "RC-T10-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p38",
+    "set_position": 2,
+    "context_passage": "A few weeks ago, a newspaper article quoted a well-known scientist saying, ‘IT has destroyed Indian science’. One can speculate about the various ways in which the growth of the IT sector and other similar knowledge industries such as biotechnology has led to a decline in basic scientific research in India. The most obvious reason is money; pay scales in IT and BT are much higher than one can aspire to in academia. The argument goes; why should a bright B.Tech. or M.Sc. Student enroll in a Ph.D. programme when she can make a lot more money writing code? Not only does a fresh IT employee make a lot more than a fresh M. Tech. student, his/her pay will rise much faster in IT than in academia. A professor/s pay at a government-run university, even after the Sixth Pay Commission, tops out at far less than a senior executive’s salary in a major industry. Second, the social status of IT and BT jobs equal or even exceed the social status of corresponding academic positions, since they are seen as knowledge industries, which plays to the best and worst instincts of the societal order. As quintessential white collar professions, neither do they compel a successful entrepreneur to resort to violence and corruption, nor do they demand any physical labour. Unlike real estate or road construction, it is felt that IT workers can become rich while staying honest and sweat-free. Assuming that the labour pool for academia and IT is roughly the same, the difference in our collective preferences biases the labour market towards IT and away from academia. Further, when the imbalance between IT and academia continues for years and even decades, a destructive loop, from academia’s point of view, is created. When our best and brightest take IT jobs over academic ones for a decade or more, faculty positions in our universities and research centers are no longer filled by the best candidates. As faculty quality goes down, so does the capacity to train top-class graduate students who, after all, are teachers in training. In response to decreasing faculty quality, even those students who otherwise choose an academic profession, decide to join industry or go abroad for their studies. These foreign trained graduates prefer to come back to corporate India if at all they do come back – and the downward cycle replicates itself in each generation. In other words, academia is trapped within a perfect storm created by a combination of social and economic factors. In this social-economic calculus, the members of our societal classes should prefer an IT job to an academic one. Or, to put it another way, the knowledge economy, i.e., the creation of knowledge for profit, trumps the knowledge society, i.e., the creation of knowledge for its own sake or the sake of the greater good. As is said. ‘Knowledge is power, but money is even more power.’ Perhaps the scientist was alluding to this victory of capitalism over the pursuit of pure knowledge when he accused IT of having a negative influence on Indian science. Surely, knowledge has become a commodity like any other and as a result, knowledge workers are like any other labourers, who will sell their wares to the highest bidder. One solution is to accept and even encourage the commoditization of knowledge; if so, Indian universities and research centers should copy their western counterparts by becoming more and more like corporations. These centers of learning should convert themselves into engines of growth. In this logic, if we increase academic salaries and research grants to match IT pay cheques we will attract good people into academia, where, in any case, it is rumoured that a certain elusive feeling called ‘the quality of life’ is better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is possibly the most appropriate title for the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Is the future of IT Bright?"
+      },
+      {
+        "label": "b",
+        "text": "The IT industry and the World Economy"
+      },
+      {
+        "label": "c",
+        "text": "Research and Academics Losing the Battle against IT"
+      },
+      {
+        "label": "d",
+        "text": "Scientific Research and the Need for Well Trained Faculty"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 8,
+    "question_code": "RC-T10-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p38",
+    "set_position": 3,
+    "context_passage": "A few weeks ago, a newspaper article quoted a well-known scientist saying, ‘IT has destroyed Indian science’. One can speculate about the various ways in which the growth of the IT sector and other similar knowledge industries such as biotechnology has led to a decline in basic scientific research in India. The most obvious reason is money; pay scales in IT and BT are much higher than one can aspire to in academia. The argument goes; why should a bright B.Tech. or M.Sc. Student enroll in a Ph.D. programme when she can make a lot more money writing code? Not only does a fresh IT employee make a lot more than a fresh M. Tech. student, his/her pay will rise much faster in IT than in academia. A professor/s pay at a government-run university, even after the Sixth Pay Commission, tops out at far less than a senior executive’s salary in a major industry. Second, the social status of IT and BT jobs equal or even exceed the social status of corresponding academic positions, since they are seen as knowledge industries, which plays to the best and worst instincts of the societal order. As quintessential white collar professions, neither do they compel a successful entrepreneur to resort to violence and corruption, nor do they demand any physical labour. Unlike real estate or road construction, it is felt that IT workers can become rich while staying honest and sweat-free. Assuming that the labour pool for academia and IT is roughly the same, the difference in our collective preferences biases the labour market towards IT and away from academia. Further, when the imbalance between IT and academia continues for years and even decades, a destructive loop, from academia’s point of view, is created. When our best and brightest take IT jobs over academic ones for a decade or more, faculty positions in our universities and research centers are no longer filled by the best candidates. As faculty quality goes down, so does the capacity to train top-class graduate students who, after all, are teachers in training. In response to decreasing faculty quality, even those students who otherwise choose an academic profession, decide to join industry or go abroad for their studies. These foreign trained graduates prefer to come back to corporate India if at all they do come back – and the downward cycle replicates itself in each generation. In other words, academia is trapped within a perfect storm created by a combination of social and economic factors. In this social-economic calculus, the members of our societal classes should prefer an IT job to an academic one. Or, to put it another way, the knowledge economy, i.e., the creation of knowledge for profit, trumps the knowledge society, i.e., the creation of knowledge for its own sake or the sake of the greater good. As is said. ‘Knowledge is power, but money is even more power.’ Perhaps the scientist was alluding to this victory of capitalism over the pursuit of pure knowledge when he accused IT of having a negative influence on Indian science. Surely, knowledge has become a commodity like any other and as a result, knowledge workers are like any other labourers, who will sell their wares to the highest bidder. One solution is to accept and even encourage the commoditization of knowledge; if so, Indian universities and research centers should copy their western counterparts by becoming more and more like corporations. These centers of learning should convert themselves into engines of growth. In this logic, if we increase academic salaries and research grants to match IT pay cheques we will attract good people into academia, where, in any case, it is rumoured that a certain elusive feeling called ‘the quality of life’ is better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What, according to the author, is a destructive loop?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Many people quit their existing jobs to work in the IT industry which in turn leads to the downfall of the other industries."
+      },
+      {
+        "label": "b",
+        "text": "The fact that the best minds do not want to become teachers and this in turn leads to good students seeking knowledge elsewhere."
+      },
+      {
+        "label": "c",
+        "text": "The fact that people working in the IT industry do not pursue higher studies which in turn leads to the deterioration in quality of employees."
+      },
+      {
+        "label": "d",
+        "text": "The unending use of resources by the IT industry leading to a dearth of resources in the country."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 9,
+    "question_code": "RC-T10-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p38",
+    "set_position": 4,
+    "context_passage": "A few weeks ago, a newspaper article quoted a well-known scientist saying, ‘IT has destroyed Indian science’. One can speculate about the various ways in which the growth of the IT sector and other similar knowledge industries such as biotechnology has led to a decline in basic scientific research in India. The most obvious reason is money; pay scales in IT and BT are much higher than one can aspire to in academia. The argument goes; why should a bright B.Tech. or M.Sc. Student enroll in a Ph.D. programme when she can make a lot more money writing code? Not only does a fresh IT employee make a lot more than a fresh M. Tech. student, his/her pay will rise much faster in IT than in academia. A professor/s pay at a government-run university, even after the Sixth Pay Commission, tops out at far less than a senior executive’s salary in a major industry. Second, the social status of IT and BT jobs equal or even exceed the social status of corresponding academic positions, since they are seen as knowledge industries, which plays to the best and worst instincts of the societal order. As quintessential white collar professions, neither do they compel a successful entrepreneur to resort to violence and corruption, nor do they demand any physical labour. Unlike real estate or road construction, it is felt that IT workers can become rich while staying honest and sweat-free. Assuming that the labour pool for academia and IT is roughly the same, the difference in our collective preferences biases the labour market towards IT and away from academia. Further, when the imbalance between IT and academia continues for years and even decades, a destructive loop, from academia’s point of view, is created. When our best and brightest take IT jobs over academic ones for a decade or more, faculty positions in our universities and research centers are no longer filled by the best candidates. As faculty quality goes down, so does the capacity to train top-class graduate students who, after all, are teachers in training. In response to decreasing faculty quality, even those students who otherwise choose an academic profession, decide to join industry or go abroad for their studies. These foreign trained graduates prefer to come back to corporate India if at all they do come back – and the downward cycle replicates itself in each generation. In other words, academia is trapped within a perfect storm created by a combination of social and economic factors. In this social-economic calculus, the members of our societal classes should prefer an IT job to an academic one. Or, to put it another way, the knowledge economy, i.e., the creation of knowledge for profit, trumps the knowledge society, i.e., the creation of knowledge for its own sake or the sake of the greater good. As is said. ‘Knowledge is power, but money is even more power.’ Perhaps the scientist was alluding to this victory of capitalism over the pursuit of pure knowledge when he accused IT of having a negative influence on Indian science. Surely, knowledge has become a commodity like any other and as a result, knowledge workers are like any other labourers, who will sell their wares to the highest bidder. One solution is to accept and even encourage the commoditization of knowledge; if so, Indian universities and research centers should copy their western counterparts by becoming more and more like corporations. These centers of learning should convert themselves into engines of growth. In this logic, if we increase academic salaries and research grants to match IT pay cheques we will attract good people into academia, where, in any case, it is rumoured that a certain elusive feeling called ‘the quality of life’ is better.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following mentioned below is/are the author’s suggestion/s to promote interest in Indian academia? A. Research centers should adopt the corporate culture as is done in the West. B. Lessening the number of research grants given. C. Making academic salaries equivalent to those paid in IT industries.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only C"
+      },
+      {
+        "label": "b",
+        "text": "Only A"
+      },
+      {
+        "label": "c",
+        "text": "Only B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only A and C"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 10,
+    "question_code": "RC-T10-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p39",
+    "set_position": 1,
+    "context_passage": "At the time when the unfortunate incident of the ‘accidental’ exposure to radiation that affected workers and waste collectors in Delhi as they handled radioactive material. Took place, the issue of waste disposal, particularly hazardous waste, made the headlines. The lives of those who live off collecting and sorting waste came into our line of vision. But then the issue disappeared. Long-term policies that ensure that the safety and health of those who do such an essential job—a community of silent environmentalists someone called them are not such a high priority any more. One reason is that the people affected are virtually invisible. Waste collectors around India work silently. Often late into the night, sorting out mountains of waste, foraging for anything that can be sold. If you walk down some streets of central Mumbai after 11 at night. You will see an army of waste collectors. Men women, children are all hard at work. They work through the night and finally manage to get some sleep on the doorsteps of the shops on those streets. By daylight they become invisible, having stowed their belongings in boxes behind the signs of the shops on whose doorsteps they sleep. These are the people of the night, not noticed by those who inhabit the areas in the day. What is often not entirely appreciated is that a substantial percentage of waste collectors is women. According to a study, 85 per cent of waste collectors in the city are women, five per cent are children and 10 per cent are men. The majority of them are poor and landless people who came to the city because of drought in their villages. The age group ranges from 7 to 70 years and 98 per cent of them are illiterate. A survey of 60,000 waste collectors found a similar proportion. 60 per cent women, 20 per cent men and 20 per cent children. Studies have revealed that 90 per cent of the women waste-pickers are primary bread-winners, often widowed or deserted. It is interesting how the gender division of labour plays out even in the business of waste. While women, and children, do the more hazardous job of sorting and separating the waste, the men deal with the wholesalers and factories. As a result it is the women who are exposed to hazardous waste none of them wear any kind of protective gear and also face the physical problems of constantly bending and carrying head loads of the waste. Look at any group of waste collectors and you will spot the bent old women who have been performing this function for decades. In the slum-city of Mumbai, waste collectors experience the most acute degree of homelessness. While poor people in other kinds of jobs somehow manage to find some shelter in a slum, irrespective of whether it is legal or illegal, waste collectors sleep next to the garbage they have sorted. This is their wealth something they have to protect after they have collected and sorted it until they can monetize it. Hence, near many garbage dumps, even in the better off localities of cities like Mumbai, you see families of waste pickers asleep in the morning. And most often you see only women and children. Why bring up waste collectors at a time when the main environmental issues being debated are the larger issues of global warming. Or environmental disasters such as the oil spill in the Gulf of Mexico? This is because one cannot speak of the environment without considering its impact on the lives of people. We have hundreds of small-scale and continuing environmental disasters taking place all around us. But we overlook them so long as they do not impact our lives or our lifestyles. Millions of waste pacers in India. Who play a crucial, role in dealing with the perennial environmental crisis of waste. Risk their lives and their health every single day. This is an ongoing environmental issue that requires as much attention from ordinary people, the media and policy makers as the larger macro issues.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why are long-term policies favouring waste collectors not high priority?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The government is currently contemplating over the effects of the oil spill in the Gulf of Mexico and does not have time for other issues."
+      },
+      {
+        "label": "b",
+        "text": "The plight of these people is not evident as they work late into the night and are not seen much during the day."
+      },
+      {
+        "label": "c",
+        "text": "The Government is unable to see these people at all and thus is not aware of their existence."
+      },
+      {
+        "label": "d",
+        "text": "These waste collectors themselves are not in favour of being brought into the organized sector because of the numerous complications involved."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 11,
+    "question_code": "RC-T10-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p39",
+    "set_position": 2,
+    "context_passage": "At the time when the unfortunate incident of the ‘accidental’ exposure to radiation that affected workers and waste collectors in Delhi as they handled radioactive material. Took place, the issue of waste disposal, particularly hazardous waste, made the headlines. The lives of those who live off collecting and sorting waste came into our line of vision. But then the issue disappeared. Long-term policies that ensure that the safety and health of those who do such an essential job—a community of silent environmentalists someone called them are not such a high priority any more. One reason is that the people affected are virtually invisible. Waste collectors around India work silently. Often late into the night, sorting out mountains of waste, foraging for anything that can be sold. If you walk down some streets of central Mumbai after 11 at night. You will see an army of waste collectors. Men women, children are all hard at work. They work through the night and finally manage to get some sleep on the doorsteps of the shops on those streets. By daylight they become invisible, having stowed their belongings in boxes behind the signs of the shops on whose doorsteps they sleep. These are the people of the night, not noticed by those who inhabit the areas in the day. What is often not entirely appreciated is that a substantial percentage of waste collectors is women. According to a study, 85 per cent of waste collectors in the city are women, five per cent are children and 10 per cent are men. The majority of them are poor and landless people who came to the city because of drought in their villages. The age group ranges from 7 to 70 years and 98 per cent of them are illiterate. A survey of 60,000 waste collectors found a similar proportion. 60 per cent women, 20 per cent men and 20 per cent children. Studies have revealed that 90 per cent of the women waste-pickers are primary bread-winners, often widowed or deserted. It is interesting how the gender division of labour plays out even in the business of waste. While women, and children, do the more hazardous job of sorting and separating the waste, the men deal with the wholesalers and factories. As a result it is the women who are exposed to hazardous waste none of them wear any kind of protective gear and also face the physical problems of constantly bending and carrying head loads of the waste. Look at any group of waste collectors and you will spot the bent old women who have been performing this function for decades. In the slum-city of Mumbai, waste collectors experience the most acute degree of homelessness. While poor people in other kinds of jobs somehow manage to find some shelter in a slum, irrespective of whether it is legal or illegal, waste collectors sleep next to the garbage they have sorted. This is their wealth something they have to protect after they have collected and sorted it until they can monetize it. Hence, near many garbage dumps, even in the better off localities of cities like Mumbai, you see families of waste pickers asleep in the morning. And most often you see only women and children. Why bring up waste collectors at a time when the main environmental issues being debated are the larger issues of global warming. Or environmental disasters such as the oil spill in the Gulf of Mexico? This is because one cannot speak of the environment without considering its impact on the lives of people. We have hundreds of small-scale and continuing environmental disasters taking place all around us. But we overlook them so long as they do not impact our lives or our lifestyles. Millions of waste pacers in India. Who play a crucial, role in dealing with the perennial environmental crisis of waste. Risk their lives and their health every single day. This is an ongoing environmental issue that requires as much attention from ordinary people, the media and policy makers as the larger macro issues.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is true about waste collectors as given in the passage? A. Majority of waste collectors are people who have migrated from their village because of some natural calamity. B. Waste collectors prefer to sleep next to the garbage they have sorted. C. Most waste collectors are not literate.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only B"
+      },
+      {
+        "label": "b",
+        "text": "Only A and B"
+      },
+      {
+        "label": "c",
+        "text": "Only C"
+      },
+      {
+        "label": "d",
+        "text": "All A, B and C"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 12,
+    "question_code": "RC-T10-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p39",
+    "set_position": 3,
+    "context_passage": "At the time when the unfortunate incident of the ‘accidental’ exposure to radiation that affected workers and waste collectors in Delhi as they handled radioactive material. Took place, the issue of waste disposal, particularly hazardous waste, made the headlines. The lives of those who live off collecting and sorting waste came into our line of vision. But then the issue disappeared. Long-term policies that ensure that the safety and health of those who do such an essential job—a community of silent environmentalists someone called them are not such a high priority any more. One reason is that the people affected are virtually invisible. Waste collectors around India work silently. Often late into the night, sorting out mountains of waste, foraging for anything that can be sold. If you walk down some streets of central Mumbai after 11 at night. You will see an army of waste collectors. Men women, children are all hard at work. They work through the night and finally manage to get some sleep on the doorsteps of the shops on those streets. By daylight they become invisible, having stowed their belongings in boxes behind the signs of the shops on whose doorsteps they sleep. These are the people of the night, not noticed by those who inhabit the areas in the day. What is often not entirely appreciated is that a substantial percentage of waste collectors is women. According to a study, 85 per cent of waste collectors in the city are women, five per cent are children and 10 per cent are men. The majority of them are poor and landless people who came to the city because of drought in their villages. The age group ranges from 7 to 70 years and 98 per cent of them are illiterate. A survey of 60,000 waste collectors found a similar proportion. 60 per cent women, 20 per cent men and 20 per cent children. Studies have revealed that 90 per cent of the women waste-pickers are primary bread-winners, often widowed or deserted. It is interesting how the gender division of labour plays out even in the business of waste. While women, and children, do the more hazardous job of sorting and separating the waste, the men deal with the wholesalers and factories. As a result it is the women who are exposed to hazardous waste none of them wear any kind of protective gear and also face the physical problems of constantly bending and carrying head loads of the waste. Look at any group of waste collectors and you will spot the bent old women who have been performing this function for decades. In the slum-city of Mumbai, waste collectors experience the most acute degree of homelessness. While poor people in other kinds of jobs somehow manage to find some shelter in a slum, irrespective of whether it is legal or illegal, waste collectors sleep next to the garbage they have sorted. This is their wealth something they have to protect after they have collected and sorted it until they can monetize it. Hence, near many garbage dumps, even in the better off localities of cities like Mumbai, you see families of waste pickers asleep in the morning. And most often you see only women and children. Why bring up waste collectors at a time when the main environmental issues being debated are the larger issues of global warming. Or environmental disasters such as the oil spill in the Gulf of Mexico? This is because one cannot speak of the environment without considering its impact on the lives of people. We have hundreds of small-scale and continuing environmental disasters taking place all around us. But we overlook them so long as they do not impact our lives or our lifestyles. Millions of waste pacers in India. Who play a crucial, role in dealing with the perennial environmental crisis of waste. Risk their lives and their health every single day. This is an ongoing environmental issue that requires as much attention from ordinary people, the media and policy makers as the larger macro issues.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is possibly the most appropriate title for the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The General Public’s Apathetic Ways"
+      },
+      {
+        "label": "b",
+        "text": "The Unorganized Sector"
+      },
+      {
+        "label": "c",
+        "text": "The Invisible Waste"
+      },
+      {
+        "label": "d",
+        "text": "Waste Collectors – The World Over"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 13,
+    "question_code": "RC-T10-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p39",
+    "set_position": 4,
+    "context_passage": "At the time when the unfortunate incident of the ‘accidental’ exposure to radiation that affected workers and waste collectors in Delhi as they handled radioactive material. Took place, the issue of waste disposal, particularly hazardous waste, made the headlines. The lives of those who live off collecting and sorting waste came into our line of vision. But then the issue disappeared. Long-term policies that ensure that the safety and health of those who do such an essential job—a community of silent environmentalists someone called them are not such a high priority any more. One reason is that the people affected are virtually invisible. Waste collectors around India work silently. Often late into the night, sorting out mountains of waste, foraging for anything that can be sold. If you walk down some streets of central Mumbai after 11 at night. You will see an army of waste collectors. Men women, children are all hard at work. They work through the night and finally manage to get some sleep on the doorsteps of the shops on those streets. By daylight they become invisible, having stowed their belongings in boxes behind the signs of the shops on whose doorsteps they sleep. These are the people of the night, not noticed by those who inhabit the areas in the day. What is often not entirely appreciated is that a substantial percentage of waste collectors is women. According to a study, 85 per cent of waste collectors in the city are women, five per cent are children and 10 per cent are men. The majority of them are poor and landless people who came to the city because of drought in their villages. The age group ranges from 7 to 70 years and 98 per cent of them are illiterate. A survey of 60,000 waste collectors found a similar proportion. 60 per cent women, 20 per cent men and 20 per cent children. Studies have revealed that 90 per cent of the women waste-pickers are primary bread-winners, often widowed or deserted. It is interesting how the gender division of labour plays out even in the business of waste. While women, and children, do the more hazardous job of sorting and separating the waste, the men deal with the wholesalers and factories. As a result it is the women who are exposed to hazardous waste none of them wear any kind of protective gear and also face the physical problems of constantly bending and carrying head loads of the waste. Look at any group of waste collectors and you will spot the bent old women who have been performing this function for decades. In the slum-city of Mumbai, waste collectors experience the most acute degree of homelessness. While poor people in other kinds of jobs somehow manage to find some shelter in a slum, irrespective of whether it is legal or illegal, waste collectors sleep next to the garbage they have sorted. This is their wealth something they have to protect after they have collected and sorted it until they can monetize it. Hence, near many garbage dumps, even in the better off localities of cities like Mumbai, you see families of waste pickers asleep in the morning. And most often you see only women and children. Why bring up waste collectors at a time when the main environmental issues being debated are the larger issues of global warming. Or environmental disasters such as the oil spill in the Gulf of Mexico? This is because one cannot speak of the environment without considering its impact on the lives of people. We have hundreds of small-scale and continuing environmental disasters taking place all around us. But we overlook them so long as they do not impact our lives or our lifestyles. Millions of waste pacers in India. Who play a crucial, role in dealing with the perennial environmental crisis of waste. Risk their lives and their health every single day. This is an ongoing environmental issue that requires as much attention from ordinary people, the media and policy makers as the larger macro issues.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why according to the author, is the issue of waste collectors as important as the issue of global warming? A. As most waste collectors in big cities are children who are ultimately the future of our nation. B. As without the waste collectors sorting waste the phenomenon of global warming would increase exponentially. C. As waste collectors deal with wastage which impacts the people’s everyday lies and is also environmentally significant.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only B and C"
+      },
+      {
+        "label": "b",
+        "text": "Only A"
+      },
+      {
+        "label": "c",
+        "text": "Only A and B"
+      },
+      {
+        "label": "d",
+        "text": "Only C"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 14,
+    "question_code": "RC-T10-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p40",
+    "set_position": 1,
+    "context_passage": "Indians are known for their obsessive and compulsive fascination for gold. India is the largest importer and largest consumer of the yellow metal as Indians buy about 25 per cent of the world’s gold. In 2008. India imported around 400 tons of it. About 80 per cent of the world’s extracted gold is fashioned as jewellery. However, most of us do not know or do not think about the environmental cost of the metal. For instance, extracting enough gold to forge a solitary, no-frills wedding band ultimately translates into roughly 20-30 tons of waste. At some mines in Nevada (USA). Hundred tones or more of earth have been excavated for a single ounce of gold. The waste is of two forms: redundant rock, which is typically piled as flat heaps in locations near the mining site and the effluent or tailings which are a result of chemical processing of the mined ore. Sulphides in the redundant rock react with oxygen heavy metals like cyanide, cadmium lead and mercury harmful to people even at miniscule concentrations. The tailings component is typically a thick slurry laced with cyanide, aluminum, copper, lead, and mercury: enough to decimate fish populations of water environment it is disposed of into. Disposal of wet tailings into water bodies has been effectively banned in developed countries but it continues to be practiced in most developing nations. There is also a very real danger of surface water and groundwater table contamination on account of these heavy metals. In fact, gold mining generates more waste per ounce than any other metal and the effects are starting. Mining for gold has left huge gouges on the face of the earth. So massive that they can be seen from space. According to a study, respiratory ailments, soil and water contamination, thick blankets of dust. Withering of coconut trees and changes in land pattern use are some of the common features of the urban area around a particular gold mine in Karnataka. Many areas are reported to have become in fertile because of soil contamination. They contain a percentage of heavy metals enough to retard plant growth. Similarly, according to another report in 2008, nearly seven years after the closure of these mines, the people of this region continue to face serious environment and health problems, particularly in July and August, due to winds in these months that carry with them cyanide particles from the dust piles in the abandoned mines. When the mines were operational, a layer of red soil used to be put over these dust piles before these crucial months to prevent the cyanide particles from being carried away be the heavy winds. Now that the mines have been closed, the imitative measures have ceased as well. People from socially and economically marginalized communities turn to mining to escape acute poverty, unemployment, and landlessness. In some cases, their homes and farms may be acquired for large-scale gold mining. While compensation is promised to them, it may take a year or two to kick in. Till then forced to eke out a bare livelihood mostly in a kind of lottery system, they resort to crude methods to separate any flecks of gold that may be there in the discarded waste rock using mercury. In the process, destroy themselves slowly as well as their environment. The shanty towns which inevitably come up around the large-scale mining sites only serve to add to the problem. Given their illegal and therefore unrecognized nature, they lack basic amenities like garbage disposal and water supply and sanitation, becoming another unsightly blot on the landscape. According to the World Gold Council, while estimates of numbers engaged in artisanal mining vary widely. They range between 13 and 20 million men, women and children from over 50 developing countries. Indeed, it is believed that as much as a quarter of the world’s gold is supplied by artisanal miners. Their efforts to earn themselves a daily wage have resulted in huge habitual loss and destruction. For example, huge patches of land, once home to lush trees in the island of Borneo in Indonesia, are being swiftly rendered treeless and lifeless pits of waste. Incidentally, the island is highly famed for its rich biodiversity. Combined with heavy pressures from the logging lobby and need for cheap power through hydroelectricity and relentless mining activity. It is hard to imagine if Borneo will manage to retain its crown. Why should these facts about gold mining bother us? After all, we just import the metal: we do not mine it here to the extent other countries do. That is about to change though. New Delhi has big plans to fuel growth in the mining sector and is looking to open investment in gold mining in the country – and in a big way. However, India’s environmental track record in mining has been anything but stellar. And this is something that requires close attention in light of the planned increased forays into gold mining. Even with the comparatively minuscule amounts of gold mining done so far, we have tripped up on environmental considerations. Geologically, India’s terrain is very similar to those in other parts of the world where there have been huge gold finds. What we need to do is to learn from the mistakes committed by certain developed countries in their own backyard. We have a whole series of examples of where things have gone wrong from other developing countries. We need to use these insights to our advantage and quickly.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "According to the author, how are gold mines detrimental to the environment as well as public health even after their closure?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The layer of red soil used to cover dust piles in these mines seeps into the ground water thereby making it unfit for consumption."
+      },
+      {
+        "label": "b",
+        "text": "The mines weaken land mass and increase the chances of occurrence of earthquakes especially after there is no one looking after them."
+      },
+      {
+        "label": "c",
+        "text": "The imitative measures adopted after the closure of these mines are not supervised adequately hence, are highly damaging."
+      },
+      {
+        "label": "d",
+        "text": "Winds in specific months carry harmful heavy metal particles from the dust heaps accumulated in these mines."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 15,
+    "question_code": "RC-T10-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p40",
+    "set_position": 2,
+    "context_passage": "Indians are known for their obsessive and compulsive fascination for gold. India is the largest importer and largest consumer of the yellow metal as Indians buy about 25 per cent of the world’s gold. In 2008. India imported around 400 tons of it. About 80 per cent of the world’s extracted gold is fashioned as jewellery. However, most of us do not know or do not think about the environmental cost of the metal. For instance, extracting enough gold to forge a solitary, no-frills wedding band ultimately translates into roughly 20-30 tons of waste. At some mines in Nevada (USA). Hundred tones or more of earth have been excavated for a single ounce of gold. The waste is of two forms: redundant rock, which is typically piled as flat heaps in locations near the mining site and the effluent or tailings which are a result of chemical processing of the mined ore. Sulphides in the redundant rock react with oxygen heavy metals like cyanide, cadmium lead and mercury harmful to people even at miniscule concentrations. The tailings component is typically a thick slurry laced with cyanide, aluminum, copper, lead, and mercury: enough to decimate fish populations of water environment it is disposed of into. Disposal of wet tailings into water bodies has been effectively banned in developed countries but it continues to be practiced in most developing nations. There is also a very real danger of surface water and groundwater table contamination on account of these heavy metals. In fact, gold mining generates more waste per ounce than any other metal and the effects are starting. Mining for gold has left huge gouges on the face of the earth. So massive that they can be seen from space. According to a study, respiratory ailments, soil and water contamination, thick blankets of dust. Withering of coconut trees and changes in land pattern use are some of the common features of the urban area around a particular gold mine in Karnataka. Many areas are reported to have become in fertile because of soil contamination. They contain a percentage of heavy metals enough to retard plant growth. Similarly, according to another report in 2008, nearly seven years after the closure of these mines, the people of this region continue to face serious environment and health problems, particularly in July and August, due to winds in these months that carry with them cyanide particles from the dust piles in the abandoned mines. When the mines were operational, a layer of red soil used to be put over these dust piles before these crucial months to prevent the cyanide particles from being carried away be the heavy winds. Now that the mines have been closed, the imitative measures have ceased as well. People from socially and economically marginalized communities turn to mining to escape acute poverty, unemployment, and landlessness. In some cases, their homes and farms may be acquired for large-scale gold mining. While compensation is promised to them, it may take a year or two to kick in. Till then forced to eke out a bare livelihood mostly in a kind of lottery system, they resort to crude methods to separate any flecks of gold that may be there in the discarded waste rock using mercury. In the process, destroy themselves slowly as well as their environment. The shanty towns which inevitably come up around the large-scale mining sites only serve to add to the problem. Given their illegal and therefore unrecognized nature, they lack basic amenities like garbage disposal and water supply and sanitation, becoming another unsightly blot on the landscape. According to the World Gold Council, while estimates of numbers engaged in artisanal mining vary widely. They range between 13 and 20 million men, women and children from over 50 developing countries. Indeed, it is believed that as much as a quarter of the world’s gold is supplied by artisanal miners. Their efforts to earn themselves a daily wage have resulted in huge habitual loss and destruction. For example, huge patches of land, once home to lush trees in the island of Borneo in Indonesia, are being swiftly rendered treeless and lifeless pits of waste. Incidentally, the island is highly famed for its rich biodiversity. Combined with heavy pressures from the logging lobby and need for cheap power through hydroelectricity and relentless mining activity. It is hard to imagine if Borneo will manage to retain its crown. Why should these facts about gold mining bother us? After all, we just import the metal: we do not mine it here to the extent other countries do. That is about to change though. New Delhi has big plans to fuel growth in the mining sector and is looking to open investment in gold mining in the country – and in a big way. However, India’s environmental track record in mining has been anything but stellar. And this is something that requires close attention in light of the planned increased forays into gold mining. Even with the comparatively minuscule amounts of gold mining done so far, we have tripped up on environmental considerations. Geologically, India’s terrain is very similar to those in other parts of the world where there have been huge gold finds. What we need to do is to learn from the mistakes committed by certain developed countries in their own backyard. We have a whole series of examples of where things have gone wrong from other developing countries. We need to use these insights to our advantage and quickly.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is/are ill-effects of gold mining as mentioned in the passage? A. Waste generated while mining for gold is harmful even in small quantities. B. Groundwater gets polluted due to the release of heavy metals generated from the mining of gold. C. Gold mining activities cause respiratory illnesses in people.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only A"
+      },
+      {
+        "label": "b",
+        "text": "All A, B and C"
+      },
+      {
+        "label": "c",
+        "text": "Only B and C"
+      },
+      {
+        "label": "d",
+        "text": "Only B"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 16,
+    "question_code": "RC-T10-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p40",
+    "set_position": 3,
+    "context_passage": "Indians are known for their obsessive and compulsive fascination for gold. India is the largest importer and largest consumer of the yellow metal as Indians buy about 25 per cent of the world’s gold. In 2008. India imported around 400 tons of it. About 80 per cent of the world’s extracted gold is fashioned as jewellery. However, most of us do not know or do not think about the environmental cost of the metal. For instance, extracting enough gold to forge a solitary, no-frills wedding band ultimately translates into roughly 20-30 tons of waste. At some mines in Nevada (USA). Hundred tones or more of earth have been excavated for a single ounce of gold. The waste is of two forms: redundant rock, which is typically piled as flat heaps in locations near the mining site and the effluent or tailings which are a result of chemical processing of the mined ore. Sulphides in the redundant rock react with oxygen heavy metals like cyanide, cadmium lead and mercury harmful to people even at miniscule concentrations. The tailings component is typically a thick slurry laced with cyanide, aluminum, copper, lead, and mercury: enough to decimate fish populations of water environment it is disposed of into. Disposal of wet tailings into water bodies has been effectively banned in developed countries but it continues to be practiced in most developing nations. There is also a very real danger of surface water and groundwater table contamination on account of these heavy metals. In fact, gold mining generates more waste per ounce than any other metal and the effects are starting. Mining for gold has left huge gouges on the face of the earth. So massive that they can be seen from space. According to a study, respiratory ailments, soil and water contamination, thick blankets of dust. Withering of coconut trees and changes in land pattern use are some of the common features of the urban area around a particular gold mine in Karnataka. Many areas are reported to have become in fertile because of soil contamination. They contain a percentage of heavy metals enough to retard plant growth. Similarly, according to another report in 2008, nearly seven years after the closure of these mines, the people of this region continue to face serious environment and health problems, particularly in July and August, due to winds in these months that carry with them cyanide particles from the dust piles in the abandoned mines. When the mines were operational, a layer of red soil used to be put over these dust piles before these crucial months to prevent the cyanide particles from being carried away be the heavy winds. Now that the mines have been closed, the imitative measures have ceased as well. People from socially and economically marginalized communities turn to mining to escape acute poverty, unemployment, and landlessness. In some cases, their homes and farms may be acquired for large-scale gold mining. While compensation is promised to them, it may take a year or two to kick in. Till then forced to eke out a bare livelihood mostly in a kind of lottery system, they resort to crude methods to separate any flecks of gold that may be there in the discarded waste rock using mercury. In the process, destroy themselves slowly as well as their environment. The shanty towns which inevitably come up around the large-scale mining sites only serve to add to the problem. Given their illegal and therefore unrecognized nature, they lack basic amenities like garbage disposal and water supply and sanitation, becoming another unsightly blot on the landscape. According to the World Gold Council, while estimates of numbers engaged in artisanal mining vary widely. They range between 13 and 20 million men, women and children from over 50 developing countries. Indeed, it is believed that as much as a quarter of the world’s gold is supplied by artisanal miners. Their efforts to earn themselves a daily wage have resulted in huge habitual loss and destruction. For example, huge patches of land, once home to lush trees in the island of Borneo in Indonesia, are being swiftly rendered treeless and lifeless pits of waste. Incidentally, the island is highly famed for its rich biodiversity. Combined with heavy pressures from the logging lobby and need for cheap power through hydroelectricity and relentless mining activity. It is hard to imagine if Borneo will manage to retain its crown. Why should these facts about gold mining bother us? After all, we just import the metal: we do not mine it here to the extent other countries do. That is about to change though. New Delhi has big plans to fuel growth in the mining sector and is looking to open investment in gold mining in the country – and in a big way. However, India’s environmental track record in mining has been anything but stellar. And this is something that requires close attention in light of the planned increased forays into gold mining. Even with the comparatively minuscule amounts of gold mining done so far, we have tripped up on environmental considerations. Geologically, India’s terrain is very similar to those in other parts of the world where there have been huge gold finds. What we need to do is to learn from the mistakes committed by certain developed countries in their own backyard. We have a whole series of examples of where things have gone wrong from other developing countries. We need to use these insights to our advantage and quickly.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the author’s intention behind writing this passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To discourage the Indian Government from investing in gold mining."
+      },
+      {
+        "label": "b",
+        "text": "To bring forward the problems associated with gold mining for India’s benefit."
+      },
+      {
+        "label": "c",
+        "text": "To discourage Indians from buying gold based on its repercussions."
+      },
+      {
+        "label": "d",
+        "text": "To advocate the import of gold instead of mining of it."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 10,
+    "question_number": 17,
+    "question_code": "RC-T10-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t10-p40",
+    "set_position": 4,
+    "context_passage": "Indians are known for their obsessive and compulsive fascination for gold. India is the largest importer and largest consumer of the yellow metal as Indians buy about 25 per cent of the world’s gold. In 2008. India imported around 400 tons of it. About 80 per cent of the world’s extracted gold is fashioned as jewellery. However, most of us do not know or do not think about the environmental cost of the metal. For instance, extracting enough gold to forge a solitary, no-frills wedding band ultimately translates into roughly 20-30 tons of waste. At some mines in Nevada (USA). Hundred tones or more of earth have been excavated for a single ounce of gold. The waste is of two forms: redundant rock, which is typically piled as flat heaps in locations near the mining site and the effluent or tailings which are a result of chemical processing of the mined ore. Sulphides in the redundant rock react with oxygen heavy metals like cyanide, cadmium lead and mercury harmful to people even at miniscule concentrations. The tailings component is typically a thick slurry laced with cyanide, aluminum, copper, lead, and mercury: enough to decimate fish populations of water environment it is disposed of into. Disposal of wet tailings into water bodies has been effectively banned in developed countries but it continues to be practiced in most developing nations. There is also a very real danger of surface water and groundwater table contamination on account of these heavy metals. In fact, gold mining generates more waste per ounce than any other metal and the effects are starting. Mining for gold has left huge gouges on the face of the earth. So massive that they can be seen from space. According to a study, respiratory ailments, soil and water contamination, thick blankets of dust. Withering of coconut trees and changes in land pattern use are some of the common features of the urban area around a particular gold mine in Karnataka. Many areas are reported to have become in fertile because of soil contamination. They contain a percentage of heavy metals enough to retard plant growth. Similarly, according to another report in 2008, nearly seven years after the closure of these mines, the people of this region continue to face serious environment and health problems, particularly in July and August, due to winds in these months that carry with them cyanide particles from the dust piles in the abandoned mines. When the mines were operational, a layer of red soil used to be put over these dust piles before these crucial months to prevent the cyanide particles from being carried away be the heavy winds. Now that the mines have been closed, the imitative measures have ceased as well. People from socially and economically marginalized communities turn to mining to escape acute poverty, unemployment, and landlessness. In some cases, their homes and farms may be acquired for large-scale gold mining. While compensation is promised to them, it may take a year or two to kick in. Till then forced to eke out a bare livelihood mostly in a kind of lottery system, they resort to crude methods to separate any flecks of gold that may be there in the discarded waste rock using mercury. In the process, destroy themselves slowly as well as their environment. The shanty towns which inevitably come up around the large-scale mining sites only serve to add to the problem. Given their illegal and therefore unrecognized nature, they lack basic amenities like garbage disposal and water supply and sanitation, becoming another unsightly blot on the landscape. According to the World Gold Council, while estimates of numbers engaged in artisanal mining vary widely. They range between 13 and 20 million men, women and children from over 50 developing countries. Indeed, it is believed that as much as a quarter of the world’s gold is supplied by artisanal miners. Their efforts to earn themselves a daily wage have resulted in huge habitual loss and destruction. For example, huge patches of land, once home to lush trees in the island of Borneo in Indonesia, are being swiftly rendered treeless and lifeless pits of waste. Incidentally, the island is highly famed for its rich biodiversity. Combined with heavy pressures from the logging lobby and need for cheap power through hydroelectricity and relentless mining activity. It is hard to imagine if Borneo will manage to retain its crown. Why should these facts about gold mining bother us? After all, we just import the metal: we do not mine it here to the extent other countries do. That is about to change though. New Delhi has big plans to fuel growth in the mining sector and is looking to open investment in gold mining in the country – and in a big way. However, India’s environmental track record in mining has been anything but stellar. And this is something that requires close attention in light of the planned increased forays into gold mining. Even with the comparatively minuscule amounts of gold mining done so far, we have tripped up on environmental considerations. Geologically, India’s terrain is very similar to those in other parts of the world where there have been huge gold finds. What we need to do is to learn from the mistakes committed by certain developed countries in their own backyard. We have a whole series of examples of where things have gone wrong from other developing countries. We need to use these insights to our advantage and quickly.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why according to the author, is the environmental cost of gold very high?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "As gold is the only metal which generates harmful waste on its excavation."
+      },
+      {
+        "label": "b",
+        "text": "As excavation of gold releases the highest amount of pollutants into the air as compared to any other metal."
+      },
+      {
+        "label": "c",
+        "text": "As gold excavation is a very tedious process and requires usage of a number of environmentally destructive resources."
+      },
+      {
+        "label": "d",
+        "text": "As the amount of gold recovered in proportion to the land excavated is negligible."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]

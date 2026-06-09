@@ -1,0 +1,802 @@
+[
+  {
+    "test": 5,
+    "question_number": 1,
+    "question_code": "RC-T5-Q01",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 1,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which one of the following statements best summarizes the above passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The passage highlights how moods affect nations."
+      },
+      {
+        "label": "b",
+        "text": "The passage highlights the importance of moods and emotions in marketing."
+      },
+      {
+        "label": "c",
+        "text": "The passage draws distinction between moods and emotions."
+      },
+      {
+        "label": "d",
+        "text": "Some writers influenced national moods through their writings."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 2,
+    "question_code": "RC-T5-Q02",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 2,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following is the closest to ‘conspicuous consumption’ in the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Audible consumption."
+      },
+      {
+        "label": "b",
+        "text": "Consumption driven by moods and emotions."
+      },
+      {
+        "label": "c",
+        "text": "Socially responsible consumption."
+      },
+      {
+        "label": "d",
+        "text": "Consumption of material items for impressing others."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 3,
+    "question_code": "RC-T5-Q03",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 3,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "What is ‘moods congruence’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "When moods and emotions are synchronized."
+      },
+      {
+        "label": "b",
+        "text": "When moods are synchronous with thoughts and actions."
+      },
+      {
+        "label": "c",
+        "text": "When emotions are synchronous with actions and thoughts."
+      },
+      {
+        "label": "d",
+        "text": "When moods are synchronous with thoughts but not with action."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 4,
+    "question_code": "RC-T5-Q04",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 4,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Implication and Proposition are defined as follows: Implication: a statement which follows from the given text. Proposition: a statement which forms a part of the given text. Consider the two statements below and decide whether they are implications or propositions. I. The marketers should understand and make use of moods and emotions in designing and selling products and services. II. Consuming is nothing but way of filling the void in consciousness.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Both statements are implications."
+      },
+      {
+        "label": "b",
+        "text": "First is implication, second is proposition."
+      },
+      {
+        "label": "c",
+        "text": "Both are propositions."
+      },
+      {
+        "label": "d",
+        "text": "First is proposition, second is implication."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 5,
+    "question_code": "RC-T5-Q05",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 5,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "Which statements from the ones given below are correct? 1. In general, emotions are object specific. 2. In general, moods are not object specific. 3. Moods and emotions are same. 4. As per Thayer, moods are a mix of biological and psychological influences.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "1, 2, 3"
+      },
+      {
+        "label": "b",
+        "text": "2, 3, 4"
+      },
+      {
+        "label": "c",
+        "text": "2, 4, 3"
+      },
+      {
+        "label": "d",
+        "text": "1, 2, 4"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 6,
+    "question_code": "RC-T5-Q06",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p17",
+    "set_position": 6,
+    "context_passage": "Every conscious mental state has a qualitative character that we refer to as mood. We are always in a mood that is pleasurable or unpleasurable to some degree. It may be that bad moods relate to their being too positive reinforcement in a person’s current life and too many punishments. In any case, moods are distinguished from emotions proper by not being tied to any specific object. But, this distinction is not watertight, in that emotions need not be directed at objects that are completely specific (we can be angry just at people generally) while there is always a sense of a mood having a general objective like the state of the world at large. Moods manifest themselves in positive or negative feelings that are tied to health, personality, or perceived quality of life. Moods can also relate to emotions proper, as in the aftermath of an emotional incident such as the failure to secure a loan. A mood on this basis is the mind’s judgment on the recent past. For Goldie, emotion can bubble up and down within a mood, while an emotion can involve characteristics that are non-object specific. What is important for marketing is that moods colour outlook and bias judgements. Hence, the importance of consumer confidence surveys, as consumer confidence typically reflects national mood. There is mood – congruence when thoughts and actions fall inline with mood. As Goleman says, there is a ‘constant stream of feeling’ that runs ‘in perfect to our steam of thought’. Mood congruence occurs because a positive mood evokes pleasant associations that lighten subsequent appraisals (thoughts) and actions, while a negative arouses pessimistic associations that influence future judgment and behaviour. When consumers are in a good mood, they are more optimistic about buying more confident in buying, and much more willing to tolerate things like waiting in line. On the other hand, being in a mood makes buying behaviour in the ‘right mood’ by the use of music and friendly staff or, say, opens bakeries in shopping malls that delight the passer-by with the smell of fresh bread. Thayer views moods as a mixture of biological and psychological influences and, as such, a sort of clinical thermometer, reflecting all the internal and external events that influence us. For Thayer, the key components of mood are energy and tension in different combinations. A specific mixture of energy and tension, together with the thoughts they influence, produces moods. He discusses four mood states: ■ ■ Calm-energy: he regards this as the optimal mood of feeling good. ■ ■ Calm-tiredness: he regards this as feeling a little tired without any stress, which can be pleasant. ■ ■ Tense-energy: involves a low level of anxiety suited to a fight-or-flight disposition. ■ ■ Tense-tiredness: is a mixture of fatigue and anxiety, which underlies the unpleasant feeling of depression. People generally can ‘feel down’ or ‘feel good’ as a result of happenings in the world around them. This represents the national mood. People feel elated when the national soccer team wins an international match or depressed when their team has lost. An elated mood of calm – energy is an optimistic mood, which is good for business. Consumers, as socially involved individuals, are deeply influenced by the prevailing social climate. Marketers recognize the phenomenon and talk about the national mood being, say for or against conspicuous consumption. Moods do change, though. Writing early in the nineteenth century, Toqueville describes an American elite embarrassed by the ostentation of material display; in the ‘Gilded Age’, sixty years later, many were only too eager to embrace a materialistic vulgarity. The problem lies in anticipating changes in national mood, since a change in mood affects everything from buying of equities to the buying of houses and washing machines. Thayer would argue that we should be interested in national events that are likely to produce a move toward a tense-tiredness state or toward a calm-energy state, since these are the polar extremes and are more likely to influence behaviour. Artists sensitive to national moods express the long-term changes. An example is the long-term emotional journey from Charles Dickens’s depiction of the death of little Nell to Oscar Wilde’s cruel flippancy about it. ‘One would have to have a heart of stone not to laugh at the death of little Nell’, which reflects the mood change from high Victorian sentimentality to the acerbic cynicism of the end of the century, as shown in writers like Thomas Hardy and artists like Aubrey Beardsley. Whenever the mind is not fully absorbed, consciousness is no longer focused and ordered. Under such conditions the mind falls into dwelling on the unpleasant, with a negative mood developing. Csikszentmihalyi argues that humans need to keep consciousness fully active is what influences a good deal of consumer behaviour. Sometimes it does not matter what we are shopping for – the point is to shop for anything, regardless, as consuming is one way to respond to the void in consciousness when there is nothing else to do.",
+    "directions": "Direction for questions 1 to 6: Read the passage below and solve the questions based on it.",
+    "question_text": "The statement ‘Moods provide energy for human actions’ is ________.",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "always right"
+      },
+      {
+        "label": "b",
+        "text": "always wrong"
+      },
+      {
+        "label": "c",
+        "text": "sometimes right"
+      },
+      {
+        "label": "d",
+        "text": "not derived from the passage"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 7,
+    "question_code": "RC-T5-Q07",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p18",
+    "set_position": 1,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective, the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following conclusion can be drawn from the passage?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Experimental data might support multiple theoretical explanations at the same time, hence, validity of theories needs to be tested further."
+      },
+      {
+        "label": "b",
+        "text": "Precise measurement is a sufficient condition to ensure validity of conclusions resulting from an experiment."
+      },
+      {
+        "label": "c",
+        "text": "Precise measurement is both a necessary and sufficient condition to ensure validity of conclusions resulting from an experiment."
+      },
+      {
+        "label": "d",
+        "text": "Precise measurement along with experimenter’s knowledge of the theory underpinning the experiment is sufficient to ensure the validity of conclusions drawn from experiments."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 8,
+    "question_code": "RC-T5-Q08",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p18",
+    "set_position": 2,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective, the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "As per Mayo’s perspective, which of the following best defines the phrase ‘scientific explanation’?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "One which is most detailed in its explanation of natural phenomena."
+      },
+      {
+        "label": "b",
+        "text": "One which has been thoroughly tested by scientific experts."
+      },
+      {
+        "label": "c",
+        "text": "One which survives examinations better than other explanations."
+      },
+      {
+        "label": "d",
+        "text": "One which refutes other explanations convincingly."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 9,
+    "question_code": "RC-T5-Q09",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p18",
+    "set_position": 3,
+    "context_passage": "Deborah Mayo is a philosopher of science who has attempted to capture the implications of the new experimentalism in a philosophically rigorous way. Mayo focuses on the detailed way in which claims are validated by experiment, and is concerned with identifying just what claims are borne out and how. A key idea underlying her treatment is that a claim can only be said to be supported by experiment if the various ways in which the claim could be as fault have been investigated and eliminated. A claim can only be said to be borne out by experiment, and a severe test of a claim, as usefully construed by Mayo, must be such that the claim would be unlikely to pass it if it were false. Her idea can be explained by some simple examples. Suppose Snell’s law of refraction of light is tested by some very rough experiments in which very large margins of error are attributed to the measurements of angles of incidence and refraction, and suppose that the results are shown to be compatible with the law within those margins of error. Has the law been supported by experiments that have severely tested it? From Mayo’s perspective, the answer is ‘no’ because, owing to the roughness of the measurements, the law of refraction would be quite likely to pass this test even if it were false and some other law differing not too much from Snell’s law true. An exercise I carried out in my school-teaching days serves to drive this point home. My students had conducted some not very careful experiments to test Snell’s law. I then presented them with some alternative laws of refraction that had been suggested in antiquity and mediaeval times, prior to the discovery of Snell’s law, and invited the students to test them with the measurements they had used to test Snell’s law; because of the wide margins of error they had attributed to their measurements, all of these alternative laws pass the test. This clearly brings out the point that the experiments in question did not constitute a severe test of Snell’s law. The law would have passed the test even if it were false and one of the historical alternatives true.",
+    "directions": "Direction for questions 1 to 3: Read the passage below and solve the questions based on it.",
+    "question_text": "The author’s use of Snell’s law of refraction to illustrate Mayo’s perspective can best said to be",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "contrived."
+      },
+      {
+        "label": "b",
+        "text": "premeditated."
+      },
+      {
+        "label": "c",
+        "text": "superfluous."
+      },
+      {
+        "label": "d",
+        "text": "illustrative."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 10,
+    "question_code": "RC-T5-Q10",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p19",
+    "set_position": 1,
+    "context_passage": "A recent World Bank research project assembled and analyzed 35 rounds of the National Sample Survey Organization household survey, covering a period from 1951 to 1993-94. These national household surveys are suitable for tracking the poor’s living conditions since the consumption data that have been collected in these surveys are reasonably comparable. The most recent (1993-94) household survey conducted by the National Sample Survey Organization and based on the poverty lines calculated by the World Bank, reveals that 36.7 per cent of India’s rural population and 30.5 per cent of its city-dwellers lived in poverty–a national average of 35.0 per cent. What is important is that as average Indian living standards rose during the 40 years since 1951 and particularly after the mid- 1970s, the poor did not get poorer. The magnitude of decline in poverty of the last two decades is significant but not dramatic. While the decline of poverty since the early 1970s has been sizable (from an incidence of 56 per cent to 35 per cent in 1993-94), India’s progress in fighting poverty has been modest when compared with some of its Asian neighbours. Between 1970 and 1993, for example, the proportion of Indonesia’s population living in poverty dropped from 58 to 8 per cent, an annual decline of nearly 10 per cent. As of 1993-94, India’s poverty continues to be predominantly rural although rural poverty declined faster than urban poverty over 1951-88. Moreover, the decline in national poverty seems to have been driven mostly by the decline in rural poverty — not surprising given that 74 per cent of India’s population lives in rural areas. Many studies suggest that the poor perceive themselves to be better off now than in previous decades. However, these studies also point to pockets of increasing impoverishment.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "Why did the World Bank research project use the data of National Sample Survey Organization?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It was quite accurate."
+      },
+      {
+        "label": "b",
+        "text": "It was reliable."
+      },
+      {
+        "label": "c",
+        "text": "It was supported by the government."
+      },
+      {
+        "label": "d",
+        "text": "It was reasonably comparable."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "(a) Not given in the passage. (b) No data to support. (c) Not mentioned in the passage. (d) It is mentioned in the passage. Hence, option (d) is the answer.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 11,
+    "question_code": "RC-T5-Q11",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p19",
+    "set_position": 2,
+    "context_passage": "A recent World Bank research project assembled and analyzed 35 rounds of the National Sample Survey Organization household survey, covering a period from 1951 to 1993-94. These national household surveys are suitable for tracking the poor’s living conditions since the consumption data that have been collected in these surveys are reasonably comparable. The most recent (1993-94) household survey conducted by the National Sample Survey Organization and based on the poverty lines calculated by the World Bank, reveals that 36.7 per cent of India’s rural population and 30.5 per cent of its city-dwellers lived in poverty–a national average of 35.0 per cent. What is important is that as average Indian living standards rose during the 40 years since 1951 and particularly after the mid- 1970s, the poor did not get poorer. The magnitude of decline in poverty of the last two decades is significant but not dramatic. While the decline of poverty since the early 1970s has been sizable (from an incidence of 56 per cent to 35 per cent in 1993-94), India’s progress in fighting poverty has been modest when compared with some of its Asian neighbours. Between 1970 and 1993, for example, the proportion of Indonesia’s population living in poverty dropped from 58 to 8 per cent, an annual decline of nearly 10 per cent. As of 1993-94, India’s poverty continues to be predominantly rural although rural poverty declined faster than urban poverty over 1951-88. Moreover, the decline in national poverty seems to have been driven mostly by the decline in rural poverty — not surprising given that 74 per cent of India’s population lives in rural areas. Many studies suggest that the poor perceive themselves to be better off now than in previous decades. However, these studies also point to pockets of increasing impoverishment.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What can be deduced about the poverty scenario in India before 1950?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "The poor were getting poorer."
+      },
+      {
+        "label": "b",
+        "text": "The rich were getting richer."
+      },
+      {
+        "label": "c",
+        "text": "The rich became richer at the expense of the poor."
+      },
+      {
+        "label": "d",
+        "text": "The income gap was unbridgeable."
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "(a) Passage says the trend got reversed later. Hence, option (a) is the answer. (b) Cannot be deduced. (c) Not mentioned in the passage (d) Not related to the content",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 12,
+    "question_code": "RC-T5-Q12",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p19",
+    "set_position": 3,
+    "context_passage": "A recent World Bank research project assembled and analyzed 35 rounds of the National Sample Survey Organization household survey, covering a period from 1951 to 1993-94. These national household surveys are suitable for tracking the poor’s living conditions since the consumption data that have been collected in these surveys are reasonably comparable. The most recent (1993-94) household survey conducted by the National Sample Survey Organization and based on the poverty lines calculated by the World Bank, reveals that 36.7 per cent of India’s rural population and 30.5 per cent of its city-dwellers lived in poverty–a national average of 35.0 per cent. What is important is that as average Indian living standards rose during the 40 years since 1951 and particularly after the mid- 1970s, the poor did not get poorer. The magnitude of decline in poverty of the last two decades is significant but not dramatic. While the decline of poverty since the early 1970s has been sizable (from an incidence of 56 per cent to 35 per cent in 1993-94), India’s progress in fighting poverty has been modest when compared with some of its Asian neighbours. Between 1970 and 1993, for example, the proportion of Indonesia’s population living in poverty dropped from 58 to 8 per cent, an annual decline of nearly 10 per cent. As of 1993-94, India’s poverty continues to be predominantly rural although rural poverty declined faster than urban poverty over 1951-88. Moreover, the decline in national poverty seems to have been driven mostly by the decline in rural poverty — not surprising given that 74 per cent of India’s population lives in rural areas. Many studies suggest that the poor perceive themselves to be better off now than in previous decades. However, these studies also point to pockets of increasing impoverishment.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "What is the meaning of dramatic used in the second last paragraph?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Unreasonably high"
+      },
+      {
+        "label": "b",
+        "text": "Abysmally low"
+      },
+      {
+        "label": "c",
+        "text": "Very high"
+      },
+      {
+        "label": "d",
+        "text": "Statistically insignificant"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "(a) It is high but not unreasonable. (b) It is not correct. (c) Fits into the context, Hence, option (c) is the answer. (d) Does not fit into the context.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 13,
+    "question_code": "RC-T5-Q13",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p19",
+    "set_position": 4,
+    "context_passage": "A recent World Bank research project assembled and analyzed 35 rounds of the National Sample Survey Organization household survey, covering a period from 1951 to 1993-94. These national household surveys are suitable for tracking the poor’s living conditions since the consumption data that have been collected in these surveys are reasonably comparable. The most recent (1993-94) household survey conducted by the National Sample Survey Organization and based on the poverty lines calculated by the World Bank, reveals that 36.7 per cent of India’s rural population and 30.5 per cent of its city-dwellers lived in poverty–a national average of 35.0 per cent. What is important is that as average Indian living standards rose during the 40 years since 1951 and particularly after the mid- 1970s, the poor did not get poorer. The magnitude of decline in poverty of the last two decades is significant but not dramatic. While the decline of poverty since the early 1970s has been sizable (from an incidence of 56 per cent to 35 per cent in 1993-94), India’s progress in fighting poverty has been modest when compared with some of its Asian neighbours. Between 1970 and 1993, for example, the proportion of Indonesia’s population living in poverty dropped from 58 to 8 per cent, an annual decline of nearly 10 per cent. As of 1993-94, India’s poverty continues to be predominantly rural although rural poverty declined faster than urban poverty over 1951-88. Moreover, the decline in national poverty seems to have been driven mostly by the decline in rural poverty — not surprising given that 74 per cent of India’s population lives in rural areas. Many studies suggest that the poor perceive themselves to be better off now than in previous decades. However, these studies also point to pockets of increasing impoverishment.",
+    "directions": "Direction for questions 1 to 4: Read the passage below and solve the questions based on it.",
+    "question_text": "How does India’s anti poverty campaign fare against some of its neighbours?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "It is a big failure."
+      },
+      {
+        "label": "b",
+        "text": "It is moderately successful."
+      },
+      {
+        "label": "c",
+        "text": "It is unprecedented."
+      },
+      {
+        "label": "d",
+        "text": "It is a grand success."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "(a) The passage contradicts this statement, hence, it cannot be the answer. (b) It is indicated in the second and third paragraph. (c) It was partly successful, hence, this option cannot be the answer. (d) It was not a big success, hence, this option cannot be the answer.",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 14,
+    "question_code": "RC-T5-Q14",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 1,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "The orientalist perspective, according to the author:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Viewed India as a country of diversity."
+      },
+      {
+        "label": "b",
+        "text": "Viewed India as if it was a single and unitary entity devoid of diversity."
+      },
+      {
+        "label": "c",
+        "text": "Viewed India both as single and diverse entity."
+      },
+      {
+        "label": "d",
+        "text": "Viewed India as land of karma."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 15,
+    "question_code": "RC-T5-Q15",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 2,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "‘Reify’ in the passage means:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "To make real out of abstract"
+      },
+      {
+        "label": "b",
+        "text": "Reversal of stance"
+      },
+      {
+        "label": "c",
+        "text": "Unitary whole"
+      },
+      {
+        "label": "d",
+        "text": "Diversity"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 16,
+    "question_code": "RC-T5-Q16",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 3,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "‘Ethicization’ in the passage means:",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Process of making something ethical"
+      },
+      {
+        "label": "b",
+        "text": "Converting unethical persons into ethical"
+      },
+      {
+        "label": "c",
+        "text": "Judging and evaluation"
+      },
+      {
+        "label": "d",
+        "text": "Teaching ethics"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 17,
+    "question_code": "RC-T5-Q17",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 4,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "Consider the following statements: 1. Meaning of karma is contextual. 2. Meaning of karma is not unanimous. 3. Meaning of karma includes many other quasi-independent concepts. 4. Karma also means actions and their rewards. Which of the statements are true?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "1, 2, 3"
+      },
+      {
+        "label": "b",
+        "text": "2, 3, 4"
+      },
+      {
+        "label": "c",
+        "text": "1, 3, 4"
+      },
+      {
+        "label": "d",
+        "text": "All the four are true"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 18,
+    "question_code": "RC-T5-Q18",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 5,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "The base meaning of karma is",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "reward and punishment."
+      },
+      {
+        "label": "b",
+        "text": "only those actions which yield a ‘phala’."
+      },
+      {
+        "label": "c",
+        "text": "any action."
+      },
+      {
+        "label": "d",
+        "text": "ripening of actions into consequences."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 19,
+    "question_code": "RC-T5-Q19",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 6,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "As per the author, which of the following statements is wrong?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "India is a diverse country."
+      },
+      {
+        "label": "b",
+        "text": "Doctrine of karma runs across divergent Hindu thoughts."
+      },
+      {
+        "label": "c",
+        "text": "Doctrine of karma has a rich scholarly discourse."
+      },
+      {
+        "label": "d",
+        "text": "Scholars could not resolve the meaning of karma."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "test": 5,
+    "question_number": 20,
+    "question_code": "RC-T5-Q20",
+    "section": "Reading Comprehension",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Reading Comprehension",
+    "set_id": "t5-p20",
+    "set_position": 7,
+    "context_passage": "India is renowned for its diversity. Dissimilitude abounds in every sphere – from the physical elements of its land and people to the intangible workings of its beliefs and practices. Indeed, given this variety, India itself appears to be not a single entity but an amalgamation, a ‘constructs’ arising from the conjoining of innumerable, discrete parts. Modem scholarship has, quite properly, tended to explore these elements in isolation. (In part, this trend represents the conscious reversal of the stance taken by an earlier generation of scholars whose work reified India into a monolithic entity – a critical element in the much maligned ‘Orientalist’ enterprise). Nonetheless, the representation of India as a singular ‘Whole’ is not an entirely capricious enterprise; for India is an identifiable entity, united by – if not born out of – certain deep and pervasive structures. Thus, for example, the Hindu tradition has long maintained a body of mythology that weaves the disparate temples, gods, even geographic landscapes that exist throughout the subcontinent into a unified, albeit syncretic, whole. In the realm of thought, there is no more pervasive, unifying structure than karma. It is the ‘doctrine’ or ‘law’ that ties actions to results and creates a determinant link between an individual’s status in this life and his or her fate in future lives. Following what is considered to be its appearances in the Upanishads, the doctrine reaches into nearly every corner of Hindu thought. Indeed, its dominance is such in the Hindu world view that karma encompasses, at the same time, life-affirming and life-negating functions; for just as it defines the world in terms of the ‘positive’ function of delineating a doctrine of rewards and punishments, so too it defines the world through its ‘negative’ representation of action as an all but inescapable trap, an unremitting cycle of death and rebirth. Despite – or perhaps because of – karma’s ubiquity, the doctrine is not easily defined. Wendy Doniger O’Flaherty reports of a scholarly conference devoted to the study of karma that although the participants admitted to a general sense of the doctrine’s parameters, considerable time was in a, ‘lively but ultimately vain attempt to define … karma and rebirth’. The base meaning of the term ‘karma’ (or, more precisely, in its Sanskrit stem form, karman a neuter substantive) is ‘action’. As a doctrine, karma encompasses a number of quasi- independent concepts: rebirth (punarjanam), consequence (phala, literally ‘fruit,’ a term that suggests the ‘ripening’ of actions into consequences), and the valuation or ‘ethicization’ of acts, qualifying them as either ‘good’ (punya or sukarman) or ‘bad’ (papam or duskarman). In a general way, however, for at least the past two thousand years, the following (from the well known text, the Bhagavata Parana) has held true as representing the principal elements of the karma doctrine: ‘The same person enjoys the fruit of the same sinful or a meritorious act in the next world in the same manner and to the same extent according to the manner and extent, to which that (sinful or meritorious) act has been done by him in this world.’ Nevertheless, depending on the doctrine’s context, which itself ranges from its appearance in a vast number of literary sources to its usage on the popular level, not all these elements may be present (though in a general way, they may be implicit).",
+    "directions": "Direction for questions 1 to 7: Read the passage below and solve the questions based on it.",
+    "question_text": "Which of the following, if true, would be required for the concept of karma – as defined in Bhagavata Purana – to be made equally valid across different space-time combinations?",
+    "underline": "",
+    "options": [
+      {
+        "label": "a",
+        "text": "Karma is judged based on the observers’ perception, and hence, the observer is a necessary condition for its validity."
+      },
+      {
+        "label": "b",
+        "text": "Karma is an orientalist concept limited to oriental countries."
+      },
+      {
+        "label": "c",
+        "text": "Each epoch will have its own understanding of karma and therefore there cannot be uniform validity of the concept of karma."
+      },
+      {
+        "label": "d",
+        "text": "The information of the past actions and the righteousness of each action would be embodied in the individual."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "source": "Nishit Sinha VA-RC (Pearson 2017)",
+    "verified": false,
+    "removed": false
+  }
+]
