@@ -35,7 +35,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "The highest absolute difference between estimated & actual cost will be maximum for the phase for which manpower & difference between estimated & actual time is maximum among Design, Foundation & Construction. We can observe the manpower requirement in design is too low as compared to Foundation & construction, so it must not be the required answer. Manpower requirement is close between Foundation & Construction. However it is more for construction. The difference between estimated & actual time required for Foundation & Construction are 1 & 2 months. So, it’s clear that the absolute difference between estimated & actual cost must be more in Construction phase. Correct option is (c). We must avoid solving such questions by actual calculations.",
+    "explanation": "The highest absolute difference between estimated & actual cost will be maximum for the phase for which manpower & difference between estimated & actual time is maximum among Design, Foundation & Construction. We can observe the manpower requirement in design is too low as compared to Foundation & construction, so it must not be the required answer. Manpower requirement is close between Foundation & Construction. However it is more for construction. The difference between estimated & actual time required for Foundation & Construction are 1 & 2 months. So, it’s clear that the absolute differenc",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -185,15 +185,15 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007it will increase by less than 20% but more than 10%"
+        "text": "it will increase by less than 20% but more than 10%"
       },
       {
         "label": "b",
-        "text": "\u0007it will increase by less than 30% but more than 20%"
+        "text": "it will increase by less than 30% but more than 20%"
       },
       {
         "label": "c",
-        "text": "\u0007it will decrease by less than 15% but more than 5%"
+        "text": "it will decrease by less than 15% but more than 5%"
       },
       {
         "label": "d",
@@ -371,7 +371,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "The additional cost of producing each item after 920 items were produced is only the variable cost as fixed cost is constant from 800 to 1500 items produced. The variable cost 800 to 1500 is represented by linear graph with x-axis show 800 to 1500 (items produced) & y-axis show amount from 70 lakh to 105 lakh So, the additional cost per item produced for this range (i.e. 800 to 1500) & so also for item produced after 920 were produced is the slope of this line showing the variable cost curve. Required additional cost = (105 lakh – 70 lakh)/(1500 – 800) = ₹35 lakh/700 = ₹5,000 Correct option is (b)",
+    "explanation": "The additional cost of producing each item after 920 items were produced is only the variable cost as fixed cost is constant from 800 to 1500 items produced. The variable cost 800 to 1500 is represented by linear graph with x-axis show 800 to 1500 (items produced) & y-axis show amount from 70 lakh to 105 lakh So, the additional cost per item produced for this range (i.e. 800 to 1500) & so also for item produced after 920 were produced is the slope of this line showing the variable cost curve. Required additional cost = (105 lakh – 70 lakh)/(1500 – 800) = ₹35 lakh/700 = ₹5,000 Correct option is",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -413,7 +413,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Expenditure for 1997 = 150 lakh + 150 lakh = 300 lakh Income for 1997 = 400 lakh + 600 lakh = 1000 lakh Profit for 1997 = Income – Expenditure = 1000 lakh - 300 lakh = ₹700 lakh Expenditure for 1999 = 150 lakh + 100 lakh = 250 lakh Income for 1999 = 600 lakh + 700 lakh = 1300 lakh Profit for 1997 = Income – Expenditure = 1300 lakh - 250 lakh = ₹1050 lakh Expenditure for 2002 = 200 lakh + 300 lakh = 500 lakh Income for 2002 = 500 lakh + 600 lakh = 1100 lakh Profit for 1997 = Income – Expenditure = 1100 lakh - 500 lakh = ₹600 lakh Expenditure for 1994 = 150 lakh + 250 lakh = 400 lakh Income for 1994 = 300 lakh + 500 lakh = 800 lakh Profit for 1997 = Income – Expenditure = 800 lakh - 400 lakh = ₹400 lakh The total profit of Tata Tea is highest for the year 1999 Correct option is (b)",
+    "explanation": "Expenditure for 1997 = 150 lakh + 150 lakh = 300 lakh Income for 1997 = 400 lakh + 600 lakh = 1000 lakh Profit for 1997 = Income – Expenditure = 1000 lakh - 300 lakh = ₹700 lakh Expenditure for 1999 = 150 lakh + 100 lakh = 250 lakh Income for 1999 = 600 lakh + 700 lakh = 1300 lakh Profit for 1997 = Income – Expenditure = 1300 lakh - 250 lakh = ₹1050 lakh Expenditure for 2002 = 200 lakh + 300 lakh = 500 lakh Income for 2002 = 500 lakh + 600 lakh = 1100 lakh Profit for 1997 = Income – Expenditure = 1100 lakh - 500 lakh = ₹600 lakh Expenditure for 1994 = 150 lakh + 250 lakh = 400 lakh Income for",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -601,7 +601,7 @@
     "set_position": 1,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "How many of the following statements are correct? I. \u0007In terms of vote share, Labour and Liberal parties taken together lost 3.2 percent in 1998 but gained a total of 16 seats in the same period. \b II. \u0007Democrats, Republicans and 35% of the Independents could have formed the government only in two election years. III. \u0007No party increased its vote share in every succeeding election. IV. \u0007In the 2000 elections, as compared to the 1996 elections, Republicans and Democrats taken together, gained more in terms of vote share than in terms of percentage of seats.",
+    "question_text": "How many of the following statements are correct? I. In terms of vote share, Labour and Liberal parties taken together lost 3.2 percent in 1998 but gained a total of 16 seats in the same period. II. Democrats, Republicans and 35% of the Independents could have formed the government only in two election years. III. No party increased its vote share in every succeeding election. IV. In the 2000 elections, as compared to the 1996 elections, Republicans and Democrats taken together, gained more in terms of vote share than in terms of percentage of seats.",
     "options": [
       {
         "label": "a",
@@ -623,7 +623,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Statement I: Incorrect Vote share of Labour and Liberal party taken together in the year 1996 = 28.8 + 1.97 = 30.77 Vote share of Labour and Liberal party taken together in the year 1998 = 25.82 + 1.75 = 27.57 ∴ Loss of vote share = 3.2% Number of seats won by Labour and Liberal in the year 1996 = 143 Number of seats won by Labour and Liberal in the year 1998 = 158 ∴ Gain is 15 seats. Statement II: Correct Democrats, Republicans and 35% of the Independents could have formed the government in two elections 1998 and 2000. Statement III: Correct By observation, we find that no party increased its vote share in every succeeding election. Statement IV: Incorrect In 1996, vote share of the Republicans and Democrats = (20.29 + 6.12) = 26.41% In 2000, vote share of the Republicans and Democrats= (23.75 + 5.4) = 29.15% In 1996, percentage of seats of the Republicans and Democrats = (29.61 + 5.88) = 35.49% In 2000, percentage of seats of the Republicans and Democrats = (33.53 + 6.00) = 39.53%. Difference in the vote share = 2.74% Difference in the percentage of the seats = 4.04% So, two statements are correct (II & III).",
+    "explanation": "Statement I: Incorrect Vote share of Labour and Liberal party taken together in the year 1996 = 28.8 + 1.97 = 30.77 Vote share of Labour and Liberal party taken together in the year 1998 = 25.82 + 1.75 = 27.57 ∴ Loss of vote share = 3.2% Number of seats won by Labour and Liberal in the year 1996 = 143 Number of seats won by Labour and Liberal in the year 1998 = 158 ∴ Gain is 15 seats. Statement II: Correct Democrats, Republicans and 35% of the Independents could have formed the government in two elections 1998 and 2000. Statement III: Correct By observation, we find that no party increased its",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -643,7 +643,7 @@
     "set_position": 2,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "How many of the following statements are incorrect? I. \u0007In the year 2002, in terms of percentage of seats obtained, Democrats and Labour together lost the maximum. II. \u0007Liberals and Republicans taken together lost both in terms of vote share and the number of seats obtained in the year 2000. III. \u0007In the 2000 elections, all the parties lost in terms of number of seats. IV. \u0007The highest gain in the number of seats for Labour was in the year 2002.",
+    "question_text": "How many of the following statements are incorrect? I. In the year 2002, in terms of percentage of seats obtained, Democrats and Labour together lost the maximum. II. Liberals and Republicans taken together lost both in terms of vote share and the number of seats obtained in the year 2000. III. In the 2000 elections, all the parties lost in terms of number of seats. IV. The highest gain in the number of seats for Labour was in the year 2002.",
     "options": [
       {
         "label": "a",
@@ -665,7 +665,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Statement I: Incorrect Percentage of seats obtained by Democrats and Labour together in years 1996, 1998, 2000 and in 2002 were 55.49%, 59.29%, 54.45% and 52.09% respectively. In 2002, they lost only 2.36% but in 2000 elections, they lost 4.84%. Hence, (A) is incorrect. Statement II: Correct Vote share of the Liberals and Republicans together in the year 1998 = 6.91%. Vote share of the Liberals and Republicans together in the year 2000 = 6.88%. Number of seats obtained by the Liberals and Republicans together in the year 1998 = 44. Number of seats obtained by the Liberals and Republicans together in the year 2000 = 34. Statement III: Incorrect Difference in the number of seats won by Independents in 2000 and 1998 = +6 Difference in the number of seats won by Labour in 2000 and 1998 = –43 Difference in the number of seats won by Republican in 2000 and 1998 = –4 Difference in the number of seats won by Liberals in 2000 and 1998 = –6 Difference in the number of seats won by Democrats in 2000 and 1998 = –22 Statement IV: Correct Number of seats won by Labour party in the year 1996 = 132 Number of seats won by Labour party in the year 1998 = 148 Number of seats won by Labour party in the year 2000 = 105 Number of seats won by Labour party in the year 2002 = 165. So, 2 statements are incorrect (I & III)",
+    "explanation": "Statement I: Incorrect Percentage of seats obtained by Democrats and Labour together in years 1996, 1998, 2000 and in 2002 were 55.49%, 59.29%, 54.45% and 52.09% respectively. In 2002, they lost only 2.36% but in 2000 elections, they lost 4.84%. Hence, (A) is incorrect. Statement II: Correct Vote share of the Liberals and Republicans together in the year 1998 = 6.91%. Vote share of the Liberals and Republicans together in the year 2000 = 6.88%. Number of seats obtained by the Liberals and Republicans together in the year 1998 = 44. Number of seats obtained by the Liberals and Republicans toget",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -685,7 +685,7 @@
     "set_position": 3,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "How many of the following statements are correct? I. \u0007Democrats and Labour together improved their vote share by a larger margin in 1998 over 1996 as compared to the one in 2002 over 1996. II. \u0007The number of seats lost by the Democrats in the 2002 elections was less than the number of seats gained by the Republicans in the same year. III. \u0007In 2002, the Independents gained the most, both in terms of vote share and the number of seats obtained. IV. \u0007If 70% of the Independents had joined Labour, they could have formed a government in 2002 but not in 1996.",
+    "question_text": "How many of the following statements are correct? I. Democrats and Labour together improved their vote share by a larger margin in 1998 over 1996 as compared to the one in 2002 over 1996. II. The number of seats lost by the Democrats in the 2002 elections was less than the number of seats gained by the Republicans in the same year. III. In 2002, the Independents gained the most, both in terms of vote share and the number of seats obtained. IV. If 70% of the Independents had joined Labour, they could have formed a government in 2002 but not in 1996.",
     "options": [
       {
         "label": "a",
@@ -707,7 +707,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Statement I: Correct From graphs, we can conclude that the vote share of Democrats and Labour party in 1998 is greater than their combined vote share in 2002. Statement II: Correct Number of seats lost by Democrats in 2002 elections = (33.53 × 5.01 – 25.48 × 6.20) = 168 – 158 = 10 Number of seats gained by the Republicans in 2002 = (7.9 × 6.2 – 6 × 5.01) = 49 – 30 = 19. Statement III: Incorrect Independents gained the most in terms of vote share but in terms of the number of seats, labour gained the most over the 2000 election as they increased their seats from 105 in 2000 election to 165 in 2002 election. Statement IV: Incorrect. In the year 2002 as well as in the year 1996, 70% of Independents and Labour are eligible to form the Government as their share in the seats won is greater than 50% in each of the years. So, 2 statements are correct (I & II)",
+    "explanation": "Statement I: Correct From graphs, we can conclude that the vote share of Democrats and Labour party in 1998 is greater than their combined vote share in 2002. Statement II: Correct Number of seats lost by Democrats in 2002 elections = (33.53 × 5.01 – 25.48 × 6.20) = 168 – 158 = 10 Number of seats gained by the Republicans in 2002 = (7.9 × 6.2 – 6 × 5.01) = 49 – 30 = 19. Statement III: Incorrect Independents gained the most in terms of vote share but in terms of the number of seats, labour gained the most over the 2000 election as they increased their seats from 105 in 2000 election to 165 in 2",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -731,19 +731,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Wipro’s share in the total sales of the electronic sector was lower than the share of Tata Steel in the total sales of the iron and steel sector in each of the given years."
+        "text": "Wipro’s share in the total sales of the electronic sector was lower than the share of Tata Steel in the total sales of the iron and steel sector in each of the given years."
       },
       {
         "label": "b",
-        "text": "\u0007From the group consisting of the textiles and the iron and steel sector, there were five companies whose salaries and wages as a percentage of the total salaries and wages of their respective sectors increased in 2007 as compared to 2005."
+        "text": "From the group consisting of the textiles and the iron and steel sector, there were five companies whose salaries and wages as a percentage of the total salaries and wages of their respective sectors increased in 2007 as compared to 2005."
       },
       {
         "label": "c",
-        "text": "\u0007Tata Steel’s R & D expenditure in each of the given years as a percentage of the sales was lower than that of the iron and steel sector as a whole."
+        "text": "Tata Steel’s R & D expenditure in each of the given years as a percentage of the sales was lower than that of the iron and steel sector as a whole."
       },
       {
         "label": "d",
-        "text": "\u0007From the group consisting of the pharmaceutical and the electronic sectors, there were five companies which experienced a decline in the growth rate of sales in 2007."
+        "text": "From the group consisting of the pharmaceutical and the electronic sectors, there were five companies which experienced a decline in the growth rate of sales in 2007."
       }
     ],
     "correct_answer": "c",
@@ -769,7 +769,7 @@
     "set_position": 3,
     "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "How many of the statements given below is/are correct? I. \u0007Salaries and wages of each company in the iron and steel sector were up to 13 times its losses reported in each of the loss-making years. II. \u0007Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period was minimum for the pharmaceutical sector. III. \u0007Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period for only two companies exceeded 20 per cent. IV. \u0007Total profits/Total sales for all the four sectors taken together was higher in 2006 than in 2005.",
+    "question_text": "How many of the statements given below is/are correct? I. Salaries and wages of each company in the iron and steel sector were up to 13 times its losses reported in each of the loss-making years. II. Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period was minimum for the pharmaceutical sector. III. Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period for only two companies exceeded 20 per cent. IV. Total profits/Total sales for all the four sectors taken together was higher in 2006 than in 2005.",
     "options": [
       {
         "label": "a",
@@ -785,7 +785,7 @@
       },
       {
         "label": "d",
-        "text": "3 \b"
+        "text": "3"
       }
     ],
     "correct_answer": "b",
@@ -815,19 +815,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Cipla experienced the highest percentage decline in its R&D expenditure in any single year during the given period."
+        "text": "Cipla experienced the highest percentage decline in its R&D expenditure in any single year during the given period."
       },
       {
         "label": "b",
-        "text": "\u0007Of all companies which incurred R&D expenditure every year during 2005-2007, the total R&D expenditure/total sales was the highest for Dr Reddy’s Laboratories."
+        "text": "Of all companies which incurred R&D expenditure every year during 2005-2007, the total R&D expenditure/total sales was the highest for Dr Reddy’s Laboratories."
       },
       {
         "label": "c",
-        "text": "\u0007During 2005-2007, in terms of sales growth, the best performer in the pharmaceutical sector fared better than the best performer in the iron and steel sector."
+        "text": "During 2005-2007, in terms of sales growth, the best performer in the pharmaceutical sector fared better than the best performer in the iron and steel sector."
       },
       {
         "label": "d",
-        "text": "\u0007Videocon International Ltd experienced the second largest percentage decline in salaries and wages in any single year during the given period."
+        "text": "Videocon International Ltd experienced the second largest percentage decline in salaries and wages in any single year during the given period."
       }
     ],
     "correct_answer": "d",
@@ -853,7 +853,7 @@
     "set_position": 5,
     "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "How many of the situations described in the options below, when plotted closely resemble the figure? I. \u0007Raymond Limited ‘s share in the total sales of the textile sector II. \u0007Tata Steel’s share in the total sales of the iron and steel sector III. \u0007Glaxo Smithkline Ltd’s salaries and wages as a percentage of sales IV. \u0007Raymond Limited’s profit as a percentage of sales",
+    "question_text": "How many of the situations described in the options below, when plotted closely resemble the figure? I. Raymond Limited ‘s share in the total sales of the textile sector II. Tata Steel’s share in the total sales of the iron and steel sector III. Glaxo Smithkline Ltd’s salaries and wages as a percentage of sales IV. Raymond Limited’s profit as a percentage of sales",
     "options": [
       {
         "label": "a",
@@ -875,7 +875,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Statement 2005 2006 2007 I (Raymond Ltd share 2.78% 1.98% 1.96% in total sales of textile sector) II (Tata Steel share in 15.61% 14.89% 14.95% total sales of Iron & Steel sector) III (Glaxo Smithkline 12.16% 11.61% 11.19% Ltd Salaries & wages as % of sales IV (Raymond Ltd share 22.47% 8.83% 8.69% profit as % of sales) So, if we make graph for these values for I, II, III & IV we get the shape as shown in figure for I & IV only (after change of scale). The shape shown in question can be obtained in values for 2006 & 2007 are almost equal & value for 2005 is greater than them by good margin. Correct option is (b)",
+    "explanation": "Statement 2005 2006 2007 I (Raymond Ltd share 2.78% 1.98% 1.96% in total sales of textile sector) II (Tata Steel share in 15.61% 14.89% 14.95% total sales of Iron & Steel sector) III (Glaxo Smithkline 12.16% 11.61% 11.19% Ltd Salaries & wages as % of sales IV (Raymond Ltd share 22.47% 8.83% 8.69% profit as % of sales) So, if we make graph for these values for I, II, III & IV we get the shape as shown in figure for I & IV only (after change of scale). The shape shown in question can be obtained in values for 2006 & 2007 are almost equal & value for 2005 is greater than them by good margin. Corr",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -1001,7 +1001,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "WPI (Wholesale Price Index) for 28 Jan, 2006 = 0.6375 × 170.8 + 0.1423 × 310.7 + 0.2202 × 194.3 = 195.88 WPI (Wholesale Price Index) for 02 Dec, 2006 = 0.6375 × 181.3 + 0.1423 × 322.4 + 0.2202 × 212.1 = 208.16 WPI (Wholesale Price Index) for 20 Jan, 2007 = 0.6375 × 181.4 + 0.1423 × 322.1 + 0.2202 × 213.7 = 208.53 WPI (Wholesale Price Index) for 27 Jan, 2007 =\n\nWe are not given any day before 28th Jan, 2006 & so we cannot determine the rate of inflation on 28th Jan, 2006 over its previous given day. So, it cannot be determined. Correct option is (d)",
+    "explanation": "WPI (Wholesale Price Index) for 28 Jan, 2006 = 0.6375 × 170.8 + 0.1423 × 310.7 + 0.2202 × 194.3 = 195.88 WPI (Wholesale Price Index) for 02 Dec, 2006 = 0.6375 × 181.3 + 0.1423 × 322.4 + 0.2202 × 212.1 = 208.16 WPI (Wholesale Price Index) for 20 Jan, 2007 = 0.6375 × 181.4 + 0.1423 × 322.1 + 0.2202 × 213.7 = 208.53 WPI (Wholesale Price Index) for 27 Jan, 2007 = We are not given any day before 28th Jan, 2006 & so we cannot determine the rate of inflation on 28th Jan, 2006 over its previous given day. So, it cannot be determined. Correct option is (d)",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

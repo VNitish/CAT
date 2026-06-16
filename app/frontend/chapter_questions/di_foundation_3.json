@@ -453,7 +453,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question is asking for absolute value in the percentage change of different faculty across the two years 1So we are required to calculate percentage increase as well as percentage decrease both, as applicable for different faculty. Again, let us first observe the data set and identify if we can eliminate any option by simple observation of data: We can eliminate option (b) Science – Percentage contribution of science has increased from 16% to 22% – so it cannot be the answer. (Going through 8800 – 5600 the actual calculation, Science = ×100 5600 = 57%) Similarly option (c) Commerce cannot be the answer as it will have net percentage change = 14.28%. (We will calculate the change in total number of students only, and since the percentage contribution of commerce remains same in both the years, answer would be equivalent to the percentage change in the total number of students.) Hence even option (c) cannot be the answer. Let us calculate for remaining three options: Percentage change in the faculty of: 4550 – 4400 Arts = × 100 = 3.2% 4400 7600 – 7000 Engineering = × 100 = 8.57% 7000 4200 – 4000 Medicine = × 100 = 4.7% 4200 [Since question asks for absolute value of percentage change, we do not care for percentage increase or percentage decrease]. Hence, the percentage change in Arts is minimum. Hence option (a) is the answer.",
+    "explanation": "Question is asking for absolute value in the percentage change of different faculty across the two years 1So we are required to calculate percentage increase as well as percentage decrease both, as applicable for different faculty. Again, let us first observe the data set and identify if we can eliminate any option by simple observation of data: We can eliminate option (b) Science – Percentage contribution of science has increased from 16% to 22% – so it cannot be the answer. (Going through 8800 – 5600 the actual calculation, Science = ×100 5600 = 57%) Similarly option (c) Commerce cannot be t",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -677,7 +677,7 @@
       },
       {
         "label": "e",
-        "text": "15 \b"
+        "text": "15"
       }
     ],
     "correct_answer": "e",

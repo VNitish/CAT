@@ -35,7 +35,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4\n\nCompany From 2010 to 2011 From 2011 to 2012 D 20% %x Method 1: It is given that company D’s revenue in 2010 is same as its revenue in 2012. So the increase (in amount) in 2011 shall be compensated (negatively) in 2012. Assume that the revenue in 2010 is ₹100. ₹100 ¡ 20% c ₹120 (in 2011) T ¡ x% ₹100 (in 2012)",
+    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4 Company From 2010 to 2011 From 2011 to 2012 D 20% %x Method 1: It is given that company D’s revenue in 2010 is same as its revenue in 2012. So the increase (in amount) in 2011 shall be compensated (negatively) in 2012. Assume that the revenue in 2010 is ₹100.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -77,7 +77,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4\n\n₹100 ¡ 20% ₹(in 2011) ¡ 15% ₹102 (in 2012). Hence correct option is (b)",
+    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4 ₹100 ¡ 20% ₹(in 2011) ¡ 15% ₹102 (in 2012). Hence correct option is (b)",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -119,7 +119,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4\n\nIt is like population of two countries are same this year, and we have been asked to find out a relation between their populations two years back. It is not possible to determine. Hence option (d) cannot be determined is the answer.",
+    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4 It is like population of two countries are same this year, and we have been asked to find out a relation between their populations two years back. It is not possible to determine. Hence option (d) cannot be determined is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -161,7 +161,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4\n\nInformation given in the question set is regarding the sales value. Hence any question regarding sales volume cannot be answered. Hence option (d) cannot be determined is the answer.",
+    "explanation": "Question mentions the percentage change in the sales revenue of five companies. Understand that unless price per article is mentioned, we cannot find out the sales volume. To solve the questions ahead, you may be required to use (a) Successive Percentage change expression, (b) Product Stability Ratio. Solution and Explanations for 1 to 4 Information given in the question set is regarding the sales value. Hence any question regarding sales volume cannot be answered. Hence option (d) cannot be determined is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -203,7 +203,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7\n\nWe have to find out the minimum number of respondents less than age 40 years. Following is the number of respondents aged less than 40 years No. of children Male Female Total 0 1 1 2 1 1 1 2 2 1 1 2 3 2 1* 3 Total 5 4 9 *- Out of 2 females, one has to be of 40 years. Since question is asking for minimum number of respondent less than 40 years, we can count only one. Percentage of minimum respondents aged less than 9 40 years = 30× 100 = 30% Hence option (d) is the answer.",
+    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7 We have to find out the minimum number of respondents less than age 40 years. Following is the number of respondents aged less than 40 years No. of children Male Female Total 0 1 1 2 1 1 1 2 2 1 1 2 3 2 1* 3 Total 5 4 9 *- Out of 2 females, one has to be of 40 years. Since question is asking for minimum number of respondent less than 40 years, we can count only one. Percentage of minimum respondents aged less than 9 40 years = 30",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -245,7 +245,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7\n\nWe have to find out the maximum number of respondents aged more than 35 years. Following is the number of respondents aged: No. of children Male Female Total 0 1 4 5 1 0 7 7 2 7 3 10 3 0 1 1 Total 8 15 23 Percentage of maximum respondents aged less 23 more than 35years = 30× 100 = 76.67% Hence option (c) is the answer.",
+    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7 We have to find out the maximum number of respondents aged more than 35 years. Following is the number of respondents aged: No. of children Male Female Total 0 1 4 5 1 0 7 7 2 7 3 10 3 0 1 1 Total 8 15 23 Percentage of maximum respondents aged less 23 more than 35years = 30× 100 = 76.67% Hence option (c) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -287,7 +287,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7\n\nNumber of respondents in the given age bracket = 4 4 Hence percentage respondents = 30× 100 = 13.33% Hence option (c) is the answer. StoryLine of 8 to 10 Method 1: This is a classical analytical reasoning question involving data—you are expected to match the variable (Name of person – Number of Idlis and Vadas eaten) as per the conditions given. I have put this set in this book because one is required to crack the data (number of idlis/vadas eaten) using the concept of ratio to solve this set. Solution and Explanation: To solve such questions, it is advisable to draw table using the information given – one by one: Using point (i): (a) Number of Vadas eaten by Ignesh is three times the number of vadas consumed by somebody. Hence number of vadas eaten by Ignesh should be 3 times of a number. Only possibility here = 6 (b) We also know that the person who eats four idlis eats two vadas. (So that Ignesh can eat three times the number of vadas eaten by this person). Idlis Vadas Name 1 4 5 6 8 0 1 2 4 6 Ignesh No No No No Yes Sandeep No Mukesh No Daljit No Bimal No Using point (ii): This does not give any concrete information. So we move on to the next point (iii). Using point (iii): This does not give any concrete information. So we move on to the next point (iv). Using point (iv): (a) Person who eats One Idli eats Zero Vada. (b) He is not Mukesh. So Mukesh cannot eat 0 (zero) vadas. So we can fill the relevant blocks in the grid. Idlis Vadas Name 1 4 5 6 8 0 1 2 4 6 Ignesh No No No No Yes Sandeep No Mukesh No No No Daljit No Bimal No Using point (v): (a) Daljit eats both idli and vada. So we’ll put a NO in 0 Vadas (Zero Vadas). Idlis Name 1 4 5 6 Ignesh No Sandeep No Mukesh No Yes No No Daljit No Bimal No (New blocks have been filled using bold and Using point (vii): Idlis Vadas Name 1 4 5 6 8 0 1 2 4 6 Ignesh No No No No Yes Sandeep No Mukesh No No No Daljit No No Bimal No Using Point (vi): (a) Number of vadas eaten by Mukesh = Half of the number of vadas eaten by somebody (let us call him X). This gives us two possibilities – either Mukesh eats 2 vadas or 1 vada. In any case Mukesh cannot eat 4 vadas. (b) Number of idlis eaten by Mukesh = Half of the number of idlis eaten by somebody (the same guy X). In this case, the only possibility is – Mukesh eats 4 idlis and that ‘somebody X’ eats 8 idlis. We’ll fill these information in the relevant blocks of the grid: Vadas 8 0 1 2 4 6 No No No No Yes No No No No No No No No italics font). (a) Bimal eats two more idlis than Ignesh 1Only Ignesh = 6 idlis. Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No (New blocks have been filled using bold and (b) Ignesh eats two more vadas than Bimal 1Ignesh Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No (New blocks have been filled using bold and Now, we have used all the direct statements. Its remaining blocks. Using (i) b - the person who eats four idlis eats two vadas. Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No (New blocks have been filled using bold and possible option for this to happen is: Bimal = 8 idlis and Vadas 8 0 1 2 4 6 No No No No No Yes No No No No No No No No No Yes No italics font). eats 6 vadas, so, Vimal eats 4 vadas. Vadas 8 0 1 2 4 6 No No No No No Yes No No No No No No No No No No No Yes No No No Yes No italics font). time to join two or more statements together to fill in the two vadas 1Since Mukesh eats four idlis, Mukesh eats Vadas 8 0 1 2 4 6 No No No No No Yes No No No No No No No Yes No No No No No No No Yes No No No Yes No italics font). Now, for Daljit in Vadas, only one block is empty. Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No This further fills in the grey cells. Other cells Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No This leaves us with only one option for Sandeep: Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep No No Mukesh No Yes No No Daljit No No Bimal No No No No (Shown in grey cell). This is shown in grey colour. Vadas 8 0 1 2 4 6 No No No No No Yes No No No No No No No Yes No No No No ?? No No No Yes No No No Yes No filled in this way are shown in grey colour: Vadas 8 0 1 2 4 6 No No No No No Yes No No No No No No No No Yes No No No No Yes No No No Yes No No No Yes No Number of vadas eaten = 0. Vadas 8 0 1 2 4 6 No No No No No Yes No Yes No No No No No No No Yes No No No No Yes No No No Yes No No No Yes No Using (iv) a - Person who eats One Idli eats Zero Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep Yes No No No Mukesh No Yes No No Daljit No No Yes No Bimal No No No No (new blocks have been shown in grey colour). This leaves only one option for Sandeep – 5 idlis Finally, we arrive at the following table: Idlis Name 1 4 5 6 Ignesh No No No Yes Sandeep Yes No No No Mukesh No Yes No No Daljit No No Yes No Bimal No No No No Summary Chart Idli Vada Ignesh 6 6 Sandeep 1 0 Mukesh 4 2 Daljit 5 1 Bimal 8 4",
+    "explanation": "As explained in the opening statements, number of respondents can be counted up as per the requirement in the individual question. Solution and Explanation for 5 to 7 Number of respondents in the given age bracket = 4 4 Hence percentage respondents = 30× 100 = 13.33% Hence option (c) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -305,7 +305,7 @@
     "subtopic": "",
     "set_id": "mod-t11-s3",
     "set_position": 1,
-    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
+    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
@@ -347,7 +347,7 @@
     "subtopic": "",
     "set_id": "mod-t11-s3",
     "set_position": 2,
-    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
+    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
@@ -389,25 +389,25 @@
     "subtopic": "",
     "set_id": "mod-t11-s3",
     "set_position": 3,
-    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
+    "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is true?",
     "options": [
       {
         "label": "a",
-        "text": "\u0007Mukesh eats 8 idlis and 4 vada but not chutney"
+        "text": "Mukesh eats 8 idlis and 4 vada but not chutney"
       },
       {
         "label": "b",
-        "text": "\u0007The person who eats 5 idlis and 1 vada does not take chutney."
+        "text": "The person who eats 5 idlis and 1 vada does not take chutney."
       },
       {
         "label": "c",
-        "text": "\u0007The person who eats equal number of vadas and idlis also takes chutney."
+        "text": "The person who eats equal number of vadas and idlis also takes chutney."
       },
       {
         "label": "d",
-        "text": "\u0007The person who eats 4 idlis and 2 vada also takes chutney."
+        "text": "The person who eats 4 idlis and 2 vada also takes chutney."
       }
     ],
     "correct_answer": "c",

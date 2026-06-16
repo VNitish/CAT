@@ -245,7 +245,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "You may note that apart from a few years for manufacturing and mining & quarrying, the annual growth rates in most years have been positive and near the 5 – 6% mark for all the sectors. The other options [a], [c], and [d] are too far away to be considered. Alternatively, for ease of calculation take the 1989 values for a manufacturing as 400, Mining & quarrying and Electricity as 300 each and Chemicals as 200. then, the final value for manufacturing would be nearly 580, that for mining & quarrying would be about 365; that for electricity would be around 550; and for Chemicals would be around 335. 1 Initial value of production = 400 + 300 + 300 + 200 = 1200 Final value of production = 580 + 365 + 550 + 335 = 1830 1 Overall % increase ≈ 52.5% 1 Average annual growth = 52.5/9 = 5.85%",
+    "explanation": "You may note that apart from a few years for manufacturing and mining & quarrying, the annual growth rates in most years have been positive and near the 5 – 6% mark for all the sectors. The other options [a], [c], and [d] are too far away to be considered. Alternatively, for ease of calculation take the 1989 values for a manufacturing as 400, Mining & quarrying and Electricity as 300 each and Chemicals as 200. then, the final value for manufacturing would be nearly 580, that for mining & quarrying would be about 365; that for electricity would be around 550; and for Chemicals would be around 3",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -689,11 +689,11 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007The number of government employees is more than that of the number of factories in the joint sector"
+        "text": "The number of government employees is more than that of the number of factories in the joint sector"
       },
       {
         "label": "b",
-        "text": "\u0007The number of employees in the public is same as fixed capital of joint sector"
+        "text": "The number of employees in the public is same as fixed capital of joint sector"
       },
       {
         "label": "c",
@@ -983,15 +983,15 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Profitability is non-increasing during the five years from 1994–95 to 1998–99."
+        "text": "Profitability is non-increasing during the five years from 1994–95 to 1998–99."
       },
       {
         "label": "b",
-        "text": "\u0007Profitability is non–decreasing during the five years from 1994–95 to 1998–99."
+        "text": "Profitability is non–decreasing during the five years from 1994–95 to 1998–99."
       },
       {
         "label": "c",
-        "text": "\u0007Profitability remained constant during the five years from 1994–95 to 1998–99"
+        "text": "Profitability remained constant during the five years from 1994–95 to 1998–99"
       },
       {
         "label": "d",

@@ -71,7 +71,7 @@
       },
       {
         "label": "d",
-        "text": "\u0007RED, YELLOW and WHITE in the ratio 1:1:2"
+        "text": "RED, YELLOW and WHITE in the ratio 1:1:2"
       }
     ],
     "correct_answer": "d",
@@ -161,7 +161,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A\n\nFrom the given options F is the only possibility.",
+    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A From the given options F is the only possibility.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -203,7 +203,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A\n\nLooking at the options, D and G can sit together, C and F can sit together, B and D can sit together and E and A is the only option which is not possible.",
+    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A Looking at the options, D and G can sit together, C and F can sit together, B and D can sit together and E and A is the only option which is not possible.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -245,7 +245,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A\n\nE and G is the only possibility.",
+    "explanation": "Let us 1st tabulate the given data: 1 2 3 4 5 6 7 C B D A G D B C A G D B C G A D B C G A E and G is the only possibility.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -269,19 +269,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Ramesh shot 18 baskets and Dhanraj shot 19 baskets."
+        "text": "Ramesh shot 18 baskets and Dhanraj shot 19 baskets."
       },
       {
         "label": "b",
-        "text": "\u0007Ganesh shot 24 baskets and Ashish shot 16 baskets."
+        "text": "Ganesh shot 24 baskets and Ashish shot 16 baskets."
       },
       {
         "label": "c",
-        "text": "\u0007Jugraj shot 19 baskets and Dhanraj shot 27 baskets."
+        "text": "Jugraj shot 19 baskets and Dhanraj shot 27 baskets."
       },
       {
         "label": "d",
-        "text": "\u0007Dhanraj shot 11 baskets and Ashish shot 16 baskets. \b"
+        "text": "Dhanraj shot 11 baskets and Ashish shot 16 baskets."
       }
     ],
     "correct_answer": "a",
@@ -315,7 +315,7 @@
       },
       {
         "label": "b",
-        "text": "\u0007Ganesh shot 18 baskets and ramesh shot 21 baskets."
+        "text": "Ganesh shot 18 baskets and ramesh shot 21 baskets."
       },
       {
         "label": "c",
@@ -323,13 +323,13 @@
       },
       {
         "label": "d",
-        "text": "Ramesh and Jugraj together shot 29 baskets. Directions for questions 9 and 10: Read the passage below and solve the questions based on it. There is an automobile company making two models of cars – C1 and C2. C1 and C2 give the profits of INR 3600 and INR 5400 per unit respectively. Monthly resources available for the production of these two models are given below: Labor hours available = 48000 labor hours Doors available = 20,000 units (Left and right side doors are identical and can be used interchangeably in both the cars. Both the cars use the same door). Monthly Resources used - C1 is a four door car where as C2 is a two door car. It takes 6 labour hours to assemble C1 and 10.5 hours to assemble C2. Further it is also known that demand for C2 is limited to 3500 only per month whereas demand for C1 is unlimited."
+        "text": "Ramesh and Jugraj together shot 29 baskets."
       }
     ],
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "G = A – 8 (1) O + R = 37 (2) J = D + 8 (3) A = D + 5 (4) A + G = 40 (5) So, Adding (1) & (4) & equaling to (5) = (A – 8) + (D + 5) = 40 Using (4) we get (D + 5 – 5) + (D + 5) = 40 D = 19 So, A = 24, J = 27, G = 16 & R = 18 9 and 10 C1 C2 Supply Profit 3600 5400 Doors 4 2 20000 Labor 6 10.5 48000 Demand unlimited 3500 Maximize 3600x1 + 5400x2 4x1 + 2x2 ≤ 20000 6x1 + 10.5x2 ≤ 48000 x2 ≤ 3500\n\nWhich of the following statement is true? (a) Dhanraj and Jugraj together shot 46 baskets (b) Ganesh shot 18 baskets and ramesh shot 21 baskets. (c) Dhanraj shot3 more baskets than ramesh (d) Ramesh and Jugraj together shot 29 baskets. Directions for questions 9 and 10: Read the passage below and solve the questions based on it. There is an automobile company making two models of cars – C1 and C2. C1 and C2 give the profits of INR 3600 and INR 5400 per unit respectively. Monthly resources available for the production of these two models are given below: Labor hours available = 48000 labor hours Doors available = 20,000 units (Left and right side doors are identical and can be used interchangeably in both the cars. Both the cars use the same door). Monthly Resources used - C1 is a four door car where as C2 is a two door car. It takes 6 labour hours to assemble C1 and 10.5 hours to assemble C2. Further it is also known that demand for C2 is limited to 3500 only per month whereas demand for C1 is unlimited.",
+    "explanation": "G = A – 8 (1) O + R = 37 (2) J = D + 8 (3) A = D + 5 (4) A + G = 40 (5) So, Adding (1) & (4) & equaling to (5) = (A – 8) + (D + 5) = 40 Using (4) we get (D + 5 – 5) + (D + 5) = 40 D = 19 So, A = 24, J = 27, G = 16 & R = 18 9 and 10 C1 C2 Supply Profit 3600 5400 Doors 4 2 20000 Labor 6 10.5 48000 Demand unlimited 3500 Maximize 3600x1 + 5400x2 4x1 + 2x2 ≤ 20000 6x1 + 10.5x2 ≤ 48000 x2 ≤ 3500 Which of the following statement is true? (a) Dhanraj and Jugraj together shot 46 baskets (b) Ganesh shot 18 baskets and ramesh shot 21 baskets. (c) Dhanraj shot3 more baskets than ramesh (d) Ramesh and Jugr",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

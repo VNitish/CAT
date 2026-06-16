@@ -35,7 +35,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nThis is a straight forward question. We need to add the percentage of animals and divide it by summation of percentage of land area under forest cover. 20 + 15 Required population density = = 0.88. 22 + 18 Hence, option (c) is the answer.",
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover This is a straight forward question. We need to add the percentage of animals and divide it by summation of percentage of land area under forest cover. 20 + 15 Required population density = = 0.88. 22 + 18 Hence, option (c) is th",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -77,7 +77,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nIf the question would have asked us ‘maximum’ or ‘minimum’, we could have solved it through process",
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover If the question would have asked us ‘maximum’ or ‘minimum’, we could have solved it through process",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -119,7 +119,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nThis is simple calculation. Population density of Russia = 1 while population density of Europe = 1.375. Hence, option (a) is the answer.",
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover This is simple calculation. Population density of Russia = 1 while population density of Europe = 1.375. Hence, option (a) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -161,7 +161,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nAs the increase in the population of the rest of the world is not known, we cannot determine the increase in Antarctica’s wild life population. Hence, option (d) is the answer. Mak Julie Hemant Mohit Kajal Prince 1 6 3 7 9 5",
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover As the increase in the population of the rest of the world is not known, we cannot determine the increase in Antarctica’s wild life population. Hence, option (d) is the answer. Mak Julie Hemant Mohit Kajal Prince 1 6 3 7 9 5",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -203,7 +203,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolates eaten by Mohit = 7. Hence option (b) is the answer.",
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10 Number of chocolates eaten by Mohit = 7. Hence option (b) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -245,7 +245,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolates eaten by Kajal = 9 and number of chocolates eaten by Prince = 5. Hence number of chocolates eaten by Kajal as a percentage of the 9 number of chocolates eaten by Prince = 5× 100 = 180%. Hence, option (d) is the answer.",
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10 Number of chocolates eaten by Kajal = 9 and number of chocolates eaten by Prince = 5. Hence number of chocolates eaten by Kajal as a percentage of the 9 number of chocolates eaten by Prince = 5× 100 = 180%. Hence, option (d) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -287,7 +287,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nAs given in the above table, it can be calculated for all of them. Hence option (a) is the answer. Explanations of elimination. Since question asks us to evaluate “fourth highest population density”, it is better that we calculate the density for each of the regions and identify the fourth highest. The population densities of the areas are: A1 = 1.266 A2 = 0.928 A3 = 0.909 A4 = 1.375 A5 = 1 A6 = 0.833 A7 = 0.89 Alternatively, we can use some guesstimation skills to shorten the calculation process: Three regions – namely A1, A4 and A5 are clearly greater than or equal to 1. So, fourth highest is a value closest AND lower than 1. Hence, option (d) is the answer.",
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10 As given in the above table, it can be calculated for all of them. Hence option (a) is the answer. Explanations of elimination. Since question asks us to evaluate “fourth highest population density”, it is better that we calculate the density for each of the regions and identify the fourth highest. The population densities of the areas are: A1 = 1.266 A2 = 0.928 A3 = 0.909 A4 = 1.375 A5 = 1 A6 = 0.833 A7 = 0.89 Alternatively, we can use some guesstimation skills to shorten the calculation process",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -311,15 +311,15 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Manoj ate more number of chocolates than Deepak."
+        "text": "Manoj ate more number of chocolates than Deepak."
       },
       {
         "label": "b",
-        "text": "\u0007Combined number of chocolates of Sonu and Manoj is equal to the number of chocolates eaten by Deepak."
+        "text": "Combined number of chocolates of Sonu and Manoj is equal to the number of chocolates eaten by Deepak."
       },
       {
         "label": "c",
-        "text": "\u0007Combined number of chocolates of Hemant and Kajal is equal to number of chocolates eaten by Julie."
+        "text": "Combined number of chocolates of Hemant and Kajal is equal to number of chocolates eaten by Julie."
       },
       {
         "label": "d",
@@ -329,7 +329,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nIt can be seen that only option (a) is true.",
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10 It can be seen that only option (a) is true.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -371,7 +371,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolate’s eaten by Sonu and Manoj together = 12, which is equal to the number calculated in options (a), (b) and (c). Hence option (d) is the answer.",
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10 Number of chocolate’s eaten by Sonu and Manoj together = 12, which is equal to the number calculated in options (a), (b) and (c). Hence option (d) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

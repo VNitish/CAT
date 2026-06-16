@@ -245,7 +245,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nx + y =120. Summation of all Z = 270. The required difference = 270 – 120 = 150. Hence, option (b) is correct.",
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584 x + y =120. Summation of all Z = 270. The required difference = 270 – 120 = 150. Hence, option (b) is correct.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -287,7 +287,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nWhen the cumulative value of z becomes 85, A = 504. Hence, option (d) is correct.",
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584 When the cumulative value of z becomes 85, A = 504. Hence, option (d) is correct.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -329,7 +329,7 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nWhen A = 672, z = 29, y = 8 & x = 5. Hence, 29 – (8 + 5) = 16. Hence, option (c) is correct. 9 and 10 If D gets portfolio F does not and vice-versa. C wants only Home or Finance or none. If D gets Power B must get Telecom or D- Telecom then B must get Power If A gets a portfolio E should get.",
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584 When A = 672, z = 29, y = 8 & x = 5. Hence, 29 – (8 + 5) = 16. Hence, option (c) is correct. 9 and 10 If D gets portfolio F does not and vice-versa. C wants only Home or Finance or none. If D gets Power B must get Telecom or D- Telecom then B must get Power If A gets a portfolio E should get.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -353,19 +353,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007A-Home, B-Power, C-defense, D-Telecom, E-Finance"
+        "text": "A-Home, B-Power, C-defense, D-Telecom, E-Finance"
       },
       {
         "label": "b",
-        "text": "\u0007C-Home, D-Power, A-defense, B-Telecom, E-Finance"
+        "text": "C-Home, D-Power, A-defense, B-Telecom, E-Finance"
       },
       {
         "label": "c",
-        "text": "\u0007A-Home, B-Power, E-defense, D-Telecom, F-Finance"
+        "text": "A-Home, B-Power, E-defense, D-Telecom, F-Finance"
       },
       {
         "label": "d",
-        "text": "\u0007B-Home, F-Power, E-defense, C-Telecom, A-Finance"
+        "text": "B-Home, F-Power, E-defense, C-Telecom, A-Finance"
       }
     ],
     "correct_answer": "b",

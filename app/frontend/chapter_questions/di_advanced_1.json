@@ -17,19 +17,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007two third government stocks, one-third blue- chip stocks"
+        "text": "two third government stocks, one-third blue- chip stocks"
       },
       {
         "label": "b",
-        "text": "\u0007two third government. stocks, one-third corporate bonds"
+        "text": "two third government. stocks, one-third corporate bonds"
       },
       {
         "label": "c",
-        "text": "\u0007one third government. stocks, two-third corporate bonds"
+        "text": "one third government. stocks, two-third corporate bonds"
       },
       {
         "label": "d",
-        "text": "\u0007one third each of government stocks, blue-chip stocks and corporate bonds"
+        "text": "one third each of government stocks, blue-chip stocks and corporate bonds"
       }
     ],
     "correct_answer": "d",
@@ -67,7 +67,7 @@
       },
       {
         "label": "c",
-        "text": "\u0007sell both corporate bonds and blue-chip stocks to buy government stocks"
+        "text": "sell both corporate bonds and blue-chip stocks to buy government stocks"
       },
       {
         "label": "d",
@@ -181,7 +181,7 @@
     "set_position": 3,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Disregarding table 2, how many of the following statements are definitely true? I. \u0007Number of apples plucked on day 2 is more than the number of apples plucked on day 5. II. \u0007Number of apples plucked on day 3 is more than the number of apples plucked on day 5. III. \u0007Sum of the apples plucked on day 1 and day 2 is less than the sum of the apples plucked on day 4 and day 5. IV. \u0007Sum of the apples plucked on day 2 and day 3 is less than the sum of the apples plucked on day 3 and day 4.",
+    "question_text": "Disregarding table 2, how many of the following statements are definitely true? I. Number of apples plucked on day 2 is more than the number of apples plucked on day 5. II. Number of apples plucked on day 3 is more than the number of apples plucked on day 5. III. Sum of the apples plucked on day 1 and day 2 is less than the sum of the apples plucked on day 4 and day 5. IV. Sum of the apples plucked on day 2 and day 3 is less than the sum of the apples plucked on day 3 and day 4.",
     "options": [
       {
         "label": "a",
@@ -265,7 +265,7 @@
     "set_position": 5,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Disregarding table 2; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. \u0007Total number of apples plucked from day 1 to day 10. II. \u0007Sum of the number of apples plucked on all the possible pairs of days. III. \u0007Difference in the number of apples plucked in between all the two consecutive days. IV. \u0007Sum of the number of apples plucked in all the four consecutive day periods.",
+    "question_text": "Disregarding table 2; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. Total number of apples plucked from day 1 to day 10. II. Sum of the number of apples plucked on all the possible pairs of days. III. Difference in the number of apples plucked in between all the two consecutive days. IV. Sum of the number of apples plucked in all the four consecutive day periods.",
     "options": [
       {
         "label": "a",
@@ -307,7 +307,7 @@
     "set_position": 6,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Disregarding table 1; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. \u0007Total number of apples plucked from day 1 to day 10. II. \u0007Sum of the number of apples plucked on all the possible pairs of days. III. \u0007Difference in the number of apples plucked in between all the two consecutive days. IV. \u0007Sum of the number of apples plucked in all the four consecutive day periods.",
+    "question_text": "Disregarding table 1; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. Total number of apples plucked from day 1 to day 10. II. Sum of the number of apples plucked on all the possible pairs of days. III. Difference in the number of apples plucked in between all the two consecutive days. IV. Sum of the number of apples plucked in all the four consecutive day periods.",
     "options": [
       {
         "label": "a",
@@ -391,7 +391,7 @@
     "set_position": 2,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "The selling price of the product manufactured by company ‘X’ was low because: I. of less transportation costs II. \u0007they had less overheads as compared to company ‘Y’ III. \u0007the quantity per unit was less than that of their competitors",
+    "question_text": "The selling price of the product manufactured by company ‘X’ was low because: I. of less transportation costs II. they had less overheads as compared to company ‘Y’ III. the quantity per unit was less than that of their competitors",
     "options": [
       {
         "label": "a",
@@ -517,7 +517,7 @@
     "set_position": 5,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Why was company ‘Y’ selling the same type of product at a rate higher than that of company ‘X’? (I) \u0007Before company ‘X’ entered the market, company ‘Y’ enjoyed a monopoly in the market and took advantage of the same. (II) \u0007As company ‘Y’ had a long standing, its overheads were comparatively higher. (III) Their total cost of production was higher.",
+    "question_text": "Why was company ‘Y’ selling the same type of product at a rate higher than that of company ‘X’? (I) Before company ‘X’ entered the market, company ‘Y’ enjoyed a monopoly in the market and took advantage of the same. (II) As company ‘Y’ had a long standing, its overheads were comparatively higher. (III) Their total cost of production was higher.",
     "options": [
       {
         "label": "a",
@@ -559,7 +559,7 @@
     "set_position": 6,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "The market survey conducted by company ‘Y’ revealed that their product was a quick consumption item of a higher quality with a longer shelf-life. What was the conclusion drawn from the survey? I. \u0007Being a quick consumption item, it can have a cheaper packaging, as the problem of aging will not be there. II. \u0007Longer shelf-life shows that the product has durability and therefore can stand for a longer period in the market without changes in the quality of the product. III. \u0007Their product enjoyed better reputation than that of company ‘X’.",
+    "question_text": "The market survey conducted by company ‘Y’ revealed that their product was a quick consumption item of a higher quality with a longer shelf-life. What was the conclusion drawn from the survey? I. Being a quick consumption item, it can have a cheaper packaging, as the problem of aging will not be there. II. Longer shelf-life shows that the product has durability and therefore can stand for a longer period in the market without changes in the quality of the product. III. Their product enjoyed better reputation than that of company ‘X’.",
     "options": [
       {
         "label": "a",
@@ -605,19 +605,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007In 1999, only one student must have enrolled for both BM and CB."
+        "text": "In 1999, only one student must have enrolled for both BM and CB."
       },
       {
         "label": "b",
-        "text": "\u0007In 2001, not more than 7 students could have enrolled both for BM and CB."
+        "text": "In 2001, not more than 7 students could have enrolled both for BM and CB."
       },
       {
         "label": "c",
-        "text": "\u0007In 2000, at least 9 students must have enrolled for both BM and CB."
+        "text": "In 2000, at least 9 students must have enrolled for both BM and CB."
       },
       {
         "label": "d",
-        "text": "\u0007In 2002, not more than 5 students could have enrolled both for BM and CB."
+        "text": "In 2002, not more than 5 students could have enrolled both for BM and CB."
       }
     ],
     "correct_answer": "c",
@@ -647,19 +647,19 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007In 1999, the number of students who enrolled for SM, CB and IM is at least 4."
+        "text": "In 1999, the number of students who enrolled for SM, CB and IM is at least 4."
       },
       {
         "label": "b",
-        "text": "\u0007In 2000, the number of students who enrolled for IM and CB and not SN is not more than 10."
+        "text": "In 2000, the number of students who enrolled for IM and CB and not SN is not more than 10."
       },
       {
         "label": "c",
-        "text": "\u0007If at least four students who took IM and SM also took CB, then the maximum number of students who took CB but not IM is 17."
+        "text": "If at least four students who took IM and SM also took CB, then the maximum number of students who took CB but not IM is 17."
       },
       {
         "label": "d",
-        "text": "\u0007In 2002, the number of students who enrolled for SM, CB and IM is at least 3."
+        "text": "In 2002, the number of students who enrolled for SM, CB and IM is at least 3."
       }
     ],
     "correct_answer": "a",
@@ -689,15 +689,15 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007In 1999, all those who took CB also took BM and MR."
+        "text": "In 1999, all those who took CB also took BM and MR."
       },
       {
         "label": "b",
-        "text": "\u0007In 2000, all those who took BM also took SM and IM."
+        "text": "In 2000, all those who took BM also took SM and IM."
       },
       {
         "label": "c",
-        "text": "\u0007In 2001, all those who took BM also took SM and IM."
+        "text": "In 2001, all those who took BM also took SM and IM."
       },
       {
         "label": "d",
@@ -725,7 +725,7 @@
     "subtopic": "",
     "set_id": "adv-t20-s5",
     "set_position": 1,
-    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
+    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "On 19th June how much Yen would ₹8000 amount to?",
     "options": [
@@ -767,7 +767,7 @@
     "subtopic": "",
     "set_id": "adv-t20-s5",
     "set_position": 2,
-    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
+    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the Dollar/Yen ratio follows the same trend from 24th to 27th as from 21st to 24th, then what will be the value of $ 50 on 27th June?",
     "options": [
@@ -809,7 +809,7 @@
     "subtopic": "",
     "set_id": "adv-t20-s5",
     "set_position": 3,
-    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
+    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "A jacket costs $ 400. Mohan has ₹18,200, £ 225 and ¥ 35000 with him. If he can use only one currency to buy the jacket, he would be able to buy the jacket on 20th June using:",
     "options": [
@@ -851,7 +851,7 @@
     "subtopic": "",
     "set_id": "adv-t20-s5",
     "set_position": 4,
-    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
+    "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "On 15th June the Dollar/Rupee ratio was 46.5. On that day ₹5000 would fetch_________ Pounds.",
     "options": [
@@ -1037,7 +1037,7 @@
       },
       {
         "label": "d",
-        "text": "1993 SUBJECTS English Hindi Maths Sciences History High Avg. High Avg. High Avg. High Avg. High Avg. 1992 85 62 75 52 98 65 88 72 72 46 1993 80 70 80 53 94 60 89 70 65 55 1994 82 65 77 54 85 62 95 64 66 58 1995 71 56 84 64 92 68 97 68 68 49 1996 75 52 82 66 91 64 92 75 70 58 1997 82 66 81 57 89 66 98 72 74 62"
+        "text": "1993"
       }
     ],
     "correct_answer": "d",

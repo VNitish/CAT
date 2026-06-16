@@ -227,11 +227,11 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Percentage increase in the number of Petrol using vehicles/agents have increased in Asia than the world in the decade 1991–2001."
+        "text": "Percentage increase in the number of Petrol using vehicles/agents have increased in Asia than the world in the decade 1991–2001."
       },
       {
         "label": "b",
-        "text": "\u0007Exploration of Naphtha is low in Asia is less than the exploration of Naphtha in the world throughout the period."
+        "text": "Exploration of Naphtha is low in Asia is less than the exploration of Naphtha in the world throughout the period."
       },
       {
         "label": "c",
@@ -245,7 +245,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Obviously cannot be inferred. (a) seems probable, but number of vehicles/agents need not be increasing. There can be other reasons also like reduction in the efficiency of the vehicle etc. 2001 2011 World Asia World Asia 200 20 250 33.3 40 2.5 50 5 20% 12.50% 20% 15.01 60 5 75 10 30% 25% 30% 30.03 70 10 80 15 35% 50% 32% 45.04 1991 2001 2011 Total energy 10 20 33 Solid fuels Value 4 5 10 Proportion 40% 25% 30.30% Nuclear Value 0.5 1 1.3 Fuel Proportion 5% 5% 3.90% Hydro Value 1 1.5 2 Energy Proportion 10% 7.50% 6.06% Hence, we can see that the proportion of Hydro Energy goes on decreasing over the period.",
+    "explanation": "Obviously cannot be inferred. (a) seems probable, but number of vehicles/agents need not be increasing. There can be other reasons also like reduction in the efficiency of the vehicle etc. 2001 2011 World Asia World Asia 200 20 250 33.3 40 2.5 50 5 20% 12.50% 20% 15.01 60 5 75 10 30% 25% 30% 30.03 70 10 80 15 35% 50% 32% 45.04 1991 2001 2011 Total energy 10 20 33 Solid fuels Value 4 5 10 Proportion 40% 25% 30.30% Nuclear Value 0.5 1 1.3 Fuel Proportion 5% 5% 3.90% Hydro Value 1 1.5 2 Energy Proportion 10% 7.50% 6.06% Hence, we can see that the proportion of Hydro Energy goes on decreasing over",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -701,7 +701,7 @@
       },
       {
         "label": "d",
-        "text": "26.67% A research agency collected the following data regarding the admission process of a reputed management school in India. Year Gender Number bought application forms Number appeared for written test Number called for interviews Number selected for the course 2002 Male 61205 59981 684 171 Female 19236 15389 138 48 2003 Male 63298 60133 637 115 Female 45292 40763 399 84"
+        "text": "26.67%"
       }
     ],
     "correct_answer": "c",

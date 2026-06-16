@@ -499,7 +499,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of children: 25 Society A S 600 × = 150 100 60 Number of female children = 150 × = 90 100 Number of male children = 150 – 90 = 60 40 Society B S 550 × = 220 100 25 Number of female children = 220 × = 55 100 Number of male children = 220 – 55 = 165 16 Society C S 575 × = 92 100 75 Number of female children = 92 × = 69 100 Number of male children = 92 – 69 = 23 25 Society D S 580 × = 145 100 20 Number of female children = 145 × = 29 100 Number of male children = 145 – 29 = 116 40 Society E S 340 × = 172 100 50 Number of female children = 172 × = 86 100 Number of male children = 172 – 86 = 86 24 Society F S 625 × = 150 100 54 Number of female children = 150 × = 81 100 Number of male children = 150 – 81 = 69 Number of adult females = (350 + 150 + 275 + 300 + 250 + 300) – 410 = 1625 – 410 = 1215 Number of female children = 90 + 55 + 69 + 29 + 86 + 81 = 410 Hence required ratio = 1215:410 = 243:82 Hence option (a) is the answer.",
+    "explanation": "Number of children: 25 Society A S 600 × = 150 100 60 Number of female children = 150 × = 90 100 Number of male children = 150 – 90 = 60 40 Society B S 550 × = 220 100 25 Number of female children = 220 × = 55 100 Number of male children = 220 – 55 = 165 16 Society C S 575 × = 92 100 75 Number of female children = 92 × = 69 100 Number of male children = 92 – 69 = 23 25 Society D S 580 × = 145 100 20 Number of female children = 145 × = 29 100 Number of male children = 145 – 29 = 116 40 Society E S 340 × = 172 100 50 Number of female children = 172 × = 86 100 Number of male children = 172 – 86 =",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

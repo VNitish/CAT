@@ -437,11 +437,11 @@
     "options": [
       {
         "label": "a",
-        "text": "\u0007Percentage increase in the number of petrol using vehicles/agents has increased in Asia rather than the world, in the decade 1991-2001."
+        "text": "Percentage increase in the number of petrol using vehicles/agents has increased in Asia rather than the world, in the decade 1991-2001."
       },
       {
         "label": "b",
-        "text": "\u0007Exploration of Naphtha is low in Asia as com- pared to the exploration of Naphtha in the world throughout the period."
+        "text": "Exploration of Naphtha is low in Asia as com- pared to the exploration of Naphtha in the world throughout the period."
       },
       {
         "label": "c",
@@ -875,7 +875,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nPetrol prices increased 8 times.",
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -917,7 +917,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nDiesel prices increased 7 times.",
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -959,7 +959,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nFor 5 times, the % increase of petrol was more than that of diesel.",
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -1001,7 +1001,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nBy simple observation we can realize in each case the decrease is almost by ₹2. So, the maximum % decrease will be for the city for which price was minimum & that city is Delhi (try to solve without actual calculation).",
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -1043,7 +1043,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nWe can observe the maximum absolute change is in Chennai of ₹2.19 which is almost twice as compared to other cities & original prices were very close. So, maximum % decrease is in Chennai. (Try to solve without actual calculation).",
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
