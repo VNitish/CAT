@@ -12,7 +12,7 @@
     "set_id": "mod-t16-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/16-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who scored the lowest total?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t16-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/16-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The average marks for all four persons (for all the four subjects) is (approx.)",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t16-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/16-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the highest scorer in chemistry?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t16-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/16-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the lowest scorer in physics?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t16-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/16-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which of the matches, Indian Team’s average runs per over is maximum?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t16-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/16-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What would have the total runs scored in the third match if Indian team would have played 50 overs with the same average which it maintained till the overs actually played?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t16-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/16-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Mr Phani Ram, the team selector, has made following observations to improve the performance of the team: (i) \u0007Performance of first five players has improved, whereas performance of last six players has gone down. (ii) \u0007Had there been no extra runs, runs in second match would have decreased by maximum percentage. (iii) \u0007If team would have played for full 50 overs, it would have scored maximum in first match. How many of these observations are true?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t16-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/16-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If extra runs are not considered, which match has the lowest average runs per over?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t16-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/16-s3.png)",
-    "directions": "Directions for questions 9 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What could be the maximum number of persons who watched all the four movies?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "mod-t16-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/16-s3.png)",
-    "directions": "Directions for questions 9 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What could be the maximum number of persons of age more than 60 years, who attended the festival?",
     "options": [
       {
@@ -407,7 +407,7 @@
       },
       {
         "label": "d",
-        "text": "140 1 to 4 From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Storyline of 5 to 8 Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined. 5 to 8"
+        "text": "140"
       }
     ],
     "correct_answer": "d",
@@ -418,35 +418,5 @@
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
     "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 16,
-    "question_number": 6,
-    "question_code": "MOD-T16-Q06",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t16-s3",
-    "set_position": 3,
-    "context_passage": "![data set 3](/di/mod/16-s3.png)",
-    "directions": "Directions for questions 9 to 10: Go through the data",
-    "question_text": "Total number of overs actually played in third match = 44 overs Total number of Runs scored in third match = 80 + 70 + 17 = 167 runs Method 1 – Through actual calculation method Average Runs per over in third match = 167 44 = 3.8 runs per over Total runs in 50 overs = 50 × 3.8 = 190 runs Method 2 – Through Approximation method 44 overs Percentage Increase of 12% 13% − → 50 overs Hence runs scored will also increase by 12% - 13%. Now we will not go through the actual calculation. A quick look at the options shows that options are not close, so we can have a good approximation. Instead of increasing 167 runs (scored in 44 overs) by 12% – 13%, we increase it by ONLY 10% to find a quick range of our answer. 167 Percentage Increase of 10% → 167 + 16.7 K 184. Our actual answer will be a bit more than this. Option",
-    "options": [
-      {
-        "label": "a",
-        "text": "is the closest one. Hence option (b) is the answer."
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nTotal number of overs actually played in third match = 44 overs Total number of Runs scored in third match = 80 + 70 + 17 = 167 runs Method 1 – Through actual calculation method 167 Average Runs per over in third match = 44 = 3.8 runs per over Total runs in 50 overs = 50 × 3.8 = 190 runs Method 2 – Through Approximation method 44 overs → Percentage Increase of 12% − 13% 50 overs Hence runs scored will also increase by 12% - 13%. Now we will not go through the actual calculation. A quick look at the options shows that options are not close, so we can have a good approximation. Instead of increasing 167 runs (scored in 44 overs) by 12% – 13%, we increase it by ONLY 10% to find a quick range of our answer. 167 → Percentage Increase of 10% 167 + 16.7 K 184. Our actual answer will be a bit more than this. Option (b) is the closest one. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
   }
 ]

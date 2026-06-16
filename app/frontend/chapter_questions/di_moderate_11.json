@@ -12,7 +12,7 @@
     "set_id": "mod-t19-s1",
     "set_position": 1,
     "context_passage": "Rang Barsey Paint Company (RBPC) is in the business of manufacturing paints. RBPC buys RED, YELLOW, WHITE, ORANGE, and PINK paints. ORANGE paint can also be produced by maxing RED and YELLOW paints in equal proportions. Similarly, PINK paint can also produced by mixing equal amounts of RED and WHITE paints. Among other paints, RBPC sells CREAM paint, (formed by mixing WHITE and YELLOW in the ratio of 70:30) AVOCADO paint (formed by mixing equal amounts of ORANGE and PINK paint) and WASHEDORANGE paint (formed by mixing equal amounts of ORANGE and WHITE paint). The following table provides the price at which RBPC buys paints. Colour ₹/Litre RED 20 YELLOW 25 WHITE 15 ORANGE 22 PINK 18",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The cheapest way to manufacture AVOCADO paint would cost",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t19-s1",
     "set_position": 2,
     "context_passage": "Rang Barsey Paint Company (RBPC) is in the business of manufacturing paints. RBPC buys RED, YELLOW, WHITE, ORANGE, and PINK paints. ORANGE paint can also be produced by maxing RED and YELLOW paints in equal proportions. Similarly, PINK paint can also produced by mixing equal amounts of RED and WHITE paints. Among other paints, RBPC sells CREAM paint, (formed by mixing WHITE and YELLOW in the ratio of 70:30) AVOCADO paint (formed by mixing equal amounts of ORANGE and PINK paint) and WASHEDORANGE paint (formed by mixing equal amounts of ORANGE and WHITE paint). The following table provides the price at which RBPC buys paints. Colour ₹/Litre RED 20 YELLOW 25 WHITE 15 ORANGE 22 PINK 18",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "WASHEDORANGE can be manufactured by mixing",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t19-s1",
     "set_position": 3,
     "context_passage": "Rang Barsey Paint Company (RBPC) is in the business of manufacturing paints. RBPC buys RED, YELLOW, WHITE, ORANGE, and PINK paints. ORANGE paint can also be produced by maxing RED and YELLOW paints in equal proportions. Similarly, PINK paint can also produced by mixing equal amounts of RED and WHITE paints. Among other paints, RBPC sells CREAM paint, (formed by mixing WHITE and YELLOW in the ratio of 70:30) AVOCADO paint (formed by mixing equal amounts of ORANGE and PINK paint) and WASHEDORANGE paint (formed by mixing equal amounts of ORANGE and WHITE paint). The following table provides the price at which RBPC buys paints. Colour ₹/Litre RED 20 YELLOW 25 WHITE 15 ORANGE 22 PINK 18",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Assume that AVOCADO, CREAM and WASHED- ORANGE each sells for the same price. Which of the three is the most profitable to manufacture?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t19-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/19-s2.png)",
-    "directions": "Directions for questions 4 to 6: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following cannot be seated at either end?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t19-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/19-s2.png)",
-    "directions": "Directions for questions 4 to 6: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following pairs cannot be seated together?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t19-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/19-s2.png)",
-    "directions": "Directions for questions 4 to 6: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following pairs cannot occupy the seats on either side of B?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t19-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/19-s3.png)",
-    "directions": "Directions for questions 7 to 8: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t19-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/19-s3.png)",
-    "directions": "Directions for questions 7 to 8: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
       {
@@ -338,86 +338,6 @@
   {
     "tier": "Moderate",
     "test": 19,
-    "question_number": 9,
-    "question_code": "MOD-T19-Q09",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t19-s3",
-    "set_position": 3,
-    "context_passage": "![data set 3](/di/mod/19-s3.png)",
-    "directions": "Directions for questions 7 to 8: Answer the questions",
-    "question_text": "How many C1 and C2 respectively should be produced in this particular month?",
-    "options": [
-      {
-        "label": "a",
-        "text": "3800, 2400"
-      },
-      {
-        "label": "b",
-        "text": "2400, 3800"
-      },
-      {
-        "label": "c",
-        "text": "3100, 3100"
-      },
-      {
-        "label": "d",
-        "text": "4400, 1800"
-      }
-    ],
-    "correct_answer": "a",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "C1 = 3800, C2 = 2400.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 19,
-    "question_number": 10,
-    "question_code": "MOD-T19-Q10",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t19-s3",
-    "set_position": 4,
-    "context_passage": "![data set 3](/di/mod/19-s3.png)",
-    "directions": "Directions for questions 7 to 8: Answer the questions",
-    "question_text": "Sales dept. knows that it can raise the demand of C2 by 20% by just spending a mere sum of ₹1,00,000. Should the company go through this expenditure?",
-    "options": [
-      {
-        "label": "a",
-        "text": "Yes"
-      },
-      {
-        "label": "b",
-        "text": "No"
-      },
-      {
-        "label": "c",
-        "text": "cannot be determined"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Since there is still unfulfilled demand of C2, hence advt. campaign should not be run. 11 and 12 Following is the diagram: 6 8 9 3 1 4 2 4 7",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
-  },
-  {
-    "tier": "Moderate",
-    "test": 19,
     "question_number": 11,
     "question_code": "MOD-T19-Q11",
     "section": "DILR",
@@ -428,7 +348,7 @@
     "set_id": "mod-t19-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/mod/19-s4.png)",
-    "directions": "Directions for questions 11 to 12: Place digits 1",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the sum of the numbers placed in each of the circles?",
     "options": [
       {
@@ -470,7 +390,7 @@
     "set_id": "mod-t19-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/mod/19-s4.png)",
-    "directions": "Directions for questions 11 to 12: Place digits 1",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the value of N?",
     "options": [
       {

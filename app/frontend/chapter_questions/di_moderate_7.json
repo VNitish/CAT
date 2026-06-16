@@ -12,7 +12,7 @@
     "set_id": "mod-t15-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/15-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following is the largest one?",
     "options": [
       {
@@ -44,48 +44,6 @@
   {
     "tier": "Moderate",
     "test": 15,
-    "question_number": 17,
-    "question_code": "MOD-T15-Q17",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t15-s1",
-    "set_position": 2,
-    "context_passage": "![data set 1](/di/mod/15-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
-    "question_text": "5% over the population density of census year 2001. What is the value of E?",
-    "options": [
-      {
-        "label": "a",
-        "text": "372"
-      },
-      {
-        "label": "b",
-        "text": "382"
-      },
-      {
-        "label": "c",
-        "text": "392"
-      },
-      {
-        "label": "d",
-        "text": "352"
-      }
-    ],
-    "correct_answer": "",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "5% = 20% - 2.5% = – 5 40 1 1 of 325 = 65 and of 325 = 8 (approximately) 5 40 So, 17.5% = 65 – 8 = 57 Hence population density of 2011 = 325 + 57 = 382. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 15,
     "question_number": 3,
     "question_code": "MOD-T15-Q03",
     "section": "DILR",
@@ -96,7 +54,7 @@
     "set_id": "mod-t15-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/15-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which year shows the second largest percentage increase in the population density over the previous census year?",
     "options": [
       {
@@ -138,7 +96,7 @@
     "set_id": "mod-t15-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/15-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Population density of which year is closest to the average of population density of all the census years from 1901 to 2001?",
     "options": [
       {
@@ -180,7 +138,7 @@
     "set_id": "mod-t15-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/15-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of engines in India that are powered by electricity?",
     "options": [
       {
@@ -222,7 +180,7 @@
     "set_id": "mod-t15-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/15-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the number of engines in Russia accounts for 5% of the total number of engines in the world, then what percentage of the total engines in the world are powered by diesel?",
     "options": [
       {
@@ -264,7 +222,7 @@
     "set_id": "mod-t15-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/15-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Amongst the five countries, what is the average percentage of engines that are powered by Electricity?",
     "options": [
       {
@@ -306,7 +264,7 @@
     "set_id": "mod-t15-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/15-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many stocks, date of maturity is minimum 5 years ahead of date of auction?",
     "options": [
       {
@@ -348,7 +306,7 @@
     "set_id": "mod-t15-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/15-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Nomenclature of the stocks is done in the following way: \u00077.56% GS 2014 - It means that desired yield from the Government stock (GS) in 2014 is 7.56%. \u0007For how many of the stocks desired yield is more than cut-off yield?",
     "options": [
       {
@@ -390,7 +348,7 @@
     "set_id": "mod-t15-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/mod/15-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many stocks with a cut-off price of more than ₹100 have their cut-off yield more than its desired yield (use definition from above question if |required)?",
     "options": [
       {
@@ -432,7 +390,7 @@
     "set_id": "mod-t15-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/mod/15-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Mr Robert is quite an ambitious person. He wants to obtain a minimum desired yield of 8%. For that to happen, he buys exactly two stocks in different ratio. How many combinations can he have, out of 7 stocks given, such that his minimum desired yield is at least 8% (use information from previous questions)?",
     "options": [
       {

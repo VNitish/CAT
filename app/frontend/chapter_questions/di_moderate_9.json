@@ -12,7 +12,7 @@
     "set_id": "mod-t17-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/17-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the population density of wild animals in Russia is 1, then what is the combined population density of (Africa and North & South America)?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t17-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/17-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which among the following has the fourth highest population density of wild animals?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t17-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/17-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Population density of wild animals in Europe is how many times that of the population density of wild animals in Russia?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t17-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/17-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If in the next 10 years, the population of wild animals in Antarctica will increase by 2.5% more than that in the rest of the world, what will be the percentage population of wild animals in Antarctica after 10 years?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t17-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of chocolate’s eaten by Mohit?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t17-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of chocolate’s eaten by Kajal as a percentage of the number of chocolates eaten by Prince?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t17-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many out of 10 persons mentioned in this dataset, number of chocolates eaten cannot be determined?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t17-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t17-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Number of chocolate’s eaten by Sonu and Manoj together equals to which of the following?",
     "options": [
       {
@@ -372,48 +372,6 @@
     "marks_correct": 3,
     "marks_incorrect": -1,
     "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolate’s eaten by Sonu and Manoj together = 12, which is equal to the number calculated in options (a), (b) and (c). Hence option (d) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 17,
-    "question_number": 10,
-    "question_code": "MOD-T17-Q10",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t17-s2",
-    "set_position": 6,
-    "context_passage": "![data set 2](/di/mod/17-s2.png)",
-    "directions": "Directions for questions 5 to 9: Go through the data",
-    "question_text": "A husband and wife have a combined age of 91 years. The husband is now twice as old as his wife was when he was as old as she is now. What is the difference between husband’s age and wife’s age?",
-    "options": [
-      {
-        "label": "a",
-        "text": "12"
-      },
-      {
-        "label": "b",
-        "text": "13"
-      },
-      {
-        "label": "c",
-        "text": "14"
-      },
-      {
-        "label": "d",
-        "text": "11"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Husband’s age = 52 years and wife’s age = 39 years. Hence difference in between their ages = 13 years. Hence option (b) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

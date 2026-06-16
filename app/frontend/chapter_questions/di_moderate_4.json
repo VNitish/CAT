@@ -12,7 +12,7 @@
     "set_id": "mod-t12-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the speeds of faster and slower bus (including stoppages)?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t12-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Between which stretches is the ratio of the speeds of the two bus services 1:1?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t12-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the percentage difference between the maximum speed of Rajan roadways bus and the minimum speed of Patel roadways bus?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t12-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which stretches of the journey is the speed of Patel roadways bus minimum (Assume distance between the stops to be equal)?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t12-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the average speed is calculated keeping in mind only the running time of the bus, what would be the percentage difference in time taken by the Patel Roadways bus, if its speed is decreased by 20%?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t12-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Directions for questions 6 to 9: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Find the approximate average price of fruits with Chunmun.",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t12-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Directions for questions 6 to 9: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of mangoes whose price is more than ₹21 is at least",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t12-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Directions for questions 6 to 9: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Given that the price of four peaches with Chunmun is ₹22 each and there are exactly 10 peaches whose \b price is ₹18. The number of peaches with Chunmun whose price is at least ₹25 is at most",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t12-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Directions for questions 6 to 9: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Total number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least",
     "options": [
       {
@@ -372,48 +372,6 @@
     "marks_correct": 3,
     "marks_incorrect": -1,
     "explanation": "The total price of the guavas with Chunmun is 5 × 28 = 140 The total price of the 26 guavas whose price is not known is 140 – (3 + 8) = ₹129. Assume maximum number of guavas have price equal to ₹7 129 = 8 × 7 + 1 × 5 + 17 × 4. Therefore, the number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least 17 + 1 = 18. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 10,
-    "question_code": "MOD-T12-Q10",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s2",
-    "set_position": 5,
-    "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Directions for questions 6 to 9: Answer the questions",
-    "question_text": "A train leaves New Delhi to Mumbai. Five minutes later another train leaves Mumbai for New Delhi, with a speed double than the train that left New Delhi to Mumbai. Which train will be closer to New Delhi when they meet?",
-    "options": [
-      {
-        "label": "a",
-        "text": "Faster one"
-      },
-      {
-        "label": "b",
-        "text": "Slower One"
-      },
-      {
-        "label": "c",
-        "text": "Both will be at the same distance"
-      },
-      {
-        "label": "d",
-        "text": "\u0007Depends upon the speed of trains and total distance between New Delhi and Mumbai"
-      }
-    ],
-    "correct_answer": "c",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Since trains are meeting, both the trains are at the same point. If both the trains (or two persons) are at the same point, they will be equidistant from all the points on this earth. Hence option (c) is the anwer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

@@ -12,7 +12,7 @@
     "set_id": "fnd-t1-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/1-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of men working in the Marketing department?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t1-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/1-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of women working in the IT department of the Organization forms approximately what per cent of the total number of employees in the Organization from all departments together?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t1-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/1-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of women working in the HR department of the organization and the total number of employees in that department?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t1-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/1-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of men working in the Accounts department to the total number of employees working in that department?",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t1-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/1-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of men working in the Production department of the organization forms what percentage of total number of employees working in that department? (Rounded off to two digits after decimal)",
     "options": [
       {
@@ -242,7 +242,7 @@
     "set_id": "fnd-t1-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/1-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the profit earned by Company R in the year 2008 was ₹18.9 lakhs, what was the income in that year?",
     "options": [
       {
@@ -288,7 +288,7 @@
     "set_id": "fnd-t1-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/1-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the percentage rise in per cent profit of Company T in year 2009 from the year 2004?",
     "options": [
       {
@@ -334,7 +334,7 @@
     "set_id": "fnd-t1-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/1-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the profit earned by Company P in the year 2007 was ₹2.1 lakhs, what was its expenditure in that year?",
     "options": [
       {
@@ -380,7 +380,7 @@
     "set_id": "fnd-t1-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/1-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the average per cent profit of Company S over all the years together?",
     "options": [
       {
@@ -426,7 +426,7 @@
     "set_id": "fnd-t1-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/1-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the per cent profit earned by Company Q in the year 2005 and the average of the per cent profits earned by the remaining companies together in that year?",
     "options": [
       {
@@ -472,7 +472,7 @@
     "set_id": "fnd-t1-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of tickets to movie B sold in Hyderabad was approximatelywhat percentage of the total number of tickets of the same movie sold in all the cities together?",
     "options": [
       {
@@ -518,7 +518,7 @@
     "set_id": "fnd-t1-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the number of tickets of movie D sold in Kolkata and the number of tickets of movie B sold in Lucknow?",
     "options": [
       {
@@ -564,7 +564,7 @@
     "set_id": "fnd-t1-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of tickets of movie C sold in all the six cities?",
     "options": [
       {
@@ -610,7 +610,7 @@
     "set_id": "fnd-t1-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of tickets of movie E sold in Chennai is what percentage of number of tickets of movie A sold in Mumbai?",
     "options": [
       {
@@ -656,7 +656,7 @@
     "set_id": "fnd-t1-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which city was the total number of tickets of all the five movies together sold the minimum?",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t1-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/1-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The mimicry shows held in city M are what per cent of the drama shows held in city O?",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t1-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/1-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of entertainment shows held in city P?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t1-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/1-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the number of music shows in cities N and Q is increased by 5%, what will be the total number of music shows in both the cities together?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t1-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/fnd/1-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of dance shows held in city N to the number of drama shows held in city R?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t1-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/1-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of standup comedy shows held in all the cities together?",
     "options": [
       {

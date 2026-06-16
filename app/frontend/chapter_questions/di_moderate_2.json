@@ -12,7 +12,7 @@
     "set_id": "mod-t10-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/10-s2.png)",
-    "directions": "Directions for questions 1 to 3: Go through the infor-",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In 2009, what is the quantity of tea that can be bought for ₹2,000?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t10-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/10-s2.png)",
-    "directions": "Directions for questions 1 to 3: Go through the infor-",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "During which period was the change in the price (₹/kg/years) the lowest for coffee quality A?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t10-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/10-s2.png)",
-    "directions": "Directions for questions 1 to 3: Go through the infor-",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which of the three beverages is the change in price between 00 and 09 not in conformity with the trend for beverage price index? I. Coffee – Quality A II. Coffee – Quality B III. Tea",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t10-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/10-s2.png)",
-    "directions": "Directions for questions 1 to 3: Go through the infor-",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Assuming that equal weightage is given to each of three beverages in calculating the index, which one contributes most to the rise in index from 2000 to 2009?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t10-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/10-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the total work force was 76 million whereas the total value added was ₹225 million, then which of the following had the maximum value addition per worker?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t10-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/10-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following sectors has the maximum fixed capital invested per factory?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t10-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/mod/10-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the chart",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the variable is proportional to the number of employees and the production per employee, then for which of the following is the production highest?",
     "options": [
       {
@@ -288,48 +288,6 @@
     "marks_correct": 3,
     "marks_incorrect": -1,
     "explanation": "Table provides percentage share (or composition) of Factories, Employment, Fixed Capital, Variable cost and Value added among four sectors viz. Government sector, Public sector, Private sector and Joint sector. Key point here is to understand that Government sector is broken down into three sub sectors. For all the data given in Government sector, corresponding data for sub sectors is provided in the bar chart. Solution and Explanations for 8 to 11 Value Added\n\nIf the variables are proportional to the number of employees and the production per employee, then we can say that the variable cost is directly proportional to the production. Since the variable cost is maximum for private sector, it will also have the maximum production. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 10,
-    "question_number": 20,
-    "question_code": "MOD-T10-Q20",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t10-s3",
-    "set_position": 4,
-    "context_passage": "![data set 3](/di/mod/10-s3.png)",
-    "directions": "Directions for questions 8 to 11: Go through the chart",
-    "question_text": "012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Aruti Udyog Ltd. which forms 25% of the investment in the joint sector? (1US $ = ₹45)",
-    "options": [
-      {
-        "label": "a",
-        "text": "7860"
-      },
-      {
-        "label": "b",
-        "text": "2500"
-      },
-      {
-        "label": "c",
-        "text": "143"
-      },
-      {
-        "label": "d",
-        "text": "145 \b"
-      }
-    ],
-    "correct_answer": "",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

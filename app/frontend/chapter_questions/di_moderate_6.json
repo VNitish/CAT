@@ -2,48 +2,6 @@
   {
     "tier": "Moderate",
     "test": 14,
-    "question_number": 4,
-    "question_code": "MOD-T14-Q04",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t14-s1",
-    "set_position": 1,
-    "context_passage": "![data set 1](/di/mod/14-s1.png)",
-    "directions": "Directions for questions 1 to 3: Read the passage",
-    "question_text": "Staff travelling to Dubai",
-    "options": [
-      {
-        "label": "a",
-        "text": "1 and 2"
-      },
-      {
-        "label": "b",
-        "text": "2 and 3"
-      },
-      {
-        "label": "c",
-        "text": "1, 2 and 3"
-      },
-      {
-        "label": "d",
-        "text": "1, 2 and 4"
-      }
-    ],
-    "correct_answer": "c",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input\n\nAverage of farm labor indices 102 + 106 + 100 + 96 + 96 = = 100. And so on. 5 Similarly average indices for other can also be calculated. Hence option (c) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 14,
     "question_number": 2,
     "question_code": "MOD-T14-Q02",
     "section": "DILR",
@@ -54,7 +12,7 @@
     "set_id": "mod-t14-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/14-s1.png)",
-    "directions": "Directions for questions 1 to 3: Read the passage",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The total loss for the airline industry was likely to be ₹10,000 crore. Jet Airlines lost ₹3,000 crore, Air India lost ₹“X” crore and “rest of the airlines” lost ₹“Y” crore. What was the loss for the “rest of the airlines”, in 2008?",
     "options": [
       {
@@ -96,7 +54,7 @@
     "set_id": "mod-t14-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/14-s1.png)",
-    "directions": "Directions for questions 1 to 3: Read the passage",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Suppose fuel constitutes 30% of the revenues, do you think airlines would be in a better situation by reducing their fare?",
     "options": [
       {
@@ -138,24 +96,24 @@
     "set_id": "mod-t14-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/14-s2.png)",
-    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
-    "question_text": "The average indices of input use from 2000 to 2004 for farm labour, durable equipment and energy, in their increasing order, can be arranged as.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Staff travelling to Dubai",
     "options": [
       {
         "label": "a",
-        "text": "farm labour, durable equipment, energy"
+        "text": "1 and 2"
       },
       {
         "label": "b",
-        "text": "durable equipment, energy, farm labour"
+        "text": "2 and 3"
       },
       {
         "label": "c",
-        "text": "durable equipment, farm labour, energy"
+        "text": "1, 2 and 3"
       },
       {
         "label": "d",
-        "text": "energy, durable equipment, farm labour"
+        "text": "1, 2 and 4"
       }
     ],
     "correct_answer": "c",
@@ -180,7 +138,7 @@
     "set_id": "mod-t14-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/14-s2.png)",
-    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If hired workers include 80% locals and 20% migrants in 2000, and 75% locals and 25% migrants in 2001, what is the percentage rise or drop in migrant hired workers from 2000 to 2001?",
     "options": [
       {
@@ -222,7 +180,7 @@
     "set_id": "mod-t14-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/14-s2.png)",
-    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio of the number of hired workers to that of self-employed unpaid workers for the duration 2001 to 2003?",
     "options": [
       {
@@ -264,7 +222,7 @@
     "set_id": "mod-t14-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/14-s2.png)",
-    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following is correct? I. \u0007In 2003, minimum area was harvested for crops but maximum agricultural chemicals were used. II. \u0007In 2004, both the number of self-employed unpaid workers and the use of durable equipments fell by minimum.",
     "options": [
       {
@@ -288,132 +246,6 @@
     "marks_correct": 3,
     "marks_incorrect": -1,
     "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 14,
-    "question_number": 8,
-    "question_code": "MOD-T14-Q08",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t14-s3",
-    "set_position": 1,
-    "context_passage": "![data set 3](/di/mod/14-s3.png)",
-    "directions": "Directions for questions 8 to 10: Go through the",
-    "question_text": "What is the least number of members who have 3 to 5 children and have gone to at least one of the destinations?",
-    "options": [
-      {
-        "label": "a",
-        "text": "225"
-      },
-      {
-        "label": "b",
-        "text": "275"
-      },
-      {
-        "label": "c",
-        "text": "100"
-      },
-      {
-        "label": "d",
-        "text": "Cannot be determined \b"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "In the category 3 to 5 children, there are 275 members who have gone to Goa. We are not sure about the 225 members who have gone to Kashmir that if they are different than the members who have gone to Goa. So for these 225 families going to Kashmir, we are not sure about the extent of overlapping with the families going to Goa.It might be a possibility that these 225 members who have gone to Kashmir have also gone to Goa. Hence minimum number of members who have gone to at least one of the destinations = 275. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 14,
-    "question_number": 9,
-    "question_code": "MOD-T14-Q09",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t14-s3",
-    "set_position": 2,
-    "context_passage": "![data set 3](/di/mod/14-s3.png)",
-    "directions": "Directions for questions 8 to 10: Go through the",
-    "question_text": "Minimum number of members for all the categories and have gone to at least one of the destinations is.",
-    "options": [
-      {
-        "label": "a",
-        "text": "385"
-      },
-      {
-        "label": "b",
-        "text": "375"
-      },
-      {
-        "label": "c",
-        "text": "305"
-      },
-      {
-        "label": "d",
-        "text": "315"
-      }
-    ],
-    "correct_answer": "a",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Taking a cue from solution to 8, following numbers are to be added: Number of members who went to Goa Kashmir 80 60 275 225 20 30 Answer to this question would be = 80 + 275 + 30 = 385. Hence option (a) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 14,
-    "question_number": 10,
-    "question_code": "MOD-T14-Q10",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t14-s3",
-    "set_position": 3,
-    "context_passage": "![data set 3](/di/mod/14-s3.png)",
-    "directions": "Directions for questions 8 to 10: Go through the",
-    "question_text": "How many of the members have definitely not gone to any of the two destinations?",
-    "options": [
-      {
-        "label": "a",
-        "text": "0"
-      },
-      {
-        "label": "b",
-        "text": "10"
-      },
-      {
-        "label": "c",
-        "text": "25"
-      },
-      {
-        "label": "d",
-        "text": "Cannot be determined"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "We are not sure of the members in the category ‘3 to 5 children’ or ‘more than 5 children’ that any of these members have NOT gone to any of the destinations. Although we are sure of the fact that in the category ‘Less than 3 children’, there are at least 150 – (80 + 60) = 10 members who have not gone to any of the destinations. Hence option (b) is the answer.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

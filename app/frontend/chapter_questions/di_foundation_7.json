@@ -12,7 +12,7 @@
     "set_id": "fnd-t7-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/7-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of total players who play football and rugby together?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t7-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/7-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the number of the female players who play lawn tennis and the number of male players who play rugby?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t7-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/7-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of female players who play cricket and number of male players who play hockey?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t7-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/7-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of male players who play football, cricket and lawn tennis together?",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t7-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/7-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Number of male players who play rugby is approximately what percentage of the total number of players who play lawn tennis?",
     "options": [
       {
@@ -242,7 +242,7 @@
     "set_id": "fnd-t7-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/7-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio between total number of articles manufactured by unit III to that by Unit V for all the years together?",
     "options": [
       {
@@ -288,7 +288,7 @@
     "set_id": "fnd-t7-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/7-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of defective items from Unit II for the given years?",
     "options": [
       {
@@ -334,7 +334,7 @@
     "set_id": "fnd-t7-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/7-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "During which year the largest percentage of articles were defective out of the articles manufactured by unit IV?",
     "options": [
       {
@@ -380,7 +380,7 @@
     "set_id": "fnd-t7-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/7-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the percentage (rounded off to nearest integer) of defective articles over the number of articles manufactured by all nits together in the year 2001?",
     "options": [
       {
@@ -426,7 +426,7 @@
     "set_id": "fnd-t7-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/7-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "During which year was the percentage increase/ decrease in manufacture from the previous year the highest for Unit I?",
     "options": [
       {
@@ -472,7 +472,7 @@
     "set_id": "fnd-t7-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/7-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of adult females to the total number of female children staying in all the societies together?",
     "options": [
       {
@@ -518,7 +518,7 @@
     "set_id": "fnd-t7-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/7-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of female children staying in all the societies together?",
     "options": [
       {
@@ -564,7 +564,7 @@
     "set_id": "fnd-t7-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/7-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the total number of adult males in societies A and B together to the total number of adult males in societies E and F together?",
     "options": [
       {
@@ -610,7 +610,7 @@
     "set_id": "fnd-t7-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/fnd/7-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of members staying in all the societies together?",
     "options": [
       {
@@ -656,7 +656,7 @@
     "set_id": "fnd-t7-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/fnd/7-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the number of male children in society B and the number of male children in society F?",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t7-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/7-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Population of State B in 2002 is what per cent of the total population of State B in all the years together?",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t7-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/7-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio between the total population of State A for the years 2001, 2002 and 2003 together and the total population of State B for the years 2005, 2006 and 2007 together respectively?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t7-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/7-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which State and in which year the per cent rise in population from the previous year was the highest?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t7-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/fnd/7-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the per cent rise in population of State B from 2003 to 2004?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t7-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/7-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Approximately what is the average population of State A for all the given years?",
     "options": [
       {

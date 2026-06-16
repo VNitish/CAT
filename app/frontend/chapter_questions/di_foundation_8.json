@@ -12,7 +12,7 @@
     "set_id": "fnd-t8-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/8-s1.png)",
-    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any colony?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "fnd-t8-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/8-s1.png)",
-    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to the colony C2?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "fnd-t8-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/8-s1.png)",
-    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If one unit produced in each of the factories is to be sent to each of the colonies, then what will be the total transportation cost incurred?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "fnd-t8-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/8-s1.png)",
-    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "FiWjRkCl represents that the product has moved in this cycle – Factory i to warehouse j to retailer k to colony l. If i = 2 and k = 2, then what is the sum of (j + l) for the lowest transportation cost incurred in one product transferred from i = 2 to any of the colonies?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "fnd-t8-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/8-s1.png)",
-    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the above question, if j = 2, then how many different value/s of (i + k + l) is/are possible for the lowest transportation cost incurred in one product transferred from any of the factories to any of the colonies?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "fnd-t8-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/8-s2.png)",
-    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What can be inferred from the given table?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "fnd-t8-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/8-s2.png)",
-    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Over 1991–2011, which two fuels meet more than 60% of the total energy demand of both the world and Asia?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "fnd-t8-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/8-s2.png)",
-    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which fuel’s proportion in the total energy demand increases over the decade 1991–2001 and decreases over the decade 2001–2011 for both the world and Asia?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "fnd-t8-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/8-s2.png)",
-    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which is the fuel whose proportion in the total energy demand will decrease continuously over the period 1991–2011, in Asia?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "fnd-t8-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/8-s2.png)",
-    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which is the fuel whose proportions to the total energy demand of the world will remain constant over the period 1991–2011 but whose proportion will increase in the total energy demand in Asia?",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "fnd-t8-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/8-s3.png)",
-    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who scored the lowest total?",
     "options": [
       {
@@ -474,7 +474,7 @@
     "set_id": "fnd-t8-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/8-s3.png)",
-    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The average marks for all four persons (for all the four subjects) is (approx.)",
     "options": [
       {
@@ -516,7 +516,7 @@
     "set_id": "fnd-t8-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/8-s3.png)",
-    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the highest scorer in chemistry?",
     "options": [
       {
@@ -558,7 +558,7 @@
     "set_id": "fnd-t8-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/fnd/8-s3.png)",
-    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the lowest scorer in physics?",
     "options": [
       {
@@ -600,7 +600,7 @@
     "set_id": "fnd-t8-s5",
     "set_position": 1,
     "context_passage": "![data set 5](/di/fnd/8-s5.png)",
-    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The percentage of respondents aged less than 40 years is at least",
     "options": [
       {
@@ -642,7 +642,7 @@
     "set_id": "fnd-t8-s5",
     "set_position": 2,
     "context_passage": "![data set 5](/di/fnd/8-s5.png)",
-    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Given the information above, the percentage of respondents older than 35 can be at most",
     "options": [
       {
@@ -684,7 +684,7 @@
     "set_id": "fnd-t8-s5",
     "set_position": 3,
     "context_passage": "![data set 5](/di/fnd/8-s5.png)",
-    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The percentage of respondents that fall into the 35 to 40 years age group (both inclusive) is at least",
     "options": [
       {

@@ -12,7 +12,7 @@
     "set_id": "mod-t11-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/11-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "From 2010 to 2012, Company D’s sales revenue has remained constant. What is the value of x?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t11-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/11-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If sales revenue of company A was ₹100 in 2010, then what is its revenue in 2012?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t11-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/11-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Sales revenue of companies D and E are same in the year 2012. Which of the following between X and Y is greater?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t11-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/11-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the companies from A or B or C has the maximum sales volume?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t11-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/11-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The percentage of respondents aged less than 40 years is at least",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t11-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/11-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Given the information above, the percentage of respondents older than 35 can be at most",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t11-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/11-s2.png)",
-    "directions": "Directions for questions 5 to 7: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The percentage of respondents that fall into the 35 to 40 years age group (both inclusive) is at least",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t11-s3",
     "set_position": 1,
     "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
-    "directions": "Directions for questions 8 to 10: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t11-s3",
     "set_position": 2,
     "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
-    "directions": "Directions for questions 8 to 10: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statement is true?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "mod-t11-s3",
     "set_position": 3,
     "context_passage": "on it. Five friends meet every morning at Sree sagar restaurant for an idli-vada breakfast. Each consumes a different number of idli and vada. The number of idli consumed are 1,4,5,6 and 8, while the number of vadas consumed are 0,1,2,4 and 6. Below are some more facts about who eats what and how much: i. The number of vadas eaten by Ignesh is three times the number of vadas consumed by the person who eats four idlis. ii. Three persons, including the one who eats four vadas eat without chutney. \b iii. Sandeep does not take any chutney. iv. The one who eats one idli does not eat any vadas or chutney. Further, he is not Mukesh. v. Daljits eats idli with chutney and also eats vada. vi. Mukesh, who does not take chutney, eats half as many vadas as the person who eats twice as many idlis as he does. vii. Bimal eats two more idlis than Ignesh, but Ignesh eats two more vadas than Bimal.",
-    "directions": "Directions for questions 8 to 10: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is true?",
     "options": [
       {

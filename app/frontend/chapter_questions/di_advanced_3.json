@@ -12,7 +12,7 @@
     "set_id": "adv-t22-s1",
     "set_position": 1,
     "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any retailer?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "adv-t22-s1",
     "set_position": 2,
     "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the maximum transportation cost incurred in transferring the product from any factory to any retailer?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "adv-t22-s1",
     "set_position": 3,
     "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost at which the product can be supplied to R4 from any factory?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "adv-t22-s1",
     "set_position": 4,
     "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the maximum transportation cost at which the product can be supplied to R3 from any factory?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any colony?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to the colony C2?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the maximum transportation cost incurred in transferring the product from any factory to the colony C5?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If one unit produced in each of the factories is to be sent to each of the colonies, then what will be the total transportation cost incurred?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "FiWjRkCl represents that the product has moved in this cycle – Factory i to Warehouse j to Retailer k to Colony l. If i = 2 and k = 2, then what is the sum of (j + l) for the lowest transportation cost incurred in one product transferred from i = 2 to any of the colonies?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "adv-t22-s2",
     "set_position": 6,
     "context_passage": "![data set 2](/di/adv/22-s2.png)",
-    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the above question, if j = 2, then how many different value/s of ( i + k + l) is/are possible for the lowest transportation cost incurred in one product transferred from any of the factories to any of the colonies?",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "adv-t22-s3",
     "set_position": 1,
     "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
-    "directions": "Directions for questions 11 to 15: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What can be inferred from the given table?",
     "options": [
       {
@@ -474,7 +474,7 @@
     "set_id": "adv-t22-s3",
     "set_position": 2,
     "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
-    "directions": "Directions for questions 11 to 15: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "During 1991-2011, which two fuels meet more than 60% of the total energy demand of both the world and Asia?",
     "options": [
       {
@@ -516,7 +516,7 @@
     "set_id": "adv-t22-s3",
     "set_position": 3,
     "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
-    "directions": "Directions for questions 11 to 15: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which fuel’s proportion in the total energy demand increases over the decade 1991-2001 and decreases over the decade 2001-2011 for both the world and Asia?",
     "options": [
       {
@@ -558,7 +558,7 @@
     "set_id": "adv-t22-s3",
     "set_position": 4,
     "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
-    "directions": "Directions for questions 11 to 15: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In Asia for which fuel does the proportion in the total energy demand decrease continuously over the period 1991-2011?",
     "options": [
       {
@@ -600,7 +600,7 @@
     "set_id": "adv-t22-s3",
     "set_position": 5,
     "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
-    "directions": "Directions for questions 11 to 15: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which fuel does the proportion in the total energy demand of the world remain constant over the period 1991-2011; but its proportion increases in the total energy demand in Asia?",
     "options": [
       {
@@ -642,7 +642,7 @@
     "set_id": "adv-t22-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/adv/22-s4.png)",
-    "directions": "Directions for questions 16 to 20: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who scored the lowest total?",
     "options": [
       {
@@ -684,7 +684,7 @@
     "set_id": "adv-t22-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/adv/22-s4.png)",
-    "directions": "Directions for questions 16 to 20: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The approximate average marks for all four persons (for all the four subjects) are",
     "options": [
       {
@@ -726,7 +726,7 @@
     "set_id": "adv-t22-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/adv/22-s4.png)",
-    "directions": "Directions for questions 16 to 20: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the highest scorer in Chemistry?",
     "options": [
       {
@@ -768,7 +768,7 @@
     "set_id": "adv-t22-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/adv/22-s4.png)",
-    "directions": "Directions for questions 16 to 20: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the lowest scorer in Physics?",
     "options": [
       {
@@ -810,7 +810,7 @@
     "set_id": "adv-t22-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/adv/22-s4.png)",
-    "directions": "Directions for questions 16 to 20: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who is the highest scorer in English?",
     "options": [
       {
@@ -852,7 +852,7 @@
     "set_id": "adv-t22-s5",
     "set_position": 1,
     "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
-    "directions": "Directions for questions 21 to 23: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many times did the price of petrol increase during the given period?",
     "options": [
       {
@@ -894,7 +894,7 @@
     "set_id": "adv-t22-s5",
     "set_position": 2,
     "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
-    "directions": "Directions for questions 21 to 23: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many times did the price of diesel increase during the given period?",
     "options": [
       {
@@ -936,7 +936,7 @@
     "set_id": "adv-t22-s5",
     "set_position": 3,
     "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
-    "directions": "Directions for questions 21 to 23: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many times is the percentage increase in the price of petrol more than the percentage increase in the price of diesel over their respective previous date?",
     "options": [
       {
@@ -978,7 +978,7 @@
     "set_id": "adv-t22-s6",
     "set_position": 1,
     "context_passage": "![data set 6](/di/adv/22-s6.png)",
-    "directions": "Directions for questions 24 to 25: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which city out of the given four cities has the price of petrol decreased by the maximum percentage?",
     "options": [
       {
@@ -1020,7 +1020,7 @@
     "set_id": "adv-t22-s6",
     "set_position": 2,
     "context_passage": "![data set 6](/di/adv/22-s6.png)",
-    "directions": "Directions for questions 24 to 25: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which city out of the given four cities has the price of diesel decreased by the maximum percentage?",
     "options": [
       {
@@ -1048,95 +1048,5 @@
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
     "removed": false
-  },
-  {
-    "tier": "Advanced",
-    "test": 22,
-    "question_number": 2,
-    "question_code": "ADV-T22-Q02",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "adv-t22-s6",
-    "set_position": 3,
-    "context_passage": "![data set 6](/di/adv/22-s6.png)",
-    "directions": "Directions for questions 24 to 25: Refer to the",
-    "question_text": "F5 to W1 to R5 is the maximum. Therefore, option",
-    "options": [
-      {
-        "label": "a",
-        "text": "is the correct answer."
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "F5 to W1 to R5 is the maximum. Therefore, option (b)is the correct answer.",
-    "difficulty": "Advanced",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
-  },
-  {
-    "tier": "Advanced",
-    "test": 22,
-    "question_number": 4,
-    "question_code": "ADV-T22-Q04",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "adv-t22-s6",
-    "set_position": 4,
-    "context_passage": "![data set 6](/di/adv/22-s6.png)",
-    "directions": "Directions for questions 24 to 25: Refer to the",
-    "question_text": "F3 to W5 to R3 is the maximum. Therefore, option",
-    "options": [
-      {
-        "label": "a",
-        "text": "is the correct answer"
-      }
-    ],
-    "correct_answer": "c",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "F3 to W5 to R3 is the maximum. Therefore, option (c) is the correct answer",
-    "difficulty": "Advanced",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
-  },
-  {
-    "tier": "Advanced",
-    "test": 22,
-    "question_number": 5,
-    "question_code": "ADV-T22-Q05",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "adv-t22-s6",
-    "set_position": 5,
-    "context_passage": "![data set 6](/di/adv/22-s6.png)",
-    "directions": "Directions for questions 24 to 25: Refer to the",
-    "question_text": "F3 to W2 to R2 to C1 is the lowest. Therefore, option",
-    "options": [
-      {
-        "label": "a",
-        "text": "is the correct answer"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "F3 to W2 to R2 to C1 is the lowest. Therefore, option (b) is the correct answer",
-    "difficulty": "Advanced",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
   }
 ]

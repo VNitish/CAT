@@ -12,7 +12,7 @@
     "set_id": "adv-t20-s1",
     "set_position": 1,
     "context_passage": "You are the head of a mutual fund, responsible for investing the available money in different funds/ securities. From the market trends you find that blue- chip companies and government stocks will generally not do as well as corporate bonds, in the coming year. However, government regulations require that at least one-third of your mutual fund’s capital must be in blue-chip stocks and another third in corporate bonds.",
-    "directions": "Directions for questions 1 to 2: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Under current regulations, what seems to be the best way for you to invest your funds so as to maximize profit?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "adv-t20-s1",
     "set_position": 2,
     "context_passage": "You are the head of a mutual fund, responsible for investing the available money in different funds/ securities. From the market trends you find that blue- chip companies and government stocks will generally not do as well as corporate bonds, in the coming year. However, government regulations require that at least one-third of your mutual fund’s capital must be in blue-chip stocks and another third in corporate bonds.",
-    "directions": "Directions for questions 1 to 2: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the return on government stocks suddenly goes up by 5%, you would probably:",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of apples plucked on day 6?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many days, is it possible to determine the exact number of apples plucked by Munu?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Disregarding table 2, how many of the following statements are definitely true? I. \u0007Number of apples plucked on day 2 is more than the number of apples plucked on day 5. II. \u0007Number of apples plucked on day 3 is more than the number of apples plucked on day 5. III. \u0007Sum of the apples plucked on day 1 and day 2 is less than the sum of the apples plucked on day 4 and day 5. IV. \u0007Sum of the apples plucked on day 2 and day 3 is less than the sum of the apples plucked on day 3 and day 4.",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the above question, how many of the statements can be verified for being right or wrong (using table 1 only)?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Disregarding table 2; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. \u0007Total number of apples plucked from day 1 to day 10. II. \u0007Sum of the number of apples plucked on all the possible pairs of days. III. \u0007Difference in the number of apples plucked in between all the two consecutive days. IV. \u0007Sum of the number of apples plucked in all the four consecutive day periods.",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "adv-t20-s2",
     "set_position": 6,
     "context_passage": "![data set 2](/di/adv/20-s2.png)",
-    "directions": "Directions for questions 3 to 8: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Disregarding table 1; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. \u0007Total number of apples plucked from day 1 to day 10. II. \u0007Sum of the number of apples plucked on all the possible pairs of days. III. \u0007Difference in the number of apples plucked in between all the two consecutive days. IV. \u0007Sum of the number of apples plucked in all the four consecutive day periods.",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Company ‘Y’, however, cannot outrighthy reduce the price of its product because: I. of the company’s policy II. it lowers its image in the market III. it will reduce its profit",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The selling price of the product manufactured by company ‘X’ was low because: I. of less transportation costs II. \u0007they had less overheads as compared to company ‘Y’ III. \u0007the quantity per unit was less than that of their competitors",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Why did company ‘Y’ go for flexi-packs? I. to be in tune with marketing trends II. easy to handle on filling lines III. to save on packaging costs",
     "options": [
       {
@@ -474,7 +474,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Savings made in cost of packaging I. helped reduce cost of production II. helped reduce selling price III. allow more production",
     "options": [
       {
@@ -516,7 +516,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Why was company ‘Y’ selling the same type of product at a rate higher than that of company ‘X’? (I) \u0007Before company ‘X’ entered the market, company ‘Y’ enjoyed a monopoly in the market and took advantage of the same. (II) \u0007As company ‘Y’ had a long standing, its overheads were comparatively higher. (III) Their total cost of production was higher.",
     "options": [
       {
@@ -558,7 +558,7 @@
     "set_id": "adv-t20-s3",
     "set_position": 6,
     "context_passage": "![data set 3](/di/adv/20-s3.png)",
-    "directions": "Directions for questions 9 to 14: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The market survey conducted by company ‘Y’ revealed that their product was a quick consumption item of a higher quality with a longer shelf-life. What was the conclusion drawn from the survey? I. \u0007Being a quick consumption item, it can have a cheaper packaging, as the problem of aging will not be there. II. \u0007Longer shelf-life shows that the product has durability and therefore can stand for a longer period in the market without changes in the quality of the product. III. \u0007Their product enjoyed better reputation than that of company ‘X’.",
     "options": [
       {
@@ -600,7 +600,7 @@
     "set_id": "adv-t20-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/adv/20-s4.png)",
-    "directions": "Directions for questions 15 to 17: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If it is mandated that a student who wishes to enroll for BM or CB has to take MR, then which of the followings statements is necessarily true?",
     "options": [
       {
@@ -642,7 +642,7 @@
     "set_id": "adv-t20-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/adv/20-s4.png)",
-    "directions": "Directions for questions 15 to 17: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "It is mandated that those who enroll for IM should take SM or CB. Then, which of the statements is necessarily true?",
     "options": [
       {
@@ -684,7 +684,7 @@
     "set_id": "adv-t20-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/adv/20-s4.png)",
-    "directions": "Directions for questions 15 to 17: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the rules of this school prescribe that a student should take 3 and not more than 3 marketing area courses to specialize in the marketing stream, which of the following statements cannot be true?",
     "options": [
       {
@@ -726,7 +726,7 @@
     "set_id": "adv-t20-s5",
     "set_position": 1,
     "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
-    "directions": "Directions for questions 18 to 21: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "On 19th June how much Yen would ₹8000 amount to?",
     "options": [
       {
@@ -768,7 +768,7 @@
     "set_id": "adv-t20-s5",
     "set_position": 2,
     "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
-    "directions": "Directions for questions 18 to 21: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the Dollar/Yen ratio follows the same trend from 24th to 27th as from 21st to 24th, then what will be the value of $ 50 on 27th June?",
     "options": [
       {
@@ -810,7 +810,7 @@
     "set_id": "adv-t20-s5",
     "set_position": 3,
     "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
-    "directions": "Directions for questions 18 to 21: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "A jacket costs $ 400. Mohan has ₹18,200, £ 225 and ¥ 35000 with him. If he can use only one currency to buy the jacket, he would be able to buy the jacket on 20th June using:",
     "options": [
       {
@@ -852,7 +852,7 @@
     "set_id": "adv-t20-s5",
     "set_position": 4,
     "context_passage": "on it: The following line charts show the currency ratio from 17th June to 24th June: Dollar/Rupee Pound/Dollar Dollar/Yen \b",
-    "directions": "Directions for questions 18 to 21: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "On 15th June the Dollar/Rupee ratio was 46.5. On that day ₹5000 would fetch_________ Pounds.",
     "options": [
       {
@@ -894,7 +894,7 @@
     "set_id": "adv-t20-s6",
     "set_position": 1,
     "context_passage": "The following table shows the highest and the average marks obtained by students in subjects over the years. The maximum mark in each subject is 100.",
-    "directions": "Directions for questions 22 to 25: Read refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What were the grand average marks of the five subjects in 1996?",
     "options": [
       {
@@ -936,7 +936,7 @@
     "set_id": "adv-t20-s6",
     "set_position": 2,
     "context_passage": "The following table shows the highest and the average marks obtained by students in subjects over the years. The maximum mark in each subject is 100.",
-    "directions": "Directions for questions 22 to 25: Read refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The difference in the average marks in History between 1994 and 1995 was exactly equal to the difference in the highest marks in Hindi between which of the following pair of years?",
     "options": [
       {
@@ -978,7 +978,7 @@
     "set_id": "adv-t20-s6",
     "set_position": 3,
     "context_passage": "The following table shows the highest and the average marks obtained by students in subjects over the years. The maximum mark in each subject is 100.",
-    "directions": "Directions for questions 22 to 25: Read refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the approximate percentage increase in average marks in history from 1992 and 1993?",
     "options": [
       {
@@ -1020,7 +1020,7 @@
     "set_id": "adv-t20-s6",
     "set_position": 4,
     "context_passage": "The following table shows the highest and the average marks obtained by students in subjects over the years. The maximum mark in each subject is 100.",
-    "directions": "Directions for questions 22 to 25: Read refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The average highest marks in English in 1992, 1993 and 1996 were exactly equal to the highest marks in Hindi in which of the following years?",
     "options": [
       {

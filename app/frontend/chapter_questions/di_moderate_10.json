@@ -12,7 +12,7 @@
     "set_id": "mod-t18-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/18-s1.png)",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which category was the percentage of spam e-mails increasing but at a decreasing rate?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t18-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/18-s1.png)",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the health category, the number of spam e-mails received in December 2002 as compared to June 2003",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t18-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/18-s1.png)",
-    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the financial category, the number of spam e-mails received in September 2002 as compared to March 2003",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t18-s2",
     "set_position": 1,
     "context_passage": "An industry comprises of four firms (A, B, C, and D). Financial details of these firms and of the industry as a whole for a particular year are given below. Profitability of a firm is defined as profit as a percentage of sales. Figures in ₹ A B C D Total Sales 24568 25468 23752 15782 89570 Operating costs 17198 19101 16151 10258 62708 Interest costs 2457 2292 2850 1578 9177 Profit 4914 4075 4750 3946 17684",
-    "directions": "Directions for questions 4 to 5: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which firm has the highest profitability?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t18-s2",
     "set_position": 2,
     "context_passage": "An industry comprises of four firms (A, B, C, and D). Financial details of these firms and of the industry as a whole for a particular year are given below. Profitability of a firm is defined as profit as a percentage of sales. Figures in ₹ A B C D Total Sales 24568 25468 23752 15782 89570 Operating costs 17198 19101 16151 10258 62708 Interest costs 2457 2292 2850 1578 9177 Profit 4914 4075 4750 3946 17684",
-    "directions": "Directions for questions 4 to 5: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If firm A acquires firm B, approximately what percentage of the total market (total sales) will they corner together?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t18-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/18-s3.png)",
-    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "When the cumulative value of Z will be 270, what would be the absolute difference between the cumulative value of x + y up to this point and the cumulative value of z up to this point?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t18-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/18-s3.png)",
-    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What will be the value of A, when the cumulative value of z becomes 85?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t18-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/mod/18-s3.png)",
-    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What will be the difference in values between z and x + y when A = 672?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t18-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/mod/18-s4.png)",
-    "directions": "Directions for questions 9 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which is valid assignment?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "mod-t18-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/mod/18-s4.png)",
-    "directions": "Directions for questions 9 to 10: Answer the questions",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If A gets Home and C gets Finance, then which is NOT a valid assignment of defense and Telecom?",
     "options": [
       {

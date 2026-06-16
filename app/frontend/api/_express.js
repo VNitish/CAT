@@ -340,8 +340,19 @@ const diSessionSchema = new mongoose.Schema({
 }, { collection: 'di_sessions', timestamps: true });
 diSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 
+// Chart/table crops live in MongoDB as base64 (one doc per data-set), served as PNG by
+// GET /api/di/image/:setId. Questions reference them via a short URL in context_passage,
+// so the heavy image bytes are fetched once per set and cached by the browser rather than
+// inlined as a huge data-URI on every question.
+const diImageSchema = new mongoose.Schema({
+  set_id:       { type: String, unique: true, index: true },
+  content_type: { type: String, default: 'image/png' },
+  b64:          String,
+}, { collection: 'di_images', timestamps: true });
+
 const DiQuestion      = mongoose.model('DiQuestion', diQuestionSchema);
 const DiSession       = mongoose.model('DiSession', diSessionSchema);
+const DiImage         = mongoose.model('DiImage', diImageSchema);
 
 // ── Middleware ────────────────────────────────────────────────────────────────
 function authMiddleware(req, res, next) {
@@ -1528,6 +1539,21 @@ app.get('/api/di-tests', async (req, res) => {
     res.json(tests);
   } catch (e) {
     res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/di/image/:setId — serve a data-set's chart/table image (base64 in MongoDB) as a
+// PNG. Public + immutable-cached: it's referenced by <img> tags (which can't send auth) and
+// the data set isn't secret (answers/explanations remain withheld until submit).
+app.get('/api/di/image/:setId', async (req, res) => {
+  try {
+    const img = await DiImage.findOne({ set_id: req.params.setId }).lean();
+    if (!img || !img.b64) return res.status(404).end();
+    res.set('Content-Type', img.content_type || 'image/png');
+    res.set('Cache-Control', 'public, max-age=31536000, immutable');
+    res.send(Buffer.from(img.b64, 'base64'));
+  } catch {
+    res.status(500).end();
   }
 });
 

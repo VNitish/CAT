@@ -12,7 +12,7 @@
     "set_id": "fnd-t3-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/3-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the year 2000 the number of employed workers by unit ‘C’ is what per cent of the total number of employed workers by all the units in the same year (rounded off to two places of decimal)?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t3-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/3-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For all the given years, what is the difference between the average number of workers in units D and E?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t3-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/3-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which year the percentage increase/decrease in the number of employed workers is minimum for unit ‘F’?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t3-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/3-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For all the given years, in which unit the average number of employed workers were maximum?",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t3-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/3-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the years 1998 and 1999, what is the approximate ratio between the number of employed workers in all the units?",
     "options": [
       {
@@ -242,7 +242,7 @@
     "set_id": "fnd-t3-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/3-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which faculty there was decrease in the number of students from 2001 to 2002?",
     "options": [
       {
@@ -288,7 +288,7 @@
     "set_id": "fnd-t3-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/3-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio between the number of students studying pharmacy in the years 2001 and 2002 respectively?",
     "options": [
       {
@@ -334,7 +334,7 @@
     "set_id": "fnd-t3-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/3-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the approximate percentage increase in the number of students of Engineering from the year 2001 to 2002?",
     "options": [
       {
@@ -380,7 +380,7 @@
     "set_id": "fnd-t3-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/3-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the year 2001, the number of student studying Arts and Commerce together is what percentage of the number of students studying these subjects together in 2002?",
     "options": [
       {
@@ -426,7 +426,7 @@
     "set_id": "fnd-t3-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/3-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which of the following faculties, the percentage change (consider absolute value) in the number of students was minimum from 2001 to 2002?",
     "options": [
       {
@@ -472,7 +472,7 @@
     "set_id": "fnd-t3-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/3-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total amount of savings of all the persons together?",
     "options": [
       {
@@ -518,7 +518,7 @@
     "set_id": "fnd-t3-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/3-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Who spends the maximum amount on shopping?",
     "options": [
       {
@@ -564,7 +564,7 @@
     "set_id": "fnd-t3-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/3-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of total amount spent by Ritu on Eating out and Watching Movies together to the total amount spent by Arun on the same?",
     "options": [
       {
@@ -610,7 +610,7 @@
     "set_id": "fnd-t3-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/fnd/3-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Amount spent by Suresh on health is what per cent of the total amount spent by all the people together on Health? (round off to two digits after decimal)",
     "options": [
       {
@@ -656,7 +656,7 @@
     "set_id": "fnd-t3-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/fnd/3-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Per annum income of Arif is approximately what per cent of the total per annum income of all the men together?",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t3-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Number of women working in the HR department from organization S is what per cent of the total number of women working in the HR departments from all organizations together? (rounded off to two digits after decimal)",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t3-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of women working in the Finance department from all organizations together?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t3-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which organization has the least number of women employees working in all the given departments together?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t3-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of number of women working in IT department from organizations P, Q and U together to the number of women working in the Marketing department of organizations P, S and T together?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t3-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the women working in the Production department of organization Q were also to work in its Mer- chandising department, what would be the approxi- mate percentage of women employees working for the Merchandising department of organization Q?",
     "options": [
       {

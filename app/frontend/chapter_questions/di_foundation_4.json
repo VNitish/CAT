@@ -12,7 +12,7 @@
     "set_id": "fnd-t4-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/4-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which course is the number of boys the minimum?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t4-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/4-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many girls are there in course C?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t4-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/4-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For course D, what is the respective ratio of boys and girls?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t4-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/4-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which pair of courses is the number of boys the same?",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t4-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/4-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For course E, the number of girls is how much per cent more than the boys for course E?",
     "options": [
       {
@@ -242,7 +242,7 @@
     "set_id": "fnd-t4-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of comput- ers manufactured by companies A and C together to the number of computers sold by companies A and C together?",
     "options": [
       {
@@ -288,7 +288,7 @@
     "set_id": "fnd-t4-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the average number of computers manufactured by all the companies together and the average number of computers sold by all the companies together?",
     "options": [
       {
@@ -334,7 +334,7 @@
     "set_id": "fnd-t4-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of computers sold by company B is what per cent of the number of computers manufactured by company B? (Rounded off to two digits after decimal)",
     "options": [
       {
@@ -380,7 +380,7 @@
     "set_id": "fnd-t4-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of computers manufactured by company D is what per cent of the number of computers manufactured by company E?",
     "options": [
       {
@@ -426,7 +426,7 @@
     "set_id": "fnd-t4-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of computers manufactured by company B is approximately what per cent of the number of computers manufactured by all the companies together?",
     "options": [
       {
@@ -472,7 +472,7 @@
     "set_id": "fnd-t4-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/4-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the amount spent by the family on commuting?",
     "options": [
       {
@@ -518,7 +518,7 @@
     "set_id": "fnd-t4-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/4-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of amount spent by family on Medicine to the amount spent on Groceries?",
     "options": [
       {
@@ -564,7 +564,7 @@
     "set_id": "fnd-t4-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/4-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total amount spent by the family on Entertainment and Shopping together?",
     "options": [
       {
@@ -610,7 +610,7 @@
     "set_id": "fnd-t4-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/fnd/4-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Total amount spent by the family on Groceries, Entertainment and Investments together forms approximately what per cent of amount spent on Commuting?",
     "options": [
       {
@@ -656,7 +656,7 @@
     "set_id": "fnd-t4-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/fnd/4-s3.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Amount spent by the family on Medicine forms what per cent of amount spent on Shopping? (Rounded off to two digits after decimal)",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t4-s4",
     "set_position": 1,
     "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
-    "directions": "Directions for questions 16 to 20: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "From 1999 to 2004, the total number of people who preferred to travel by rail, was approximately how many millions?",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t4-s4",
     "set_position": 2,
     "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
-    "directions": "Directions for questions 16 to 20: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of people preferring to travel by rail in 2004, was how many millions fewer than the number of people preferring to travel by rail in 1999?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t4-s4",
     "set_position": 3,
     "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
-    "directions": "Directions for questions 16 to 20: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In 2001, the people preferring to travel by bus represented approximately what per cent of the people preferring to travel by buses, rail and airlines together in that year?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t4-s4",
     "set_position": 4,
     "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
-    "directions": "Directions for questions 16 to 20: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of people preferring to travel by bus to the number of people preferring to travel by rail in the year 2002?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t4-s4",
     "set_position": 5,
     "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
-    "directions": "Directions for questions 16 to 20: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In the year 2003, if all the airlines reduced their rates by 50% and 50% of the people who preferred to travel by rail, now preferred airlines, approximately how many millions of people prefer to travel by air?",
     "options": [
       {

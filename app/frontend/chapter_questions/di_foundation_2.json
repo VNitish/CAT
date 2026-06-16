@@ -12,7 +12,7 @@
     "set_id": "fnd-t2-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which country has shown the maximum percentage change in FEII in 1998 relative to 1997?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "fnd-t2-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "IF China’s FEI is 10 times that of India in the year 1998, which of the following is true for 1998?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "fnd-t2-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If GDP of India increased by 5%, GDP of China increased by 7% and that of Korea decreased by 2% from year 1997 to 1998, which of the following is/are true? I. FEI to china was higher in 1998 than in 1997. II. FEI to china was lower in 1998 than in 1997. III. India’s FEI has increases from 1997 to 1998. IV. FEI to Korea was lower in 1998 than in 1997. V. Korea’s FEI has increased in 1998 from 1997.",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "fnd-t2-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following can be inferred from the given data?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "fnd-t2-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In how many countries has the FEI increased from 1997 to 1998?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the average annual growth rate in production for all four sectors combined between 89 and 98?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "When during the given period, was the maximum production level in the electricity sector achieved?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "When, during the given period, was the minimum pro- duction level in the manufacturing sector achieved?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For the given period, which sector showed the highest growth rate?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In 92, the index for the chemical sector as compared to the index for the Electricity sector was",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 6,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "By what percentage was the output of the manufacturing sector more than that of the chemical sector in 91?",
     "options": [
       {
@@ -474,7 +474,7 @@
     "set_id": "fnd-t2-s2",
     "set_position": 7,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
-    "directions": "Directions for questions 6 to 12: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "When did the maximum percentage change in the production levels of the mining and quarrying sector take place?",
     "options": [
       {
@@ -516,7 +516,7 @@
     "set_id": "fnd-t2-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the total work force was 76 million whereas the total value added was 225 million, then which of the following had the maximum value addition per worker?",
     "options": [
       {
@@ -558,7 +558,7 @@
     "set_id": "fnd-t2-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following sectors has the maximum fixed capital invested per factory?",
     "options": [
       {
@@ -600,7 +600,7 @@
     "set_id": "fnd-t2-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If the variable is proportional to the number of employees and the production per employee, then for which of the following is the production highest?",
     "options": [
       {
@@ -632,48 +632,6 @@
   {
     "tier": "Foundation",
     "test": 2,
-    "question_number": 20,
-    "question_code": "FND-T2-Q20",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "fnd-t2-s3",
-    "set_position": 4,
-    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
-    "question_text": "012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1US $ = ₹45)",
-    "options": [
-      {
-        "label": "a",
-        "text": "6500"
-      },
-      {
-        "label": "b",
-        "text": "2500"
-      },
-      {
-        "label": "c",
-        "text": "143"
-      },
-      {
-        "label": "d",
-        "text": "145"
-      }
-    ],
-    "correct_answer": "a",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
-    "difficulty": "Foundation",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Foundation",
-    "test": 2,
     "question_number": 17,
     "question_code": "FND-T2-Q17",
     "section": "DILR",
@@ -684,7 +642,7 @@
     "set_id": "fnd-t2-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Maruti Udyog Ltd is a joint project of the Indian Government and Suzuki Motors Japan, each having equal stake. One fine day, the Indian government decides to disinvest from the venture due to losses occurring from labour problems. How many money will be disinvested?",
     "options": [
       {
@@ -726,7 +684,7 @@
     "set_id": "fnd-t2-s3",
     "set_position": 6,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
-    "directions": "Directions for questions 13 to 18: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is true?",
     "options": [
       {
@@ -768,7 +726,7 @@
     "set_id": "fnd-t2-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/2-s4.png)",
-    "directions": "Directions for questions 19 to 21: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the amount spent by Helen?",
     "options": [
       {
@@ -810,24 +768,24 @@
     "set_id": "fnd-t2-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/2-s4.png)",
-    "directions": "Directions for questions 19 to 21: Go through the data",
-    "question_text": "Which of the following amount was spent by one of them?",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1US $ = ₹45)",
     "options": [
       {
         "label": "a",
-        "text": "₹1139"
+        "text": "6500"
       },
       {
         "label": "b",
-        "text": "₹1378"
+        "text": "2500"
       },
       {
         "label": "c",
-        "text": "₹2571"
+        "text": "143"
       },
       {
         "label": "d",
-        "text": "₹2718"
+        "text": "145"
       }
     ],
     "correct_answer": "a",
@@ -852,7 +810,7 @@
     "set_id": "fnd-t2-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/2-s4.png)",
-    "directions": "Directions for questions 19 to 21: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The women who spent ₹1193 is",
     "options": [
       {
@@ -894,7 +852,7 @@
     "set_id": "fnd-t2-s5",
     "set_position": 1,
     "context_passage": "![data set 5](/di/fnd/2-s5.png)",
-    "directions": "Directions for questions 22 to 25: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The highest percentage of growth in sales, relative to the previous year occurred in",
     "options": [
       {
@@ -936,7 +894,7 @@
     "set_id": "fnd-t2-s5",
     "set_position": 2,
     "context_passage": "![data set 5](/di/fnd/2-s5.png)",
-    "directions": "Directions for questions 22 to 25: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The highest percentage growth in net profit, relative to the previous year, was achieved in",
     "options": [
       {
@@ -978,7 +936,7 @@
     "set_id": "fnd-t2-s5",
     "set_position": 3,
     "context_passage": "![data set 5](/di/fnd/2-s5.png)",
-    "directions": "Directions for questions 22 to 25: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Defining the profitability as the ratio of net profit to sales, IVP Ltd, recorded the highest profitability in",
     "options": [
       {
@@ -1020,7 +978,7 @@
     "set_id": "fnd-t2-s5",
     "set_position": 4,
     "context_passage": "![data set 5](/di/fnd/2-s5.png)",
-    "directions": "Directions for questions 22 to 25: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "With profitability as defined in question 24, it can be concluded that:",
     "options": [
       {

@@ -12,7 +12,7 @@
     "set_id": "mod-t13-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/mod/13-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many states/UTs have shown the same trend of increase or decrease as shown by India across C3 to C8?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "mod-t13-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/mod/13-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What percentage of total population of Bihar in 2011 are females?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "mod-t13-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/mod/13-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What percentage of total population of India in 2001 is of children less than 7 years age?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "mod-t13-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/mod/13-s1.png)",
-    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many states or union territories in 2011, percentage of children aged less than 7 years is at least 50% of the total population of the that state or union territory?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "mod-t13-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/13-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many years, is it possible to calculate the size of domestic watch market (in ₹)?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "mod-t13-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/mod/13-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which company has the second lowest sales (in ₹terms) in the year 2010?",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "mod-t13-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/mod/13-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which year saw the lowest growth rate in number of unit sold over the previous year for Titan?",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "mod-t13-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/mod/13-s2.png)",
-    "directions": "Directions for questions 5 to 8: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the size of the domestic market in the year 2010 (in ₹)?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "mod-t13-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/mod/13-s3.png)",
-    "directions": "Directions for questions 9 to 11: Read the passage",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the free capacity in the Avanti – Vidisha pipeline?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "mod-t13-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/mod/13-s3.png)",
-    "directions": "Directions for questions 9 to 11: Read the passage",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the free capacity in the Avanti – Vaishali pipeline?",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "mod-t13-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/mod/13-s3.png)",
-    "directions": "Directions for questions 9 to 11: Read the passage",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the quantity moved from Avanti to Vidisha?",
     "options": [
       {
@@ -460,35 +460,5 @@
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
     "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 13,
-    "question_number": 2,
-    "question_code": "MOD-T13-Q02",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t13-s3",
-    "set_position": 4,
-    "context_passage": "![data set 3](/di/mod/13-s3.png)",
-    "directions": "Directions for questions 9 to 11: Read the passage",
-    "question_text": "For every 1000 males, there 916 females in Bihar. Using this we can find out the percentage of females in the total population of Bihar. Actual Calculation: Percentage of females = 916 100 1916× = 47.8% Approximation Short Cut: \u0007Since number of males is more than number of females, hence percentage of males will be more than the percentage of females. So percentage of males > 50% and percentage of females < 50%. Due to this, we can eliminate options (d) and (a). \u0007Total population of Bihar = 916 x + 1000 x = 1916 x \u0007We are required to calculate: Percentage of females = 916 1916 [ we have removed x from the numerator and denominator] \u0007Knowing the fact that females’ population is less than 50% and the remaining options hovering around 47%-49%, we benchmark the whole data around 50%. \u000750% of 1916 = 1 2×1916 = 958 42 less than 958 916 958 1916 100% 42 50% 0% 0 1% of 1916 = 19.16 = Approx. 20 \u0007So, 42 is approx. 2.1% of 1916. Hence 916 is 2.1% less than 50% = 47.9%. Closest option is option",
-    "options": [
-      {
-        "label": "a",
-        "text": "47.9%. Hence option (b) is the answer."
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nFor every 1000 males, there 916 females in Bihar. Using this we can find out the percentage of females in the total population of Bihar. Actual Calculation: 916 Percentage of females = 1916× 100 = 47.8% Approximation Short Cut: Since number of males is more than number of females, hence percentage of males will be more than the percentage of females. So percentage of males > 50% and percentage of females < 50%. Due to this, we can eliminate options (d) and (a). Total population of Bihar = 916 x + 1000 x = 1916 x We are required to calculate: Percentage of females 916 = [ we have removed x from the numerator 1916 and denominator] Knowing the fact that females’ population is less than 50% and the remaining options hovering around 47%-49%, we benchmark the whole data around 50%. 1 50% of 1916 = 2×1916 = 958 Keys",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
   }
 ]

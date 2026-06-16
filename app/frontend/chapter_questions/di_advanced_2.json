@@ -12,7 +12,7 @@
     "set_id": "adv-t21-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/adv/21-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which phase there was the highest absolute increase between the estimated and the actual cost?",
     "options": [
       {
@@ -54,7 +54,7 @@
     "set_id": "adv-t21-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/adv/21-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For which phase of the project was the highest percentage increase in cost (as compared to the estimated cost)?",
     "options": [
       {
@@ -96,7 +96,7 @@
     "set_id": "adv-t21-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/adv/21-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the approximate value of the percentage overflow in costs during construction?",
     "options": [
       {
@@ -138,7 +138,7 @@
     "set_id": "adv-t21-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/adv/21-s1.png)",
-    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If internal finishing and painting can be started simultaneously at the end of construction, then what is the overflow of the project as a percentage of the estimated total time for completion of the project?",
     "options": [
       {
@@ -180,7 +180,7 @@
     "set_id": "adv-t21-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/adv/21-s2.png)",
-    "directions": "Directions for questions 5 to 9: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "At a production level of 500 TVs, the selling price per unit is such that there is a net profit of 20%. What will be the impact on the net profit if the selling price per unit is reduced by 16.66% and the total number of units produced is increased by 40%?",
     "options": [
       {
@@ -222,7 +222,7 @@
     "set_id": "adv-t21-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/adv/21-s2.png)",
-    "directions": "Directions for questions 5 to 9: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For production levels of less than 1500 units, the variation of the average cost of production per unit has the following relationship with the volume of production:",
     "options": [
       {
@@ -264,7 +264,7 @@
     "set_id": "adv-t21-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/adv/21-s2.png)",
-    "directions": "Directions for questions 5 to 9: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The highest production cost per unit will be observed at the following level of production:",
     "options": [
       {
@@ -306,7 +306,7 @@
     "set_id": "adv-t21-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/adv/21-s2.png)",
-    "directions": "Directions for questions 5 to 9: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What should be the selling price per unit (in ₹) To achieve a break-even if the total number of units produced is 1000?",
     "options": [
       {
@@ -348,7 +348,7 @@
     "set_id": "adv-t21-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/adv/21-s2.png)",
-    "directions": "Directions for questions 5 to 9: Read the following",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the approximate additional cost for producing a TV after 920 units have been produced?",
     "options": [
       {
@@ -390,7 +390,7 @@
     "set_id": "adv-t21-s3",
     "set_position": 1,
     "context_passage": "![data set 3](/di/adv/21-s3.png)",
-    "directions": "Directions for questions 10 to 14: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which of the following years, is the total profit of Tata Tea the highest?",
     "options": [
       {
@@ -432,7 +432,7 @@
     "set_id": "adv-t21-s3",
     "set_position": 2,
     "context_passage": "![data set 3](/di/adv/21-s3.png)",
-    "directions": "Directions for questions 10 to 14: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many years during the period 1995 to 2003, for at least one of the two teas did the income and expenditure not follow the same trend, i.e., both of them did not decrease or did not increase together over the previous year ?",
     "options": [
       {
@@ -474,7 +474,7 @@
     "set_id": "adv-t21-s3",
     "set_position": 3,
     "context_passage": "![data set 3](/di/adv/21-s3.png)",
-    "directions": "Directions for questions 10 to 14: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which of the following years was the percentage increase in the income of Bengal Tea over the previous year, the highest?",
     "options": [
       {
@@ -516,7 +516,7 @@
     "set_id": "adv-t21-s3",
     "set_position": 4,
     "context_passage": "![data set 3](/di/adv/21-s3.png)",
-    "directions": "Directions for questions 10 to 14: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "For how many years during from 1995 to 2003, was there a growth in income compared to that of the previous year but there is a decrease in the income from the year to the next year for each of the two teas?",
     "options": [
       {
@@ -558,7 +558,7 @@
     "set_id": "adv-t21-s3",
     "set_position": 5,
     "context_passage": "![data set 3](/di/adv/21-s3.png)",
-    "directions": "Directions for questions 10 to 14: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In which of the following years during 1995 to 2003, did the profit of Assam Tea decrease by the maximum amount when compared to that of the previous year?",
     "options": [
       {
@@ -600,7 +600,7 @@
     "set_id": "adv-t21-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
-    "directions": "Directions for questions 15 to 18: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the following statements are correct? I. \u0007In terms of vote share, Labour and Liberal parties taken together lost 3.2 percent in 1998 but gained a total of 16 seats in the same period. \b II. \u0007Democrats, Republicans and 35% of the Independents could have formed the government only in two election years. III. \u0007No party increased its vote share in every succeeding election. IV. \u0007In the 2000 elections, as compared to the 1996 elections, Republicans and Democrats taken together, gained more in terms of vote share than in terms of percentage of seats.",
     "options": [
       {
@@ -642,7 +642,7 @@
     "set_id": "adv-t21-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
-    "directions": "Directions for questions 15 to 18: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the following statements are incorrect? I. \u0007In the year 2002, in terms of percentage of seats obtained, Democrats and Labour together lost the maximum. II. \u0007Liberals and Republicans taken together lost both in terms of vote share and the number of seats obtained in the year 2000. III. \u0007In the 2000 elections, all the parties lost in terms of number of seats. IV. \u0007The highest gain in the number of seats for Labour was in the year 2002.",
     "options": [
       {
@@ -684,7 +684,7 @@
     "set_id": "adv-t21-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/adv/21-s4.png)",
-    "directions": "Directions for questions 15 to 18: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the following statements are correct? I. \u0007Democrats and Labour together improved their vote share by a larger margin in 1998 over 1996 as compared to the one in 2002 over 1996. II. \u0007The number of seats lost by the Democrats in the 2002 elections was less than the number of seats gained by the Republicans in the same year. III. \u0007In 2002, the Independents gained the most, both in terms of vote share and the number of seats obtained. IV. \u0007If 70% of the Independents had joined Labour, they could have formed a government in 2002 but not in 1996.",
     "options": [
       {
@@ -723,10 +723,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "adv-t21-s5",
-    "set_position": 1,
-    "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
-    "directions": "Directions for questions 18 to 22: Refer to the",
+    "set_id": "adv-t21-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/adv/21-s4.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is not correct?",
     "options": [
       {
@@ -758,48 +758,6 @@
   {
     "tier": "Advanced",
     "test": 21,
-    "question_number": 2,
-    "question_code": "ADV-T21-Q02",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "adv-t21-s5",
-    "set_position": 2,
-    "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
-    "directions": "Directions for questions 18 to 22: Refer to the",
-    "question_text": "166 Data Interpretation \b Sector/Companies Sales Salaries and Wages R & D Profit/Loss 2005 2006 2007 2005 2006 2007 2005 2006 2007 2005 2006 2007 Pharmaceuticals (Total) 25245 30273 34731 2009 2291 2716 538 820 993 1758 2586 3069 Ranboxy Laboratory Ltd 2363 3461 4243 167 197 255 77 192 276 262 478 795 Dr Reddy’s Laboratories Ltd 991 1712 1705 83 121 137 42 102 163 144 460 392 Cipla Ltd 1064 1401 1573 50 63 73 41 47 0 179 208 248 Glaxosmithkline Ltd 1143 1197 1242 139 139 139 4 4 4 49 98 172 Electronic (Total) 26944 29323 30022 2164 2218 2323 200 263 247 830 692 –287 Infosys Technologies Ltd 1901 2604 3623 718 1119 1678 17 15 14 629 808 958 Videocon International Ltd 3244 4974 3602 43 63 53 0 0 0 155 156 –100 Bharat Electronic Ltd 1722 1947 2517 394 364 368 89 90 109 155 200 261 Iron and Steel (Total) 54396 55582 70341 5367 5643 6377 73 64 74 –2983 –4604 310 Steel Authority of India Ltd 17320 16624 20665 3135 3255 3728 52 50 55 –729 –1707 -304 Tata Steel Ltd 8491 8277 10517 922 1099 1218 10 8 16 553 205 1012 Rashtriyas Ispat Nigam Ltd 3585 4200 5187 408 376 407 0 3 0 –291 –75 521 Ispat Industries Ltd 3217 2812 4658 45 40 9 9 0 0 –312 –443 83 I. \u0007Total salaries wages for 2005-2007 as a percentage of the total sales of the same period had been the highest for the iron and steel sector. II. \u0007In the year 2007, if all the companies were ranked in a descending order in terms of salaries and wages as a percentage of sales; Videocon International would have been ranked the lowest. III. \u0007In the year 2006, if all the companies were ranked in a descending order in terms of R& D as a percentage of sales; Bharat Electronics Limited would have been ranked third. IV. \u0007Of all the companies that made profits every year during 2005-2007, Wipro registered the highest growth in profits for the given period.",
-    "options": [
-      {
-        "label": "a",
-        "text": "3:1"
-      },
-      {
-        "label": "b",
-        "text": "1:1"
-      },
-      {
-        "label": "c",
-        "text": "1:3"
-      },
-      {
-        "label": "d",
-        "text": "All the statements are correct"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "The percentage increase in actual cost as compared to estimated cost depends only on the percentage increase in estimated time as compared to the actual time. Percentage increase in estimated time as compared to actual time for Design = (5 – 3)/3 × 100% = 66% Percentage increase in estimated time as compared to actual time for Foundation = (3 – 2)/2 × 100% = 50% Percentage increase in estimated time as compared to actual time for Construction = (8 – 6)/6 × 100% = 33% So, the highest percentage increase in cost is for Design phase of the project. Correct option is (b)",
-    "difficulty": "Advanced",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Advanced",
-    "test": 21,
     "question_number": 20,
     "question_code": "ADV-T21-Q20",
     "section": "DILR",
@@ -810,7 +768,7 @@
     "set_id": "adv-t21-s5",
     "set_position": 3,
     "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
-    "directions": "Directions for questions 18 to 22: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the statements given below is/are correct? I. \u0007Salaries and wages of each company in the iron and steel sector were up to 13 times its losses reported in each of the loss-making years. II. \u0007Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period was minimum for the pharmaceutical sector. III. \u0007Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period for only two companies exceeded 20 per cent. IV. \u0007Total profits/Total sales for all the four sectors taken together was higher in 2006 than in 2005.",
     "options": [
       {
@@ -852,7 +810,7 @@
     "set_id": "adv-t21-s5",
     "set_position": 4,
     "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
-    "directions": "Directions for questions 18 to 22: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is incorrect?",
     "options": [
       {
@@ -894,7 +852,7 @@
     "set_id": "adv-t21-s5",
     "set_position": 5,
     "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
-    "directions": "Directions for questions 18 to 22: Refer to the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the situations described in the options below, when plotted closely resemble the figure? I. \u0007Raymond Limited ‘s share in the total sales of the textile sector II. \u0007Tata Steel’s share in the total sales of the iron and steel sector III. \u0007Glaxo Smithkline Ltd’s salaries and wages as a percentage of sales IV. \u0007Raymond Limited’s profit as a percentage of sales",
     "options": [
       {
@@ -936,7 +894,7 @@
     "set_id": "adv-t21-s6",
     "set_position": 1,
     "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
-    "directions": "Directions for questions 23 to 25: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 20th Jan 07 over the previous given day?",
     "options": [
       {
@@ -978,7 +936,7 @@
     "set_id": "adv-t21-s6",
     "set_position": 2,
     "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
-    "directions": "Directions for questions 23 to 25: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 27th Jan 07 over the previous given day?",
     "options": [
       {
@@ -1020,7 +978,7 @@
     "set_id": "adv-t21-s6",
     "set_position": 3,
     "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
-    "directions": "Directions for questions 23 to 25: Go through the",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 28th Jan 06 over the previous given day?",
     "options": [
       {
@@ -1048,35 +1006,5 @@
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
     "removed": false
-  },
-  {
-    "tier": "Advanced",
-    "test": 21,
-    "question_number": 2,
-    "question_code": "ADV-T21-Q02",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "adv-t21-s6",
-    "set_position": 4,
-    "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
-    "directions": "Directions for questions 23 to 25: Go through the",
-    "question_text": "The percentage increase in actual cost as compared to estimated cost depends only on the percentage increase in estimated time as compared to the actual time. \u0007 Percentage increase in estimated time as compared to actual time for Design = (5 – 3)/3 × 100% = 66% \u0007 Percentage increase in estimated time as compared to actual time for Foundation = (3 – 2)/2 × 100% = 50% \u0007 Percentage increase in estimated time as compared to actual time for Construction = (8 – 6)/6 × 100% = 33% \u0007 So, the highest percentage increase in cost is for Design phase of the project. Correct option is",
-    "options": [
-      {
-        "label": "a",
-        "text": ""
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "The percentage increase in actual cost as compared to estimated cost depends only on the percentage increase in estimated time as compared to the actual time. Percentage increase in estimated time as compared to actual time for Design = (5 – 3)/3 × 100% = 66% Percentage increase in estimated time as compared to actual time for Foundation = (3 – 2)/2 × 100% = 50% Percentage increase in estimated time as compared to actual time for Construction = (8 – 6)/6 × 100% = 33% So, the highest percentage increase in cost is for Design phase of the project. Correct option is (b)",
-    "difficulty": "Advanced",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": true
   }
 ]

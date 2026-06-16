@@ -12,7 +12,7 @@
     "set_id": "fnd-t5-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of men to the women working in night shifts from the Call Centre industry?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t5-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the approximate average number of females working in night shifts from all the industries together?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t5-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of men working in night shifts from al the industries together?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t5-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of women from the sports industry is what per cent of the total number of people working in the night shifts from all the industries together?",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t5-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the total number of men and the total number of women working in night shifts from all the industries together?",
     "options": [
       {
@@ -239,10 +239,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s1",
-    "set_position": 6,
-    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "set_id": "fnd-t5-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of girls from Biology department is approximately what per cent of the total number of girls from all the departments together?",
     "options": [
       {
@@ -285,10 +285,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s1",
-    "set_position": 7,
-    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "set_id": "fnd-t5-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the total number of boys and the total number of girls from all the departments together?",
     "options": [
       {
@@ -331,10 +331,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s1",
-    "set_position": 8,
-    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "set_id": "fnd-t5-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of boys from all the departments together?",
     "options": [
       {
@@ -377,10 +377,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s1",
-    "set_position": 9,
-    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "set_id": "fnd-t5-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of boys from Anthropology department is approximately what per cent of the total number of boys from all the departments together?",
     "options": [
       {
@@ -423,10 +423,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s1",
-    "set_position": 10,
-    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "set_id": "fnd-t5-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of number of girls from Philosophy department to the number of girls from Psychology department?",
     "options": [
       {
@@ -469,10 +469,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s2",
+    "set_id": "fnd-t5-s3",
     "set_position": 1,
-    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "context_passage": "![data set 3](/di/fnd/5-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the total sale of English newspapers and the total sale of Hindi newspapers in all the localities together?",
     "options": [
       {
@@ -515,10 +515,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s2",
+    "set_id": "fnd-t5-s3",
     "set_position": 2,
-    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "context_passage": "![data set 3](/di/fnd/5-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The sale of English newspaper in locality A is approximately what per cent of the total sale of English newspapers in all the localities together?",
     "options": [
       {
@@ -561,10 +561,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s2",
+    "set_id": "fnd-t5-s3",
     "set_position": 3,
-    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "context_passage": "![data set 3](/di/fnd/5-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the sale of Hindi newspapers in locality A to the sale of Hindi newspapers in locality D?",
     "options": [
       {
@@ -607,10 +607,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s2",
+    "set_id": "fnd-t5-s3",
     "set_position": 4,
-    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "context_passage": "![data set 3](/di/fnd/5-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The sale of English newspaper in localities B and D together is approximately what per cent of the sale of English newspaper in localities A, C and E together?",
     "options": [
       {
@@ -653,10 +653,10 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "fnd-t5-s2",
+    "set_id": "fnd-t5-s3",
     "set_position": 5,
-    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "context_passage": "![data set 3](/di/fnd/5-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average sale of Hindi newspapers in all the localities together?",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t5-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/5-s4.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of males working in all departments together?",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t5-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/5-s4.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the number of females working in the HR department?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t5-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/5-s4.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of total number of employees working in the production department to those working in the Merchandising department?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t5-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/fnd/5-s4.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which is the department with lowest number of females working?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t5-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/5-s4.png)",
-    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of employees from all departments together in the organization?",
     "options": [
       {
@@ -907,7 +907,7 @@
       },
       {
         "label": "e",
-        "text": "None of these 1 to 5 Number of people working in night shifts: IT industry S 40250 × 12 100 = 4830 Number of women = 4830 × 20 100 = 966 and no. of men = 4830 – 966 = 3864 Sports industry S 40250 × 18 100 = 7245 Number of women \u0007= 7245 × 20 100 = 1449 and no. of men = 7245 – 1449 = 5796 Call centre S 40250 × 32 100 = 12880 Number of women = 12880 × 45 100 = 5796 and no. of men = 12880 – 5796 = 7084 Sales S 40250 × 8 100 = 3220 Number of women = 3220 × 60 100 = 1932 and no. of men = 3220 – 1932 = 1288 Banking S 40250 × 14 100 = 5635 Number of women = 5635 × 40 100 = 2254 and no. of men = 5635 – 2254 = 3381 Chemical industry S 40250 × 16 100 = 6440 Number of women = 6440 × 15 100 = 966 and no. of men = 6440 – 966 = 5474"
+        "text": "None of these"
       }
     ],
     "correct_answer": "e",

@@ -12,7 +12,7 @@
     "set_id": "fnd-t6-s1",
     "set_position": 1,
     "context_passage": "![data set 1](/di/fnd/6-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the approximate percentage of the Muslim members in Lok Sabha?",
     "options": [
       {
@@ -58,7 +58,7 @@
     "set_id": "fnd-t6-s1",
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/6-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "In Rajya Sabha, if 30 male members were replaced by 30 female members, then what is the ratio of male members to female members respectively?",
     "options": [
       {
@@ -104,7 +104,7 @@
     "set_id": "fnd-t6-s1",
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/6-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What percentage of members in parliament are businessmen?",
     "options": [
       {
@@ -150,7 +150,7 @@
     "set_id": "fnd-t6-s1",
     "set_position": 4,
     "context_passage": "![data set 1](/di/fnd/6-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If all the ‘others’ party members of Lok Sabha join the party ‘B’ then what would be the ratio between members of party ‘A’ to the members of party ‘B’ respectively.",
     "options": [
       {
@@ -196,7 +196,7 @@
     "set_id": "fnd-t6-s1",
     "set_position": 5,
     "context_passage": "![data set 1](/di/fnd/6-s1.png)",
-    "directions": "Directions for questions 1 to 5: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Out of total members of party ‘B’ in Parliament, what percentage of the members belongs to Rajya Sabha?",
     "options": [
       {
@@ -242,7 +242,7 @@
     "set_id": "fnd-t6-s2",
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/6-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If farmer A sell 350 kg of Rice, 150 kg of Corn and 250 kg of Jowar, how much would he earn?",
     "options": [
       {
@@ -288,7 +288,7 @@
     "set_id": "fnd-t6-s2",
     "set_position": 2,
     "context_passage": "![data set 2](/di/fnd/6-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average price per kg of Bajra sold by all the farmers together?",
     "options": [
       {
@@ -334,7 +334,7 @@
     "set_id": "fnd-t6-s2",
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/6-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Farmer D and farmer E, both sell 240 kg of Bajra each. What would be the respective ratio of their earnings?",
     "options": [
       {
@@ -380,7 +380,7 @@
     "set_id": "fnd-t6-s2",
     "set_position": 4,
     "context_passage": "![data set 2](/di/fnd/6-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Farmer C sells 180 kg each of Corn, Paddy and Jowar grains. How much does he earn?",
     "options": [
       {
@@ -426,7 +426,7 @@
     "set_id": "fnd-t6-s2",
     "set_position": 5,
     "context_passage": "![data set 2](/di/fnd/6-s2.png)",
-    "directions": "Directions for questions 6 to 10: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Earnings on 150 kg of Paddy sold by farmer B is approximately what percentage of the earnings on the same quantity of Rice sold by the same farmer?",
     "options": [
       {
@@ -472,7 +472,7 @@
     "set_id": "fnd-t6-s3",
     "set_position": 1,
     "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of adult females in colonies A, B and C together?",
     "options": [
       {
@@ -518,7 +518,7 @@
     "set_id": "fnd-t6-s3",
     "set_position": 2,
     "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The number of children in colony A are approxi- mately what per cent of the number of children in colony E?",
     "options": [
       {
@@ -564,7 +564,7 @@
     "set_id": "fnd-t6-s3",
     "set_position": 3,
     "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of adult males to the number of adult females in colony B?",
     "options": [
       {
@@ -610,7 +610,7 @@
     "set_id": "fnd-t6-s3",
     "set_position": 4,
     "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of residents from all the colonies together?",
     "options": [
       {
@@ -656,7 +656,7 @@
     "set_id": "fnd-t6-s3",
     "set_position": 5,
     "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
-    "directions": "Directions for questions 11 to 15: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the number of adult males and the number of children in colony D?",
     "options": [
       {
@@ -702,7 +702,7 @@
     "set_id": "fnd-t6-s4",
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio between male employees in Admini­ stration and Printing Departments respectively?",
     "options": [
       {
@@ -748,7 +748,7 @@
     "set_id": "fnd-t6-s4",
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between total number of employees in IT and Operations Departments?",
     "options": [
       {
@@ -794,7 +794,7 @@
     "set_id": "fnd-t6-s4",
     "set_position": 3,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the ratio between total number of males in HR and Marketing and the total number of females in these two departments respectively?",
     "options": [
       {
@@ -840,7 +840,7 @@
     "set_id": "fnd-t6-s4",
     "set_position": 4,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many female employees are there in HR Department?",
     "options": [
       {
@@ -886,7 +886,7 @@
     "set_id": "fnd-t6-s4",
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
-    "directions": "Directions for questions 16 to 20: Go through the data",
+    "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the male and female employees in Logistics Department?",
     "options": [
       {
