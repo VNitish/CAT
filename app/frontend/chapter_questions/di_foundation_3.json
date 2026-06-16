@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 1,
+    "question_code": "FND-T3-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/3-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "In the year 2000 the number of employed workers by unit ‘C’ is what per cent of the total number of employed workers by all the units in the same year (rounded off to two places of decimal)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "16.39"
+      },
+      {
+        "label": "b",
+        "text": "17.21"
+      },
+      {
+        "label": "c",
+        "text": "16.88"
+      },
+      {
+        "label": "d",
+        "text": "17.31"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "75 Required percentage = ×100 = 14.95 = 15",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 2,
+    "question_code": "FND-T3-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/3-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For all the given years, what is the difference between the average number of workers in units D and E?",
+    "options": [
+      {
+        "label": "a",
+        "text": "37"
+      },
+      {
+        "label": "b",
+        "text": "33"
+      },
+      {
+        "label": "c",
+        "text": "33 2 3"
+      },
+      {
+        "label": "d",
+        "text": "37 1 3"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "11885 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 3,
+    "question_code": "FND-T3-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/3-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "In which year the percentage increase/decrease in the number of employed workers is minimum for unit ‘F’?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1999"
+      },
+      {
+        "label": "b",
+        "text": "2000"
+      },
+      {
+        "label": "c",
+        "text": "2002"
+      },
+      {
+        "label": "d",
+        "text": "2003"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For unit ‘F’, the percentage change in the number of workers in the year: 136 – 132 In 1999: × 100 = 2.94% decrease 136 140 – 132 In 2000: × 100 = 6.06% increase 132 140 – 126 In 2001: × 100 = 10% decrease 140 140 – 126 In 2002: × 100 = 15.87% increase 126 150 – 146 In 2003: × 100 = 2.74% increase 146 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 4,
+    "question_code": "FND-T3-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/3-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For all the given years, in which unit the average number of employed workers were maximum?",
+    "options": [
+      {
+        "label": "a",
+        "text": "D"
+      },
+      {
+        "label": "b",
+        "text": "A"
+      },
+      {
+        "label": "c",
+        "text": "C"
+      },
+      {
+        "label": "d",
+        "text": "E"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For each unit we need to find the total number of employees for all years. We can observe that E has the highest total value & so average value too.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 5,
+    "question_code": "FND-T3-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/3-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "In the years 1998 and 1999, what is the approximate ratio between the number of employed workers in all the units?",
+    "options": [
+      {
+        "label": "a",
+        "text": "13:14"
+      },
+      {
+        "label": "b",
+        "text": "37:36"
+      },
+      {
+        "label": "c",
+        "text": "10:9"
+      },
+      {
+        "label": "d",
+        "text": "13:11"
+      },
+      {
+        "label": "e",
+        "text": "4:3"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of employed workers in all units in 1998 = 145 + 88 + 115 + 120 + 140 + 136 = 744 Total number of employed workers in all units in 1999 = 128 + 76 + 122 + 112 + 152 + 132 = 722 Therefore required ratio = 744 : 722 = 37 : 36 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 6,
+    "question_code": "FND-T3-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/3-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "In which faculty there was decrease in the number of students from 2001 to 2002?",
+    "options": [
+      {
+        "label": "a",
+        "text": "None"
+      },
+      {
+        "label": "b",
+        "text": "Commerce"
+      },
+      {
+        "label": "c",
+        "text": "Agriculture"
+      },
+      {
+        "label": "d",
+        "text": "Pharmacy"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let us 1st spend some time observing the data set, and identify if we can eliminate the some options through observation without doing actual calculation: First, we will observe the data for options (b), (c) and (d). Looking at option (d), Pharmacy cannot have decline in the data as its percentage share is rising and total number of students is also rising. Similarly option (b) cannot be the answer as share of commerce is fixed at 24%. Number of students decreased from 2800 to 2000 in Agriculture. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 7,
+    "question_code": "FND-T3-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/3-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the ratio between the number of students studying pharmacy in the years 2001 and 2002 respectively?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4:3"
+      },
+      {
+        "label": "b",
+        "text": "41:72"
+      },
+      {
+        "label": "c",
+        "text": "2:3"
+      },
+      {
+        "label": "d",
+        "text": "49:72"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of students studying Pharmacy in 2001 = 2450 Number of students studying Pharmacy in 2002 = 3600 Therefore Required ratio = 2450 : 3600 = 49 : 72 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 8,
+    "question_code": "FND-T3-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/3-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What was the approximate percentage increase in the number of students of Engineering from the year 2001 to 2002?",
+    "options": [
+      {
+        "label": "a",
+        "text": "17%"
+      },
+      {
+        "label": "b",
+        "text": "13%"
+      },
+      {
+        "label": "c",
+        "text": "5%"
+      },
+      {
+        "label": "d",
+        "text": "23%"
+      },
+      {
+        "label": "e",
+        "text": "9%"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Difference= 7600–7000 = 600 600 × Hence required percentage increase = 100 = 8.57% 7000 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 9,
+    "question_code": "FND-T3-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/3-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "In the year 2001, the number of student studying Arts and Commerce together is what percentage of the number of students studying these subjects together in 2002?",
+    "options": [
+      {
+        "label": "a",
+        "text": "76"
+      },
+      {
+        "label": "b",
+        "text": "92"
+      },
+      {
+        "label": "c",
+        "text": "82"
+      },
+      {
+        "label": "d",
+        "text": "79"
+      },
+      {
+        "label": "e",
+        "text": "97"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of students in Arts and Commerce faculties in 2001= 4200 + 7700 = 11900 Total number of students in Arts and Commerce faculties in 2002 =4400 + 9600 = 1400 12950 ×100 Therefore required percentage = = 92% 14000 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 10,
+    "question_code": "FND-T3-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/3-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "In which of the following faculties, the percentage change (consider absolute value) in the number of students was minimum from 2001 to 2002?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Arts"
+      },
+      {
+        "label": "b",
+        "text": "Science"
+      },
+      {
+        "label": "c",
+        "text": "Commerce"
+      },
+      {
+        "label": "d",
+        "text": "Medicine"
+      },
+      {
+        "label": "e",
+        "text": "Engineering"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question is asking for absolute value in the percentage change of different faculty across the two years 1So we are required to calculate percentage increase as well as percentage decrease both, as applicable for different faculty. Again, let us first observe the data set and identify if we can eliminate any option by simple observation of data: We can eliminate option (b) Science – Percentage contribution of science has increased from 16% to 22% – so it cannot be the answer. (Going through 8800 – 5600 the actual calculation, Science = ×100 5600 = 57%) Similarly option (c) Commerce cannot be the answer as it will have net percentage change = 14.28%. (We will calculate the change in total number of students only, and since the percentage contribution of commerce remains same in both the years, answer would be equivalent to the percentage change in the total number of students.) Hence even option (c) cannot be the answer. Let us calculate for remaining three options: Percentage change in the faculty of: 4550 – 4400 Arts = × 100 = 3.2% 4400 7600 – 7000 Engineering = × 100 = 8.57% 7000 4200 – 4000 Medicine = × 100 = 4.7% 4200 [Since question asks for absolute value of percentage change, we do not care for percentage increase or percentage decrease]. Hence, the percentage change in Arts is minimum. Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 11,
+    "question_code": "FND-T3-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/3-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the total amount of savings of all the persons together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹1,98,460"
+      },
+      {
+        "label": "b",
+        "text": "₹1,42,524"
+      },
+      {
+        "label": "c",
+        "text": "₹1,89,520"
+      },
+      {
+        "label": "d",
+        "text": "₹1,56,625"
+      },
+      {
+        "label": "e",
+        "text": "₹1,62,780"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "7 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 12,
+    "question_code": "FND-T3-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/3-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "Who spends the maximum amount on shopping?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Ritu"
+      },
+      {
+        "label": "b",
+        "text": "Suresh"
+      },
+      {
+        "label": "c",
+        "text": "Satish"
+      },
+      {
+        "label": "d",
+        "text": "Arun"
+      },
+      {
+        "label": "e",
+        "text": "Vidya"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Amount spent on shopping by: (2.25 × 15.7) Satish S ₹ lakh = ₹0.35325 lakh 100 He spends maximum. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 13,
+    "question_code": "FND-T3-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/3-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the respective ratio of total amount spent by Ritu on Eating out and Watching Movies together to the total amount spent by Arun on the same?",
+    "options": [
+      {
+        "label": "a",
+        "text": "156:211"
+      },
+      {
+        "label": "b",
+        "text": "217:253"
+      },
+      {
+        "label": "c",
+        "text": "253:217"
+      },
+      {
+        "label": "d",
+        "text": "211:156"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Amount spent by Ritu on: (21.8 × 2.05) Eating out = = ₹0.4469 lakh 100",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 14,
+    "question_code": "FND-T3-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/3-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "Amount spent by Suresh on health is what per cent of the total amount spent by all the people together on Health? (round off to two digits after decimal)",
+    "options": [
+      {
+        "label": "a",
+        "text": "16.24"
+      },
+      {
+        "label": "b",
+        "text": "14.60"
+      },
+      {
+        "label": "c",
+        "text": "19.04"
+      },
+      {
+        "label": "d",
+        "text": "12.35"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Amount spent on health by:",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 15,
+    "question_code": "FND-T3-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/fnd/3-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "Per annum income of Arif is approximately what per cent of the total per annum income of all the men together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "10"
+      },
+      {
+        "label": "b",
+        "text": "22"
+      },
+      {
+        "label": "c",
+        "text": "27"
+      },
+      {
+        "label": "d",
+        "text": "19"
+      },
+      {
+        "label": "e",
+        "text": "15 \b"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total annual income = ₹(2.05 + 2.25 + 1.95 + 2 +",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 16,
+    "question_code": "FND-T3-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/3-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Number of women working in the HR department from organization S is what per cent of the total number of women working in the HR departments from all organizations together? (rounded off to two digits after decimal)",
+    "options": [
+      {
+        "label": "a",
+        "text": "13.45"
+      },
+      {
+        "label": "b",
+        "text": "19.16"
+      },
+      {
+        "label": "c",
+        "text": "21"
+      },
+      {
+        "label": "d",
+        "text": "15.02"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of women working in HR departments = 250 + 300 + 190 + 100 + 150 = 1265 190 Required percentage = ×100 = 15.02 1265 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 17,
+    "question_code": "FND-T3-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/3-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the average number of women working in the Finance department from all organizations together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "226"
+      },
+      {
+        "label": "b",
+        "text": "287"
+      },
+      {
+        "label": "c",
+        "text": "312"
+      },
+      {
+        "label": "d",
+        "text": "308"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of women working in finance department from all organization together = ( 405 + 328 + 250 + 200 + 305 + 220 ) = 284.66 6",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 18,
+    "question_code": "FND-T3-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/3-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which organization has the least number of women employees working in all the given departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "T"
+      },
+      {
+        "label": "b",
+        "text": "R"
+      },
+      {
+        "label": "c",
+        "text": "U"
+      },
+      {
+        "label": "d",
+        "text": "S"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of women employees in organization: P S 155 + 250 + 320 + 405 + 150 + 50 = 1330 Q S 178 + 300 + 415 + 318 + 127 + 90 = 1428 R S 58 + 275 + 204 + 250 + 188 + 66 = 1041 S S 102 + 190 + 198 + 200 + 190 + 75 = 955 T S 110 + 100 + 256 + 305 + 250 + 85 = 1106 U S 60 + 150 + 225 + 220 + 168 + 35 = 858 Clearly, Organization U has the least number of employees. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 19,
+    "question_code": "FND-T3-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/fnd/3-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the respective ratio of number of women working in IT department from organizations P, Q and U together to the number of women working in the Marketing department of organizations P, S and T together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "59:33"
+      },
+      {
+        "label": "b",
+        "text": "96:31"
+      },
+      {
+        "label": "c",
+        "text": "71:19"
+      },
+      {
+        "label": "d",
+        "text": "71:23"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of IT employees from organizations P, Q and U = 320 + 415 + 225 = 960 Number of marketing department employees from organizations P, S and T = 150 + 190 + 250 = 590 Required ratio = 96:59 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 3,
+    "question_number": 20,
+    "question_code": "FND-T3-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t3-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/fnd/3-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data set given below and solve the questions based on it.",
+    "question_text": "If the women working in the Production department of organization Q were also to work in its Mer- chandising department, what would be the approxi- mate percentage of women employees working for the Merchandising department of organization Q?",
+    "options": [
+      {
+        "label": "a",
+        "text": "19"
+      },
+      {
+        "label": "b",
+        "text": "26"
+      },
+      {
+        "label": "c",
+        "text": "30"
+      },
+      {
+        "label": "d",
+        "text": "23"
+      },
+      {
+        "label": "e",
+        "text": "15"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of employees in production department of organization Q = 178 Therefore Number of women in merchandising department of organization Q = 178 + 90 = 268 268 Required percentage = ×100 = 18.77 = 19 1428 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

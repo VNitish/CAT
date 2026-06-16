@@ -1,0 +1,422 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 4,
+    "question_code": "MOD-T14-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/14-s1.png)",
+    "directions": "Directions for questions 1 to 3: Read the passage",
+    "question_text": "Staff travelling to Dubai",
+    "options": [
+      {
+        "label": "a",
+        "text": "1 and 2"
+      },
+      {
+        "label": "b",
+        "text": "2 and 3"
+      },
+      {
+        "label": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "label": "d",
+        "text": "1, 2 and 4"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input\n\nAverage of farm labor indices 102 + 106 + 100 + 96 + 96 = = 100. And so on. 5 Similarly average indices for other can also be calculated. Hence option (c) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 2,
+    "question_code": "MOD-T14-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/14-s1.png)",
+    "directions": "Directions for questions 1 to 3: Read the passage",
+    "question_text": "The total loss for the airline industry was likely to be ₹10,000 crore. Jet Airlines lost ₹3,000 crore, Air India lost ₹“X” crore and “rest of the airlines” lost ₹“Y” crore. What was the loss for the “rest of the airlines”, in 2008?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Cannot be determined"
+      },
+      {
+        "label": "b",
+        "text": "₹3,350 crore"
+      },
+      {
+        "label": "c",
+        "text": "₹3,690 crore"
+      },
+      {
+        "label": "d",
+        "text": "₹3,340 crore"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "This set is the combination of Reading Comprehension and Data Interpretation skills. One is supposed to find out the meaningful data within the passage mentioned. Solution and Explanation for 1 to 3\n\nTotal loss for the airlines industry = ₹10,000 crores Loss of Jet Airlines = ₹3,000 Loss to Air India = ₹10 crores × 365 days = ₹3650 crores (Air India’s daily loss is mentioned in the 2nd line of 2nd para). Hence total loss to all the other airlines = (₹10,000 – ₹3000 – ₹3650) crores = ₹3350 crores. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 3,
+    "question_code": "MOD-T14-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/14-s1.png)",
+    "directions": "Directions for questions 1 to 3: Read the passage",
+    "question_text": "Suppose fuel constitutes 30% of the revenues, do you think airlines would be in a better situation by reducing their fare?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Yes"
+      },
+      {
+        "label": "b",
+        "text": "Data insufficient to reach decision"
+      },
+      {
+        "label": "c",
+        "text": "No"
+      },
+      {
+        "label": "d",
+        "text": "It would not matter"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "This set is the combination of Reading Comprehension and Data Interpretation skills. One is supposed to find out the meaningful data within the passage mentioned. Solution and Explanation for 1 to 3\n\nNothing can be said for sure regarding the revenue of Airlines. Reducing the fare may improve the passenger load, but nothing can be ascertained if this will increase the net revenue or not? Hence option (b) is the answer. Option (D) cannot be the answer because It does not matter is too casual a remark in this context. In fact “It matters to reduce the fare”.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 4,
+    "question_code": "MOD-T14-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/mod/14-s2.png)",
+    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "question_text": "The average indices of input use from 2000 to 2004 for farm labour, durable equipment and energy, in their increasing order, can be arranged as.",
+    "options": [
+      {
+        "label": "a",
+        "text": "farm labour, durable equipment, energy"
+      },
+      {
+        "label": "b",
+        "text": "durable equipment, energy, farm labour"
+      },
+      {
+        "label": "c",
+        "text": "durable equipment, farm labour, energy"
+      },
+      {
+        "label": "d",
+        "text": "energy, durable equipment, farm labour"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input\n\nAverage of farm labor indices 102 + 106 + 100 + 96 + 96 = = 100. And so on. 5 Similarly average indices for other can also be calculated. Hence option (c) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 5,
+    "question_code": "MOD-T14-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/mod/14-s2.png)",
+    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "question_text": "If hired workers include 80% locals and 20% migrants in 2000, and 75% locals and 25% migrants in 2001, what is the percentage rise or drop in migrant hired workers from 2000 to 2001?",
+    "options": [
+      {
+        "label": "a",
+        "text": "drop 13.25%"
+      },
+      {
+        "label": "b",
+        "text": "rise 13.23%"
+      },
+      {
+        "label": "c",
+        "text": "drop 27.5%"
+      },
+      {
+        "label": "d",
+        "text": "rise 27.5%"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input\n\nIn 2000, migrant hired workers =178.5(20% of 892) In 2001, migrant hired workers =227.5(25% of 910) 227.5 − 178.4 × 100 = 27.5% So, % rise = 178.4 Note from Author: I would suggest you to use approximation techniques instead of actual calculation. It can be clearly seen that there is increase in the number of migrant hired workers in the year 2001 over the year 2000, hence options (a) and (c) are eliminated. Now take down the approximated values: In 2000, migrant hired workers =178.5(20% of 892) = 180 (Approximately) In 2001, migrant hired workers =227.5(25% of 910) = 230 (Approximately) So, increase = 50 (Approximate). Since our base (or denominator) is the value of 2000 = 180, hence it can be clearly seen that 50 is above 20% and less than 30% of 180. Hence we eliminate option (b) as the answer. We are not left out with option (d) only. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 6,
+    "question_code": "MOD-T14-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/mod/14-s2.png)",
+    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the ratio of the number of hired workers to that of self-employed unpaid workers for the duration 2001 to 2003?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0.62:1"
+      },
+      {
+        "label": "b",
+        "text": "0.45:1"
+      },
+      {
+        "label": "c",
+        "text": "2.1:1"
+      },
+      {
+        "label": "d",
+        "text": "1.6:1"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input\n\nIn 2001-2003: Total hired workers = 910 + 866 + 857 = 2633 thousand Total self-employed workers =1968 + 1944 + 1942 = 5854 thousand. 2633 Required ratio = 5854 We’ll again use the approximation techniques to get down to the answer. 2633 Obviously, the ratio is less than 1. Hence 5854 options (c) and (d) are eliminated. Further, 50% of 5854 = 2900 (Approximately). Numerator is less than this. So ratio would be less than 0.5. There is only one option fitting the criteria–option (b). Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 7,
+    "question_code": "MOD-T14-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/mod/14-s2.png)",
+    "directions": "Directions for questions 4 to 7: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which of the following is correct? I. \u0007In 2003, minimum area was harvested for crops but maximum agricultural chemicals were used. II. \u0007In 2004, both the number of self-employed unpaid workers and the use of durable equipments fell by minimum.",
+    "options": [
+      {
+        "label": "a",
+        "text": "I only"
+      },
+      {
+        "label": "b",
+        "text": "II only"
+      },
+      {
+        "label": "c",
+        "text": "I and II"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 8,
+    "question_code": "MOD-T14-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Directions for questions 8 to 10: Go through the",
+    "question_text": "What is the least number of members who have 3 to 5 children and have gone to at least one of the destinations?",
+    "options": [
+      {
+        "label": "a",
+        "text": "225"
+      },
+      {
+        "label": "b",
+        "text": "275"
+      },
+      {
+        "label": "c",
+        "text": "100"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined \b"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In the category 3 to 5 children, there are 275 members who have gone to Goa. We are not sure about the 225 members who have gone to Kashmir that if they are different than the members who have gone to Goa. So for these 225 families going to Kashmir, we are not sure about the extent of overlapping with the families going to Goa.It might be a possibility that these 225 members who have gone to Kashmir have also gone to Goa. Hence minimum number of members who have gone to at least one of the destinations = 275. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 9,
+    "question_code": "MOD-T14-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Directions for questions 8 to 10: Go through the",
+    "question_text": "Minimum number of members for all the categories and have gone to at least one of the destinations is.",
+    "options": [
+      {
+        "label": "a",
+        "text": "385"
+      },
+      {
+        "label": "b",
+        "text": "375"
+      },
+      {
+        "label": "c",
+        "text": "305"
+      },
+      {
+        "label": "d",
+        "text": "315"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Taking a cue from solution to 8, following numbers are to be added: Number of members who went to Goa Kashmir 80 60 275 225 20 30 Answer to this question would be = 80 + 275 + 30 = 385. Hence option (a) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 10,
+    "question_code": "MOD-T14-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Directions for questions 8 to 10: Go through the",
+    "question_text": "How many of the members have definitely not gone to any of the two destinations?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "10"
+      },
+      {
+        "label": "c",
+        "text": "25"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "We are not sure of the members in the category ‘3 to 5 children’ or ‘more than 5 children’ that any of these members have NOT gone to any of the destinations. Although we are sure of the fact that in the category ‘Less than 3 children’, there are at least 150 – (80 + 60) = 10 members who have not gone to any of the destinations. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

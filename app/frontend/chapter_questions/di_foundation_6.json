@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 1,
+    "question_code": "FND-T6-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/6-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the approximate percentage of the Muslim members in Lok Sabha?",
+    "options": [
+      {
+        "label": "a",
+        "text": "9%"
+      },
+      {
+        "label": "b",
+        "text": "11%"
+      },
+      {
+        "label": "c",
+        "text": "13%"
+      },
+      {
+        "label": "d",
+        "text": "14%"
+      },
+      {
+        "label": "e",
+        "text": "7%"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "42\n\nRequired percentage = × 100 = 9% 490 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 2,
+    "question_code": "FND-T6-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/6-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "In Rajya Sabha, if 30 male members were replaced by 30 female members, then what is the ratio of male members to female members respectively?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3 : 1"
+      },
+      {
+        "label": "b",
+        "text": "3 : 2"
+      },
+      {
+        "label": "c",
+        "text": "1 : 3"
+      },
+      {
+        "label": "d",
+        "text": "2 : 3"
+      },
+      {
+        "label": "e",
+        "text": "2 : 1"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "42\n\nRequired ratio = (120 – 30) : (30 + 30) = 90:60 = 3:2 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 3,
+    "question_code": "FND-T6-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/6-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What percentage of members in parliament are businessmen?",
+    "options": [
+      {
+        "label": "a",
+        "text": "8%"
+      },
+      {
+        "label": "b",
+        "text": "20%"
+      },
+      {
+        "label": "c",
+        "text": "30%"
+      },
+      {
+        "label": "d",
+        "text": "18%"
+      },
+      {
+        "label": "e",
+        "text": "10%"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "42\n\nNumber of businessmen = 45 + 19 = 64 64 Hence required percentage = × 100 = 10% 100 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 4,
+    "question_code": "FND-T6-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/6-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "If all the ‘others’ party members of Lok Sabha join the party ‘B’ then what would be the ratio between members of party ‘A’ to the members of party ‘B’ respectively.",
+    "options": [
+      {
+        "label": "a",
+        "text": "3:2"
+      },
+      {
+        "label": "b",
+        "text": "6:5"
+      },
+      {
+        "label": "c",
+        "text": "4:3"
+      },
+      {
+        "label": "d",
+        "text": "7:6"
+      },
+      {
+        "label": "e",
+        "text": "4:5"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "42\n\nRequired ratio = 280 : (180 + 30) = 280:210 = 4:3 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 5,
+    "question_code": "FND-T6-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/6-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "Out of total members of party ‘B’ in Parliament, what percentage of the members belongs to Rajya Sabha?",
+    "options": [
+      {
+        "label": "a",
+        "text": "30%"
+      },
+      {
+        "label": "b",
+        "text": "35%"
+      },
+      {
+        "label": "c",
+        "text": "25%"
+      },
+      {
+        "label": "d",
+        "text": "20%"
+      },
+      {
+        "label": "e",
+        "text": "15%"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "42\n\nRequired percentage = ( ) × 100 180 + 45 45 = × 100 = 20% 225 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 6,
+    "question_code": "FND-T6-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/6-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "If farmer A sell 350 kg of Rice, 150 kg of Corn and 250 kg of Jowar, how much would he earn?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹19425"
+      },
+      {
+        "label": "b",
+        "text": "₹18,500"
+      },
+      {
+        "label": "c",
+        "text": "₹15,585"
+      },
+      {
+        "label": "d",
+        "text": "₹18,375"
+      },
+      {
+        "label": "e",
+        "text": "₹None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Farmer A’s earnings = ₹(350 × 30 + 150 × 22.5 + 250 × 18) = ₹(10500 + 3375 + 4500) = ₹18375 Hence option (d) is the answer.  22 + 24.5 + 21 + 28 + 30 ",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 7,
+    "question_code": "FND-T6-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/6-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the average price per kg of Bajra sold by all the farmers together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹25.10"
+      },
+      {
+        "label": "b",
+        "text": "₹24.50"
+      },
+      {
+        "label": "c",
+        "text": "₹25"
+      },
+      {
+        "label": "d",
+        "text": "₹23.40"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average price of Bajra = ₹    5  per kg = ₹25.10 per kg Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 8,
+    "question_code": "FND-T6-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/6-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "Farmer D and farmer E, both sell 240 kg of Bajra each. What would be the respective ratio of their earnings?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15 : 14"
+      },
+      {
+        "label": "b",
+        "text": "11 : 13"
+      },
+      {
+        "label": "c",
+        "text": "14 : 15"
+      },
+      {
+        "label": "d",
+        "text": "13 : 15"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 240 × 28 : 240 × 30 = 14:15 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 9,
+    "question_code": "FND-T6-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/6-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "Farmer C sells 180 kg each of Corn, Paddy and Jowar grains. How much does he earn?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹13,540"
+      },
+      {
+        "label": "b",
+        "text": "₹12,550"
+      },
+      {
+        "label": "c",
+        "text": "₹13,690"
+      },
+      {
+        "label": "d",
+        "text": "₹12,690"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Farmer C’s earnings = ₹(180 × 24 + 180 × 26 + 180 × 20.5) = ₹180(24 + 26 + 20.5) = ₹(180 × 70.5) = ₹12690 Hence option (d) is the answer. 25",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 10,
+    "question_code": "FND-T6-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/6-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "Earnings on 150 kg of Paddy sold by farmer B is approximately what percentage of the earnings on the same quantity of Rice sold by the same farmer?",
+    "options": [
+      {
+        "label": "a",
+        "text": "65"
+      },
+      {
+        "label": "b",
+        "text": "69"
+      },
+      {
+        "label": "c",
+        "text": "73"
+      },
+      {
+        "label": "d",
+        "text": "60"
+      },
+      {
+        "label": "e",
+        "text": "75"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 69 36 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 11,
+    "question_code": "FND-T6-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s3",
+    "set_position": 1,
+    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the total number of adult females in colonies A, B and C together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1785"
+      },
+      {
+        "label": "b",
+        "text": "1821"
+      },
+      {
+        "label": "c",
+        "text": "1479"
+      },
+      {
+        "label": "d",
+        "text": "1692"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of adult females in colonies A, B and C  1250 × 36 2050 × 30 1800 × 42  together =  + + +   100 100 100  = (450 + 615 + 756) = 1821 Hence option (b) is the answer. 1250 × 30",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 12,
+    "question_code": "FND-T6-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s3",
+    "set_position": 2,
+    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "The number of children in colony A are approxi- mately what per cent of the number of children in colony E?",
+    "options": [
+      {
+        "label": "a",
+        "text": "121"
+      },
+      {
+        "label": "b",
+        "text": "116"
+      },
+      {
+        "label": "c",
+        "text": "75"
+      },
+      {
+        "label": "d",
+        "text": "101"
+      },
+      {
+        "label": "e",
+        "text": "98"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of children in colony A = = 375 100 1620 × 30 Number of children in colony E = = 324 100 375 Required percentage = × 100 = 116 324 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 13,
+    "question_code": "FND-T6-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s3",
+    "set_position": 3,
+    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the respective ratio of the number of adult males to the number of adult females in colony B?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3:5"
+      },
+      {
+        "label": "b",
+        "text": "7:5"
+      },
+      {
+        "label": "c",
+        "text": "8:7"
+      },
+      {
+        "label": "d",
+        "text": "5:7"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 50:30 = 5:3 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 14,
+    "question_code": "FND-T6-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s3",
+    "set_position": 4,
+    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the average number of residents from all the colonies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1654"
+      },
+      {
+        "label": "b",
+        "text": "1600"
+      },
+      {
+        "label": "c",
+        "text": "1580"
+      },
+      {
+        "label": "d",
+        "text": "1574"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of residents from all the colonies 1250 + 2050 + 1800 + 1150 + 1620 7870 together = = 5 5 = 1574 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 15,
+    "question_code": "FND-T6-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s3",
+    "set_position": 5,
+    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the difference between the number of adult males and the number of children in colony D?",
+    "options": [
+      {
+        "label": "a",
+        "text": "138"
+      },
+      {
+        "label": "b",
+        "text": "126"
+      },
+      {
+        "label": "c",
+        "text": "136"
+      },
+      {
+        "label": "d",
+        "text": "135"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = (38 – 26)% of 1150 12 × 1150 = = 138 100 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 16,
+    "question_code": "FND-T6-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/6-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the ratio between male employees in Admini­ stration and Printing Departments respectively?",
+    "options": [
+      {
+        "label": "a",
+        "text": "7:4"
+      },
+      {
+        "label": "b",
+        "text": "4:7"
+      },
+      {
+        "label": "c",
+        "text": "3:4"
+      },
+      {
+        "label": "d",
+        "text": "7:3"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of employees in administration 2500 × 12 department = = 300 100 7 Number of male employees = × 300 = 175 12 Total number of employees in printing department 2500 × 6 = = 150 100 2 Number of male employees = × 150 = 100 3 Therefore Required ratio = 175:100 = 7:4 Hence option (a) is the answer. 2500 × 4",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 17,
+    "question_code": "FND-T6-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/6-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the difference between total number of employees in IT and Operations Departments?",
+    "options": [
+      {
+        "label": "a",
+        "text": "75"
+      },
+      {
+        "label": "b",
+        "text": "150"
+      },
+      {
+        "label": "c",
+        "text": "100"
+      },
+      {
+        "label": "d",
+        "text": "50"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = 2500 × (18 – 14)% = 100 = 100 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 18,
+    "question_code": "FND-T6-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/6-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the ratio between total number of males in HR and Marketing and the total number of females in these two departments respectively?",
+    "options": [
+      {
+        "label": "a",
+        "text": "13:15"
+      },
+      {
+        "label": "b",
+        "text": "15:13"
+      },
+      {
+        "label": "c",
+        "text": "13:17"
+      },
+      {
+        "label": "d",
+        "text": "17:14"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of employees in HR department 2500 × 16 = = 400 100 5 Hence no. of males = × 400 = 250 and number of 8 females = 400 – 250 = 150 Number of employees in marketing department 2500 × 15 = = 375 100 7 Number of males = × 375 = 175 15 Number of females = 375 – 175 = 200 Therefore Required ratio = (250 + 175) : (150 + 200) = 425:350 = 17:14 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 19,
+    "question_code": "FND-T6-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/fnd/6-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "How many female employees are there in HR Department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "250"
+      },
+      {
+        "label": "b",
+        "text": "120"
+      },
+      {
+        "label": "c",
+        "text": "125"
+      },
+      {
+        "label": "d",
+        "text": "150"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of employees in HR department = 16% of 16 2500 = × 2500 100 = 400. Number of female employees in HR department 3 = of total employee. 8 = 3/8 × 400 = 150",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 6,
+    "question_number": 20,
+    "question_code": "FND-T6-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t6-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/fnd/6-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the difference between the male and female employees in Logistics Department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "50"
+      },
+      {
+        "label": "b",
+        "text": "25"
+      },
+      {
+        "label": "c",
+        "text": "75"
+      },
+      {
+        "label": "d",
+        "text": "100"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of employees in logistics department 2500 × 11 = = 275 100 6 Number of males = × 275 = 150 11 Number of females = 275 – 150 = 125 Hence required difference = 150 – 125 = 25 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

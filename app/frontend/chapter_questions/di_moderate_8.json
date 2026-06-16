@@ -1,0 +1,452 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 1,
+    "question_code": "MOD-T16-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/16-s1.png)",
+    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "question_text": "Who scored the lowest total?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 2,
+    "question_code": "MOD-T16-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/16-s1.png)",
+    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "question_text": "The average marks for all four persons (for all the four subjects) is (approx.)",
+    "options": [
+      {
+        "label": "a",
+        "text": "65.625"
+      },
+      {
+        "label": "b",
+        "text": "81.225"
+      },
+      {
+        "label": "c",
+        "text": "99.5"
+      },
+      {
+        "label": "d",
+        "text": "105.6"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 3,
+    "question_code": "MOD-T16-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/16-s1.png)",
+    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "question_text": "Who is the highest scorer in chemistry?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300\n\n40 runs per over. Hence match 2 is the answer. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 4,
+    "question_code": "MOD-T16-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/mod/16-s1.png)",
+    "directions": "Directions for questions 1 to 4: Refer to the table",
+    "question_text": "Who is the lowest scorer in physics?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 5,
+    "question_code": "MOD-T16-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/mod/16-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "question_text": "In which of the matches, Indian Team’s average runs per over is maximum?",
+    "options": [
+      {
+        "label": "a",
+        "text": "First match"
+      },
+      {
+        "label": "b",
+        "text": "Second match"
+      },
+      {
+        "label": "c",
+        "text": "Third match"
+      },
+      {
+        "label": "d",
+        "text": "either first or second match"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nClearly it can be seen that runs scored in the first match is much more than the total runs scored in either second match or thi match. Though number of Overs actually played is almost similar in all the three matches – 45 Overs in first match, 48 Overs in second match and 44 Overs in third match. Since numerator (Total runs scored) is maximum in case of 1st match whereas denominator is almost",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 6,
+    "question_code": "MOD-T16-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/mod/16-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "question_text": "What would have the total runs scored in the third match if Indian team would have played 50 overs with the same average which it maintained till the overs actually played?",
+    "options": [
+      {
+        "label": "a",
+        "text": "180"
+      },
+      {
+        "label": "b",
+        "text": "190"
+      },
+      {
+        "label": "c",
+        "text": "200"
+      },
+      {
+        "label": "d",
+        "text": "170"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nTotal number of overs actually played in third match = 44 overs Total number of Runs scored in third match = 80 + 70 + 17 = 167 runs Method 1 – Through actual calculation method 167 Average Runs per over in third match = 44 = 3.8 runs per over Total runs in 50 overs = 50 × 3.8 = 190 runs Method 2 – Through Approximation method 44 overs → Percentage Increase of 12% − 13% 50 overs Hence runs scored will also increase by 12% - 13%. Now we will not go through the actual calculation. A quick look at the options shows that options are not close, so we can have a good approximation. Instead of increasing 167 runs (scored in 44 overs) by 12% – 13%, we increase it by ONLY 10% to find a quick range of our answer. 167 → Percentage Increase of 10% 167 + 16.7 K 184. Our actual answer will be a bit more than this. Option (b) is the closest one. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 7,
+    "question_code": "MOD-T16-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/mod/16-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "question_text": "Mr Phani Ram, the team selector, has made following observations to improve the performance of the team: (i) \u0007Performance of first five players has improved, whereas performance of last six players has gone down. (ii) \u0007Had there been no extra runs, runs in second match would have decreased by maximum percentage. (iii) \u0007If team would have played for full 50 overs, it would have scored maximum in first match. How many of these observations are true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Only I and II but not iii"
+      },
+      {
+        "label": "b",
+        "text": "Only ii and iii but not i"
+      },
+      {
+        "label": "c",
+        "text": "Only I and iii but not ii"
+      },
+      {
+        "label": "d",
+        "text": "All three"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nEvaluating the observations one by one: Observation I – Understand that you don’t have to use your “Cricket” knowledge to answer this question. Taking the data on its face value, it can be clearly seen that Performance of 1st five players has improved whereas performance of last six players has gone down. Hence observation I is correct. Observation ii – This is a close call. So let us go through the actual calculation. Percentage decrease in case of 22 Match 1 = 227× 100 = 9.69% Percentage decrease in case of 18 Match 2 = 165× 100 = 10.9% Percentage decrease in case of 17 Match 3 = 167× 100 = 10.17% So, maximum percentage decrease occurs in case of Match 3. Hence Observation (ii) is wrong. Observation iii – Since the average runs per over is maximum in Match 1 (using answer to 5), hence runs scored in 50 Overs would have been maximum in match 1.So observation iii is true. So, only observations I and iii are correct. Hence option (c) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 8,
+    "question_code": "MOD-T16-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/mod/16-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the chart",
+    "question_text": "If extra runs are not considered, which match has the lowest average runs per over?",
+    "options": [
+      {
+        "label": "a",
+        "text": "First match"
+      },
+      {
+        "label": "b",
+        "text": "Second match"
+      },
+      {
+        "label": "c",
+        "text": "Third match"
+      },
+      {
+        "label": "d",
+        "text": "either second or third match"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nThis is simple calculation – similar to 5. Option (a) can be easily eliminated as this has the maximum runs scored. Though to decide between match 2 and match 3, we are required to calculate the actual value. Average Runs per Over for Match 2 = 3.06 runs per over and average runs per over for match 3 =",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 9,
+    "question_code": "MOD-T16-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/mod/16-s3.png)",
+    "directions": "Directions for questions 9 to 10: Go through the data",
+    "question_text": "What could be the maximum number of persons who watched all the four movies?",
+    "options": [
+      {
+        "label": "a",
+        "text": "150"
+      },
+      {
+        "label": "b",
+        "text": "130"
+      },
+      {
+        "label": "c",
+        "text": "140"
+      },
+      {
+        "label": "d",
+        "text": "120"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The maximum number of people who watch all movies can be obtained by adding the minimum value of each age group from all movies. As the 4th bar shows people who watched only that movie. So, they would not watch all movies. For each age group, the maximum possible number of people who watched all movies is the minimum value it has among all 4 movies. For example, for people 760 years of age, the maximum number of people who can watch all 4 movies is 30, which shows people >60 years of age who watched Casino Royale, as it is possible those 30 also watched other 3 movies. So, for age group >60 year = 30 For age group 30–60 = 50 For age group <30 = 60 It adds to 30 + 50 + 60 = 140. But, we must also consider for each movie, the number of people who watched only that movie must be less than the number obtained by adding the people for each age group & then substracting the number of people who watched all 4 movies. For movie, the man with the golden gun: (50 + 110 + 70) – 140 = 90. But, the people who watched only this movie is 100. So, the number of people who watched all 4 movies must be equal or smaller to 130. For movie, Casino Royale: (30 + 60 + 110) – 140 = 60. But, the number of people who watched only this movie is 40. So, 140 is possible value. For movie, Goldfinger: (40 + 50 + 60) – 140 = 10. But, the number of people who watched only this movie is 30. So, 120 can be the maximum value of people who watched all 4 movies. For movie, Tomorrow never dies: (30 + 70 + 70) – 140 = 30. The number of people who watched only this movie is 20. So, here 140 is possible value for people who watched all 4 movies. So, the maximum number of people who watched all 4 movies is 120.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 10,
+    "question_code": "MOD-T16-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/mod/16-s3.png)",
+    "directions": "Directions for questions 9 to 10: Go through the data",
+    "question_text": "What could be the maximum number of persons of age more than 60 years, who attended the festival?",
+    "options": [
+      {
+        "label": "a",
+        "text": "200"
+      },
+      {
+        "label": "b",
+        "text": "150"
+      },
+      {
+        "label": "c",
+        "text": "130"
+      },
+      {
+        "label": "d",
+        "text": "140 1 to 4 From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Storyline of 5 to 8 Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined. 5 to 8"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For maximum number of people of age group >60 year, we must assume that no person watches more than 1 movie. So, if the value of bar showing this age group is less than 4th bar (showing people who watched only that movie), we can use full value of that bar. But if it is not so, we must use value of 4th bar. So, maximum possible number of people of >60 age who attended the festival = 50 + 30 + 30 + 20 = 130",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 16,
+    "question_number": 6,
+    "question_code": "MOD-T16-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t16-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/mod/16-s3.png)",
+    "directions": "Directions for questions 9 to 10: Go through the data",
+    "question_text": "Total number of overs actually played in third match = 44 overs Total number of Runs scored in third match = 80 + 70 + 17 = 167 runs Method 1 – Through actual calculation method Average Runs per over in third match = 167 44 = 3.8 runs per over Total runs in 50 overs = 50 × 3.8 = 190 runs Method 2 – Through Approximation method 44 overs Percentage Increase of 12% 13% − → 50 overs Hence runs scored will also increase by 12% - 13%. Now we will not go through the actual calculation. A quick look at the options shows that options are not close, so we can have a good approximation. Instead of increasing 167 runs (scored in 44 overs) by 12% – 13%, we increase it by ONLY 10% to find a quick range of our answer. 167 Percentage Increase of 10% → 167 + 16.7 K 184. Our actual answer will be a bit more than this. Option",
+    "options": [
+      {
+        "label": "a",
+        "text": "is the closest one. Hence option (b) is the answer."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Question provides two sets of data – Overs and Runs scored. While Total scheduled Overs is fixed at 50, Overs actually played vary for all the three matches. Runs scored have been given in three parts - Runs Scored by 1st Five Players, Runs Scored by remaining Last Six Players and Extra Runs. Summation of these three components gives total runs. Further, Average runs per over has been defined.\n\nTotal number of overs actually played in third match = 44 overs Total number of Runs scored in third match = 80 + 70 + 17 = 167 runs Method 1 – Through actual calculation method 167 Average Runs per over in third match = 44 = 3.8 runs per over Total runs in 50 overs = 50 × 3.8 = 190 runs Method 2 – Through Approximation method 44 overs → Percentage Increase of 12% − 13% 50 overs Hence runs scored will also increase by 12% - 13%. Now we will not go through the actual calculation. A quick look at the options shows that options are not close, so we can have a good approximation. Instead of increasing 167 runs (scored in 44 overs) by 12% – 13%, we increase it by ONLY 10% to find a quick range of our answer. 167 → Percentage Increase of 10% 167 + 16.7 K 184. Our actual answer will be a bit more than this. Option (b) is the closest one. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  }
+]

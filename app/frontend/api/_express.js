@@ -285,6 +285,64 @@ rcSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 const RcQuestion      = mongoose.model('RcQuestion', rcQuestionSchema);
 const RcSession       = mongoose.model('RcSession', rcSessionSchema);
 
+// ── Data Interpretation question (Nishit Sinha LRDI 6e — Part 2 Section 2 ──────
+// "Practising Data Interpretation"). Timed mocks like RC: each book practice
+// exercise becomes one test. Tests are numbered 1..N globally and tagged with a
+// tier (Foundation/Moderate/Advanced) for grouping on the listing page. Chart and
+// table visuals are cropped PNGs referenced as markdown images inside
+// context_passage (served from /public/di), rendered via the shared MathText.
+const DI_TIERS = ['Foundation', 'Moderate', 'Advanced'];
+const diQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  tier:            { type: String, enum: DI_TIERS, index: true },
+  test:            { type: Number, index: true },   // 1..N global
+  section:         { type: String, default: 'DILR' },
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'sequence'], default: 'option' },
+  topic:           { type: String, default: 'Data Interpretation' },
+  subtopic:        String,          // 'Pie Chart' | 'Bar Chart' | 'Line Graph' | 'Table' | 'Caselet'
+  set_id:          String,          // caselet id, e.g. "fnd-t1-s1"
+  set_position:    Number,          // position within its data-set
+  context_passage: { type: String, default: '' },  // intro paras + markdown chart/table image
+  directions:      { type: String, default: '' },
+  question_text:   String,
+  underline:       { type: String, default: '' },
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  difficulty:      String,
+  question_number: Number,
+  source:          String,
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'di_questions', timestamps: true });
+diQuestionSchema.index({ test: 1, question_number: 1 });
+
+const diSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  tier:            { type: String, enum: DI_TIERS },
+  test:            { type: Number },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  time_left:       { type: Number, default: 30 * 60 }, // seconds; set per test on create
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'di_sessions', timestamps: true });
+diSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
+const DiQuestion      = mongoose.model('DiQuestion', diQuestionSchema);
+const DiSession       = mongoose.model('DiSession', diSessionSchema);
+
 // ── Middleware ────────────────────────────────────────────────────────────────
 function authMiddleware(req, res, next) {
   const header = req.headers.authorization;
@@ -1426,6 +1484,250 @@ app.get('/api/rc/history', authMiddleware, async (req, res) => {
     const sessions = await RcSession.find(
       { user_id: req.user._id, status: 'submitted' },
       'test score finished_at createdAt'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+//  Data Interpretation Mocks (Nishit Sinha LRDI 6e — Practising DI, 3 tiers)
+// ════════════════════════════════════════════════════════════════════════════
+const DI_SECONDS_PER_Q = 150; // DI is calculation-heavy: 2.5 min per question
+
+// Fields safe to expose before submission (withholds correct_answer + explanation)
+const DI_SAFE_PROJECTION =
+  'question_code tier test section question_type answer_format topic subtopic set_id set_position ' +
+  'context_passage directions question_text underline options marks_correct marks_incorrect question_number';
+
+function diOrdered(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+// GET /api/di-tests — list every test with its tier, counts, duration + marks
+app.get('/api/di-tests', async (req, res) => {
+  try {
+    const rows = await DiQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: { _id: { test: '$test', tier: '$tier' }, count: { $sum: 1 } } },
+      { $sort: { '_id.test': 1 } },
+    ]);
+    const tests = rows.map(r => {
+      const n = r.count;
+      return {
+        test: r._id.test,
+        tier: r._id.tier,
+        questions: n,
+        duration_minutes: Math.round((n * DI_SECONDS_PER_Q) / 60),
+        marks: n * 3,
+      };
+    });
+    res.json(tests);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/di/start — resume-first, else create a fresh session for this test
+app.post('/api/di/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await DiSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await DiQuestion
+      .find({ test, removed: { $ne: true } }, DI_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+
+    if (!session) {
+      session = await DiSession.create({
+        user_id:         req.user._id,
+        tier:            docs[0].tier,
+        test,
+        status:          'in_progress',
+        question_ids:    docs.map(q => q._id),
+        question_states: {},
+        time_left:       docs.length * DI_SECONDS_PER_Q,
+        started_at:      new Date(),
+      });
+    }
+
+    const questions = diOrdered(session, docs);
+    res.json({
+      session_id:      session._id,
+      test,
+      tier:            docs[0].tier,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      status:          session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/di/active?test=N — resume or read the latest session for this test
+app.get('/api/di/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await DiSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await DiSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : DI_SAFE_PROJECTION;
+    const docs = await DiQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const questions = diOrdered(session, docs);
+
+    res.json({
+      state:           isFinished ? 'finished' : 'in_progress',
+      session_id:      session._id,
+      test,
+      tier:            session.tier,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      score:           isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/di/:sid/save — persist question_states + time_left (no scoring)
+app.post('/api/di/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await DiSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/di/:sid/submit — server-side scoring, then reveal answers
+app.post('/api/di/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await DiSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await DiQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue; // not attempted
+      const key = normalizeAnswer(q.correct_answer, q.answer_format);
+      if (given === key) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = {
+      total:     net,
+      attempted: correct + incorrect,
+      correct,
+      incorrect,
+      max_score: maxScore,
+    };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/di/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/di/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await DiSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const projection = reveal ? '' : DI_SAFE_PROJECTION;
+    const docs = await DiQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const ordered = diOrdered(session, docs);
+    const states = session.question_states || {};
+
+    const questions = ordered.map(q => {
+      const st = states[String(q._id)] || {};
+      const out = { ...q, user_answer: st.answer || '', user_status: st.status || 'not-visited' };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id: session._id,
+      test:       session.test,
+      tier:       session.tier,
+      status:     session.status,
+      score:      session.score || null,
+      time_left:  session.time_left,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/di/history — list this user's submitted DI sessions
+app.get('/api/di/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await DiSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test tier score finished_at createdAt'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
   } catch (e) {

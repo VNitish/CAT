@@ -1,0 +1,464 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 1,
+    "question_code": "MOD-T15-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/15-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which of the following is the largest one?",
+    "options": [
+      {
+        "label": "a",
+        "text": "B"
+      },
+      {
+        "label": "b",
+        "text": "C"
+      },
+      {
+        "label": "c",
+        "text": "D"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Barchart provides the population density of the census years—though data for some of the years is missing. To find out the missing values in the bar chart, table provides the absolute increase in the census year with respect to the previous census year. For example, census year of 1941 = 13 more from the population density of 1931 = 90 + 13 = 103. Solution and Explanation for 1 to 4\n\nIt can be seen that density has increased in all the census years over the previous year except (a) in 1921 (b)in 2011 – we do not have information. Devolvement Cut off price Cut off yield Date of on PDs (in ₹) (%) Maturity 0 106.75 6.10 03-Nov-14 0 107.82 7.44 15-Feb-27 0 99.38 6.13 02-Feb-19",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 17,
+    "question_code": "MOD-T15-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/15-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "5% over the population density of census year 2001. What is the value of E?",
+    "options": [
+      {
+        "label": "a",
+        "text": "372"
+      },
+      {
+        "label": "b",
+        "text": "382"
+      },
+      {
+        "label": "c",
+        "text": "392"
+      },
+      {
+        "label": "d",
+        "text": "352"
+      }
+    ],
+    "correct_answer": "",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "5% = 20% - 2.5% = – 5 40 1 1 of 325 = 65 and of 325 = 8 (approximately) 5 40 So, 17.5% = 65 – 8 = 57 Hence population density of 2011 = 325 + 57 = 382. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 3,
+    "question_code": "MOD-T15-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/15-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which year shows the second largest percentage increase in the population density over the previous census year?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1931"
+      },
+      {
+        "label": "b",
+        "text": "1941"
+      },
+      {
+        "label": "c",
+        "text": "1971"
+      },
+      {
+        "label": "d",
+        "text": "1991"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Barchart provides the population density of the census years—though data for some of the years is missing. To find out the missing values in the bar chart, table provides the absolute increase in the census year with respect to the previous census year. For example, census year of 1941 = 13 more from the population density of 1931 = 90 + 13 = 103. Solution and Explanation for 1 to 4\n\nFollowing table gives the population density and percentage change: Census year Density (per % age Change sq.km) 1901 77 1911 82 6.5 1921 81 -1.2 1931 90 11.1 1941 103 14.4 1951 117 13.6 1961 142 21.4 1971 177 24.6 1981 216 22 1991 267 23.6 2001 325 21.7 Second largest percentage increase occurs in 1991. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 4,
+    "question_code": "MOD-T15-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/mod/15-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Population density of which year is closest to the average of population density of all the census years from 1901 to 2001?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1931"
+      },
+      {
+        "label": "b",
+        "text": "1961"
+      },
+      {
+        "label": "c",
+        "text": "1981"
+      },
+      {
+        "label": "d",
+        "text": "1991"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Barchart provides the population density of the census years—though data for some of the years is missing. To find out the missing values in the bar chart, table provides the absolute increase in the census year with respect to the previous census year. For example, census year of 1941 = 13 more from the population density of 1931 = 90 + 13 = 103. Solution and Explanation for 1 to 4\n\nMethod 1: Using approximation Since the population density is constantly on a rise, average would be accounted for by the years that lie midway—1951 or 1961 or 1971. Census year 1951 can be easily ruled out as population density in this year is too low. So either census year 1961 or 1971 will be the answer. Since 1971 is not in the options, hence 1961 is the answer. Method 2: Using the actual calculation Using the table drawn to solve 3, average population density of all the census years from 1901 to 2001 = 152. This is closest to the population density of the census year 1961. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 5,
+    "question_code": "MOD-T15-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/mod/15-s2.png)",
+    "directions": "Directions for questions 5 to 7: Go through the data",
+    "question_text": "What is the number of engines in India that are powered by electricity?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3300"
+      },
+      {
+        "label": "b",
+        "text": "2700"
+      },
+      {
+        "label": "c",
+        "text": "6000"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "45% of the engines in India are powered by Natural gas and Diesel. So, the balance 55% will be powered by electricity. We know that 2100 engines are powered by diesel which accounts for 35% of the total engines. Therefore, 55% of the total engines 2100 = ×55 = 3300. Hence option (a) is the answer. 35",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 6,
+    "question_code": "MOD-T15-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/mod/15-s2.png)",
+    "directions": "Directions for questions 5 to 7: Go through the data",
+    "question_text": "If the number of engines in Russia accounts for 5% of the total number of engines in the world, then what percentage of the total engines in the world are powered by diesel?",
+    "options": [
+      {
+        "label": "a",
+        "text": "110,000"
+      },
+      {
+        "label": "b",
+        "text": "27,500"
+      },
+      {
+        "label": "c",
+        "text": "14100"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "We can find out the total number of engines in the world with the information available. But we do not know the makeup of the engines of the world in terms of their being powered by different modes. Hence cannot be determined. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 7,
+    "question_code": "MOD-T15-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/mod/15-s2.png)",
+    "directions": "Directions for questions 5 to 7: Go through the data",
+    "question_text": "Amongst the five countries, what is the average percentage of engines that are powered by Electricity?",
+    "options": [
+      {
+        "label": "a",
+        "text": "52.4%"
+      },
+      {
+        "label": "b",
+        "text": "47.6%"
+      },
+      {
+        "label": "c",
+        "text": "55.8%"
+      },
+      {
+        "label": "d",
+        "text": "44.2%"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "56% GS 2014 106.75",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 8,
+    "question_code": "MOD-T15-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/mod/15-s3.png)",
+    "directions": "Directions for questions 8 to 11: Go through the data",
+    "question_text": "For how many stocks, date of maturity is minimum 5 years ahead of date of auction?",
+    "options": [
+      {
+        "label": "a",
+        "text": "All but 1 stock"
+      },
+      {
+        "label": "b",
+        "text": "All but 2 stocks"
+      },
+      {
+        "label": "c",
+        "text": "All but 3 stocks"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Best way to go through this set of questions is to take the questions on its face value without understanding the meanings attached to the terms (though they are self descriptive in nature, and one is not required to scratch one’s head to make meaning out of it). Solution and Explanations for 8 to 11\n\n24% GS 2027 107.82 None of these stocks have their cut-off yield more than its desired yield. Hence option (a) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 9,
+    "question_code": "MOD-T15-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/mod/15-s3.png)",
+    "directions": "Directions for questions 8 to 11: Go through the data",
+    "question_text": "Nomenclature of the stocks is done in the following way: \u00077.56% GS 2014 - It means that desired yield from the Government stock (GS) in 2014 is 7.56%. \u0007For how many of the stocks desired yield is more than cut-off yield?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3"
+      },
+      {
+        "label": "b",
+        "text": "4"
+      },
+      {
+        "label": "c",
+        "text": "5"
+      },
+      {
+        "label": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Best way to go through this set of questions is to take the questions on its face value without understanding the meanings attached to the terms (though they are self descriptive in nature, and one is not required to scratch one’s head to make meaning out of it). Solution and Explanations for 8 to 11\n\nFor 4 stocks, the desired yield is more than cut off yield. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 10,
+    "question_code": "MOD-T15-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/mod/15-s3.png)",
+    "directions": "Directions for questions 8 to 11: Go through the data",
+    "question_text": "How many stocks with a cut-off price of more than ₹100 have their cut-off yield more than its desired yield (use definition from above question if |required)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "1"
+      },
+      {
+        "label": "c",
+        "text": "2"
+      },
+      {
+        "label": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Best way to go through this set of questions is to take the questions on its face value without understanding the meanings attached to the terms (though they are self descriptive in nature, and one is not required to scratch one’s head to make meaning out of it). Solution and Explanations for 8 to 11\n\nFollowing stocks are having their cut-off price more than ₹100: Name of Stock Cut off price",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 15,
+    "question_number": 11,
+    "question_code": "MOD-T15-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t15-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/mod/15-s3.png)",
+    "directions": "Directions for questions 8 to 11: Go through the data",
+    "question_text": "Mr Robert is quite an ambitious person. He wants to obtain a minimum desired yield of 8%. For that to happen, he buys exactly two stocks in different ratio. How many combinations can he have, out of 7 stocks given, such that his minimum desired yield is at least 8% (use information from previous questions)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Not possible"
+      },
+      {
+        "label": "b",
+        "text": "6"
+      },
+      {
+        "label": "c",
+        "text": "7"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Best way to go through this set of questions is to take the questions on its face value without understanding the meanings attached to the terms (though they are self descriptive in nature, and one is not required to scratch one’s head to make meaning out of it). Solution and Explanations for 8 to 11\n\nTo obtain a minimum desired yield of 8%, Mr Robert has to take 8.24% GS, as for remaining all the stocks, minimum desired yield is 8%. (One cannot have above 8% yield by mixing two stocks with less than 7% stock. It means that one stock has to be higher than 8 % and other has to be less than 8%). He can mix 8.24% GS with any one of the remaining 6 stocks to obtain minimum 8% desired yield. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

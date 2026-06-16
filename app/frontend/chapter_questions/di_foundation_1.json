@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 1,
+    "question_code": "FND-T1-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/1-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the number of men working in the Marketing department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "132"
+      },
+      {
+        "label": "b",
+        "text": "174"
+      },
+      {
+        "label": "c",
+        "text": "126"
+      },
+      {
+        "label": "d",
+        "text": "189"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of men working in the Marketing department 18 7 = 1800 × × = 189 100 12 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 2,
+    "question_code": "FND-T1-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/1-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "The number of women working in the IT department of the Organization forms approximately what per cent of the total number of employees in the Organization from all departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "7"
+      },
+      {
+        "label": "b",
+        "text": "5"
+      },
+      {
+        "label": "c",
+        "text": "19"
+      },
+      {
+        "label": "d",
+        "text": "15"
+      },
+      {
+        "label": "e",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "1 × 100",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 3,
+    "question_code": "FND-T1-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/1-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the respective ratio of the number of women working in the HR department of the organization and the total number of employees in that department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3:4"
+      },
+      {
+        "label": "b",
+        "text": "2:5"
+      },
+      {
+        "label": "c",
+        "text": "2:9"
+      },
+      {
+        "label": "d",
+        "text": "3:7"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 3:4. Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 4,
+    "question_code": "FND-T1-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/1-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the respective ratio of the number of men working in the Accounts department to the total number of employees working in that department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "9:2"
+      },
+      {
+        "label": "b",
+        "text": "7:6"
+      },
+      {
+        "label": "c",
+        "text": "2:9"
+      },
+      {
+        "label": "d",
+        "text": "6:7"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 2:9. Hence option (c) is the answer. 11",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 5,
+    "question_code": "FND-T1-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/1-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "The number of men working in the Production department of the organization forms what percentage of total number of employees working in that department? (Rounded off to two digits after decimal)",
+    "options": [
+      {
+        "label": "a",
+        "text": "89.76"
+      },
+      {
+        "label": "b",
+        "text": "91.67"
+      },
+      {
+        "label": "c",
+        "text": "88.56"
+      },
+      {
+        "label": "d",
+        "text": "94.29"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 91.67. Hence 12 option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 6,
+    "question_code": "FND-T1-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/1-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "If the profit earned by Company R in the year 2008 was ₹18.9 lakhs, what was the income in that year?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹303.7 lakhs"
+      },
+      {
+        "label": "b",
+        "text": "₹264.5 lakhs"
+      },
+      {
+        "label": "c",
+        "text": "₹329.4 lakhs"
+      },
+      {
+        "label": "d",
+        "text": "₹228.9 lakhs"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If the expenditure be ₹X lacs, then × 100 =9",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 7,
+    "question_code": "FND-T1-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/1-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the percentage rise in per cent profit of Company T in year 2009 from the year 2004?",
+    "options": [
+      {
+        "label": "a",
+        "text": "42"
+      },
+      {
+        "label": "b",
+        "text": "35"
+      },
+      {
+        "label": "c",
+        "text": "26"
+      },
+      {
+        "label": "d",
+        "text": "48"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Percentage increase = × 100 = 40 10 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 8,
+    "question_code": "FND-T1-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/1-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "If the profit earned by Company P in the year 2007 was ₹2.1 lakhs, what was its expenditure in that year?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹30 lakhs"
+      },
+      {
+        "label": "b",
+        "text": "₹15 lakhs"
+      },
+      {
+        "label": "c",
+        "text": "₹23 lakhs"
+      },
+      {
+        "label": "d",
+        "text": "₹27 lakhs"
+      },
+      {
+        "label": "e",
+        "text": "₹None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required expenditure of the company = = 7 ₹30 lacs. Hence option (a) is the answer. 7 + 8 + 13 + 14 + 15 + 15",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 9,
+    "question_code": "FND-T1-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/1-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What was the average per cent profit of Company S over all the years together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "13.5"
+      },
+      {
+        "label": "b",
+        "text": "11"
+      },
+      {
+        "label": "c",
+        "text": "12"
+      },
+      {
+        "label": "d",
+        "text": "14"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average per cent profit = = 6 12%. Hence option (c) is the answer.  9 + 5 + 8 + 12 + 6 ",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 10,
+    "question_code": "FND-T1-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/1-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the difference between the per cent profit earned by Company Q in the year 2005 and the average of the per cent profits earned by the remaining companies together in that year?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4"
+      },
+      {
+        "label": "b",
+        "text": "2"
+      },
+      {
+        "label": "c",
+        "text": "1"
+      },
+      {
+        "label": "d",
+        "text": "3"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = 10 –   =  5  10% – 8% = 2%. Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 11,
+    "question_code": "FND-T1-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/1-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "The number of tickets to movie B sold in Hyderabad was approximatelywhat percentage of the total number of tickets of the same movie sold in all the cities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15"
+      },
+      {
+        "label": "b",
+        "text": "18"
+      },
+      {
+        "label": "c",
+        "text": "12"
+      },
+      {
+        "label": "d",
+        "text": "20"
+      },
+      {
+        "label": "e",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "3 + 6 + 1 8 + 1 + 1.5",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 12,
+    "question_code": "FND-T1-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/1-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the difference between the number of tickets of movie D sold in Kolkata and the number of tickets of movie B sold in Lucknow?",
+    "options": [
+      {
+        "label": "a",
+        "text": "700"
+      },
+      {
+        "label": "b",
+        "text": "7,000"
+      },
+      {
+        "label": "c",
+        "text": "14,000"
+      },
+      {
+        "label": "d",
+        "text": "9,000"
+      },
+      {
+        "label": "e",
+        "text": "None of these \b"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = (27000 – 21000) = 6000. Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 13,
+    "question_code": "FND-T1-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/1-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the average number of tickets of movie C sold in all the six cities?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15,500"
+      },
+      {
+        "label": "b",
+        "text": "2,550"
+      },
+      {
+        "label": "c",
+        "text": "24,000"
+      },
+      {
+        "label": "d",
+        "text": "25,500"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of tickets of movie C sold in all  35 + 21 + 19 + 32 + 26 + 20  the cities =   thousand  6  153 = thousand = 25500. Hence option (d) is the 6 answer. 34",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 14,
+    "question_code": "FND-T1-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/1-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "The number of tickets of movie E sold in Chennai is what percentage of number of tickets of movie A sold in Mumbai?",
+    "options": [
+      {
+        "label": "a",
+        "text": "170"
+      },
+      {
+        "label": "b",
+        "text": "70"
+      },
+      {
+        "label": "c",
+        "text": "30"
+      },
+      {
+        "label": "d",
+        "text": "130"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 170. 20 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 15,
+    "question_code": "FND-T1-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/fnd/1-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "In which city was the total number of tickets of all the five movies together sold the minimum?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Delhi"
+      },
+      {
+        "label": "b",
+        "text": "Chennai"
+      },
+      {
+        "label": "c",
+        "text": "Lucknow"
+      },
+      {
+        "label": "d",
+        "text": "Kolkata"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of tickets sold of all the movies together: Mumbai S (20 + 15 + 35 + 26 + 18) thousand = 114 thousand Delhi S (17 + 19 + 21 + 25 + 28) thousand = 110 thousand Kolkata S (32 + 24 + 19 + 21 + 17) thousand = 113 thousand Chennai S (18 + 21 + 32 + 28 + 34) thousand = 133 thousand Hyderabad S (16 + 34 + 26 + 29 + 22) thousand = 127 thousand Lucknow S (15 + 27 + 20 + 35 + 26) thousand = 123 thousand Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 16,
+    "question_code": "FND-T1-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/1-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "The mimicry shows held in city M are what per cent of the drama shows held in city O?",
+    "options": [
+      {
+        "label": "a",
+        "text": "7"
+      },
+      {
+        "label": "b",
+        "text": "8.5"
+      },
+      {
+        "label": "c",
+        "text": "6.5"
+      },
+      {
+        "label": "d",
+        "text": "8"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 7.5. Hence 12 option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 17,
+    "question_code": "FND-T1-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/1-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the average number of entertainment shows held in city P?",
+    "options": [
+      {
+        "label": "a",
+        "text": "756"
+      },
+      {
+        "label": "b",
+        "text": "678"
+      },
+      {
+        "label": "c",
+        "text": "786"
+      },
+      {
+        "label": "d",
+        "text": "698"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required average = × 100 5 3780 = = 756. 5 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 18,
+    "question_code": "FND-T1-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/1-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "If the number of music shows in cities N and Q is increased by 5%, what will be the total number of music shows in both the cities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "2.602"
+      },
+      {
+        "label": "b",
+        "text": "2.667"
+      },
+      {
+        "label": "c",
+        "text": "2.540"
+      },
+      {
+        "label": "d",
+        "text": "2.605"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of music shows in cities N and Q = 105% of 105 (13 + 12.4) = 25.4 × = 2667. Hence option (b) 100 is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 19,
+    "question_code": "FND-T1-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/fnd/1-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the respective ratio of the number of dance shows held in city N to the number of drama shows held in city R?",
+    "options": [
+      {
+        "label": "a",
+        "text": "49:62"
+      },
+      {
+        "label": "b",
+        "text": "49:51"
+      },
+      {
+        "label": "c",
+        "text": "62:45"
+      },
+      {
+        "label": "d",
+        "text": "62:49"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 12.4:9.8 = 124:98 = 62:49. Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 1,
+    "question_number": 20,
+    "question_code": "FND-T1-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t1-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/fnd/1-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the total number of standup comedy shows held in all the cities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "820"
+      },
+      {
+        "label": "b",
+        "text": "740"
+      },
+      {
+        "label": "c",
+        "text": "780"
+      },
+      {
+        "label": "d",
+        "text": "810"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of standup comedy shows = (0.8 + 2 +",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

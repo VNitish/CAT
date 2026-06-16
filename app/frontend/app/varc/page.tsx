@@ -73,6 +73,9 @@ export default function VarcPage() {
           <button onClick={() => router.push('/quant')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant Practice
           </button>
+          <button onClick={() => router.push('/di')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            DI Mocks
+          </button>
           {user ? (
             <>
               <div style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '5px 12px', background: 'rgba(255,255,255,0.06)', border: '1px solid #2a2a2a' }}>

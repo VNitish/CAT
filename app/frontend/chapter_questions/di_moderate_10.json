@@ -1,0 +1,422 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 1,
+    "question_code": "MOD-T18-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/18-s1.png)",
+    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "question_text": "In which category was the percentage of spam e-mails increasing but at a decreasing rate?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Financial"
+      },
+      {
+        "label": "b",
+        "text": "Scams"
+      },
+      {
+        "label": "c",
+        "text": "Products"
+      },
+      {
+        "label": "d",
+        "text": "None of the above"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In case of products, percentage of spam e-mails is increasing but at decreasing rate, from Sep 2002 to Dec 2002 products increased by [(7 – 3)/ 3] × 100 = 133.33% and in march 2003 about [(7 – 4)/7] × 100 = 43% and in June 2003, [(11 – 10)/10] × 100 = 10%.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 2,
+    "question_code": "MOD-T18-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/18-s1.png)",
+    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "question_text": "In the health category, the number of spam e-mails received in December 2002 as compared to June 2003",
+    "options": [
+      {
+        "label": "a",
+        "text": "was larger"
+      },
+      {
+        "label": "b",
+        "text": "was smaller"
+      },
+      {
+        "label": "c",
+        "text": "was equal"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Since percentage of spam in Dec 2002 is higher than June 2003, and the number of total e-mails received is higher, hence cannot be determined.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 3,
+    "question_code": "MOD-T18-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/18-s1.png)",
+    "directions": "Directions for questions 1 to 3: Answer the questions",
+    "question_text": "In the financial category, the number of spam e-mails received in September 2002 as compared to March 2003",
+    "options": [
+      {
+        "label": "a",
+        "text": "was larger"
+      },
+      {
+        "label": "b",
+        "text": "was smaller"
+      },
+      {
+        "label": "c",
+        "text": "was equal"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In September 2002, percentage is higher as compared to March 2003, however, the total number of e-mails received in Sept 2003 is higher than that in March 2002.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 4,
+    "question_code": "MOD-T18-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s2",
+    "set_position": 1,
+    "context_passage": "An industry comprises of four firms (A, B, C, and D). Financial details of these firms and of the industry as a whole for a particular year are given below. Profitability of a firm is defined as profit as a percentage of sales. Figures in ₹ A B C D Total Sales 24568 25468 23752 15782 89570 Operating costs 17198 19101 16151 10258 62708 Interest costs 2457 2292 2850 1578 9177 Profit 4914 4075 4750 3946 17684",
+    "directions": "Directions for questions 4 to 5: Answer the questions",
+    "question_text": "Which firm has the highest profitability?",
+    "options": [
+      {
+        "label": "a",
+        "text": "A"
+      },
+      {
+        "label": "b",
+        "text": "B"
+      },
+      {
+        "label": "c",
+        "text": "C"
+      },
+      {
+        "label": "d",
+        "text": "D"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Profitability is defined as percentage of sales. Approximately Firm A has 25% profit, B has 16.66%, C has 20% and D has approximately 30% profit. and Finance. F does not want any portfolio if D gets one of the five. C wants either Home or Finance or no portfolio. B says that if D gets either Power or Telecom then she must get the other one. E insists on a portfolio if A gets one.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 5,
+    "question_code": "MOD-T18-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s2",
+    "set_position": 2,
+    "context_passage": "An industry comprises of four firms (A, B, C, and D). Financial details of these firms and of the industry as a whole for a particular year are given below. Profitability of a firm is defined as profit as a percentage of sales. Figures in ₹ A B C D Total Sales 24568 25468 23752 15782 89570 Operating costs 17198 19101 16151 10258 62708 Interest costs 2457 2292 2850 1578 9177 Profit 4914 4075 4750 3946 17684",
+    "directions": "Directions for questions 4 to 5: Answer the questions",
+    "question_text": "If firm A acquires firm B, approximately what percentage of the total market (total sales) will they corner together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "55%"
+      },
+      {
+        "label": "b",
+        "text": "45%"
+      },
+      {
+        "label": "c",
+        "text": "35%"
+      },
+      {
+        "label": "d",
+        "text": "50%"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If firm A acquires firm B, then their combined sale is 24568 + 25468 = ₹50,036. The total sale (in ₹) of industry is ₹89,570. 50036 So, the market share will be × 100 % = 89570 55%.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 6,
+    "question_code": "MOD-T18-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/mod/18-s3.png)",
+    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "question_text": "When the cumulative value of Z will be 270, what would be the absolute difference between the cumulative value of x + y up to this point and the cumulative value of z up to this point?",
+    "options": [
+      {
+        "label": "a",
+        "text": "110"
+      },
+      {
+        "label": "b",
+        "text": "150"
+      },
+      {
+        "label": "c",
+        "text": "170"
+      },
+      {
+        "label": "d",
+        "text": "210"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nx + y =120. Summation of all Z = 270. The required difference = 270 – 120 = 150. Hence, option (b) is correct.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 7,
+    "question_code": "MOD-T18-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/mod/18-s3.png)",
+    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "question_text": "What will be the value of A, when the cumulative value of z becomes 85?",
+    "options": [
+      {
+        "label": "a",
+        "text": "672"
+      },
+      {
+        "label": "b",
+        "text": "864"
+      },
+      {
+        "label": "c",
+        "text": "360"
+      },
+      {
+        "label": "d",
+        "text": "504"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nWhen the cumulative value of z becomes 85, A = 504. Hence, option (d) is correct.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 8,
+    "question_code": "MOD-T18-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/mod/18-s3.png)",
+    "directions": "Directions for questions 6 to 8: Answer the questions",
+    "question_text": "What will be the difference in values between z and x + y when A = 672?",
+    "options": [
+      {
+        "label": "a",
+        "text": "11"
+      },
+      {
+        "label": "b",
+        "text": "13"
+      },
+      {
+        "label": "c",
+        "text": "16"
+      },
+      {
+        "label": "d",
+        "text": "18"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the grid: x 0 1 2 3 4 5 6 7 8 9 y 3 4 5 6 7 8 9 10 11 12 z 9 13 17 21 25 29 33 37 41 45 A 72 144 240 360 504 672 864 1080 1320 1584\n\nWhen A = 672, z = 29, y = 8 & x = 5. Hence, 29 – (8 + 5) = 16. Hence, option (c) is correct. 9 and 10 If D gets portfolio F does not and vice-versa. C wants only Home or Finance or none. If D gets Power B must get Telecom or D- Telecom then B must get Power If A gets a portfolio E should get.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 9,
+    "question_code": "MOD-T18-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/mod/18-s4.png)",
+    "directions": "Directions for questions 9 to 10: Answer the questions",
+    "question_text": "Which is valid assignment?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007A-Home, B-Power, C-defense, D-Telecom, E-Finance"
+      },
+      {
+        "label": "b",
+        "text": "\u0007C-Home, D-Power, A-defense, B-Telecom, E-Finance"
+      },
+      {
+        "label": "c",
+        "text": "\u0007A-Home, B-Power, E-defense, D-Telecom, F-Finance"
+      },
+      {
+        "label": "d",
+        "text": "\u0007B-Home, F-Power, E-defense, C-Telecom, A-Finance"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Go through options: (a) is eliminated because C can have either home or finance. (c) is eliminated because F and D cannot be in the same team (d) is eliminated because C cannot have telecom portfolio Hence (b) is correct.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 18,
+    "question_number": 10,
+    "question_code": "MOD-T18-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t18-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/mod/18-s4.png)",
+    "directions": "Directions for questions 9 to 10: Answer the questions",
+    "question_text": "If A gets Home and C gets Finance, then which is NOT a valid assignment of defense and Telecom?",
+    "options": [
+      {
+        "label": "a",
+        "text": "D-Defense, B-Telecom"
+      },
+      {
+        "label": "b",
+        "text": "F-Finance, B-Telecom"
+      },
+      {
+        "label": "c",
+        "text": "B-Defense, E-Telecom"
+      },
+      {
+        "label": "d",
+        "text": "B-Defense, D- telecom"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "B-Defence, D-Telecom because if D gets Telecom then B must get power.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

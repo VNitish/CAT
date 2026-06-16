@@ -1,0 +1,716 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 1,
+    "question_code": "FND-T8-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/8-s1.png)",
+    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any colony?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹65"
+      },
+      {
+        "label": "c",
+        "text": "₹55"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W2 to R6 to C1 is the lowest = 20 + 30 + 10 = ₹60.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 2,
+    "question_code": "FND-T8-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/8-s1.png)",
+    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to the colony C2?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹60"
+      },
+      {
+        "label": "c",
+        "text": "₹55"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W2 to R6 to C2 is the minimum = 20 + 30 + 15 = ₹65.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 3,
+    "question_code": "FND-T8-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/8-s1.png)",
+    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "question_text": "If one unit produced in each of the factories is to be sent to each of the colonies, then what will be the total transportation cost incurred?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹1705"
+      },
+      {
+        "label": "b",
+        "text": "₹1980"
+      },
+      {
+        "label": "c",
+        "text": "₹2185"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 4,
+    "question_code": "FND-T8-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/8-s1.png)",
+    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "question_text": "FiWjRkCl represents that the product has moved in this cycle – Factory i to warehouse j to retailer k to colony l. If i = 2 and k = 2, then what is the sum of (j + l) for the lowest transportation cost incurred in one product transferred from i = 2 to any of the colonies?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4"
+      },
+      {
+        "label": "b",
+        "text": "5"
+      },
+      {
+        "label": "c",
+        "text": "7"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F2 – W3 – R2 – either C2/C4. Hence two different values possible.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 5,
+    "question_code": "FND-T8-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/8-s1.png)",
+    "directions": "Directions for questions 1 to 5: Refer to the tables",
+    "question_text": "In the above question, if j = 2, then how many different value/s of (i + k + l) is/are possible for the lowest transportation cost incurred in one product transferred from any of the factories to any of the colonies?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1"
+      },
+      {
+        "label": "b",
+        "text": "2"
+      },
+      {
+        "label": "c",
+        "text": "3"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "There can be two values of i = 3/5, one value of j = 2, one value of k = 6 and one value of l = 1. Hence two different sums are possible.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 6,
+    "question_code": "FND-T8-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/8-s2.png)",
+    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "question_text": "What can be inferred from the given table?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007Percentage increase in the number of Petrol using vehicles/agents have increased in Asia than the world in the decade 1991–2001."
+      },
+      {
+        "label": "b",
+        "text": "\u0007Exploration of Naphtha is low in Asia is less than the exploration of Naphtha in the world throughout the period."
+      },
+      {
+        "label": "c",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Obviously cannot be inferred. (a) seems probable, but number of vehicles/agents need not be increasing. There can be other reasons also like reduction in the efficiency of the vehicle etc. 2001 2011 World Asia World Asia 200 20 250 33.3 40 2.5 50 5 20% 12.50% 20% 15.01 60 5 75 10 30% 25% 30% 30.03 70 10 80 15 35% 50% 32% 45.04 1991 2001 2011 Total energy 10 20 33 Solid fuels Value 4 5 10 Proportion 40% 25% 30.30% Nuclear Value 0.5 1 1.3 Fuel Proportion 5% 5% 3.90% Hydro Value 1 1.5 2 Energy Proportion 10% 7.50% 6.06% Hence, we can see that the proportion of Hydro Energy goes on decreasing over the period.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 7,
+    "question_code": "FND-T8-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/8-s2.png)",
+    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "question_text": "Over 1991–2011, which two fuels meet more than 60% of the total energy demand of both the world and Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Petrol and Naphtha"
+      },
+      {
+        "label": "b",
+        "text": "Petrol and Solid fuels"
+      },
+      {
+        "label": "c",
+        "text": "Naphtha and Solid fuels"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "1991 World Asia Total energy 150 10 Naphtha Value 30 0.5 Proportion 20% 5% Solid fuels Value 50 4 Proportion 33.30% 40% Petrol Value 50 4 Proportion 33.30% 40% Hence, solid fuels and Petrol combined constitute more than 60 percent of total energy in both the world and Asia for the given period.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 8,
+    "question_code": "FND-T8-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/8-s2.png)",
+    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "question_text": "Which fuel’s proportion in the total energy demand increases over the decade 1991–2001 and decreases over the decade 2001–2011 for both the world and Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Petrol"
+      },
+      {
+        "label": "b",
+        "text": "Naphtha"
+      },
+      {
+        "label": "c",
+        "text": "Solid fuels"
+      },
+      {
+        "label": "d",
+        "text": "Nuclear Fuel"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It can be seen from the table that Petrol is the fuel whose proportion in the total energy demand increases during 1991–2001 and decreases during 2001–2011 for both the world and Asia.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 9,
+    "question_code": "FND-T8-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/8-s2.png)",
+    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "question_text": "Which is the fuel whose proportion in the total energy demand will decrease continuously over the period 1991–2011, in Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Naphtha"
+      },
+      {
+        "label": "b",
+        "text": "Solids fuels"
+      },
+      {
+        "label": "c",
+        "text": "Nuclear Fuel"
+      },
+      {
+        "label": "d",
+        "text": "Hydro Energy"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For the answer choices given and for Asia we can take make the following table. 1991 2001 2011 Total energy 10 20 33 Naphtha Value 0.5 2.5 5 Proportion 5% 12.50% 15.15% Explanations",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 10,
+    "question_code": "FND-T8-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/8-s2.png)",
+    "directions": "Directions for questions 6 to 10: Refer to the table",
+    "question_text": "Which is the fuel whose proportions to the total energy demand of the world will remain constant over the period 1991–2011 but whose proportion will increase in the total energy demand in Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Naphtha"
+      },
+      {
+        "label": "b",
+        "text": "Solids fuels"
+      },
+      {
+        "label": "c",
+        "text": "Nuclear Fuel"
+      },
+      {
+        "label": "d",
+        "text": "Hydro Energy"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For answer choices given and for the worlds, we can make the following table. 1991 2001 2011 Total energy 150 200 250 Naphtha Value 30 40 50 Proportion 20% 20% 20% Solid Fuels Value 50 60 75 Proportion 33% 30% 30% Nuclear Fuel Value 10 20 25 Proportion 6.66% 10% 10% Hydro Energy Value 10 10 20 Proportion 6.66% 5% 8% Hence, we can see that the proportion of Naphtha remains constant over the given period.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 11,
+    "question_code": "FND-T8-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/8-s3.png)",
+    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "question_text": "Who scored the lowest total?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 12,
+    "question_code": "FND-T8-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/8-s3.png)",
+    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "question_text": "The average marks for all four persons (for all the four subjects) is (approx.)",
+    "options": [
+      {
+        "label": "a",
+        "text": "65.625"
+      },
+      {
+        "label": "b",
+        "text": "81.225"
+      },
+      {
+        "label": "c",
+        "text": "99.5"
+      },
+      {
+        "label": "d",
+        "text": "105.6"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 13,
+    "question_code": "FND-T8-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/8-s3.png)",
+    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "question_text": "Who is the highest scorer in chemistry?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 14,
+    "question_code": "FND-T8-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/8-s3.png)",
+    "directions": "Directions for questions 11 to 14: Refer to the table",
+    "question_text": "Who is the lowest scorer in physics?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 18,
+    "question_code": "FND-T8-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s5",
+    "set_position": 1,
+    "context_passage": "![data set 5](/di/fnd/8-s5.png)",
+    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "question_text": "The percentage of respondents aged less than 40 years is at least",
+    "options": [
+      {
+        "label": "a",
+        "text": "10%"
+      },
+      {
+        "label": "b",
+        "text": "16.67%"
+      },
+      {
+        "label": "c",
+        "text": "20.0%"
+      },
+      {
+        "label": "d",
+        "text": "30%"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The minimum number of males (or females) for any group on the basis of number of children = 0 (if lower age is more than 40) = All (if upper age is less than 40) = 1 (if lower age is less than 40 & upper) So, minimum possible number of people below 40 age is 9. Hence, required percentage = 9/3 × 100% = 30%. 23",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 19,
+    "question_code": "FND-T8-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s5",
+    "set_position": 2,
+    "context_passage": "![data set 5](/di/fnd/8-s5.png)",
+    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "question_text": "Given the information above, the percentage of respondents older than 35 can be at most",
+    "options": [
+      {
+        "label": "a",
+        "text": "30%"
+      },
+      {
+        "label": "b",
+        "text": "73.33%"
+      },
+      {
+        "label": "c",
+        "text": "76.67%"
+      },
+      {
+        "label": "d",
+        "text": "90%"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "× 100 = 76.67 %. Hence option (c) is the answer. 30 4",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 20,
+    "question_code": "FND-T8-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s5",
+    "set_position": 3,
+    "context_passage": "![data set 5](/di/fnd/8-s5.png)",
+    "directions": "Directions for questions 18 to 20: Answer the questions",
+    "question_text": "The percentage of respondents that fall into the 35 to 40 years age group (both inclusive) is at least",
+    "options": [
+      {
+        "label": "a",
+        "text": "6.67%"
+      },
+      {
+        "label": "b",
+        "text": "10%"
+      },
+      {
+        "label": "c",
+        "text": "13.33%"
+      },
+      {
+        "label": "d",
+        "text": "26.67% A research agency collected the following data regarding the admission process of a reputed management school in India. Year Gender Number bought application forms Number appeared for written test Number called for interviews Number selected for the course 2002 Male 61205 59981 684 171 Female 19236 15389 138 48 2003 Male 63298 60133 637 115 Female 45292 40763 399 84"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "× 100 = 13.33 %. Hence option (c) is the answer. 30",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

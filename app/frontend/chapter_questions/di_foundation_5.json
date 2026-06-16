@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 1,
+    "question_code": "FND-T5-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the respective ratio of men to the women working in night shifts from the Call Centre industry?",
+    "options": [
+      {
+        "label": "a",
+        "text": "9:11"
+      },
+      {
+        "label": "b",
+        "text": "7:5"
+      },
+      {
+        "label": "c",
+        "text": "8:13"
+      },
+      {
+        "label": "d",
+        "text": "11:7"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100\n\nRequired ratio = 7084:5796 = 11:9. Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 2,
+    "question_code": "FND-T5-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the approximate average number of females working in night shifts from all the industries together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "2227"
+      },
+      {
+        "label": "b",
+        "text": "4481"
+      },
+      {
+        "label": "c",
+        "text": "3326"
+      },
+      {
+        "label": "d",
+        "text": "2823"
+      },
+      {
+        "label": "e",
+        "text": "4107"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100\n\nNumber of women = 966 + 1449 + 5796 + 1932 + 2254 + 966 = 13363",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 3,
+    "question_code": "FND-T5-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the total number of men working in night shifts from al the industries together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "28297"
+      },
+      {
+        "label": "b",
+        "text": "25788"
+      },
+      {
+        "label": "c",
+        "text": "28678"
+      },
+      {
+        "label": "d",
+        "text": "26887"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100\n\nNumber of women = 3864 + 5796 + 7084 + 1288 + 3381 + 5474 = 26887. Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 4,
+    "question_code": "FND-T5-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "The number of women from the sports industry is what per cent of the total number of people working in the night shifts from all the industries together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "5.6"
+      },
+      {
+        "label": "b",
+        "text": "3.6"
+      },
+      {
+        "label": "c",
+        "text": "3.2"
+      },
+      {
+        "label": "d",
+        "text": "4.4"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100\n\nTotal number of working people = 40250 Number of women in sports industry = 1449 1449 Hence required percentage = × 100 = 3.6. 40250 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 5,
+    "question_code": "FND-T5-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the difference between the total number of men and the total number of women working in night shifts from all the industries together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "13254"
+      },
+      {
+        "label": "b",
+        "text": "13542"
+      },
+      {
+        "label": "c",
+        "text": "13524"
+      },
+      {
+        "label": "d",
+        "text": "13363"
+      },
+      {
+        "label": "e",
+        "text": "None of these \b 50 Number of Students 100 150 200 250 300 350 Philosophy Biology Anthropology Sociology Psychology Departments Boys Girls"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100\n\nRequired difference = 26887–13363 = 13524. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 6,
+    "question_code": "FND-T5-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 6,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "The number of girls from Biology department is approximately what per cent of the total number of girls from all the departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "32"
+      },
+      {
+        "label": "b",
+        "text": "21"
+      },
+      {
+        "label": "c",
+        "text": "37"
+      },
+      {
+        "label": "d",
+        "text": "43"
+      },
+      {
+        "label": "e",
+        "text": "27"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of girls in all departments = 140 + 300 + 180 + 250 + 240 = 1110 300 Hence required percentage = × 100 = 27% 1110 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 7,
+    "question_code": "FND-T5-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 7,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the difference between the total number of boys and the total number of girls from all the departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "440"
+      },
+      {
+        "label": "b",
+        "text": "520"
+      },
+      {
+        "label": "c",
+        "text": "580"
+      },
+      {
+        "label": "d",
+        "text": "460"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of boys in all the departments = 80 + 200 + 100 + 150 + 120 = 650 Number of girls = 1110 Hence required difference = 1110 – 650 = 460 Hence option (d) is the answer. 650",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 8,
+    "question_code": "FND-T5-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 8,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the average number of boys from all the departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "122"
+      },
+      {
+        "label": "b",
+        "text": "126"
+      },
+      {
+        "label": "c",
+        "text": "130"
+      },
+      {
+        "label": "d",
+        "text": "134"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of boys = = 130 5 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 9,
+    "question_code": "FND-T5-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 9,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "The number of boys from Anthropology department is approximately what per cent of the total number of boys from all the departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15"
+      },
+      {
+        "label": "b",
+        "text": "23"
+      },
+      {
+        "label": "c",
+        "text": "31"
+      },
+      {
+        "label": "d",
+        "text": "44"
+      },
+      {
+        "label": "e",
+        "text": "56"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of all boys = 650 Number of boys from Anthropology department = 100 100 Hence required percentage = × 100 = 15.38 = 15 650 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 10,
+    "question_code": "FND-T5-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s1",
+    "set_position": 10,
+    "context_passage": "![data set 1](/di/fnd/5-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the respective ratio of number of girls from Philosophy department to the number of girls from Psychology department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1:2"
+      },
+      {
+        "label": "b",
+        "text": "7:12"
+      },
+      {
+        "label": "c",
+        "text": "5:12"
+      },
+      {
+        "label": "d",
+        "text": "3:4"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of girls from Philosophy department = 140 Number of girls from Psychology department = 240 Required ratio = 140:240 = 7:12 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 11,
+    "question_code": "FND-T5-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the difference between the total sale of English newspapers and the total sale of Hindi newspapers in all the localities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "6000"
+      },
+      {
+        "label": "b",
+        "text": "6500"
+      },
+      {
+        "label": "c",
+        "text": "7000"
+      },
+      {
+        "label": "d",
+        "text": "7500"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total sale of Hindi Newspapers = 5500 + 8500 + 4500 + 9500 + 5000 = 33000 Total sale of English Newspapers = 7500 + 9000 + 9500 + 7000 + 6500 = 39500 Required difference = 39500 – 33000 = 6500 Hence option (b) is the answer. 7500",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 12,
+    "question_code": "FND-T5-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "question_text": "The sale of English newspaper in locality A is approximately what per cent of the total sale of English newspapers in all the localities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "527"
+      },
+      {
+        "label": "b",
+        "text": "25"
+      },
+      {
+        "label": "c",
+        "text": "111"
+      },
+      {
+        "label": "d",
+        "text": "236"
+      },
+      {
+        "label": "e",
+        "text": "19"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 19 39500 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 13,
+    "question_code": "FND-T5-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the respective ratio of the sale of Hindi newspapers in locality A to the sale of Hindi newspapers in locality D?",
+    "options": [
+      {
+        "label": "a",
+        "text": "11:19"
+      },
+      {
+        "label": "b",
+        "text": "6:5"
+      },
+      {
+        "label": "c",
+        "text": "5:6"
+      },
+      {
+        "label": "d",
+        "text": "19:11"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 5500:9500 = 11:19 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 14,
+    "question_code": "FND-T5-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "question_text": "The sale of English newspaper in localities B and D together is approximately what per cent of the sale of English newspaper in localities A, C and E together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "162"
+      },
+      {
+        "label": "b",
+        "text": "84"
+      },
+      {
+        "label": "c",
+        "text": "68"
+      },
+      {
+        "label": "d",
+        "text": "121"
+      },
+      {
+        "label": "e",
+        "text": "147"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total sale of English Newspaper in localities B and D = 9000 + 7000 = 16000 Total sale of English Newspaper in localities A, C and E = 7500 + 9500 + 6500 = 23500 16000 Hence required percentage = × 100 = 68% 23500 Hence option (c) is the answer. 33000",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 15,
+    "question_code": "FND-T5-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/5-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the average sale of Hindi newspapers in all the localities together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "6600"
+      },
+      {
+        "label": "b",
+        "text": "8250"
+      },
+      {
+        "label": "c",
+        "text": "5500"
+      },
+      {
+        "label": "d",
+        "text": "4715"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average sale of Hindi Newspaper = = 6600 5 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 16,
+    "question_code": "FND-T5-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/5-s4.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the total number of males working in all departments together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "755"
+      },
+      {
+        "label": "b",
+        "text": "925"
+      },
+      {
+        "label": "c",
+        "text": "836"
+      },
+      {
+        "label": "d",
+        "text": "784"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of males: 9 HR department S 225 × = 81 25 3 Marketing department = 275 × = 165 5 9 IT department = 200 × = 45 40 2 Finance department = 175 × = 70 5 11 Production department = 375 × = 275 15 4 Merchandising department = 350 × = 200 7 Therefore Total number of males = 81 + 165 + 45 + 70 + 275 + 200 = 836 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 17,
+    "question_code": "FND-T5-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/5-s4.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the number of females working in the HR department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "158"
+      },
+      {
+        "label": "b",
+        "text": "128"
+      },
+      {
+        "label": "c",
+        "text": "136"
+      },
+      {
+        "label": "d",
+        "text": "144"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of females working in the HR department = 16 225 × = 144 25 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 18,
+    "question_code": "FND-T5-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/5-s4.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the respective ratio of total number of employees working in the production department to those working in the Merchandising department?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15 : 14"
+      },
+      {
+        "label": "b",
+        "text": "8 : 7"
+      },
+      {
+        "label": "c",
+        "text": "14 : 15"
+      },
+      {
+        "label": "d",
+        "text": "7 : 8"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 375:350 = 15:14 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 19,
+    "question_code": "FND-T5-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/fnd/5-s4.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which is the department with lowest number of females working?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Marketing"
+      },
+      {
+        "label": "b",
+        "text": "Production"
+      },
+      {
+        "label": "c",
+        "text": "HR"
+      },
+      {
+        "label": "d",
+        "text": "Finance"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of females in different departments: HR department S 225 – 81 = 144 Marketing department S 275 – 165 = 110 IT department S 200–45 = 155 Finance department S 175 – 70 = 105 Production department S 375 – 275 = 100 Merchandising department S 350 – 200 = 150 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 5,
+    "question_number": 20,
+    "question_code": "FND-T5-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t5-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/fnd/5-s4.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the total number of employees from all departments together in the organization?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1500"
+      },
+      {
+        "label": "b",
+        "text": "1575"
+      },
+      {
+        "label": "c",
+        "text": "1525"
+      },
+      {
+        "label": "d",
+        "text": "1625"
+      },
+      {
+        "label": "e",
+        "text": "None of these 1 to 5 Number of people working in night shifts: IT industry S 40250 × 12 100 = 4830 Number of women = 4830 × 20 100 = 966 and no. of men = 4830 – 966 = 3864 Sports industry S 40250 × 18 100 = 7245 Number of women \u0007= 7245 × 20 100 = 1449 and no. of men = 7245 – 1449 = 5796 Call centre S 40250 × 32 100 = 12880 Number of women = 12880 × 45 100 = 5796 and no. of men = 12880 – 5796 = 7084 Sales S 40250 × 8 100 = 3220 Number of women = 3220 × 60 100 = 1932 and no. of men = 3220 – 1932 = 1288 Banking S 40250 × 14 100 = 5635 Number of women = 5635 × 40 100 = 2254 and no. of men = 5635 – 2254 = 3381 Chemical industry S 40250 × 16 100 = 6440 Number of women = 6440 × 15 100 = 966 and no. of men = 6440 – 966 = 5474"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of employees = 225 + 275 + 200 + 175 + 375 + 350 = 1600 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

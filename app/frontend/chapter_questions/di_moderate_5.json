@@ -1,0 +1,494 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 1,
+    "question_code": "MOD-T13-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/13-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "How many states/UTs have shown the same trend of increase or decrease as shown by India across C3 to C8?",
+    "options": [
+      {
+        "label": "a",
+        "text": "6"
+      },
+      {
+        "label": "b",
+        "text": "7"
+      },
+      {
+        "label": "c",
+        "text": "8"
+      },
+      {
+        "label": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nStates that show the same trend are—Uttarakhand, NCT of Delhi, Rajasthan, Uttar Pradesh, Sikkim, Arunachal Pradesh, Nagaland and Manipur = 8 states. Hence option (c) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 2,
+    "question_code": "MOD-T13-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/13-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What percentage of total population of Bihar in 2011 are females?",
+    "options": [
+      {
+        "label": "a",
+        "text": "51.8%"
+      },
+      {
+        "label": "b",
+        "text": "47.8%"
+      },
+      {
+        "label": "c",
+        "text": "49.1%"
+      },
+      {
+        "label": "d",
+        "text": "50.2%"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nFor every 1000 males, there 916 females in Bihar. Using this we can find out the percentage of females in the total population of Bihar. Actual Calculation: 916 Percentage of females = 1916× 100 = 47.8% Approximation Short Cut: Since number of males is more than number of females, hence percentage of males will be more than the percentage of females. So percentage of males > 50% and percentage of females < 50%. Due to this, we can eliminate options (d) and (a). Total population of Bihar = 916 x + 1000 x = 1916 x We are required to calculate: Percentage of females 916 = [ we have removed x from the numerator 1916 and denominator] Knowing the fact that females’ population is less than 50% and the remaining options hovering around 47%-49%, we benchmark the whole data around 50%. 1 50% of 1916 = 2×1916 = 958 Keys",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 3,
+    "question_code": "MOD-T13-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/13-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "What percentage of total population of India in 2001 is of children less than 7 years age?",
+    "options": [
+      {
+        "label": "a",
+        "text": "16.66%"
+      },
+      {
+        "label": "b",
+        "text": "14.28%"
+      },
+      {
+        "label": "c",
+        "text": "11.11%"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nThis is a direct question on Weighted Average concept. We can solve this question using Criss Cross solving method of Alligation: Less than 7 years 7 years and above 927 934 933 Deviations from Mean Value (==933) 1 6 Children of less than 7 years 1 So, = Aged 7 years and above 6 Hence percentage of children of age less than 1 7 years out of total population = 7× 100 = 14.28%. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 4,
+    "question_code": "MOD-T13-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/mod/13-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "For how many states or union territories in 2011, percentage of children aged less than 7 years is at least 50% of the total population of the that state or union territory?",
+    "options": [
+      {
+        "label": "a",
+        "text": "6"
+      },
+      {
+        "label": "b",
+        "text": "7"
+      },
+      {
+        "label": "c",
+        "text": "8"
+      },
+      {
+        "label": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nUsing the method of alligation (as shown in A3), we can simply conclude that: For all the states/UTs, in which value of “child population less than 7 years” is more than the state’s or UT’s value, percentage of “child population less than 7 years” will be 50% or more. Now we just have to see that for how many states/UTs, “child population less than 7 years” is more than the value given for the whole state/ UT. State/UT India/States/Union Territory # Total population (less Col. (1) Column (2) Column (4) 01 Jammu & Kashmir 883 02 Himachal Pradesh 974 03 Punjab 893 04 Chandigarh 818 05 Uttarakhand 963 06 Haryana 877 07 NCT of Delhi 866 08 Rajasthan 926 09 Uttar Pradesh 908 10 Bihar 916 11 Sikkim 889 12 Arunachal Pradesh 920 13 Nagaland 931 14 Manipur 987 15 Mizoram 975 So, the required states/UTs are = Chandigarh, NCT of Delhi (Exactly 50%), Bihar, Sikkim, Arunachal Pradesh, Nagaland = 6 states/UTs. Hence option (a) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 5,
+    "question_code": "MOD-T13-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/mod/13-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the data",
+    "question_text": "For how many years, is it possible to calculate the size of domestic watch market (in ₹)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "1"
+      },
+      {
+        "label": "c",
+        "text": "2"
+      },
+      {
+        "label": "d",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Sales Value = Sales Volume × Average Price per unit Total Market Size = Sales Value of Company X × 100 Market Share (in percentage) of company X Further, Read the solution of 1. Sex ratio (females per 1,000 males) Child population Population (7 years Column (6) > than 7 years) and above) Column (4)? Column (6) Column (8) 859 887 Less 906 983 Less 846 899 Less 867 812 More 886 975 Less 830 885 Less 866 866 Equal 883 935 Less 899 910 Less 933 912 More 944 883 More 960 913 More 944 929 More 934 995 Less 971 976 Less Solution and Explanation for 5 to 8\n\nQuestion is asking for size of domestic market (in ₹). Out of three different data sets given in the question (a pie chart, a line chart and a bar chart), we have Rupees value in only one data set – Bar chart. In pie chart and line chart, we do not have any information in Rupees Terms. So to answer any question in Rupees terms, we need to use Chart 3 - Bar chart. How do we calculate the size of domestic watch market: Chart 1 provides the market share in sales volume in 2010. Chart 2 provides the sales volume of Titan from 2008 to 2012. Using chart 2, Sales volume of Titan in 2010 = 32 million units and using chart 3, average selling price = ₹900/watch. So, total market value for Titan in 2010 = 32 million units × ₹900/watch = ₹X (Assume) [we are not required to calculate this value as question is ONLY asking for the possibility of market size calculation]. Now, using chart 1, market share of Titan is known = 38% = ₹X. Using this, we can calculate 100% = Total Market Size of domestic watch market. Hence it is possible to calculate only for the year 2010. We do not have Average Selling Price of Titan for year other than 2010. So we cannot calculate the domestic market size for any year other than 2010. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 6,
+    "question_code": "MOD-T13-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/mod/13-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the data",
+    "question_text": "Which company has the second lowest sales (in ₹terms) in the year 2010?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Citizen"
+      },
+      {
+        "label": "b",
+        "text": "Rolex"
+      },
+      {
+        "label": "c",
+        "text": "HMT"
+      },
+      {
+        "label": "d",
+        "text": "Timex"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Sales Value = Sales Volume × Average Price per unit Total Market Size = Sales Value of Company X × 100 Market Share (in percentage) of company X Further, Read the solution of 1. Sex ratio (females per 1,000 males) Child population Population (7 years Column (6) > than 7 years) and above) Column (4)? Column (6) Column (8) 859 887 Less 906 983 Less 846 899 Less 867 812 More 886 975 Less 830 885 Less 866 866 Equal 883 935 Less 899 910 Less 933 912 More 944 883 More 960 913 More 944 929 More 934 995 Less 971 976 Less Solution and Explanation for 5 to 8\n\nWe can find our require answer by calculating total sales for each company which is given as Average Price × Percentage of sales. We should focus on HMT, Rolex & Citizen only. As HMT has the lowest sales volume & lowest average price too. So, total sales (in ₹) must be the lowest for HMT. If we multiply the Average Price & Percentage of sales for Rolex & Citizen, we will conclude that sales (in ₹) for Rolex is lower than Citizen. So, Rolex has 2nd lowest sales (in ₹).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 7,
+    "question_code": "MOD-T13-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/mod/13-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the data",
+    "question_text": "Which year saw the lowest growth rate in number of unit sold over the previous year for Titan?",
+    "options": [
+      {
+        "label": "a",
+        "text": "2009"
+      },
+      {
+        "label": "b",
+        "text": "2010"
+      },
+      {
+        "label": "c",
+        "text": "2011"
+      },
+      {
+        "label": "d",
+        "text": "2012"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Sales Value = Sales Volume × Average Price per unit Total Market Size = Sales Value of Company X × 100 Market Share (in percentage) of company X Further, Read the solution of 1. Sex ratio (females per 1,000 males) Child population Population (7 years Column (6) > than 7 years) and above) Column (4)? Column (6) Column (8) 859 887 Less 906 983 Less 846 899 Less 867 812 More 886 975 Less 830 885 Less 866 866 Equal 883 935 Less 899 910 Less 933 912 More 944 883 More 960 913 More 944 929 More 934 995 Less 971 976 Less Solution and Explanation for 5 to 8\n\nNow this is a no-brainer. You just have to calculate the percentage growth in the number of units sold of Titan. 2012 saw the minimum growth rate = 4.6%. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 8,
+    "question_code": "MOD-T13-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/mod/13-s2.png)",
+    "directions": "Directions for questions 5 to 8: Go through the data",
+    "question_text": "What is the size of the domestic market in the year 2010 (in ₹)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹757 crores"
+      },
+      {
+        "label": "b",
+        "text": "₹7578 crores"
+      },
+      {
+        "label": "c",
+        "text": "₹75789 crores"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Sales Value = Sales Volume × Average Price per unit Total Market Size = Sales Value of Company X × 100 Market Share (in percentage) of company X Further, Read the solution of 1. Sex ratio (females per 1,000 males) Child population Population (7 years Column (6) > than 7 years) and above) Column (4)? Column (6) Column (8) 859 887 Less 906 983 Less 846 899 Less 867 812 More 886 975 Less 830 885 Less 866 866 Equal 883 935 Less 899 910 Less 933 912 More 944 883 More 960 913 More 944 929 More 934 995 Less 971 976 Less Solution and Explanation for 5 to 8\n\nUsing the data from A1, So, total market value for Titan in 2010 = 32 million units × ₹900/watch = ₹28800 million Titan has a market share of 38% in 2010. Hence 38% = ₹28800 million 1100% = ₹75789.47 million = ₹7578.9 Crores. Hence option (b) is the answer. Solution and Explanation for 9 to 11 Following is the requirements at different cities: 400 Vaishali 400 Jyotishmati Panchal Avanti 700 Vidisha 200 Total requirement of Jyotishmati + Panchal = 700 + 400 = 1100. Out of this, 300 comes through Vaishali – Jyotishmati pipeline. So remaining 800 shall come through Vidisha – Jyotishmati pipeline. Now, requirement at Vidisha = 200. Hence Avanti Vidisha pipeline shall carry 200 (Requirement at Vidisha) + 800 (to be sent further to Jyotishmati) = 1000 So, this is the final situation: 400 Vaishali 400 Jyotishmati Panchal 300 Avanti 700 400 + 300 = 700 1000 1000 Vidisha 200 Now all the questions can be answered.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 9,
+    "question_code": "MOD-T13-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/mod/13-s3.png)",
+    "directions": "Directions for questions 9 to 11: Read the passage",
+    "question_text": "What is the free capacity in the Avanti – Vidisha pipeline?",
+    "options": [
+      {
+        "label": "a",
+        "text": "300"
+      },
+      {
+        "label": "b",
+        "text": "200"
+      },
+      {
+        "label": "c",
+        "text": "100"
+      },
+      {
+        "label": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each pipeline can carry a maximum of 1000. Since Avanti-Vidisha pipeline carries 1000, free capacity in Avanti-Vidisha is zero. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 10,
+    "question_code": "MOD-T13-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/mod/13-s3.png)",
+    "directions": "Directions for questions 9 to 11: Read the passage",
+    "question_text": "What is the free capacity in the Avanti – Vaishali pipeline?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "100"
+      },
+      {
+        "label": "c",
+        "text": "200"
+      },
+      {
+        "label": "d",
+        "text": "300"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total free capacity at Avanti-Vaishali pipeline is 300. Capacity of each pipeline is 1000 and demand at Vidisha is 400 and 300 flows to Jyotishamti. So, free capacity = {1000 – (400 + 300)}= 300. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 11,
+    "question_code": "MOD-T13-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/mod/13-s3.png)",
+    "directions": "Directions for questions 9 to 11: Read the passage",
+    "question_text": "What is the quantity moved from Avanti to Vidisha?",
+    "options": [
+      {
+        "label": "a",
+        "text": "200"
+      },
+      {
+        "label": "b",
+        "text": "800"
+      },
+      {
+        "label": "c",
+        "text": "700"
+      },
+      {
+        "label": "d",
+        "text": "1000"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Quantity flowed from Avanti to Vidisha = 200 + 100 + 700 = 1000. Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 13,
+    "question_number": 2,
+    "question_code": "MOD-T13-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t13-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/mod/13-s3.png)",
+    "directions": "Directions for questions 9 to 11: Read the passage",
+    "question_text": "For every 1000 males, there 916 females in Bihar. Using this we can find out the percentage of females in the total population of Bihar. Actual Calculation: Percentage of females = 916 100 1916× = 47.8% Approximation Short Cut: \u0007Since number of males is more than number of females, hence percentage of males will be more than the percentage of females. So percentage of males > 50% and percentage of females < 50%. Due to this, we can eliminate options (d) and (a). \u0007Total population of Bihar = 916 x + 1000 x = 1916 x \u0007We are required to calculate: Percentage of females = 916 1916 [ we have removed x from the numerator and denominator] \u0007Knowing the fact that females’ population is less than 50% and the remaining options hovering around 47%-49%, we benchmark the whole data around 50%. \u000750% of 1916 = 1 2×1916 = 958 42 less than 958 916 958 1916 100% 42 50% 0% 0 1% of 1916 = 19.16 = Approx. 20 \u0007So, 42 is approx. 2.1% of 1916. Hence 916 is 2.1% less than 50% = 47.9%. Closest option is option",
+    "options": [
+      {
+        "label": "a",
+        "text": "47.9%. Hence option (b) is the answer."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Table presents the population data of Indian and 15 states/UTs for two years—2001 and 2011. Further, table also gives the sex ratio of these states under two headings—Age less than 7 years and 7 years and above. Since a unified data is also given, this gives rise to the case of weighted average. Solution and Explanation for 1 to 4\n\nFor every 1000 males, there 916 females in Bihar. Using this we can find out the percentage of females in the total population of Bihar. Actual Calculation: 916 Percentage of females = 1916× 100 = 47.8% Approximation Short Cut: Since number of males is more than number of females, hence percentage of males will be more than the percentage of females. So percentage of males > 50% and percentage of females < 50%. Due to this, we can eliminate options (d) and (a). Total population of Bihar = 916 x + 1000 x = 1916 x We are required to calculate: Percentage of females 916 = [ we have removed x from the numerator 1916 and denominator] Knowing the fact that females’ population is less than 50% and the remaining options hovering around 47%-49%, we benchmark the whole data around 50%. 1 50% of 1916 = 2×1916 = 958 Keys",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  }
+]

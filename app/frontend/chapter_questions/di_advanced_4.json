@@ -1,0 +1,1204 @@
+[
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 1,
+    "question_code": "ADV-T23-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 1,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "Which country has shown the maximum percentage change in FEII in 1998 relative to 1997?",
+    "options": [
+      {
+        "label": "a",
+        "text": "India"
+      },
+      {
+        "label": "b",
+        "text": "China"
+      },
+      {
+        "label": "c",
+        "text": "Korea"
+      },
+      {
+        "label": "d",
+        "text": "Malaysia"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Who among the following did not get out for the maximum total innings played? (a) Yuvraj (b) Sachin (c) Kapil (d) Sehwag",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 2,
+    "question_code": "ADV-T23-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 2,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "If China’s FEI is 10 times that of India in the year 1998, which of the following is true for 1998?",
+    "options": [
+      {
+        "label": "a",
+        "text": "China’s GDP is 70% more than India’s GDP"
+      },
+      {
+        "label": "b",
+        "text": "China’s GDP is 40% more than India’s GDP"
+      },
+      {
+        "label": "c",
+        "text": "China’s GDP is 50% more than India’s GDP"
+      },
+      {
+        "label": "d",
+        "text": "Nothing can be inferred"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "To reflect the performance of the players better, it was would be calculated on the basis of the total innings see the maximum change due to this? (a) Yuvraj (b) Sachin (c) Kapil (d) Sehwag Data and solve the questions Internationals of few of Scored Average 1800 40 2034 45.2 1679 36.5 1539 40.5 1806 51.6 1445 42.5 scored by the total number amount of time in the decided that the average played. Whose average will",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 3,
+    "question_code": "ADV-T23-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 3,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "If the GDP of India increased by 5%, GDP of China increased by 7% and that of Korea decreased by 2% 1997 to 1998, which of the following is/are true? I FEI to China was higher in 1998 than in 1997 II. FEI to China was lower in 1998 than in 1997 III. India’s FEI has increased from 1997 to 1998 IV. FEI to Korea was lower in 1998 than in 1997 V. Korea’s FEI has increased in 1998 from 1997",
+    "options": [
+      {
+        "label": "a",
+        "text": "I and III"
+      },
+      {
+        "label": "b",
+        "text": "II and V"
+      },
+      {
+        "label": "c",
+        "text": "II, III and V"
+      },
+      {
+        "label": "d",
+        "text": "All of the above"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "How many of the batsmen got out in all the innings (a) 0 (b) 1 (c) 2 (d) Cannot be determined",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 4,
+    "question_code": "ADV-T23-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 4,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "Which of the following can be inferred from the given data?",
+    "options": [
+      {
+        "label": "a",
+        "text": "China’s GDP is more than India’s GDP"
+      },
+      {
+        "label": "b",
+        "text": "China’s GDP is less than India’s GDP"
+      },
+      {
+        "label": "c",
+        "text": "India’s GDP is less than Malaysia’s GDP"
+      },
+      {
+        "label": "d",
+        "text": "Nothing can be deduced"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "To reflect the performance of the players better, it was would be calculated on the basis of the total matches see the minimum change due to this? (a) Yuvraj (b) Sachin (c) Kapil (d) Sehwag Directions for questions 5 to 10: Refer to the following questions based on it. The bar chart given below represents the performance of two studying three different subjects with different groups of the teachers are 1, 2, 3 with 1 being the lowest and 3 being The bar chart also represents the percentage marks three subjects. Each subject carries 100 marks. Students each subject. For example, if A studies all the three subjects so that all the three teachers have 1 rating (low rating); the total marks of the three subjects.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 5,
+    "question_code": "ADV-T23-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 5,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "For how many countries has the FEI increased from 1997 to 1998?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1"
+      },
+      {
+        "label": "b",
+        "text": "2"
+      },
+      {
+        "label": "c",
+        "text": "3"
+      },
+      {
+        "label": "d",
+        "text": "Indeterminate Directions for questions 6 to10: Refer to the following data-set and solve the questions based on it. The following graph represents the variables, cost of widgets as a function of quality produced. The cost of production has two components, variable cost which is given in the graph, and fixed cost, which is ₹800 for the first shift in which 30 widgets can be produced. If production required is more than 30 then a second shift, which can produce 30 widgets, is started and the fixed cost of the second shift is ₹1200. Average cost = Total cost/Total number of the widgets Marginal cost = Change in total cost/Change in number of widgets produced. One may assume the variable cost of production to behave linearly between two consecutive points of production shown in the graph."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "What would be the change in the total marks obtained compare the combination 1-1-1 and 1-1-3? (a) 32 (b) 42 (c) 62 (d) Cannot be determined",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 6,
+    "question_code": "ADV-T23-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 6,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "What is the appropriate average cost of a widget for a production of 40 widgets?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹110"
+      },
+      {
+        "label": "b",
+        "text": "₹140"
+      },
+      {
+        "label": "c",
+        "text": "₹360"
+      },
+      {
+        "label": "d",
+        "text": "₹180"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "What is the percentage change in the total marks obtained compare the combination 1-1-3 and 2-2-2? (a) 15% (b) 16% (c) 17% (d) 18%",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 7,
+    "question_code": "ADV-T23-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 7,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "If the number of widgets to be produced increases from 40 to 41, what is the approximate marginal cost?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹110"
+      },
+      {
+        "label": "b",
+        "text": "₹135"
+      },
+      {
+        "label": "c",
+        "text": "₹175"
+      },
+      {
+        "label": "d",
+        "text": "₹200"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "What can be the maximum marks obtained by student A with the combination of teachers being 1-1-3? Mastering Data Interpretation 2.185 played? decided that the average played. Whose average will chart and solve the students A and B while teachers. Ratings given to the highest. obtained by A and B in always get integral marks in from a group of teachers then he gets 50% marks of by student A when we by student B when we in any of the three subjects",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 8,
+    "question_code": "ADV-T23-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 8,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "What is the approximate total cost of production for 50 widgets?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹5100"
+      },
+      {
+        "label": "b",
+        "text": "₹7000"
+      },
+      {
+        "label": "c",
+        "text": "₹6250"
+      },
+      {
+        "label": "d",
+        "text": "₹6000"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For production of 50 widgets, Fixed Cost FC = ₹2000 Variable Cost VC ≈ ₹5000 So, total cost ≈ ₹7000.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 9,
+    "question_code": "ADV-T23-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 9,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "If each widgets/produced is sold for ₹150, how many widgets give the maximum profit per widget produced amongst the following options? Assume that Profit = Sales revenue – Total cost of production",
+    "options": [
+      {
+        "label": "a",
+        "text": "30"
+      },
+      {
+        "label": "b",
+        "text": "15"
+      },
+      {
+        "label": "c",
+        "text": "25"
+      },
+      {
+        "label": "d",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Production 30 25 60 15 FC 800 800 1200 800 VC 2400 1800 6650 940 Total cost 3200 2600 7850 1740 Revenue 4500 3750 9000 2250 Profit 1300 1150 1150 510 Profit/Widget 43.3 46 19.2 34 So, maximum profit per widget produced is for the production of 25 widgets. You may note that the profit is maximum when the average cost is minimum (since the revenue per widget is fixed).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 10,
+    "question_code": "ADV-T23-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 10,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "For a production of less than 60, which of the following is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "the average cost increases consistently"
+      },
+      {
+        "label": "b",
+        "text": "the average cost decreases consistently"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For the first 30 units, fixed cost = ₹800 The average cost will decrease till marginal cost < 800/30 = ₹26.67. you may note from the above question that the average cost decreases to a minimum for a production of 25 and then increases again.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 2,
+    "question_code": "ADV-T23-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1",
+    "set_position": 11,
+    "context_passage": "The following graph gives the data on the foreign equity inflow index (FEII) for five countries during 1997 and 1998. FEII is taken as the ratio of the foreign equity inflow (FEI) to the country’s GDP. FEII is expressed as percentage in the graph.",
+    "directions": "Directions for questions 1 to 5: Refer to the following",
+    "question_text": "178 Data Interpretation \b",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007the average cost decreases to a minimum and then increases"
+      },
+      {
+        "label": "b",
+        "text": "\u0007the average cost increases to a maximum then decreases"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "To reflect the performance of the players better, it was would be calculated on the basis of the total innings see the maximum change due to this? (a) Yuvraj (b) Sachin (c) Kapil (d) Sehwag Data and solve the questions Internationals of few of Scored Average 1800 40 2034 45.2 1679 36.5 1539 40.5 1806 51.6 1445 42.5 scored by the total number amount of time in the decided that the average played. Whose average will",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 11,
+    "question_code": "ADV-T23-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "What was the average annual growth rate in production for all four sectors combined between 1989 and 1998?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1.2%"
+      },
+      {
+        "label": "b",
+        "text": "6%"
+      },
+      {
+        "label": "c",
+        "text": "56.6%"
+      },
+      {
+        "label": "d",
+        "text": "104%"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "You may note that apart from a few years for manufacturing and mining and quarrying, the annual growth rates in most years have been positive and near the 5%–6% mark for all the sectors. The other options (a), (c), and (d) are too far away to be considered. Alternatively, for ease of calculation take the 1989 values for Manufacturing as 400, mining and Quarrying and Electricity as 300 each and Chemicals as 200. then, the final value for manufacturing would be nearly 580; for Mining and Quarrying would be about 365; for Electricity would be around 550; and for chemicals would be around 335. 1 Initial value of production = 400 + 300 + 300 + 200 = 1200 Final value of production = 580 + 365 + 550 + 335 = 1830 1 Overall % increase ≈ 52.5% 1 Average annual growth = 52.5/9 = 5.85%",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 12,
+    "question_code": "ADV-T23-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "During the given period, when was the maximum production level in the electricity sector achieved?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1989"
+      },
+      {
+        "label": "b",
+        "text": "1993"
+      },
+      {
+        "label": "c",
+        "text": "1995"
+      },
+      {
+        "label": "d",
+        "text": "1998"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity production has increased throughout (as growth rates are positive throughout) and the maximum production would be achieved in the last year, i.e., 1998.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 13,
+    "question_code": "ADV-T23-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "During the given period, when was the minimum production level in the manufacturing sector achieved?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1989"
+      },
+      {
+        "label": "b",
+        "text": "1990"
+      },
+      {
+        "label": "c",
+        "text": "1993"
+      },
+      {
+        "label": "d",
+        "text": "1998"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The production for manufacturing can be minimum either in 1989 or in 1992 (when the growth rate is negative). If manufacturing started with a production of 100 in 1989, then production in 1992 will be 100 x 1.04 x",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 14,
+    "question_code": "ADV-T23-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "For the given period, which sector showed the highest growth rate?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Electricity"
+      },
+      {
+        "label": "b",
+        "text": "Manufacturing"
+      },
+      {
+        "label": "c",
+        "text": "Chemical"
+      },
+      {
+        "label": "d",
+        "text": "Mining and Quarrying \b"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity has shown the highest growth rate in all the years and therefore, would have the highest growth rate for the entire period.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 15,
+    "question_code": "ADV-T23-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "In 1992, the index for the Chemical sector as compared to the index for the Electricity sector was",
+    "options": [
+      {
+        "label": "a",
+        "text": "greater by 6"
+      },
+      {
+        "label": "b",
+        "text": "less by 5"
+      },
+      {
+        "label": "c",
+        "text": "greater by 20"
+      },
+      {
+        "label": "d",
+        "text": "less by 20"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity in 1992: 100 × 1.05 × 1.07 × 1.08 = 121.4 Chemicals in 1992: 100 × 1.07 × 1.03 × 1.06 = 116.8 1In 1992, the index of Chemicals is less than that of Electricity by approximately 5.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 16,
+    "question_code": "ADV-T23-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 6,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "By what percentage was the output of the Manufacturing sector more than that of the Chemical sector in 1991?",
+    "options": [
+      {
+        "label": "a",
+        "text": "84%"
+      },
+      {
+        "label": "b",
+        "text": "91%"
+      },
+      {
+        "label": "c",
+        "text": "98%"
+      },
+      {
+        "label": "d",
+        "text": "Indeterminate"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let manufacturing in 1989 = 200 and Chemicals in 1989 = 100 1Manufacturing in 1991: 200 × 1.04 × 1.01 = 210 and Chemicals in 1991: 100 × 1.07 × 1.03 = 110 210 - 110 Required % = * 100 = 90 . 91 % 110",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 17,
+    "question_code": "ADV-T23-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s2",
+    "set_position": 7,
+    "context_passage": "![data set 2](/di/adv/23-s2.png)",
+    "directions": "Directions for questions 11 to 17: Refer to the",
+    "question_text": "When did the maximum percentage change in the production levels of the Mining and Quarrying sector take place?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1993-1994"
+      },
+      {
+        "label": "b",
+        "text": "1992-1993"
+      },
+      {
+        "label": "c",
+        "text": "1996-1997"
+      },
+      {
+        "label": "d",
+        "text": "1997-1998"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "As can be seen directly from the graph, the highest increase (that of 8%) for Mining and Quarrying was in the year 1998, relative to 1997.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 18,
+    "question_code": "ADV-T23-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/adv/23-s3.png)",
+    "directions": "Directions for questions 18 to 22: Refer to the",
+    "question_text": "In which years did the hardware exports lie between 35%-40% of the total revenues for Phistream?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1997-1998, 1998-1999"
+      },
+      {
+        "label": "b",
+        "text": "1998-1999, 1995-1996"
+      },
+      {
+        "label": "c",
+        "text": "1997-1998, 1994-1995"
+      },
+      {
+        "label": "d",
+        "text": "1995-1996, 1996-1997"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Hardware exports as a percentage of total revenues for corresponding years are: 540 1994 - 1995 : * 100 6 33 % 2048 600 1995 - 1996 : * 100 6 33 % 2126 730 1996 - 1997 : * 100 6 33 % 2500 1770 1997 - 1998 : * 100 = 35 . 06 % 5048 1827 1998 - 1999 : * 100 = 37 . 7 % 4847 So, hardware exports lie between 35%–40% of total revenue in the last 2 years.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 19,
+    "question_code": "ADV-T23-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/adv/23-s3.png)",
+    "directions": "Directions for questions 18 to 22: Refer to the",
+    "question_text": "Which of the following is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007The revenues from training consistently increased over the given period"
+      },
+      {
+        "label": "b",
+        "text": "\u0007Hardware exports consistently increased over the given period"
+      },
+      {
+        "label": "c",
+        "text": "\u0007Software exports consistently increased over the given period"
+      },
+      {
+        "label": "d",
+        "text": "none of the above"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Checking the values from the tables, you can verify that option (b) is true.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 20,
+    "question_code": "ADV-T23-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/adv/23-s3.png)",
+    "directions": "Directions for questions 18 to 22: Refer to the",
+    "question_text": "For how many years during the given period , was the total revenue from Training and maintenance less than 10% of the total revenue for the corresponding years?",
+    "options": [
+      {
+        "label": "a",
+        "text": "2"
+      },
+      {
+        "label": "b",
+        "text": "3"
+      },
+      {
+        "label": "c",
+        "text": "4"
+      },
+      {
+        "label": "d",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The combined revenue from training and maintenance is never greater than 10% of total revenue for the corresponding year throughout the given period.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 21,
+    "question_code": "ADV-T23-Q21",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/adv/23-s3.png)",
+    "directions": "Directions for questions 18 to 22: Refer to the",
+    "question_text": "In which of the following years was the revenue from the hardware business more than 50% of that from the software business?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1994-1995"
+      },
+      {
+        "label": "b",
+        "text": "1995-1996, 1996-1997"
+      },
+      {
+        "label": "c",
+        "text": "1997-1998, 1994-1995"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Year 50% of software Hardware Revenue Revenue 1994-95 1242 × 0.5=621 608 1995-96 1327 × 0.5=663 654 1996-97 1484 × 0.5=744 782 1997-98 2820 × 0.5=1410 1836 1998-99 2637 × 0.5=1318 1862 1 Hardware business provides revenues> 50% of the revenue from software business in 1996-1997, 1997-1998 and 1998-1999.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 22,
+    "question_code": "ADV-T23-Q22",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/adv/23-s3.png)",
+    "directions": "Directions for questions 18 to 22: Refer to the",
+    "question_text": "If in 1999-2000, the total revenue earned by Phistream decreases by 5% from the previous year but the revenue from software increases to ₹2437 crores; then what is the approximate percentage decrease in the combined revenue from the rest of the heads(excepting software) in 1999-2000?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1.0%"
+      },
+      {
+        "label": "b",
+        "text": "1.8%"
+      },
+      {
+        "label": "c",
+        "text": "2.1%"
+      },
+      {
+        "label": "d",
+        "text": "3.3%"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In 1999-2000: Total revenue = 0.95 × 4847 = 4600 Software revenue = 2437 Remaining revenue = 4600- 2437 = 2163 In 1998-1999, revenue from heads other than software = 4847 – 2637 = 2210 % decrease = 2210 – 2163 × 100 = 2.12% 2210",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 23,
+    "question_code": "ADV-T23-Q23",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "If the total work force was 76 million, whereas the total values added were 225 million, then which of the following had the maximum value addition per worker?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Central"
+      },
+      {
+        "label": "b",
+        "text": "State"
+      },
+      {
+        "label": "c",
+        "text": "Central/State"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Values added per worker for various sectors will be proportional to the following ratios: Central 10/6 State 3/6 Central/state 12/3 Public 8/8",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 24,
+    "question_code": "ADV-T23-Q24",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "Which of the following sectors has the maximum fixed capital invested per factory?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Central"
+      },
+      {
+        "label": "b",
+        "text": "State"
+      },
+      {
+        "label": "c",
+        "text": "Central/State"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Fixed capital per factory will be proportional to the following ratios: Central 5/8 State 4/4 Central/state 5/6 Public 6/12",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 25,
+    "question_code": "ADV-T23-Q25",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "If the variable is proportional to the number of employees and the production per employee, then for which of the following is the production highest?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Government"
+      },
+      {
+        "label": "b",
+        "text": "Private"
+      },
+      {
+        "label": "c",
+        "text": "Joint"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If the variable is proportional to the number of employees and the production per employees, then we can say that the variable cost is directly proportional to the production. Since the variable cost is maximum for the private sector, it will also have the maximum production.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 26,
+    "question_code": "ADV-T23-Q26",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "If the government has a fixed capital of $ 200 million in the Iron and Steel industry, which corresponds to 20.012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector ? (1US $ = ₹45)",
+    "options": [
+      {
+        "label": "a",
+        "text": "6500"
+      },
+      {
+        "label": "b",
+        "text": "2500"
+      },
+      {
+        "label": "c",
+        "text": "143"
+      },
+      {
+        "label": "d",
+        "text": "145"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If 20% of the government fixed capital is equal to $ 200 million 1Total governtment sector fixed capital = $ 1000 million which is equivalent to 14% of the total fixed capital. Now, 25% of government investment in joint sector i.e., 25% of the 8% of the total = 2% of total fixed capital will be given by: (1000 × 2) /14 = $ 143 million Value in ₹is given by: 143 × 45 = ₹6450 million ≈ ₹6500 million",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 27,
+    "question_code": "ADV-T23-Q27",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "Maruti Udyog Ltd is a joint project of the Indian Government and Suzuki Motors, Japan; each having equal stake. One fine day, the Indian government decides to disinvest from the venture due to losses occurring from labour problems. How much money will be disinvested?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹246 million"
+      },
+      {
+        "label": "b",
+        "text": "₹6500 million"
+      },
+      {
+        "label": "c",
+        "text": "$ 246 million"
+      },
+      {
+        "label": "d",
+        "text": "$ 6500 million"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the above answer the money disinvested will be ₹6450 million.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 28,
+    "question_code": "ADV-T23-Q28",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s4",
+    "set_position": 6,
+    "context_passage": "![data set 4](/di/adv/23-s4.png)",
+    "directions": "Directions for questions 23 to 28: Refer to the",
+    "question_text": "Which of the following statements is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007The number of government employees is more than the number of factories in the joint sector"
+      },
+      {
+        "label": "b",
+        "text": "\u0007The number of employees in the public sector is the same as the fixed capital of the joint sector"
+      },
+      {
+        "label": "c",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "label": "d",
+        "text": "Cannot say"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Neither of the statements (a) or (b) can be inferred, as we know only the percentages and not the actual values of the employees, factories or fixed capital. 23 Mastering Interpretation Directions for questions 1 to 4: Refer to the following chart based on it. The following table gives the career record in the One-Day the Indian batsmen: Name Matches Played Innings Played Runs Yuvraj 50 48 Sachin 50 50 Kapil 46 46 Saurav 44 44 Rahul 40 38 Sehwag 42 40 The average is calculated by dividing the total runs of matches in which the batsman got out.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

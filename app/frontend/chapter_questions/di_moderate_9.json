@@ -1,0 +1,422 @@
+[
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 1,
+    "question_code": "MOD-T17-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/17-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "If the population density of wild animals in Russia is 1, then what is the combined population density of (Africa and North & South America)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0.79"
+      },
+      {
+        "label": "b",
+        "text": "0.84"
+      },
+      {
+        "label": "c",
+        "text": "0.88"
+      },
+      {
+        "label": "d",
+        "text": "0.94"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nThis is a straight forward question. We need to add the percentage of animals and divide it by summation of percentage of land area under forest cover. 20 + 15 Required population density = = 0.88. 22 + 18 Hence, option (c) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 2,
+    "question_code": "MOD-T17-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/17-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which among the following has the fourth highest population density of wild animals?",
+    "options": [
+      {
+        "label": "a",
+        "text": "A5"
+      },
+      {
+        "label": "b",
+        "text": "A7"
+      },
+      {
+        "label": "c",
+        "text": "A3"
+      },
+      {
+        "label": "d",
+        "text": "A2"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nIf the question would have asked us ‘maximum’ or ‘minimum’, we could have solved it through process",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 3,
+    "question_code": "MOD-T17-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/17-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "Population density of wild animals in Europe is how many times that of the population density of wild animals in Russia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1.375"
+      },
+      {
+        "label": "b",
+        "text": "1.49"
+      },
+      {
+        "label": "c",
+        "text": "1.57"
+      },
+      {
+        "label": "d",
+        "text": "1.64"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nThis is simple calculation. Population density of Russia = 1 while population density of Europe = 1.375. Hence, option (a) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 4,
+    "question_code": "MOD-T17-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/mod/17-s1.png)",
+    "directions": "Directions for questions 1 to 4: Go through the data set given below and solve the questions based on it.",
+    "question_text": "If in the next 10 years, the population of wild animals in Antarctica will increase by 2.5% more than that in the rest of the world, what will be the percentage population of wild animals in Antarctica after 10 years?",
+    "options": [
+      {
+        "label": "a",
+        "text": "9.5%"
+      },
+      {
+        "label": "b",
+        "text": "11.6%"
+      },
+      {
+        "label": "c",
+        "text": "15.7%"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Pie charts given in the question present two different data for seven regions namely A1 to A7. Left hand piechart presents the population distribution of wild animals in seven regions whereas right hand pie chart presents the land under forest cover distribution in seven regions. Population density Percentage Number of Animals = Percentage Land Area Under Forest Cover\n\nAs the increase in the population of the rest of the world is not known, we cannot determine the increase in Antarctica’s wild life population. Hence, option (d) is the answer. Mak Julie Hemant Mohit Kajal Prince 1 6 3 7 9 5",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 5,
+    "question_code": "MOD-T17-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "What is the number of chocolate’s eaten by Mohit?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3"
+      },
+      {
+        "label": "b",
+        "text": "7"
+      },
+      {
+        "label": "c",
+        "text": "5"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolates eaten by Mohit = 7. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 6,
+    "question_code": "MOD-T17-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "What is the number of chocolate’s eaten by Kajal as a percentage of the number of chocolates eaten by Prince?",
+    "options": [
+      {
+        "label": "a",
+        "text": "60%"
+      },
+      {
+        "label": "b",
+        "text": "55.55%"
+      },
+      {
+        "label": "c",
+        "text": "80%"
+      },
+      {
+        "label": "d",
+        "text": "180%"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolates eaten by Kajal = 9 and number of chocolates eaten by Prince = 5. Hence number of chocolates eaten by Kajal as a percentage of the 9 number of chocolates eaten by Prince = 5× 100 = 180%. Hence, option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 7,
+    "question_code": "MOD-T17-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "For how many out of 10 persons mentioned in this dataset, number of chocolates eaten cannot be determined?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "1"
+      },
+      {
+        "label": "c",
+        "text": "2"
+      },
+      {
+        "label": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nAs given in the above table, it can be calculated for all of them. Hence option (a) is the answer. Explanations of elimination. Since question asks us to evaluate “fourth highest population density”, it is better that we calculate the density for each of the regions and identify the fourth highest. The population densities of the areas are: A1 = 1.266 A2 = 0.928 A3 = 0.909 A4 = 1.375 A5 = 1 A6 = 0.833 A7 = 0.89 Alternatively, we can use some guesstimation skills to shorten the calculation process: Three regions – namely A1, A4 and A5 are clearly greater than or equal to 1. So, fourth highest is a value closest AND lower than 1. Hence, option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 8,
+    "question_code": "MOD-T17-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "Which of the following statement is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007Manoj ate more number of chocolates than Deepak."
+      },
+      {
+        "label": "b",
+        "text": "\u0007Combined number of chocolates of Sonu and Manoj is equal to the number of chocolates eaten by Deepak."
+      },
+      {
+        "label": "c",
+        "text": "\u0007Combined number of chocolates of Hemant and Kajal is equal to number of chocolates eaten by Julie."
+      },
+      {
+        "label": "d",
+        "text": "All are true"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nIt can be seen that only option (a) is true.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 9,
+    "question_code": "MOD-T17-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "Number of chocolate’s eaten by Sonu and Manoj together equals to which of the following?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Kajal and Hemant together"
+      },
+      {
+        "label": "b",
+        "text": "Deepak and Naveen together"
+      },
+      {
+        "label": "c",
+        "text": "Twice the number of Julie’s"
+      },
+      {
+        "label": "d",
+        "text": "All are true"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of Chocolates eaten by all of them is following: Name Deepak Sonu Manoj Naveen No. 2 4 8 10\n\nNumber of chocolate’s eaten by Sonu and Manoj together = 12, which is equal to the number calculated in options (a), (b) and (c). Hence option (d) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 17,
+    "question_number": 10,
+    "question_code": "MOD-T17-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t17-s2",
+    "set_position": 6,
+    "context_passage": "![data set 2](/di/mod/17-s2.png)",
+    "directions": "Directions for questions 5 to 9: Go through the data",
+    "question_text": "A husband and wife have a combined age of 91 years. The husband is now twice as old as his wife was when he was as old as she is now. What is the difference between husband’s age and wife’s age?",
+    "options": [
+      {
+        "label": "a",
+        "text": "12"
+      },
+      {
+        "label": "b",
+        "text": "13"
+      },
+      {
+        "label": "c",
+        "text": "14"
+      },
+      {
+        "label": "d",
+        "text": "11"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Husband’s age = 52 years and wife’s age = 39 years. Hence difference in between their ages = 13 years. Hence option (b) is the answer.",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

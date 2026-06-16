@@ -1,0 +1,1052 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 1,
+    "question_code": "FND-T2-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/2-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "Which country has shown the maximum percentage change in FEII in 1998 relative to 1997?",
+    "options": [
+      {
+        "label": "a",
+        "text": "India"
+      },
+      {
+        "label": "b",
+        "text": "China"
+      },
+      {
+        "label": "c",
+        "text": "Korea"
+      },
+      {
+        "label": "d",
+        "text": "Malaysia"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "71",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 2,
+    "question_code": "FND-T2-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/2-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "IF China’s FEI is 10 times that of India in the year 1998, which of the following is true for 1998?",
+    "options": [
+      {
+        "label": "a",
+        "text": "China’s GDP is 70% more then India."
+      },
+      {
+        "label": "b",
+        "text": "China’s GDP is 40% more than India."
+      },
+      {
+        "label": "c",
+        "text": "China’s GDP is 50% more than India."
+      },
+      {
+        "label": "d",
+        "text": "Nothing can be inferred."
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For the year 1998 FEIH For China, China = 0.048 ………..(1) GDP China FEIH For India, India = 0.0072 ………..(2) GDP India FEI China = 10 FEI India on dividing (1) by (2): GDP 0.048 20 China ×10 = = GDP 0.0072 3 India GDP 3 1 China = = 1.5 GDP 2 India So percentage difference between china’s GDP and India’s GDP = 50% (a) Profitability is non-increasing during the five years from 1994–95 to 1998–99. (b) Profitability is non–decreasing during the five years from 1994–95 to 1998–99. (c) Profitability remained constant during the five years from 1994–95 to 1998–99 (d) None of above. Keys",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 3,
+    "question_code": "FND-T2-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/2-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "If GDP of India increased by 5%, GDP of China increased by 7% and that of Korea decreased by 2% from year 1997 to 1998, which of the following is/are true? I. FEI to china was higher in 1998 than in 1997. II. FEI to china was lower in 1998 than in 1997. III. India’s FEI has increases from 1997 to 1998. IV. FEI to Korea was lower in 1998 than in 1997. V. Korea’s FEI has increased in 1998 from 1997.",
+    "options": [
+      {
+        "label": "a",
+        "text": "I and III"
+      },
+      {
+        "label": "b",
+        "text": "II and V"
+      },
+      {
+        "label": "c",
+        "text": "II, III and V"
+      },
+      {
+        "label": "d",
+        "text": "All of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Since the comparisons are for the same country in each case, assume the GDP as 100 in 1997 in all cases. So, GDP of China, India and Korea in 1998 is 105,107 and 98 respectively. FEI FEII ×GDP 1998 = 1998 1998 FEI FEII ×GDP 1997 1997 1997 FEI 4.8×107 For China: 1998 = < 1 FEI 5.46×100 1997 FEI 0.72×105 For India: 1998 = < 1 FEI 1.71×100 1997 FEI 3.12×98 For Korea: 1998 = < 1 FEI 2.8×100 1997 So, II and V are correct.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 4,
+    "question_code": "FND-T2-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/2-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "Which of the following can be inferred from the given data?",
+    "options": [
+      {
+        "label": "a",
+        "text": "China’s GDP is more than India."
+      },
+      {
+        "label": "b",
+        "text": "China’s GDP is less than India"
+      },
+      {
+        "label": "c",
+        "text": "India’s GDP is less than Malaysia"
+      },
+      {
+        "label": "d",
+        "text": "Nothing can be deduced"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It can be seen that all the values (FEII) are expressed as a ratio of FEI to GDP, the absolute values of GDP cannot be determined.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 5,
+    "question_code": "FND-T2-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/2-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "In how many countries has the FEI increased from 1997 to 1998?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1"
+      },
+      {
+        "label": "b",
+        "text": "2"
+      },
+      {
+        "label": "c",
+        "text": "3"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Since only the ratios of GDP and FEI are known, the increase in one independent of other cannot be determined.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 6,
+    "question_code": "FND-T2-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "What was the average annual growth rate in production for all four sectors combined between 89 and 98?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1.2%"
+      },
+      {
+        "label": "b",
+        "text": "6%"
+      },
+      {
+        "label": "c",
+        "text": "56.6%"
+      },
+      {
+        "label": "d",
+        "text": "104%"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "You may note that apart from a few years for manufacturing and mining & quarrying, the annual growth rates in most years have been positive and near the 5 – 6% mark for all the sectors. The other options [a], [c], and [d] are too far away to be considered. Alternatively, for ease of calculation take the 1989 values for a manufacturing as 400, Mining & quarrying and Electricity as 300 each and Chemicals as 200. then, the final value for manufacturing would be nearly 580, that for mining & quarrying would be about 365; that for electricity would be around 550; and for Chemicals would be around 335. 1 Initial value of production = 400 + 300 + 300 + 200 = 1200 Final value of production = 580 + 365 + 550 + 335 = 1830 1 Overall % increase ≈ 52.5% 1 Average annual growth = 52.5/9 = 5.85%",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 7,
+    "question_code": "FND-T2-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "When during the given period, was the maximum production level in the electricity sector achieved?",
+    "options": [
+      {
+        "label": "a",
+        "text": "89"
+      },
+      {
+        "label": "b",
+        "text": "93"
+      },
+      {
+        "label": "c",
+        "text": "95"
+      },
+      {
+        "label": "d",
+        "text": "98"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity production has increased throughout (as growth rates are positive throughout) and the maximum production would be achieved in the last year, i.e., 98.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 8,
+    "question_code": "FND-T2-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "When, during the given period, was the minimum pro- duction level in the manufacturing sector achieved?",
+    "options": [
+      {
+        "label": "a",
+        "text": "89"
+      },
+      {
+        "label": "b",
+        "text": "90"
+      },
+      {
+        "label": "c",
+        "text": "93"
+      },
+      {
+        "label": "d",
+        "text": "98"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The production for manufacturing can be minimum either in 1989 or in 1992 ( when the growth rate is negative). If Manufacturing started with a production of 100 in 1989, then production in 1992 will be 100 × 1.04 × 1.01 × 0.97 >1 So, the production in 1989 was the least",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 9,
+    "question_code": "FND-T2-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "For the given period, which sector showed the highest growth rate?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Electricity"
+      },
+      {
+        "label": "b",
+        "text": "Manufacturing"
+      },
+      {
+        "label": "c",
+        "text": "Chemical"
+      },
+      {
+        "label": "d",
+        "text": "Mining & Quarrying"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity has shown the highest growth rate in all the years and therefore, would have the highest growth rate for the entire period.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 10,
+    "question_code": "FND-T2-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "In 92, the index for the chemical sector as compared to the index for the Electricity sector was",
+    "options": [
+      {
+        "label": "a",
+        "text": "greater by 6"
+      },
+      {
+        "label": "b",
+        "text": "less by 5"
+      },
+      {
+        "label": "c",
+        "text": "greater by 20"
+      },
+      {
+        "label": "d",
+        "text": "less by 20"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Electricity in 1992: 100 × 1.05 × 1.07 × 1.08 = 121.4 Chemicals in 1992: 100 × 1.07 × 1.03 × 1.06 = 116.8 1 In 1992, the index of chemicals is less than that of electricity by approximately 5.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 11,
+    "question_code": "FND-T2-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 6,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "By what percentage was the output of the manufacturing sector more than that of the chemical sector in 91?",
+    "options": [
+      {
+        "label": "a",
+        "text": "84%"
+      },
+      {
+        "label": "b",
+        "text": "91%"
+      },
+      {
+        "label": "c",
+        "text": "98%"
+      },
+      {
+        "label": "d",
+        "text": "cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let Manufacturing in 1989 = 200 and Chemicals in 1989 = 100 1 Manufacturing in 1991: 200 × 1.04 × 1.01 = 210 and Chemicals in 1991: 100 × 1.07 × 1.03 = 110 210 – 110 Required percentage × 100 = 90% 110",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 12,
+    "question_code": "FND-T2-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s2",
+    "set_position": 7,
+    "context_passage": "![data set 2](/di/fnd/2-s2.png)",
+    "directions": "Directions for questions 6 to 12: Go through the data",
+    "question_text": "When did the maximum percentage change in the production levels of the mining and quarrying sector take place?",
+    "options": [
+      {
+        "label": "a",
+        "text": "93-94"
+      },
+      {
+        "label": "b",
+        "text": "92-93"
+      },
+      {
+        "label": "c",
+        "text": "96-97"
+      },
+      {
+        "label": "d",
+        "text": "97-98"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "As can be seen directly from the graph, the highest increase (that of 8%) for Mining and Quarrying was in the year 1998, relative to 1997.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 13,
+    "question_code": "FND-T2-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "If the total work force was 76 million whereas the total value added was 225 million, then which of the following had the maximum value addition per worker?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Central"
+      },
+      {
+        "label": "b",
+        "text": "State"
+      },
+      {
+        "label": "c",
+        "text": "Central/State"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Values added per worker for various sectors will be proportional to following ratios: Central 10/6 State 3/6 Central/state 12/3 Public 8/8/",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 14,
+    "question_code": "FND-T2-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "Which of the following sectors has the maximum fixed capital invested per factory?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Central"
+      },
+      {
+        "label": "b",
+        "text": "State"
+      },
+      {
+        "label": "c",
+        "text": "Central/State"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Fixed capital per factory will be proportional to the following ratios: Central 5/8 State 4/4 Central/state 5/6 Public 6/12",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 15,
+    "question_code": "FND-T2-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "If the variable is proportional to the number of employees and the production per employee, then for which of the following is the production highest?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Government"
+      },
+      {
+        "label": "b",
+        "text": "Private"
+      },
+      {
+        "label": "c",
+        "text": "Joint"
+      },
+      {
+        "label": "d",
+        "text": "Public"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If the variables are proportional to the number of employees and the production per employees, then we can say that the variable cost is directly proportional to the production. Since the variable cost is maximum for private sector, it will also have the maximum production.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 20,
+    "question_code": "FND-T2-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1US $ = ₹45)",
+    "options": [
+      {
+        "label": "a",
+        "text": "6500"
+      },
+      {
+        "label": "b",
+        "text": "2500"
+      },
+      {
+        "label": "c",
+        "text": "143"
+      },
+      {
+        "label": "d",
+        "text": "145"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 17,
+    "question_code": "FND-T2-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "Maruti Udyog Ltd is a joint project of the Indian Government and Suzuki Motors Japan, each having equal stake. One fine day, the Indian government decides to disinvest from the venture due to losses occurring from labour problems. How many money will be disinvested?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹246 million"
+      },
+      {
+        "label": "b",
+        "text": "₹6500 million"
+      },
+      {
+        "label": "c",
+        "text": "$ 246 million"
+      },
+      {
+        "label": "d",
+        "text": "$ 6500 million"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From the above question the money disinvested will be ₹6450 million.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 18,
+    "question_code": "FND-T2-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 6,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Directions for questions 13 to 18: Go through the data",
+    "question_text": "Which of the following statements is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007The number of government employees is more than that of the number of factories in the joint sector"
+      },
+      {
+        "label": "b",
+        "text": "\u0007The number of employees in the public is same as fixed capital of joint sector"
+      },
+      {
+        "label": "c",
+        "text": "both (a) and (b)"
+      },
+      {
+        "label": "d",
+        "text": "Cannot say"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Neither of the statements [A] or [B] can be inferred as we know only the percentages and not the actual values of the employees, factories or fixed capital.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 19,
+    "question_code": "FND-T2-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "directions": "Directions for questions 19 to 21: Go through the data",
+    "question_text": "What was the amount spent by Helen?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹1193"
+      },
+      {
+        "label": "b",
+        "text": "₹1340"
+      },
+      {
+        "label": "c",
+        "text": "₹2234"
+      },
+      {
+        "label": "d",
+        "text": "₹2517"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 20,
+    "question_code": "FND-T2-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "directions": "Directions for questions 19 to 21: Go through the data",
+    "question_text": "Which of the following amount was spent by one of them?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹1139"
+      },
+      {
+        "label": "b",
+        "text": "₹1378"
+      },
+      {
+        "label": "c",
+        "text": "₹2571"
+      },
+      {
+        "label": "d",
+        "text": "₹2718"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 21,
+    "question_code": "FND-T2-Q21",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "directions": "Directions for questions 19 to 21: Go through the data",
+    "question_text": "The women who spent ₹1193 is",
+    "options": [
+      {
+        "label": "a",
+        "text": "Archana"
+      },
+      {
+        "label": "b",
+        "text": "Chellamma"
+      },
+      {
+        "label": "c",
+        "text": "Dhenuka"
+      },
+      {
+        "label": "d",
+        "text": "Helen"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 22,
+    "question_code": "FND-T2-Q22",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s5",
+    "set_position": 1,
+    "context_passage": "![data set 5](/di/fnd/2-s5.png)",
+    "directions": "Directions for questions 22 to 25: Go through the data",
+    "question_text": "The highest percentage of growth in sales, relative to the previous year occurred in",
+    "options": [
+      {
+        "label": "a",
+        "text": "1995–96"
+      },
+      {
+        "label": "b",
+        "text": "1996–97"
+      },
+      {
+        "label": "c",
+        "text": "1997–98"
+      },
+      {
+        "label": "d",
+        "text": "1998–99"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From graph it is clear that, growth in sales is negative for 1997–98. The change for 1996–97 is very small. We need to check for 1995–96 & 1998–99 For 1995–96 = (250 – 100)/100 × 100% = 150% For 1998–99 = (680-290)/290 × 100% = 134.5% So, the highest percentage change of growth of sales is for year 1995-96",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 23,
+    "question_code": "FND-T2-Q23",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s5",
+    "set_position": 2,
+    "context_passage": "![data set 5](/di/fnd/2-s5.png)",
+    "directions": "Directions for questions 22 to 25: Go through the data",
+    "question_text": "The highest percentage growth in net profit, relative to the previous year, was achieved in",
+    "options": [
+      {
+        "label": "a",
+        "text": "1998–99"
+      },
+      {
+        "label": "b",
+        "text": "1997–98"
+      },
+      {
+        "label": "c",
+        "text": "1996–97"
+      },
+      {
+        "label": "d",
+        "text": "1995–96"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In 1995–96, the change is from 2.5 to 4.5, clearly it is more than 50% change in net profit. In none other option, this change is even 50%. So, the highest percentage change of growth of net profit is for year 1995–96 We must try to solve such type of questions without actual calculation to save time",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 24,
+    "question_code": "FND-T2-Q24",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s5",
+    "set_position": 3,
+    "context_passage": "![data set 5](/di/fnd/2-s5.png)",
+    "directions": "Directions for questions 22 to 25: Go through the data",
+    "question_text": "Defining the profitability as the ratio of net profit to sales, IVP Ltd, recorded the highest profitability in",
+    "options": [
+      {
+        "label": "a",
+        "text": "1998–99"
+      },
+      {
+        "label": "b",
+        "text": "1997–98"
+      },
+      {
+        "label": "c",
+        "text": "1994–95"
+      },
+      {
+        "label": "d",
+        "text": "1996–97"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Profitability for 1994–95 = 2.5/100 = 0.025 Profitability for 1996–97 = 6/300 = 0.02 Profitability for 1997–98 = 8.5/290 = 0.029 Profitability for 1998–99 = 12/680 = 0.018 So, highest profitability was recorded for 1997-98.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
+    "question_number": 25,
+    "question_code": "FND-T2-Q25",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s5",
+    "set_position": 4,
+    "context_passage": "![data set 5](/di/fnd/2-s5.png)",
+    "directions": "Directions for questions 22 to 25: Go through the data",
+    "question_text": "With profitability as defined in question 24, it can be concluded that:",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007Profitability is non-increasing during the five years from 1994–95 to 1998–99."
+      },
+      {
+        "label": "b",
+        "text": "\u0007Profitability is non–decreasing during the five years from 1994–95 to 1998–99."
+      },
+      {
+        "label": "c",
+        "text": "\u0007Profitability remained constant during the five years from 1994–95 to 1998–99"
+      },
+      {
+        "label": "d",
+        "text": "None of above."
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Profitability for 1994–95 = 2.5/100 = 0.025 Profitability for 1995–96 = 4.5/250 = 0.018 Profitability for 1996–97 = 6/300 = 0.02 Profitability for 1997–98 = 8.5/290 = 0.029 Profitability for 1998–99 = 12/680 = 0.018 So, we cannot conclude the statements of options (a), (b) & (c)",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

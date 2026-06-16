@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 1,
+    "question_code": "FND-T7-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/7-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the number of total players who play football and rugby together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "620"
+      },
+      {
+        "label": "b",
+        "text": "357"
+      },
+      {
+        "label": "c",
+        "text": "630"
+      },
+      {
+        "label": "d",
+        "text": "1260"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of players who play Football and Rugby = [(17 + 13) % of 4200] 30 = 4200 × = 1260. Hence option (d) is the answer. 100 13",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 2,
+    "question_code": "FND-T7-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/7-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the difference between the number of the female players who play lawn tennis and the number of male players who play rugby?",
+    "options": [
+      {
+        "label": "a",
+        "text": "94"
+      },
+      {
+        "label": "b",
+        "text": "84"
+      },
+      {
+        "label": "c",
+        "text": "220"
+      },
+      {
+        "label": "d",
+        "text": "240"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of players who play Rugby = 4200 × = 100 546 Number of female players who play 10 Rugby = 2000 × = 200 100 Hence Number of male players who play Rugby = 546 – 200 = 346 Number of female players who play Lawn Tennis = 22 2000 × = 440 100 Hence required difference = 440 – 346 = 94. Hence option (a) is the answer. 40",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 3,
+    "question_code": "FND-T7-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/7-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the respective ratio of the number of female players who play cricket and number of male players who play hockey?",
+    "options": [
+      {
+        "label": "a",
+        "text": "20:7"
+      },
+      {
+        "label": "b",
+        "text": "4:21"
+      },
+      {
+        "label": "c",
+        "text": "20:3"
+      },
+      {
+        "label": "d",
+        "text": "3:20"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of female cricketers = 2000 × = 800 100 4200 × 10 Number of male Hockey players = – 100 2000 × 15 = 420 – 300 = 120 100 Hence Required ratio = 800:120 = 20:3. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 4,
+    "question_code": "FND-T7-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/7-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "What is the total number of male players who play football, cricket and lawn tennis together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1,724"
+      },
+      {
+        "label": "b",
+        "text": "1,734"
+      },
+      {
+        "label": "c",
+        "text": "1,824"
+      },
+      {
+        "label": "d",
+        "text": "1,964"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of male players who play Football, Cricket and Lawn Tennis = (17 + 35 + 25)% of 4200 – (13 + 40 + 22)% of 2000 77 75 = 4200 × – 2000 × = 3234 – 1500 =1734 100 100 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 5,
+    "question_code": "FND-T7-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/7-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "Number of male players who play rugby is approximately what percentage of the total number of players who play lawn tennis?",
+    "options": [
+      {
+        "label": "a",
+        "text": "33"
+      },
+      {
+        "label": "b",
+        "text": "39"
+      },
+      {
+        "label": "c",
+        "text": "26"
+      },
+      {
+        "label": "d",
+        "text": "21"
+      },
+      {
+        "label": "e",
+        "text": "43"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of male players who play Rugby = 4200 × 13 – 200 = 346 100 Number of players who play 25 Lawn Tennis = 4200 × = 1050 100 346 Hence required percentage = × 100 = 33 1050 Hence option (a) is the answer. Explanations",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 6,
+    "question_code": "FND-T7-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/7-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the ratio between total number of articles manufactured by unit III to that by Unit V for all the years together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "353 : 282"
+      },
+      {
+        "label": "b",
+        "text": "282 : 353"
+      },
+      {
+        "label": "c",
+        "text": "457 : 215"
+      },
+      {
+        "label": "d",
+        "text": "215 : 457"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of articles manufactured by: Unit III S (76 + 45 + 55 + 57 + 82 + 38) thousands = 353 thousands Units V S (46 + 36 + 34 + 48 + 58 + 60) thousands = 282 thousands Hence Required ratio = 353:282 Hence option (a) is the answer. ( + + + + + ) 12 10 18 15 13 22",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 7,
+    "question_code": "FND-T7-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/7-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the average number of defective items from Unit II for the given years?",
+    "options": [
+      {
+        "label": "a",
+        "text": "21,500"
+      },
+      {
+        "label": "b",
+        "text": "17,000"
+      },
+      {
+        "label": "c",
+        "text": "12,500"
+      },
+      {
+        "label": "d",
+        "text": "15,000"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required average = 6 90 thousands = = 15 thousands 6 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 8,
+    "question_code": "FND-T7-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/7-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "During which year the largest percentage of articles were defective out of the articles manufactured by unit IV?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1996"
+      },
+      {
+        "label": "b",
+        "text": "1997"
+      },
+      {
+        "label": "c",
+        "text": "1998"
+      },
+      {
+        "label": "d",
+        "text": "1999"
+      },
+      {
+        "label": "e",
+        "text": "2000"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It was in the year 2000. Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 9,
+    "question_code": "FND-T7-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/7-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What was the percentage (rounded off to nearest integer) of defective articles over the number of articles manufactured by all nits together in the year 2001?",
+    "options": [
+      {
+        "label": "a",
+        "text": "42"
+      },
+      {
+        "label": "b",
+        "text": "40"
+      },
+      {
+        "label": "c",
+        "text": "37"
+      },
+      {
+        "label": "d",
+        "text": "33"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of articles manufactured in 2001 = (44 + 56 + 38 + 40 + 60) thousands = 238 thousands Number of defective items = (15 + 22 + 32 + 15 + 11) thousands = 95 thousands 95 Hence Required percentage = ×100 = 39.9 = 238",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 10,
+    "question_code": "FND-T7-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/7-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "During which year was the percentage increase/ decrease in manufacture from the previous year the highest for Unit I?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1998"
+      },
+      {
+        "label": "b",
+        "text": "2001"
+      },
+      {
+        "label": "c",
+        "text": "1999"
+      },
+      {
+        "label": "d",
+        "text": "1997"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Percentage increase in 1999 = ×100 = 30% 50 26 Percentage decrease in 2001 = ×100 = 37.14% 70 Hence, percentage decrease was highest in 2001. Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 11,
+    "question_code": "FND-T7-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/7-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the respective ratio of the number of adult females to the total number of female children staying in all the societies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "243:82"
+      },
+      {
+        "label": "b",
+        "text": "112:71"
+      },
+      {
+        "label": "c",
+        "text": "82:243"
+      },
+      {
+        "label": "d",
+        "text": "71:112"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of children: 25 Society A S 600 × = 150 100 60 Number of female children = 150 × = 90 100 Number of male children = 150 – 90 = 60 40 Society B S 550 × = 220 100 25 Number of female children = 220 × = 55 100 Number of male children = 220 – 55 = 165 16 Society C S 575 × = 92 100 75 Number of female children = 92 × = 69 100 Number of male children = 92 – 69 = 23 25 Society D S 580 × = 145 100 20 Number of female children = 145 × = 29 100 Number of male children = 145 – 29 = 116 40 Society E S 340 × = 172 100 50 Number of female children = 172 × = 86 100 Number of male children = 172 – 86 = 86 24 Society F S 625 × = 150 100 54 Number of female children = 150 × = 81 100 Number of male children = 150 – 81 = 69 Number of adult females = (350 + 150 + 275 + 300 + 250 + 300) – 410 = 1625 – 410 = 1215 Number of female children = 90 + 55 + 69 + 29 + 86 + 81 = 410 Hence required ratio = 1215:410 = 243:82 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 12,
+    "question_code": "FND-T7-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/7-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the total number of female children staying in all the societies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "314"
+      },
+      {
+        "label": "b",
+        "text": "433"
+      },
+      {
+        "label": "c",
+        "text": "410"
+      },
+      {
+        "label": "d",
+        "text": "343"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the data obtained in the previous question: Number of all female children = 410. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 13,
+    "question_code": "FND-T7-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/7-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the respective ratio of the total number of adult males in societies A and B together to the total number of adult males in societies E and F together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3520"
+      },
+      {
+        "label": "b",
+        "text": "3360"
+      },
+      {
+        "label": "c",
+        "text": "4100"
+      },
+      {
+        "label": "d",
+        "text": "3000"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of adult males in societies A and B = (250 – 60) + (400 – 165) = 190 + 235 = 425 Number of adult males in societies E and F = (180 – 86) + (325 – 69) = 94 + 256 = 350 Required ratio = 425:350 = 17:14 Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 14,
+    "question_code": "FND-T7-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/7-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the total number of members staying in all the societies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3520"
+      },
+      {
+        "label": "b",
+        "text": "3360"
+      },
+      {
+        "label": "c",
+        "text": "4100"
+      },
+      {
+        "label": "d",
+        "text": "3000"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of all members = (250 + 350) + (400 + 150) + (300 + 275) + (280 + 300) + (180 + 250) + (325 + 300) + 150 + 220 + 92 + 145 + 172 + 150 = 4289 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 15,
+    "question_code": "FND-T7-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/fnd/7-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the difference between the number of male children in society B and the number of male children in society F?",
+    "options": [
+      {
+        "label": "a",
+        "text": "84"
+      },
+      {
+        "label": "b",
+        "text": "14"
+      },
+      {
+        "label": "c",
+        "text": "96"
+      },
+      {
+        "label": "d",
+        "text": "26"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = 165 – 69 = 96 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 16,
+    "question_code": "FND-T7-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/fnd/7-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "Population of State B in 2002 is what per cent of the total population of State B in all the years together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "18%"
+      },
+      {
+        "label": "b",
+        "text": "26%"
+      },
+      {
+        "label": "c",
+        "text": "14%"
+      },
+      {
+        "label": "d",
+        "text": "12%"
+      },
+      {
+        "label": "e",
+        "text": "8%"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total population of state B in all the years = (50 + 40 + 60 + 70 + 80 + 90 + 100) lakhs = 490 lakhs Population of state B in 2002 = 40 lakhs 40 Hence required percentage = × 100 = 8.16% 490 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 17,
+    "question_code": "FND-T7-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/fnd/7-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the ratio between the total population of State A for the years 2001, 2002 and 2003 together and the total population of State B for the years 2005, 2006 and 2007 together respectively?",
+    "options": [
+      {
+        "label": "a",
+        "text": "27 : 53"
+      },
+      {
+        "label": "b",
+        "text": "54 : 29"
+      },
+      {
+        "label": "c",
+        "text": "29 : 56"
+      },
+      {
+        "label": "d",
+        "text": "53 : 27"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = (40 + 45 + 60):(80 + 90 + 110) = 145:280 = 29:56 Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 18,
+    "question_code": "FND-T7-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/fnd/7-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "For which State and in which year the per cent rise in population from the previous year was the highest?",
+    "options": [
+      {
+        "label": "a",
+        "text": "State B – 2003"
+      },
+      {
+        "label": "b",
+        "text": "State B – 2002"
+      },
+      {
+        "label": "c",
+        "text": "State A – 2004"
+      },
+      {
+        "label": "d",
+        "text": "State A – 2005"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It is obvious from the graph. Hence option (a) is the answer. 70 – 60 50 2",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 19,
+    "question_code": "FND-T7-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/fnd/7-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "What is the per cent rise in population of State B from 2003 to 2004?",
+    "options": [
+      {
+        "label": "a",
+        "text": "16 1 3"
+      },
+      {
+        "label": "b",
+        "text": "16 2 3"
+      },
+      {
+        "label": "c",
+        "text": "18 2 3"
+      },
+      {
+        "label": "d",
+        "text": "18 1 3"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Percentage increase = × 100 = = 16 60 3 3 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 7,
+    "question_number": 20,
+    "question_code": "FND-T7-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t7-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/fnd/7-s4.png)",
+    "directions": "Directions for questions 16 to 20: Go through the data",
+    "question_text": "Approximately what is the average population of State A for all the given years?",
+    "options": [
+      {
+        "label": "a",
+        "text": "65 lakhs"
+      },
+      {
+        "label": "b",
+        "text": "50 lakhs"
+      },
+      {
+        "label": "c",
+        "text": "48 lakhs"
+      },
+      {
+        "label": "d",
+        "text": "58 lakhs"
+      },
+      {
+        "label": "e",
+        "text": "52 lakhs"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average population of the state  40 + 45 + 60 + 50 + 70 + 65 + 80  410 A =   Lakhs =  7  7 lakhs = 58 lakhs Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

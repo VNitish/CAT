@@ -1,0 +1,1142 @@
+[
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 1,
+    "question_code": "ADV-T22-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s1",
+    "set_position": 1,
+    "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
+    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any retailer?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹50"
+      },
+      {
+        "label": "c",
+        "text": "₹55"
+      },
+      {
+        "label": "d",
+        "text": "₹60"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 or F5 to W2 to R6 is the lowest. Therefore, option (b) is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 2,
+    "question_code": "ADV-T22-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s1",
+    "set_position": 2,
+    "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
+    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "question_text": "What is the maximum transportation cost incurred in transferring the product from any factory to any retailer?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹175"
+      },
+      {
+        "label": "b",
+        "text": "₹180"
+      },
+      {
+        "label": "c",
+        "text": "₹170"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F5 to W1 to R5 is the maximum. Therefore, option (b)is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 3,
+    "question_code": "ADV-T22-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s1",
+    "set_position": 3,
+    "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
+    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "question_text": "What is the minimum transportation cost at which the product can be supplied to R4 from any factory?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹50"
+      },
+      {
+        "label": "c",
+        "text": "₹65"
+      },
+      {
+        "label": "d",
+        "text": "₹70"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F4 to W4 to R4 is the lowest. Therefore, option (c) is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 4,
+    "question_code": "ADV-T22-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s1",
+    "set_position": 4,
+    "context_passage": "Table 1 gives the transportation cost of a product from six factories F1, F2, F3, F4, F5 and F6 to five warehouses W1, W2, W3, W4 and W5. W1 W2 W3 W4 W5 F1 60 25 45 40 80 F2 85 40 45 60 75 F3 80 20 45 50 90 F4 90 40 55 25 70 F5 95 20 40 45 80 F6 85 35 50 50 75 Table 2 gives the transportation cost of the same product from five warehouses W1, W2, W3, W4 and W5 to six retailers R1, R2, R3, R4, R5 and R6. R1 R2 R3 R4 R5 R6 W1 40 20 40 30 85 25 W2 50 50 45 60 70 30 W3 20 10 50 50 80 35 W4 40 30 45 40 90 40 W5 50 30 50 40 70 30",
+    "directions": "Directions for questions 1 to 4: Refer to the following",
+    "question_text": "What is the maximum transportation cost at which the product can be supplied to R3 from any factory?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹145"
+      },
+      {
+        "label": "b",
+        "text": "₹150"
+      },
+      {
+        "label": "c",
+        "text": "₹140"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W5 to R3 is the maximum. Therefore, option (c) is the correct answer",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 5,
+    "question_code": "ADV-T22-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to any colony?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹65"
+      },
+      {
+        "label": "c",
+        "text": "₹55"
+      },
+      {
+        "label": "d",
+        "text": "none of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W2 to R2 to C1 is the lowest. Therefore, option (b) is the correct answer",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 6,
+    "question_code": "ADV-T22-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "What is the minimum transportation cost incurred in transferring the product from any factory to the colony C2?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹45"
+      },
+      {
+        "label": "b",
+        "text": "₹60"
+      },
+      {
+        "label": "c",
+        "text": "₹55"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W2 to R6 to C2 is the minimum. Therefore, option (c) is the correct answer",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 7,
+    "question_code": "ADV-T22-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "What is the maximum transportation cost incurred in transferring the product from any factory to the colony C5?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹175"
+      },
+      {
+        "label": "b",
+        "text": "₹180"
+      },
+      {
+        "label": "c",
+        "text": "₹185"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F5 to W1 to R5 to C5. The lost = 90 + 85 + 20 = 200",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 8,
+    "question_code": "ADV-T22-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "If one unit produced in each of the factories is to be sent to each of the colonies, then what will be the total transportation cost incurred?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹1705"
+      },
+      {
+        "label": "b",
+        "text": "₹1980"
+      },
+      {
+        "label": "c",
+        "text": "₹2185"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "There are 6 factories & 5 colonies & so there can be 30 cases. For each case we can have any choice for warehouse & retailes. So, there are many possibilities. So, it cannot be determined.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 9,
+    "question_code": "ADV-T22-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "FiWjRkCl represents that the product has moved in this cycle – Factory i to Warehouse j to Retailer k to Colony l. If i = 2 and k = 2, then what is the sum of (j + l) for the lowest transportation cost incurred in one product transferred from i = 2 to any of the colonies?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4"
+      },
+      {
+        "label": "b",
+        "text": "5"
+      },
+      {
+        "label": "c",
+        "text": "7"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F2 – W3 – R2 – either C2/ C4. Hence two different values are possible. Therefore, option (d) is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 10,
+    "question_code": "ADV-T22-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s2",
+    "set_position": 6,
+    "context_passage": "![data set 2](/di/adv/22-s2.png)",
+    "directions": "Directions for questions 5 to 10: Answer the questions",
+    "question_text": "In the above question, if j = 2, then how many different value/s of ( i + k + l) is/are possible for the lowest transportation cost incurred in one product transferred from any of the factories to any of the colonies?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1"
+      },
+      {
+        "label": "b",
+        "text": "2"
+      },
+      {
+        "label": "c",
+        "text": "3"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "There can be two values of i = 3/5, one value of j = 2, one value of k = 6 and one value of l = 1. Hence, two different sums are possible. Therefore, option (d) is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 11,
+    "question_code": "ADV-T22-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s3",
+    "set_position": 1,
+    "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
+    "directions": "Directions for questions 11 to 15: Refer to the",
+    "question_text": "What can be inferred from the given table?",
+    "options": [
+      {
+        "label": "a",
+        "text": "\u0007Percentage increase in the number of petrol using vehicles/agents has increased in Asia rather than the world, in the decade 1991-2001."
+      },
+      {
+        "label": "b",
+        "text": "\u0007Exploration of Naphtha is low in Asia as com- pared to the exploration of Naphtha in the world throughout the period."
+      },
+      {
+        "label": "c",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Option (b) is obviously cannot be inferred. Option (a) seems to be probable, but number of vehicles/agents need not be increasing. There can be other reasons also like reduction in the efficiency of the vehicle etc. Therefore option (d) is the correct answer. 200 2011 Asia World Asia World Asia 10 200 20 250 33.3",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 12,
+    "question_code": "ADV-T22-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s3",
+    "set_position": 2,
+    "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
+    "directions": "Directions for questions 11 to 15: Refer to the",
+    "question_text": "During 1991-2011, which two fuels meet more than 60% of the total energy demand of both the world and Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Petrol and Naphtha"
+      },
+      {
+        "label": "b",
+        "text": "Petrol and Solid fuels"
+      },
+      {
+        "label": "c",
+        "text": "Naphtha and Solid fuels"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "1991 World Total energy 150 Naphtha Value 30 Proportion 20% Solid fuels Value 50 Proportion 33.30% Petrol Value 50 Proportion 33.30% Hence, solid fuels and petrol combined constitute more than 60 per cent of the total energy in both the world and Asia for the given period.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 13,
+    "question_code": "ADV-T22-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s3",
+    "set_position": 3,
+    "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
+    "directions": "Directions for questions 11 to 15: Refer to the",
+    "question_text": "Which fuel’s proportion in the total energy demand increases over the decade 1991-2001 and decreases over the decade 2001-2011 for both the world and Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Petrol"
+      },
+      {
+        "label": "b",
+        "text": "Naphtha"
+      },
+      {
+        "label": "c",
+        "text": "Solid fuels"
+      },
+      {
+        "label": "d",
+        "text": "Nuclear fuel"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "It can be seen from the table that Petrol is the fuel whose proportion in the total energy demand Keys",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 14,
+    "question_code": "ADV-T22-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s3",
+    "set_position": 4,
+    "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
+    "directions": "Directions for questions 11 to 15: Refer to the",
+    "question_text": "In Asia for which fuel does the proportion in the total energy demand decrease continuously over the period 1991-2011?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Naphtha"
+      },
+      {
+        "label": "b",
+        "text": "Solids fuels"
+      },
+      {
+        "label": "c",
+        "text": "Nuclear fuel"
+      },
+      {
+        "label": "d",
+        "text": "Hydro energy"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For the answer choices given and for Asia we can make the following table. 1991 2001 2011 Total energy 10 20 33 Naphtha Value 0.5 2.5 5 Proportion 5% 12.50% 15.15% Solid Fuels Value 4 5 10 Proportion 40% 25% 30.30% Nuclear Fuel Value 0.5 1 1.3 Proportion 5% 5% 3.90% Hydro Value 1 1.5 2 Energy Proportion 10% 7.50% 6.06% Hence, we can see that the proportion of Hydro Energy goes on decreasing over the given period.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 15,
+    "question_code": "ADV-T22-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s3",
+    "set_position": 5,
+    "context_passage": "energy demand for the years 1991, 2001 and 2011. The demand is given in million barrels per day, crude oil equivalent. 1991 2001 2011 World Asia World Asia world Asia Petrol",
+    "directions": "Directions for questions 11 to 15: Refer to the",
+    "question_text": "For which fuel does the proportion in the total energy demand of the world remain constant over the period 1991-2011; but its proportion increases in the total energy demand in Asia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Solid fuels"
+      },
+      {
+        "label": "b",
+        "text": "Nuclear fuel"
+      },
+      {
+        "label": "c",
+        "text": "Hydro energy"
+      },
+      {
+        "label": "d",
+        "text": "Naphtha"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For the answer choices given and for the world, we can make the following table. 1991 2001 2011 Total energy 150 200 250 Naphtha Value 30 40 50 Proportion 20% 20% 20% Solid Fuels Value 50 60 75 Proportion 33% 30% 30% Nuclear Fuel Value 10 20 25 Proportion 6.66% 10% 10% Hydro Value 10 10 20 Energy Proportion 6.66% 5% 8% Hence, we can see that the proportion of Naphtha remains constant over the given period. From the given information the following table can be prepared.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 16,
+    "question_code": "ADV-T22-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s4",
+    "set_position": 1,
+    "context_passage": "![data set 4](/di/adv/22-s4.png)",
+    "directions": "Directions for questions 16 to 20: Refer to the",
+    "question_text": "Who scored the lowest total?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the given information, the table for the marks obtained by Amit, Binit, Charu & Dilip can be completed as:- Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 17,
+    "question_code": "ADV-T22-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s4",
+    "set_position": 2,
+    "context_passage": "![data set 4](/di/adv/22-s4.png)",
+    "directions": "Directions for questions 16 to 20: Refer to the",
+    "question_text": "The approximate average marks for all four persons (for all the four subjects) are",
+    "options": [
+      {
+        "label": "a",
+        "text": "65.625"
+      },
+      {
+        "label": "b",
+        "text": "81.225"
+      },
+      {
+        "label": "c",
+        "text": "99.5"
+      },
+      {
+        "label": "d",
+        "text": "105.6"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the given information, the table for the marks obtained by Amit, Binit, Charu & Dilip can be completed as:- Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 18,
+    "question_code": "ADV-T22-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s4",
+    "set_position": 3,
+    "context_passage": "![data set 4](/di/adv/22-s4.png)",
+    "directions": "Directions for questions 16 to 20: Refer to the",
+    "question_text": "Who is the highest scorer in Chemistry?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the given information, the table for the marks obtained by Amit, Binit, Charu & Dilip can be completed as:- Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 19,
+    "question_code": "ADV-T22-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s4",
+    "set_position": 4,
+    "context_passage": "![data set 4](/di/adv/22-s4.png)",
+    "directions": "Directions for questions 16 to 20: Refer to the",
+    "question_text": "Who is the lowest scorer in Physics?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the given information, the table for the marks obtained by Amit, Binit, Charu & Dilip can be completed as:- Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 20,
+    "question_code": "ADV-T22-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s4",
+    "set_position": 5,
+    "context_passage": "![data set 4](/di/adv/22-s4.png)",
+    "directions": "Directions for questions 16 to 20: Refer to the",
+    "question_text": "Who is the highest scorer in English?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Amit"
+      },
+      {
+        "label": "b",
+        "text": "Binit"
+      },
+      {
+        "label": "c",
+        "text": "Charu"
+      },
+      {
+        "label": "d",
+        "text": "Dilip"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Using the given information, the table for the marks obtained by Amit, Binit, Charu & Dilip can be completed as:- Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 21,
+    "question_code": "ADV-T22-Q21",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s5",
+    "set_position": 1,
+    "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
+    "directions": "Directions for questions 21 to 23: Refer to the",
+    "question_text": "How many times did the price of petrol increase during the given period?",
+    "options": [
+      {
+        "label": "a",
+        "text": "7"
+      },
+      {
+        "label": "b",
+        "text": "8"
+      },
+      {
+        "label": "c",
+        "text": "9"
+      },
+      {
+        "label": "d",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nPetrol prices increased 8 times.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 22,
+    "question_code": "ADV-T22-Q22",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s5",
+    "set_position": 2,
+    "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
+    "directions": "Directions for questions 21 to 23: Refer to the",
+    "question_text": "How many times did the price of diesel increase during the given period?",
+    "options": [
+      {
+        "label": "a",
+        "text": "7"
+      },
+      {
+        "label": "b",
+        "text": "8"
+      },
+      {
+        "label": "c",
+        "text": "9"
+      },
+      {
+        "label": "d",
+        "text": "10"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nDiesel prices increased 7 times.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 23,
+    "question_code": "ADV-T22-Q23",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s5",
+    "set_position": 3,
+    "context_passage": "The following table gives the price of petrol and diesel in India for the given period. Date Petrol Change (+/–) Diesel Change (+/–) May 2004",
+    "directions": "Directions for questions 21 to 23: Refer to the",
+    "question_text": "For how many times is the percentage increase in the price of petrol more than the percentage increase in the price of diesel over their respective previous date?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4"
+      },
+      {
+        "label": "b",
+        "text": "5"
+      },
+      {
+        "label": "c",
+        "text": "6"
+      },
+      {
+        "label": "d",
+        "text": "7"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nFor 5 times, the % increase of petrol was more than that of diesel.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 24,
+    "question_code": "ADV-T22-Q24",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s6",
+    "set_position": 1,
+    "context_passage": "![data set 6](/di/adv/22-s6.png)",
+    "directions": "Directions for questions 24 to 25: Refer to the",
+    "question_text": "In which city out of the given four cities has the price of petrol decreased by the maximum percentage?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Delhi"
+      },
+      {
+        "label": "b",
+        "text": "Mumbai"
+      },
+      {
+        "label": "c",
+        "text": "Kolkata"
+      },
+      {
+        "label": "d",
+        "text": "Chennai"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nBy simple observation we can realize in each case the decrease is almost by ₹2. So, the maximum % decrease will be for the city for which price was minimum & that city is Delhi (try to solve without actual calculation).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 25,
+    "question_code": "ADV-T22-Q25",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s6",
+    "set_position": 2,
+    "context_passage": "![data set 6](/di/adv/22-s6.png)",
+    "directions": "Directions for questions 24 to 25: Refer to the",
+    "question_text": "In which city out of the given four cities has the price of diesel decreased by the maximum percentage?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Delhi"
+      },
+      {
+        "label": "b",
+        "text": "Mumbai"
+      },
+      {
+        "label": "c",
+        "text": "Kolkata"
+      },
+      {
+        "label": "d",
+        "text": "Chennai"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Following is the complete list: Date Petrol Diesel Change (+/–) Change (+/–) May 2004 33.70 21.74 16 June 2004 35.71 22.74 (+1.00) +2.01 1 August 2004 36.81 24.16 (+1.42) +1.10 5 November 2004 39.00 26.28 +2.12 +2.19 16 November 2004 37.84 –1.16 1 April 2005 (VAT) 37.99 + 0.15 28.22 + 1.94 5 May 2005 26.45 (–1.77) (VAT on diesel) 21 June 2005 40.49 + 2.50 28.45 (+2.00) 7 September 2005 43.49 30.45 (+2.00) +3.00 1 April 2006 43.51 30.47 (+0.02) +0.02 5 June 2006 47.51 32.47 +4.00 (+2.00) 16 June 2006 46.85 32.25 –0.66 (–0.22) 30 November 2006 44.85 31.25 –2.00 (–1.00) 15 February 2007 42.85 30.25 –2.00 (–1.00)\n\nWe can observe the maximum absolute change is in Chennai of ₹2.19 which is almost twice as compared to other cities & original prices were very close. So, maximum % decrease is in Chennai. (Try to solve without actual calculation).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 2,
+    "question_code": "ADV-T22-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s6",
+    "set_position": 3,
+    "context_passage": "![data set 6](/di/adv/22-s6.png)",
+    "directions": "Directions for questions 24 to 25: Refer to the",
+    "question_text": "F5 to W1 to R5 is the maximum. Therefore, option",
+    "options": [
+      {
+        "label": "a",
+        "text": "is the correct answer."
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F5 to W1 to R5 is the maximum. Therefore, option (b)is the correct answer.",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 4,
+    "question_code": "ADV-T22-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s6",
+    "set_position": 4,
+    "context_passage": "![data set 6](/di/adv/22-s6.png)",
+    "directions": "Directions for questions 24 to 25: Refer to the",
+    "question_text": "F3 to W5 to R3 is the maximum. Therefore, option",
+    "options": [
+      {
+        "label": "a",
+        "text": "is the correct answer"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W5 to R3 is the maximum. Therefore, option (c) is the correct answer",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 22,
+    "question_number": 5,
+    "question_code": "ADV-T22-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t22-s6",
+    "set_position": 5,
+    "context_passage": "![data set 6](/di/adv/22-s6.png)",
+    "directions": "Directions for questions 24 to 25: Refer to the",
+    "question_text": "F3 to W2 to R2 to C1 is the lowest. Therefore, option",
+    "options": [
+      {
+        "label": "a",
+        "text": "is the correct answer"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "F3 to W2 to R2 to C1 is the lowest. Therefore, option (b) is the correct answer",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": true
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 1,
+    "question_code": "FND-T4-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/fnd/4-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For which course is the number of boys the minimum?",
+    "options": [
+      {
+        "label": "a",
+        "text": "E"
+      },
+      {
+        "label": "b",
+        "text": "F"
+      },
+      {
+        "label": "c",
+        "text": "C"
+      },
+      {
+        "label": "d",
+        "text": "A"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of boys in course A is minimum i.e., zero. Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 2,
+    "question_code": "FND-T4-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/fnd/4-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "How many girls are there in course C?",
+    "options": [
+      {
+        "label": "a",
+        "text": "44"
+      },
+      {
+        "label": "b",
+        "text": "16"
+      },
+      {
+        "label": "c",
+        "text": "40"
+      },
+      {
+        "label": "d",
+        "text": "160"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of girls in course C = 16. Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 3,
+    "question_code": "FND-T4-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/fnd/4-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For course D, what is the respective ratio of boys and girls?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3:4"
+      },
+      {
+        "label": "b",
+        "text": "4:5"
+      },
+      {
+        "label": "c",
+        "text": "3:5"
+      },
+      {
+        "label": "d",
+        "text": "5:6"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 180:240 = 3:4. Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 4,
+    "question_code": "FND-T4-Q04",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s1",
+    "set_position": 4,
+    "context_passage": "![data set 1](/di/fnd/4-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For which pair of courses is the number of boys the same?",
+    "options": [
+      {
+        "label": "a",
+        "text": "E and F"
+      },
+      {
+        "label": "b",
+        "text": "A and D"
+      },
+      {
+        "label": "c",
+        "text": "C and F"
+      },
+      {
+        "label": "d",
+        "text": "B and D"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of boys in each of courses C and F = 44. Hence option (c) is the answer. 112 – 32 80",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 5,
+    "question_code": "FND-T4-Q05",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s1",
+    "set_position": 5,
+    "context_passage": "![data set 1](/di/fnd/4-s1.png)",
+    "directions": "Directions for questions 1 to 5: Go through the data",
+    "question_text": "For course E, the number of girls is how much per cent more than the boys for course E?",
+    "options": [
+      {
+        "label": "a",
+        "text": "250"
+      },
+      {
+        "label": "b",
+        "text": "350"
+      },
+      {
+        "label": "c",
+        "text": "150"
+      },
+      {
+        "label": "d",
+        "text": "80"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = ×100 = × 100 32 32 = 250. Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 6,
+    "question_code": "FND-T4-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s2",
+    "set_position": 1,
+    "context_passage": "![data set 2](/di/fnd/4-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the respective ratio of the number of comput- ers manufactured by companies A and C together to the number of computers sold by companies A and C together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "4:5"
+      },
+      {
+        "label": "b",
+        "text": "14:11"
+      },
+      {
+        "label": "c",
+        "text": "8:9"
+      },
+      {
+        "label": "d",
+        "text": "7:5"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of computers manufactured by companies A and C together = (10 + 7.5) lakh = 17.5 lakhs Number of computers sold by companies A and C together = (7.5 + 5) lakh = 12.5 lakhs Hence required ratio = 17.5 : 12.5 = 7 : 5. Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 7,
+    "question_code": "FND-T4-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s2",
+    "set_position": 2,
+    "context_passage": "![data set 2](/di/fnd/4-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "What is the difference between the average number of computers manufactured by all the companies together and the average number of computers sold by all the companies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3500"
+      },
+      {
+        "label": "b",
+        "text": "35000"
+      },
+      {
+        "label": "c",
+        "text": "350000"
+      },
+      {
+        "label": "d",
+        "text": "3500000"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Average number of computers manufactured by all the companies together",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 8,
+    "question_code": "FND-T4-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s2",
+    "set_position": 3,
+    "context_passage": "![data set 2](/di/fnd/4-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "The number of computers sold by company B is what per cent of the number of computers manufactured by company B? (Rounded off to two digits after decimal)",
+    "options": [
+      {
+        "label": "a",
+        "text": "83.33"
+      },
+      {
+        "label": "b",
+        "text": "120"
+      },
+      {
+        "label": "c",
+        "text": "78.83"
+      },
+      {
+        "label": "d",
+        "text": "106.54"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 38.33%. 15 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 9,
+    "question_code": "FND-T4-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s2",
+    "set_position": 4,
+    "context_passage": "![data set 2](/di/fnd/4-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "The number of computers manufactured by company D is what per cent of the number of computers manufactured by company E?",
+    "options": [
+      {
+        "label": "a",
+        "text": "125"
+      },
+      {
+        "label": "b",
+        "text": "112.5"
+      },
+      {
+        "label": "c",
+        "text": "85"
+      },
+      {
+        "label": "d",
+        "text": "65.25"
+      },
+      {
+        "label": "e",
+        "text": "75"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required percentage = × 100 = 75%. Hence 30 option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 10,
+    "question_code": "FND-T4-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s2",
+    "set_position": 5,
+    "context_passage": "![data set 2](/di/fnd/4-s2.png)",
+    "directions": "Directions for questions 6 to 10: Go through the data",
+    "question_text": "The number of computers manufactured by company B is approximately what per cent of the number of computers manufactured by all the companies together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "22"
+      },
+      {
+        "label": "b",
+        "text": "18"
+      },
+      {
+        "label": "c",
+        "text": "14"
+      },
+      {
+        "label": "d",
+        "text": "26"
+      },
+      {
+        "label": "e",
+        "text": "32"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Number of computers manufactured by all the companies together = 85 lakhs Number of computers manufactured by company B = 15 lakhs 15 Hence required percentage = × 100 = 17.65 =18 85 Hence option (b) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 11,
+    "question_code": "FND-T4-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s3",
+    "set_position": 1,
+    "context_passage": "![data set 3](/di/fnd/4-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the amount spent by the family on commuting?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹10,076"
+      },
+      {
+        "label": "b",
+        "text": "₹10,534"
+      },
+      {
+        "label": "c",
+        "text": "₹6,870"
+      },
+      {
+        "label": "d",
+        "text": "₹8,702"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Angle for commuting = 79.2° 1360° = 45800 45800 1 79.2° = × 79.2 = ₹10076. 360 Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 12,
+    "question_code": "FND-T4-Q12",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s3",
+    "set_position": 2,
+    "context_passage": "![data set 3](/di/fnd/4-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the respective ratio of amount spent by family on Medicine to the amount spent on Groceries?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1:2"
+      },
+      {
+        "label": "b",
+        "text": "13:21"
+      },
+      {
+        "label": "c",
+        "text": "3:5"
+      },
+      {
+        "label": "d",
+        "text": "11:23"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Ratio of amount spent must be same as ratio of 39 . 6 ° respective angles = = 11 : 23 82 . 8 °",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 13,
+    "question_code": "FND-T4-Q13",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s3",
+    "set_position": 3,
+    "context_passage": "![data set 3](/di/fnd/4-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "What is the total amount spent by the family on Entertainment and Shopping together?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹9,618"
+      },
+      {
+        "label": "b",
+        "text": "₹13,282"
+      },
+      {
+        "label": "c",
+        "text": "₹13,740"
+      },
+      {
+        "label": "d",
+        "text": "₹11,908"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total angle of amount spent on shopping & entertainment = 36° + 68.4° = 104.4°. 104 . 4 ° So, total expenditure = × 45,800 = ₹13,282. 360 °",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 14,
+    "question_code": "FND-T4-Q14",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/fnd/4-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "Total amount spent by the family on Groceries, Entertainment and Investments together forms approximately what per cent of amount spent on Commuting?",
+    "options": [
+      {
+        "label": "a",
+        "text": "209"
+      },
+      {
+        "label": "b",
+        "text": "76"
+      },
+      {
+        "label": "c",
+        "text": "154"
+      },
+      {
+        "label": "d",
+        "text": "42"
+      },
+      {
+        "label": "e",
+        "text": "218"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total angle for expenditure on grocery, entertainment & investment = 82.8° + 36° + 54° = 172.8°. Angle for amount spent on commuting = 79.2°. 172 . 8 Required percentage = × 100 % = 218% 79 . 2",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 15,
+    "question_code": "FND-T4-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s3",
+    "set_position": 5,
+    "context_passage": "![data set 3](/di/fnd/4-s3.png)",
+    "directions": "Directions for questions 11 to 15: Go through the data",
+    "question_text": "Amount spent by the family on Medicine forms what per cent of amount spent on Shopping? (Rounded off to two digits after decimal)",
+    "options": [
+      {
+        "label": "a",
+        "text": "43.67"
+      },
+      {
+        "label": "b",
+        "text": "49.52"
+      },
+      {
+        "label": "c",
+        "text": "57.89"
+      },
+      {
+        "label": "d",
+        "text": "61.89"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Angle for amount spent on medicine = 39.6°. Angle for amount spent on shopping = 68.4°. 39 . 6 Required percentage = × 100 % = 57.89%. 68 . 4",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 16,
+    "question_code": "FND-T4-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s4",
+    "set_position": 1,
+    "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
+    "directions": "Directions for questions 16 to 20: Go through the",
+    "question_text": "From 1999 to 2004, the total number of people who preferred to travel by rail, was approximately how many millions?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1300"
+      },
+      {
+        "label": "b",
+        "text": "1500"
+      },
+      {
+        "label": "c",
+        "text": "1600"
+      },
+      {
+        "label": "d",
+        "text": "1800"
+      },
+      {
+        "label": "e",
+        "text": "2000"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of people travelling by rail = (350 + 300 + 300 + 275 + 300 + 275) millions = 1800 million. Hence option (d) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 17,
+    "question_code": "FND-T4-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s4",
+    "set_position": 2,
+    "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
+    "directions": "Directions for questions 16 to 20: Go through the",
+    "question_text": "The number of people preferring to travel by rail in 2004, was how many millions fewer than the number of people preferring to travel by rail in 1999?",
+    "options": [
+      {
+        "label": "a",
+        "text": "70"
+      },
+      {
+        "label": "b",
+        "text": "45"
+      },
+      {
+        "label": "c",
+        "text": "75"
+      },
+      {
+        "label": "d",
+        "text": "50"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required difference = 350 – 275 = 75 millions. Hence option (c) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 18,
+    "question_code": "FND-T4-Q18",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s4",
+    "set_position": 3,
+    "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
+    "directions": "Directions for questions 16 to 20: Go through the",
+    "question_text": "In 2001, the people preferring to travel by bus represented approximately what per cent of the people preferring to travel by buses, rail and airlines together in that year?",
+    "options": [
+      {
+        "label": "a",
+        "text": "65 per cent"
+      },
+      {
+        "label": "b",
+        "text": "35 per cent"
+      },
+      {
+        "label": "c",
+        "text": "55 per cent"
+      },
+      {
+        "label": "d",
+        "text": "75 per cent"
+      },
+      {
+        "label": "e",
+        "text": "45 per cent"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Total number of people travelling by buses, rail and airlines in 2001 = 375 + 300 + 175 = 850 millions Number of people travelling by buses = 375 millions. 375 Hence, Required percentage = × 100 = 45. 850 Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 19,
+    "question_code": "FND-T4-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s4",
+    "set_position": 4,
+    "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
+    "directions": "Directions for questions 16 to 20: Go through the",
+    "question_text": "What is the respective ratio of the number of people preferring to travel by bus to the number of people preferring to travel by rail in the year 2002?",
+    "options": [
+      {
+        "label": "a",
+        "text": "15:11"
+      },
+      {
+        "label": "b",
+        "text": "9:7"
+      },
+      {
+        "label": "c",
+        "text": "7:9"
+      },
+      {
+        "label": "d",
+        "text": "11:15"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Required ratio = 375 : 275 = 15 : 11. Hence option (a) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  },
+  {
+    "tier": "Foundation",
+    "test": 4,
+    "question_number": 20,
+    "question_code": "FND-T4-Q20",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t4-s4",
+    "set_position": 5,
+    "context_passage": "it. 0 100 200 300 400 500 1999 2000 2001 2002 2003 2004 Preferences of persons in using diﬀerent modes of transport Bus Rail Airlines Note - All the values are in the multiples of 25.",
+    "directions": "Directions for questions 16 to 20: Go through the",
+    "question_text": "In the year 2003, if all the airlines reduced their rates by 50% and 50% of the people who preferred to travel by rail, now preferred airlines, approximately how many millions of people prefer to travel by air?",
+    "options": [
+      {
+        "label": "a",
+        "text": "290"
+      },
+      {
+        "label": "b",
+        "text": "313"
+      },
+      {
+        "label": "c",
+        "text": "330"
+      },
+      {
+        "label": "d",
+        "text": "300"
+      },
+      {
+        "label": "e",
+        "text": "325"
+      }
+    ],
+    "correct_answer": "e",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In the year 2003: Number of people travelling by rail = 300 millions Number of people travelling by air = 175 millions Now, 50 % of people travelling by rail shift to air. Hence required number of people = 175 + 150 = 325 million Hence option (e) is the answer.",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": false,
+    "removed": false
+  }
+]

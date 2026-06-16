@@ -401,6 +401,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/rc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             RC Tests
           </button>
+          <button onClick={() => router.push('/di')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            DI Mocks
+          </button>
           <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Blog
           </button>
@@ -485,7 +488,7 @@ export default function LandingPage() {
       {/* Practice areas — Quant, VARC & RC */}
       <div style={{ maxWidth: 860, margin: '0 auto', padding: '72px 48px 0' }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', color: '#aaaaaa', marginBottom: 8, textAlign: 'center' }}>Practice by section</div>
-        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Three focused ways to prepare</div>
+        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Four focused ways to prepare</div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 1, background: '#e4e4e4', border: '1px solid #e4e4e4' }}>
           {[
             {
@@ -514,6 +517,15 @@ export default function LandingPage() {
               points: ['10 tests · 4 passages each', 'Timed, scored, exam-style palette', 'Answers & explanations on review'],
               cta: 'Start RC tests',
               href: '/rc',
+            },
+            {
+              accent: '#F59E0B',
+              eyebrow: 'Data Interpretation',
+              title: 'DI Mocks',
+              desc: 'Chart, table and caselet sets across three difficulty tiers — pie, bar and line graphs rendered exactly as in the exam.',
+              points: ['Foundation · Moderate · Advanced', 'Timed, scored, exam-style palette', 'Diagrams, answers & explanations'],
+              cta: 'Start DI mocks',
+              href: '/di',
             },
           ].map(c => (
             <div key={c.title} style={{ background: '#ffffff', padding: '36px 34px', display: 'flex', flexDirection: 'column' }}>
