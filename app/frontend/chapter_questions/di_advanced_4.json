@@ -212,6 +212,216 @@
   {
     "tier": "Advanced",
     "test": 23,
+    "question_number": 6,
+    "question_code": "ADV-T23-Q06",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1b",
+    "set_position": 6,
+    "context_passage": "The variable cost of widgets as a function of quantity produced is given. Cost = variable cost + fixed cost. Fixed cost is ₹800 for the first shift (up to 30 widgets); if more than 30 are required a second shift is started (produces 30 widgets) with fixed cost ₹1200. Average cost = Total cost / number of widgets; Marginal cost = change in total cost / change in number produced. Variable cost behaves linearly between consecutive plotted points. Variable-cost values: 15 widgets → ₹940; 25 → ₹1800; 30 → ₹2400; 40 → ₹3560; 41 → ₹3700; 50 → ₹5000; 60 → ₹6650.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the approximate average cost of a widget for a production of 40 widgets?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹110"
+      },
+      {
+        "label": "b",
+        "text": "₹140"
+      },
+      {
+        "label": "c",
+        "text": "₹360"
+      },
+      {
+        "label": "d",
+        "text": "₹180"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "40 widgets need 2 shifts: fixed = 800 + 1200 = ₹2000; variable ≈ ₹3560; total = ₹5560; average = 5560/40 ≈ ₹139 ≈ ₹140. Hence option (b).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 7,
+    "question_code": "ADV-T23-Q07",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1b",
+    "set_position": 7,
+    "context_passage": "The variable cost of widgets as a function of quantity produced is given. Cost = variable cost + fixed cost. Fixed cost is ₹800 for the first shift (up to 30 widgets); if more than 30 are required a second shift is started (produces 30 widgets) with fixed cost ₹1200. Average cost = Total cost / number of widgets; Marginal cost = change in total cost / change in number produced. Variable cost behaves linearly between consecutive plotted points. Variable-cost values: 15 widgets → ₹940; 25 → ₹1800; 30 → ₹2400; 40 → ₹3560; 41 → ₹3700; 50 → ₹5000; 60 → ₹6650.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "If the number of widgets produced increases from 40 to 41, what is the approximate marginal cost?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹110"
+      },
+      {
+        "label": "b",
+        "text": "₹135"
+      },
+      {
+        "label": "c",
+        "text": "₹175"
+      },
+      {
+        "label": "d",
+        "text": "₹200"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "From 40 to 41 widgets only the variable cost changes, ₹3560 → ₹3700; marginal cost ≈ ₹140 ≈ ₹135. Hence option (b).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 8,
+    "question_code": "ADV-T23-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1b",
+    "set_position": 8,
+    "context_passage": "The variable cost of widgets as a function of quantity produced is given. Cost = variable cost + fixed cost. Fixed cost is ₹800 for the first shift (up to 30 widgets); if more than 30 are required a second shift is started (produces 30 widgets) with fixed cost ₹1200. Average cost = Total cost / number of widgets; Marginal cost = change in total cost / change in number produced. Variable cost behaves linearly between consecutive plotted points. Variable-cost values: 15 widgets → ₹940; 25 → ₹1800; 30 → ₹2400; 40 → ₹3560; 41 → ₹3700; 50 → ₹5000; 60 → ₹6650.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the approximate total cost of production for 50 widgets?",
+    "options": [
+      {
+        "label": "a",
+        "text": "₹5100"
+      },
+      {
+        "label": "b",
+        "text": "₹7000"
+      },
+      {
+        "label": "c",
+        "text": "₹6250"
+      },
+      {
+        "label": "d",
+        "text": "₹6000"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For 50 widgets fixed cost = ₹2000 (two shifts) and variable cost ≈ ₹5000; total ≈ ₹7000. Hence option (b).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 9,
+    "question_code": "ADV-T23-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1b",
+    "set_position": 9,
+    "context_passage": "The variable cost of widgets as a function of quantity produced is given. Cost = variable cost + fixed cost. Fixed cost is ₹800 for the first shift (up to 30 widgets); if more than 30 are required a second shift is started (produces 30 widgets) with fixed cost ₹1200. Average cost = Total cost / number of widgets; Marginal cost = change in total cost / change in number produced. Variable cost behaves linearly between consecutive plotted points. Variable-cost values: 15 widgets → ₹940; 25 → ₹1800; 30 → ₹2400; 40 → ₹3560; 41 → ₹3700; 50 → ₹5000; 60 → ₹6650.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "If each widget is sold for ₹150, how many widgets give the maximum profit per widget among the following options? (Profit = Sales revenue − Total cost.)",
+    "options": [
+      {
+        "label": "a",
+        "text": "30"
+      },
+      {
+        "label": "b",
+        "text": "15"
+      },
+      {
+        "label": "c",
+        "text": "25"
+      },
+      {
+        "label": "d",
+        "text": "60"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Profit per widget: 25 → 46; 30 → 43.3; 15 → 34; 60 → 19.2. Maximum at 25 widgets. Hence option (c).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
+    "question_number": 10,
+    "question_code": "ADV-T23-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t23-s1b",
+    "set_position": 10,
+    "context_passage": "The variable cost of widgets as a function of quantity produced is given. Cost = variable cost + fixed cost. Fixed cost is ₹800 for the first shift (up to 30 widgets); if more than 30 are required a second shift is started (produces 30 widgets) with fixed cost ₹1200. Average cost = Total cost / number of widgets; Marginal cost = change in total cost / change in number produced. Variable cost behaves linearly between consecutive plotted points. Variable-cost values: 15 widgets → ₹940; 25 → ₹1800; 30 → ₹2400; 40 → ₹3560; 41 → ₹3700; 50 → ₹5000; 60 → ₹6650.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "For a production of less than 60, which of the following is true?",
+    "options": [
+      {
+        "label": "a",
+        "text": "the average cost increases consistently"
+      },
+      {
+        "label": "b",
+        "text": "the average cost decreases consistently"
+      },
+      {
+        "label": "c",
+        "text": "the average cost decreases to a minimum and then increases"
+      },
+      {
+        "label": "d",
+        "text": "the average cost increases to a maximum then decreases"
+      }
+    ],
+    "correct_answer": "c",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "The average cost falls to a minimum around 25 widgets and then rises. Hence option (c).",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Advanced",
+    "test": 23,
     "question_number": 11,
     "question_code": "ADV-T23-Q11",
     "section": "DILR",

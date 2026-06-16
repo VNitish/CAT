@@ -2,6 +2,48 @@
   {
     "tier": "Moderate",
     "test": 14,
+    "question_number": 1,
+    "question_code": "MOD-T14-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/14-s1.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Which of the following are the reasons for Jet Airways not doing well? 1. Rising ATF prices  2. Reduced passenger load  3. Declining service quality  4. Staff travelling to Dubai",
+    "options": [
+      {
+        "label": "a",
+        "text": "1 and 2"
+      },
+      {
+        "label": "b",
+        "text": "2 and 3"
+      },
+      {
+        "label": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "label": "d",
+        "text": "1, 2 and 4"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Only rising ATF prices and reduced passenger load are stated as reasons for Jet Airways not doing well. Hence option (a).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
     "question_number": 2,
     "question_code": "MOD-T14-Q02",
     "section": "DILR",
@@ -97,32 +139,32 @@
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/14-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Staff travelling to Dubai",
+    "question_text": "The average indices of input use from 2000 to 2004 for farm labour, durable equipment and energy, in their increasing order, can be arranged as:",
     "options": [
       {
         "label": "a",
-        "text": "1 and 2"
+        "text": "farm labour, durable equipment, energy"
       },
       {
         "label": "b",
-        "text": "2 and 3"
+        "text": "durable equipment, energy, farm labour"
       },
       {
         "label": "c",
-        "text": "1, 2 and 3"
+        "text": "durable equipment, farm labour, energy"
       },
       {
         "label": "d",
-        "text": "1, 2 and 4"
+        "text": "energy, durable equipment, farm labour"
       }
     ],
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Table presents the farm data for the years 2000 to 2004. Right hand side of the table has the index for input Average of farm labor indices 102 + 106 + 100 + 96 + 96 = = 100. And so on. 5 Similarly average indices for other can also be calculated. Hence option (c) is the answer.",
+    "explanation": "Average of farm labour indices = (102 + 106 + 100 + 96 + 96)/5 = 100; computing the others similarly gives the increasing order durable equipment < farm labour < energy. Hence option (c).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -250,5 +292,131 @@
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
     "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 8,
+    "question_code": "MOD-T14-Q08",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 8,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "What is the least number of members who have 3 to 5 children and have gone to at least one of the destinations?",
+    "options": [
+      {
+        "label": "a",
+        "text": "225"
+      },
+      {
+        "label": "b",
+        "text": "275"
+      },
+      {
+        "label": "c",
+        "text": "100"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In the 3-to-5-children category, 275 members went to Goa; the 225 who went to Kashmir may overlap. Minimum = 275. Hence option (b).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 9,
+    "question_code": "MOD-T14-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 9,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Minimum number of members for all the categories who have gone to at least one of the destinations is:",
+    "options": [
+      {
+        "label": "a",
+        "text": "385"
+      },
+      {
+        "label": "b",
+        "text": "375"
+      },
+      {
+        "label": "c",
+        "text": "305"
+      },
+      {
+        "label": "d",
+        "text": "315"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "80 (less than 3 children, Kashmir) + 275 (3-to-5, Goa) + 30 (more than 5, Kashmir) = 385. Hence option (a).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Moderate",
+    "test": 14,
+    "question_number": 10,
+    "question_code": "MOD-T14-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t14-s3",
+    "set_position": 10,
+    "context_passage": "![data set 3](/di/mod/14-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "How many of the members have definitely not gone to any of the two destinations?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0"
+      },
+      {
+        "label": "b",
+        "text": "10"
+      },
+      {
+        "label": "c",
+        "text": "25"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "In the 'less than 3 children' category at least 150 − (80 + 60) = 10 members went to neither destination. Hence option (b).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
   }
 ]

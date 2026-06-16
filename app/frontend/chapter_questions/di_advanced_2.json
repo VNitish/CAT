@@ -723,9 +723,9 @@
     "answer_format": "option",
     "topic": "Data Interpretation",
     "subtopic": "",
-    "set_id": "adv-t21-s4",
+    "set_id": "adv-t21-s5",
     "set_position": 4,
-    "context_passage": "![data set 4](/di/adv/21-s4.png)",
+    "context_passage": "![data set 5](/di/adv/21-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is not correct?",
     "options": [
@@ -752,8 +752,50 @@
     "explanation": "",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
+  },
+  {
+    "tier": "Advanced",
+    "test": 21,
+    "question_number": 19,
+    "question_code": "ADV-T21-Q19",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "adv-t21-s5",
+    "set_position": 19,
+    "context_passage": "![data set 5](/di/adv/21-s5.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "A few of the statements given is/are right and a few is/are wrong. What is the ratio of the right to the wrong among the following statements? I. Total salaries & wages for 2005-2007 as a percentage of total sales of the same period was the highest for the iron and steel sector. II. In 2007, ranking companies in descending order by salaries & wages as a percentage of sales, Videocon International would be ranked the lowest. III. In 2006, ranking companies in descending order by R&D as a percentage of sales, Bharat Electronics would be ranked third. IV. Of all companies that made profits every year during 2005-2007, Wipro registered the highest growth in profits.",
+    "options": [
+      {
+        "label": "a",
+        "text": "3:1"
+      },
+      {
+        "label": "b",
+        "text": "1:1"
+      },
+      {
+        "label": "c",
+        "text": "1:3"
+      },
+      {
+        "label": "d",
+        "text": "All the statements are correct"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Advanced",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
   },
   {
     "tier": "Advanced",
@@ -767,7 +809,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s5",
     "set_position": 3,
-    "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
+    "context_passage": "![data set 5](/di/adv/21-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the statements given below is/are correct? I. Salaries and wages of each company in the iron and steel sector were up to 13 times its losses reported in each of the loss-making years. II. Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period was minimum for the pharmaceutical sector. III. Total salaries and wages during 2005-2007 as a percentage of the total sales in the same period for only two companies exceeded 20 per cent. IV. Total profits/Total sales for all the four sectors taken together was higher in 2006 than in 2005.",
     "options": [
@@ -809,7 +851,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s5",
     "set_position": 4,
-    "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
+    "context_passage": "![data set 5](/di/adv/21-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following statements is incorrect?",
     "options": [
@@ -851,7 +893,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s5",
     "set_position": 5,
-    "context_passage": "Unless otherwise stated, all changes (increases, decreases) indicated in the questions must be calculated over the immediately preceding year.",
+    "context_passage": "![data set 5](/di/adv/21-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "How many of the situations described in the options below, when plotted closely resemble the figure? I. Raymond Limited ‘s share in the total sales of the textile sector II. Tata Steel’s share in the total sales of the iron and steel sector III. Glaxo Smithkline Ltd’s salaries and wages as a percentage of sales IV. Raymond Limited’s profit as a percentage of sales",
     "options": [
@@ -893,7 +935,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s6",
     "set_position": 1,
-    "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
+    "context_passage": "![data set 6](/di/adv/21-s6.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 20th Jan 07 over the previous given day?",
     "options": [
@@ -935,7 +977,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s6",
     "set_position": 2,
-    "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
+    "context_passage": "![data set 6](/di/adv/21-s6.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 27th Jan 07 over the previous given day?",
     "options": [
@@ -977,7 +1019,7 @@
     "subtopic": "",
     "set_id": "adv-t21-s6",
     "set_position": 3,
-    "context_passage": "Inflation is calculated on the basis of the wholesale price index. This index contains three groups of articles– Manufactured products, Primary articles and Others. Following table represents the weightage of these three groups while calculating the inflation: Manufactured Products Primary Articles Others Weightage",
+    "context_passage": "![data set 6](/di/adv/21-s6.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the rate of inflation on 28th Jan 06 over the previous given day?",
     "options": [

@@ -632,6 +632,52 @@
   {
     "tier": "Foundation",
     "test": 2,
+    "question_number": 16,
+    "question_code": "FND-T2-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t2-s3",
+    "set_position": 16,
+    "context_passage": "![data set 3](/di/fnd/2-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "If the government has a fixed capital of $200 million in the Iron & Steel industry, which corresponds to 20.012% of its total investment as fixed capital, then how much did the government invest (in ₹ million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1 US $ = ₹45)",
+    "options": [
+      {
+        "label": "a",
+        "text": "6500"
+      },
+      {
+        "label": "b",
+        "text": "2500"
+      },
+      {
+        "label": "c",
+        "text": "143"
+      },
+      {
+        "label": "d",
+        "text": "145"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "If 20% of govt. fixed capital = $200 million, total govt.-sector fixed capital = $1000 m. 25% of govt. investment in the joint sector works out to ≈ $143 million; in ₹: 143 × 45 ≈ ₹6500 million. Hence option (a).",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Foundation",
+    "test": 2,
     "question_number": 17,
     "question_code": "FND-T2-Q17",
     "section": "DILR",
@@ -769,32 +815,36 @@
     "set_position": 2,
     "context_passage": "![data set 4](/di/fnd/2-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "012% of its total investment as fixed capital, then how much did the government invest (in ₹million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1US $ = ₹45)",
+    "question_text": "Which of the following amount was spent by one of them?",
     "options": [
       {
         "label": "a",
-        "text": "6500"
+        "text": "₹1139"
       },
       {
         "label": "b",
-        "text": "2500"
+        "text": "₹1378"
       },
       {
         "label": "c",
-        "text": "143"
+        "text": "₹2571"
       },
       {
         "label": "d",
-        "text": "145"
+        "text": "₹2718"
+      },
+      {
+        "label": "e",
+        "text": "None of these"
       }
     ],
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "explanation": "Working through the spending conditions, the amounts are Archana 2234, Chellamma 1139, Dhenuka 1193, Helen 1340, Shahnaz 2517. So ₹1139 was spent by one of them. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {

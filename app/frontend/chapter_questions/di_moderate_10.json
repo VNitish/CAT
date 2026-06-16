@@ -347,7 +347,7 @@
     "subtopic": "",
     "set_id": "mod-t18-s4",
     "set_position": 1,
-    "context_passage": "![data set 4](/di/mod/18-s4.png)",
+    "context_passage": "An organisation has to appoint five of the six elected members A, B, C, D, E and F to portfolios of Home, Power, Defense, Telecom and Finance. F does not want any portfolio if D gets one of the five. C wants either Home or Finance or no portfolio. B says that if D gets either Power or Telecom then she must get the other one. E insists on a portfolio if A gets one.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which is valid assignment?",
     "options": [
@@ -374,7 +374,7 @@
     "explanation": "Go through options: (a) is eliminated because C can have either home or finance. (c) is eliminated because F and D cannot be in the same team (d) is eliminated because C cannot have telecom portfolio Hence (b) is correct.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -389,7 +389,7 @@
     "subtopic": "",
     "set_id": "mod-t18-s4",
     "set_position": 2,
-    "context_passage": "![data set 4](/di/mod/18-s4.png)",
+    "context_passage": "An organisation has to appoint five of the six elected members A, B, C, D, E and F to portfolios of Home, Power, Defense, Telecom and Finance. F does not want any portfolio if D gets one of the five. C wants either Home or Finance or no portfolio. B says that if D gets either Power or Telecom then she must get the other one. E insists on a portfolio if A gets one.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "If A gets Home and C gets Finance, then which is NOT a valid assignment of defense and Telecom?",
     "options": [
@@ -416,7 +416,7 @@
     "explanation": "B-Defence, D-Telecom because if D gets Telecom then B must get power.",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

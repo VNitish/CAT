@@ -338,6 +338,86 @@
   {
     "tier": "Moderate",
     "test": 19,
+    "question_number": 9,
+    "question_code": "MOD-T19-Q09",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t19-s5",
+    "set_position": 9,
+    "context_passage": "An automobile company makes two models of cars, C1 and C2, giving profits of ₹3600 and ₹5400 per unit respectively. Monthly resources: 48000 labour hours; 20000 doors (left and right doors are identical and interchangeable, used by both cars). C1 is a four-door car and C2 a two-door car. It takes 6 labour hours to assemble C1 and 10.5 hours to assemble C2. Demand for C2 is limited to 3500 per month; demand for C1 is unlimited.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "How many C1 and C2 respectively should be produced in this particular month?",
+    "options": [
+      {
+        "label": "a",
+        "text": "3800, 2400"
+      },
+      {
+        "label": "b",
+        "text": "2400, 3800"
+      },
+      {
+        "label": "c",
+        "text": "3100, 3100"
+      },
+      {
+        "label": "d",
+        "text": "4400, 1800"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Moderate",
+    "test": 19,
+    "question_number": 10,
+    "question_code": "MOD-T19-Q10",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t19-s5",
+    "set_position": 10,
+    "context_passage": "An automobile company makes two models of cars, C1 and C2, giving profits of ₹3600 and ₹5400 per unit respectively. Monthly resources: 48000 labour hours; 20000 doors (left and right doors are identical and interchangeable, used by both cars). C1 is a four-door car and C2 a two-door car. It takes 6 labour hours to assemble C1 and 10.5 hours to assemble C2. Demand for C2 is limited to 3500 per month; demand for C1 is unlimited.",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Sales dept. knows that it can raise the demand of C2 by 20% by spending a mere sum of ₹1,00,000. Should the company go through this expenditure?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Yes"
+      },
+      {
+        "label": "b",
+        "text": "No"
+      },
+      {
+        "label": "c",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Moderate",
+    "test": 19,
     "question_number": 11,
     "question_code": "MOD-T19-Q11",
     "section": "DILR",

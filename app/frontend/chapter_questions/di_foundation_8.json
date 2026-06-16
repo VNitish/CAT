@@ -590,6 +590,132 @@
   {
     "tier": "Foundation",
     "test": 8,
+    "question_number": 15,
+    "question_code": "FND-T8-Q15",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s4",
+    "set_position": 15,
+    "context_passage": "![data set 4](/di/fnd/8-s4.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "In each question there are two statements, A and B, either of which can be true or false on the basis of the data given. Statement A: The success rate of moving from written test to interview stage for males was worse than for females in 2003. Statement B: The success rate of moving from written test to interview stage for females was better in 2002 than in 2003.",
+    "options": [
+      {
+        "label": "a",
+        "text": "if only A is true"
+      },
+      {
+        "label": "b",
+        "text": "if only B is true"
+      },
+      {
+        "label": "c",
+        "text": "if both A and B are true"
+      },
+      {
+        "label": "d",
+        "text": "if neither A nor B is true"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 16,
+    "question_code": "FND-T8-Q16",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s4",
+    "set_position": 16,
+    "context_passage": "![data set 4](/di/fnd/8-s4.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Statement A: In 2002, the number of females selected for the course as a proportion of the number of females who bought application forms was higher than the corresponding proportion for males. Statement B: In 2002, among those called for interview, males had a greater success rate than females.",
+    "options": [
+      {
+        "label": "a",
+        "text": "if only A is true"
+      },
+      {
+        "label": "b",
+        "text": "if only B is true"
+      },
+      {
+        "label": "c",
+        "text": "if both A and B are true"
+      },
+      {
+        "label": "d",
+        "text": "if neither A nor B is true"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
+    "question_number": 17,
+    "question_code": "FND-T8-Q17",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "fnd-t8-s4",
+    "set_position": 17,
+    "context_passage": "![data set 4](/di/fnd/8-s4.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Statement A: The percentage of absentees in the written test among females decreased from 2002 to 2003. Statement B: The percentage of absentees in the written test among males was larger than among females in 2003.",
+    "options": [
+      {
+        "label": "a",
+        "text": "if only A is true"
+      },
+      {
+        "label": "b",
+        "text": "if only B is true"
+      },
+      {
+        "label": "c",
+        "text": "if both A and B are true"
+      },
+      {
+        "label": "d",
+        "text": "if neither A nor B is true"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "",
+    "difficulty": "Foundation",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "removed": false,
+    "verified": true
+  },
+  {
+    "tier": "Foundation",
+    "test": 8,
     "question_number": 18,
     "question_code": "FND-T8-Q18",
     "section": "DILR",
