@@ -2,6 +2,132 @@
   {
     "tier": "Moderate",
     "test": 10,
+    "question_number": 1,
+    "question_code": "MOD-T10-Q01",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t10-s1",
+    "set_position": 1,
+    "context_passage": "![data set 1](/di/mod/10-s1.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "For meeting the demand of 200 units of finished table of week 4, when would the first order of tabletops be placed?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Week 1"
+      },
+      {
+        "label": "b",
+        "text": "Week 3"
+      },
+      {
+        "label": "c",
+        "text": "Week 5"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each table needs 1 tabletop. For 200 tables in week 4, 50 finished tables and 50 tabletops are already in stock, so 100 more tabletops are needed. Lead time for a tabletop = purchase (2 weeks) + assemble table (1 week) = 3 weeks, so the order must be placed in week 4 − 3 = week 1. Hence (a).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 10,
+    "question_number": 2,
+    "question_code": "MOD-T10-Q02",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t10-s1",
+    "set_position": 2,
+    "context_passage": "![data set 1](/di/mod/10-s1.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Keeping in mind the inventory, how many legs should be ordered for meeting the demand of week 4 finished tables?",
+    "options": [
+      {
+        "label": "a",
+        "text": "200"
+      },
+      {
+        "label": "b",
+        "text": "50"
+      },
+      {
+        "label": "c",
+        "text": "400"
+      },
+      {
+        "label": "d",
+        "text": "800"
+      }
+    ],
+    "correct_answer": "b",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "For 200 finished tables in week 4, 50 are in stock, so 150 must be made, needing 150 × 4 = 600 legs. Available legs = 100 leg assemblies × 4 (= 400) + 150 spare legs = 550. So 600 − 550 = 50 legs must be ordered. Hence (b).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 10,
+    "question_number": 3,
+    "question_code": "MOD-T10-Q03",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t10-s1",
+    "set_position": 3,
+    "context_passage": "![data set 1](/di/mod/10-s1.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "Keeping in mind the inventory, when and how many units of short rail would be placed for meeting the demand of finished table of week 6?",
+    "options": [
+      {
+        "label": "a",
+        "text": "100 units in week 1"
+      },
+      {
+        "label": "b",
+        "text": "200 units in week 3"
+      },
+      {
+        "label": "c",
+        "text": "300 units in week 6"
+      },
+      {
+        "label": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct_answer": "d",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Working back through the lead times and netting off the available stock (50 short rails, the existing leg assemblies, etc.) for the week-6 demand, none of the given quantity/timing combinations is correct. Hence (d).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 10,
     "question_number": 4,
     "question_code": "MOD-T10-Q04",
     "section": "DILR",
@@ -13,7 +139,7 @@
     "set_position": 1,
     "context_passage": "![data set 2](/di/mod/10-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "In 2009, what is the quantity of tea that can be bought for ₹2,000?",
+    "question_text": "In 2009, what is the quantity of tea that can be bought for ₹1,000?",
     "options": [
       {
         "label": "a",
@@ -35,10 +161,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Line charts are typically used for trend analysis for chronological data. A clear trend of price change can be seen through the line chart—with a word of caution because gap in number of years between two data point is not same. Table given below presents the index value for Beverages, based upon the data from line chart, and two other items. As stated in the first line, you may expect questions which ask to compare the trends of different items across the years. Solution and Explanation for 4 to 7 This question needs a simple calculation. Price per kg of tea in 2009 = ₹170/kg. Hence quantity",
+    "explanation": "Tea costs ₹170/kg in 2009, so ₹1,000 buys 1000/170 ≈ 5.88 kg. Hence (b).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -77,10 +203,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Line charts are typically used for trend analysis for chronological data. A clear trend of price change can be seen through the line chart—with a word of caution because gap in number of years between two data point is not same. Table given below presents the index value for Beverages, based upon the data from line chart, and two other items. As stated in the first line, you may expect questions which ask to compare the trends of different items across the years. Solution and Explanation for 4 to 7 Question is asking for change, and not increase or decrease. So we are required to work upon wit",
+    "explanation": "Change per year in Coffee-A price: 2000–05 = 75/5 = 15, 2005–07 = 105/2 = 52.5, 2007–08 = 80, 2008–09 = 65. The lowest is in 2000–05. Hence (a).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -119,10 +245,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Line charts are typically used for trend analysis for chronological data. A clear trend of price change can be seen through the line chart—with a word of caution because gap in number of years between two data point is not same. Table given below presents the index value for Beverages, based upon the data from line chart, and two other items. As stated in the first line, you may expect questions which ask to compare the trends of different items across the years. Solution and Explanation for 4 to 7 Index has the following pattern: Increase – Increase – Decrease – Decrease Only Coffee Quality A",
+    "explanation": "The beverage index runs 100→127→158→135→104, i.e. increase–increase–decrease–decrease. Only Coffee-A follows this pattern; Coffee-B and Tea do not. The ones NOT in conformity are II and III. Hence (d).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -161,10 +287,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Line charts are typically used for trend analysis for chronological data. A clear trend of price change can be seen through the line chart—with a word of caution because gap in number of years between two data point is not same. Table given below presents the index value for Beverages, based upon the data from line chart, and two other items. As stated in the first line, you may expect questions which ask to compare the trends of different items across the years. Solution and Explanation for 4 to 7 Beverages Index in the year 2000 = 100 Beverages Index in the year 2009 = 104. So there is a ris",
+    "explanation": "From 2000 to 2009, Coffee-A rose (200→235), Coffee-B stayed at 120, and Tea fell (200→170). Only Coffee-A rose, so it contributes most to the rise in the index. Hence (c).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -203,10 +329,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Table provides percentage share (or composition) of Factories, Employment, Fixed Capital, Variable cost and Value added among four sectors viz. Government sector, Public sector, Private sector and Joint sector. Key point here is to understand that Government sector is broken down into three sub sectors. For all the data given in Government sector, corresponding data for sub sectors is provided in the bar chart. Solution and Explanations for 8 to 11 Value Added Value addition per worker = No. of Employes Total value added = ₹225 million and Total work force = 76 million. We go by the options an",
+    "explanation": "Value addition per worker = (Value Added %)/(Employment %): Central 10/6 ≈ 1.67, State 3/6 = 0.5, Central/State 12/3 = 4.0, Public 8/8 = 1.0. The maximum is Central/State. Hence (c).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -245,10 +371,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Table provides percentage share (or composition) of Factories, Employment, Fixed Capital, Variable cost and Value added among four sectors viz. Government sector, Public sector, Private sector and Joint sector. Key point here is to understand that Government sector is broken down into three sub sectors. For all the data given in Government sector, corresponding data for sub sectors is provided in the bar chart. Solution and Explanations for 8 to 11 Value Added Using the method given in A1: Fixed capital per factory will be proportional to the following ratios: Central 5/8 State 4/4 Central/sta",
+    "explanation": "Fixed capital per factory = (Fixed Capital %)/(Factories %): Central 5/8 = 0.63, State 4/4 = 1.0, Central/State 5/6 = 0.83, Public 6/12 = 0.5. The maximum is State. Hence (b).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -287,10 +413,52 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Table provides percentage share (or composition) of Factories, Employment, Fixed Capital, Variable cost and Value added among four sectors viz. Government sector, Public sector, Private sector and Joint sector. Key point here is to understand that Government sector is broken down into three sub sectors. For all the data given in Government sector, corresponding data for sub sectors is provided in the bar chart. Solution and Explanations for 8 to 11 Value Added If the variables are proportional to the number of employees and the production per employee, then we can say that the variable cost is",
+    "explanation": "Production tracks the number of employees and output per employee; the Private sector has by far the largest employment (65%) and value added (62%), so its production is highest. Hence (b).",
     "difficulty": "Moderate",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
+    "removed": false
+  },
+  {
+    "tier": "Moderate",
+    "test": 10,
+    "question_number": 11,
+    "question_code": "MOD-T10-Q11",
+    "section": "DILR",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "topic": "Data Interpretation",
+    "subtopic": "",
+    "set_id": "mod-t10-s3",
+    "set_position": 4,
+    "context_passage": "![data set 3](/di/mod/10-s3.png)",
+    "directions": "Go through the data set given below and solve the questions based on it.",
+    "question_text": "If the government has a fixed capital of \\$200 million in the Iron & Steel industry, which corresponds to 20.012% of its total investment as fixed capital, then how much did the government invest (in ₹ million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1 US \\$ = ₹45)",
+    "options": [
+      {
+        "label": "a",
+        "text": "7860"
+      },
+      {
+        "label": "b",
+        "text": "2500"
+      },
+      {
+        "label": "c",
+        "text": "143"
+      },
+      {
+        "label": "d",
+        "text": "145"
+      }
+    ],
+    "correct_answer": "a",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Government fixed capital in Iron & Steel = \\$200 million ≈ 20% of its fixed capital ⇒ government fixed capital ≈ \\$1000 million. That is 14% of the economy’s total fixed capital ⇒ total ≈ \\$7143 million; the joint sector (8%) ≈ \\$571 million, and Maruti (25% of the joint sector) ≈ \\$143 million ≈ ₹6,400 million. Hence (a).",
+    "difficulty": "Moderate",
+    "source": "Nishit Sinha LRDI (Pearson, 6e)",
+    "verified": true,
     "removed": false
   }
 ]
