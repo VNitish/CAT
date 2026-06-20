@@ -39,10 +39,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of men working in the Marketing department 18 7 = 1800 × × = 189 100 12 Hence option (d) is the answer.",
+    "explanation": "Marketing department total = 1800 × 18/100 = 324. Men : Women = 7 : 5, so men = 324 × 7/12 = 189. Hence option (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -85,10 +85,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "1 × 100",
+    "explanation": "IT department total = 1800 × 23/100 = 414. Men : Women = 5 : 4, so women = 414 × 4/9 = 184. As a percentage of all employees = 184/1800 × 100 ≈ 10.2% ≈ 10. Hence option (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -131,10 +131,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 3:4. Hence option (a) is the answer.",
+    "explanation": "In HR, Men : Women = 1 : 3, so women make up 3 of every 4 employees. Required ratio (women : total) = 3 : 4. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -177,10 +177,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 2:9. Hence option (c) is the answer. 11",
+    "explanation": "In Accounts, Men : Women = 2 : 7, so men make up 2 of every 9 employees. Required ratio (men : total) = 2 : 9. Hence option (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -223,10 +223,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 91.67. Hence 12 option (b) is the answer.",
+    "explanation": "In Production, Men : Women = 11 : 1, so men make up 11 of every 12 employees. Required percentage = 11/12 × 100 = 91.67%. Hence option (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -269,10 +269,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "If the expenditure be ₹X lacs, then × 100 =9",
+    "explanation": "Per cent profit of Company R in 2008 = 9%. Profit ₹18.9 lakhs = 9% of expenditure ⟹ expenditure = 18.9 ÷ 0.09 = ₹210 lakhs. Income = expenditure + profit = 210 + 18.9 = ₹228.9 lakhs. Hence option (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -315,10 +315,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Percentage increase = × 100 = 40 10 Hence option (e) is the answer.",
+    "explanation": "Per cent profit of Company T: 10 in 2004 and 14 in 2009. Percentage rise = (14 − 10)/10 × 100 = 40%, which is not listed. Hence option (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -355,16 +355,16 @@
       },
       {
         "label": "e",
-        "text": "₹None of these"
+        "text": "None of these"
       }
     ],
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required expenditure of the company = = 7 ₹30 lacs. Hence option (a) is the answer. 7 + 8 + 13 + 14 + 15 + 15",
+    "explanation": "Per cent profit of Company P in 2007 = 7%. Profit ₹2.1 lakhs = 7% of expenditure ⟹ expenditure = 2.1 ÷ 0.07 = ₹30 lakhs. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -407,10 +407,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average per cent profit = = 6 12%. Hence option (c) is the answer.  9 + 5 + 8 + 12 + 6 ",
+    "explanation": "Per cent profit of Company S over the years = 7, 8, 13, 14, 15, 15. Average = (7 + 8 + 13 + 14 + 15 + 15)/6 = 72/6 = 12. Hence option (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -453,10 +453,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required difference = 10 –   =  5  10% – 8% = 2%. Hence option (b) is the answer.",
+    "explanation": "Company Q in 2005 = 10. Remaining companies in 2005 (P, R, S, T, U) = 9, 5, 8, 12, 6, with average = 40/5 = 8. Difference = 10 − 8 = 2. Hence option (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -473,7 +473,7 @@
     "set_position": 1,
     "context_passage": "![data set 3](/di/fnd/1-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "The number of tickets to movie B sold in Hyderabad was approximatelywhat percentage of the total number of tickets of the same movie sold in all the cities together?",
+    "question_text": "The number of tickets to movie B sold in Hyderabad was approximately what percentage of the total number of tickets of the same movie sold in all the cities together?",
     "options": [
       {
         "label": "a",
@@ -499,10 +499,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "3 + 6 + 1 8 + 1 + 1.5",
+    "explanation": "Tickets of movie B in Hyderabad = 34 (thousand). Total B sold across all cities = 15 + 19 + 24 + 21 + 34 + 27 = 140. Required percentage = 34/140 × 100 ≈ 24. Hence option (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -545,10 +545,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required difference = (27000 – 21000) = 6000. Hence option (e) is the answer.",
+    "explanation": "Movie D in Kolkata = 21 thousand = 21,000; movie B in Lucknow = 27 thousand = 27,000. Difference = 6,000, which is not listed. Hence option (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -591,10 +591,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average number of tickets of movie C sold in all  35 + 21 + 19 + 32 + 26 + 20  the cities =   thousand  6  153 = thousand = 25500. Hence option (d) is the 6 answer. 34",
+    "explanation": "Movie C across the six cities = 35 + 21 + 19 + 32 + 26 + 20 = 153 (thousand). Average = 153/6 = 25.5 thousand = 25,500. Hence option (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -637,10 +637,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 170. 20 Hence option (a) is the answer.",
+    "explanation": "Movie E in Chennai = 34; movie A in Mumbai = 20. Required percentage = 34/20 × 100 = 170%. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -683,10 +683,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of tickets sold of all the movies together: Mumbai S (20 + 15 + 35 + 26 + 18) thousand = 114 thousand Delhi S (17 + 19 + 21 + 25 + 28) thousand = 110 thousand Kolkata S (32 + 24 + 19 + 21 + 17) thousand = 113 thousand Chennai S (18 + 21 + 32 + 28 + 34) thousand = 133 thousand Hyderabad S (16 + 34 + 26 + 29 + 22) thousand = 127 thousand Lucknow S (15 + 27 + 20 + 35 + 26) thousand = 123 thousand Hence option (a) is the answer.",
+    "explanation": "City totals (thousands): Mumbai 114, Delhi 110, Kolkata 113, Chennai 133, Hyderabad 127, Lucknow 123. The minimum is Delhi. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -729,10 +729,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 7.5. Hence 12 option (e) is the answer.",
+    "explanation": "Mimicry shows in city M = 0.9; drama shows in city O = 12 (both in hundreds). Required percentage = 0.9/12 × 100 = 7.5%, which is not listed. Hence option (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -775,10 +775,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required average = × 100 5 3780 = = 756. 5 Hence option (a) is the answer.",
+    "explanation": "Entertainment shows in city P = 11.3 + 6 + 18 + 1 + 1.5 = 37.8 (hundreds). Average over the 5 categories = 37.8/5 = 7.56 hundred = 756. Hence option (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -799,19 +799,19 @@
     "options": [
       {
         "label": "a",
-        "text": "2.602"
+        "text": "2,602"
       },
       {
         "label": "b",
-        "text": "2.667"
+        "text": "2,667"
       },
       {
         "label": "c",
-        "text": "2.540"
+        "text": "2,540"
       },
       {
         "label": "d",
-        "text": "2.605"
+        "text": "2,605"
       },
       {
         "label": "e",
@@ -821,10 +821,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of music shows in cities N and Q = 105% of 105 (13 + 12.4) = 25.4 × = 2667. Hence option (b) 100 is the answer.",
+    "explanation": "Music shows in N and Q = 13 + 12.4 = 25.4 (hundreds). Increased by 5% = 25.4 × 1.05 = 26.67 hundred = 2,667. Hence option (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -867,10 +867,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 12.4:9.8 = 124:98 = 62:49. Hence option (d) is the answer.",
+    "explanation": "Dance shows in city N = 12.4; drama shows in city R = 9.8. Required ratio = 12.4 : 9.8 = 124 : 98 = 62 : 49. Hence option (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -913,10 +913,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of standup comedy shows = (0.8 + 2 +",
+    "explanation": "Standup comedy shows across all cities = 0.8 + 2 + 0.3 + 1 + 3 + 0.7 = 7.8 (hundreds) = 780. Hence option (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

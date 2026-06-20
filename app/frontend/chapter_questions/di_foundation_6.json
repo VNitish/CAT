@@ -39,10 +39,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "42 Required percentage = × 100 = 9% 490 Hence option (a) is the answer.",
+    "explanation": "Muslim members in Lok Sabha = 42; total Lok Sabha = 490. 42/490 × 100 ≈ 9%. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -85,10 +85,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "42 Required ratio = (120 – 30) : (30 + 30) = 90:60 = 3:2 Hence option (b) is the answer.",
+    "explanation": "In Rajya Sabha, males become 120 − 30 = 90 and females 30 + 30 = 60. Ratio 90:60 = 3:2. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -131,10 +131,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "42 Number of businessmen = 45 + 19 = 64 64 Hence required percentage = × 100 = 10% 100 Hence option (e) is the answer.",
+    "explanation": "Businessmen = 45 (Lok Sabha) + 19 (Rajya Sabha) = 64; total members = 640. 64/640 × 100 = 10%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -177,10 +177,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "42 Required ratio = 280 : (180 + 30) = 280:210 = 4:3 Hence option (c) is the answer.",
+    "explanation": "If the 30 \"Others\" of Lok Sabha join B, then A = 280 and B = 180 + 30 = 210. Ratio 280:210 = 4:3. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -223,10 +223,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "42 Required percentage = ( ) × 100 180 + 45 45 = × 100 = 20% 225 Hence option (d) is the answer.",
+    "explanation": "Party B total = 180 + 45 = 225; Rajya Sabha share = 45/225 × 100 = 20%. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -263,16 +263,16 @@
       },
       {
         "label": "e",
-        "text": "₹None of these"
+        "text": "None of these"
       }
     ],
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Farmer A’s earnings = ₹(350 × 30 + 150 × 22.5 + 250 × 18) = ₹(10500 + 3375 + 4500) = ₹18375 Hence option (d) is the answer.  22 + 24.5 + 21 + 28 + 30 ",
+    "explanation": "Farmer A: 350×30 + 150×22.5 + 250×18 = 10500 + 3375 + 4500 = ₹18,375. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -315,10 +315,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average price of Bajra = ₹    5  per kg = ₹25.10 per kg Hence option (a) is the answer.",
+    "explanation": "Average Bajra price = (22 + 24.5 + 21 + 28 + 30)/5 = 125.5/5 = ₹25.10. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -361,10 +361,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 240 × 28 : 240 × 30 = 14:15 Hence option (c) is the answer.",
+    "explanation": "D and E sell 240 kg of Bajra at ₹28 and ₹30: earnings 240×28 = 6720 and 240×30 = 7200. Ratio 6720:7200 = 14:15. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -407,10 +407,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Farmer C’s earnings = ₹(180 × 24 + 180 × 26 + 180 × 20.5) = ₹180(24 + 26 + 20.5) = ₹(180 × 70.5) = ₹12690 Hence option (d) is the answer. 25",
+    "explanation": "Farmer C, 180 kg each of Corn (24), Paddy (26), Jowar (20.5): 180 × (24+26+20.5) = 180 × 70.5 = ₹12,690. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -453,10 +453,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 69 36 Hence option (b) is the answer.",
+    "explanation": "Farmer B, 150 kg: Paddy (25) earns 3750, Rice (36) earns 5400. 3750/5400 × 100 ≈ 69%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -471,7 +471,7 @@
     "subtopic": "",
     "set_id": "fnd-t6-s3",
     "set_position": 1,
-    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "context_passage": "![data set 3](/di/fnd/6-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the total number of adult females in colonies A, B and C together?",
     "options": [
@@ -499,10 +499,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of adult females in colonies A, B and C  1250 × 36 2050 × 30 1800 × 42  together =  + + +   100 100 100  = (450 + 615 + 756) = 1821 Hence option (b) is the answer. 1250 × 30",
+    "explanation": "Adult females = females% × residents: A 36%×1250 = 450, B 30%×2050 = 615, C 42%×1800 = 756. Total = 1821. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -517,9 +517,9 @@
     "subtopic": "",
     "set_id": "fnd-t6-s3",
     "set_position": 2,
-    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "context_passage": "![data set 3](/di/fnd/6-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "The number of children in colony A are approxi- mately what per cent of the number of children in colony E?",
+    "question_text": "The number of children in colony A are approximately what per cent of the number of children in colony E?",
     "options": [
       {
         "label": "a",
@@ -545,10 +545,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of children in colony A = = 375 100 1620 × 30 Number of children in colony E = = 324 100 375 Required percentage = × 100 = 116 324 Hence option (b) is the answer.",
+    "explanation": "Children in A = 30%×1250 = 375; in E = 20%×1620 = 324. 375/324 × 100 ≈ 116%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -563,7 +563,7 @@
     "subtopic": "",
     "set_id": "fnd-t6-s3",
     "set_position": 3,
-    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "context_passage": "![data set 3](/di/fnd/6-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the respective ratio of the number of adult males to the number of adult females in colony B?",
     "options": [
@@ -591,10 +591,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 50:30 = 5:3 Hence option (e) is the answer.",
+    "explanation": "Colony B: males 50%, females 30%. Ratio 50:30 = 5:3, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -609,7 +609,7 @@
     "subtopic": "",
     "set_id": "fnd-t6-s3",
     "set_position": 4,
-    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "context_passage": "![data set 3](/di/fnd/6-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the average number of residents from all the colonies together?",
     "options": [
@@ -637,10 +637,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average number of residents from all the colonies 1250 + 2050 + 1800 + 1150 + 1620 7870 together = = 5 5 = 1574 Hence option (d) is the answer.",
+    "explanation": "Average residents = (1250 + 2050 + 1800 + 1150 + 1620)/5 = 7870/5 = 1574. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -655,7 +655,7 @@
     "subtopic": "",
     "set_id": "fnd-t6-s3",
     "set_position": 5,
-    "context_passage": "Following bar chart provides the percentage of Adult Males, Adult Females and Children out of total population in five colonies A, B, C, D and E: 34 50 28 30 50 36 30 42 36 30 30 20 30 26 20 0 10 20 30 40 50 60 A B C D E Males Females Children Total number of Residents in these Colonies Colonies Residents A 1250 B 2050 C 1800 D 1150 E 1620",
+    "context_passage": "![data set 3](/di/fnd/6-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What is the difference between the number of adult males and the number of children in colony D?",
     "options": [
@@ -683,10 +683,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required difference = (38 – 26)% of 1150 12 × 1150 = = 138 100 Hence option (a) is the answer.",
+    "explanation": "Colony D (residents 1150): males = 38%×1150 = 437, children = 26%×1150 = 299. Difference = 437 − 299 = 138. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -703,7 +703,7 @@
     "set_position": 1,
     "context_passage": "![data set 4](/di/fnd/6-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "What is the ratio between male employees in Admini­ stration and Printing Departments respectively?",
+    "question_text": "What is the ratio between male employees in Administration and Printing Departments respectively?",
     "options": [
       {
         "label": "a",
@@ -729,10 +729,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of employees in administration 2500 × 12 department = = 300 100 7 Number of male employees = × 300 = 175 12 Total number of employees in printing department 2500 × 6 = = 150 100 2 Number of male employees = × 150 = 100 3 Therefore Required ratio = 175:100 = 7:4 Hence option (a) is the answer. 2500 × 4",
+    "explanation": "Employees: Administration = 12%×2500 = 300, Printing = 6%×2500 = 150. Males: Administration 300×7/12 = 175, Printing 150×2/3 = 100. Ratio 175:100 = 7:4. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -775,10 +775,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required difference = 2500 × (18 – 14)% = 100 = 100 Hence option (c) is the answer.",
+    "explanation": "IT = 14%×2500 = 350; Operations = 18%×2500 = 450. Difference = 100. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -821,10 +821,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of employees in HR department 2500 × 16 = = 400 100 5 Hence no. of males = × 400 = 250 and number of 8 females = 400 – 250 = 150 Number of employees in marketing department 2500 × 15 = = 375 100 7 Number of males = × 375 = 175 15 Number of females = 375 – 175 = 200 Therefore Required ratio = (250 + 175) : (150 + 200) = 425:350 = 17:14 Hence option (d) is the answer.",
+    "explanation": "HR = 400, Marketing = 375. Males: HR 400×5/8 = 250, Marketing 375×7/15 = 175 → 425. Females: HR 150, Marketing 200 → 350. Ratio 425:350 = 17:14. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -867,10 +867,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of employees in HR department = 16% of 16 2500 = × 2500 100 = 400. Number of female employees in HR department 3 = of total employee. 8 = 3/8 × 400 = 150",
+    "explanation": "HR = 16%×2500 = 400; male:female = 5:3, so females = 400 × 3/8 = 150. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -913,10 +913,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of employees in logistics department 2500 × 11 = = 275 100 6 Number of males = × 275 = 150 11 Number of females = 275 – 150 = 125 Hence required difference = 150 – 125 = 25 Hence option (b) is the answer.",
+    "explanation": "Logistics = 11%×2500 = 275; male:female = 6:5, so males = 150, females = 125. Difference = 25. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

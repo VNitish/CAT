@@ -39,10 +39,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "75 Required percentage = ×100 = 14.95 = 15",
+    "explanation": "In 2000, unit C = 132 and the total of all units = 136+96+132+124+158+140 = 786. Required percentage = 132/786 × 100 = 16.79%, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -71,11 +71,11 @@
       },
       {
         "label": "c",
-        "text": "33 2 3"
+        "text": "33 2/3"
       },
       {
         "label": "d",
-        "text": "37 1 3"
+        "text": "37 1/3"
       },
       {
         "label": "e",
@@ -85,10 +85,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "11885 Hence option (b) is the answer.",
+    "explanation": "Average for unit D = (120+112+124+135+118+128)/6 = 737/6 ≈ 122.83; for unit E = (140+152+158+166+170+175)/6 = 961/6 ≈ 160.17. Difference ≈ 37.33 = 37 1/3. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -131,10 +131,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "For unit ‘F’, the percentage change in the number of workers in the year: 136 – 132 In 1999: × 100 = 2.94% decrease 136 140 – 132 In 2000: × 100 = 6.06% increase 132 140 – 126 In 2001: × 100 = 10% decrease 140 140 – 126 In 2002: × 100 = 15.87% increase 126 150 – 146 In 2003: × 100 = 2.74% increase 146 Hence option (d) is the answer.",
+    "explanation": "Year-on-year change for unit F: 1999 −2.94%, 2000 +6.06%, 2001 −10%, 2002 +15.87%, 2003 +2.74%. The smallest change (in magnitude) is in 2003. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -177,10 +177,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "For each unit we need to find the total number of employees for all years. We can observe that E has the highest total value & so average value too.",
+    "explanation": "Six-year totals: A 904, B 569, C 782, D 737, E 961, F 830. Unit E has the highest total (and hence the highest average). Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -223,10 +223,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of employed workers in all units in 1998 = 145 + 88 + 115 + 120 + 140 + 136 = 744 Total number of employed workers in all units in 1999 = 128 + 76 + 122 + 112 + 152 + 132 = 722 Therefore required ratio = 744 : 722 = 37 : 36 Hence option (b) is the answer.",
+    "explanation": "Total workers in 1998 = 145+88+115+120+140+136 = 744; in 1999 = 128+76+122+112+152+132 = 722. Ratio 744:722 ≈ 37:36. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -269,10 +269,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Let us 1st spend some time observing the data set, and identify if we can eliminate the some options through observation without doing actual calculation: First, we will observe the data for options (b), (c) and (d). Looking at option (d), Pharmacy cannot have decline in the data as its percentage share is rising and total number of students is also rising. Similarly option (b) cannot be the answer as share of commerce is fixed at 24%. Number of students decreased from 2800 to 2000 in Agriculture. Hence option (c) is the answer.",
+    "explanation": "Students by faculty: Agriculture falls from 8%×35000 = 2800 to 5%×40000 = 2000. Among the options, only Agriculture decreased (Commerce and Pharmacy rose). Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -315,10 +315,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of students studying Pharmacy in 2001 = 2450 Number of students studying Pharmacy in 2002 = 3600 Therefore Required ratio = 2450 : 3600 = 49 : 72 Hence option (d) is the answer.",
+    "explanation": "Pharmacy students: 2001 = 7%×35000 = 2450; 2002 = 9%×40000 = 3600. Ratio 2450:3600 = 49:72. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -361,10 +361,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Difference= 7600–7000 = 600 600 × Hence required percentage increase = 100 = 8.57% 7000 Hence option (e) is the answer.",
+    "explanation": "Engineering students: 2001 = 20%×35000 = 7000; 2002 = 19%×40000 = 7600. Increase = 600/7000 × 100 ≈ 9%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -407,10 +407,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of students in Arts and Commerce faculties in 2001= 4200 + 7700 = 11900 Total number of students in Arts and Commerce faculties in 2002 =4400 + 9600 = 1400 12950 ×100 Therefore required percentage = = 92% 14000 Hence option (b) is the answer.",
+    "explanation": "Arts + Commerce in 2001 = (13%+24%)×35000 = 4550+8400 = 12950; in 2002 = (11%+24%)×40000 = 4400+9600 = 14000. 12950/14000 × 100 ≈ 92%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -453,10 +453,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Question is asking for absolute value in the percentage change of different faculty across the two years 1So we are required to calculate percentage increase as well as percentage decrease both, as applicable for different faculty. Again, let us first observe the data set and identify if we can eliminate any option by simple observation of data: We can eliminate option (b) Science – Percentage contribution of science has increased from 16% to 22% – so it cannot be the answer. (Going through 8800 – 5600 the actual calculation, Science = ×100 5600 = 57%) Similarly option (c) Commerce cannot be t",
+    "explanation": "Absolute % change 2001→2002: Arts −3.3%, Medicine −4.8%, Engineering +8.6%, Commerce +14.3%, Science +57%. The minimum is Arts. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -499,10 +499,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "7 Hence option (e) is the answer.",
+    "explanation": "Savings (₹) = savings% × income for each person: Ritu 29,725 + Satish 34,425 + Arun 31,980 + Vidya 32,400 + Arif 31,850 + Suresh 38,080 = ₹1,98,460. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -545,10 +545,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Amount spent on shopping by: (2.25 × 15.7) Satish S ₹ lakh = ₹0.35325 lakh 100 He spends maximum. Hence option (c) is the answer.",
+    "explanation": "Shopping amount = shopping% × income: Satish = 15.7%×2.25 = ₹0.353 lakh, the highest of the six (next is Suresh ₹0.316 lakh). Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -591,10 +591,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Amount spent by Ritu on: (21.8 × 2.05) Eating out = = ₹0.4469 lakh 100",
+    "explanation": "Ritu on eating out + watching movies = (21.8+20.4)% × 2.05 = ₹0.865 lakh; Arun = (14.3+18.5)% × 1.95 = ₹0.640 lakh. Ratio ≈ 211:156. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -637,10 +637,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Amount spent on health by:",
+    "explanation": "Health amounts (₹ lakh): Ritu 0.336, Satish 0.257, Arun 0.419, Vidya 0.430, Arif 0.368, Suresh 0.309; total ≈ 2.119. Suresh’s share = 0.309/2.119 × 100 ≈ 14.60%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -683,10 +683,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total annual income = ₹(2.05 + 2.25 + 1.95 + 2 +",
+    "explanation": "Total annual income = 2.05+2.25+1.95+2.00+1.75+1.70 = ₹11.70 lakh. Arif = 1.75/11.70 × 100 ≈ 15%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -729,10 +729,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of women working in HR departments = 250 + 300 + 190 + 100 + 150 = 1265 190 Required percentage = ×100 = 15.02 1265 Hence option (d) is the answer.",
+    "explanation": "HR women across organizations = 250+300+275+190+100+150 = 1265. Organization S has 190, so 190/1265 × 100 ≈ 15.02%. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -775,10 +775,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average number of women working in finance department from all organization together = ( 405 + 328 + 250 + 200 + 305 + 220 ) = 284.66 6",
+    "explanation": "Finance women = 405+328+250+200+305+220 = 1708. Average = 1708/6 ≈ 284.67, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -821,10 +821,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of women employees in organization: P S 155 + 250 + 320 + 405 + 150 + 50 = 1330 Q S 178 + 300 + 415 + 318 + 127 + 90 = 1428 R S 58 + 275 + 204 + 250 + 188 + 66 = 1041 S S 102 + 190 + 198 + 200 + 190 + 75 = 955 T S 110 + 100 + 256 + 305 + 250 + 85 = 1106 U S 60 + 150 + 225 + 220 + 168 + 35 = 858 Clearly, Organization U has the least number of employees. Hence option (c) is the answer.",
+    "explanation": "Total women per organization: P 1330, Q 1438, R 1041, S 955, T 1106, U 858. The least is U. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -867,10 +867,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of IT employees from organizations P, Q and U = 320 + 415 + 225 = 960 Number of marketing department employees from organizations P, S and T = 150 + 190 + 250 = 590 Required ratio = 96:59 Hence option (e) is the answer.",
+    "explanation": "IT women in P, Q, U = 320+415+225 = 960; Marketing women in P, S, T = 150+190+250 = 590. Ratio 960:590 = 96:59, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -887,7 +887,7 @@
     "set_position": 5,
     "context_passage": "![data set 4](/di/fnd/3-s4.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "If the women working in the Production department of organization Q were also to work in its Mer- chandising department, what would be the approxi- mate percentage of women employees working for the Merchandising department of organization Q?",
+    "question_text": "If the women working in the Production department of organization Q were also to work in its Merchandising department, what would be the approximate percentage of women employees working for the Merchandising department of organization Q?",
     "options": [
       {
         "label": "a",
@@ -913,10 +913,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of employees in production department of organization Q = 178 Therefore Number of women in merchandising department of organization Q = 178 + 90 = 268 268 Required percentage = ×100 = 18.77 = 19 1428 Hence option (a) is the answer.",
+    "explanation": "Adding Q’s Production women (178) to its Merchandising (90) gives 268. As a share of Q’s 1438 women, 268/1438 × 100 ≈ 19%. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

@@ -39,10 +39,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of boys in course A is minimum i.e., zero. Hence option (d) is the answer.",
+    "explanation": "Students per course (×1200): A 240, B 180, C 60, D 420, E 144, F 156. Girls (×800): A 240, B 80, C 16, D 240, E 112, F 112. Boys = students − girls: A 0, B 100, C 44, D 180, E 32, F 44. The minimum is course A (0 boys). Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -85,10 +85,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of girls in course C = 16. Hence option (b) is the answer.",
+    "explanation": "Girls in course C = 2% × 800 = 16. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -131,10 +131,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 180:240 = 3:4. Hence option (a) is the answer.",
+    "explanation": "Course D: boys = 420 − 240 = 180, girls = 240. Ratio 180:240 = 3:4. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -177,10 +177,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of boys in each of courses C and F = 44. Hence option (c) is the answer. 112 – 32 80",
+    "explanation": "Boys per course: A 0, B 100, C 44, D 180, E 32, F 44. Courses C and F both have 44 boys. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -223,10 +223,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = ×100 = × 100 32 32 = 250. Hence option (a) is the answer.",
+    "explanation": "Course E: girls = 112, boys = 32. Girls exceed boys by (112 − 32)/32 × 100 = 80/32 × 100 = 250%. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -243,7 +243,7 @@
     "set_position": 1,
     "context_passage": "![data set 2](/di/fnd/4-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "What is the respective ratio of the number of comput- ers manufactured by companies A and C together to the number of computers sold by companies A and C together?",
+    "question_text": "What is the respective ratio of the number of computers manufactured by companies A and C together to the number of computers sold by companies A and C together?",
     "options": [
       {
         "label": "a",
@@ -269,10 +269,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of computers manufactured by companies A and C together = (10 + 7.5) lakh = 17.5 lakhs Number of computers sold by companies A and C together = (7.5 + 5) lakh = 12.5 lakhs Hence required ratio = 17.5 : 12.5 = 7 : 5. Hence option (d) is the answer.",
+    "explanation": "Manufactured by A and C = 10 + 7.5 = 17.5 lakh; sold by A and C = 7.5 + 5 = 12.5 lakh. Ratio 17.5:12.5 = 7:5. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -315,10 +315,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average number of computers manufactured by all the companies together",
+    "explanation": "Average manufactured = (10+15+7.5+22.5+30)/5 = 85/5 = 17 lakh; average sold = (7.5+12.5+5+17.5+25)/5 = 67.5/5 = 13.5 lakh. Difference = 3.5 lakh = 350000. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -361,10 +361,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 38.33%. 15 Hence option (a) is the answer.",
+    "explanation": "Company B: sold = 12.5 lakh, manufactured = 15 lakh. 12.5/15 × 100 = 83.33%. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -407,10 +407,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 75%. Hence 30 option (e) is the answer.",
+    "explanation": "Manufactured by D = 22.5 lakh, by E = 30 lakh. 22.5/30 × 100 = 75%, which is not listed (a)–(d). Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -453,10 +453,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of computers manufactured by all the companies together = 85 lakhs Number of computers manufactured by company B = 15 lakhs 15 Hence required percentage = × 100 = 17.65 =18 85 Hence option (b) is the answer.",
+    "explanation": "Manufactured by B = 15 lakh; total manufactured = 85 lakh. 15/85 × 100 ≈ 17.65 ≈ 18%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -499,10 +499,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Angle for commuting = 79.2° 1360° = 45800 45800 1 79.2° = × 79.2 = ₹10076. 360 Hence option (a) is the answer.",
+    "explanation": "Each category’s amount = (degrees/360) × ₹45,800. Commuting = 79.2/360 × 45,800 = ₹10,076. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -545,10 +545,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Ratio of amount spent must be same as ratio of 39 . 6 ° respective angles = = 11 : 23 82 . 8 °",
+    "explanation": "Medicine : Groceries = 39.6° : 82.8° = 396 : 828 = 11 : 23. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -591,10 +591,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total angle of amount spent on shopping & entertainment = 36° + 68.4° = 104.4°. 104 . 4 ° So, total expenditure = × 45,800 = ₹13,282. 360 °",
+    "explanation": "Entertainment + Shopping = (36 + 68.4)/360 × 45,800 = 104.4/360 × 45,800 = ₹13,282. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -637,10 +637,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total angle for expenditure on grocery, entertainment & investment = 82.8° + 36° + 54° = 172.8°. Angle for amount spent on commuting = 79.2°. 172 . 8 Required percentage = × 100 % = 218% 79 . 2",
+    "explanation": "Groceries + Entertainment + Investments = 82.8 + 36 + 54 = 172.8°. As a percentage of Commuting (79.2°): 172.8/79.2 × 100 ≈ 218%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -683,10 +683,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Angle for amount spent on medicine = 39.6°. Angle for amount spent on shopping = 68.4°. 39 . 6 Required percentage = × 100 % = 57.89%. 68 . 4",
+    "explanation": "Medicine : Shopping = 39.6° : 68.4°, so 39.6/68.4 × 100 = 57.89%. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -729,10 +729,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of people travelling by rail = (350 + 300 + 300 + 275 + 300 + 275) millions = 1800 million. Hence option (d) is the answer.",
+    "explanation": "Rail preferences (millions): 350 + 300 + 300 + 275 + 300 + 275 = 1800. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -775,10 +775,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required difference = 350 – 275 = 75 millions. Hence option (c) is the answer.",
+    "explanation": "Rail in 1999 = 350, in 2004 = 275. Difference = 350 − 275 = 75. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -821,10 +821,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of people travelling by buses, rail and airlines in 2001 = 375 + 300 + 175 = 850 millions Number of people travelling by buses = 375 millions. 375 Hence, Required percentage = × 100 = 45. 850 Hence option (e) is the answer.",
+    "explanation": "In 2001: Bus 375, Rail 300, Airlines 175 (total 850). Bus share = 375/850 × 100 ≈ 44% ≈ 45%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -867,10 +867,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 375 : 275 = 15 : 11. Hence option (a) is the answer.",
+    "explanation": "In 2002: Bus 375, Rail 275. Ratio 375:275 = 15:11. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -913,10 +913,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "In the year 2003: Number of people travelling by rail = 300 millions Number of people travelling by air = 175 millions Now, 50 % of people travelling by rail shift to air. Hence required number of people = 175 + 150 = 325 million Hence option (e) is the answer.",
+    "explanation": "In 2003, Airlines = 175 and Rail = 300. Adding 50% of rail travellers (150) to airlines: 175 + 150 = 325. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

@@ -35,10 +35,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "F3 to W2 to R6 to C1 is the lowest = 20 + 30 + 10 = ₹60.",
+    "explanation": "Cheapest factory→warehouse→retailer→colony chain: F3→W2 (20) → R6 (W2→R6 = 30) → C1 (R6→C1 = 10) = ₹60. Since ₹60 is not among the options, the answer is (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -77,10 +77,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "F3 to W2 to R6 to C2 is the minimum = 20 + 30 + 15 = ₹65.",
+    "explanation": "Cheapest chain ending at colony C2: F3→W2 (20) → R6 (30) → C2 (R6→C2 = 15) = ₹65. Not among the options, so (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -119,10 +119,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "",
+    "explanation": "Sending one unit from every factory to every colony along the cheapest chains gives a total that does not match any of ₹1705/₹1980/₹2185. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -161,10 +161,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "F2 – W3 – R2 – either C2/C4. Hence two different values possible.",
+    "explanation": "With i = 2 and k = 2, the cheapest chain is F2→W3 (45) → R2 (10) → C2 or C4 (both 10), i.e. F2-W3-R2-C2 (j+l = 3+2 = 5) or F2-W3-R2-C4 (j+l = 3+4 = 7). Two different values, so it cannot be determined. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -203,10 +203,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "There can be two values of i = 3/5, one value of j = 2, one value of k = 6 and one value of l = 1. Hence two different sums are possible.",
+    "explanation": "With j = 2, the cheapest chain is Factory→W2 (cost 20 from F3 or F5) → R6 (W2→R6 = 30) → C1 (10). So i = 3 or 5, k = 6, l = 1, giving (i+k+l) = 10 or 12 — not a single value, so it cannot be determined. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -245,10 +245,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Obviously cannot be inferred. (a) seems probable, but number of vehicles/agents need not be increasing. There can be other reasons also like reduction in the efficiency of the vehicle etc. 2001 2011 World Asia World Asia 200 20 250 33.3 40 2.5 50 5 20% 12.50% 20% 15.01 60 5 75 10 30% 25% 30% 30.03 70 10 80 15 35% 50% 32% 45.04 1991 2001 2011 Total energy 10 20 33 Solid fuels Value 4 5 10 Proportion 40% 25% 30.30% Nuclear Value 0.5 1 1.3 Fuel Proportion 5% 5% 3.90% Hydro Value 1 1.5 2 Energy Proportion 10% 7.50% 6.06% Hence, we can see that the proportion of Hydro Energy goes on decreasing over",
+    "explanation": "Neither statement can be inferred from a demand table: (a) assumes vehicle/agent counts, and (b) misstates the comparison. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -287,10 +287,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "1991 World Asia Total energy 150 10 Naphtha Value 30 0.5 Proportion 20% 5% Solid fuels Value 50 4 Proportion 33.30% 40% Petrol Value 50 4 Proportion 33.30% 40% Hence, solid fuels and Petrol combined constitute more than 60 percent of total energy in both the world and Asia for the given period.",
+    "explanation": "Petrol + Solid Fuels: in 1991 world (50+50)/150 = 66.7%, Asia (4+4)/10 = 80%; the combination stays above 60% for both throughout. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -329,10 +329,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "It can be seen from the table that Petrol is the fuel whose proportion in the total energy demand increases during 1991–2001 and decreases during 2001–2011 for both the world and Asia.",
+    "explanation": "Petrol’s share of total — World: 33.3% (1991) → 35% (2001) → 32% (2011); Asia: 40% → 50% → 45%. It rises then falls for both. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -357,7 +357,7 @@
       },
       {
         "label": "b",
-        "text": "Solids fuels"
+        "text": "Solid fuels"
       },
       {
         "label": "c",
@@ -371,10 +371,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "For the answer choices given and for Asia we can take make the following table. 1991 2001 2011 Total energy 10 20 33 Naphtha Value 0.5 2.5 5 Proportion 5% 12.50% 15.15% Explanations",
+    "explanation": "Hydro Energy in Asia: 1/10 = 10% (1991), 1.5/20 = 7.5% (2001), 2/33.3 = 6% (2011) — a continuous decrease. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -399,7 +399,7 @@
       },
       {
         "label": "b",
-        "text": "Solids fuels"
+        "text": "Solid fuels"
       },
       {
         "label": "c",
@@ -413,10 +413,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "For answer choices given and for the worlds, we can make the following table. 1991 2001 2011 Total energy 150 200 250 Naphtha Value 30 40 50 Proportion 20% 20% 20% Solid Fuels Value 50 60 75 Proportion 33% 30% 30% Nuclear Fuel Value 10 20 25 Proportion 6.66% 10% 10% Hydro Energy Value 10 10 20 Proportion 6.66% 5% 8% Hence, we can see that the proportion of Naphtha remains constant over the given period.",
+    "explanation": "Naphtha — World: 30/150 = 40/200 = 50/250 = 20% (constant); Asia: 5% → 12.5% → 15% (increasing). Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -455,10 +455,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "explanation": "Solving the grid: Amit 290, Binit 240, Charu 220, Dilip 300. The lowest total is Charu (220). Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -497,10 +497,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "explanation": "Total of all marks = 290 + 240 + 220 + 300 = 1050 over 16 entries; average = 1050/16 = 65.625. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -539,10 +539,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "explanation": "Chemistry: Amit 70, Binit 60, Charu 50, Dilip 80. The highest is Dilip. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -581,10 +581,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From the given information the following table can be prepared: Physics Chemistry Maths English Total Amit 80 70 60 80 290 Binit 60 60 60 60 240 Charu 40 50 60 70 220 Dilip 90 80 70 60 300 Now all the questions can be answered.",
+    "explanation": "Physics: Amit 80, Binit 60, Charu 40, Dilip 90. The lowest is Charu. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -600,8 +600,8 @@
     "set_id": "fnd-t8-s4",
     "set_position": 15,
     "context_passage": "![data set 4](/di/fnd/8-s4.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "In each question there are two statements, A and B, either of which can be true or false on the basis of the data given. Statement A: The success rate of moving from written test to interview stage for males was worse than for females in 2003. Statement B: The success rate of moving from written test to interview stage for females was better in 2002 than in 2003.",
+    "directions": "Each question has two statements, A and B. On the basis of the data given above, choose (a) if only A is true; (b) if only B is true; (c) if both A and B are true; (d) if neither A nor B is true.",
+    "question_text": "Statement A: The success rate of moving from the written test to the interview stage for males was worse than for females in 2003.\n\nStatement B: The success rate of moving from the written test to the interview stage for females was better in 2002 than in 2003.",
     "options": [
       {
         "label": "a",
@@ -623,7 +623,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "",
+    "explanation": "Written→interview rate in 2003: males 637/60133 ≈ 1.06%, females 399/40763 ≈ 0.98% — males were better, so A is false. For females, 2003 (0.98%) > 2002 (138/15389 ≈ 0.90%), so 2002 was not better — B is false. Neither true. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "removed": false,
@@ -642,7 +642,7 @@
     "set_id": "fnd-t8-s4",
     "set_position": 16,
     "context_passage": "![data set 4](/di/fnd/8-s4.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
+    "directions": "Each question has two statements, A and B. On the basis of the data given above, choose (a) if only A is true; (b) if only B is true; (c) if both A and B are true; (d) if neither A nor B is true.",
     "question_text": "Statement A: In 2002, the number of females selected for the course as a proportion of the number of females who bought application forms was higher than the corresponding proportion for males. Statement B: In 2002, among those called for interview, males had a greater success rate than females.",
     "options": [
       {
@@ -665,7 +665,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "",
+    "explanation": "Selected/forms in 2002: females 48/19236 ≈ 0.25%, males 171/61205 ≈ 0.28% — females’ proportion is lower, so A is false. Selected/interviewed in 2002: males 171/684 = 25%, females 48/138 ≈ 34.8% — females had the greater rate, so B is false. Neither true. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "removed": false,
@@ -684,7 +684,7 @@
     "set_id": "fnd-t8-s4",
     "set_position": 17,
     "context_passage": "![data set 4](/di/fnd/8-s4.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
+    "directions": "Each question has two statements, A and B. On the basis of the data given above, choose (a) if only A is true; (b) if only B is true; (c) if both A and B are true; (d) if neither A nor B is true.",
     "question_text": "Statement A: The percentage of absentees in the written test among females decreased from 2002 to 2003. Statement B: The percentage of absentees in the written test among males was larger than among females in 2003.",
     "options": [
       {
@@ -707,7 +707,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "",
+    "explanation": "Written-test absentees among females: 2002 = (19236−15389)/19236 ≈ 20%, 2003 = (45292−40763)/45292 ≈ 10% — decreased, so A is true. In 2003, male absentees = (63298−60133)/63298 ≈ 5% vs female 10% — males smaller, so B is false. Only A. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "removed": false,
@@ -749,10 +749,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "The minimum number of males (or females) for any group on the basis of number of children = 0 (if lower age is more than 40) = All (if upper age is less than 40) = 1 (if lower age is less than 40 & upper) So, minimum possible number of people below 40 age is 9. Hence, required percentage = 9/3 × 100% = 30%. 23",
+    "explanation": "Respondents whose age must be below 40: the 38-year-old male, the two males aged 32–33, plus the youngest in each remaining group (min ages 32, 34, 35, 21, 37, 27, all ≤ 39) — at least 9 of 30 = 30%. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -791,10 +791,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "× 100 = 76.67 %. Hence option (c) is the answer. 30 4",
+    "explanation": "A respondent can exceed 35 unless the group’s minimum age is above 35 forces otherwise; each group whose minimum is ≤ 35 must contain at least one person not above 35. Maximising, at most 23 of 30 can be older than 35 = 76.67%. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -833,10 +833,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "× 100 = 13.33 %. Hence option (c) is the answer. 30",
+    "explanation": "Guaranteed to lie in 35–40 (inclusive): the 38-year-old male, the youngest of the (35,57) group, the youngest of the (37,63) group, and the oldest (40) of the (27,40) group — at least 4 of 30 = 13.33%. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

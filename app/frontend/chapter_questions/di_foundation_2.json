@@ -35,10 +35,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "71",
+    "explanation": "FEII change 1997→98: India 1.71→0.72 ≈ −58% (the biggest change), Thailand 1.5→2.1 = +40%, Malaysia 2.1→2.43 ≈ +16%, Korea 2.8→3.12 ≈ +11%, China 5.46→4.8 ≈ −12%. The largest percentage change is India’s. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -55,11 +55,11 @@
     "set_position": 2,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "IF China’s FEI is 10 times that of India in the year 1998, which of the following is true for 1998?",
+    "question_text": "If China’s FEI is 10 times that of India in the year 1998, which of the following is true for 1998?",
     "options": [
       {
         "label": "a",
-        "text": "China’s GDP is 70% more then India."
+        "text": "China’s GDP is 70% more than India."
       },
       {
         "label": "b",
@@ -77,10 +77,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "For the year 1998 FEIH For China, China = 0.048 ………..(1) GDP China FEIH For India, India = 0.0072 ………..(2) GDP India FEI China = 10 FEI India on dividing (1) by (2): GDP 0.048 20 China ×10 = = GDP 0.0072 3 India GDP 3 1 China = = 1.5 GDP 2 India So percentage difference between china’s GDP and India’s GDP = 50% (a) Profitability is non-increasing during the five years from 1994–95 to 1998–99. (b) Profitability is non–decreasing during the five years from 1994–95 to 1998–99. (c) Profitability remained constant during the five years from 1994–95 to 1998–99 (d) None of above. Keys",
+    "explanation": "FEII = FEI/GDP, so FEI = FEII × GDP. In 1998, FEI(China)/FEI(India) = (4.8 × GDP_China)/(0.72 × GDP_India) = 10 ⇒ GDP_China/GDP_India = 10 × 0.72/4.8 = 1.5. So China’s GDP is 50% more than India’s. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -97,7 +97,7 @@
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/2-s1.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "If GDP of India increased by 5%, GDP of China increased by 7% and that of Korea decreased by 2% from year 1997 to 1998, which of the following is/are true? I. FEI to china was higher in 1998 than in 1997. II. FEI to china was lower in 1998 than in 1997. III. India’s FEI has increases from 1997 to 1998. IV. FEI to Korea was lower in 1998 than in 1997. V. Korea’s FEI has increased in 1998 from 1997.",
+    "question_text": "If GDP of India increased by 5%, GDP of China increased by 7% and that of Korea decreased by 2% from year 1997 to 1998, which of the following is/are true? I. FEI to China was higher in 1998 than in 1997. II. FEI to China was lower in 1998 than in 1997. III. India’s FEI has increased from 1997 to 1998. IV. FEI to Korea was lower in 1998 than in 1997. V. Korea’s FEI has increased in 1998 from 1997.",
     "options": [
       {
         "label": "a",
@@ -119,10 +119,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Since the comparisons are for the same country in each case, assume the GDP as 100 in 1997 in all cases. So, GDP of China, India and Korea in 1998 is 105,107 and 98 respectively. FEI FEII ×GDP 1998 = 1998 1998 FEI FEII ×GDP 1997 1997 1997 FEI 4.8×107 For China: 1998 = < 1 FEI 5.46×100 1997 FEI 0.72×105 For India: 1998 = < 1 FEI 1.71×100 1997 FEI 3.12×98 For Korea: 1998 = < 1 FEI 2.8×100 1997 So, II and V are correct.",
+    "explanation": "Take 1997 GDP = 100 for each; 1998 GDP = China 107, India 105, Korea 98. Using FEI = FEII × GDP: China 4.8×107=513.6 < 5.46×100=546 (FEI fell → II true); India 0.72×105=75.6 < 1.71×100=171 (III false); Korea 3.12×98=305.8 > 2.8×100=280 (FEI rose → V true, IV false). So II and V. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -161,10 +161,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "It can be seen that all the values (FEII) are expressed as a ratio of FEI to GDP, the absolute values of GDP cannot be determined.",
+    "explanation": "All figures are FEII = FEI/GDP ratios, so absolute GDP values cannot be determined or compared. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -203,10 +203,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Since only the ratios of GDP and FEI are known, the increase in one independent of other cannot be determined.",
+    "explanation": "Only the FEII ratios are known, not GDP, so the change in FEI cannot be determined. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -245,10 +245,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "You may note that apart from a few years for manufacturing and mining & quarrying, the annual growth rates in most years have been positive and near the 5 – 6% mark for all the sectors. The other options [a], [c], and [d] are too far away to be considered. Alternatively, for ease of calculation take the 1989 values for a manufacturing as 400, Mining & quarrying and Electricity as 300 each and Chemicals as 200. then, the final value for manufacturing would be nearly 580, that for mining & quarrying would be about 365; that for electricity would be around 550; and for Chemicals would be around 3",
+    "explanation": "Apart from a few years in manufacturing and mining & quarrying, the yearly changes for all four sectors stay close to the 5–6% mark, so the average annual growth rate is about 6%. The other options (1.2%, 56.6%, 104%) are far off. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -287,10 +287,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Electricity production has increased throughout (as growth rates are positive throughout) and the maximum production would be achieved in the last year, i.e., 98.",
+    "explanation": "Every yearly change for Electricity is positive (5,7,8,10,5,6,8,9,6), so its index rises each year and is highest in the last year, 98. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -307,7 +307,7 @@
     "set_position": 3,
     "context_passage": "![data set 2](/di/fnd/2-s2.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "When, during the given period, was the minimum pro- duction level in the manufacturing sector achieved?",
+    "question_text": "When, during the given period, was the minimum production level in the manufacturing sector achieved?",
     "options": [
       {
         "label": "a",
@@ -329,10 +329,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "The production for manufacturing can be minimum either in 1989 or in 1992 ( when the growth rate is negative). If Manufacturing started with a production of 100 in 1989, then production in 1992 will be 100 × 1.04 × 1.01 × 0.97 >1 So, the production in 1989 was the least",
+    "explanation": "Manufacturing’s index = 100 in 1989 and rises from 1990 onward (+4 in 90, etc.), so the minimum production level is in 1989. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -371,10 +371,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Electricity has shown the highest growth rate in all the years and therefore, would have the highest growth rate for the entire period.",
+    "explanation": "Cumulating the yearly % changes from 1989 to 1998, Electricity grows the most (index ≈ 185, i.e. ≈ +85%), more than Chemicals (≈ +68%), Manufacturing (≈ +46%) and Mining & Quarrying (≈ +31%). Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -413,10 +413,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Electricity in 1992: 100 × 1.05 × 1.07 × 1.08 = 121.4 Chemicals in 1992: 100 × 1.07 × 1.03 × 1.06 = 116.8 1 In 1992, the index of chemicals is less than that of electricity by approximately 5.",
+    "explanation": "Index in 92: Chemicals = 100×1.07×1.03×1.06 ≈ 116.8; Electricity = 100×1.05×1.07×1.08 ≈ 121.3. Chemicals is lower by about 5. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -455,10 +455,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Let Manufacturing in 1989 = 200 and Chemicals in 1989 = 100 1 Manufacturing in 1991: 200 × 1.04 × 1.01 = 210 and Chemicals in 1991: 100 × 1.07 × 1.03 = 110 210 – 110 Required percentage × 100 = 90% 110",
+    "explanation": "Using the 1989 weights (Manufacturing 20, Chemicals 10): in 91, Manufacturing = 20×1.04×1.01 ≈ 21.0 and Chemicals = 10×1.07×1.03 ≈ 11.0. Manufacturing exceeds Chemicals by (21.0−11.0)/11.0 ≈ 91%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -497,10 +497,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "As can be seen directly from the graph, the highest increase (that of 8%) for Mining and Quarrying was in the year 1998, relative to 1997.",
+    "explanation": "The yearly % changes for Mining & Quarrying are 5, −1, −2, 7, −4, 3, 5, 7, 8; the largest single-year change is +8% in 98, i.e. over 97–98. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -539,10 +539,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Values added per worker for various sectors will be proportional to following ratios: Central 10/6 State 3/6 Central/state 12/3 Public 8/8/",
+    "explanation": "Value addition per worker = (Value Added %)/(Employment %): Central 10/6 ≈ 1.67, State 3/6 = 0.5, Central/State 12/3 = 4.0, Public 8/8 = 1.0. The maximum is Central/State. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -581,10 +581,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Fixed capital per factory will be proportional to the following ratios: Central 5/8 State 4/4 Central/state 5/6 Public 6/12",
+    "explanation": "Fixed capital per factory = (Fixed Capital %)/(Factories %): Central 5/8 = 0.63, State 4/4 = 1.0, Central/State 5/6 = 0.83, Public 6/12 = 0.5. The maximum is State. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -623,10 +623,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "If the variables are proportional to the number of employees and the production per employees, then we can say that the variable cost is directly proportional to the production. Since the variable cost is maximum for private sector, it will also have the maximum production.",
+    "explanation": "Production tracks the number of employees and output per employee. The Private sector has by far the largest share of employment (65%) and of value added (62%), so its production is the highest. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -643,7 +643,7 @@
     "set_position": 16,
     "context_passage": "![data set 3](/di/fnd/2-s3.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "If the government has a fixed capital of $200 million in the Iron & Steel industry, which corresponds to 20.012% of its total investment as fixed capital, then how much did the government invest (in ₹ million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1 US $ = ₹45)",
+    "question_text": "If the government has a fixed capital of \\$200 million in the Iron & Steel industry, which corresponds to 20.012% of its total investment as fixed capital, then how much did the government invest (in ₹ million) in Maruti Udyog Ltd which forms 25% of the investment in the joint sector? (1 US \\$ = ₹45)",
     "options": [
       {
         "label": "a",
@@ -660,16 +660,12 @@
       {
         "label": "d",
         "text": "145"
-      },
-      {
-        "label": "e",
-        "text": "None of these"
       }
     ],
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "If 20% of govt. fixed capital = $200 million, total govt.-sector fixed capital = $1000 m. 25% of govt. investment in the joint sector works out to ≈ $143 million; in ₹: 143 × 45 ≈ ₹6500 million. Hence option (a).",
+    "explanation": "Government fixed capital in Iron & Steel = \\$200 million = 20.012% of its fixed capital ⇒ Government fixed capital ≈ \\$1000 million. That is 14% of the economy’s total fixed capital ⇒ total ≈ \\$7143 million. Joint sector = 8% ≈ \\$571 million; Maruti = 25% of joint = \\$142.86 million = ₹(142.86×45) ≈ ₹6500 million. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "removed": false,
@@ -701,20 +697,20 @@
       },
       {
         "label": "c",
-        "text": "$ 246 million"
+        "text": "\\$ 246 million"
       },
       {
         "label": "d",
-        "text": "$ 6500 million"
+        "text": "\\$ 6500 million"
       }
     ],
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From the above question the money disinvested will be ₹6450 million.",
+    "explanation": "Maruti’s investment = 25% of the joint sector’s fixed capital ≈ \\$142.86 million ≈ ₹6500 million (at ₹45/\\$). This is the amount disinvested. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -753,10 +749,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Neither of the statements [A] or [B] can be inferred as we know only the percentages and not the actual values of the employees, factories or fixed capital.",
+    "explanation": "The grid gives only percentages of different totals (factories, employees, capital, etc.), so absolute numbers cannot be compared across columns. Neither statement can be confirmed. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -771,7 +767,7 @@
     "subtopic": "",
     "set_id": "fnd-t2-s4",
     "set_position": 1,
-    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "context_passage": "Five women decided to go shopping to M.G. Road, Bangalore. They arrived at the designated meeting place in the following order: 1. Archana, 2. Chellamma, 3. Dhenuka, 4. Helen, and 5. Shahnaz. Each woman spent at least ₹1000. Below are some additional facts about how much they spent during their shopping spree:\n\ni. The woman who spent ₹2234 arrived before the lady who spent ₹1193.\n\nii. One woman spent ₹1340 and she was not Dhenuka.\n\niii. One woman spent ₹1378 more than Chellamma.\n\niv. One woman spent ₹2517 and she was not Archana.\n\nv. Helen spent more than Dhenuka.\n\nvi. Shahnaz spent the largest amount and Chellamma the smallest.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "What was the amount spent by Helen?",
     "options": [
@@ -795,10 +791,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "explanation": "Solving the clues: Chellamma ₹1139 (smallest), Dhenuka ₹1193, Helen ₹1340, Archana ₹2234, Shahnaz ₹2517 (largest). Helen spent ₹1340. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -813,7 +809,7 @@
     "subtopic": "",
     "set_id": "fnd-t2-s4",
     "set_position": 2,
-    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "context_passage": "Five women decided to go shopping to M.G. Road, Bangalore. They arrived at the designated meeting place in the following order: 1. Archana, 2. Chellamma, 3. Dhenuka, 4. Helen, and 5. Shahnaz. Each woman spent at least ₹1000. Below are some additional facts about how much they spent during their shopping spree:\n\ni. The woman who spent ₹2234 arrived before the lady who spent ₹1193.\n\nii. One woman spent ₹1340 and she was not Dhenuka.\n\niii. One woman spent ₹1378 more than Chellamma.\n\niv. One woman spent ₹2517 and she was not Archana.\n\nv. Helen spent more than Dhenuka.\n\nvi. Shahnaz spent the largest amount and Chellamma the smallest.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "Which of the following amount was spent by one of them?",
     "options": [
@@ -832,16 +828,12 @@
       {
         "label": "d",
         "text": "₹2718"
-      },
-      {
-        "label": "e",
-        "text": "None of these"
       }
     ],
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Working through the spending conditions, the amounts are Archana 2234, Chellamma 1139, Dhenuka 1193, Helen 1340, Shahnaz 2517. So ₹1139 was spent by one of them. Hence option (a).",
+    "explanation": "From the solution {1139, 1193, 1340, 2234, 2517}, the amount ₹1139 (Chellamma) was spent by one of them; the other listed amounts were not. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": true,
@@ -859,7 +851,7 @@
     "subtopic": "",
     "set_id": "fnd-t2-s4",
     "set_position": 3,
-    "context_passage": "![data set 4](/di/fnd/2-s4.png)",
+    "context_passage": "Five women decided to go shopping to M.G. Road, Bangalore. They arrived at the designated meeting place in the following order: 1. Archana, 2. Chellamma, 3. Dhenuka, 4. Helen, and 5. Shahnaz. Each woman spent at least ₹1000. Below are some additional facts about how much they spent during their shopping spree:\n\ni. The woman who spent ₹2234 arrived before the lady who spent ₹1193.\n\nii. One woman spent ₹1340 and she was not Dhenuka.\n\niii. One woman spent ₹1378 more than Chellamma.\n\niv. One woman spent ₹2517 and she was not Archana.\n\nv. Helen spent more than Dhenuka.\n\nvi. Shahnaz spent the largest amount and Chellamma the smallest.",
     "directions": "Go through the data set given below and solve the questions based on it.",
     "question_text": "The women who spent ₹1193 is",
     "options": [
@@ -883,10 +875,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "One of the women spent 2517 – 1378 = 1139, she is Chellamma. This is the only possibility as we add ₹1378 even to the least amount ₹1193, we will not be able to satisfy all the conditions given simultane- ously. So, the table obtained is: Archana Chellamma Dhenuka Helen Shahnaz 2234 1139 1193 1340 2517",
+    "explanation": "In the solution, ₹1193 was spent by Dhenuka (she arrived 3rd, after Archana who spent ₹2234). Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -925,10 +917,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "From graph it is clear that, growth in sales is negative for 1997–98. The change for 1996–97 is very small. We need to check for 1995–96 & 1998–99 For 1995–96 = (250 – 100)/100 × 100% = 150% For 1998–99 = (680-290)/290 × 100% = 134.5% So, the highest percentage change of growth of sales is for year 1995-96",
+    "explanation": "Year-on-year sales growth: 100→250 = +150% (1995–96), 250→300 = +20%, 300→290 = −3%, 290→680 ≈ +134%. Highest is 1995–96. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -967,10 +959,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "In 1995–96, the change is from 2.5 to 4.5, clearly it is more than 50% change in net profit. In none other option, this change is even 50%. So, the highest percentage change of growth of net profit is for year 1995–96 We must try to solve such type of questions without actual calculation to save time",
+    "explanation": "Year-on-year net-profit growth: 2.5→4.5 = +80% (1995–96), 4.5→6 ≈ +33%, 6→8.5 ≈ +42%, 8.5→12 ≈ +41%. Highest is 1995–96. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -1009,10 +1001,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Profitability for 1994–95 = 2.5/100 = 0.025 Profitability for 1996–97 = 6/300 = 0.02 Profitability for 1997–98 = 8.5/290 = 0.029 Profitability for 1998–99 = 12/680 = 0.018 So, highest profitability was recorded for 1997-98.",
+    "explanation": "Profitability = net profit/sales: 2.5/100 = 2.5%, 4.5/250 = 1.8%, 6/300 = 2.0%, 8.5/290 ≈ 2.93%, 12/680 ≈ 1.76%. Highest in 1997–98. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -1051,10 +1043,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Profitability for 1994–95 = 2.5/100 = 0.025 Profitability for 1995–96 = 4.5/250 = 0.018 Profitability for 1996–97 = 6/300 = 0.02 Profitability for 1997–98 = 8.5/290 = 0.029 Profitability for 1998–99 = 12/680 = 0.018 So, we cannot conclude the statements of options (a), (b) & (c)",
+    "explanation": "Profitability over the five years is 2.5%, 1.8%, 2.0%, 2.93%, 1.76% — it rises and falls, so it is neither non-increasing, nor non-decreasing, nor constant. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]

@@ -749,7 +749,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "₹8000 can be changed to Yen by 1st converting ₹ to Dollar & than Dollar to Yen 46 ₹ = 1 $ 1 8000 ₹ = $ 46 1 $ = 106.75 Yen 1 8000 ₹ = × 8000 × 106.75 Yen = 18600 Yen 46",
+    "explanation": "₹8000 can be changed to Yen by 1st converting ₹ to Dollar & than Dollar to Yen 46 ₹ = 1 \\$ 1 8000 ₹ = \\$ 46 1 \\$ = 106.75 Yen 1 8000 ₹ = × 8000 × 106.75 Yen = 18600 Yen 46",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -769,7 +769,7 @@
     "set_position": 2,
     "context_passage": "![data set 5](/di/adv/20-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "If the Dollar/Yen ratio follows the same trend from 24th to 27th as from 21st to 24th, then what will be the value of $ 50 on 27th June?",
+    "question_text": "If the Dollar/Yen ratio follows the same trend from 24th to 27th as from 21st to 24th, then what will be the value of \\$ 50 on 27th June?",
     "options": [
       {
         "label": "a",
@@ -791,7 +791,7 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "If Dollar/Yen ratio follows same trend from 24th to 27th, then Dollar/Yen = 108 So, 1 $ = 108 Yen 50 $ = 50 × 108 Yen = 5400 Yen",
+    "explanation": "If Dollar/Yen ratio follows same trend from 24th to 27th, then Dollar/Yen = 108 So, 1 \\$ = 108 Yen 50 \\$ = 50 × 108 Yen = 5400 Yen",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -811,7 +811,7 @@
     "set_position": 3,
     "context_passage": "![data set 5](/di/adv/20-s5.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "A jacket costs $ 400. Mohan has ₹18,200, £ 225 and ¥ 35000 with him. If he can use only one currency to buy the jacket, he would be able to buy the jacket on 20th June using:",
+    "question_text": "A jacket costs \\$ 400. Mohan has ₹18,200, £ 225 and ¥ 35000 with him. If he can use only one currency to buy the jacket, he would be able to buy the jacket on 20th June using:",
     "options": [
       {
         "label": "a",
@@ -833,7 +833,7 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Converting all amounts to Dollar 18200 ₹ = 18200/45.5 $ = 400 $ 225 £ = 225 × 1.6 $ = 360 $ 35,000 Yen = 35000/106.25 $ = 329.4 $ So, ₹18,200 can be used to buy the Jacket.",
+    "explanation": "Converting all amounts to Dollar 18200 ₹ = 18200/45.5 \\$ = 400 \\$ 225 £ = 225 × 1.6 \\$ = 360 \\$ 35,000 Yen = 35000/106.25 \\$ = 329.4 \\$ So, ₹18,200 can be used to buy the Jacket.",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,
@@ -875,7 +875,7 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "We can convert ₹ to $ but not in £. We need ratio for ₹ & £ or $ & £ to solve it. So, it cannot be determined. 52 + 66 + 64 + 75 + 58 315",
+    "explanation": "We can convert ₹ to \\$ but not in £. We need ratio for ₹ & £ or \\$ & £ to solve it. So, it cannot be determined. 52 + 66 + 64 + 75 + 58 315",
     "difficulty": "Advanced",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
     "verified": false,

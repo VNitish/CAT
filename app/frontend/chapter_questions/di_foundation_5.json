@@ -39,10 +39,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100 Required ratio = 7084:5796 = 11:9. Hence option (e) is the answer.",
+    "explanation": "Call Centre people = 32% × 40250 = 12880; females = 45% → 5796, males = 12880 − 5796 = 7084. Men : women = 7084:5796 = 11:9, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -85,10 +85,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100 Number of women = 966 + 1449 + 5796 + 1932 + 2254 + 966 = 13363",
+    "explanation": "Females per industry: IT 966, Sports 1449, Call Centre 5796, Sales 1932, Banking 2254, Chemical 966; total = 13363. Average = 13363/6 ≈ 2227. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -105,7 +105,7 @@
     "set_position": 3,
     "context_passage": "![data set 1](/di/fnd/5-s1.png)",
     "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "What is the total number of men working in night shifts from al the industries together?",
+    "question_text": "What is the total number of men working in night shifts from all the industries together?",
     "options": [
       {
         "label": "a",
@@ -131,10 +131,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100 Number of women = 3864 + 5796 + 7084 + 1288 + 3381 + 5474 = 26887. Hence option (d) is the answer.",
+    "explanation": "Total people = 40250; total females = 13363, so total males = 40250 − 13363 = 26887. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -177,10 +177,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100 Total number of working people = 40250 Number of women in sports industry = 1449 1449 Hence required percentage = × 100 = 3.6. 40250 Hence option (b) is the answer.",
+    "explanation": "Sports females = 20% × (18% × 40250) = 1449. As a percentage of all people: 1449/40250 × 100 = 3.6%. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -223,10 +223,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of people working in night shifts: 12 IT industry S 40250 × = 4830 Number of women 100 18 Sports industry S 40250 × = 7245 Number of women 100 32 Call centre S 40250 × = 12880 Number of women 100 8 Sales S 40250 × = 3220 Number of women 100 14 Banking S 40250 × = 5635 Number of women 100 16 Chemical industry S 40250 × = 6440 Number of women 100 Required difference = 26887–13363 = 13524. Hence option (c) is the answer.",
+    "explanation": "Total males = 26887, total females = 13363. Difference = 26887 − 13363 = 13524. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -269,10 +269,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of girls in all departments = 140 + 300 + 180 + 250 + 240 = 1110 300 Hence required percentage = × 100 = 27% 1110 Hence option (e) is the answer.",
+    "explanation": "Girls: Philosophy 140, Biology 300, Anthropology 180, Sociology 250, Psychology 240; total = 1110. Biology share = 300/1110 × 100 ≈ 27%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -315,10 +315,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of boys in all the departments = 80 + 200 + 100 + 150 + 120 = 650 Number of girls = 1110 Hence required difference = 1110 – 650 = 460 Hence option (d) is the answer. 650",
+    "explanation": "Total boys = 80+200+100+150+120 = 650; total girls = 140+300+180+250+240 = 1110. Difference = 1110 − 650 = 460. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -361,10 +361,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average number of boys = = 130 5 Hence option (c) is the answer.",
+    "explanation": "Total boys = 650; average = 650/5 = 130. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -407,10 +407,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of all boys = 650 Number of boys from Anthropology department = 100 100 Hence required percentage = × 100 = 15.38 = 15 650 Hence option (a) is the answer.",
+    "explanation": "Anthropology boys = 100; total boys = 650. 100/650 × 100 ≈ 15%. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -453,10 +453,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of girls from Philosophy department = 140 Number of girls from Psychology department = 240 Required ratio = 140:240 = 7:12 Hence option (b) is the answer.",
+    "explanation": "Girls in Philosophy = 140, in Psychology = 240. Ratio 140:240 = 7:12. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -499,10 +499,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total sale of Hindi Newspapers = 5500 + 8500 + 4500 + 9500 + 5000 = 33000 Total sale of English Newspapers = 7500 + 9000 + 9500 + 7000 + 6500 = 39500 Required difference = 39500 – 33000 = 6500 Hence option (b) is the answer. 7500",
+    "explanation": "Total English = 7500+9000+9500+7000+6500 = 39500; total Hindi = 5500+8500+4500+9500+5000 = 33000. Difference = 6500. Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -545,10 +545,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required percentage = × 100 = 19 39500 Hence option (e) is the answer.",
+    "explanation": "English in A = 7500; total English = 39500. 7500/39500 × 100 ≈ 19%. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -591,10 +591,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 5500:9500 = 11:19 Hence option (a) is the answer.",
+    "explanation": "Hindi in A = 5500, in D = 9500. Ratio 5500:9500 = 11:19. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -637,10 +637,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total sale of English Newspaper in localities B and D = 9000 + 7000 = 16000 Total sale of English Newspaper in localities A, C and E = 7500 + 9500 + 6500 = 23500 16000 Hence required percentage = × 100 = 68% 23500 Hence option (c) is the answer. 33000",
+    "explanation": "English in B and D = 9000+7000 = 16000; in A, C and E = 7500+9500+6500 = 23500. 16000/23500 × 100 ≈ 68%. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -683,10 +683,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Average sale of Hindi Newspaper = = 6600 5 Hence option (a) is the answer.",
+    "explanation": "Total Hindi = 33000; average = 33000/5 = 6600. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -729,10 +729,10 @@
     "correct_answer": "c",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of males: 9 HR department S 225 × = 81 25 3 Marketing department = 275 × = 165 5 9 IT department = 200 × = 45 40 2 Finance department = 175 × = 70 5 11 Production department = 375 × = 275 15 4 Merchandising department = 350 × = 200 7 Therefore Total number of males = 81 + 165 + 45 + 70 + 275 + 200 = 836 Hence option (c) is the answer.",
+    "explanation": "Employees × male-fraction: HR 225×9/25=81, Marketing 275×3/5=165, IT 200×9/40=45, Finance 175×2/5=70, Production 375×11/15=275, Merchandising 350×4/7=200. Total males = 836. Hence (c).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -775,10 +775,10 @@
     "correct_answer": "d",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of females working in the HR department = 16 225 × = 144 25 Hence option (d) is the answer.",
+    "explanation": "HR employees = 225, male:female = 9:16, so females = 225 × 16/25 = 144. Hence (d).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -821,10 +821,10 @@
     "correct_answer": "a",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Required ratio = 375:350 = 15:14 Hence option (a) is the answer.",
+    "explanation": "Production employees = 375, Merchandising = 350. Ratio 375:350 = 15:14. Hence (a).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -867,10 +867,10 @@
     "correct_answer": "b",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Number of females in different departments: HR department S 225 – 81 = 144 Marketing department S 275 – 165 = 110 IT department S 200–45 = 155 Finance department S 175 – 70 = 105 Production department S 375 – 275 = 100 Merchandising department S 350 – 200 = 150 Hence option (b) is the answer.",
+    "explanation": "Females: HR 144, Marketing 110, IT 155, Finance 105, Production 100, Merchandising 150. The lowest is Production (100). Hence (b).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   },
   {
@@ -913,10 +913,10 @@
     "correct_answer": "e",
     "marks_correct": 3,
     "marks_incorrect": -1,
-    "explanation": "Total number of employees = 225 + 275 + 200 + 175 + 375 + 350 = 1600 Hence option (e) is the answer.",
+    "explanation": "Total employees = 225+275+200+175+375+350 = 1600, which is not listed. Hence (e).",
     "difficulty": "Foundation",
     "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
+    "verified": true,
     "removed": false
   }
 ]
