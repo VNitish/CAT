@@ -1,0 +1,522 @@
+[
+ {
+  "test": 7,
+  "question_number": 1,
+  "question_code": "ASRC-T7-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p1",
+  "set_position": 1,
+  "context_passage": "Now India’s children have a right to receive at least eight years of education, the gnawing question is whether it will remain on paper or become a reality. One hardly needs a reminder that this right is different from the others enshrined in the Constitution, that the beneficiary – a six year old child cannot demand it, nor can she or he fight a legal battle when the right is denied or violated. In all cases, it is the adult society which must act on behalf of the child’s right to education when denied, no compensation offered later can be adequate or relevant. This is so because childhood does not last. If a legal battle fought on behalf of a child is eventually won, it may be little use to the boy or girl because the opportunity missed at school during childhood cannot serve the same purpose later in life. This may be painfully true for girls because our society permits them only a short childhood, if at all. The Right to Education (RTE) has become law at a point in India’s history when the ghastly practice of female infanticide has resurfaced in the form of foeticide. This is “symptomatic of a deeper turmoil” in society which is compounding the traditional obstacles to the education of girls. Tenacious prejudice against the intellectual potential of girls runs across our cultural diversity and the system of education has not been able to address it.",
+  "directions": "",
+  "question_text": "With reference to the passage, consider the following statements : 1. When children are denied education, adult society does not act on behalf of them. 2. Right to Education as a law cannot be enforced in the country. Which of the statements given above is/are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Both the statements are not mentioned in this context in the passage hence both are invalid.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 2,
+  "question_code": "ASRC-T7-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p1",
+  "set_position": 2,
+  "context_passage": "Now India’s children have a right to receive at least eight years of education, the gnawing question is whether it will remain on paper or become a reality. One hardly needs a reminder that this right is different from the others enshrined in the Constitution, that the beneficiary – a six year old child cannot demand it, nor can she or he fight a legal battle when the right is denied or violated. In all cases, it is the adult society which must act on behalf of the child’s right to education when denied, no compensation offered later can be adequate or relevant. This is so because childhood does not last. If a legal battle fought on behalf of a child is eventually won, it may be little use to the boy or girl because the opportunity missed at school during childhood cannot serve the same purpose later in life. This may be painfully true for girls because our society permits them only a short childhood, if at all. The Right to Education (RTE) has become law at a point in India’s history when the ghastly practice of female infanticide has resurfaced in the form of foeticide. This is “symptomatic of a deeper turmoil” in society which is compounding the traditional obstacles to the education of girls. Tenacious prejudice against the intellectual potential of girls runs across our cultural diversity and the system of education has not been able to address it.",
+  "directions": "",
+  "question_text": "According to the passage, what could be the traditional obstacle to the education of girls ? 1. Inability of parents to fight a legal battle when the Right to Education is denied to their children. 2. The traditional way of thinking about girls’ role in society. 3. The prejudice against the intellectual ‘potential of girls. 4. Improper system of education. Select the correct answer from the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "label": "b",
+    "text": "2 , 3 and 4 only"
+   },
+   {
+    "label": "c",
+    "text": "1, 3 and 4 only"
+   },
+   {
+    "label": "d",
+    "text": "1, 2, 3 and 4"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The last 4 lines of the passage mention these points.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 3,
+  "question_code": "ASRC-T7-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p1",
+  "set_position": 3,
+  "context_passage": "Now India’s children have a right to receive at least eight years of education, the gnawing question is whether it will remain on paper or become a reality. One hardly needs a reminder that this right is different from the others enshrined in the Constitution, that the beneficiary – a six year old child cannot demand it, nor can she or he fight a legal battle when the right is denied or violated. In all cases, it is the adult society which must act on behalf of the child’s right to education when denied, no compensation offered later can be adequate or relevant. This is so because childhood does not last. If a legal battle fought on behalf of a child is eventually won, it may be little use to the boy or girl because the opportunity missed at school during childhood cannot serve the same purpose later in life. This may be painfully true for girls because our society permits them only a short childhood, if at all. The Right to Education (RTE) has become law at a point in India’s history when the ghastly practice of female infanticide has resurfaced in the form of foeticide. This is “symptomatic of a deeper turmoil” in society which is compounding the traditional obstacles to the education of girls. Tenacious prejudice against the intellectual potential of girls runs across our cultural diversity and the system of education has not been able to address it.",
+  "directions": "",
+  "question_text": "On the basis of the passage, consider the following statements: 1. Right to Education is a legal right and not a fundamental right. 2. For realising the goal of universal education, the education system in the country must be made identical to that of developed countries. Which of the statements given above is/are correct ?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Mentioned at the start of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 4,
+  "question_code": "ASRC-T7-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p1",
+  "set_position": 4,
+  "context_passage": "Now India’s children have a right to receive at least eight years of education, the gnawing question is whether it will remain on paper or become a reality. One hardly needs a reminder that this right is different from the others enshrined in the Constitution, that the beneficiary – a six year old child cannot demand it, nor can she or he fight a legal battle when the right is denied or violated. In all cases, it is the adult society which must act on behalf of the child’s right to education when denied, no compensation offered later can be adequate or relevant. This is so because childhood does not last. If a legal battle fought on behalf of a child is eventually won, it may be little use to the boy or girl because the opportunity missed at school during childhood cannot serve the same purpose later in life. This may be painfully true for girls because our society permits them only a short childhood, if at all. The Right to Education (RTE) has become law at a point in India’s history when the ghastly practice of female infanticide has resurfaced in the form of foeticide. This is “symptomatic of a deeper turmoil” in society which is compounding the traditional obstacles to the education of girls. Tenacious prejudice against the intellectual potential of girls runs across our cultural diversity and the system of education has not been able to address it.",
+  "directions": "",
+  "question_text": "Which one of the following statements conveys the key message of the passage?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "India has declared that education is compulsory for its children."
+   },
+   {
+    "label": "b",
+    "text": "Adult society is not keen on implementing the Right to Education."
+   },
+   {
+    "label": "c",
+    "text": "The Right to Education, particularly of a girl child, needs to be safeguarded."
+   },
+   {
+    "label": "d",
+    "text": "The system of education should address the issue of Right to Education."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Clearly one of the key points of the passage, mentioned as an important fact in the last few lines.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 5,
+  "question_code": "ASRC-T7-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p1",
+  "set_position": 5,
+  "context_passage": "Now India’s children have a right to receive at least eight years of education, the gnawing question is whether it will remain on paper or become a reality. One hardly needs a reminder that this right is different from the others enshrined in the Constitution, that the beneficiary – a six year old child cannot demand it, nor can she or he fight a legal battle when the right is denied or violated. In all cases, it is the adult society which must act on behalf of the child’s right to education when denied, no compensation offered later can be adequate or relevant. This is so because childhood does not last. If a legal battle fought on behalf of a child is eventually won, it may be little use to the boy or girl because the opportunity missed at school during childhood cannot serve the same purpose later in life. This may be painfully true for girls because our society permits them only a short childhood, if at all. The Right to Education (RTE) has become law at a point in India’s history when the ghastly practice of female infanticide has resurfaced in the form of foeticide. This is “symptomatic of a deeper turmoil” in society which is compounding the traditional obstacles to the education of girls. Tenacious prejudice against the intellectual potential of girls runs across our cultural diversity and the system of education has not been able to address it.",
+  "directions": "",
+  "question_text": "Which one of the following statements conveys the inference of the passage?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The society has a tenacious prejudice against the intellectual potential of girls."
+   },
+   {
+    "label": "b",
+    "text": "Adults’ cannot be relied upon to fight on behalf of children for –their Right to\nEducation."
+   },
+   {
+    "label": "c",
+    "text": "The legal fight to get education for children is often protracted and prohibitive."
+   },
+   {
+    "label": "d",
+    "text": "There is no sufficient substitute for education received in childhood."
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Since it is an inferential question, thus the answer cannot be directly stated in the passage and has to be inferred, thus option (d) is the correct choice which is easily inferred whereas option (a) is directly stated, hence not the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 6,
+  "question_code": "ASRC-T7-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p2",
+  "set_position": 1,
+  "context_passage": "A species that exerts an influence out of proportion to its abundance in an ecosystem is called a keystone species. The keystone species may influence both the species richness of communities and the flow of energy and materials through ecosystems. The sea star Pisaster ochraceus which lives in rocky intertidal ecosystems on the Pacific coast of North America, is also an example of a keystone species. Its preferred prey is the mussel Mytilus californianus. In the absence of sea stars, these mussels crowd out other competitors in a broad belt of the intertidal zone. By consuming mussels, sea star creates bare spaces that are taken over by a variety of other species. A study at the University of Washington demonstrated the influence of Pisaster on species richness by removing sea stars from selected parts of the intertidal zone repeatedly over a period of five years. Two major changes occurred in the area from which sea stars were removed. First, the lower edge of the mussel bed extended farther down into the intertidal zone, showing that sea stars are able to eliminate mussels completely where they are covered with water most of the time. Second, and more dramatically, 28 species of animals and algae disappeared from the sea star removal zone. Eventually only Mytilus, the dominant competitor, occupied the entire substratum. Through its effect on competitive relationships, predation by Pisaster largely determines, which species live in these rocky intertidal ecosystems.",
+  "directions": "",
+  "question_text": "What is the crux of the passage?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Sea star has a preferred prey."
+   },
+   {
+    "label": "b",
+    "text": "A preferred prey determines the survival of a keystone species."
+   },
+   {
+    "label": "c",
+    "text": "Keystone species ensures species diversity."
+   },
+   {
+    "label": "d",
+    "text": "Sea star is the only keystone species on the Pacific coast of North America."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "This is the central theme of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 7,
+  "question_code": "ASRC-T7-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p2",
+  "set_position": 2,
+  "context_passage": "A species that exerts an influence out of proportion to its abundance in an ecosystem is called a keystone species. The keystone species may influence both the species richness of communities and the flow of energy and materials through ecosystems. The sea star Pisaster ochraceus which lives in rocky intertidal ecosystems on the Pacific coast of North America, is also an example of a keystone species. Its preferred prey is the mussel Mytilus californianus. In the absence of sea stars, these mussels crowd out other competitors in a broad belt of the intertidal zone. By consuming mussels, sea star creates bare spaces that are taken over by a variety of other species. A study at the University of Washington demonstrated the influence of Pisaster on species richness by removing sea stars from selected parts of the intertidal zone repeatedly over a period of five years. Two major changes occurred in the area from which sea stars were removed. First, the lower edge of the mussel bed extended farther down into the intertidal zone, showing that sea stars are able to eliminate mussels completely where they are covered with water most of the time. Second, and more dramatically, 28 species of animals and algae disappeared from the sea star removal zone. Eventually only Mytilus, the dominant competitor, occupied the entire substratum. Through its effect on competitive relationships, predation by Pisaster largely determines, which species live in these rocky intertidal ecosystems.",
+  "directions": "",
+  "question_text": "With reference to the passage, consider the following statements: 1. Mussels are generally’ the dominant species in intertidal ecosystems. 2. The survival of sea stars generally determined abundance of mussels. Which of the statements given above is/are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "It is clearly stated in the passage that the quantity of mussels in an area is determined by the presence or absence of its predators, the sea stars. Statement 1 is incorrect as mussels are controlled by sea stars hence cannot be termed as the dominant species, and are rather called the competitive species.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 8,
+  "question_code": "ASRC-T7-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p2",
+  "set_position": 3,
+  "context_passage": "A species that exerts an influence out of proportion to its abundance in an ecosystem is called a keystone species. The keystone species may influence both the species richness of communities and the flow of energy and materials through ecosystems. The sea star Pisaster ochraceus which lives in rocky intertidal ecosystems on the Pacific coast of North America, is also an example of a keystone species. Its preferred prey is the mussel Mytilus californianus. In the absence of sea stars, these mussels crowd out other competitors in a broad belt of the intertidal zone. By consuming mussels, sea star creates bare spaces that are taken over by a variety of other species. A study at the University of Washington demonstrated the influence of Pisaster on species richness by removing sea stars from selected parts of the intertidal zone repeatedly over a period of five years. Two major changes occurred in the area from which sea stars were removed. First, the lower edge of the mussel bed extended farther down into the intertidal zone, showing that sea stars are able to eliminate mussels completely where they are covered with water most of the time. Second, and more dramatically, 28 species of animals and algae disappeared from the sea star removal zone. Eventually only Mytilus, the dominant competitor, occupied the entire substratum. Through its effect on competitive relationships, predation by Pisaster largely determines, which species live in these rocky intertidal ecosystems.",
+  "directions": "",
+  "question_text": "Which of the following is/are implied by the passage? 1. Mussels are always hard competitors for sea stars. 2. Sea stars of the Pacific coast have reached the climax of their evolution. 3. Sea stars constitute an important component in the energy flow in intertidal ecosystem. Which of the statements given above is/are correct ?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 2"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "1 and 3"
+   },
+   {
+    "label": "d",
+    "text": "3 only"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Clearly mentioned in the passage, in the 1st paragraph",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 9,
+  "question_code": "ASRC-T7-Q09",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p2",
+  "set_position": 4,
+  "context_passage": "A species that exerts an influence out of proportion to its abundance in an ecosystem is called a keystone species. The keystone species may influence both the species richness of communities and the flow of energy and materials through ecosystems. The sea star Pisaster ochraceus which lives in rocky intertidal ecosystems on the Pacific coast of North America, is also an example of a keystone species. Its preferred prey is the mussel Mytilus californianus. In the absence of sea stars, these mussels crowd out other competitors in a broad belt of the intertidal zone. By consuming mussels, sea star creates bare spaces that are taken over by a variety of other species. A study at the University of Washington demonstrated the influence of Pisaster on species richness by removing sea stars from selected parts of the intertidal zone repeatedly over a period of five years. Two major changes occurred in the area from which sea stars were removed. First, the lower edge of the mussel bed extended farther down into the intertidal zone, showing that sea stars are able to eliminate mussels completely where they are covered with water most of the time. Second, and more dramatically, 28 species of animals and algae disappeared from the sea star removal zone. Eventually only Mytilus, the dominant competitor, occupied the entire substratum. Through its effect on competitive relationships, predation by Pisaster largely determines, which species live in these rocky intertidal ecosystems.",
+  "directions": "",
+  "question_text": "Consider the following assumptions: 1. The food chains/food web in an ecosystem are influenced by keystone species. 2. The presence of keystone species is a specific characteristic of aquatic ecosystems. 3. If the keystone species is completely removed from an ecosystem, it will lead to the collapse of the ecosystem: With reference to the passage, which of the above assumptions is/are valid?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "label": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "label": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Statement 1 is definitely true, whereas statement 3 is not true because removal of the keystone species does not devastate or collapse the ecosystem, rather it changes it.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 10,
+  "question_code": "ASRC-T7-Q10",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p2",
+  "set_position": 5,
+  "context_passage": "A species that exerts an influence out of proportion to its abundance in an ecosystem is called a keystone species. The keystone species may influence both the species richness of communities and the flow of energy and materials through ecosystems. The sea star Pisaster ochraceus which lives in rocky intertidal ecosystems on the Pacific coast of North America, is also an example of a keystone species. Its preferred prey is the mussel Mytilus californianus. In the absence of sea stars, these mussels crowd out other competitors in a broad belt of the intertidal zone. By consuming mussels, sea star creates bare spaces that are taken over by a variety of other species. A study at the University of Washington demonstrated the influence of Pisaster on species richness by removing sea stars from selected parts of the intertidal zone repeatedly over a period of five years. Two major changes occurred in the area from which sea stars were removed. First, the lower edge of the mussel bed extended farther down into the intertidal zone, showing that sea stars are able to eliminate mussels completely where they are covered with water most of the time. Second, and more dramatically, 28 species of animals and algae disappeared from the sea star removal zone. Eventually only Mytilus, the dominant competitor, occupied the entire substratum. Through its effect on competitive relationships, predation by Pisaster largely determines, which species live in these rocky intertidal ecosystems.",
+  "directions": "",
+  "question_text": "Which is the most dominant competitor of the Pisaster?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The mussels"
+   },
+   {
+    "label": "b",
+    "text": "the sea oyster"
+   },
+   {
+    "label": "c",
+    "text": "the sea star"
+   },
+   {
+    "label": "d",
+    "text": "the sea urchin"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The mussels is the most dominant competitor of the Pisaster, and is clearly mentioned in the first few lines of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 11,
+  "question_code": "ASRC-T7-Q11",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p3",
+  "set_position": 1,
+  "context_passage": "A moral act must be our own act; must spring from our own will. If we act mechanically, there is no moral content in our act. Such action would be moral, if we think it proper to act like a machine and do so. For, in doing so, we use our discrimination. We should bear in mind the distinction between acting mechanically and acting intentionally. It may be moral of a king to pardon a culprit. But the messenger carrying out the order of pardon plays only a mechanical part in the king’s moral act. But if the messenger were to carry out the king’s order considering it to be his duty, his action would be a moral one. How can a man understand morality who does not use his own intelligence and power of thought, but lets himself be swept along like a log of wood by a current? Sometimes a man defies convention and acts on his own with a view to absolute good.",
+  "directions": "",
+  "question_text": "Which of the following statements best describe/describes the thought of the writer? l. A moral act calls for using our discretion. 2. Man should react to a situation immediately. 3. Man must do his duty. 4. Man should be able to defy convention in order to be moral. Select the correct answer from the codes given below",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "1 and 3"
+   },
+   {
+    "label": "c",
+    "text": "2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "1 and 4"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "A moral act must be our own act; must spring from our own will. Hence statement 1 is correct, although statement 4 is also mentioned but it says sometimes so it is not the usual but a rarity, thus only 1 is the best option.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 12,
+  "question_code": "ASRC-T7-Q12",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p3",
+  "set_position": 2,
+  "context_passage": "A moral act must be our own act; must spring from our own will. If we act mechanically, there is no moral content in our act. Such action would be moral, if we think it proper to act like a machine and do so. For, in doing so, we use our discrimination. We should bear in mind the distinction between acting mechanically and acting intentionally. It may be moral of a king to pardon a culprit. But the messenger carrying out the order of pardon plays only a mechanical part in the king’s moral act. But if the messenger were to carry out the king’s order considering it to be his duty, his action would be a moral one. How can a man understand morality who does not use his own intelligence and power of thought, but lets himself be swept along like a log of wood by a current? Sometimes a man defies convention and acts on his own with a view to absolute good.",
+  "directions": "",
+  "question_text": "Which of the following statements is the nearest definition of moral action, according to the writer?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "It is a mechanical action based on official orders from superiors."
+   },
+   {
+    "label": "b",
+    "text": "It is an action based on our sense of discretion."
+   },
+   {
+    "label": "c",
+    "text": "It is a clever action based on the clarity of purpose."
+   },
+   {
+    "label": "d",
+    "text": "It is a religious action based on understanding."
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "A moral act must be our own act; must spring from our own will. Hence, option (b) is the right option.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 7,
+  "question_number": 13,
+  "question_code": "ASRC-T7-Q13",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t7-p3",
+  "set_position": 3,
+  "context_passage": "A moral act must be our own act; must spring from our own will. If we act mechanically, there is no moral content in our act. Such action would be moral, if we think it proper to act like a machine and do so. For, in doing so, we use our discrimination. We should bear in mind the distinction between acting mechanically and acting intentionally. It may be moral of a king to pardon a culprit. But the messenger carrying out the order of pardon plays only a mechanical part in the king’s moral act. But if the messenger were to carry out the king’s order considering it to be his duty, his action would be a moral one. How can a man understand morality who does not use his own intelligence and power of thought, but lets himself be swept along like a log of wood by a current? Sometimes a man defies convention and acts on his own with a view to absolute good.",
+  "directions": "",
+  "question_text": "The passage contains a statement “lets himself be swept along like a log of wood by a current.” Among the following statements, which is/are’ nearest in meaning to this? 1. A person does not use his own reason. 2. He is susceptible to influence /pressure. 3. He cannot withstand difficulties/ challenges. 4. He is like a log of wood. Select the correct answer using the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "1and 2"
+   },
+   {
+    "label": "c",
+    "text": "2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "1 and 4"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "It means that he is not using his own mind but is influenced or obeys orders blindly. Thus both statements 1 and 2 are relevant.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

@@ -1,0 +1,402 @@
+[
+ {
+  "test": 2,
+  "question_number": 1,
+  "question_code": "ASRC-T2-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p1",
+  "set_position": 1,
+  "context_passage": "It was the best of times, It was the worst of times, It was the age of wisdom, It was the age of foolishness, It was the epoch of belief, It was the epoch of incredulity, It was the season of Light, It was the season of Darkness, It was the spring of hope, It was the winter of despair, We had everything before us, We had nothing before us, We were all going direct to Heaven, We were all going direct the other way-- In short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only. There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the state preserves of loaves and fishes, that things in general were settled for ever. It was the year of Our Lord one thousand seven hundred and seventy-five. Spiritual revelations were conceded to England at that favoured period, as at this. Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster. Even the Cock-lane ghost had been laid only a round dozen of years, after rapping out its messages, as the spirits of this very year last past (supernaturally deficient in originality) rapped out theirs. Mere messages in the earthly order of events had lately come to the English Crown and People, from a congress of British subjects in America: which, strange to relate, have proved more important to the human race than any communications yet received through any of the chickens of the Cock-lane brood. France, less favoured on the whole as to matters spiritual than her sister of the shield and trident, rolled with exceeding smoothness down hill, making paper money and spending it. Under the guidance of her Christian pastors, she entertained herself, besides, with such humane achievements as sentencing a youth to have his hands cut off, his tongue torn out with pincers, and his body burned alive, because he had not kneeled down in the rain to do honour to a dirty procession of monks which passed within his view, at a distance of some fifty or sixty yards. It is likely enough that, rooted in the woods of France and Norway, there were growing trees, when that sufferer was put to death, already marked by the Woodman, Fate, to come down and be sawn into boards, to make a certain movable framework with a sack and a knife in it, terrible in history. It is likely enough that in the rough outhouses of some tillers of the heavy lands adjacent to Paris, there were sheltered from the weather that very day, rude carts, bespattered with rustic mire, snuffed about by pigs, and roosted in by poultry, which the Farmer, Death, had already set apart to be his tumbrils of the Revolution. But that Woodman and that Farmer, though they work unceasingly, work silently, and no one heard them as they went about with muffled tread: the rather, for as much as to entertain any suspicion that they were awake, was to be atheistical and traitorous.",
+  "directions": "",
+  "question_text": "What is the tone of the passage?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Argumentative"
+   },
+   {
+    "label": "b",
+    "text": "Nostalgic"
+   },
+   {
+    "label": "c",
+    "text": "Ironical"
+   },
+   {
+    "label": "d",
+    "text": "Aesthetical"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The tone is clearly ironical as it talks about so many paradoxes that were prevalent in those times, with a tinge of mockery and sadness.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 2,
+  "question_code": "ASRC-T2-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p1",
+  "set_position": 2,
+  "context_passage": "It was the best of times, It was the worst of times, It was the age of wisdom, It was the age of foolishness, It was the epoch of belief, It was the epoch of incredulity, It was the season of Light, It was the season of Darkness, It was the spring of hope, It was the winter of despair, We had everything before us, We had nothing before us, We were all going direct to Heaven, We were all going direct the other way-- In short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only. There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the state preserves of loaves and fishes, that things in general were settled for ever. It was the year of Our Lord one thousand seven hundred and seventy-five. Spiritual revelations were conceded to England at that favoured period, as at this. Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster. Even the Cock-lane ghost had been laid only a round dozen of years, after rapping out its messages, as the spirits of this very year last past (supernaturally deficient in originality) rapped out theirs. Mere messages in the earthly order of events had lately come to the English Crown and People, from a congress of British subjects in America: which, strange to relate, have proved more important to the human race than any communications yet received through any of the chickens of the Cock-lane brood. France, less favoured on the whole as to matters spiritual than her sister of the shield and trident, rolled with exceeding smoothness down hill, making paper money and spending it. Under the guidance of her Christian pastors, she entertained herself, besides, with such humane achievements as sentencing a youth to have his hands cut off, his tongue torn out with pincers, and his body burned alive, because he had not kneeled down in the rain to do honour to a dirty procession of monks which passed within his view, at a distance of some fifty or sixty yards. It is likely enough that, rooted in the woods of France and Norway, there were growing trees, when that sufferer was put to death, already marked by the Woodman, Fate, to come down and be sawn into boards, to make a certain movable framework with a sack and a knife in it, terrible in history. It is likely enough that in the rough outhouses of some tillers of the heavy lands adjacent to Paris, there were sheltered from the weather that very day, rude carts, bespattered with rustic mire, snuffed about by pigs, and roosted in by poultry, which the Farmer, Death, had already set apart to be his tumbrils of the Revolution. But that Woodman and that Farmer, though they work unceasingly, work silently, and no one heard them as they went about with muffled tread: the rather, for as much as to entertain any suspicion that they were awake, was to be atheistical and traitorous.",
+  "directions": "",
+  "question_text": "Which one of the following options is correct according to the passage? 1. The author tries to use opposing pairs to highlight how they were equal in their struggle 2. The author tries to show how Britain was superior to France. 3. The author tries to show how it was going to be the end of the world with things so mismatched as they had never been before.",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "None of these"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The writing style here uses contrasts to show how equal and opposing forces were pitted against each other in the struggle.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 3,
+  "question_code": "ASRC-T2-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p1",
+  "set_position": 3,
+  "context_passage": "It was the best of times, It was the worst of times, It was the age of wisdom, It was the age of foolishness, It was the epoch of belief, It was the epoch of incredulity, It was the season of Light, It was the season of Darkness, It was the spring of hope, It was the winter of despair, We had everything before us, We had nothing before us, We were all going direct to Heaven, We were all going direct the other way-- In short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only. There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the state preserves of loaves and fishes, that things in general were settled for ever. It was the year of Our Lord one thousand seven hundred and seventy-five. Spiritual revelations were conceded to England at that favoured period, as at this. Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster. Even the Cock-lane ghost had been laid only a round dozen of years, after rapping out its messages, as the spirits of this very year last past (supernaturally deficient in originality) rapped out theirs. Mere messages in the earthly order of events had lately come to the English Crown and People, from a congress of British subjects in America: which, strange to relate, have proved more important to the human race than any communications yet received through any of the chickens of the Cock-lane brood. France, less favoured on the whole as to matters spiritual than her sister of the shield and trident, rolled with exceeding smoothness down hill, making paper money and spending it. Under the guidance of her Christian pastors, she entertained herself, besides, with such humane achievements as sentencing a youth to have his hands cut off, his tongue torn out with pincers, and his body burned alive, because he had not kneeled down in the rain to do honour to a dirty procession of monks which passed within his view, at a distance of some fifty or sixty yards. It is likely enough that, rooted in the woods of France and Norway, there were growing trees, when that sufferer was put to death, already marked by the Woodman, Fate, to come down and be sawn into boards, to make a certain movable framework with a sack and a knife in it, terrible in history. It is likely enough that in the rough outhouses of some tillers of the heavy lands adjacent to Paris, there were sheltered from the weather that very day, rude carts, bespattered with rustic mire, snuffed about by pigs, and roosted in by poultry, which the Farmer, Death, had already set apart to be his tumbrils of the Revolution. But that Woodman and that Farmer, though they work unceasingly, work silently, and no one heard them as they went about with muffled tread: the rather, for as much as to entertain any suspicion that they were awake, was to be atheistical and traitorous.",
+  "directions": "",
+  "question_text": "The ‘humane achievements’ mentioned in the passage refers to : 1. The humane values which were upheld in those times. 2. A sarcastic comment on the system which had become totally ‘inhuman’ as opposed to ‘humane’. 3. The punishments and trials given to people was most humane and would be counted as an achievement.",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "Both 2 and 3"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "It is mentioned as a negative remark, a taunt in the case of France, in the last paragraph of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 4,
+  "question_code": "ASRC-T2-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p2",
+  "set_position": 1,
+  "context_passage": "Egoism can be held as a descriptive or a normative theory and Hobbes seems to have held both versions. As an empirical theory about human motivation generally termed psychological egoism, it holds that persons are always motivated by and act on the basis of what they perceive to be their self-interest and their good. As an ethical or normative theory it holds that all persons have a basic obligation to act to promote their own interests even to the detriment of others. Although Hobbes states in some of his writings that not all helping others is irrational, he does claim that sacrificing one’s life is always irrational. Virtues, for Hobbes, have no intrinsic value but only as a means to power. An essential component of Hobbes theory of human nature is his belief in human equality. This equality is a physical and intellectual equality in that, as Hobbes puts it, the weakest, under the right circumstances, can kill the strongest.Since all persons are equal in this sense, all have an endless desire for power to satisfy their desires, and given a scarcity of power and the goods necessary to satisfy desires, competition for power and conflict are inevitable. In addition to the competition for power, the other major causes of conflict are fear of death and injury and the desire for glory. Given such an analysis of human nature a condition without government has some clear implications for Hobbes. The condition without a common power or authority Hobbes terms the “state of nature.” Hobbes does not claim that there was ever such a state throughout the world, but he does believe it is still in existence among the independent nations of the world who have no power over them. He also believed that native Americans were still in such a circumstance. Given the infinite desire for power, the state of nature is, for Hobbes, necessarily a state of constant war and threat of war “of every man against every man.” In such a condition, there is no industry, agriculture, private property or civilization at all. Hobbes reinforces his claim that war is the natural state of mankind in some ordinary observations of human behavior. He notes that all take precautions against robbery and violence even in society by locking their doors and other measures for self-protection. The state of nature Hobbes describes is far starker than in mostcontract theories being a state without any morality or justice and permeated by a constant power struggle. In this harsh state of nature there are no moral or legal limits to anything and every person has a right to everything even another’s life. Life is reduced to such a primitive, violent and crude level that Hobbes calls it “solitary, poor, nasty, brutish and short.” Human beings are, according to Hobbes, rational creatures with an inborn desire for life and pleasure and, as such, seek a way to escape the amoral, lawless and chaotic state of nature they find themselves in. At this point in his argument Hobbes introduces the idea of the “laws of nature” as immutable laws which exist in the state of nature and which are not fundamental moral rules necessary for social order as understood by Aquinas and Locke among others, but rather precepts of prudential reason promoting survival and motivating humans to move to a more secure and comfortable life. The laws of nature give humanity what Hobbes calls the “natural right” to self-preservation. By “right” Hobbes does not mean a moral or legal notion but simply the natural liberty to act in one’s own enlightened interest. For Hobbes, the desire for power is a basic human drive since power is the necessary means for happiness and getting what humans desire. Consequently, the more power one has the more likely one will achieve one’s desires. Our desires are, for Hobbes, endless and so is the human need for power, which only ends in death. Hobbes explains that individuals in the state of nature are in a state of war and so see the need to escape that turbulent state by forming some kind of central power or government. They decide to “confer all their power and strength upon one man or upon one assembly” and so make that person or group the authority to act for each person of the society. Later Hobbes qualifies this by noting that no one can or should give up the right to survival; this then is the only limit to the contract. The actual words of the contract or covenant “I authorize and give up my right of governing myself to this man or to this assembly of men on this condition, that you give up your right to him and authorize all his actions in like manner.” However, this agreement need not be unanimous but only a majority decision. If some refuse to consent to the contract, they would be destroyed since they would then be in a state of nature with respect to the others. This agreement creates a “sovereign,” a common political power, and what Hobbes calls a “commonwealth” which he also calls the “leviathan.” A sovereign created by agreement Hobbes calls sovereignty by “institution.” However, a sovereign can also be created by conquest where one commonwealth overpowers another. For Hobbes, a contract is nothing without the power of enforcement or “covenants without the sword are but words.” Words cannot keep a contract effective but two ways are effective, the fear of the consequences of breaking the contract and the “glory” of not breaking it or needing to break it. Hence, the sovereign must have all the necessary power to enforce the contract and the people keep their contract strictly out of fear of punishment and death.",
+  "directions": "",
+  "question_text": "Which of the following courses of action would Hobbes be most likely to disagree with?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "A soldier defending the borders of his country from the belligerent neighbour’s\nsurprise attack has to decide whether to take on an individual maneuver on the\nattackers. He knows his actions would buy his country’s forces a lot of time and\npossibly save many lives. He is torn between going forward and retreating as he\n\nthinks of his wife and newborn daughter. He decides to withdraw and convene\nwith the others as he rationalizes that there must be some other way out."
+   },
+   {
+    "label": "b",
+    "text": "On the way to an important meeting, a man witnesses a severe accident between\na two-wheeler and a car. Both parties are severely injured and there is a large\ncrowd gathering at the scene of the accident. He hears someone call out to him\nhelp transport the injured victims to the nearby hospital. The man pretends not\nhave heard and drives away quickly, thinking there would be several others to\ncome to the rescue of the victims and he could not afford to be late to the\nmeeting."
+   },
+   {
+    "label": "c",
+    "text": "A mother takes the blame for an act of theft on the behalf of her son in order to\nprevent him from being punished, as she believes he is too young and was under\nthe bad influence of his friends."
+   },
+   {
+    "label": "d",
+    "text": "A country concludes an entente with its long-standing bitter rival neighbouring\ncountry due to mutual strategic advantages that the alliances offers them."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Hobbes espoused psychological egoism, or the belief that human beings are obligated to act in their own self-interest, even to the detriment of others. In all of the above, the protagonist has an option between saving himself/herself or doing good for others. It is only in option (c) that the mother acting to save her own son compromises self-interest. This is the course of action that Hobbes is thus most likely to reject",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 5,
+  "question_code": "ASRC-T2-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p2",
+  "set_position": 2,
+  "context_passage": "Egoism can be held as a descriptive or a normative theory and Hobbes seems to have held both versions. As an empirical theory about human motivation generally termed psychological egoism, it holds that persons are always motivated by and act on the basis of what they perceive to be their self-interest and their good. As an ethical or normative theory it holds that all persons have a basic obligation to act to promote their own interests even to the detriment of others. Although Hobbes states in some of his writings that not all helping others is irrational, he does claim that sacrificing one’s life is always irrational. Virtues, for Hobbes, have no intrinsic value but only as a means to power. An essential component of Hobbes theory of human nature is his belief in human equality. This equality is a physical and intellectual equality in that, as Hobbes puts it, the weakest, under the right circumstances, can kill the strongest.Since all persons are equal in this sense, all have an endless desire for power to satisfy their desires, and given a scarcity of power and the goods necessary to satisfy desires, competition for power and conflict are inevitable. In addition to the competition for power, the other major causes of conflict are fear of death and injury and the desire for glory. Given such an analysis of human nature a condition without government has some clear implications for Hobbes. The condition without a common power or authority Hobbes terms the “state of nature.” Hobbes does not claim that there was ever such a state throughout the world, but he does believe it is still in existence among the independent nations of the world who have no power over them. He also believed that native Americans were still in such a circumstance. Given the infinite desire for power, the state of nature is, for Hobbes, necessarily a state of constant war and threat of war “of every man against every man.” In such a condition, there is no industry, agriculture, private property or civilization at all. Hobbes reinforces his claim that war is the natural state of mankind in some ordinary observations of human behavior. He notes that all take precautions against robbery and violence even in society by locking their doors and other measures for self-protection. The state of nature Hobbes describes is far starker than in mostcontract theories being a state without any morality or justice and permeated by a constant power struggle. In this harsh state of nature there are no moral or legal limits to anything and every person has a right to everything even another’s life. Life is reduced to such a primitive, violent and crude level that Hobbes calls it “solitary, poor, nasty, brutish and short.” Human beings are, according to Hobbes, rational creatures with an inborn desire for life and pleasure and, as such, seek a way to escape the amoral, lawless and chaotic state of nature they find themselves in. At this point in his argument Hobbes introduces the idea of the “laws of nature” as immutable laws which exist in the state of nature and which are not fundamental moral rules necessary for social order as understood by Aquinas and Locke among others, but rather precepts of prudential reason promoting survival and motivating humans to move to a more secure and comfortable life. The laws of nature give humanity what Hobbes calls the “natural right” to self-preservation. By “right” Hobbes does not mean a moral or legal notion but simply the natural liberty to act in one’s own enlightened interest. For Hobbes, the desire for power is a basic human drive since power is the necessary means for happiness and getting what humans desire. Consequently, the more power one has the more likely one will achieve one’s desires. Our desires are, for Hobbes, endless and so is the human need for power, which only ends in death. Hobbes explains that individuals in the state of nature are in a state of war and so see the need to escape that turbulent state by forming some kind of central power or government. They decide to “confer all their power and strength upon one man or upon one assembly” and so make that person or group the authority to act for each person of the society. Later Hobbes qualifies this by noting that no one can or should give up the right to survival; this then is the only limit to the contract. The actual words of the contract or covenant “I authorize and give up my right of governing myself to this man or to this assembly of men on this condition, that you give up your right to him and authorize all his actions in like manner.” However, this agreement need not be unanimous but only a majority decision. If some refuse to consent to the contract, they would be destroyed since they would then be in a state of nature with respect to the others. This agreement creates a “sovereign,” a common political power, and what Hobbes calls a “commonwealth” which he also calls the “leviathan.” A sovereign created by agreement Hobbes calls sovereignty by “institution.” However, a sovereign can also be created by conquest where one commonwealth overpowers another. For Hobbes, a contract is nothing without the power of enforcement or “covenants without the sword are but words.” Words cannot keep a contract effective but two ways are effective, the fear of the consequences of breaking the contract and the “glory” of not breaking it or needing to break it. Hence, the sovereign must have all the necessary power to enforce the contract and the people keep their contract strictly out of fear of punishment and death.",
+  "directions": "",
+  "question_text": "According to the passage, which of the following are not characteristics of human beings?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "A strong urge to acquire might, glory and precedence over others."
+   },
+   {
+    "label": "b",
+    "text": "The desire to escape conflict, chaos and the fear of death."
+   },
+   {
+    "label": "c",
+    "text": "A predilection for selfless action and sacrifice."
+   },
+   {
+    "label": "d",
+    "text": "The capacity for critical reasoning."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Hobbes held a pessimistic view of the nature of human beings in that he believed them to be egotistical, power-seeking and rational beings. Selfless action and the spirit of sacrifice was alien to this conception. Thus option (c) is not a characteristic oh human beings, as Hobbes saw it.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 6,
+  "question_code": "ASRC-T2-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p2",
+  "set_position": 3,
+  "context_passage": "Egoism can be held as a descriptive or a normative theory and Hobbes seems to have held both versions. As an empirical theory about human motivation generally termed psychological egoism, it holds that persons are always motivated by and act on the basis of what they perceive to be their self-interest and their good. As an ethical or normative theory it holds that all persons have a basic obligation to act to promote their own interests even to the detriment of others. Although Hobbes states in some of his writings that not all helping others is irrational, he does claim that sacrificing one’s life is always irrational. Virtues, for Hobbes, have no intrinsic value but only as a means to power. An essential component of Hobbes theory of human nature is his belief in human equality. This equality is a physical and intellectual equality in that, as Hobbes puts it, the weakest, under the right circumstances, can kill the strongest.Since all persons are equal in this sense, all have an endless desire for power to satisfy their desires, and given a scarcity of power and the goods necessary to satisfy desires, competition for power and conflict are inevitable. In addition to the competition for power, the other major causes of conflict are fear of death and injury and the desire for glory. Given such an analysis of human nature a condition without government has some clear implications for Hobbes. The condition without a common power or authority Hobbes terms the “state of nature.” Hobbes does not claim that there was ever such a state throughout the world, but he does believe it is still in existence among the independent nations of the world who have no power over them. He also believed that native Americans were still in such a circumstance. Given the infinite desire for power, the state of nature is, for Hobbes, necessarily a state of constant war and threat of war “of every man against every man.” In such a condition, there is no industry, agriculture, private property or civilization at all. Hobbes reinforces his claim that war is the natural state of mankind in some ordinary observations of human behavior. He notes that all take precautions against robbery and violence even in society by locking their doors and other measures for self-protection. The state of nature Hobbes describes is far starker than in mostcontract theories being a state without any morality or justice and permeated by a constant power struggle. In this harsh state of nature there are no moral or legal limits to anything and every person has a right to everything even another’s life. Life is reduced to such a primitive, violent and crude level that Hobbes calls it “solitary, poor, nasty, brutish and short.” Human beings are, according to Hobbes, rational creatures with an inborn desire for life and pleasure and, as such, seek a way to escape the amoral, lawless and chaotic state of nature they find themselves in. At this point in his argument Hobbes introduces the idea of the “laws of nature” as immutable laws which exist in the state of nature and which are not fundamental moral rules necessary for social order as understood by Aquinas and Locke among others, but rather precepts of prudential reason promoting survival and motivating humans to move to a more secure and comfortable life. The laws of nature give humanity what Hobbes calls the “natural right” to self-preservation. By “right” Hobbes does not mean a moral or legal notion but simply the natural liberty to act in one’s own enlightened interest. For Hobbes, the desire for power is a basic human drive since power is the necessary means for happiness and getting what humans desire. Consequently, the more power one has the more likely one will achieve one’s desires. Our desires are, for Hobbes, endless and so is the human need for power, which only ends in death. Hobbes explains that individuals in the state of nature are in a state of war and so see the need to escape that turbulent state by forming some kind of central power or government. They decide to “confer all their power and strength upon one man or upon one assembly” and so make that person or group the authority to act for each person of the society. Later Hobbes qualifies this by noting that no one can or should give up the right to survival; this then is the only limit to the contract. The actual words of the contract or covenant “I authorize and give up my right of governing myself to this man or to this assembly of men on this condition, that you give up your right to him and authorize all his actions in like manner.” However, this agreement need not be unanimous but only a majority decision. If some refuse to consent to the contract, they would be destroyed since they would then be in a state of nature with respect to the others. This agreement creates a “sovereign,” a common political power, and what Hobbes calls a “commonwealth” which he also calls the “leviathan.” A sovereign created by agreement Hobbes calls sovereignty by “institution.” However, a sovereign can also be created by conquest where one commonwealth overpowers another. For Hobbes, a contract is nothing without the power of enforcement or “covenants without the sword are but words.” Words cannot keep a contract effective but two ways are effective, the fear of the consequences of breaking the contract and the “glory” of not breaking it or needing to break it. Hence, the sovereign must have all the necessary power to enforce the contract and the people keep their contract strictly out of fear of punishment and death.",
+  "directions": "",
+  "question_text": "According to Hobbes’ formulation of the pre-societal, what are the main disadvantages of the state of nature? 1. No sense of security and a fear for one’s life 2. Absence of law and order and endless power struggle 3. Equality of all with every other member of the state of nature 4. There is great possibility of progress and development of mankind",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1, 2 and 3"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Both 3 and 4"
+   },
+   {
+    "label": "d",
+    "text": "Both 1 and 2"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The state of nature is described by Hobbes as an extremely unsafe place where all human beings are equal, but fear for their own lives. It is characterized by a lack of safety, suspicion and each man being against every other. While option c describes a characteristic of the state of nature, it does not particularly indicate a disadvantage. It is (a) and (b) together that describe the nature of life in the state of nature.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 7,
+  "question_code": "ASRC-T2-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p2",
+  "set_position": 4,
+  "context_passage": "Egoism can be held as a descriptive or a normative theory and Hobbes seems to have held both versions. As an empirical theory about human motivation generally termed psychological egoism, it holds that persons are always motivated by and act on the basis of what they perceive to be their self-interest and their good. As an ethical or normative theory it holds that all persons have a basic obligation to act to promote their own interests even to the detriment of others. Although Hobbes states in some of his writings that not all helping others is irrational, he does claim that sacrificing one’s life is always irrational. Virtues, for Hobbes, have no intrinsic value but only as a means to power. An essential component of Hobbes theory of human nature is his belief in human equality. This equality is a physical and intellectual equality in that, as Hobbes puts it, the weakest, under the right circumstances, can kill the strongest.Since all persons are equal in this sense, all have an endless desire for power to satisfy their desires, and given a scarcity of power and the goods necessary to satisfy desires, competition for power and conflict are inevitable. In addition to the competition for power, the other major causes of conflict are fear of death and injury and the desire for glory. Given such an analysis of human nature a condition without government has some clear implications for Hobbes. The condition without a common power or authority Hobbes terms the “state of nature.” Hobbes does not claim that there was ever such a state throughout the world, but he does believe it is still in existence among the independent nations of the world who have no power over them. He also believed that native Americans were still in such a circumstance. Given the infinite desire for power, the state of nature is, for Hobbes, necessarily a state of constant war and threat of war “of every man against every man.” In such a condition, there is no industry, agriculture, private property or civilization at all. Hobbes reinforces his claim that war is the natural state of mankind in some ordinary observations of human behavior. He notes that all take precautions against robbery and violence even in society by locking their doors and other measures for self-protection. The state of nature Hobbes describes is far starker than in mostcontract theories being a state without any morality or justice and permeated by a constant power struggle. In this harsh state of nature there are no moral or legal limits to anything and every person has a right to everything even another’s life. Life is reduced to such a primitive, violent and crude level that Hobbes calls it “solitary, poor, nasty, brutish and short.” Human beings are, according to Hobbes, rational creatures with an inborn desire for life and pleasure and, as such, seek a way to escape the amoral, lawless and chaotic state of nature they find themselves in. At this point in his argument Hobbes introduces the idea of the “laws of nature” as immutable laws which exist in the state of nature and which are not fundamental moral rules necessary for social order as understood by Aquinas and Locke among others, but rather precepts of prudential reason promoting survival and motivating humans to move to a more secure and comfortable life. The laws of nature give humanity what Hobbes calls the “natural right” to self-preservation. By “right” Hobbes does not mean a moral or legal notion but simply the natural liberty to act in one’s own enlightened interest. For Hobbes, the desire for power is a basic human drive since power is the necessary means for happiness and getting what humans desire. Consequently, the more power one has the more likely one will achieve one’s desires. Our desires are, for Hobbes, endless and so is the human need for power, which only ends in death. Hobbes explains that individuals in the state of nature are in a state of war and so see the need to escape that turbulent state by forming some kind of central power or government. They decide to “confer all their power and strength upon one man or upon one assembly” and so make that person or group the authority to act for each person of the society. Later Hobbes qualifies this by noting that no one can or should give up the right to survival; this then is the only limit to the contract. The actual words of the contract or covenant “I authorize and give up my right of governing myself to this man or to this assembly of men on this condition, that you give up your right to him and authorize all his actions in like manner.” However, this agreement need not be unanimous but only a majority decision. If some refuse to consent to the contract, they would be destroyed since they would then be in a state of nature with respect to the others. This agreement creates a “sovereign,” a common political power, and what Hobbes calls a “commonwealth” which he also calls the “leviathan.” A sovereign created by agreement Hobbes calls sovereignty by “institution.” However, a sovereign can also be created by conquest where one commonwealth overpowers another. For Hobbes, a contract is nothing without the power of enforcement or “covenants without the sword are but words.” Words cannot keep a contract effective but two ways are effective, the fear of the consequences of breaking the contract and the “glory” of not breaking it or needing to break it. Hence, the sovereign must have all the necessary power to enforce the contract and the people keep their contract strictly out of fear of punishment and death.",
+  "directions": "",
+  "question_text": "In the context of the passage, the word ‘covenant’ means which of the following:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "A decree"
+   },
+   {
+    "label": "b",
+    "text": "An order"
+   },
+   {
+    "label": "c",
+    "text": "A pact"
+   },
+   {
+    "label": "d",
+    "text": "An undertaking"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "‘Covenant’ here signifies the agreement that members of the state of nature enter into, in order to escape it. It is neither a decree nor an order. A close option is ‘undertaking’ but this does not convey the fact that it is a collective decision. Thus (c) is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 8,
+  "question_code": "ASRC-T2-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p3",
+  "set_position": 1,
+  "context_passage": "Back in 1991, India was the world’s greatest aid recipient, a patently uncompetitive giant begging for alms. Economic reforms from 1991 onwards gradually made India highly competitive, enabled it to touch 9% GDP growth, and to be called a potential superpower. Those days are gone. GDP growth has halved to 4.5%. India has become uncompetitive in several ways. Worse, the Indian political class has stopped even trying to compete globally. It focuses on subsidies, reservations and special measures for sundry vote banks, regardless of the implications for competitiveness. This will ultimately lead to bankruptcy, not inclusive growth (as claimed by Congress spin-masters). When India went bust in 1991, drastic measures over several years were needed to restore competitiveness. The rupee was devalued hugely, industrial licensing and MRTP clearance were abolished, trade was liberalized, import duties were gradually slashed from 300% to around 10% by 2005. Public sector monopolies like telecom and oil refining were opened up to the private sector, enabling the creation of the world’s fastest growing and cheapest telecom service, and the world’s biggest export-oriented refineries. Liberal foreign investment converted India into a global small car hub, many multinationals like GE came in and made India an R&D hub. A liberalized private sector created the software/BPO revolution. Merchandise exports rose from 5% of GDP to 15%. Service exports rose even faster, and India became a world leader in software. The rupee strengthened from Rs 50 per dollar in 2002 to Rs 40 per dollar by 2008. India’s rising competitiveness made it a potential superpower. That’s suddenly gone. In the last three years, GDP growth has plummeted, industry and exports have stagnated, the current account deficit has widened dramatically, and the rupee has crashed. A year ago this finally persuaded the government to embark on some reforms, but these have failed to revive the old dynamism. Why? Because the new measures do not change the political mind-set of constantly ignoring competitiveness in formulating new policies and regulations. Politicians take competitiveness for granted, and just want to divide up the spoils of growth. Alas, neglect of competitiveness has meant a collapse of growth, and hence of the spoils too. India certainly needs new rules to safeguard the environment and tribals. But in formulating new rules and regulations, did anybody check whether our rules compared with those in competing countries? Alas no.We need a fairer land acquisition policy. But our new law mandates a social impact assessment and expert group clearance before any acquisition. Do competing nations have such time-consuming rules? Do they insist on 80% of land-owners consenting to acquisitions? Do they give workers, suppliers and other non-owners of land veto powers? Do they put the burden of rehabilitation on industries or the government? Activist courts and NGOs have worsened matters, despite good intentions. The green tribunal has banned sand mining without environmental clearance. The result is a huge shortage of legal sand, which simply encourages illegal mining. A similar outcome is evident after ill-formulated bans on rock quarrying. It now takes 12 years to open a new coal mine. Not just illegal but even legal iron ore mining has been banned in some states. Do other Asian competitors have bans of this sort? If not, how does it affect India’s competitiveness? Neither the courts, NGOs nor the politicians seem to care. A profusion of new rules and regulations are constantly churned out without any cost-benefit exercise to judge the impact on competitiveness. The latest Doing Business 2013 report of the World Bank says India has slipped from 131st to 134th position in ease of doing business. It stands 177th in ease of starting a business, 183rd in getting a construction permit; and 186th in enforcing contracts. Yet this damning expose of our uncompetitiveness produces no political will to change. We have a deep structural problem that is not even recognized, let alone redressed. Will India have to go bust again to concentrate the minds of politicians?",
+  "directions": "",
+  "question_text": "Identify the false statement:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "India’s rules and regulations are inefficient in comparison to other countries and\nhave led to time wastage, extra costs and put extra burden on the government."
+   },
+   {
+    "label": "b",
+    "text": "India has consistently been ranked as one of the more favorable nations in the\nworld in terms of doing business and starting a business"
+   },
+   {
+    "label": "c",
+    "text": "India is headed towards a crisis similar to that of the years preceding 1991"
+   },
+   {
+    "label": "d",
+    "text": "India’s political class allows irrelevant political concerns to come in the way of\ngood economic decisions"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "B is the false statement as it is mentioned in the passage that India in the World Bank’s Doing Business Report 2013 has slipped from 131st to 134th position.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 9,
+  "question_code": "ASRC-T2-Q09",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p3",
+  "set_position": 2,
+  "context_passage": "Back in 1991, India was the world’s greatest aid recipient, a patently uncompetitive giant begging for alms. Economic reforms from 1991 onwards gradually made India highly competitive, enabled it to touch 9% GDP growth, and to be called a potential superpower. Those days are gone. GDP growth has halved to 4.5%. India has become uncompetitive in several ways. Worse, the Indian political class has stopped even trying to compete globally. It focuses on subsidies, reservations and special measures for sundry vote banks, regardless of the implications for competitiveness. This will ultimately lead to bankruptcy, not inclusive growth (as claimed by Congress spin-masters). When India went bust in 1991, drastic measures over several years were needed to restore competitiveness. The rupee was devalued hugely, industrial licensing and MRTP clearance were abolished, trade was liberalized, import duties were gradually slashed from 300% to around 10% by 2005. Public sector monopolies like telecom and oil refining were opened up to the private sector, enabling the creation of the world’s fastest growing and cheapest telecom service, and the world’s biggest export-oriented refineries. Liberal foreign investment converted India into a global small car hub, many multinationals like GE came in and made India an R&D hub. A liberalized private sector created the software/BPO revolution. Merchandise exports rose from 5% of GDP to 15%. Service exports rose even faster, and India became a world leader in software. The rupee strengthened from Rs 50 per dollar in 2002 to Rs 40 per dollar by 2008. India’s rising competitiveness made it a potential superpower. That’s suddenly gone. In the last three years, GDP growth has plummeted, industry and exports have stagnated, the current account deficit has widened dramatically, and the rupee has crashed. A year ago this finally persuaded the government to embark on some reforms, but these have failed to revive the old dynamism. Why? Because the new measures do not change the political mind-set of constantly ignoring competitiveness in formulating new policies and regulations. Politicians take competitiveness for granted, and just want to divide up the spoils of growth. Alas, neglect of competitiveness has meant a collapse of growth, and hence of the spoils too. India certainly needs new rules to safeguard the environment and tribals. But in formulating new rules and regulations, did anybody check whether our rules compared with those in competing countries? Alas no.We need a fairer land acquisition policy. But our new law mandates a social impact assessment and expert group clearance before any acquisition. Do competing nations have such time-consuming rules? Do they insist on 80% of land-owners consenting to acquisitions? Do they give workers, suppliers and other non-owners of land veto powers? Do they put the burden of rehabilitation on industries or the government? Activist courts and NGOs have worsened matters, despite good intentions. The green tribunal has banned sand mining without environmental clearance. The result is a huge shortage of legal sand, which simply encourages illegal mining. A similar outcome is evident after ill-formulated bans on rock quarrying. It now takes 12 years to open a new coal mine. Not just illegal but even legal iron ore mining has been banned in some states. Do other Asian competitors have bans of this sort? If not, how does it affect India’s competitiveness? Neither the courts, NGOs nor the politicians seem to care. A profusion of new rules and regulations are constantly churned out without any cost-benefit exercise to judge the impact on competitiveness. The latest Doing Business 2013 report of the World Bank says India has slipped from 131st to 134th position in ease of doing business. It stands 177th in ease of starting a business, 183rd in getting a construction permit; and 186th in enforcing contracts. Yet this damning expose of our uncompetitiveness produces no political will to change. We have a deep structural problem that is not even recognized, let alone redressed. Will India have to go bust again to concentrate the minds of politicians?",
+  "directions": "",
+  "question_text": "According to the author, competitiveness is enhanced by:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Reducing the requirement for industrial licensing and clearances"
+   },
+   {
+    "label": "b",
+    "text": "By promoting the creation of public sector monopolies"
+   },
+   {
+    "label": "c",
+    "text": "By creating newer fair and comprehensive policies"
+   },
+   {
+    "label": "d",
+    "text": "By creating effective filters for foreign investment into the country"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "In the third paragraph of the passage, the author describes the measures that were undertaken to ‘restore competitiveness’ to India, which involved industrial licensing and clearances abolishment. This is definitely one of the ways of enhancing competitiveness, which makes option a, by default, the correct answer. We don’t even have to check to the other options, but if we did, we’d find them to be incorrect with respect to given question.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 2,
+  "question_number": 10,
+  "question_code": "ASRC-T2-Q10",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t2-p3",
+  "set_position": 3,
+  "context_passage": "Back in 1991, India was the world’s greatest aid recipient, a patently uncompetitive giant begging for alms. Economic reforms from 1991 onwards gradually made India highly competitive, enabled it to touch 9% GDP growth, and to be called a potential superpower. Those days are gone. GDP growth has halved to 4.5%. India has become uncompetitive in several ways. Worse, the Indian political class has stopped even trying to compete globally. It focuses on subsidies, reservations and special measures for sundry vote banks, regardless of the implications for competitiveness. This will ultimately lead to bankruptcy, not inclusive growth (as claimed by Congress spin-masters). When India went bust in 1991, drastic measures over several years were needed to restore competitiveness. The rupee was devalued hugely, industrial licensing and MRTP clearance were abolished, trade was liberalized, import duties were gradually slashed from 300% to around 10% by 2005. Public sector monopolies like telecom and oil refining were opened up to the private sector, enabling the creation of the world’s fastest growing and cheapest telecom service, and the world’s biggest export-oriented refineries. Liberal foreign investment converted India into a global small car hub, many multinationals like GE came in and made India an R&D hub. A liberalized private sector created the software/BPO revolution. Merchandise exports rose from 5% of GDP to 15%. Service exports rose even faster, and India became a world leader in software. The rupee strengthened from Rs 50 per dollar in 2002 to Rs 40 per dollar by 2008. India’s rising competitiveness made it a potential superpower. That’s suddenly gone. In the last three years, GDP growth has plummeted, industry and exports have stagnated, the current account deficit has widened dramatically, and the rupee has crashed. A year ago this finally persuaded the government to embark on some reforms, but these have failed to revive the old dynamism. Why? Because the new measures do not change the political mind-set of constantly ignoring competitiveness in formulating new policies and regulations. Politicians take competitiveness for granted, and just want to divide up the spoils of growth. Alas, neglect of competitiveness has meant a collapse of growth, and hence of the spoils too. India certainly needs new rules to safeguard the environment and tribals. But in formulating new rules and regulations, did anybody check whether our rules compared with those in competing countries? Alas no.We need a fairer land acquisition policy. But our new law mandates a social impact assessment and expert group clearance before any acquisition. Do competing nations have such time-consuming rules? Do they insist on 80% of land-owners consenting to acquisitions? Do they give workers, suppliers and other non-owners of land veto powers? Do they put the burden of rehabilitation on industries or the government? Activist courts and NGOs have worsened matters, despite good intentions. The green tribunal has banned sand mining without environmental clearance. The result is a huge shortage of legal sand, which simply encourages illegal mining. A similar outcome is evident after ill-formulated bans on rock quarrying. It now takes 12 years to open a new coal mine. Not just illegal but even legal iron ore mining has been banned in some states. Do other Asian competitors have bans of this sort? If not, how does it affect India’s competitiveness? Neither the courts, NGOs nor the politicians seem to care. A profusion of new rules and regulations are constantly churned out without any cost-benefit exercise to judge the impact on competitiveness. The latest Doing Business 2013 report of the World Bank says India has slipped from 131st to 134th position in ease of doing business. It stands 177th in ease of starting a business, 183rd in getting a construction permit; and 186th in enforcing contracts. Yet this damning expose of our uncompetitiveness produces no political will to change. We have a deep structural problem that is not even recognized, let alone redressed. Will India have to go bust again to concentrate the minds of politicians?",
+  "directions": "",
+  "question_text": "If you were to ask the author a question on his views on the role of competitiveness in a nation’s growth, which of the following would you choose?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "In your opinion, is it unnecessary for the incumbent government to consider and\nprotect the interests of the underprivileged while formulating policies?"
+   },
+   {
+    "label": "b",
+    "text": "Should India revert to the pre-liberalization conditions, given that despite the\nreforms of 1991, it is still not experiencing the kind of growth that had been\nenvisioned and promised?"
+   },
+   {
+    "label": "c",
+    "text": "What are the key structural changes that should come about in the India system\nso as to enhance competitiveness and speed up development?"
+   },
+   {
+    "label": "d",
+    "text": "Are over-enthusiastic activism and petitioning solely responsible for the current\nbleak economic scenario?"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author is opposed to the suggestions in questions a and b, as these are detrimental to the growth of the nation. Option (d) is not correct because it involves an exaggerated suggestion that is not consonant with the theme of the passage. The third passage correctly summarizes what has been said in the entire passage, that key structural changes are necessary for enhancing growth and correcting the present order in the country. Hence, this is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

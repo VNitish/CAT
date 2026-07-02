@@ -1,0 +1,322 @@
+[
+ {
+  "test": 1,
+  "question_number": 1,
+  "question_code": "ASRC-T1-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p1",
+  "set_position": 1,
+  "context_passage": "Aeschylus was only the first of the great classic Greek dramatists. The generation that followed brought several other talented and powerful tragic playwrights. The most famous of these were Sophocles and Euripides. Both writers did much to expand the traditionally simple expectations of characters in plays. Sophocles’ plays feature incredibly strong-willed, modern characters who struggle with serious moral concerns, and Euripides wrote some of the most chilling psychological dramas of classical Greece. Comic theatre also had its hero. A generation younger than Sophocles and Euripides, the comic playwright Aristophanes is today regarded as the best of the classic comic playwrights. His sometimes absurd, and sometimes elegant plays demonstrate a great skill in mixing comedy with honest and sincere ideas. Aristophanes’ plays certainly contain many wild and vulgar jokes, yet they also discuss serious concerns of his time, such as politics, art, and education. His work provides modern readers with some of the clearest images of the life and daily affairs of fifth-century Greeks. This literary revolution in the early part of the fifth century was not limited to the stage. The world of philosophy also experienced an awakening. Skills such as oration, logic, and rhetoric were polished, and the study of mathematics and the sciences was encouraged. Philosophers such as Socrates became famous for wandering about the city of Athens, engaging students and scholars in lively academic debates about morality and politics. Socrates’ most famous pupil, Plato, wrote a number of books and dialogues in which he explains the philosophy and thoughts of his teacher, and goes on to develop the ideas further.His work—which deals with a wide range of theoretical concerns, such as politics, ethics, and the importance of friendship—is invaluable for modern scholars who wish to understand the ancient Greek mindset. Another very well-known philosopher of the time was Aristotle. Aristotle was, in his turn, a pupil of Plato’s, and is best known for his numerous texts dealing with the natural sciences. Interested in almost every conceivable topic, Aristotle left behind texts detailing his thoughts and questions on physics and astronomy, as well as meteorology, sleep patterns, raising animals, and numerous other subjects. The age of classical Greece drew to a close with the end of the fourth century BC. Yet through its literature, classical Greece still has an enormous effect on modern Western thought and traditions. Almost all Western literature, from histories to romance novels, from thrillers to poetry, is rooted in classical Greek traditions. Many of the themes present in those ancient plays and poems are in fact still popular in modern literature. And even those plays that deal with uniquely modern themes still owe much in the way of technique and style to the golden age of Greece.",
+  "directions": "",
+  "question_text": "How did Euripides contribute to the development of tragic theatre? 1. He wrote chilling stories about strong-willed, modern characters. 2. He expanded the expectations of characters in plays. 3. He wrote very disturbing plays.",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1 and 2"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Both 2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "Only 1"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Mentioned in the 4th sentence of the 1st paragraph.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 2,
+  "question_code": "ASRC-T1-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p1",
+  "set_position": 2,
+  "context_passage": "Aeschylus was only the first of the great classic Greek dramatists. The generation that followed brought several other talented and powerful tragic playwrights. The most famous of these were Sophocles and Euripides. Both writers did much to expand the traditionally simple expectations of characters in plays. Sophocles’ plays feature incredibly strong-willed, modern characters who struggle with serious moral concerns, and Euripides wrote some of the most chilling psychological dramas of classical Greece. Comic theatre also had its hero. A generation younger than Sophocles and Euripides, the comic playwright Aristophanes is today regarded as the best of the classic comic playwrights. His sometimes absurd, and sometimes elegant plays demonstrate a great skill in mixing comedy with honest and sincere ideas. Aristophanes’ plays certainly contain many wild and vulgar jokes, yet they also discuss serious concerns of his time, such as politics, art, and education. His work provides modern readers with some of the clearest images of the life and daily affairs of fifth-century Greeks. This literary revolution in the early part of the fifth century was not limited to the stage. The world of philosophy also experienced an awakening. Skills such as oration, logic, and rhetoric were polished, and the study of mathematics and the sciences was encouraged. Philosophers such as Socrates became famous for wandering about the city of Athens, engaging students and scholars in lively academic debates about morality and politics. Socrates’ most famous pupil, Plato, wrote a number of books and dialogues in which he explains the philosophy and thoughts of his teacher, and goes on to develop the ideas further.His work—which deals with a wide range of theoretical concerns, such as politics, ethics, and the importance of friendship—is invaluable for modern scholars who wish to understand the ancient Greek mindset. Another very well-known philosopher of the time was Aristotle. Aristotle was, in his turn, a pupil of Plato’s, and is best known for his numerous texts dealing with the natural sciences. Interested in almost every conceivable topic, Aristotle left behind texts detailing his thoughts and questions on physics and astronomy, as well as meteorology, sleep patterns, raising animals, and numerous other subjects. The age of classical Greece drew to a close with the end of the fourth century BC. Yet through its literature, classical Greece still has an enormous effect on modern Western thought and traditions. Almost all Western literature, from histories to romance novels, from thrillers to poetry, is rooted in classical Greek traditions. Many of the themes present in those ancient plays and poems are in fact still popular in modern literature. And even those plays that deal with uniquely modern themes still owe much in the way of technique and style to the golden age of Greece.",
+  "directions": "",
+  "question_text": "Which of the following best describes the plays written by Aristophanes? 1. Funny and light-hearted, yet without purpose 2. Serious and intellectual, discussing political ideas of the day 3. Humorous while still putting across serious ideas",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "Both 2 and 3"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The answer is evident from the following lines from the passage, ‘His sometimes absurd, and sometimes elegant plays demonstrate a great skill in mixing comedy with honest and sincere ideas. Aristophanes’ plays certainly contain many wild and vulgar jokes, yet they also discuss serious concerns of his time, such as politics, art, and education.’",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 3,
+  "question_code": "ASRC-T1-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p1",
+  "set_position": 3,
+  "context_passage": "Aeschylus was only the first of the great classic Greek dramatists. The generation that followed brought several other talented and powerful tragic playwrights. The most famous of these were Sophocles and Euripides. Both writers did much to expand the traditionally simple expectations of characters in plays. Sophocles’ plays feature incredibly strong-willed, modern characters who struggle with serious moral concerns, and Euripides wrote some of the most chilling psychological dramas of classical Greece. Comic theatre also had its hero. A generation younger than Sophocles and Euripides, the comic playwright Aristophanes is today regarded as the best of the classic comic playwrights. His sometimes absurd, and sometimes elegant plays demonstrate a great skill in mixing comedy with honest and sincere ideas. Aristophanes’ plays certainly contain many wild and vulgar jokes, yet they also discuss serious concerns of his time, such as politics, art, and education. His work provides modern readers with some of the clearest images of the life and daily affairs of fifth-century Greeks. This literary revolution in the early part of the fifth century was not limited to the stage. The world of philosophy also experienced an awakening. Skills such as oration, logic, and rhetoric were polished, and the study of mathematics and the sciences was encouraged. Philosophers such as Socrates became famous for wandering about the city of Athens, engaging students and scholars in lively academic debates about morality and politics. Socrates’ most famous pupil, Plato, wrote a number of books and dialogues in which he explains the philosophy and thoughts of his teacher, and goes on to develop the ideas further.His work—which deals with a wide range of theoretical concerns, such as politics, ethics, and the importance of friendship—is invaluable for modern scholars who wish to understand the ancient Greek mindset. Another very well-known philosopher of the time was Aristotle. Aristotle was, in his turn, a pupil of Plato’s, and is best known for his numerous texts dealing with the natural sciences. Interested in almost every conceivable topic, Aristotle left behind texts detailing his thoughts and questions on physics and astronomy, as well as meteorology, sleep patterns, raising animals, and numerous other subjects. The age of classical Greece drew to a close with the end of the fourth century BC. Yet through its literature, classical Greece still has an enormous effect on modern Western thought and traditions. Almost all Western literature, from histories to romance novels, from thrillers to poetry, is rooted in classical Greek traditions. Many of the themes present in those ancient plays and poems are in fact still popular in modern literature. And even those plays that deal with uniquely modern themes still owe much in the way of technique and style to the golden age of Greece.",
+  "directions": "",
+  "question_text": "Which of the following best describes the subjects that Aristotle wrote about?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Meteorology"
+   },
+   {
+    "label": "b",
+    "text": "Sleep disorders"
+   },
+   {
+    "label": "c",
+    "text": "Astronomy"
+   },
+   {
+    "label": "d",
+    "text": "All kinds of natural sciences and more."
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Clear from the following sentence of the passage, Aristotle left behind texts detailing his thoughts and questions on physics and astronomy, as well as meteorology, sleep patterns, raising animals, and numerous other subjects.’",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 4,
+  "question_code": "ASRC-T1-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p2",
+  "set_position": 1,
+  "context_passage": "Up at the League, says a friend, there had been one night a brisk conversational discussion, as to what would happen on the Morrow of the Revolution, finally shading off into a vigorous statement by various friends of their views on the future of the fully- developed new society. Says our friend: Considering the subject, the discussion was good-tempered; for those present being used to public meetings and after-lecture debates, if they did not listen to each others’ opinions (which could scarcely be expected of them), at all events did not always attempt to speak all together, as is the custom of people in ordinary polite society when conversing on a subject which interests them. For the rest, there were six persons present, and consequently six sections of the party were represented, four of which had strong but divergent anarchist opinions. One of the sections, says our friend, a man whom he knows very well indeed, sat almost silent at the beginning of the discussion, but at last got drawn into it, and finished by roaring out very loud, and damning all the rest for fools; after which befell a period of noise, and then a lull, during which the aforesaid section, having said good-night very amicably, took his way home by himself to a western suburb, using the means of travelling which civilisation has forced upon us like a habit. As he sat in that vapour-bath of hurried and discontented humanity, a carriage of the underground railway, he, like others, stewed discontentedly, while in self-reproachful mood he turned over the many excellent and conclusive arguments which, though they lay at his fingers’ ends, he had forgotten in the just past discussion. But this frame of mind he was so used to, that it didn’t last him long, and after a brief discomfort, caused by disgust with himself for having lost his temper(which he was also well used to), he found himself musing on the subject-matter of discussion, but still discontentedly and unhappily. “If I could but see a day of it,” he said to himself; “if I could but see it!”",
+  "directions": "",
+  "question_text": "The man in the carriage was: 1. Upset with himself at having lost his temper. 2. Angry because he had forgotten to mention so many important points which would have provided buttress to his argument. 3. Was thinking about the topic of discussion",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "b",
+    "text": "1, 2 and 3"
+   },
+   {
+    "label": "c",
+    "text": "Both 2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "Only 3"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "In the last 5-6 lines of the last paragraph all the 3 points have been clearly mentioned.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 5,
+  "question_code": "ASRC-T1-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p2",
+  "set_position": 2,
+  "context_passage": "Up at the League, says a friend, there had been one night a brisk conversational discussion, as to what would happen on the Morrow of the Revolution, finally shading off into a vigorous statement by various friends of their views on the future of the fully- developed new society. Says our friend: Considering the subject, the discussion was good-tempered; for those present being used to public meetings and after-lecture debates, if they did not listen to each others’ opinions (which could scarcely be expected of them), at all events did not always attempt to speak all together, as is the custom of people in ordinary polite society when conversing on a subject which interests them. For the rest, there were six persons present, and consequently six sections of the party were represented, four of which had strong but divergent anarchist opinions. One of the sections, says our friend, a man whom he knows very well indeed, sat almost silent at the beginning of the discussion, but at last got drawn into it, and finished by roaring out very loud, and damning all the rest for fools; after which befell a period of noise, and then a lull, during which the aforesaid section, having said good-night very amicably, took his way home by himself to a western suburb, using the means of travelling which civilisation has forced upon us like a habit. As he sat in that vapour-bath of hurried and discontented humanity, a carriage of the underground railway, he, like others, stewed discontentedly, while in self-reproachful mood he turned over the many excellent and conclusive arguments which, though they lay at his fingers’ ends, he had forgotten in the just past discussion. But this frame of mind he was so used to, that it didn’t last him long, and after a brief discomfort, caused by disgust with himself for having lost his temper(which he was also well used to), he found himself musing on the subject-matter of discussion, but still discontentedly and unhappily. “If I could but see a day of it,” he said to himself; “if I could but see it!”",
+  "directions": "",
+  "question_text": "The person in the discussion who damned everyone : 1. Parted happily. 2. Parted after saying a friendly goodbye 3. Parted after cursing and walked away angrily.",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "Only 1 and 2."
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The following lines clarify the answer choice, ‘having said good-night very amicably, took his way home by himself to a western suburb’.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 6,
+  "question_code": "ASRC-T1-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p3",
+  "set_position": 1,
+  "context_passage": "What is an Assembly? It is a structure that brings the people of an entire community into a systematic relationship with one another for the purpose of solving individual and community problems. It is the organization of a community in such a manner that if a great many people wanted to do a particular thing, they could do it. It is a means— through its formal structure and logical, systematic organization—of connecting masses of people; a means, through such systematic organization, of establishing a channel of communication between the Assembly’s elected leadership and every last man and woman in the community; a means by which large numbers of people may engage in a common effort. The Assembly follows certain rules of logic: in order for masses of people to enter into collective decision-making they must be organized prior to any decisions having been made. This means that for an anti-poverty effort to succeed, structure must be established prior to the creation of any program; otherwise it is likely that programs will be designed and controlled by persons outside the community. We go into a community, and we divide it into Conferences of manageable size. Each Conference meets on a regular basis, and each sends a Representative to a central decision-making body called the Assembly. Within the Assembly, each county or city is organized like a country, but instead of unwieldy Congressional districts there are districts of fifty people—or in cities, fifty households. These districts are called Conferences. The representational dimension of the Assembly enables it to function community-wide. Each Conference elects one Representative to the Assembly. Thus, if there are five thousand adults (in cities, five thousand households) in a given community, there will be one hundred Representatives for one hundred groups of fifty people (in cities, fifty households). If there are ten thousand adults (or households), there will be two hundred Representatives, and so forth. Representatives meet at a community-wide assembly to discuss problems. Communication is the key to success. Each Representative is in touch with fifty members through seven committee-persons, each of whom in turn communicates with six other members (see diagram). And it works! What we’ve done is transform entire communities. The conference provides a setting in which citizens can bring problems to the group for discussion and creative problem-solving. Problems range from disparities in government services to the need for job training to how to file for Social Security benefits to school problems confronted by a member’s children. Community members can fill out a problem sheet to address individual concerns. The sheet is given to their representative. If the representative cannot solve the problem, it is passed on to the Executive Council, which is made up of a dozen chairpersons assigned to areas such as employment, social services, housing, etc. The assembly is the heart of the NASP approach to community transformation. It grapples with issues affecting the county as a whole. Its actions often result in new and expanded educational programs, low-income housing projects, improved county facilities such as all-weather roads and modern sanitation systems, and enhanced health, welfare, and recreational services.",
+  "directions": "",
+  "question_text": "Which of the following questions would you ask the author of this piece? 1. Why is the conference a systemic organisation ? 2. Why is the assembly a systematic organisation? 3. Why does the action of the conference affect the county as a whole?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "Both 1 and 2"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The assembly is the most important issue, it is the topic of the passage so the question has to be related to it.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 7,
+  "question_code": "ASRC-T1-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p3",
+  "set_position": 2,
+  "context_passage": "What is an Assembly? It is a structure that brings the people of an entire community into a systematic relationship with one another for the purpose of solving individual and community problems. It is the organization of a community in such a manner that if a great many people wanted to do a particular thing, they could do it. It is a means— through its formal structure and logical, systematic organization—of connecting masses of people; a means, through such systematic organization, of establishing a channel of communication between the Assembly’s elected leadership and every last man and woman in the community; a means by which large numbers of people may engage in a common effort. The Assembly follows certain rules of logic: in order for masses of people to enter into collective decision-making they must be organized prior to any decisions having been made. This means that for an anti-poverty effort to succeed, structure must be established prior to the creation of any program; otherwise it is likely that programs will be designed and controlled by persons outside the community. We go into a community, and we divide it into Conferences of manageable size. Each Conference meets on a regular basis, and each sends a Representative to a central decision-making body called the Assembly. Within the Assembly, each county or city is organized like a country, but instead of unwieldy Congressional districts there are districts of fifty people—or in cities, fifty households. These districts are called Conferences. The representational dimension of the Assembly enables it to function community-wide. Each Conference elects one Representative to the Assembly. Thus, if there are five thousand adults (in cities, five thousand households) in a given community, there will be one hundred Representatives for one hundred groups of fifty people (in cities, fifty households). If there are ten thousand adults (or households), there will be two hundred Representatives, and so forth. Representatives meet at a community-wide assembly to discuss problems. Communication is the key to success. Each Representative is in touch with fifty members through seven committee-persons, each of whom in turn communicates with six other members (see diagram). And it works! What we’ve done is transform entire communities. The conference provides a setting in which citizens can bring problems to the group for discussion and creative problem-solving. Problems range from disparities in government services to the need for job training to how to file for Social Security benefits to school problems confronted by a member’s children. Community members can fill out a problem sheet to address individual concerns. The sheet is given to their representative. If the representative cannot solve the problem, it is passed on to the Executive Council, which is made up of a dozen chairpersons assigned to areas such as employment, social services, housing, etc. The assembly is the heart of the NASP approach to community transformation. It grapples with issues affecting the county as a whole. Its actions often result in new and expanded educational programs, low-income housing projects, improved county facilities such as all-weather roads and modern sanitation systems, and enhanced health, welfare, and recreational services.",
+  "directions": "",
+  "question_text": "Which of the following is correct according to the passage? 1. The conference aims at creative problem solving. 2. The conference transforms the communities. III. The communities are the districts of the assembly.",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Only 1"
+   },
+   {
+    "label": "b",
+    "text": "Only 2"
+   },
+   {
+    "label": "c",
+    "text": "Only 3"
+   },
+   {
+    "label": "d",
+    "text": "Both 1 and 2"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "This is given in the lines from the passage ‘The Conference provides a setting in which citizens can bring problems to the group for discussion and creative problem-solving.’",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 1,
+  "question_number": 8,
+  "question_code": "ASRC-T1-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t1-p3",
+  "set_position": 3,
+  "context_passage": "What is an Assembly? It is a structure that brings the people of an entire community into a systematic relationship with one another for the purpose of solving individual and community problems. It is the organization of a community in such a manner that if a great many people wanted to do a particular thing, they could do it. It is a means— through its formal structure and logical, systematic organization—of connecting masses of people; a means, through such systematic organization, of establishing a channel of communication between the Assembly’s elected leadership and every last man and woman in the community; a means by which large numbers of people may engage in a common effort. The Assembly follows certain rules of logic: in order for masses of people to enter into collective decision-making they must be organized prior to any decisions having been made. This means that for an anti-poverty effort to succeed, structure must be established prior to the creation of any program; otherwise it is likely that programs will be designed and controlled by persons outside the community. We go into a community, and we divide it into Conferences of manageable size. Each Conference meets on a regular basis, and each sends a Representative to a central decision-making body called the Assembly. Within the Assembly, each county or city is organized like a country, but instead of unwieldy Congressional districts there are districts of fifty people—or in cities, fifty households. These districts are called Conferences. The representational dimension of the Assembly enables it to function community-wide. Each Conference elects one Representative to the Assembly. Thus, if there are five thousand adults (in cities, five thousand households) in a given community, there will be one hundred Representatives for one hundred groups of fifty people (in cities, fifty households). If there are ten thousand adults (or households), there will be two hundred Representatives, and so forth. Representatives meet at a community-wide assembly to discuss problems. Communication is the key to success. Each Representative is in touch with fifty members through seven committee-persons, each of whom in turn communicates with six other members (see diagram). And it works! What we’ve done is transform entire communities. The conference provides a setting in which citizens can bring problems to the group for discussion and creative problem-solving. Problems range from disparities in government services to the need for job training to how to file for Social Security benefits to school problems confronted by a member’s children. Community members can fill out a problem sheet to address individual concerns. The sheet is given to their representative. If the representative cannot solve the problem, it is passed on to the Executive Council, which is made up of a dozen chairpersons assigned to areas such as employment, social services, housing, etc. The assembly is the heart of the NASP approach to community transformation. It grapples with issues affecting the county as a whole. Its actions often result in new and expanded educational programs, low-income housing projects, improved county facilities such as all-weather roads and modern sanitation systems, and enhanced health, welfare, and recreational services.",
+  "directions": "",
+  "question_text": "Which of the following logics applies to the working of the Assembly?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The masses of people can solve the problem once they have identified the\nproblem, picked out the process of problem solving and then organized\nthemselves into groups."
+   },
+   {
+    "label": "b",
+    "text": "Before a collective decision is made, the masses of people have to be organized\ninto a structure."
+   },
+   {
+    "label": "c",
+    "text": "The programs are controlled by people from outside the community."
+   },
+   {
+    "label": "d",
+    "text": "The assembly grapples with the problems of the community as a whole."
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The answer is clearly mentioned in the following lines , ‘The Assembly follows certain rules of logic: in order for masses of people to enter into collective decision-making they must be organized prior to any decisions having been made.’",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

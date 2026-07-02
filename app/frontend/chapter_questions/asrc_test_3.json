@@ -1,0 +1,442 @@
+[
+ {
+  "test": 3,
+  "question_number": 1,
+  "question_code": "ASRC-T3-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p1",
+  "set_position": 1,
+  "context_passage": "After intense negotiations between Iran and the world powers (chiefly among them the United States), November 24 saw a historic breakthrough. In a six-month interim agreement, Tehran has committed itself to a substantial freezing of its nuclear program in return for “modest relief” — according to US President Barack Obama — in sanctions. The agreement will be a first step towards achieving a comprehensive solution, with which the peaceful nature of Iran’s nuclear program will be ensured while all sanctions against the country would be lifted. Now, there has been much speculation over the degree in which the decade-long transatlantic Iran strategy of coercive diplomacy was responsible for reaching this diplomatic victory. Was it the permanent threats of war or the increasingly crippling sanctions which, in the eyes of many Western observers, that led Iran to “give in”? Arguably, it rather was a shift away from that policy of threats and pressure, and towards serious diplomacy aiming at a reconciliation of interests (especially during the month of November), which rendered the deal possible. But yes, without any doubt the sanctions did have an impact. The sanctions have severely deepened Iran’s economic malaise, considerably harmed a variety of social groups, while part of the power elite quite comfortably adjusted to the situation. Consequently, the power gap separating the state and (civil) society was even boosted. Yet, the immense damage that sanctions have done to society does not bear much relevance for policy-makers. However, what has gone largely unnoticed by supporters of the sanctions policy is the realpolitik fact that, contrary to their stated goal, the escalation of sanctions was accompanied by an increase in Iran’s nuclear program. When Obama entered the White House, there were not even 1,000 centrifuges spinning in Iran; today, the figure stands at almost 19,000. The reason for this is that the west views sanctions through the cost-benefit lens, according to which it can only be a matter of time until the sanctioned party will give in. In contrast, Tehran sees sanctions as an illegitimate form of coercion, which ought to be resisted, for the alternative would be nothing less than capitulation. Nonetheless, many commentators sardonically insist on praising the sanctions’ alleged effectiveness for aiding diplomacy. This is not only a sign of analytical short- sightedness, but also constitutes the not-so-covert attempt to shed a positive light on the coercive diplomacy that was pursued so far. In reality, Iran’s willingness to offer concessions is rooted within a wider context. Firstly, Iran already demonstrated its readiness to compromise over the last three years, which the Obama administration did not dare to accept due to domestic political issues (i.e. his re-election. Secondly, and this is likely to have been crucial for achieving the agreement in Geneva, Iran’s current foreign policy is primarily not a result of pressure through sanctions. Instead, it is embedded into a specific foreign-policy school of thought which is characterized by realism and a policy of détente. Notably, with Hassan Rouhani’s election, the “defensive realist” school of thought reasserted power, which had already been leading during Akbar Hashemi Rafsanjani’s and Mohammad Khatami’s administrations. Their prime objective was a policy of détente and rapprochement, especially with the West but also with neighboring Arab states — namely Iran’s geopolitical adversary, Saudi Arabia. In contrast to the “offensive realists” who were taking the lead under the Ahmadinejad administration, “defensive realists” do not view foreign policy as a zero-sum game but instead as an arena where win-win situations ought to be explored – especially with the United States. Another pivotal difference between these schools of thought is their estimation of US power. While “offensive realists” see the superpower’s power-projection capabilities rapidly declining, the “defensive” camp rightly acknowledges that even a US in relative decline can inflict substantial damage on weaker countries like Iran. The historically unprecedented Iran sanctions regime is a prime example for the veracity of the latter view. Ultimately, the nuclear agreement in its core has to be seen as an American-Iranian one, which expresses the will of both sides to secure their interests in a rapidly changing regional landscape. To what extent this will affect Washington’s traditional regional allies in Tel Aviv and Riyadh will be highly interesting to watch.",
+  "directions": "",
+  "question_text": "Which of the following is the closest meaning of ‘realpolitik’?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "A kind of politico-economic system"
+   },
+   {
+    "label": "b",
+    "text": "The actual consequences of political maneuvers"
+   },
+   {
+    "label": "c",
+    "text": "A political strategy focused on practical and material factors"
+   },
+   {
+    "label": "d",
+    "text": "The idea that politics and reality are interlinked and should not be focused upon\nideological things."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "It is politics or diplomacy based primarily on power and on practical and material factors and considerations, rather than explicit ideological notions or moral or ethical premises.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 2,
+  "question_code": "ASRC-T3-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p1",
+  "set_position": 2,
+  "context_passage": "After intense negotiations between Iran and the world powers (chiefly among them the United States), November 24 saw a historic breakthrough. In a six-month interim agreement, Tehran has committed itself to a substantial freezing of its nuclear program in return for “modest relief” — according to US President Barack Obama — in sanctions. The agreement will be a first step towards achieving a comprehensive solution, with which the peaceful nature of Iran’s nuclear program will be ensured while all sanctions against the country would be lifted. Now, there has been much speculation over the degree in which the decade-long transatlantic Iran strategy of coercive diplomacy was responsible for reaching this diplomatic victory. Was it the permanent threats of war or the increasingly crippling sanctions which, in the eyes of many Western observers, that led Iran to “give in”? Arguably, it rather was a shift away from that policy of threats and pressure, and towards serious diplomacy aiming at a reconciliation of interests (especially during the month of November), which rendered the deal possible. But yes, without any doubt the sanctions did have an impact. The sanctions have severely deepened Iran’s economic malaise, considerably harmed a variety of social groups, while part of the power elite quite comfortably adjusted to the situation. Consequently, the power gap separating the state and (civil) society was even boosted. Yet, the immense damage that sanctions have done to society does not bear much relevance for policy-makers. However, what has gone largely unnoticed by supporters of the sanctions policy is the realpolitik fact that, contrary to their stated goal, the escalation of sanctions was accompanied by an increase in Iran’s nuclear program. When Obama entered the White House, there were not even 1,000 centrifuges spinning in Iran; today, the figure stands at almost 19,000. The reason for this is that the west views sanctions through the cost-benefit lens, according to which it can only be a matter of time until the sanctioned party will give in. In contrast, Tehran sees sanctions as an illegitimate form of coercion, which ought to be resisted, for the alternative would be nothing less than capitulation. Nonetheless, many commentators sardonically insist on praising the sanctions’ alleged effectiveness for aiding diplomacy. This is not only a sign of analytical short- sightedness, but also constitutes the not-so-covert attempt to shed a positive light on the coercive diplomacy that was pursued so far. In reality, Iran’s willingness to offer concessions is rooted within a wider context. Firstly, Iran already demonstrated its readiness to compromise over the last three years, which the Obama administration did not dare to accept due to domestic political issues (i.e. his re-election. Secondly, and this is likely to have been crucial for achieving the agreement in Geneva, Iran’s current foreign policy is primarily not a result of pressure through sanctions. Instead, it is embedded into a specific foreign-policy school of thought which is characterized by realism and a policy of détente. Notably, with Hassan Rouhani’s election, the “defensive realist” school of thought reasserted power, which had already been leading during Akbar Hashemi Rafsanjani’s and Mohammad Khatami’s administrations. Their prime objective was a policy of détente and rapprochement, especially with the West but also with neighboring Arab states — namely Iran’s geopolitical adversary, Saudi Arabia. In contrast to the “offensive realists” who were taking the lead under the Ahmadinejad administration, “defensive realists” do not view foreign policy as a zero-sum game but instead as an arena where win-win situations ought to be explored – especially with the United States. Another pivotal difference between these schools of thought is their estimation of US power. While “offensive realists” see the superpower’s power-projection capabilities rapidly declining, the “defensive” camp rightly acknowledges that even a US in relative decline can inflict substantial damage on weaker countries like Iran. The historically unprecedented Iran sanctions regime is a prime example for the veracity of the latter view. Ultimately, the nuclear agreement in its core has to be seen as an American-Iranian one, which expresses the will of both sides to secure their interests in a rapidly changing regional landscape. To what extent this will affect Washington’s traditional regional allies in Tel Aviv and Riyadh will be highly interesting to watch.",
+  "directions": "",
+  "question_text": "What according to the author is the real reason for Iran ‘giving in’?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The inability to contain the debilitating effects of economic coercion"
+   },
+   {
+    "label": "b",
+    "text": "The overall current direction of its general policy being that of reconciliation\nand peace-making and strategic reasoning"
+   },
+   {
+    "label": "c",
+    "text": "A new flavor in foreign policy of appeasement and capitulation"
+   },
+   {
+    "label": "d",
+    "text": "A failure of top political machinery in protecting the nation’s pride"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author mentions in the passage that Iran had thought out its decision to conclude a nuclear deal with the USA, and had a strategy behind doing so. Thus, it was not a coerced, confused or hapless move, as is suggested by options (a), (c) and (d). Thus (b) is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 3,
+  "question_code": "ASRC-T3-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p1",
+  "set_position": 3,
+  "context_passage": "After intense negotiations between Iran and the world powers (chiefly among them the United States), November 24 saw a historic breakthrough. In a six-month interim agreement, Tehran has committed itself to a substantial freezing of its nuclear program in return for “modest relief” — according to US President Barack Obama — in sanctions. The agreement will be a first step towards achieving a comprehensive solution, with which the peaceful nature of Iran’s nuclear program will be ensured while all sanctions against the country would be lifted. Now, there has been much speculation over the degree in which the decade-long transatlantic Iran strategy of coercive diplomacy was responsible for reaching this diplomatic victory. Was it the permanent threats of war or the increasingly crippling sanctions which, in the eyes of many Western observers, that led Iran to “give in”? Arguably, it rather was a shift away from that policy of threats and pressure, and towards serious diplomacy aiming at a reconciliation of interests (especially during the month of November), which rendered the deal possible. But yes, without any doubt the sanctions did have an impact. The sanctions have severely deepened Iran’s economic malaise, considerably harmed a variety of social groups, while part of the power elite quite comfortably adjusted to the situation. Consequently, the power gap separating the state and (civil) society was even boosted. Yet, the immense damage that sanctions have done to society does not bear much relevance for policy-makers. However, what has gone largely unnoticed by supporters of the sanctions policy is the realpolitik fact that, contrary to their stated goal, the escalation of sanctions was accompanied by an increase in Iran’s nuclear program. When Obama entered the White House, there were not even 1,000 centrifuges spinning in Iran; today, the figure stands at almost 19,000. The reason for this is that the west views sanctions through the cost-benefit lens, according to which it can only be a matter of time until the sanctioned party will give in. In contrast, Tehran sees sanctions as an illegitimate form of coercion, which ought to be resisted, for the alternative would be nothing less than capitulation. Nonetheless, many commentators sardonically insist on praising the sanctions’ alleged effectiveness for aiding diplomacy. This is not only a sign of analytical short- sightedness, but also constitutes the not-so-covert attempt to shed a positive light on the coercive diplomacy that was pursued so far. In reality, Iran’s willingness to offer concessions is rooted within a wider context. Firstly, Iran already demonstrated its readiness to compromise over the last three years, which the Obama administration did not dare to accept due to domestic political issues (i.e. his re-election. Secondly, and this is likely to have been crucial for achieving the agreement in Geneva, Iran’s current foreign policy is primarily not a result of pressure through sanctions. Instead, it is embedded into a specific foreign-policy school of thought which is characterized by realism and a policy of détente. Notably, with Hassan Rouhani’s election, the “defensive realist” school of thought reasserted power, which had already been leading during Akbar Hashemi Rafsanjani’s and Mohammad Khatami’s administrations. Their prime objective was a policy of détente and rapprochement, especially with the West but also with neighboring Arab states — namely Iran’s geopolitical adversary, Saudi Arabia. In contrast to the “offensive realists” who were taking the lead under the Ahmadinejad administration, “defensive realists” do not view foreign policy as a zero-sum game but instead as an arena where win-win situations ought to be explored – especially with the United States. Another pivotal difference between these schools of thought is their estimation of US power. While “offensive realists” see the superpower’s power-projection capabilities rapidly declining, the “defensive” camp rightly acknowledges that even a US in relative decline can inflict substantial damage on weaker countries like Iran. The historically unprecedented Iran sanctions regime is a prime example for the veracity of the latter view. Ultimately, the nuclear agreement in its core has to be seen as an American-Iranian one, which expresses the will of both sides to secure their interests in a rapidly changing regional landscape. To what extent this will affect Washington’s traditional regional allies in Tel Aviv and Riyadh will be highly interesting to watch.",
+  "directions": "",
+  "question_text": "What is the key point of divergence between the offensive realists and the defensive realists?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The former argues for a state’s active pursuit of power and the latter that states\nare best served by signaling restraint rather than aggression."
+   },
+   {
+    "label": "b",
+    "text": "Offensive realists don’t believe in peaceful resolution of conflict while\ndefensive realists do."
+   },
+   {
+    "label": "c",
+    "text": "Offensive realism is a strategy of the power elite while the latter belongs to\ncivil society."
+   },
+   {
+    "label": "d",
+    "text": "Offensive realists believe in the effectiveness of economic sanctions while the\nlatter condemn them."
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The ‘offensive realists’ as their name suggests propose more aggressive and spontaneous measures than their counterparts, the ‘defensive realists’, who believe in passive defensive techniques. This is best expressed in option (a), while (b), (c) and (d) deal with irrelevant or incomplete.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 4,
+  "question_code": "ASRC-T3-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p1",
+  "set_position": 4,
+  "context_passage": "After intense negotiations between Iran and the world powers (chiefly among them the United States), November 24 saw a historic breakthrough. In a six-month interim agreement, Tehran has committed itself to a substantial freezing of its nuclear program in return for “modest relief” — according to US President Barack Obama — in sanctions. The agreement will be a first step towards achieving a comprehensive solution, with which the peaceful nature of Iran’s nuclear program will be ensured while all sanctions against the country would be lifted. Now, there has been much speculation over the degree in which the decade-long transatlantic Iran strategy of coercive diplomacy was responsible for reaching this diplomatic victory. Was it the permanent threats of war or the increasingly crippling sanctions which, in the eyes of many Western observers, that led Iran to “give in”? Arguably, it rather was a shift away from that policy of threats and pressure, and towards serious diplomacy aiming at a reconciliation of interests (especially during the month of November), which rendered the deal possible. But yes, without any doubt the sanctions did have an impact. The sanctions have severely deepened Iran’s economic malaise, considerably harmed a variety of social groups, while part of the power elite quite comfortably adjusted to the situation. Consequently, the power gap separating the state and (civil) society was even boosted. Yet, the immense damage that sanctions have done to society does not bear much relevance for policy-makers. However, what has gone largely unnoticed by supporters of the sanctions policy is the realpolitik fact that, contrary to their stated goal, the escalation of sanctions was accompanied by an increase in Iran’s nuclear program. When Obama entered the White House, there were not even 1,000 centrifuges spinning in Iran; today, the figure stands at almost 19,000. The reason for this is that the west views sanctions through the cost-benefit lens, according to which it can only be a matter of time until the sanctioned party will give in. In contrast, Tehran sees sanctions as an illegitimate form of coercion, which ought to be resisted, for the alternative would be nothing less than capitulation. Nonetheless, many commentators sardonically insist on praising the sanctions’ alleged effectiveness for aiding diplomacy. This is not only a sign of analytical short- sightedness, but also constitutes the not-so-covert attempt to shed a positive light on the coercive diplomacy that was pursued so far. In reality, Iran’s willingness to offer concessions is rooted within a wider context. Firstly, Iran already demonstrated its readiness to compromise over the last three years, which the Obama administration did not dare to accept due to domestic political issues (i.e. his re-election. Secondly, and this is likely to have been crucial for achieving the agreement in Geneva, Iran’s current foreign policy is primarily not a result of pressure through sanctions. Instead, it is embedded into a specific foreign-policy school of thought which is characterized by realism and a policy of détente. Notably, with Hassan Rouhani’s election, the “defensive realist” school of thought reasserted power, which had already been leading during Akbar Hashemi Rafsanjani’s and Mohammad Khatami’s administrations. Their prime objective was a policy of détente and rapprochement, especially with the West but also with neighboring Arab states — namely Iran’s geopolitical adversary, Saudi Arabia. In contrast to the “offensive realists” who were taking the lead under the Ahmadinejad administration, “defensive realists” do not view foreign policy as a zero-sum game but instead as an arena where win-win situations ought to be explored – especially with the United States. Another pivotal difference between these schools of thought is their estimation of US power. While “offensive realists” see the superpower’s power-projection capabilities rapidly declining, the “defensive” camp rightly acknowledges that even a US in relative decline can inflict substantial damage on weaker countries like Iran. The historically unprecedented Iran sanctions regime is a prime example for the veracity of the latter view. Ultimately, the nuclear agreement in its core has to be seen as an American-Iranian one, which expresses the will of both sides to secure their interests in a rapidly changing regional landscape. To what extent this will affect Washington’s traditional regional allies in Tel Aviv and Riyadh will be highly interesting to watch.",
+  "directions": "",
+  "question_text": "The author would most likely agree with which of the following?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Iran’s nuclear deal with the USA is a sign of its weakness and the effectiveness\nof the American economic sanctions."
+   },
+   {
+    "label": "b",
+    "text": "The USA has emerged triumphant in the long tussle between Tehran and\nWashington DC."
+   },
+   {
+    "label": "c",
+    "text": "Iran has displayed shortsightedness in pandering to the demands of the USA and\ncompromised its own interests in the process."
+   },
+   {
+    "label": "d",
+    "text": "Iran has key political insight and has displayed restraint that will yield\ninvaluable future gains."
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Since the author believes that Iran’s move was a tactical and calculated one, which was based on key political considerations and concerns, he would not agree with the view that USA had triumphed over or defeated Iran as is suggested by options (a), (b) and (c). Option (d) is the best answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 5,
+  "question_code": "ASRC-T3-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p2",
+  "set_position": 1,
+  "context_passage": "Manto was in Bombay when he heard the news about Pakistan: the British, quitting India at last, had decided in their haste to let the Muslim-majority regions in the east and west become a separate country. To a man like Manto—a Muslim who grew up in Sikhism’s holiest city, who derived his livelihood from the cosmopolitan film business and had many Hindu friends—this religious designation of a landmass must have seemed unreal. “Where were they going to Inter the bones that had been stripped of the flesh of religion by vultures and birds of prey?” Manto would ask later, and not wholly rhetorically, recalling the plunder and flag-waving and killing that had broken out all around him. “Now that we were free, had subjection ceased to exist? Who would be our slaves? Thousands of Hindus and Muslims were dying all around us. Why were they dying?” The answers were distressingly near. Even in Bombay, now a part of “secular” India, “the communal atmosphere was becoming more vicious by the day.” At the Bombay Talkies film studio where Manto was employed, Hindu staffers began sending anonymous letters to the management, demanding the removal of Muslims from high posts and threatening “everything from murder to the destruction of the studio.” Manto, suddenly a Muslim among Hindus, panicked. He “stopped going to Bombay Talkies.” He “began to drink heavily” and “all day long” would “lie on [his] sofa in a sort of daze.” Much has been made of Manto’s decision in that difficult hour to flee to Pakistan. His friend Ismat Chughtai, herself a Muslim writer and self-avowed progressive who stayed on in India, saw in it a proof of Manto’s opportunism. She quotes him as saying that “the future looks beautiful in Pakistan” because Muslim migrants could now “get the houses of people who’ve fled from there.” But once in Lahore, now Pakistan, Manto was inconsolable. “Despite my best efforts,” he writes, “I could not dissociate India from Pakistan and Pakistan from India.” What was such a writer—one who saw maddening continuities where borders had been drawn—to do? He could begin by putting down his most immediate impressions of the partition violence. “Siyah Hashiye” (“Black Margins”), published in October, 1948, is a collection of “sketches,” some as short as a paragraph: in “Jelly,” a murdered ice vendor’s blood has merged on the road with ice melted from his pushcart, and a child who drives past it in a horse-carriage mistakes it for jelly. In “warning,” a rich man is dragged out of his house by a mob and kicked to the ground. The mob is about to kill him when the man gets up, removes the dust from his clothes “with great dignity” and “wagging a finger at the rioters” says, “You can kill me, but I am warning you, don’t you dare touch my money!” In “The Garland,” another mob, this one in Lahore, frantically descends on the statue of a Hindu philanthropist (Hindus began to flee Lahore as soon as it was “given” to Pakistan). One of the rioters is about to place a garland of shoes around the statue’s neck when he is shot by police and taken to the hospital—a hospital built by the same Hindu philanthropist. And this is what happens in “modesty”: The rioters brought the train to a stop. Those who belonged to the other religion were methodically picked out and slaughtered. After it was all over, those who remained were treated to a feast of milk, custard pies and fresh fruit. Before the train moved off, the leader of the assassins made a small farewell speech: “Dear brothers and sisters, since we were not sure about the time of your train’s arrival, regretfully we were not able to offer you anything better than this most modest hospitality. We would have liked to have done more.” That is all there is: murder—methodical and quick—followed by a feast and an ingratiating speech. Note the withholding of tags: we don’t know the location of the massacre or the religion of the killers. All we have is a spurt of base instincts. (Including false modesty, present even in carnage.) Though “Modesty” is unrelated in plot or sequence to the other sketches in “Siyah Hashiye,” it fits in the whole—like a snapshot in a slide show. Taken one at a time, these sketches enact the speed, randomness, and anonymity of the partition violence; cumulatively they expose the partition—the coming-into-being of two flag-waving nation-states—as little more than an orgy of loot and blood. Manto’s eye for irony here is sharp as ever. And the fragmented feel of his “sketches” represents a formal breakthrough—Manto has blasted away the conventions of the short story and arrived at a jagged approximation of the partition trauma. But the timing of “Siyah Hashiye” was off. The literary scene in Pakistan had already broken down into factions: on one side were the progressive writers, now taking cues from the Soviet Union and calling for a socialist reform of the new state, which was the project of “a few reactionaries, capitalists and feudal landlords”3; and on the other side were “liberal” writers who disdained “Art for the sake of the Party” and were more inclined to peddle the idea of a fragile and imperiled new state in need of “nation- building.” In such a fight, of what use were Manto’s writings, which offered Pakistan neither a Communist cure nor a patriotic facelift? He was punished. The progressives called “Siyah Hashiye” reactionary; Manto responded by saying that he didn’t “care at all about ‘progressivism.’” His next story about the partition, titled “Thanda Gosht” (“Cold Flesh”), was even more unmindful of the literary temperature: Ishwar Singh, a Sikh recently returned from a round of partition killing, can’t bring himself to make love to his mistress. The mistress suspects him of infidelity—why else can’t he get it up? In a fit of jealousy she stabs Ishwar Singh with his own dagger. Bleeding to death, Ishwar Singh admits that he tried to rape an unconscious Muslim girl, only to find her already dead (the “cold flesh” of the title). While it makes some literary stabs (death as contagion, etc.), “Thanda Gosht” is, ultimately, a racy little thing, relying on that last shocking detail for effect—and may well live up to a charge of sensationalism. But in Pakistan the charge brought against “Thanda Gosht” was much more serious. A local bureaucrat named Chaudhry Muhammad Hussain, “one of Manto’s old tormentors,” took the story to mean that “we Muslims are so utterly without a sense of honor that Sikhs can rape even our dead daughters.” Manto was back in the dock. A protracted court trial in Lahore had him worrying about the punishment, which came to three years in jail and a fine of three hundred rupees. Manto appealed the verdict. Eventually, after a lot of worrying (and drinking), he was let off the hook by a judge who wore a conspicuously Islamic beard. (“If I sentence Saadat Hassan Manto,” the judge had said with a Manto-esque smile, “he will go around telling everyone that he was sentenced by a man with a beard.”) Manto now found himself in the singularly unfortunate position of being branded a “progressive” by the state and a “reactionary” by the progressives. In an essay written at this time and addressed to his readers, Manto admits to feeling “a strange melancholy.” He had “rebelled against the great upheaval that the partition of the country caused” and recovered from that “sea of blood” some “pearls of regret.” (He means his partition stories.) But these pearls had found no place in Pakistan. Manto the writer had suffered, but so had Manto the man: “My present life is full of hardship. After working day and night, I barely make enough to fulfill my daily needs. The fear that keeps gnawing at me is that were I to die suddenly who will look after my wife and three little daughters?”",
+  "directions": "",
+  "question_text": "What does the sentence, ‘Manto, suddenly a Muslim among Hindus, panicked.” mean?’",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Manto had developed strong vitriolic feelings towards Hindus"
+   },
+   {
+    "label": "b",
+    "text": "Manto did not identify with his Hindu counterparts anymore"
+   },
+   {
+    "label": "c",
+    "text": "Manto had not changed, but the circumstances around him had changed throwing\nhis religion into sharp relief"
+   },
+   {
+    "label": "d",
+    "text": "Manto suddenly saw the clear distinction that existed between Hinduism and\nIslam"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author here wants to suggest that India’s partition changed the lives of people, without really changing them at all. They were all still the same people, but suddenly circumstances around them had changed, causing Manto to suddenly feel conscious of his religion among Hindus.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 6,
+  "question_code": "ASRC-T3-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p2",
+  "set_position": 2,
+  "context_passage": "Manto was in Bombay when he heard the news about Pakistan: the British, quitting India at last, had decided in their haste to let the Muslim-majority regions in the east and west become a separate country. To a man like Manto—a Muslim who grew up in Sikhism’s holiest city, who derived his livelihood from the cosmopolitan film business and had many Hindu friends—this religious designation of a landmass must have seemed unreal. “Where were they going to Inter the bones that had been stripped of the flesh of religion by vultures and birds of prey?” Manto would ask later, and not wholly rhetorically, recalling the plunder and flag-waving and killing that had broken out all around him. “Now that we were free, had subjection ceased to exist? Who would be our slaves? Thousands of Hindus and Muslims were dying all around us. Why were they dying?” The answers were distressingly near. Even in Bombay, now a part of “secular” India, “the communal atmosphere was becoming more vicious by the day.” At the Bombay Talkies film studio where Manto was employed, Hindu staffers began sending anonymous letters to the management, demanding the removal of Muslims from high posts and threatening “everything from murder to the destruction of the studio.” Manto, suddenly a Muslim among Hindus, panicked. He “stopped going to Bombay Talkies.” He “began to drink heavily” and “all day long” would “lie on [his] sofa in a sort of daze.” Much has been made of Manto’s decision in that difficult hour to flee to Pakistan. His friend Ismat Chughtai, herself a Muslim writer and self-avowed progressive who stayed on in India, saw in it a proof of Manto’s opportunism. She quotes him as saying that “the future looks beautiful in Pakistan” because Muslim migrants could now “get the houses of people who’ve fled from there.” But once in Lahore, now Pakistan, Manto was inconsolable. “Despite my best efforts,” he writes, “I could not dissociate India from Pakistan and Pakistan from India.” What was such a writer—one who saw maddening continuities where borders had been drawn—to do? He could begin by putting down his most immediate impressions of the partition violence. “Siyah Hashiye” (“Black Margins”), published in October, 1948, is a collection of “sketches,” some as short as a paragraph: in “Jelly,” a murdered ice vendor’s blood has merged on the road with ice melted from his pushcart, and a child who drives past it in a horse-carriage mistakes it for jelly. In “warning,” a rich man is dragged out of his house by a mob and kicked to the ground. The mob is about to kill him when the man gets up, removes the dust from his clothes “with great dignity” and “wagging a finger at the rioters” says, “You can kill me, but I am warning you, don’t you dare touch my money!” In “The Garland,” another mob, this one in Lahore, frantically descends on the statue of a Hindu philanthropist (Hindus began to flee Lahore as soon as it was “given” to Pakistan). One of the rioters is about to place a garland of shoes around the statue’s neck when he is shot by police and taken to the hospital—a hospital built by the same Hindu philanthropist. And this is what happens in “modesty”: The rioters brought the train to a stop. Those who belonged to the other religion were methodically picked out and slaughtered. After it was all over, those who remained were treated to a feast of milk, custard pies and fresh fruit. Before the train moved off, the leader of the assassins made a small farewell speech: “Dear brothers and sisters, since we were not sure about the time of your train’s arrival, regretfully we were not able to offer you anything better than this most modest hospitality. We would have liked to have done more.” That is all there is: murder—methodical and quick—followed by a feast and an ingratiating speech. Note the withholding of tags: we don’t know the location of the massacre or the religion of the killers. All we have is a spurt of base instincts. (Including false modesty, present even in carnage.) Though “Modesty” is unrelated in plot or sequence to the other sketches in “Siyah Hashiye,” it fits in the whole—like a snapshot in a slide show. Taken one at a time, these sketches enact the speed, randomness, and anonymity of the partition violence; cumulatively they expose the partition—the coming-into-being of two flag-waving nation-states—as little more than an orgy of loot and blood. Manto’s eye for irony here is sharp as ever. And the fragmented feel of his “sketches” represents a formal breakthrough—Manto has blasted away the conventions of the short story and arrived at a jagged approximation of the partition trauma. But the timing of “Siyah Hashiye” was off. The literary scene in Pakistan had already broken down into factions: on one side were the progressive writers, now taking cues from the Soviet Union and calling for a socialist reform of the new state, which was the project of “a few reactionaries, capitalists and feudal landlords”3; and on the other side were “liberal” writers who disdained “Art for the sake of the Party” and were more inclined to peddle the idea of a fragile and imperiled new state in need of “nation- building.” In such a fight, of what use were Manto’s writings, which offered Pakistan neither a Communist cure nor a patriotic facelift? He was punished. The progressives called “Siyah Hashiye” reactionary; Manto responded by saying that he didn’t “care at all about ‘progressivism.’” His next story about the partition, titled “Thanda Gosht” (“Cold Flesh”), was even more unmindful of the literary temperature: Ishwar Singh, a Sikh recently returned from a round of partition killing, can’t bring himself to make love to his mistress. The mistress suspects him of infidelity—why else can’t he get it up? In a fit of jealousy she stabs Ishwar Singh with his own dagger. Bleeding to death, Ishwar Singh admits that he tried to rape an unconscious Muslim girl, only to find her already dead (the “cold flesh” of the title). While it makes some literary stabs (death as contagion, etc.), “Thanda Gosht” is, ultimately, a racy little thing, relying on that last shocking detail for effect—and may well live up to a charge of sensationalism. But in Pakistan the charge brought against “Thanda Gosht” was much more serious. A local bureaucrat named Chaudhry Muhammad Hussain, “one of Manto’s old tormentors,” took the story to mean that “we Muslims are so utterly without a sense of honor that Sikhs can rape even our dead daughters.” Manto was back in the dock. A protracted court trial in Lahore had him worrying about the punishment, which came to three years in jail and a fine of three hundred rupees. Manto appealed the verdict. Eventually, after a lot of worrying (and drinking), he was let off the hook by a judge who wore a conspicuously Islamic beard. (“If I sentence Saadat Hassan Manto,” the judge had said with a Manto-esque smile, “he will go around telling everyone that he was sentenced by a man with a beard.”) Manto now found himself in the singularly unfortunate position of being branded a “progressive” by the state and a “reactionary” by the progressives. In an essay written at this time and addressed to his readers, Manto admits to feeling “a strange melancholy.” He had “rebelled against the great upheaval that the partition of the country caused” and recovered from that “sea of blood” some “pearls of regret.” (He means his partition stories.) But these pearls had found no place in Pakistan. Manto the writer had suffered, but so had Manto the man: “My present life is full of hardship. After working day and night, I barely make enough to fulfill my daily needs. The fear that keeps gnawing at me is that were I to die suddenly who will look after my wife and three little daughters?”",
+  "directions": "",
+  "question_text": "Which of the following can be said to be true of the bureaucrat’s misinterpration of the premise of ‘Thanda Ghost’? 1. Manto was a progressive and therefore everything he wrote was reactionary 2. The bureaucrat believed Manto was trying to dishonor Islam and bring shame to the community 3. The bureaucrat deliberately missed the real point of the story which aimed to highlight the human elements of the partition and unfairly charged Manto of attacking Islam 4. The bureaucrat followed Manto’s work and looked for opportunities to disparage him",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 4"
+   },
+   {
+    "label": "b",
+    "text": "1, 2, 3 and 4"
+   },
+   {
+    "label": "c",
+    "text": "2, 3 and 4"
+   },
+   {
+    "label": "d",
+    "text": "3 and 4"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author’s suggestion that the bureaucrat was a constant critic of Manto’s work would imply that he deliberately chose to ignore the merit that Manto’s writing deserved, and instead castigated Manto for faults he perhaps didn’t even have. Options (c) and (d) capture this idea the best, and hence (d) is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 7,
+  "question_code": "ASRC-T3-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p2",
+  "set_position": 3,
+  "context_passage": "Manto was in Bombay when he heard the news about Pakistan: the British, quitting India at last, had decided in their haste to let the Muslim-majority regions in the east and west become a separate country. To a man like Manto—a Muslim who grew up in Sikhism’s holiest city, who derived his livelihood from the cosmopolitan film business and had many Hindu friends—this religious designation of a landmass must have seemed unreal. “Where were they going to Inter the bones that had been stripped of the flesh of religion by vultures and birds of prey?” Manto would ask later, and not wholly rhetorically, recalling the plunder and flag-waving and killing that had broken out all around him. “Now that we were free, had subjection ceased to exist? Who would be our slaves? Thousands of Hindus and Muslims were dying all around us. Why were they dying?” The answers were distressingly near. Even in Bombay, now a part of “secular” India, “the communal atmosphere was becoming more vicious by the day.” At the Bombay Talkies film studio where Manto was employed, Hindu staffers began sending anonymous letters to the management, demanding the removal of Muslims from high posts and threatening “everything from murder to the destruction of the studio.” Manto, suddenly a Muslim among Hindus, panicked. He “stopped going to Bombay Talkies.” He “began to drink heavily” and “all day long” would “lie on [his] sofa in a sort of daze.” Much has been made of Manto’s decision in that difficult hour to flee to Pakistan. His friend Ismat Chughtai, herself a Muslim writer and self-avowed progressive who stayed on in India, saw in it a proof of Manto’s opportunism. She quotes him as saying that “the future looks beautiful in Pakistan” because Muslim migrants could now “get the houses of people who’ve fled from there.” But once in Lahore, now Pakistan, Manto was inconsolable. “Despite my best efforts,” he writes, “I could not dissociate India from Pakistan and Pakistan from India.” What was such a writer—one who saw maddening continuities where borders had been drawn—to do? He could begin by putting down his most immediate impressions of the partition violence. “Siyah Hashiye” (“Black Margins”), published in October, 1948, is a collection of “sketches,” some as short as a paragraph: in “Jelly,” a murdered ice vendor’s blood has merged on the road with ice melted from his pushcart, and a child who drives past it in a horse-carriage mistakes it for jelly. In “warning,” a rich man is dragged out of his house by a mob and kicked to the ground. The mob is about to kill him when the man gets up, removes the dust from his clothes “with great dignity” and “wagging a finger at the rioters” says, “You can kill me, but I am warning you, don’t you dare touch my money!” In “The Garland,” another mob, this one in Lahore, frantically descends on the statue of a Hindu philanthropist (Hindus began to flee Lahore as soon as it was “given” to Pakistan). One of the rioters is about to place a garland of shoes around the statue’s neck when he is shot by police and taken to the hospital—a hospital built by the same Hindu philanthropist. And this is what happens in “modesty”: The rioters brought the train to a stop. Those who belonged to the other religion were methodically picked out and slaughtered. After it was all over, those who remained were treated to a feast of milk, custard pies and fresh fruit. Before the train moved off, the leader of the assassins made a small farewell speech: “Dear brothers and sisters, since we were not sure about the time of your train’s arrival, regretfully we were not able to offer you anything better than this most modest hospitality. We would have liked to have done more.” That is all there is: murder—methodical and quick—followed by a feast and an ingratiating speech. Note the withholding of tags: we don’t know the location of the massacre or the religion of the killers. All we have is a spurt of base instincts. (Including false modesty, present even in carnage.) Though “Modesty” is unrelated in plot or sequence to the other sketches in “Siyah Hashiye,” it fits in the whole—like a snapshot in a slide show. Taken one at a time, these sketches enact the speed, randomness, and anonymity of the partition violence; cumulatively they expose the partition—the coming-into-being of two flag-waving nation-states—as little more than an orgy of loot and blood. Manto’s eye for irony here is sharp as ever. And the fragmented feel of his “sketches” represents a formal breakthrough—Manto has blasted away the conventions of the short story and arrived at a jagged approximation of the partition trauma. But the timing of “Siyah Hashiye” was off. The literary scene in Pakistan had already broken down into factions: on one side were the progressive writers, now taking cues from the Soviet Union and calling for a socialist reform of the new state, which was the project of “a few reactionaries, capitalists and feudal landlords”3; and on the other side were “liberal” writers who disdained “Art for the sake of the Party” and were more inclined to peddle the idea of a fragile and imperiled new state in need of “nation- building.” In such a fight, of what use were Manto’s writings, which offered Pakistan neither a Communist cure nor a patriotic facelift? He was punished. The progressives called “Siyah Hashiye” reactionary; Manto responded by saying that he didn’t “care at all about ‘progressivism.’” His next story about the partition, titled “Thanda Gosht” (“Cold Flesh”), was even more unmindful of the literary temperature: Ishwar Singh, a Sikh recently returned from a round of partition killing, can’t bring himself to make love to his mistress. The mistress suspects him of infidelity—why else can’t he get it up? In a fit of jealousy she stabs Ishwar Singh with his own dagger. Bleeding to death, Ishwar Singh admits that he tried to rape an unconscious Muslim girl, only to find her already dead (the “cold flesh” of the title). While it makes some literary stabs (death as contagion, etc.), “Thanda Gosht” is, ultimately, a racy little thing, relying on that last shocking detail for effect—and may well live up to a charge of sensationalism. But in Pakistan the charge brought against “Thanda Gosht” was much more serious. A local bureaucrat named Chaudhry Muhammad Hussain, “one of Manto’s old tormentors,” took the story to mean that “we Muslims are so utterly without a sense of honor that Sikhs can rape even our dead daughters.” Manto was back in the dock. A protracted court trial in Lahore had him worrying about the punishment, which came to three years in jail and a fine of three hundred rupees. Manto appealed the verdict. Eventually, after a lot of worrying (and drinking), he was let off the hook by a judge who wore a conspicuously Islamic beard. (“If I sentence Saadat Hassan Manto,” the judge had said with a Manto-esque smile, “he will go around telling everyone that he was sentenced by a man with a beard.”) Manto now found himself in the singularly unfortunate position of being branded a “progressive” by the state and a “reactionary” by the progressives. In an essay written at this time and addressed to his readers, Manto admits to feeling “a strange melancholy.” He had “rebelled against the great upheaval that the partition of the country caused” and recovered from that “sea of blood” some “pearls of regret.” (He means his partition stories.) But these pearls had found no place in Pakistan. Manto the writer had suffered, but so had Manto the man: “My present life is full of hardship. After working day and night, I barely make enough to fulfill my daily needs. The fear that keeps gnawing at me is that were I to die suddenly who will look after my wife and three little daughters?”",
+  "directions": "",
+  "question_text": "With reference to the passage, what did Manto’s writing not offer the reader?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Irony and romanticism"
+   },
+   {
+    "label": "b",
+    "text": "Sensationalism"
+   },
+   {
+    "label": "c",
+    "text": "Satire"
+   },
+   {
+    "label": "d",
+    "text": "Political solutions"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "It is said by the author that Manto’s work was a misfit in its time, when if writing didn’t offer a ‘communist cure’ or a ‘patriotic facelift’, it was considered useless. Thus (d), which refers to political ideologizing, is what Manto’s work did not attempt to provide.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 8,
+  "question_code": "ASRC-T3-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p2",
+  "set_position": 4,
+  "context_passage": "Manto was in Bombay when he heard the news about Pakistan: the British, quitting India at last, had decided in their haste to let the Muslim-majority regions in the east and west become a separate country. To a man like Manto—a Muslim who grew up in Sikhism’s holiest city, who derived his livelihood from the cosmopolitan film business and had many Hindu friends—this religious designation of a landmass must have seemed unreal. “Where were they going to Inter the bones that had been stripped of the flesh of religion by vultures and birds of prey?” Manto would ask later, and not wholly rhetorically, recalling the plunder and flag-waving and killing that had broken out all around him. “Now that we were free, had subjection ceased to exist? Who would be our slaves? Thousands of Hindus and Muslims were dying all around us. Why were they dying?” The answers were distressingly near. Even in Bombay, now a part of “secular” India, “the communal atmosphere was becoming more vicious by the day.” At the Bombay Talkies film studio where Manto was employed, Hindu staffers began sending anonymous letters to the management, demanding the removal of Muslims from high posts and threatening “everything from murder to the destruction of the studio.” Manto, suddenly a Muslim among Hindus, panicked. He “stopped going to Bombay Talkies.” He “began to drink heavily” and “all day long” would “lie on [his] sofa in a sort of daze.” Much has been made of Manto’s decision in that difficult hour to flee to Pakistan. His friend Ismat Chughtai, herself a Muslim writer and self-avowed progressive who stayed on in India, saw in it a proof of Manto’s opportunism. She quotes him as saying that “the future looks beautiful in Pakistan” because Muslim migrants could now “get the houses of people who’ve fled from there.” But once in Lahore, now Pakistan, Manto was inconsolable. “Despite my best efforts,” he writes, “I could not dissociate India from Pakistan and Pakistan from India.” What was such a writer—one who saw maddening continuities where borders had been drawn—to do? He could begin by putting down his most immediate impressions of the partition violence. “Siyah Hashiye” (“Black Margins”), published in October, 1948, is a collection of “sketches,” some as short as a paragraph: in “Jelly,” a murdered ice vendor’s blood has merged on the road with ice melted from his pushcart, and a child who drives past it in a horse-carriage mistakes it for jelly. In “warning,” a rich man is dragged out of his house by a mob and kicked to the ground. The mob is about to kill him when the man gets up, removes the dust from his clothes “with great dignity” and “wagging a finger at the rioters” says, “You can kill me, but I am warning you, don’t you dare touch my money!” In “The Garland,” another mob, this one in Lahore, frantically descends on the statue of a Hindu philanthropist (Hindus began to flee Lahore as soon as it was “given” to Pakistan). One of the rioters is about to place a garland of shoes around the statue’s neck when he is shot by police and taken to the hospital—a hospital built by the same Hindu philanthropist. And this is what happens in “modesty”: The rioters brought the train to a stop. Those who belonged to the other religion were methodically picked out and slaughtered. After it was all over, those who remained were treated to a feast of milk, custard pies and fresh fruit. Before the train moved off, the leader of the assassins made a small farewell speech: “Dear brothers and sisters, since we were not sure about the time of your train’s arrival, regretfully we were not able to offer you anything better than this most modest hospitality. We would have liked to have done more.” That is all there is: murder—methodical and quick—followed by a feast and an ingratiating speech. Note the withholding of tags: we don’t know the location of the massacre or the religion of the killers. All we have is a spurt of base instincts. (Including false modesty, present even in carnage.) Though “Modesty” is unrelated in plot or sequence to the other sketches in “Siyah Hashiye,” it fits in the whole—like a snapshot in a slide show. Taken one at a time, these sketches enact the speed, randomness, and anonymity of the partition violence; cumulatively they expose the partition—the coming-into-being of two flag-waving nation-states—as little more than an orgy of loot and blood. Manto’s eye for irony here is sharp as ever. And the fragmented feel of his “sketches” represents a formal breakthrough—Manto has blasted away the conventions of the short story and arrived at a jagged approximation of the partition trauma. But the timing of “Siyah Hashiye” was off. The literary scene in Pakistan had already broken down into factions: on one side were the progressive writers, now taking cues from the Soviet Union and calling for a socialist reform of the new state, which was the project of “a few reactionaries, capitalists and feudal landlords”3; and on the other side were “liberal” writers who disdained “Art for the sake of the Party” and were more inclined to peddle the idea of a fragile and imperiled new state in need of “nation- building.” In such a fight, of what use were Manto’s writings, which offered Pakistan neither a Communist cure nor a patriotic facelift? He was punished. The progressives called “Siyah Hashiye” reactionary; Manto responded by saying that he didn’t “care at all about ‘progressivism.’” His next story about the partition, titled “Thanda Gosht” (“Cold Flesh”), was even more unmindful of the literary temperature: Ishwar Singh, a Sikh recently returned from a round of partition killing, can’t bring himself to make love to his mistress. The mistress suspects him of infidelity—why else can’t he get it up? In a fit of jealousy she stabs Ishwar Singh with his own dagger. Bleeding to death, Ishwar Singh admits that he tried to rape an unconscious Muslim girl, only to find her already dead (the “cold flesh” of the title). While it makes some literary stabs (death as contagion, etc.), “Thanda Gosht” is, ultimately, a racy little thing, relying on that last shocking detail for effect—and may well live up to a charge of sensationalism. But in Pakistan the charge brought against “Thanda Gosht” was much more serious. A local bureaucrat named Chaudhry Muhammad Hussain, “one of Manto’s old tormentors,” took the story to mean that “we Muslims are so utterly without a sense of honor that Sikhs can rape even our dead daughters.” Manto was back in the dock. A protracted court trial in Lahore had him worrying about the punishment, which came to three years in jail and a fine of three hundred rupees. Manto appealed the verdict. Eventually, after a lot of worrying (and drinking), he was let off the hook by a judge who wore a conspicuously Islamic beard. (“If I sentence Saadat Hassan Manto,” the judge had said with a Manto-esque smile, “he will go around telling everyone that he was sentenced by a man with a beard.”) Manto now found himself in the singularly unfortunate position of being branded a “progressive” by the state and a “reactionary” by the progressives. In an essay written at this time and addressed to his readers, Manto admits to feeling “a strange melancholy.” He had “rebelled against the great upheaval that the partition of the country caused” and recovered from that “sea of blood” some “pearls of regret.” (He means his partition stories.) But these pearls had found no place in Pakistan. Manto the writer had suffered, but so had Manto the man: “My present life is full of hardship. After working day and night, I barely make enough to fulfill my daily needs. The fear that keeps gnawing at me is that were I to die suddenly who will look after my wife and three little daughters?”",
+  "directions": "",
+  "question_text": "According to the passage, it can be inferred that:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Manto was apathetic to the fate of Pakistan"
+   },
+   {
+    "label": "b",
+    "text": "The writings of Manto reflected his anguish at the partition as well as his\nhelplessness"
+   },
+   {
+    "label": "c",
+    "text": "Manto gladly left India for Pakistan"
+   },
+   {
+    "label": "d",
+    "text": "Manto’s work deserved the criticism leveled at it from all ends"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The entire passage attempts to delineate Manto’s predicament upon the partition of his nation and his subsequent attempts to deal with the same through his written work. His body of work based on the partition suggest that he was deeply moved by it. Nor was he glad to leave his home for Pakistan. Manto’s work did indeed receive a huge amount of criticism. Thus option b is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 9,
+  "question_code": "ASRC-T3-Q09",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p3",
+  "set_position": 1,
+  "context_passage": "Scientists have found the oldest DNA evidence of humans’ biological history. However, instead of clarifying human evolution, the finding is adding new mysteries, NYT reports. Analysis of a DNA test of a 400,000-year-old human thighbone found in a cave in northern Spain known as the “Pit of Bones,” shows an unexpected evolutionary twist, German scientists report. The fossil found in Spain, had previously seemed to many experts to belong to a forerunner of Neanderthals and as the early hominins looked a little like Neanderthals, researchers expected their DNA to share a common ancestor. When Dr. Meyer and his colleagues drilled into the femur, they found ancient human DNA inside, just as they had hoped. However, after analyzing mitochondrial DNA extracted from the bone, it was found that early Europeans share a common ancestor with another mysterious species– eastern Eurasian sister group to the Neanderthals, the Denisovans. “Our expectation was that it would be a very early Neanderthal,” Dr. Meyer said. First discovered in Siberia in 2010, the Denisovans were a genetically different group of people who are known only by a pinkie bone and a tooth. “Everybody had a hard time believing it at first,” Dr. Meyer said. “So we generated more and more data to nail it down.” Until now, Denisovans were known only from DNA retrieved from 80,000- year-old remains in Siberia, 4,000 miles east of where the new DNA was found. “Right now, we’ve basically generated a big question mark,” said Matthias Meyer, a geneticist at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and a co-author of the new study. The mismatch between the anatomical and genetic evidence surprised the scientists, who are now rethinking human evolution over the past few hundred thousand years. Finding such ancient human DNA was a major advance, said David Reich, a geneticist at Harvard Medical School. “That’s an amazing, game-changing thing,” he said. “This would not have been possible even a year ago,” said Juan Luis Arsuaga, a paleoanthropologist at Universidad Complutense de Madrid and a co-author of the paper. Since the 1970s, Spanish scientists have excavated 28 nearly complete skeletons of humans from the cave. Based on the anatomy of the fossils, Dr. Arsuaga has argued that they belonged to ancestors of Neanderthals, which lived in western Asia and Europe from about 200,000 to 30,000 years ago but the new finding give a totally different picture of human evolution especially as Denisovans were believed to be limited to East Asia, and they were not thought to look so Neanderthal-like. As The New York Times writes, based on previously discovered ancient DNA and fossil evidence, scientists generally agreed that humans’ direct ancestors shared a common ancestor with Neanderthals and Denisovans that lived about half a million years ago in Africa. In 2006, a team of French and Belgian researchers obtained a fragment of Neanderthal DNA dating back 100,000 years, which until now was the oldest human DNA ever found, Science Direct says. Around the same time as that discovery, Russian scientists sent the Max Planck team 80,000-year-old Denisovans’ fossils they had found in a cave in Siberia. When the German scientists sequenced the entire genome from the finger bone of a girl, it turned out to be neither human nor Neanderthal. This made the scientists assume that their shared ancestors split off from humans’ lineage and left Africa, then split further into the Denisovans and Neanderthals about 300,000 years ago. The evidence suggested that Neanderthals headed west, toward Europe, and that the Denisovans moved east. Humans’ ancestors, meanwhile, stayed in Africa, giving rise to Homo sapiens about 200,000 years ago. Humans then expanded from Africa into Asia and Europe about 60,000 years ago. They then interbred not only with Neanderthals, but with Denisovans, too. Later, both the Denisovans and Neanderthals became extinct. Dr. Arsuaga doubts that Denisovans were spread out across so much of the Old World, from Spain to Siberia, so one alternative explanation could be that the humans of Sima de los Huesos were not true Neanderthals, but belonged to the ancestors of both Denisovans and Neanderthals. It is also possible that the newly discovered DNA was passed to both Neanderthals and Denisovans, but eventually disappeared from Neanderthals, replaced by other variants. Beth Shapiro, an expert on ancient DNA at the University of California, Santa Cruz, assumes that the humans of Sima de los Huesos belong to another branch of humans, which might have been a species called Homo erectus and have originated about 1.8 million years ago having become extinct within the last few hundred thousand years. “The more we learn from the DNA extracted from these fossils, the more complicated the story becomes,” Dr. Shapiro said. This new genetic link has baffled experts from around the world. Thus, Professor Chris Stringer from London’s Natural History Museum says it shattered the previous record of 100,000 year old DNA. “With the DNA from the rest of the genome, we really can build up a very full story of these earlier stages of human evolution which so far we haven’t been able to do,” he said.",
+  "directions": "",
+  "question_text": "Which of the following can be concluded about the Neanderthal DNA?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "They were discovered 80, 000 years ago in Siberia"
+   },
+   {
+    "label": "b",
+    "text": "They could be identified by only a pinkie bone and a tooth and were not very\nhuman-like"
+   },
+   {
+    "label": "c",
+    "text": "They have been found to be unrelated to the newly discovered DNA found in the\nPit of Bones"
+   },
+   {
+    "label": "d",
+    "text": "It was more concentrated in the West than in the East"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "‘The evidence suggested that Neanderthals headed west, toward Europe, and that the Denisovans moved east.’ This line of the passage can make us safely conclude that option d is the answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 10,
+  "question_code": "ASRC-T3-Q10",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p3",
+  "set_position": 2,
+  "context_passage": "Scientists have found the oldest DNA evidence of humans’ biological history. However, instead of clarifying human evolution, the finding is adding new mysteries, NYT reports. Analysis of a DNA test of a 400,000-year-old human thighbone found in a cave in northern Spain known as the “Pit of Bones,” shows an unexpected evolutionary twist, German scientists report. The fossil found in Spain, had previously seemed to many experts to belong to a forerunner of Neanderthals and as the early hominins looked a little like Neanderthals, researchers expected their DNA to share a common ancestor. When Dr. Meyer and his colleagues drilled into the femur, they found ancient human DNA inside, just as they had hoped. However, after analyzing mitochondrial DNA extracted from the bone, it was found that early Europeans share a common ancestor with another mysterious species– eastern Eurasian sister group to the Neanderthals, the Denisovans. “Our expectation was that it would be a very early Neanderthal,” Dr. Meyer said. First discovered in Siberia in 2010, the Denisovans were a genetically different group of people who are known only by a pinkie bone and a tooth. “Everybody had a hard time believing it at first,” Dr. Meyer said. “So we generated more and more data to nail it down.” Until now, Denisovans were known only from DNA retrieved from 80,000- year-old remains in Siberia, 4,000 miles east of where the new DNA was found. “Right now, we’ve basically generated a big question mark,” said Matthias Meyer, a geneticist at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and a co-author of the new study. The mismatch between the anatomical and genetic evidence surprised the scientists, who are now rethinking human evolution over the past few hundred thousand years. Finding such ancient human DNA was a major advance, said David Reich, a geneticist at Harvard Medical School. “That’s an amazing, game-changing thing,” he said. “This would not have been possible even a year ago,” said Juan Luis Arsuaga, a paleoanthropologist at Universidad Complutense de Madrid and a co-author of the paper. Since the 1970s, Spanish scientists have excavated 28 nearly complete skeletons of humans from the cave. Based on the anatomy of the fossils, Dr. Arsuaga has argued that they belonged to ancestors of Neanderthals, which lived in western Asia and Europe from about 200,000 to 30,000 years ago but the new finding give a totally different picture of human evolution especially as Denisovans were believed to be limited to East Asia, and they were not thought to look so Neanderthal-like. As The New York Times writes, based on previously discovered ancient DNA and fossil evidence, scientists generally agreed that humans’ direct ancestors shared a common ancestor with Neanderthals and Denisovans that lived about half a million years ago in Africa. In 2006, a team of French and Belgian researchers obtained a fragment of Neanderthal DNA dating back 100,000 years, which until now was the oldest human DNA ever found, Science Direct says. Around the same time as that discovery, Russian scientists sent the Max Planck team 80,000-year-old Denisovans’ fossils they had found in a cave in Siberia. When the German scientists sequenced the entire genome from the finger bone of a girl, it turned out to be neither human nor Neanderthal. This made the scientists assume that their shared ancestors split off from humans’ lineage and left Africa, then split further into the Denisovans and Neanderthals about 300,000 years ago. The evidence suggested that Neanderthals headed west, toward Europe, and that the Denisovans moved east. Humans’ ancestors, meanwhile, stayed in Africa, giving rise to Homo sapiens about 200,000 years ago. Humans then expanded from Africa into Asia and Europe about 60,000 years ago. They then interbred not only with Neanderthals, but with Denisovans, too. Later, both the Denisovans and Neanderthals became extinct. Dr. Arsuaga doubts that Denisovans were spread out across so much of the Old World, from Spain to Siberia, so one alternative explanation could be that the humans of Sima de los Huesos were not true Neanderthals, but belonged to the ancestors of both Denisovans and Neanderthals. It is also possible that the newly discovered DNA was passed to both Neanderthals and Denisovans, but eventually disappeared from Neanderthals, replaced by other variants. Beth Shapiro, an expert on ancient DNA at the University of California, Santa Cruz, assumes that the humans of Sima de los Huesos belong to another branch of humans, which might have been a species called Homo erectus and have originated about 1.8 million years ago having become extinct within the last few hundred thousand years. “The more we learn from the DNA extracted from these fossils, the more complicated the story becomes,” Dr. Shapiro said. This new genetic link has baffled experts from around the world. Thus, Professor Chris Stringer from London’s Natural History Museum says it shattered the previous record of 100,000 year old DNA. “With the DNA from the rest of the genome, we really can build up a very full story of these earlier stages of human evolution which so far we haven’t been able to do,” he said.",
+  "directions": "",
+  "question_text": "Identify the true statement:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The Denisovans are the ancestors of Eastern civilizations and the Neanderthals\nof Western civilizations"
+   },
+   {
+    "label": "b",
+    "text": "The new DNA could have been passed onto both the Denisovans and the\nNeanderthals"
+   },
+   {
+    "label": "c",
+    "text": "Finding the new DNA was a one-off chance discovery that won’t be possible\nagain"
+   },
+   {
+    "label": "d",
+    "text": "Dr. Arsuaga is of the opinion that the humans of Sima de los Huesos belonged to\nanother branch of humans called the Homo Erectus"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author includes Dr. Arsuaga’s view that both Denisovans and Neanderthals could have possessed the gene. Thus option (b) is the correct answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 3,
+  "question_number": 11,
+  "question_code": "ASRC-T3-Q11",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t3-p3",
+  "set_position": 3,
+  "context_passage": "Scientists have found the oldest DNA evidence of humans’ biological history. However, instead of clarifying human evolution, the finding is adding new mysteries, NYT reports. Analysis of a DNA test of a 400,000-year-old human thighbone found in a cave in northern Spain known as the “Pit of Bones,” shows an unexpected evolutionary twist, German scientists report. The fossil found in Spain, had previously seemed to many experts to belong to a forerunner of Neanderthals and as the early hominins looked a little like Neanderthals, researchers expected their DNA to share a common ancestor. When Dr. Meyer and his colleagues drilled into the femur, they found ancient human DNA inside, just as they had hoped. However, after analyzing mitochondrial DNA extracted from the bone, it was found that early Europeans share a common ancestor with another mysterious species– eastern Eurasian sister group to the Neanderthals, the Denisovans. “Our expectation was that it would be a very early Neanderthal,” Dr. Meyer said. First discovered in Siberia in 2010, the Denisovans were a genetically different group of people who are known only by a pinkie bone and a tooth. “Everybody had a hard time believing it at first,” Dr. Meyer said. “So we generated more and more data to nail it down.” Until now, Denisovans were known only from DNA retrieved from 80,000- year-old remains in Siberia, 4,000 miles east of where the new DNA was found. “Right now, we’ve basically generated a big question mark,” said Matthias Meyer, a geneticist at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and a co-author of the new study. The mismatch between the anatomical and genetic evidence surprised the scientists, who are now rethinking human evolution over the past few hundred thousand years. Finding such ancient human DNA was a major advance, said David Reich, a geneticist at Harvard Medical School. “That’s an amazing, game-changing thing,” he said. “This would not have been possible even a year ago,” said Juan Luis Arsuaga, a paleoanthropologist at Universidad Complutense de Madrid and a co-author of the paper. Since the 1970s, Spanish scientists have excavated 28 nearly complete skeletons of humans from the cave. Based on the anatomy of the fossils, Dr. Arsuaga has argued that they belonged to ancestors of Neanderthals, which lived in western Asia and Europe from about 200,000 to 30,000 years ago but the new finding give a totally different picture of human evolution especially as Denisovans were believed to be limited to East Asia, and they were not thought to look so Neanderthal-like. As The New York Times writes, based on previously discovered ancient DNA and fossil evidence, scientists generally agreed that humans’ direct ancestors shared a common ancestor with Neanderthals and Denisovans that lived about half a million years ago in Africa. In 2006, a team of French and Belgian researchers obtained a fragment of Neanderthal DNA dating back 100,000 years, which until now was the oldest human DNA ever found, Science Direct says. Around the same time as that discovery, Russian scientists sent the Max Planck team 80,000-year-old Denisovans’ fossils they had found in a cave in Siberia. When the German scientists sequenced the entire genome from the finger bone of a girl, it turned out to be neither human nor Neanderthal. This made the scientists assume that their shared ancestors split off from humans’ lineage and left Africa, then split further into the Denisovans and Neanderthals about 300,000 years ago. The evidence suggested that Neanderthals headed west, toward Europe, and that the Denisovans moved east. Humans’ ancestors, meanwhile, stayed in Africa, giving rise to Homo sapiens about 200,000 years ago. Humans then expanded from Africa into Asia and Europe about 60,000 years ago. They then interbred not only with Neanderthals, but with Denisovans, too. Later, both the Denisovans and Neanderthals became extinct. Dr. Arsuaga doubts that Denisovans were spread out across so much of the Old World, from Spain to Siberia, so one alternative explanation could be that the humans of Sima de los Huesos were not true Neanderthals, but belonged to the ancestors of both Denisovans and Neanderthals. It is also possible that the newly discovered DNA was passed to both Neanderthals and Denisovans, but eventually disappeared from Neanderthals, replaced by other variants. Beth Shapiro, an expert on ancient DNA at the University of California, Santa Cruz, assumes that the humans of Sima de los Huesos belong to another branch of humans, which might have been a species called Homo erectus and have originated about 1.8 million years ago having become extinct within the last few hundred thousand years. “The more we learn from the DNA extracted from these fossils, the more complicated the story becomes,” Dr. Shapiro said. This new genetic link has baffled experts from around the world. Thus, Professor Chris Stringer from London’s Natural History Museum says it shattered the previous record of 100,000 year old DNA. “With the DNA from the rest of the genome, we really can build up a very full story of these earlier stages of human evolution which so far we haven’t been able to do,” he said.",
+  "directions": "",
+  "question_text": "Which of the following is the most startling revelation as a result of the new finding?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The revelation that human biological history may go back further than 100, 000\nyears to 400, 000 years."
+   },
+   {
+    "label": "b",
+    "text": "That the DNA was related to the Denisovans, thus far believed to have been\nlimited to the ‘Old World’"
+   },
+   {
+    "label": "c",
+    "text": "That the Denisovans were not as genetically different as was previously\nbelieved"
+   },
+   {
+    "label": "d",
+    "text": "That technology that can gauge the age of DNA this old exists"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The concluding paragraph of the passage provides the clue as to the most important revelation of the new finding, which is that human biological history may extend beyong 100,000 years ago. This is mentioned in option a, which is the answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

@@ -1,0 +1,442 @@
+[
+ {
+  "test": 6,
+  "question_number": 1,
+  "question_code": "ASRC-T6-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p1",
+  "set_position": 1,
+  "context_passage": "The concept of ‘creative society’ refers to a phase of development of a society in which a large number of potential contradictions become articulate and active. This is most evident when oppressed social groups get politically mobilised and demand their rights. The upsurge of the peasants and tribals, the movements for regional autonomy and self- determination, the environmental movements, and the women’s movements in the developing countries are signs of emergence of creative society in the contemporary times. The forms of social movements and their intensity may vary from country to country and place to place within a country. But the very presence of movements for social transformation in various spheres of a society indicates the emergence of a creative society in a country.",
+  "directions": "",
+  "question_text": "What does the author imply by “creative society”? 1. A society where diverse art forms and literary writings seek incentive. 2. A society where social inequalities are accepted as the norm. 3. A society where a large number of contradictions are recognised. 4. A society where the exploited and the oppressed groups grow conscious of their human rights and upliftment. Select the correct answer using the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1, 2 and 3"
+   },
+   {
+    "label": "b",
+    "text": "4 only"
+   },
+   {
+    "label": "c",
+    "text": "3 and 4"
+   },
+   {
+    "label": "d",
+    "text": "2 and 4"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 2,
+  "question_code": "ASRC-T6-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p1",
+  "set_position": 2,
+  "context_passage": "The concept of ‘creative society’ refers to a phase of development of a society in which a large number of potential contradictions become articulate and active. This is most evident when oppressed social groups get politically mobilised and demand their rights. The upsurge of the peasants and tribals, the movements for regional autonomy and self- determination, the environmental movements, and the women’s movements in the developing countries are signs of emergence of creative society in the contemporary times. The forms of social movements and their intensity may vary from country to country and place to place within a country. But the very presence of movements for social transformation in various spheres of a society indicates the emergence of a creative society in a country.",
+  "directions": "",
+  "question_text": "What according to the passage are the manifestations of social movements? 1. Aggressiveness and being incendiary. 2. Instigation by external forces. 3. Quest for social equality and individual freedom. 4. Urge for granting privileges and self-respect to disparaged sections of the society. Select the correct answer using the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 3 only"
+   },
+   {
+    "label": "b",
+    "text": "2 and 4 only"
+   },
+   {
+    "label": "c",
+    "text": "3 and 4 only"
+   },
+   {
+    "label": "d",
+    "text": "1, 2, 3 and 4"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 3,
+  "question_code": "ASRC-T6-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p1",
+  "set_position": 3,
+  "context_passage": "The concept of ‘creative society’ refers to a phase of development of a society in which a large number of potential contradictions become articulate and active. This is most evident when oppressed social groups get politically mobilised and demand their rights. The upsurge of the peasants and tribals, the movements for regional autonomy and self- determination, the environmental movements, and the women’s movements in the developing countries are signs of emergence of creative society in the contemporary times. The forms of social movements and their intensity may vary from country to country and place to place within a country. But the very presence of movements for social transformation in various spheres of a society indicates the emergence of a creative society in a country.",
+  "directions": "",
+  "question_text": "With reference to the passage, consider the following statements: 1. To be a creative society, it is essential to have a variety of social movements. 2. To be a creative society, it is imperative to have potential contradictions and conflicts. Which of the statements given above is/are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 Only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 4,
+  "question_code": "ASRC-T6-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p2",
+  "set_position": 1,
+  "context_passage": "Ecosystems provide people with a variety of goods and services; food, clean water, clean air, flood control, soil stabilization, pollination, climate regulation, spiritual fulfillment and aesthetic enjoyment, to name just a few. Most of these benefits either are irreplaceable or the technology necessary to replace them is prohibitively expensive. For example, potable fresh water can be provided by desalinating sea-water, but only at great cost. The rapidly expanding human population has greatly modified the Earth’s ecosystems to meet their increased requirements of some of the goods and services, particularly food, fresh water, timbre, fiber and fuel. These modifications save contributed substantially to human well being and economic development. The benefits have not been equally distributed. Some people have actually been harmed by these changes. Moreover, short- term increases in some ecosystem goods and services have come at the cost of the long- term degradation of others. For example, efforts to increase the production of food and fiber have decreased the ability of some ecosystems to provide clean water, regulate flooding and support biodiversity.",
+  "directions": "",
+  "question_text": "With reference to the passage, consider the following statements. Expanding human population has an adverse effect on: 1. Spiritual fulfillment 2. Aesthetic enjoyment 3. Potable fresh water 4. Production of food and fiber 5. Biodiversity Which of the statements given above are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1, 2 and 3 only"
+   },
+   {
+    "label": "b",
+    "text": "2, 4 and 5 only"
+   },
+   {
+    "label": "c",
+    "text": "3 and 5 only"
+   },
+   {
+    "label": "d",
+    "text": "1, 2, 3, 4 and 5"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Mentioned in the last 3 lines of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 5,
+  "question_code": "ASRC-T6-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p2",
+  "set_position": 2,
+  "context_passage": "Ecosystems provide people with a variety of goods and services; food, clean water, clean air, flood control, soil stabilization, pollination, climate regulation, spiritual fulfillment and aesthetic enjoyment, to name just a few. Most of these benefits either are irreplaceable or the technology necessary to replace them is prohibitively expensive. For example, potable fresh water can be provided by desalinating sea-water, but only at great cost. The rapidly expanding human population has greatly modified the Earth’s ecosystems to meet their increased requirements of some of the goods and services, particularly food, fresh water, timbre, fiber and fuel. These modifications save contributed substantially to human well being and economic development. The benefits have not been equally distributed. Some people have actually been harmed by these changes. Moreover, short- term increases in some ecosystem goods and services have come at the cost of the long- term degradation of others. For example, efforts to increase the production of food and fiber have decreased the ability of some ecosystems to provide clean water, regulate flooding and support biodiversity.",
+  "directions": "",
+  "question_text": "The passage mentions that “some people have actually been harmed by these changes”. What does it imply? 1. The rapid expansion of population has adversely affected some people. 2. Sufficient efforts have not been made to increase the production of food and fiber. 3. In the short term some people may be harmed, but in the long term everyone will benefit from modifications in the Earth’s ecosystems. Which of the statements given above is/are correct ?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2"
+   },
+   {
+    "label": "c",
+    "text": "1 and 3"
+   },
+   {
+    "label": "d",
+    "text": "None of the statements given above."
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Means that the changes have caused harm to some people or affected them negatively.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 6,
+  "question_code": "ASRC-T6-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p2",
+  "set_position": 3,
+  "context_passage": "Ecosystems provide people with a variety of goods and services; food, clean water, clean air, flood control, soil stabilization, pollination, climate regulation, spiritual fulfillment and aesthetic enjoyment, to name just a few. Most of these benefits either are irreplaceable or the technology necessary to replace them is prohibitively expensive. For example, potable fresh water can be provided by desalinating sea-water, but only at great cost. The rapidly expanding human population has greatly modified the Earth’s ecosystems to meet their increased requirements of some of the goods and services, particularly food, fresh water, timbre, fiber and fuel. These modifications save contributed substantially to human well being and economic development. The benefits have not been equally distributed. Some people have actually been harmed by these changes. Moreover, short- term increases in some ecosystem goods and services have come at the cost of the long- term degradation of others. For example, efforts to increase the production of food and fiber have decreased the ability of some ecosystems to provide clean water, regulate flooding and support biodiversity.",
+  "directions": "",
+  "question_text": "With reference to the passage, consider the following statements : 1. It is imperative to modify the Earth’s ecosystems for the well being of mankind. 2. Technology can never replace all the goods and services provided by ecosystems. Which of the statements given above is/are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Statement 1 is totally wrong, hence only the second statement is valid.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 7,
+  "question_code": "ASRC-T6-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p3",
+  "set_position": 1,
+  "context_passage": "For achieving inclusive growth there is a critical need to rethink the role of the State. The early debate among economists about the size of the Government can be misleading. The need of the hour is to have an enabling Government. India is too large and complex a nation for the State to be able to deliver all that is needed. Asking the Government to produce all the essential goods, create all the necessary jobs, and keep a curb on the prices of all goods is to lead to a large cumbersome bureaucracy and widespread corruption. The aim must be to stay with the objective of inclusive growth that was laid down by the founding fathers of the nation and also to take a more modern view of what the state can realistically deliver. This is what leads to the idea of an enabling state, that is, a government that does not try to directly deliver to the citizens everything that they need. Instead, it (1) creates an enabling ethos for the market so that individual enterprise can flourish and citizens can, for the most part, provide for the needs of one another, and (2) steps in to help those who do not manage to do well for themselves, for there will always be individuals, no matter what the system, who need support and help. Hence we need a government that, when it comes to the market, sets effective, incentive-compatible rules and remains on the sidelines with minimal interference, and, at the same time, plays an important role in directly helping the poor by ensuring that they get basic education and health services and receive adequate nutrition and food",
+  "directions": "",
+  "question_text": "According to the passage: 1. The objective of inclusive growth was laid down by the founding fathers of the nation. 2. Need of the hour is to have an enabling Government. 3. The Government should engage in maximum interference in market processes. 4. There is a need to change the size of the Government. Which of the statements given above are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "label": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "label": "c",
+    "text": "1 and 4 only"
+   },
+   {
+    "label": "d",
+    "text": "1,2,3 and 4"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Social movements are the 2nd step, but not the essential part, thus only statement 2 is absolutely correct.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 8,
+  "question_code": "ASRC-T6-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p3",
+  "set_position": 2,
+  "context_passage": "For achieving inclusive growth there is a critical need to rethink the role of the State. The early debate among economists about the size of the Government can be misleading. The need of the hour is to have an enabling Government. India is too large and complex a nation for the State to be able to deliver all that is needed. Asking the Government to produce all the essential goods, create all the necessary jobs, and keep a curb on the prices of all goods is to lead to a large cumbersome bureaucracy and widespread corruption. The aim must be to stay with the objective of inclusive growth that was laid down by the founding fathers of the nation and also to take a more modern view of what the state can realistically deliver. This is what leads to the idea of an enabling state, that is, a government that does not try to directly deliver to the citizens everything that they need. Instead, it (1) creates an enabling ethos for the market so that individual enterprise can flourish and citizens can, for the most part, provide for the needs of one another, and (2) steps in to help those who do not manage to do well for themselves, for there will always be individuals, no matter what the system, who need support and help. Hence we need a government that, when it comes to the market, sets effective, incentive-compatible rules and remains on the sidelines with minimal interference, and, at the same time, plays an important role in directly helping the poor by ensuring that they get basic education and health services and receive adequate nutrition and food",
+  "directions": "",
+  "question_text": "According to the passage, the strategy of inclusive growth can be effected by focusing on",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Meeting all the needs of every citizen in the country."
+   },
+   {
+    "label": "b",
+    "text": "Increasing the regulations over the manufacturing sector."
+   },
+   {
+    "label": "c",
+    "text": "Controlling the distribution of manufactured goods."
+   },
+   {
+    "label": "d",
+    "text": "Delivery of the basic services to the deprived sections of the society."
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Delivery of the basic services to the deprived sections of the society.[last paragraph of the passage.]",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 9,
+  "question_code": "ASRC-T6-Q09",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p3",
+  "set_position": 3,
+  "context_passage": "For achieving inclusive growth there is a critical need to rethink the role of the State. The early debate among economists about the size of the Government can be misleading. The need of the hour is to have an enabling Government. India is too large and complex a nation for the State to be able to deliver all that is needed. Asking the Government to produce all the essential goods, create all the necessary jobs, and keep a curb on the prices of all goods is to lead to a large cumbersome bureaucracy and widespread corruption. The aim must be to stay with the objective of inclusive growth that was laid down by the founding fathers of the nation and also to take a more modern view of what the state can realistically deliver. This is what leads to the idea of an enabling state, that is, a government that does not try to directly deliver to the citizens everything that they need. Instead, it (1) creates an enabling ethos for the market so that individual enterprise can flourish and citizens can, for the most part, provide for the needs of one another, and (2) steps in to help those who do not manage to do well for themselves, for there will always be individuals, no matter what the system, who need support and help. Hence we need a government that, when it comes to the market, sets effective, incentive-compatible rules and remains on the sidelines with minimal interference, and, at the same time, plays an important role in directly helping the poor by ensuring that they get basic education and health services and receive adequate nutrition and food",
+  "directions": "",
+  "question_text": "What constitutes Government an enabling? 1. A large bureaucracy. 2. Implementation of welfare programmes through representatives. 3. Creating an ethos that helps individual enterprise. 4. Providing resources to those who are underprivileged. 5. Offering direct help to the poor regarding basic services. Select the correct answer from the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1, 2 and 3 only"
+   },
+   {
+    "label": "b",
+    "text": "4 and 5 only"
+   },
+   {
+    "label": "c",
+    "text": "3, 4 and 5 only"
+   },
+   {
+    "label": "d",
+    "text": "1, 2, 3, 4 and 5"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Mentioned in points 1 and 2 in the passage which talks about the role of the enabling government.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 10,
+  "question_code": "ASRC-T6-Q10",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p3",
+  "set_position": 4,
+  "context_passage": "For achieving inclusive growth there is a critical need to rethink the role of the State. The early debate among economists about the size of the Government can be misleading. The need of the hour is to have an enabling Government. India is too large and complex a nation for the State to be able to deliver all that is needed. Asking the Government to produce all the essential goods, create all the necessary jobs, and keep a curb on the prices of all goods is to lead to a large cumbersome bureaucracy and widespread corruption. The aim must be to stay with the objective of inclusive growth that was laid down by the founding fathers of the nation and also to take a more modern view of what the state can realistically deliver. This is what leads to the idea of an enabling state, that is, a government that does not try to directly deliver to the citizens everything that they need. Instead, it (1) creates an enabling ethos for the market so that individual enterprise can flourish and citizens can, for the most part, provide for the needs of one another, and (2) steps in to help those who do not manage to do well for themselves, for there will always be individuals, no matter what the system, who need support and help. Hence we need a government that, when it comes to the market, sets effective, incentive-compatible rules and remains on the sidelines with minimal interference, and, at the same time, plays an important role in directly helping the poor by ensuring that they get basic education and health services and receive adequate nutrition and food",
+  "directions": "",
+  "question_text": "Why is the State unable to deliver “all that is needed” ? 1. It does not have sufficient bureaucracy. 2. It does not promote inclusive growth. Select the correct’ answer from the codes given below:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 only"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "Both 1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "Neither 1 nor 2"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Because the government has to be enabling and thereby promote inclusive growth…not mentioned in both the statements.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 6,
+  "question_number": 11,
+  "question_code": "ASRC-T6-Q11",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t6-p3",
+  "set_position": 5,
+  "context_passage": "For achieving inclusive growth there is a critical need to rethink the role of the State. The early debate among economists about the size of the Government can be misleading. The need of the hour is to have an enabling Government. India is too large and complex a nation for the State to be able to deliver all that is needed. Asking the Government to produce all the essential goods, create all the necessary jobs, and keep a curb on the prices of all goods is to lead to a large cumbersome bureaucracy and widespread corruption. The aim must be to stay with the objective of inclusive growth that was laid down by the founding fathers of the nation and also to take a more modern view of what the state can realistically deliver. This is what leads to the idea of an enabling state, that is, a government that does not try to directly deliver to the citizens everything that they need. Instead, it (1) creates an enabling ethos for the market so that individual enterprise can flourish and citizens can, for the most part, provide for the needs of one another, and (2) steps in to help those who do not manage to do well for themselves, for there will always be individuals, no matter what the system, who need support and help. Hence we need a government that, when it comes to the market, sets effective, incentive-compatible rules and remains on the sidelines with minimal interference, and, at the same time, plays an important role in directly helping the poor by ensuring that they get basic education and health services and receive adequate nutrition and food",
+  "directions": "",
+  "question_text": "What is the essential message being conveyed by the author of the passage?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The objectives of inclusive growth laid down by the founding fathers of the\nnation should be remembered."
+   },
+   {
+    "label": "b",
+    "text": "The Government needs to make available more schools and health services."
+   },
+   {
+    "label": "c",
+    "text": "The Government needs to establish markets and industries to meet the needs of\nthe poor strata of the society."
+   },
+   {
+    "label": "d",
+    "text": "There is a need to rethink the role of the State in achieving inclusive growth."
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The 1st line of the 1st paragraph hints towards this, option a gets included in option (d), thus option (d) is a superior option.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

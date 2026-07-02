@@ -285,6 +285,56 @@ rcSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 const RcQuestion      = mongoose.model('RcQuestion', rcQuestionSchema);
 const RcSession       = mongoose.model('RcSession', rcSessionSchema);
 
+// ── Arun Sharma VARC (Arun Sharma VA-RC — "Latest Pattern Comprehension Passages
+// for the CAT", LOD II) — 7 tests, 3 passages each. Same shape as RC so the exam
+// UI is shared; questions of one passage share context_passage + directions. ─────
+const ASRC_TESTS = [1, 2, 3, 4, 5, 6, 7];
+const asrcQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  test:            { type: Number, enum: ASRC_TESTS, index: true },
+  section:         { type: String, default: 'Arun Sharma VARC' },
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'sequence'], default: 'option' },
+  topic:           String,
+  set_id:          String,          // passage id, e.g. "t1-p3"
+  set_position:    Number,          // position within its passage
+  context_passage: { type: String, default: '' },
+  directions:      { type: String, default: '' },
+  question_text:   String,
+  underline:       { type: String, default: '' },
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  question_number: Number,
+  source:          String,
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'asrc_questions', timestamps: true });
+
+const asrcSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test:            { type: Number, enum: ASRC_TESTS },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  time_left:       { type: Number, default: 40 * 60 },
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'asrc_sessions', timestamps: true });
+asrcSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
+const AsrcQuestion    = mongoose.model('AsrcQuestion', asrcQuestionSchema);
+const AsrcSession     = mongoose.model('AsrcSession', asrcSessionSchema);
+
 // ── Data Interpretation question (Nishit Sinha LRDI 6e — Part 2 Section 2 ──────
 // "Practising Data Interpretation"). Timed mocks like RC: each book practice
 // exercise becomes one test. Tests are numbered 1..N globally and tagged with a
@@ -1731,6 +1781,243 @@ app.get('/api/di/history', authMiddleware, async (req, res) => {
     const sessions = await DiSession.find(
       { user_id: req.user._id, status: 'submitted' },
       'test tier score finished_at createdAt'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+//  Arun Sharma VARC (Latest Pattern Comprehension Passages, LOD II — 7 tests)
+// ════════════════════════════════════════════════════════════════════════════
+const ASRC_SECONDS_PER_Q = 120; // 2 minutes per question
+
+function asrcOrdered(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+// GET /api/asrc-tests — list the 7 tests with question counts + duration
+app.get('/api/asrc-tests', async (req, res) => {
+  try {
+    const rows = await AsrcQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: { _id: '$test', count: { $sum: 1 } } },
+      { $sort: { _id: 1 } },
+    ]);
+    const byTest = {};
+    rows.forEach(r => { byTest[r._id] = r.count; });
+    const tests = ASRC_TESTS.map(t => {
+      const n = byTest[t] || 0;
+      return {
+        test: t,
+        title: `Latest Pattern RC — Test ${t}`,
+        questions: n,
+        duration_minutes: Math.round((n * ASRC_SECONDS_PER_Q) / 60),
+        marks: n * 3,
+      };
+    });
+    res.json(tests);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/asrc/start — resume-first, else create a fresh session for this test
+app.post('/api/asrc/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (!ASRC_TESTS.includes(test)) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await AsrcSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await AsrcQuestion
+      .find({ test, removed: { $ne: true } }, VARC_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+
+    if (!session) {
+      session = await AsrcSession.create({
+        user_id:         req.user._id,
+        test,
+        status:          'in_progress',
+        question_ids:    docs.map(q => q._id),
+        question_states: {},
+        time_left:       docs.length * ASRC_SECONDS_PER_Q,
+        started_at:      new Date(),
+      });
+    }
+
+    const questions = asrcOrdered(session, docs);
+    res.json({
+      session_id:      session._id,
+      test,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      status:          session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/asrc/active?test=N — resume or read the latest session for this test
+app.get('/api/asrc/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (!ASRC_TESTS.includes(test)) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await AsrcSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await AsrcSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : VARC_SAFE_PROJECTION;
+    const docs = await AsrcQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const questions = asrcOrdered(session, docs);
+
+    res.json({
+      state:           isFinished ? 'finished' : 'in_progress',
+      session_id:      session._id,
+      test,
+      questions,
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      score:           isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/asrc/:sid/save — persist question_states + time_left (no scoring)
+app.post('/api/asrc/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await AsrcSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/asrc/:sid/submit — server-side scoring, then reveal answers
+app.post('/api/asrc/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await AsrcSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await AsrcQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue; // not attempted
+      const key = normalizeAnswer(q.correct_answer, q.answer_format);
+      if (given === key) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = {
+      total:     net,
+      attempted: correct + incorrect,
+      correct,
+      incorrect,
+      max_score: maxScore,
+    };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/asrc/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/asrc/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await AsrcSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const projection = reveal ? '' : VARC_SAFE_PROJECTION;
+    const docs = await AsrcQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+    const ordered = asrcOrdered(session, docs);
+    const states = session.question_states || {};
+
+    const questions = ordered.map(q => {
+      const st = states[String(q._id)] || {};
+      const out = { ...q, user_answer: st.answer || '', user_status: st.status || 'not-visited' };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id: session._id,
+      test:       session.test,
+      status:     session.status,
+      score:      session.score || null,
+      time_left:  session.time_left,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/asrc/history — list this user's submitted Arun Sharma VARC sessions
+app.get('/api/asrc/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await AsrcSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test score finished_at createdAt'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
   } catch (e) {

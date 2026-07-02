@@ -1,0 +1,402 @@
+[
+ {
+  "test": 5,
+  "question_number": 1,
+  "question_code": "ASRC-T5-Q01",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p1",
+  "set_position": 1,
+  "context_passage": "Implicit in the freedoms we cherish in our democracy is our right to offend. That is the cornerstone of all free thought and its expression. In a country as beautiful and complex as ours, it is our inalienable right to offend that makes us the nation we are. Of course I also recognize the fact that this right attaches to itself many risks, including the risk of being targeted. But as long as these risks are within reasonable, well-defined limits, most people will take them in their stride. I am ready to defend my right to offend in any debate or a court of law. But it’s not fine when mobs come to lynch you. It’s not right, when they vandalize your home or burn your books or art or stop you from showing your film or, what’s becoming more frequent, hire thugs to kill you. Authors, journalists, painters, and now even activists and rationalists are being openly attacked and murdered. It’s a constant challenge to walk the tightrope; to know exactly where to draw the line when you write, paint, speak. The funny thing is truth has no limits, no frontiers. When you want to say something you strongly believe in, there is no point where you can stop. The truth is always whole. When you draw a line, as discretion suggests, you encourage half-truths and falsehoods being foisted on others, you subvert your conscience. In some cases it’s not even possible to draw a line. A campaigner against corruption can never stop midway through his campaign even though he knows exactly at which point the truth invites danger, extreme danger. Yet India is a brave nation and there are many common people, ordinary citizens with hardly any resources and no one to protect them who are ready to go out on a limb and say it as it is. They are the ones who keep our democracy burning bright. Every few days you read about a journalist killed. About RTI activists murdered for exposing what is in the public interest. You read about people campaigning for a cause (like Narendra Dabholkar, who fought against superstitions, human sacrifices, babas and tantriks) being gunned down in cold blood. Even before the police can start investigations, the crime is invariably politicised. Issues of religion, caste, community, political affiliation are dragged in only to complicate (read obfuscate) the crime and, before you know it, the story dies because some other, even more ugly crime is committed somewhere else and draws away the headlines and your attention. And when that happens, criminals get away. We are today an attention deficit nation because there’s so much happening everywhere, all pretty awful stuff, that it’s impossible for anyone to stay focused. Even fame and success can’t protect you. Dr Dabholkar was a renowned rationalist, a man of immaculate credentials. Yet he was gunned down by fanatics who thought he was endangering their trade in cheating poor and gullible people. Husain was our greatest living painter. He was forced into exile in his 80s because zealots refused to let him live and work in peace here. They vandalised his art; hunted down his shows, ransacked them. Yet Husain, as I knew him, was as ardent a Hindu as anyone else. His paintings on the Mahabharata are the stuff legends are made of. A pusillanimous government lacked the will to intervene. When we deny ourselves the right to offend, we deny ourselves the possibility of change. That’s how societies become brutal, moribund, disgustingly boring. Is this what you want? If the answer is No and you want to stay a free citizen, insist on your right to offend. If enough people do that, change is not just inevitable. It’s assured. And change is what defines a living culture.",
+  "directions": "",
+  "question_text": "The author is in agreement with which of the following? 1. The right to offend is worth preserving and an essential component of a democratic set up. It allows one to put his/her point upfront when it’s the need of hour. 2. The absence of the right to offend would lead to a destruction of cultural freedom and society would degenerate into a lackluster, homogenous constant 3. The right to offend should be absolutely limitless to safeguard us against the atrocities that are brought down upon us by the zealots, who will always prevail in the society. 4. The right to offend is responsible for many injustices such as the murder of Narendra Dabholkar and the vandalism against Hussain’s paintings",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1"
+   },
+   {
+    "label": "b",
+    "text": "1, 2 and 3"
+   },
+   {
+    "label": "c",
+    "text": "1 and 2"
+   },
+   {
+    "label": "d",
+    "text": "3 and 4"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Option (c) is the correct answer as the author believes the right to offend (within certain limits) is an essential part of a democratic, vibrant societal set up. Option (c) and (d) are in direct violation of these principles.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 2,
+  "question_code": "ASRC-T5-Q02",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p1",
+  "set_position": 2,
+  "context_passage": "Implicit in the freedoms we cherish in our democracy is our right to offend. That is the cornerstone of all free thought and its expression. In a country as beautiful and complex as ours, it is our inalienable right to offend that makes us the nation we are. Of course I also recognize the fact that this right attaches to itself many risks, including the risk of being targeted. But as long as these risks are within reasonable, well-defined limits, most people will take them in their stride. I am ready to defend my right to offend in any debate or a court of law. But it’s not fine when mobs come to lynch you. It’s not right, when they vandalize your home or burn your books or art or stop you from showing your film or, what’s becoming more frequent, hire thugs to kill you. Authors, journalists, painters, and now even activists and rationalists are being openly attacked and murdered. It’s a constant challenge to walk the tightrope; to know exactly where to draw the line when you write, paint, speak. The funny thing is truth has no limits, no frontiers. When you want to say something you strongly believe in, there is no point where you can stop. The truth is always whole. When you draw a line, as discretion suggests, you encourage half-truths and falsehoods being foisted on others, you subvert your conscience. In some cases it’s not even possible to draw a line. A campaigner against corruption can never stop midway through his campaign even though he knows exactly at which point the truth invites danger, extreme danger. Yet India is a brave nation and there are many common people, ordinary citizens with hardly any resources and no one to protect them who are ready to go out on a limb and say it as it is. They are the ones who keep our democracy burning bright. Every few days you read about a journalist killed. About RTI activists murdered for exposing what is in the public interest. You read about people campaigning for a cause (like Narendra Dabholkar, who fought against superstitions, human sacrifices, babas and tantriks) being gunned down in cold blood. Even before the police can start investigations, the crime is invariably politicised. Issues of religion, caste, community, political affiliation are dragged in only to complicate (read obfuscate) the crime and, before you know it, the story dies because some other, even more ugly crime is committed somewhere else and draws away the headlines and your attention. And when that happens, criminals get away. We are today an attention deficit nation because there’s so much happening everywhere, all pretty awful stuff, that it’s impossible for anyone to stay focused. Even fame and success can’t protect you. Dr Dabholkar was a renowned rationalist, a man of immaculate credentials. Yet he was gunned down by fanatics who thought he was endangering their trade in cheating poor and gullible people. Husain was our greatest living painter. He was forced into exile in his 80s because zealots refused to let him live and work in peace here. They vandalised his art; hunted down his shows, ransacked them. Yet Husain, as I knew him, was as ardent a Hindu as anyone else. His paintings on the Mahabharata are the stuff legends are made of. A pusillanimous government lacked the will to intervene. When we deny ourselves the right to offend, we deny ourselves the possibility of change. That’s how societies become brutal, moribund, disgustingly boring. Is this what you want? If the answer is No and you want to stay a free citizen, insist on your right to offend. If enough people do that, change is not just inevitable. It’s assured. And change is what defines a living culture.",
+  "directions": "",
+  "question_text": "If you were to paraphrase the word ‘pusillanimous’, which of the following would you choose to use:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Complacent"
+   },
+   {
+    "label": "b",
+    "text": "Ineffective"
+   },
+   {
+    "label": "c",
+    "text": "Timid"
+   },
+   {
+    "label": "d",
+    "text": "Sensible"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The meaning of the word is ‘lacking in courage’. Timid is the best option in the given context.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 3,
+  "question_code": "ASRC-T5-Q03",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p1",
+  "set_position": 3,
+  "context_passage": "Implicit in the freedoms we cherish in our democracy is our right to offend. That is the cornerstone of all free thought and its expression. In a country as beautiful and complex as ours, it is our inalienable right to offend that makes us the nation we are. Of course I also recognize the fact that this right attaches to itself many risks, including the risk of being targeted. But as long as these risks are within reasonable, well-defined limits, most people will take them in their stride. I am ready to defend my right to offend in any debate or a court of law. But it’s not fine when mobs come to lynch you. It’s not right, when they vandalize your home or burn your books or art or stop you from showing your film or, what’s becoming more frequent, hire thugs to kill you. Authors, journalists, painters, and now even activists and rationalists are being openly attacked and murdered. It’s a constant challenge to walk the tightrope; to know exactly where to draw the line when you write, paint, speak. The funny thing is truth has no limits, no frontiers. When you want to say something you strongly believe in, there is no point where you can stop. The truth is always whole. When you draw a line, as discretion suggests, you encourage half-truths and falsehoods being foisted on others, you subvert your conscience. In some cases it’s not even possible to draw a line. A campaigner against corruption can never stop midway through his campaign even though he knows exactly at which point the truth invites danger, extreme danger. Yet India is a brave nation and there are many common people, ordinary citizens with hardly any resources and no one to protect them who are ready to go out on a limb and say it as it is. They are the ones who keep our democracy burning bright. Every few days you read about a journalist killed. About RTI activists murdered for exposing what is in the public interest. You read about people campaigning for a cause (like Narendra Dabholkar, who fought against superstitions, human sacrifices, babas and tantriks) being gunned down in cold blood. Even before the police can start investigations, the crime is invariably politicised. Issues of religion, caste, community, political affiliation are dragged in only to complicate (read obfuscate) the crime and, before you know it, the story dies because some other, even more ugly crime is committed somewhere else and draws away the headlines and your attention. And when that happens, criminals get away. We are today an attention deficit nation because there’s so much happening everywhere, all pretty awful stuff, that it’s impossible for anyone to stay focused. Even fame and success can’t protect you. Dr Dabholkar was a renowned rationalist, a man of immaculate credentials. Yet he was gunned down by fanatics who thought he was endangering their trade in cheating poor and gullible people. Husain was our greatest living painter. He was forced into exile in his 80s because zealots refused to let him live and work in peace here. They vandalised his art; hunted down his shows, ransacked them. Yet Husain, as I knew him, was as ardent a Hindu as anyone else. His paintings on the Mahabharata are the stuff legends are made of. A pusillanimous government lacked the will to intervene. When we deny ourselves the right to offend, we deny ourselves the possibility of change. That’s how societies become brutal, moribund, disgustingly boring. Is this what you want? If the answer is No and you want to stay a free citizen, insist on your right to offend. If enough people do that, change is not just inevitable. It’s assured. And change is what defines a living culture.",
+  "directions": "",
+  "question_text": "Why is the right to offend a right worth preserving?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "It empowers a select few in enforcing their opinions on others regardless of\ntheir acceptance or agreement"
+   },
+   {
+    "label": "b",
+    "text": "The right to express oneself is essential for individual development and allows\nfor cultural advancement"
+   },
+   {
+    "label": "c",
+    "text": "To offend is to deny another of his/her right"
+   },
+   {
+    "label": "d",
+    "text": "The right to offend is a partial representation of the truth, and the truth must be\nexpressed in public"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Option (b) is the best answer as it accurately summarizes the sentiment of the author who is in clear support of absolute freedom of expression. The other options are not clear representations of this sentiment, while (c) is in direct contradiction. Thus, option (b) is appropriate.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 4,
+  "question_code": "ASRC-T5-Q04",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p2",
+  "set_position": 1,
+  "context_passage": "Simon Murden writes, “The Clash of Civilizations may not have told the whole story of what was happening in the post cold war world, but it told part of it”. The claims he made shaped the contours of the international realm in a manner which was largely ignored in an age dominated by ideological leanings. The post Cold War dynamics have been captured by Huntington by elevating the importance of cultural variables. The fervor of the text is decidedly realist, however Huntington in an interview clarified that he was aware of the views which branded his work as the “latest version of billiard ball realism” but he also asserted that the difference lay in the replacement of nation state as a primary actor to civilizations as the movers’ history. In essence the Cold War paradigm now came to be replaced by a new paradigm with culture occupying the central role. The problem of binaries was evident as the shifting power equations gave way to identities being defined not in ideological terms rather they were now defined in civilizational terms which he believed was, “culture writ large”. Huntington’s contribution lay in generating a new paradigm. Gideon Rose argued that his work was directed at the major practical and theoretical questions of the day. Herein lay his brilliance. However it has also been argued that his methodology was anecdotal in nature and it catered to few specific situations to arrive at a grand theory. His approach many believe can lead to situation based convenient explanations and arguments. Huntington was aware of this and he acknowledged the need to situating certain issues in time and space. He was never much concerned about the method, as much as he was about arriving at empirical generalizations and this encouraged him to draw comparisons. He identified the emergence of western universalism and the backlash against it which assumed various forms. It ranged from emergence of religious fundamentalism to challenges in the form of assertion of Asian Values which gained salience owing to Japan’s emergence as a major economic power. The notion of power is central to his work. This is evident in his treatment of civilizational differences as a major source of conflict in the post Cold War era. In this sense he recognized culture as acquiring a political dimension. The issue of identity defined by religion which was obscured by the Cold War obsession with ideologies gained renewed importance. The understanding of the ‘other’ was weighed against their ‘own constructed identities’. Huntington warns against insistence on equating westernization and modernization. This he argues strengthens indigenizing forces and often initiates a violent opposition to the west. Samuel Huntington’s book provides a powerful and compelling analysis of a de- ideologized world in which he writes, “The velvet curtain of culture has replaced the iron curtain of ideology as the most significant dividing line in Europe”. On the one hand was Francis Fukuyama who was proclaiming that the collapse of the Soviet Union signaled the end of history as liberal values triumphed, and on the other hand was Huntington who evidently was uncomfortable with such a Universalist claim. Huntington writes that, “western belief in universality of western culture suffers from three problems: it is false; it is immoral; and it is dangerous”. He recognized the pitfalls of viewing the neo liberal concepts of interdependence largely in terms of the west and acknowledged the need for, “universalism at home and multiculturalism abroad”. The ‘Clash of Civilizations thesis’ despite its misinterpretations, became conventional wisdom when much of the conflicts and wars in the world could be articulated in terms of being a conflict between different cultures. The 9/11 incident signaled the potency of cultural differences. The borders of civilizations for Huntington became sacrosanct. To the extent that many have argued, he ignored the cross cultural interactions which shaped these civilizations and the internal schisms characteristic of many of them.",
+  "directions": "",
+  "question_text": "Which of the following is NOT a conclusion applicable to Hungtington’s work or style?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Huntington’s work had a distinctively realist flavor with a stand opposite to the\nneo liberal world’s generalized universality"
+   },
+   {
+    "label": "b",
+    "text": "Huntington employed an anecdotal methodology to arrive at grand theories"
+   },
+   {
+    "label": "c",
+    "text": "Huntington was essentially a universalist who used empirical generalizations to\njustify his deductions"
+   },
+   {
+    "label": "d",
+    "text": "Huntington was a critic of the neo-liberal school of thought and believed that the\ncurtain of ideology was being replaced by the curtain of culture"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The author categorically mentions that Huntington was uncomfortable with the Universalist claim of Francis Fukuyama in predicting the end of history with the collapse of the Soviet Union. This is clearly not a characteristic of Huntington or his writing.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 5,
+  "question_code": "ASRC-T5-Q05",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p2",
+  "set_position": 2,
+  "context_passage": "Simon Murden writes, “The Clash of Civilizations may not have told the whole story of what was happening in the post cold war world, but it told part of it”. The claims he made shaped the contours of the international realm in a manner which was largely ignored in an age dominated by ideological leanings. The post Cold War dynamics have been captured by Huntington by elevating the importance of cultural variables. The fervor of the text is decidedly realist, however Huntington in an interview clarified that he was aware of the views which branded his work as the “latest version of billiard ball realism” but he also asserted that the difference lay in the replacement of nation state as a primary actor to civilizations as the movers’ history. In essence the Cold War paradigm now came to be replaced by a new paradigm with culture occupying the central role. The problem of binaries was evident as the shifting power equations gave way to identities being defined not in ideological terms rather they were now defined in civilizational terms which he believed was, “culture writ large”. Huntington’s contribution lay in generating a new paradigm. Gideon Rose argued that his work was directed at the major practical and theoretical questions of the day. Herein lay his brilliance. However it has also been argued that his methodology was anecdotal in nature and it catered to few specific situations to arrive at a grand theory. His approach many believe can lead to situation based convenient explanations and arguments. Huntington was aware of this and he acknowledged the need to situating certain issues in time and space. He was never much concerned about the method, as much as he was about arriving at empirical generalizations and this encouraged him to draw comparisons. He identified the emergence of western universalism and the backlash against it which assumed various forms. It ranged from emergence of religious fundamentalism to challenges in the form of assertion of Asian Values which gained salience owing to Japan’s emergence as a major economic power. The notion of power is central to his work. This is evident in his treatment of civilizational differences as a major source of conflict in the post Cold War era. In this sense he recognized culture as acquiring a political dimension. The issue of identity defined by religion which was obscured by the Cold War obsession with ideologies gained renewed importance. The understanding of the ‘other’ was weighed against their ‘own constructed identities’. Huntington warns against insistence on equating westernization and modernization. This he argues strengthens indigenizing forces and often initiates a violent opposition to the west. Samuel Huntington’s book provides a powerful and compelling analysis of a de- ideologized world in which he writes, “The velvet curtain of culture has replaced the iron curtain of ideology as the most significant dividing line in Europe”. On the one hand was Francis Fukuyama who was proclaiming that the collapse of the Soviet Union signaled the end of history as liberal values triumphed, and on the other hand was Huntington who evidently was uncomfortable with such a Universalist claim. Huntington writes that, “western belief in universality of western culture suffers from three problems: it is false; it is immoral; and it is dangerous”. He recognized the pitfalls of viewing the neo liberal concepts of interdependence largely in terms of the west and acknowledged the need for, “universalism at home and multiculturalism abroad”. The ‘Clash of Civilizations thesis’ despite its misinterpretations, became conventional wisdom when much of the conflicts and wars in the world could be articulated in terms of being a conflict between different cultures. The 9/11 incident signaled the potency of cultural differences. The borders of civilizations for Huntington became sacrosanct. To the extent that many have argued, he ignored the cross cultural interactions which shaped these civilizations and the internal schisms characteristic of many of them.",
+  "directions": "",
+  "question_text": "If you were to ask Samuel Huntington a follow-up question based on your reading of this passage, which of the following would be the LEAST FAVORABLE option?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "What are the disadvantages of viewing the world through the Universalist\nprism?"
+   },
+   {
+    "label": "b",
+    "text": "Can culture be prevented from taking on political dimensions such as in the\nWest, or this inevitable? Again, is it necessary?"
+   },
+   {
+    "label": "c",
+    "text": "In what ways can cross-cultural interactions shape entire civilizations?"
+   },
+   {
+    "label": "d",
+    "text": "Is ideology completely irrelevant in the age of the curtain of culture?"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The question in option (c) is one the author is unlikely to entertain as he is believed to have ignored cross-cultural interactions in his study of civilizations. This makes this question the least favorable one to ask him.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 6,
+  "question_code": "ASRC-T5-Q06",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p2",
+  "set_position": 3,
+  "context_passage": "Simon Murden writes, “The Clash of Civilizations may not have told the whole story of what was happening in the post cold war world, but it told part of it”. The claims he made shaped the contours of the international realm in a manner which was largely ignored in an age dominated by ideological leanings. The post Cold War dynamics have been captured by Huntington by elevating the importance of cultural variables. The fervor of the text is decidedly realist, however Huntington in an interview clarified that he was aware of the views which branded his work as the “latest version of billiard ball realism” but he also asserted that the difference lay in the replacement of nation state as a primary actor to civilizations as the movers’ history. In essence the Cold War paradigm now came to be replaced by a new paradigm with culture occupying the central role. The problem of binaries was evident as the shifting power equations gave way to identities being defined not in ideological terms rather they were now defined in civilizational terms which he believed was, “culture writ large”. Huntington’s contribution lay in generating a new paradigm. Gideon Rose argued that his work was directed at the major practical and theoretical questions of the day. Herein lay his brilliance. However it has also been argued that his methodology was anecdotal in nature and it catered to few specific situations to arrive at a grand theory. His approach many believe can lead to situation based convenient explanations and arguments. Huntington was aware of this and he acknowledged the need to situating certain issues in time and space. He was never much concerned about the method, as much as he was about arriving at empirical generalizations and this encouraged him to draw comparisons. He identified the emergence of western universalism and the backlash against it which assumed various forms. It ranged from emergence of religious fundamentalism to challenges in the form of assertion of Asian Values which gained salience owing to Japan’s emergence as a major economic power. The notion of power is central to his work. This is evident in his treatment of civilizational differences as a major source of conflict in the post Cold War era. In this sense he recognized culture as acquiring a political dimension. The issue of identity defined by religion which was obscured by the Cold War obsession with ideologies gained renewed importance. The understanding of the ‘other’ was weighed against their ‘own constructed identities’. Huntington warns against insistence on equating westernization and modernization. This he argues strengthens indigenizing forces and often initiates a violent opposition to the west. Samuel Huntington’s book provides a powerful and compelling analysis of a de- ideologized world in which he writes, “The velvet curtain of culture has replaced the iron curtain of ideology as the most significant dividing line in Europe”. On the one hand was Francis Fukuyama who was proclaiming that the collapse of the Soviet Union signaled the end of history as liberal values triumphed, and on the other hand was Huntington who evidently was uncomfortable with such a Universalist claim. Huntington writes that, “western belief in universality of western culture suffers from three problems: it is false; it is immoral; and it is dangerous”. He recognized the pitfalls of viewing the neo liberal concepts of interdependence largely in terms of the west and acknowledged the need for, “universalism at home and multiculturalism abroad”. The ‘Clash of Civilizations thesis’ despite its misinterpretations, became conventional wisdom when much of the conflicts and wars in the world could be articulated in terms of being a conflict between different cultures. The 9/11 incident signaled the potency of cultural differences. The borders of civilizations for Huntington became sacrosanct. To the extent that many have argued, he ignored the cross cultural interactions which shaped these civilizations and the internal schisms characteristic of many of them.",
+  "directions": "",
+  "question_text": "In the context of the passage, the best replacement (that would not alter the meaning of the sentence) for the phrase ‘internal schisms’ would be:",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "Internal estrangements"
+   },
+   {
+    "label": "b",
+    "text": "Internal detachments"
+   },
+   {
+    "label": "c",
+    "text": "Internal rifts"
+   },
+   {
+    "label": "d",
+    "text": "Internal dissension"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "As the passage speaks of the divisions between different cultures that create separate identities for each of them, option (c), which most nearly means ‘divisions’ is the best answer.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 7,
+  "question_code": "ASRC-T5-Q07",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p3",
+  "set_position": 1,
+  "context_passage": "A country under foreign domination seeks escape from the present in dreams of a vanished age, and finds consolation in visions of past greatness. That is a foolish and dangerous pastime in which many of us indulge. An equally questionable practice for us in India is to imagine that we are still spiritually great though we have come down in the world in other respects. Spiritual or any other greatness cannot be founded on lack of freedom and opportunity, or on starvation and misery. Many western writers have encouraged that notion that Indians are other-worldly. I suppose the poor and unfortunate in every country become to some extent other-worldly, unless they become revolutionaries, for this world is evidently not meant for them. So also subject peoples. As a man grows to maturity he is not entirely engrossed in, or satisfied with, the external objective world. He seeks also some inner meaning some psychological and physical satisfactions. So also with people and civilizations as they mature and grow adult. Every civilization and every people exhibit these parallel streams of an external life and an internal life. Where they meet or keep close to each other, there is an equilibrium and stability. When they diverge conflict arises and the crises that torture the mind and spirit.",
+  "directions": "",
+  "question_text": "The passage mentions that “this world is evidently not meant for them”. It refers to people who 1. Seek freedom from foreign domination. 2. Live in starvation and misery. 3. Become revolutionaries Which of the statements given above is/are correct?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 2"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "3 only"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "This is evident from the passage because it talks about the poor and the suffering and how they are not able to survive in this world unless they become revolutionaries. Here the thought process of the author goes in the manner that these poor people are not able to live a normal comfortable life, due to which the world is not a place where they could live n a manner every normal person would want to. It is out of their reach and hence it is said that the world is not meant for them. In other words it is a place meant for people who have the means and power to survive.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 8,
+  "question_code": "ASRC-T5-Q08",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p3",
+  "set_position": 2,
+  "context_passage": "A country under foreign domination seeks escape from the present in dreams of a vanished age, and finds consolation in visions of past greatness. That is a foolish and dangerous pastime in which many of us indulge. An equally questionable practice for us in India is to imagine that we are still spiritually great though we have come down in the world in other respects. Spiritual or any other greatness cannot be founded on lack of freedom and opportunity, or on starvation and misery. Many western writers have encouraged that notion that Indians are other-worldly. I suppose the poor and unfortunate in every country become to some extent other-worldly, unless they become revolutionaries, for this world is evidently not meant for them. So also subject peoples. As a man grows to maturity he is not entirely engrossed in, or satisfied with, the external objective world. He seeks also some inner meaning some psychological and physical satisfactions. So also with people and civilizations as they mature and grow adult. Every civilization and every people exhibit these parallel streams of an external life and an internal life. Where they meet or keep close to each other, there is an equilibrium and stability. When they diverge conflict arises and the crises that torture the mind and spirit.",
+  "directions": "",
+  "question_text": "Consider the following assumptions : 1. A country under foreign domination cannot indulge in spiritual pursuit. 2. Poverty is an impediment in the spiritual pursuit. 3. Subject peoples may become other-worldly. With reference to the passage, which of the above assumptions is/are valid?",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "1 and 2"
+   },
+   {
+    "label": "b",
+    "text": "2 only"
+   },
+   {
+    "label": "c",
+    "text": "2 and 3"
+   },
+   {
+    "label": "d",
+    "text": "3 only"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The last line of the 1st paragraph clearly talks about subject peoples, hence statement 3 is correct.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 9,
+  "question_code": "ASRC-T5-Q09",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p3",
+  "set_position": 3,
+  "context_passage": "A country under foreign domination seeks escape from the present in dreams of a vanished age, and finds consolation in visions of past greatness. That is a foolish and dangerous pastime in which many of us indulge. An equally questionable practice for us in India is to imagine that we are still spiritually great though we have come down in the world in other respects. Spiritual or any other greatness cannot be founded on lack of freedom and opportunity, or on starvation and misery. Many western writers have encouraged that notion that Indians are other-worldly. I suppose the poor and unfortunate in every country become to some extent other-worldly, unless they become revolutionaries, for this world is evidently not meant for them. So also subject peoples. As a man grows to maturity he is not entirely engrossed in, or satisfied with, the external objective world. He seeks also some inner meaning some psychological and physical satisfactions. So also with people and civilizations as they mature and grow adult. Every civilization and every people exhibit these parallel streams of an external life and an internal life. Where they meet or keep close to each other, there is an equilibrium and stability. When they diverge conflict arises and the crises that torture the mind and spirit.",
+  "directions": "",
+  "question_text": "The passage thematically centers on",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "The state of mind of oppressed people"
+   },
+   {
+    "label": "b",
+    "text": "Starvation and misery"
+   },
+   {
+    "label": "c",
+    "text": "The growth of civilization"
+   },
+   {
+    "label": "d",
+    "text": "Body, mind and spirit of people in general."
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "This is the central theme or basis of the whole passage, since it is written from their view point.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "test": 5,
+  "question_number": 10,
+  "question_code": "ASRC-T5-Q10",
+  "section": "Arun Sharma VARC",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Reading Comprehension",
+  "set_id": "t5-p3",
+  "set_position": 4,
+  "context_passage": "A country under foreign domination seeks escape from the present in dreams of a vanished age, and finds consolation in visions of past greatness. That is a foolish and dangerous pastime in which many of us indulge. An equally questionable practice for us in India is to imagine that we are still spiritually great though we have come down in the world in other respects. Spiritual or any other greatness cannot be founded on lack of freedom and opportunity, or on starvation and misery. Many western writers have encouraged that notion that Indians are other-worldly. I suppose the poor and unfortunate in every country become to some extent other-worldly, unless they become revolutionaries, for this world is evidently not meant for them. So also subject peoples. As a man grows to maturity he is not entirely engrossed in, or satisfied with, the external objective world. He seeks also some inner meaning some psychological and physical satisfactions. So also with people and civilizations as they mature and grow adult. Every civilization and every people exhibit these parallel streams of an external life and an internal life. Where they meet or keep close to each other, there is an equilibrium and stability. When they diverge conflict arises and the crises that torture the mind and spirit.",
+  "directions": "",
+  "question_text": "According to the passage, the torture of the mind and spirit is caused",
+  "underline": "",
+  "options": [
+   {
+    "label": "a",
+    "text": "By the impact of foreign domination."
+   },
+   {
+    "label": "b",
+    "text": "By the desire to escape from foreign domination and find consolation in visions\nof past greatness."
+   },
+   {
+    "label": "c",
+    "text": "Due to lack of equilibrium between an external life and an internal life."
+   },
+   {
+    "label": "d",
+    "text": "Due to one’s inability to be either revolutionary or other-worldly."
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Mentioned in the last two lines of the passage.",
+  "source": "Arun Sharma VA-RC (McGraw Hill) — Latest Pattern Comprehension Passages",
+  "verified": true,
+  "removed": false
+ }
+]

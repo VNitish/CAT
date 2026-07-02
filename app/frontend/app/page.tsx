@@ -401,6 +401,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/rc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             RC Tests
           </button>
+          <button onClick={() => router.push('/asrc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Arun Sharma VARC
+          </button>
           <button onClick={() => router.push('/di')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             DI Mocks
           </button>
