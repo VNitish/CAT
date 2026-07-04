@@ -137,7 +137,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s2",
   "set_position": 2,
-  "context_passage": "![data set 2](/di/adv/20-s2.png)",
+  "context_passage": "![Table 1](/di/adv/20-s2.png)\n\n![Table 2](/di/adv/20-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "For how many days, is it possible to determine the exact number of apples plucked by Munu?",
   "options": [
@@ -179,7 +179,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s2",
   "set_position": 3,
-  "context_passage": "![data set 2](/di/adv/20-s2.png)",
+  "context_passage": "![Table 1](/di/adv/20-s2.png)\n\n![Table 2](/di/adv/20-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Disregarding table 2, how many of the following statements are definitely true? I. Number of apples plucked on day 2 is more than the number of apples plucked on day 5. II. Number of apples plucked on day 3 is more than the number of apples plucked on day 5. III. Sum of the apples plucked on day 1 and day 2 is less than the sum of the apples plucked on day 4 and day 5. IV. Sum of the apples plucked on day 2 and day 3 is less than the sum of the apples plucked on day 3 and day 4.",
   "options": [
@@ -221,7 +221,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s2",
   "set_position": 4,
-  "context_passage": "![data set 2](/di/adv/20-s2.png)",
+  "context_passage": "![Table 1](/di/adv/20-s2.png)\n\n![Table 2](/di/adv/20-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "In the above question, how many of the statements can be verified for being right or wrong (using table 1 only)?",
   "options": [
@@ -263,7 +263,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s2",
   "set_position": 5,
-  "context_passage": "![data set 2](/di/adv/20-s2.png)",
+  "context_passage": "![Table 1](/di/adv/20-s2.png)\n\n![Table 2](/di/adv/20-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Disregarding table 2; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. Total number of apples plucked from day 1 to day 10. II. Sum of the number of apples plucked on all the possible pairs of days. III. Difference in the number of apples plucked in between all the two consecutive days. IV. Sum of the number of apples plucked in all the four consecutive day periods.",
   "options": [
@@ -305,7 +305,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s2",
   "set_position": 6,
-  "context_passage": "![data set 2](/di/adv/20-s2.png)",
+  "context_passage": "![Table 1](/di/adv/20-s2.png)\n\n![Table 2](/di/adv/20-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Disregarding table 1; using how many of the following statements individually can we find the number of apples plucked each day by Munu? I. Total number of apples plucked from day 1 to day 10. II. Sum of the number of apples plucked on all the possible pairs of days. III. Difference in the number of apples plucked in between all the two consecutive days. IV. Sum of the number of apples plucked in all the four consecutive day periods.",
   "options": [
@@ -389,7 +389,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s3",
   "set_position": 2,
-  "context_passage": "![data set 3](/di/adv/20-s3.png)",
+  "context_passage": "A company 'Y' is engaged in the manufacturing and selling of instant breakfast food. It has a long standing in the consumer market and has captured a large share of the instant food market. As the company enjoys a long standing, and is quality oriented, it has over the years increased its overhead expenses substantially. However, as it has a large market share, it is surviving with good monetary results. The factory is situated in Jagroaonbad which is very far away from the main consumer market (which are the country's capital town and other bigger towns in the vicinity). This distance from the main consumer market has further attributed to an increased cost of the product, being marketed by company 'Y'.\n\nAnother company 'X' has come up a few years back, with its factory situated near Ambalpur, a few kilometers from the main capital town and other bigger towns in the area. The product being manufactured by this company is more or less the same in taste, flavour, etc. as that of company 'Y'. In view of its proximity with the consumer market, the transportation cost being incurred by company 'X' is comparatively less. Furthermore, being a new enterprise, it has controlled overhead expenses. With this advantage to its credit, it has priced its product a little less than that of company 'Y' and has slowly penetrated into the market share of company 'Y'.\n\nThe company 'Y' is now faced with the problem of competing with this new company 'X' without, of course, decreasing the quality of its product. Company 'Y' however, cannot reduce the price of its product as that will lower the image of the company in the market and it will also reduce its profits. In the present state the company cannot afford to do this.\n\nThe chief executive has decided to undertake a detailed market survey and study all types of instant breakfast foods being marketed in the country. By examining the competitor's products it was revealed that the product being marketed by company 'Y' was a quick consumption item of the highest quality, having a much longer shelf life as compared to other products available in the market. This product was packed in tin containers which after consumption of the contents became scrap without any resale value. The chief executive therefore decided upon a pre-project study to go in for some different type of packing. The study revealed that they can either go in for glass jars or flexi-packs, or both. As the product is of a high quality and has a longer shelf life, it can withstand climatic conditions in flexi-packs. This thereby drastically reduces the expenditure on packaging costs (in tin containers this is nearly 38 percent of the total cost of the product and by going in for flexi-packs, the same can be reduced to nearly 15 percent). The saving made in packaging costs can then be released to the consumers by way of reducing the price of the product. This reduction in price will not lower the image of the company as the price reduction will be given along with the background regarding the change in packaging.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "The selling price of the product manufactured by company ‘X’ was low because: I. of less transportation costs II. they had less overheads as compared to company ‘Y’ III. the quantity per unit was less than that of their competitors",
   "options": [
@@ -431,7 +431,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s3",
   "set_position": 3,
-  "context_passage": "![data set 3](/di/adv/20-s3.png)",
+  "context_passage": "A company 'Y' is engaged in the manufacturing and selling of instant breakfast food. It has a long standing in the consumer market and has captured a large share of the instant food market. As the company enjoys a long standing, and is quality oriented, it has over the years increased its overhead expenses substantially. However, as it has a large market share, it is surviving with good monetary results. The factory is situated in Jagroaonbad which is very far away from the main consumer market (which are the country's capital town and other bigger towns in the vicinity). This distance from the main consumer market has further attributed to an increased cost of the product, being marketed by company 'Y'.\n\nAnother company 'X' has come up a few years back, with its factory situated near Ambalpur, a few kilometers from the main capital town and other bigger towns in the area. The product being manufactured by this company is more or less the same in taste, flavour, etc. as that of company 'Y'. In view of its proximity with the consumer market, the transportation cost being incurred by company 'X' is comparatively less. Furthermore, being a new enterprise, it has controlled overhead expenses. With this advantage to its credit, it has priced its product a little less than that of company 'Y' and has slowly penetrated into the market share of company 'Y'.\n\nThe company 'Y' is now faced with the problem of competing with this new company 'X' without, of course, decreasing the quality of its product. Company 'Y' however, cannot reduce the price of its product as that will lower the image of the company in the market and it will also reduce its profits. In the present state the company cannot afford to do this.\n\nThe chief executive has decided to undertake a detailed market survey and study all types of instant breakfast foods being marketed in the country. By examining the competitor's products it was revealed that the product being marketed by company 'Y' was a quick consumption item of the highest quality, having a much longer shelf life as compared to other products available in the market. This product was packed in tin containers which after consumption of the contents became scrap without any resale value. The chief executive therefore decided upon a pre-project study to go in for some different type of packing. The study revealed that they can either go in for glass jars or flexi-packs, or both. As the product is of a high quality and has a longer shelf life, it can withstand climatic conditions in flexi-packs. This thereby drastically reduces the expenditure on packaging costs (in tin containers this is nearly 38 percent of the total cost of the product and by going in for flexi-packs, the same can be reduced to nearly 15 percent). The saving made in packaging costs can then be released to the consumers by way of reducing the price of the product. This reduction in price will not lower the image of the company as the price reduction will be given along with the background regarding the change in packaging.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Why did company ‘Y’ go for flexi-packs? I. to be in tune with marketing trends II. easy to handle on filling lines III. to save on packaging costs",
   "options": [
@@ -473,7 +473,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s3",
   "set_position": 4,
-  "context_passage": "![data set 3](/di/adv/20-s3.png)",
+  "context_passage": "A company 'Y' is engaged in the manufacturing and selling of instant breakfast food. It has a long standing in the consumer market and has captured a large share of the instant food market. As the company enjoys a long standing, and is quality oriented, it has over the years increased its overhead expenses substantially. However, as it has a large market share, it is surviving with good monetary results. The factory is situated in Jagroaonbad which is very far away from the main consumer market (which are the country's capital town and other bigger towns in the vicinity). This distance from the main consumer market has further attributed to an increased cost of the product, being marketed by company 'Y'.\n\nAnother company 'X' has come up a few years back, with its factory situated near Ambalpur, a few kilometers from the main capital town and other bigger towns in the area. The product being manufactured by this company is more or less the same in taste, flavour, etc. as that of company 'Y'. In view of its proximity with the consumer market, the transportation cost being incurred by company 'X' is comparatively less. Furthermore, being a new enterprise, it has controlled overhead expenses. With this advantage to its credit, it has priced its product a little less than that of company 'Y' and has slowly penetrated into the market share of company 'Y'.\n\nThe company 'Y' is now faced with the problem of competing with this new company 'X' without, of course, decreasing the quality of its product. Company 'Y' however, cannot reduce the price of its product as that will lower the image of the company in the market and it will also reduce its profits. In the present state the company cannot afford to do this.\n\nThe chief executive has decided to undertake a detailed market survey and study all types of instant breakfast foods being marketed in the country. By examining the competitor's products it was revealed that the product being marketed by company 'Y' was a quick consumption item of the highest quality, having a much longer shelf life as compared to other products available in the market. This product was packed in tin containers which after consumption of the contents became scrap without any resale value. The chief executive therefore decided upon a pre-project study to go in for some different type of packing. The study revealed that they can either go in for glass jars or flexi-packs, or both. As the product is of a high quality and has a longer shelf life, it can withstand climatic conditions in flexi-packs. This thereby drastically reduces the expenditure on packaging costs (in tin containers this is nearly 38 percent of the total cost of the product and by going in for flexi-packs, the same can be reduced to nearly 15 percent). The saving made in packaging costs can then be released to the consumers by way of reducing the price of the product. This reduction in price will not lower the image of the company as the price reduction will be given along with the background regarding the change in packaging.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Savings made in cost of packaging I. helped reduce cost of production II. helped reduce selling price III. allow more production",
   "options": [
@@ -515,7 +515,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s3",
   "set_position": 5,
-  "context_passage": "![data set 3](/di/adv/20-s3.png)",
+  "context_passage": "A company 'Y' is engaged in the manufacturing and selling of instant breakfast food. It has a long standing in the consumer market and has captured a large share of the instant food market. As the company enjoys a long standing, and is quality oriented, it has over the years increased its overhead expenses substantially. However, as it has a large market share, it is surviving with good monetary results. The factory is situated in Jagroaonbad which is very far away from the main consumer market (which are the country's capital town and other bigger towns in the vicinity). This distance from the main consumer market has further attributed to an increased cost of the product, being marketed by company 'Y'.\n\nAnother company 'X' has come up a few years back, with its factory situated near Ambalpur, a few kilometers from the main capital town and other bigger towns in the area. The product being manufactured by this company is more or less the same in taste, flavour, etc. as that of company 'Y'. In view of its proximity with the consumer market, the transportation cost being incurred by company 'X' is comparatively less. Furthermore, being a new enterprise, it has controlled overhead expenses. With this advantage to its credit, it has priced its product a little less than that of company 'Y' and has slowly penetrated into the market share of company 'Y'.\n\nThe company 'Y' is now faced with the problem of competing with this new company 'X' without, of course, decreasing the quality of its product. Company 'Y' however, cannot reduce the price of its product as that will lower the image of the company in the market and it will also reduce its profits. In the present state the company cannot afford to do this.\n\nThe chief executive has decided to undertake a detailed market survey and study all types of instant breakfast foods being marketed in the country. By examining the competitor's products it was revealed that the product being marketed by company 'Y' was a quick consumption item of the highest quality, having a much longer shelf life as compared to other products available in the market. This product was packed in tin containers which after consumption of the contents became scrap without any resale value. The chief executive therefore decided upon a pre-project study to go in for some different type of packing. The study revealed that they can either go in for glass jars or flexi-packs, or both. As the product is of a high quality and has a longer shelf life, it can withstand climatic conditions in flexi-packs. This thereby drastically reduces the expenditure on packaging costs (in tin containers this is nearly 38 percent of the total cost of the product and by going in for flexi-packs, the same can be reduced to nearly 15 percent). The saving made in packaging costs can then be released to the consumers by way of reducing the price of the product. This reduction in price will not lower the image of the company as the price reduction will be given along with the background regarding the change in packaging.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Why was company ‘Y’ selling the same type of product at a rate higher than that of company ‘X’? (I) Before company ‘X’ entered the market, company ‘Y’ enjoyed a monopoly in the market and took advantage of the same. (II) As company ‘Y’ had a long standing, its overheads were comparatively higher. (III) Their total cost of production was higher.",
   "options": [
@@ -557,7 +557,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s3",
   "set_position": 6,
-  "context_passage": "![data set 3](/di/adv/20-s3.png)",
+  "context_passage": "A company 'Y' is engaged in the manufacturing and selling of instant breakfast food. It has a long standing in the consumer market and has captured a large share of the instant food market. As the company enjoys a long standing, and is quality oriented, it has over the years increased its overhead expenses substantially. However, as it has a large market share, it is surviving with good monetary results. The factory is situated in Jagroaonbad which is very far away from the main consumer market (which are the country's capital town and other bigger towns in the vicinity). This distance from the main consumer market has further attributed to an increased cost of the product, being marketed by company 'Y'.\n\nAnother company 'X' has come up a few years back, with its factory situated near Ambalpur, a few kilometers from the main capital town and other bigger towns in the area. The product being manufactured by this company is more or less the same in taste, flavour, etc. as that of company 'Y'. In view of its proximity with the consumer market, the transportation cost being incurred by company 'X' is comparatively less. Furthermore, being a new enterprise, it has controlled overhead expenses. With this advantage to its credit, it has priced its product a little less than that of company 'Y' and has slowly penetrated into the market share of company 'Y'.\n\nThe company 'Y' is now faced with the problem of competing with this new company 'X' without, of course, decreasing the quality of its product. Company 'Y' however, cannot reduce the price of its product as that will lower the image of the company in the market and it will also reduce its profits. In the present state the company cannot afford to do this.\n\nThe chief executive has decided to undertake a detailed market survey and study all types of instant breakfast foods being marketed in the country. By examining the competitor's products it was revealed that the product being marketed by company 'Y' was a quick consumption item of the highest quality, having a much longer shelf life as compared to other products available in the market. This product was packed in tin containers which after consumption of the contents became scrap without any resale value. The chief executive therefore decided upon a pre-project study to go in for some different type of packing. The study revealed that they can either go in for glass jars or flexi-packs, or both. As the product is of a high quality and has a longer shelf life, it can withstand climatic conditions in flexi-packs. This thereby drastically reduces the expenditure on packaging costs (in tin containers this is nearly 38 percent of the total cost of the product and by going in for flexi-packs, the same can be reduced to nearly 15 percent). The saving made in packaging costs can then be released to the consumers by way of reducing the price of the product. This reduction in price will not lower the image of the company as the price reduction will be given along with the background regarding the change in packaging.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "The market survey conducted by company ‘Y’ revealed that their product was a quick consumption item of a higher quality with a longer shelf-life. What was the conclusion drawn from the survey? I. Being a quick consumption item, it can have a cheaper packaging, as the problem of aging will not be there. II. Longer shelf-life shows that the product has durability and therefore can stand for a longer period in the market without changes in the quality of the product. III. Their product enjoyed better reputation than that of company ‘X’.",
   "options": [
@@ -641,7 +641,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s4",
   "set_position": 2,
-  "context_passage": "![data set 4](/di/adv/20-s4.png)",
+  "context_passage": "The table below shows the total number of students who enrolled for five marketing courses over the last four years in a B-school. Answer the following questions based on the table.\n\n![data set 4](/di/adv/20-s4.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "It is mandated that those who enroll for IM should take SM or CB. Then, which of the statements is necessarily true?",
   "options": [
@@ -683,7 +683,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s4",
   "set_position": 3,
-  "context_passage": "![data set 4](/di/adv/20-s4.png)",
+  "context_passage": "The table below shows the total number of students who enrolled for five marketing courses over the last four years in a B-school. Answer the following questions based on the table.\n\n![data set 4](/di/adv/20-s4.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "If the rules of this school prescribe that a student should take 3 and not more than 3 marketing area courses to specialize in the marketing stream, which of the following statements cannot be true?",
   "options": [
@@ -767,7 +767,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s5",
   "set_position": 2,
-  "context_passage": "![data set 5](/di/adv/20-s5.png)",
+  "context_passage": "The following line charts show the currency ratio from 17th June to 24th June:\n\n![data set 5](/di/adv/20-s5.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "If the Dollar/Yen ratio follows the same trend from 24th to 27th as from 21st to 24th, then what will be the value of \\$ 50 on 27th June?",
   "options": [
@@ -809,7 +809,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s5",
   "set_position": 3,
-  "context_passage": "![data set 5](/di/adv/20-s5.png)",
+  "context_passage": "The following line charts show the currency ratio from 17th June to 24th June:\n\n![data set 5](/di/adv/20-s5.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "A jacket costs \\$ 400. Mohan has ₹18,200, £ 225 and ¥ 35000 with him. If he can use only one currency to buy the jacket, he would be able to buy the jacket on 20th June using:",
   "options": [
@@ -851,7 +851,7 @@
   "subtopic": "",
   "set_id": "adv-t20-s5",
   "set_position": 4,
-  "context_passage": "![data set 5](/di/adv/20-s5.png)",
+  "context_passage": "The following line charts show the currency ratio from 17th June to 24th June:\n\n![data set 5](/di/adv/20-s5.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "On 15th June the Dollar/Rupee ratio was 46.5. On that day ₹5000 would fetch_________ Pounds.",
   "options": [

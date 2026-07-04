@@ -53,7 +53,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s1",
   "set_position": 2,
-  "context_passage": "![data set 1](/di/mod/16-s1.png)",
+  "context_passage": "Following table gives some incomplete information on the marks obtained by four persons — Amit, Binit, Charu and Dilip — in four different subjects.\n\n![data set 1](/di/mod/16-s1.png)\n\nAdditional Information:\n(i) Amit's average marks was 72.5, in all the four subjects.\n(ii) The average marks in Physics for all four persons was 67.5.\n(iii) Binit's average marks for all four subjects was 1.5 times Charu's marks in physics.\n(iv) Binit and Dilip scored the same marks in English. The average English marks were the same as the average Physics marks.\n(v) The total marks in Chemistry was 10 less than the total marks in physics for all four persons.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "The average marks for all four persons (for all the four subjects) is (approx.)",
   "options": [
@@ -95,7 +95,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s1",
   "set_position": 3,
-  "context_passage": "![data set 1](/di/mod/16-s1.png)",
+  "context_passage": "Following table gives some incomplete information on the marks obtained by four persons — Amit, Binit, Charu and Dilip — in four different subjects.\n\n![data set 1](/di/mod/16-s1.png)\n\nAdditional Information:\n(i) Amit's average marks was 72.5, in all the four subjects.\n(ii) The average marks in Physics for all four persons was 67.5.\n(iii) Binit's average marks for all four subjects was 1.5 times Charu's marks in physics.\n(iv) Binit and Dilip scored the same marks in English. The average English marks were the same as the average Physics marks.\n(v) The total marks in Chemistry was 10 less than the total marks in physics for all four persons.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Who is the highest scorer in chemistry?",
   "options": [
@@ -137,7 +137,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s1",
   "set_position": 4,
-  "context_passage": "![data set 1](/di/mod/16-s1.png)",
+  "context_passage": "Following table gives some incomplete information on the marks obtained by four persons — Amit, Binit, Charu and Dilip — in four different subjects.\n\n![data set 1](/di/mod/16-s1.png)\n\nAdditional Information:\n(i) Amit's average marks was 72.5, in all the four subjects.\n(ii) The average marks in Physics for all four persons was 67.5.\n(iii) Binit's average marks for all four subjects was 1.5 times Charu's marks in physics.\n(iv) Binit and Dilip scored the same marks in English. The average English marks were the same as the average Physics marks.\n(v) The total marks in Chemistry was 10 less than the total marks in physics for all four persons.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Who is the lowest scorer in physics?",
   "options": [
@@ -221,7 +221,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s2",
   "set_position": 2,
-  "context_passage": "![data set 2](/di/mod/16-s2.png)",
+  "context_passage": "In the game of cricket, there are 11 batsmen who bat during the match of 50 overs. Two batsmen come to bat first and when any one of the two gets out, the next batsman comes to bat along with the one of the two batsmen left out, and so on — the next batsman comes to bat in a fixed sequence for all the three matches. Only one batsman can get out for one ball. One over comprises 6 balls, to be thrown one by one. If all the batsmen get out before the scheduled 50 overs, the match ends at that point (known as Overs Actually Played). The bar chart below shows total scheduled overs and overs actually played for the first match (denoted by 1), second match (denoted by 2) and third match (denoted by 3).\n\n![overs chart](/di/mod/16-s2.png)\n\nThe table below shows the runs scored in the three-match series. Total runs scored = Runs scored by first five players + Runs scored by remaining last six players + Extra runs.\n\n![runs table](/di/mod/16-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "What would have the total runs scored in the third match if Indian team would have played 50 overs with the same average which it maintained till the overs actually played?",
   "options": [
@@ -263,7 +263,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s2",
   "set_position": 3,
-  "context_passage": "![data set 2](/di/mod/16-s2.png)",
+  "context_passage": "In the game of cricket, there are 11 batsmen who bat during the match of 50 overs. Two batsmen come to bat first and when any one of the two gets out, the next batsman comes to bat along with the one of the two batsmen left out, and so on — the next batsman comes to bat in a fixed sequence for all the three matches. Only one batsman can get out for one ball. One over comprises 6 balls, to be thrown one by one. If all the batsmen get out before the scheduled 50 overs, the match ends at that point (known as Overs Actually Played). The bar chart below shows total scheduled overs and overs actually played for the first match (denoted by 1), second match (denoted by 2) and third match (denoted by 3).\n\n![overs chart](/di/mod/16-s2.png)\n\nThe table below shows the runs scored in the three-match series. Total runs scored = Runs scored by first five players + Runs scored by remaining last six players + Extra runs.\n\n![runs table](/di/mod/16-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Mr Phani Ram, the team selector, has made following observations to improve the performance of the team: (i) Performance of first five players has improved, whereas performance of last six players has gone down. (ii) Had there been no extra runs, runs in second match would have decreased by maximum percentage. (iii) If team would have played for full 50 overs, it would have scored maximum in first match. How many of these observations are true?",
   "options": [
@@ -305,7 +305,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s2",
   "set_position": 4,
-  "context_passage": "![data set 2](/di/mod/16-s2.png)",
+  "context_passage": "In the game of cricket, there are 11 batsmen who bat during the match of 50 overs. Two batsmen come to bat first and when any one of the two gets out, the next batsman comes to bat along with the one of the two batsmen left out, and so on — the next batsman comes to bat in a fixed sequence for all the three matches. Only one batsman can get out for one ball. One over comprises 6 balls, to be thrown one by one. If all the batsmen get out before the scheduled 50 overs, the match ends at that point (known as Overs Actually Played). The bar chart below shows total scheduled overs and overs actually played for the first match (denoted by 1), second match (denoted by 2) and third match (denoted by 3).\n\n![overs chart](/di/mod/16-s2.png)\n\nThe table below shows the runs scored in the three-match series. Total runs scored = Runs scored by first five players + Runs scored by remaining last six players + Extra runs.\n\n![runs table](/di/mod/16-s2b.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "If extra runs are not considered, which match has the lowest average runs per over?",
   "options": [
@@ -389,7 +389,7 @@
   "subtopic": "",
   "set_id": "mod-t16-s3",
   "set_position": 2,
-  "context_passage": "![data set 3](/di/mod/16-s3.png)",
+  "context_passage": "The following bar chart represents the detail regarding the number of persons who attended the James Bond film festival named \"Name is Bond\", where four movies — The Man with the Golden Gun, Casino Royale, Goldfinger and Tomorrow Never Dies — were screened. Each person who attended the festival watched at least one of the four movies. Besides, there are four types of persons (of which the first three are characterized by age):\nType 1 — Age > 60 years, who watched the movie.\nType 2 — Age > 30 years but not more than 60 years, who watched the movie.\nType 3 — Age not more than 30 years, who watched the movie.\nType 4 — Persons who watched only that movie.\n\n![film festival chart](/di/mod/16-s3.png)\n\nAll the data points are multiples of 10.",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "What could be the maximum number of persons of age more than 60 years, who attended the festival?",
   "options": [

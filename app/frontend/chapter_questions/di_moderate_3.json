@@ -221,7 +221,7 @@
   "subtopic": "",
   "set_id": "mod-t11-s2",
   "set_position": 2,
-  "context_passage": "![data set 2](/di/mod/11-s2.png)",
+  "context_passage": "The table below provides certain demographic details of 30 respondents who were part of a survey investigating the irregularities in NREGS. The demographic characteristics are: gender, number of children, and age of respondents. The first number in each cell is the number of respondents in that group. The minimum and maximum age of respondents in each group is given in brackets. For example, there are five female respondents with no children and among these five, the youngest is 34 years old, while the oldest is 49.\n\n![data set 2](/di/mod/11-s2.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Given the information above, the percentage of respondents older than 35 can be at most",
   "options": [
@@ -263,7 +263,7 @@
   "subtopic": "",
   "set_id": "mod-t11-s2",
   "set_position": 3,
-  "context_passage": "![data set 2](/di/mod/11-s2.png)",
+  "context_passage": "The table below provides certain demographic details of 30 respondents who were part of a survey investigating the irregularities in NREGS. The demographic characteristics are: gender, number of children, and age of respondents. The first number in each cell is the number of respondents in that group. The minimum and maximum age of respondents in each group is given in brackets. For example, there are five female respondents with no children and among these five, the youngest is 34 years old, while the oldest is 49.\n\n![data set 2](/di/mod/11-s2.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "The percentage of respondents that fall into the 35 to 40 years age group (both inclusive) is at least",
   "options": [

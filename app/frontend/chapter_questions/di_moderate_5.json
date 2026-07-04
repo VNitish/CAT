@@ -221,7 +221,7 @@
   "subtopic": "",
   "set_id": "mod-t13-s2",
   "set_position": 2,
-  "context_passage": "![data set 2](/di/mod/13-s2.png)",
+  "context_passage": "The following charts present statistics related to the Indian watch industry for five companies (Titan, Timex, Citizen, Rolex, HMT). Chart 1 gives each company's market share in 2010; Chart 2 gives Titan's sales volume (in million units) for 2008–2012 (all values are even numbers); Chart 3 gives the average selling price per watch (in ₹) in 2010. Assume there is no export or import.\n\n![data set 2](/di/mod/13-s2.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Which company has the second lowest sales (in ₹terms) in the year 2010?",
   "options": [
@@ -263,7 +263,7 @@
   "subtopic": "",
   "set_id": "mod-t13-s2",
   "set_position": 3,
-  "context_passage": "![data set 2](/di/mod/13-s2.png)",
+  "context_passage": "The following charts present statistics related to the Indian watch industry for five companies (Titan, Timex, Citizen, Rolex, HMT). Chart 1 gives each company's market share in 2010; Chart 2 gives Titan's sales volume (in million units) for 2008–2012 (all values are even numbers); Chart 3 gives the average selling price per watch (in ₹) in 2010. Assume there is no export or import.\n\n![data set 2](/di/mod/13-s2.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "Which year saw the lowest growth rate in number of unit sold over the previous year for Titan?",
   "options": [
@@ -305,7 +305,7 @@
   "subtopic": "",
   "set_id": "mod-t13-s2",
   "set_position": 4,
-  "context_passage": "![data set 2](/di/mod/13-s2.png)",
+  "context_passage": "The following charts present statistics related to the Indian watch industry for five companies (Titan, Timex, Citizen, Rolex, HMT). Chart 1 gives each company's market share in 2010; Chart 2 gives Titan's sales volume (in million units) for 2008–2012 (all values are even numbers); Chart 3 gives the average selling price per watch (in ₹) in 2010. Assume there is no export or import.\n\n![data set 2](/di/mod/13-s2.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "What is the size of the domestic market in the year 2010 (in ₹)?",
   "options": [
@@ -389,7 +389,7 @@
   "subtopic": "",
   "set_id": "mod-t13-s3",
   "set_position": 2,
-  "context_passage": "![data set 3](/di/mod/13-s3.png)",
+  "context_passage": "The figure below shows an oil pipeline network among 5 cities. Each pipeline has a load-carrying capacity of 1000, and each destination has a specific requirement that must be met. The cities of Vaishali and Jyotishmati have a requirement of 400 each. The requirement at Panchal is 700, whereas that at Vidisha is 200. The load can be carried in the indicated directions only. It is further given that the load carried from Vaishali to Jyotishmati is 300.\n\n![data set 3](/di/mod/13-s3.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "What is the free capacity in the Avanti – Vaishali pipeline?",
   "options": [
@@ -431,7 +431,7 @@
   "subtopic": "",
   "set_id": "mod-t13-s3",
   "set_position": 3,
-  "context_passage": "![data set 3](/di/mod/13-s3.png)",
+  "context_passage": "The figure below shows an oil pipeline network among 5 cities. Each pipeline has a load-carrying capacity of 1000, and each destination has a specific requirement that must be met. The cities of Vaishali and Jyotishmati have a requirement of 400 each. The requirement at Panchal is 700, whereas that at Vidisha is 200. The load can be carried in the indicated directions only. It is further given that the load carried from Vaishali to Jyotishmati is 300.\n\n![data set 3](/di/mod/13-s3.png)",
   "directions": "Go through the data set given below and solve the questions based on it.",
   "question_text": "What is the quantity moved from Avanti to Vidisha?",
   "options": [
