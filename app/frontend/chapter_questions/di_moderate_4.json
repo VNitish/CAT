@@ -1,380 +1,422 @@
 [
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 1,
-    "question_code": "MOD-T12-Q01",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s1",
-    "set_position": 1,
-    "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "What is the difference between the speeds of faster and slower bus (including stoppages)?",
-    "options": [
-      {
-        "label": "a",
-        "text": "3.33 km/h"
-      },
-      {
-        "label": "b",
-        "text": "5.55 km/h"
-      },
-      {
-        "label": "c",
-        "text": "6.66 km/h"
-      },
-      {
-        "label": "d",
-        "text": "7.77 km/h"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Based upon the concepts of Time Speed and Distance (TSD), this set requires you to use the fundamentals and basic formula Distance = Time × Speed. There are five stretches of the whole journey from Chandigarh to Delhi – Chandigarh to Ambala, Ambala to Kurukshetra, Kurukshetra to Saharanpur, Saharanpur to Panipat and Panipat to Delhi. Data to calculate the time taken in any stretch is given for two bus services – Patel Roadways and Rajan Roadways. Since total distance is given (=250 km), speed of the bus services for the whole journey can be calculated. Though you should keep in your mind that",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 2,
-    "question_code": "MOD-T12-Q02",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s1",
-    "set_position": 2,
-    "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Between which stretches is the ratio of the speeds of the two bus services 1:1?",
-    "options": [
-      {
-        "label": "a",
-        "text": "AB to KU"
-      },
-      {
-        "label": "b",
-        "text": "CHD to AB"
-      },
-      {
-        "label": "c",
-        "text": "SH to PAN"
-      },
-      {
-        "label": "d",
-        "text": "cannot be determined"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Based upon the concepts of Time Speed and Distance (TSD), this set requires you to use the fundamentals and basic formula Distance = Time × Speed. There are five stretches of the whole journey from Chandigarh to Delhi – Chandigarh to Ambala, Ambala to Kurukshetra, Kurukshetra to Saharanpur, Saharanpur to Panipat and Panipat to Delhi. Data to calculate the time taken in any stretch is given for two bus services – Patel Roadways and Rajan Roadways. Since total distance is given (=250 km), speed of the bus services for the whole journey can be calculated. Though you should keep in your mind that",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 3,
-    "question_code": "MOD-T12-Q03",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s1",
-    "set_position": 3,
-    "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "What is the percentage difference between the maximum speed of Rajan roadways bus and the minimum speed of Patel roadways bus?",
-    "options": [
-      {
-        "label": "a",
-        "text": "12%"
-      },
-      {
-        "label": "b",
-        "text": "19%"
-      },
-      {
-        "label": "c",
-        "text": "26%"
-      },
-      {
-        "label": "d",
-        "text": "Cannot be determined"
-      }
-    ],
-    "correct_answer": "d",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Based upon the concepts of Time Speed and Distance (TSD), this set requires you to use the fundamentals and basic formula Distance = Time × Speed. There are five stretches of the whole journey from Chandigarh to Delhi – Chandigarh to Ambala, Ambala to Kurukshetra, Kurukshetra to Saharanpur, Saharanpur to Panipat and Panipat to Delhi. Data to calculate the time taken in any stretch is given for two bus services – Patel Roadways and Rajan Roadways. Since total distance is given (=250 km), speed of the bus services for the whole journey can be calculated. Though you should keep in your mind that",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 4,
-    "question_code": "MOD-T12-Q04",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s1",
-    "set_position": 4,
-    "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "In which stretches of the journey is the speed of Patel roadways bus minimum (Assume distance between the stops to be equal)?",
-    "options": [
-      {
-        "label": "a",
-        "text": "CHD to AB"
-      },
-      {
-        "label": "b",
-        "text": "AB to KU"
-      },
-      {
-        "label": "c",
-        "text": "KU to SH"
-      },
-      {
-        "label": "d",
-        "text": "SH to PAN"
-      }
-    ],
-    "correct_answer": "d",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Based upon the concepts of Time Speed and Distance (TSD), this set requires you to use the fundamentals and basic formula Distance = Time × Speed. There are five stretches of the whole journey from Chandigarh to Delhi – Chandigarh to Ambala, Ambala to Kurukshetra, Kurukshetra to Saharanpur, Saharanpur to Panipat and Panipat to Delhi. Data to calculate the time taken in any stretch is given for two bus services – Patel Roadways and Rajan Roadways. Since total distance is given (=250 km), speed of the bus services for the whole journey can be calculated. Though you should keep in your mind that",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 5,
-    "question_code": "MOD-T12-Q05",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s1",
-    "set_position": 5,
-    "context_passage": "![data set 1](/di/mod/12-s1.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "If the average speed is calculated keeping in mind only the running time of the bus, what would be the percentage difference in time taken by the Patel Roadways bus, if its speed is decreased by 20%?",
-    "options": [
-      {
-        "label": "a",
-        "text": "20%"
-      },
-      {
-        "label": "b",
-        "text": "25%"
-      },
-      {
-        "label": "c",
-        "text": "33.33%"
-      },
-      {
-        "label": "d",
-        "text": "42.5%"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Based upon the concepts of Time Speed and Distance (TSD), this set requires you to use the fundamentals and basic formula Distance = Time × Speed. There are five stretches of the whole journey from Chandigarh to Delhi – Chandigarh to Ambala, Ambala to Kurukshetra, Kurukshetra to Saharanpur, Saharanpur to Panipat and Panipat to Delhi. Data to calculate the time taken in any stretch is given for two bus services – Patel Roadways and Rajan Roadways. Since total distance is given (=250 km), speed of the bus services for the whole journey can be calculated. Though you should keep in your mind that",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 6,
-    "question_code": "MOD-T12-Q06",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s2",
-    "set_position": 1,
-    "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Find the approximate average price of fruits with Chunmun.",
-    "options": [
-      {
-        "label": "a",
-        "text": "₹18"
-      },
-      {
-        "label": "b",
-        "text": "₹20"
-      },
-      {
-        "label": "c",
-        "text": "₹23"
-      },
-      {
-        "label": "d",
-        "text": "₹15"
-      }
-    ],
-    "correct_answer": "a",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "Total price of fruits with Chunmun is 23 × 16 + 46 × 24 + 7 × 40 + 20 × 34 + 5 × 28 + 16 × 30 = ₹368 + ₹1104 + ₹280 + ₹680 + ₹140 + ₹480 = ₹3052. Total number of fruits with Chunmun is 16 + 24 + 40 + 34 + 28 + 30 = 172. 3052 Average price of fruits with Chunmun = = 172 ₹17.74 Closest value given in the options is ₹18. Hence option (a) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 7,
-    "question_code": "MOD-T12-Q07",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s2",
-    "set_position": 2,
-    "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "The number of mangoes whose price is more than ₹21 is at least",
-    "options": [
-      {
-        "label": "a",
-        "text": "3"
-      },
-      {
-        "label": "b",
-        "text": "4"
-      },
-      {
-        "label": "c",
-        "text": "5"
-      },
-      {
-        "label": "d",
-        "text": "6"
-      }
-    ],
-    "correct_answer": "d",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "The total price of mangoes with Chunmun is 16 × 23 = ₹368. Total price of 14 mangoes = 368 – (20 + 28) = ₹320 Out of the given 14 mangoes assume that maximum number of mangoes have price equal to ₹21. The maximum price of any mango out of these 14 mangoes is ₹27 So, 9 × 21 + 1 × 23 + 4 × 27 = ₹320 Therefore, the number of mangoes whose price is more than ₹21 is 1 + 4 + 1 = 6. Hence option (d) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 8,
-    "question_code": "MOD-T12-Q08",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s2",
-    "set_position": 3,
-    "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Given that the price of four peaches with Chunmun is ₹22 each and there are exactly 10 peaches whose price is ₹18. The number of peaches with Chunmun whose price is at least ₹25 is at most",
-    "options": [
-      {
-        "label": "a",
-        "text": "13"
-      },
-      {
-        "label": "b",
-        "text": "12"
-      },
-      {
-        "label": "c",
-        "text": "11"
-      },
-      {
-        "label": "d",
-        "text": "9"
-      }
-    ],
-    "correct_answer": "d",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "The price of the 18 peaches with Chunmun whose price is not known to us = X X = 20 × 34 – (16 + 26 + 4 × 22 + 10 × 18) = ₹370 Assume that maximum number of peaches have price equal to ₹17 370 = 25 × 8 + 17 × 10. Number of peaches with Chunmun whose price is at least ₹25 is at most 8 + 1 = 9. Hence option (d) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  },
-  {
-    "tier": "Moderate",
-    "test": 12,
-    "question_number": 9,
-    "question_code": "MOD-T12-Q09",
-    "section": "DILR",
-    "question_type": "MCQ",
-    "answer_format": "option",
-    "topic": "Data Interpretation",
-    "subtopic": "",
-    "set_id": "mod-t12-s2",
-    "set_position": 4,
-    "context_passage": "![data set 2](/di/mod/12-s2.png)",
-    "directions": "Go through the data set given below and solve the questions based on it.",
-    "question_text": "Total number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least",
-    "options": [
-      {
-        "label": "a",
-        "text": "17"
-      },
-      {
-        "label": "b",
-        "text": "18"
-      },
-      {
-        "label": "c",
-        "text": "19"
-      },
-      {
-        "label": "d",
-        "text": "20"
-      }
-    ],
-    "correct_answer": "b",
-    "marks_correct": 3,
-    "marks_incorrect": -1,
-    "explanation": "The total price of the guavas with Chunmun is 5 × 28 = 140 The total price of the 26 guavas whose price is not known is 140 – (3 + 8) = ₹129. Assume maximum number of guavas have price equal to ₹7 129 = 8 × 7 + 1 × 5 + 17 × 4. Therefore, the number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least 17 + 1 = 18. Hence option (b) is the answer.",
-    "difficulty": "Moderate",
-    "source": "Nishit Sinha LRDI (Pearson, 6e)",
-    "verified": false,
-    "removed": false
-  }
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 1,
+  "question_code": "MOD-T12-Q01",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s1",
+  "set_position": 1,
+  "context_passage": "![data set 1](/di/mod/12-s1.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "What is the difference between the speeds of faster and slower bus (including stoppages)?",
+  "options": [
+   {
+    "label": "a",
+    "text": "3.33 km/h"
+   },
+   {
+    "label": "b",
+    "text": "5.55 km/h"
+   },
+   {
+    "label": "c",
+    "text": "6.66 km/h"
+   },
+   {
+    "label": "d",
+    "text": "7.77 km/h"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Patel takes 5 h (09:30→14:30): avg speed = 250/5 = 50 km/h. Rajan takes 4.5 h (14:30→19:00): avg = 250/4.5 = 55.55 km/h. The slower (Patel) is 5.55 km/h slower. Option (b).",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 2,
+  "question_code": "MOD-T12-Q02",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s1",
+  "set_position": 2,
+  "context_passage": "![data set 1](/di/mod/12-s1.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "Between which stretches is the ratio of the speeds of the two bus services 1:1?",
+  "options": [
+   {
+    "label": "a",
+    "text": "AB to KU"
+   },
+   {
+    "label": "b",
+    "text": "CHD to AB"
+   },
+   {
+    "label": "c",
+    "text": "SH to PAN"
+   },
+   {
+    "label": "d",
+    "text": "cannot be determined"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Individual speeds can't be found, but equal time over a stretch means a 1:1 speed ratio. Both buses take 70 minutes on CHD→AB (Patel 09:30→10:40; Rajan 14:30→15:40), so the ratio is 1:1 there. Option (b).",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 3,
+  "question_code": "MOD-T12-Q03",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s1",
+  "set_position": 3,
+  "context_passage": "![data set 1](/di/mod/12-s1.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "What is the percentage difference between the maximum speed of Rajan roadways bus and the minimum speed of Patel roadways bus?",
+  "options": [
+   {
+    "label": "a",
+    "text": "12%"
+   },
+   {
+    "label": "b",
+    "text": "19%"
+   },
+   {
+    "label": "c",
+    "text": "26%"
+   },
+   {
+    "label": "d",
+    "text": "Cannot be determined"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The distances of individual stretches aren't given, so although each stretch's time can be computed, the stretch speeds cannot. Cannot be determined — option (d).",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 4,
+  "question_code": "MOD-T12-Q04",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s1",
+  "set_position": 4,
+  "context_passage": "![data set 1](/di/mod/12-s1.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "In which stretches of the journey is the speed of Patel roadways bus minimum (Assume distance between the stops to be equal)?",
+  "options": [
+   {
+    "label": "a",
+    "text": "CHD to AB"
+   },
+   {
+    "label": "b",
+    "text": "AB to KU"
+   },
+   {
+    "label": "c",
+    "text": "KU to SH"
+   },
+   {
+    "label": "d",
+    "text": "SH to PAN"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Assuming equal stretch lengths, minimum speed occurs on the stretch with maximum time. Patel's SH→PAN takes 1 h 28 min (12:12→13:40), the longest, so its speed is minimum there. Option (d).",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 5,
+  "question_code": "MOD-T12-Q05",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s1",
+  "set_position": 5,
+  "context_passage": "![data set 1](/di/mod/12-s1.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "If the average speed is calculated keeping in mind only the running time of the bus, what would be the percentage difference in time taken by the Patel Roadways bus, if its speed is decreased by 20%?",
+  "options": [
+   {
+    "label": "a",
+    "text": "20%"
+   },
+   {
+    "label": "b",
+    "text": "25%"
+   },
+   {
+    "label": "c",
+    "text": "33.33%"
+   },
+   {
+    "label": "d",
+    "text": "42.5%"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Pure TSD ratio, table not needed: if speed decreases by 20% (×0.8), time increases by 1/0.8 = 1.25, i.e. +25%. Option (b).",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 6,
+  "question_code": "MOD-T12-Q06",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s2",
+  "set_position": 1,
+  "context_passage": "![data set 2](/di/mod/12-s2.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "Find the approximate average price of fruits with Chunmun.",
+  "options": [
+   {
+    "label": "a",
+    "text": "₹18"
+   },
+   {
+    "label": "b",
+    "text": "₹20"
+   },
+   {
+    "label": "c",
+    "text": "₹23"
+   },
+   {
+    "label": "d",
+    "text": "₹15"
+   }
+  ],
+  "correct_answer": "a",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "Total price of fruits with Chunmun is 23 × 16 + 46 × 24 + 7 × 40 + 20 × 34 + 5 × 28 + 16 × 30 = ₹368 + ₹1104 + ₹280 + ₹680 + ₹140 + ₹480 = ₹3052. Total number of fruits with Chunmun is 16 + 24 + 40 + 34 + 28 + 30 = 172. 3052 Average price of fruits with Chunmun = = 172 ₹17.74 Closest value given in the options is ₹18. Hence option (a) is the answer.",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 7,
+  "question_code": "MOD-T12-Q07",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s2",
+  "set_position": 2,
+  "context_passage": "![data set 2](/di/mod/12-s2.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "The number of mangoes whose price is more than ₹21 is at least",
+  "options": [
+   {
+    "label": "a",
+    "text": "3"
+   },
+   {
+    "label": "b",
+    "text": "4"
+   },
+   {
+    "label": "c",
+    "text": "5"
+   },
+   {
+    "label": "d",
+    "text": "6"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The total price of mangoes with Chunmun is 16 × 23 = ₹368. Total price of 14 mangoes = 368 – (20 + 28) = ₹320 Out of the given 14 mangoes assume that maximum number of mangoes have price equal to ₹21. The maximum price of any mango out of these 14 mangoes is ₹27 So, 9 × 21 + 1 × 23 + 4 × 27 = ₹320 Therefore, the number of mangoes whose price is more than ₹21 is 1 + 4 + 1 = 6. Hence option (d) is the answer.",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 8,
+  "question_code": "MOD-T12-Q08",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s2",
+  "set_position": 3,
+  "context_passage": "![data set 2](/di/mod/12-s2.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "Given that the price of four peaches with Chunmun is ₹22 each and there are exactly 10 peaches whose price is ₹18. The number of peaches with Chunmun whose price is at least ₹25 is at most",
+  "options": [
+   {
+    "label": "a",
+    "text": "13"
+   },
+   {
+    "label": "b",
+    "text": "12"
+   },
+   {
+    "label": "c",
+    "text": "11"
+   },
+   {
+    "label": "d",
+    "text": "9"
+   }
+  ],
+  "correct_answer": "d",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The price of the 18 peaches with Chunmun whose price is not known to us = X X = 20 × 34 – (16 + 26 + 4 × 22 + 10 × 18) = ₹370 Assume that maximum number of peaches have price equal to ₹17 370 = 25 × 8 + 17 × 10. Number of peaches with Chunmun whose price is at least ₹25 is at most 8 + 1 = 9. Hence option (d) is the answer.",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "tier": "Moderate",
+  "test": 12,
+  "question_number": 9,
+  "question_code": "MOD-T12-Q09",
+  "section": "DILR",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "set_id": "mod-t12-s2",
+  "set_position": 4,
+  "context_passage": "![data set 2](/di/mod/12-s2.png)",
+  "directions": "Go through the data set given below and solve the questions based on it.",
+  "question_text": "Total number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least",
+  "options": [
+   {
+    "label": "a",
+    "text": "17"
+   },
+   {
+    "label": "b",
+    "text": "18"
+   },
+   {
+    "label": "c",
+    "text": "19"
+   },
+   {
+    "label": "d",
+    "text": "20"
+   }
+  ],
+  "correct_answer": "b",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "The total price of the guavas with Chunmun is 5 × 28 = 140 The total price of the 26 guavas whose price is not known is 140 – (3 + 8) = ₹129. Assume maximum number of guavas have price equal to ₹7 129 = 8 × 7 + 1 × 5 + 17 × 4. Therefore, the number of guavas with Chunmun whose price is less than the average price of the guavas with Chunmun is at least 17 + 1 = 18. Hence option (b) is the answer.",
+  "difficulty": "Moderate",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ },
+ {
+  "question_code": "MOD-T12-Q10",
+  "test": 12,
+  "tier": "Moderate",
+  "section": "DILR",
+  "topic": "Data Interpretation",
+  "subtopic": "",
+  "difficulty": "Moderate",
+  "question_type": "MCQ",
+  "answer_format": "option",
+  "set_id": "mod-t12-s3",
+  "set_position": 1,
+  "directions": "Solve the question given below.",
+  "context_passage": "",
+  "question_number": 10,
+  "question_text": "A train leaves New Delhi for Mumbai. Five minutes later another train leaves Mumbai for New Delhi, with a speed double that of the train that left New Delhi for Mumbai. Which train will be closer to New Delhi when they meet?",
+  "options": [
+   {
+    "label": "a",
+    "text": "Faster one"
+   },
+   {
+    "label": "b",
+    "text": "Slower one"
+   },
+   {
+    "label": "c",
+    "text": "Both will be at the same distance"
+   },
+   {
+    "label": "d",
+    "text": "Depends upon the speed of trains and total distance between New Delhi and Mumbai"
+   }
+  ],
+  "correct_answer": "c",
+  "marks_correct": 3,
+  "marks_incorrect": -1,
+  "explanation": "When the two trains meet they are at the same point on the track, so at that instant both are exactly the same distance from New Delhi — regardless of their speeds. Option (c).",
+  "source": "Nishit Sinha LRDI (Pearson, 6e)",
+  "verified": true,
+  "removed": false
+ }
 ]
