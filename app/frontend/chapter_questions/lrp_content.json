@@ -24,6 +24,18 @@
         "Compatibility — who can pair with whom",
         "Conditional selection (forbidden pairs)"
       ]
+    },
+    {
+      "slug": "blood-relations",
+      "name": "Blood Relations",
+      "order": 3,
+      "accent": "#D6336C",
+      "tagline": "Untangle who is whose what: climb generations, build the family tree, and let gender and marriage rules pin down each role.",
+      "pattern_types": [
+        "Relation through generations",
+        "Family tree with attributes",
+        "Roles fixed by gender rules"
+      ]
     }
   ],
   "sets": [
@@ -795,6 +807,292 @@
             "With C left out, the two MBA seats must go to A and B — so B is definitely on the committee.",
             "Rule (i) says B and H cannot both serve, so H is ruled out.",
             "D, E and G each remain possible, so the one that cannot be included is H."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "blood-relations",
+      "set_slug": "br-seema",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Relation through generations",
+      "title": "Seema's family",
+      "setup": "(i) Seema is Raju's grandmother.\n\n(ii) Ganesh is Raju's father.\n\n(iii) Arun is Seema's sister.\n\n(iv) Pratibha is Ganesh's wife.\n\n(v) Arun is **not** Ganesh's aunt.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE2 Q1-2",
+      "questions": [
+        {
+          "q_slug": "br-seema-q1",
+          "order": 1,
+          "question_text": "What is Seema's daughter Devaki to Raju?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "mother"
+            },
+            {
+              "label": "b",
+              "text": "paternal aunt"
+            },
+            {
+              "label": "c",
+              "text": "maternal aunt"
+            },
+            {
+              "label": "d",
+              "text": "father's aunt"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Arun is Seema's sister, so Arun would be the aunt of whichever parent Seema is mother to. Since Arun is NOT Ganesh's aunt, Seema is not Ganesh's mother.",
+            "So Seema is Pratibha's mother — Raju's maternal grandmother.",
+            "Devaki, Seema's other daughter, is therefore Pratibha's sister — i.e. Raju's maternal aunt."
+          ]
+        },
+        {
+          "q_slug": "br-seema-q2",
+          "order": 2,
+          "question_text": "Pratibha is Arun's:",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "sister"
+            },
+            {
+              "label": "b",
+              "text": "sister-in-law"
+            },
+            {
+              "label": "c",
+              "text": "maternal uncle"
+            },
+            {
+              "label": "d",
+              "text": "niece"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Seema is Pratibha's mother and Arun is Seema's sister, so Arun is Pratibha's aunt.",
+            "Therefore Pratibha is Arun's niece."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "blood-relations",
+      "set_slug": "br-newspapers",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Family tree with attributes",
+      "title": "Six relatives and their newspapers",
+      "setup": "Six people — **A, B, C, D, E and F** — are three males and three females (in some order). Among them are **two married couples** and two unmarried people. Each likes a different newspaper: Times, Express, Hindustan Times, Financial Times, Bharat Times, Business Standard.\n\nE, who likes the **Express**, is A's mother-in-law, and A is C's wife. D is F's father and likes neither the Times nor the Business Standard. B likes the **Bharat Times** and is F's sister; F likes the **Hindustan Times**. C does not read the Business Standard.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE2 Q3-7",
+      "questions": [
+        {
+          "q_slug": "br-newspapers-q1",
+          "order": 1,
+          "question_text": "Who among the following likes the Times?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "C"
+            },
+            {
+              "label": "b",
+              "text": "D"
+            },
+            {
+              "label": "c",
+              "text": "A"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "E (Express), B (Bharat Times) and F (Hindustan Times) are fixed, leaving Times, Financial Times and Business Standard for A, C and D.",
+            "D likes neither the Times nor the Business Standard, so D takes the Financial Times; C does not read the Business Standard, so C takes the Times.",
+            "So the Times reader is C."
+          ]
+        },
+        {
+          "q_slug": "br-newspapers-q2",
+          "order": 2,
+          "question_text": "How is F related to E?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Daughter"
+            },
+            {
+              "label": "b",
+              "text": "Brother"
+            },
+            {
+              "label": "c",
+              "text": "Son"
+            },
+            {
+              "label": "d",
+              "text": "None of these"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "E is A's mother-in-law and A is C's wife, so E is C's mother; the two couples are C-A and E-D.",
+            "D is F's father, so E is F's mother.",
+            "The three males are C, D and F (A, B, E are the females), so F is E's son."
+          ]
+        },
+        {
+          "q_slug": "br-newspapers-q3",
+          "order": 3,
+          "question_text": "Which of the following is one of the married couples?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "D-B"
+            },
+            {
+              "label": "b",
+              "text": "D-E"
+            },
+            {
+              "label": "c",
+              "text": "B-F"
+            },
+            {
+              "label": "d",
+              "text": "E-F"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "A is C's wife — one couple.",
+            "E is A's mother-in-law (mother of C) and D is F's father; E and D are the parents, hence the second couple.",
+            "So D-E is a married couple."
+          ]
+        },
+        {
+          "q_slug": "br-newspapers-q4",
+          "order": 4,
+          "question_text": "How many sons does E have?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "four"
+            },
+            {
+              "label": "b",
+              "text": "three"
+            },
+            {
+              "label": "c",
+              "text": "two"
+            },
+            {
+              "label": "d",
+              "text": "one"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "E and D's children are C, B and F (A is a daughter-in-law, not a child).",
+            "Of these, C and F are male and B is female.",
+            "So E has two sons."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "blood-relations",
+      "set_slug": "br-x-relatives",
+      "order": 3,
+      "difficulty": "Moderate",
+      "pattern_type": "Roles fixed by gender rules",
+      "title": "X's six relatives",
+      "setup": "Six people — **P, Q, R, S, T and U** — are, in some order, X's **husband, sister, son, daughter, mother and aunt**.\n\n(i) R and S are either both male or both female.\n\n(ii) Either P or Q, or both, is male.\n\n(iii) Either T or U, or both, is female.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE3 Q1-2",
+      "questions": [
+        {
+          "q_slug": "br-x-relatives-q1",
+          "order": 1,
+          "question_text": "Any of the following could be X's son except:",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "P"
+            },
+            {
+              "label": "b",
+              "text": "Q"
+            },
+            {
+              "label": "c",
+              "text": "S"
+            },
+            {
+              "label": "d",
+              "text": "T"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Only two of the six roles are male — X's husband and X's son; sister, daughter, mother and aunt are all female.",
+            "If R and S were both male they would be exactly those two, forcing P, Q, T, U all female and breaking clue (ii). So R and S are both female.",
+            "Hence S is female and cannot be X's son, while a male P, Q or T still could."
+          ]
+        },
+        {
+          "q_slug": "br-x-relatives-q2",
+          "order": 2,
+          "question_text": "Which of the following statements must be false?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "P is S's grandson"
+            },
+            {
+              "label": "b",
+              "text": "S is P's niece"
+            },
+            {
+              "label": "c",
+              "text": "P is Q's nephew"
+            },
+            {
+              "label": "d",
+              "text": "U is T's son"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The son among the six is X's son, whose mother is X herself — and X is not one of the six listed people.",
+            "So none of P, Q, R, S, T, U is the son's parent.",
+            "Therefore 'U is T's son' cannot hold — it must be false."
           ]
         }
       ]
