@@ -47,6 +47,48 @@
         "Painted solid cut into unit cubes",
         "Opposite faces of a cube"
       ]
+    },
+    {
+      "slug": "directions-distance",
+      "name": "Directions & Distance",
+      "order": 5,
+      "accent": "#2B8A3E",
+      "tagline": "Track someone turning and walking around a map: find the direction they end up facing and the straight-line distance back to where they began.",
+      "pattern_types": [
+        "Turning & facing",
+        "Net displacement",
+        "Return to start",
+        "Direction back toward start",
+        "Rotated signpost"
+      ]
+    },
+    {
+      "slug": "syllogism",
+      "name": "Syllogism",
+      "order": 6,
+      "accent": "#9C36B5",
+      "tagline": "Given a few sweeping statements, decide which conclusions are forced. Take the statements as true even when they defy real life, and reason with sets.",
+      "pattern_types": [
+        "Universal chain (all follow)",
+        "Complementary pair (either-or)",
+        "No valid conclusion",
+        "Conversion-based",
+        "Negative chain"
+      ]
+    },
+    {
+      "slug": "number-series",
+      "name": "Number Series",
+      "order": 7,
+      "accent": "#F59F00",
+      "tagline": "Spot the rule linking each number to the next — differences, ratios, powers, or two series woven together — and extend it.",
+      "pattern_types": [
+        "Increasing differences",
+        "Geometric / doubling",
+        "Power (cube) based",
+        "Interleaved series",
+        "Multiply-and-add chain"
+      ]
     }
   ],
   "sets": [
@@ -1284,6 +1326,501 @@
           "solution_steps": [
             "The three opposite-face pairs are blue-blue, brown-green and black-white.",
             "Black is opposite white, so with black on the table the white face points to the sky."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "directions-distance",
+      "set_slug": "dir-set-1",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Turning, distance & direction",
+      "title": "Walking a route",
+      "setup": "Work out each path step by step (a quick sketch on N-S-E-W axes helps). Distances combine by the Pythagoras theorem when the net east-west and north-south legs are perpendicular.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch8 Directions, PE1",
+      "questions": [
+        {
+          "q_slug": "dir-set-1-q1",
+          "order": 1,
+          "question_text": "You are facing **east**. You turn 100° clockwise, then 145° anti-clockwise. Which direction do you face now?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "East"
+            },
+            {
+              "label": "b",
+              "text": "North-east"
+            },
+            {
+              "label": "c",
+              "text": "North"
+            },
+            {
+              "label": "d",
+              "text": "South-west"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "The net turn is 100° clockwise then 145° anti-clockwise = 45° anti-clockwise overall.",
+            "Turning 45° anti-clockwise from east points you to the north-east."
+          ]
+        },
+        {
+          "q_slug": "dir-set-1-q2",
+          "order": 2,
+          "question_text": "A man walks 1 km east, then 5 km south, then 2 km east, then 9 km north. How far is he from his starting point?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "3 km"
+            },
+            {
+              "label": "b",
+              "text": "4 km"
+            },
+            {
+              "label": "c",
+              "text": "5 km"
+            },
+            {
+              "label": "d",
+              "text": "7 km"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "East legs add to 1 + 2 = 3 km east.",
+            "North-south legs net to 9 − 5 = 4 km north.",
+            "Straight-line distance = √(3² + 4²) = 5 km."
+          ]
+        },
+        {
+          "q_slug": "dir-set-1-q3",
+          "order": 3,
+          "question_text": "Surender goes 30 m north, turns right and walks 40 m, turns right and walks 20 m, then turns right and walks 40 m. How far is he from the start?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "0 m"
+            },
+            {
+              "label": "b",
+              "text": "10 m"
+            },
+            {
+              "label": "c",
+              "text": "20 m"
+            },
+            {
+              "label": "d",
+              "text": "40 m"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "North 30 → east 40 → south 20 → west 40 lands him at 10 m north of the start (east and west legs cancel).",
+            "So he is 10 m from where he began."
+          ]
+        },
+        {
+          "q_slug": "dir-set-1-q4",
+          "order": 4,
+          "question_text": "Ruchi walks 50 m south, turns left and walks 20 m, then turns north and walks 30 m, and finally walks straight to her house. In which direction is she now walking?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "North-west"
+            },
+            {
+              "label": "b",
+              "text": "North"
+            },
+            {
+              "label": "c",
+              "text": "South-east"
+            },
+            {
+              "label": "d",
+              "text": "East"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Taking her house as the origin: 50 m south, then 20 m east, then 30 m north leaves her 20 m east and 20 m south of the house.",
+            "To reach the house she must head north-west."
+          ]
+        },
+        {
+          "q_slug": "dir-set-1-q5",
+          "order": 5,
+          "question_text": "A crossroad signpost has arrows for East, West, South and North. After an accident the pole is knocked so its **East** arrow now points **South**. A man who wants to go north follows the pole's 'North' arrow. Which way is he actually walking?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "West"
+            },
+            {
+              "label": "b",
+              "text": "North"
+            },
+            {
+              "label": "c",
+              "text": "South"
+            },
+            {
+              "label": "d",
+              "text": "East"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "East arrow now pointing south means the whole pole rotated 90° clockwise.",
+            "So the pole's 'North' arrow actually points east — the man walks east."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "syllogism",
+      "set_slug": "syll-set-1",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Statements & conclusions",
+      "title": "Which conclusions follow?",
+      "setup": "In each question, take the three statements as **true** (even if they defy real-world facts) and decide which of the numbered conclusions logically follow. A useful check: draw the possible Venn diagrams and keep only what holds in **every** one of them.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch9 Syllogism, PE1",
+      "questions": [
+        {
+          "q_slug": "syll-set-1-q1",
+          "order": 1,
+          "question_text": "**Statements:** (i) All books are copies. (ii) All copies are pencils. (iii) No pencils are erasers.\n\n**Conclusions:** I. No erasers are books. II. No copies are erasers. III. Some pencils are copies. IV. All books are pencils.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Only I, II and III follow"
+            },
+            {
+              "label": "b",
+              "text": "Only II, III and IV follow"
+            },
+            {
+              "label": "c",
+              "text": "Only I, III and IV follow"
+            },
+            {
+              "label": "d",
+              "text": "All follow"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Books ⊆ copies ⊆ pencils, so all books are pencils (IV), and 'some pencils are copies' (III) follows by conversion.",
+            "Pencils are disjoint from erasers, and copies and books lie inside pencils, so no copies are erasers (II) and no erasers are books (I).",
+            "Every conclusion holds — all four follow."
+          ]
+        },
+        {
+          "q_slug": "syll-set-1-q2",
+          "order": 2,
+          "question_text": "**Statements:** (i) All noodles are threads. (ii) All threads are boxes. (iii) All trees are boxes.\n\n**Conclusions:** I. No noodle is a tree. II. Some trees are threads. III. Some boxes are noodles. IV. Some trees are noodles.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Only either I or IV follows"
+            },
+            {
+              "label": "b",
+              "text": "Only either I or IV and II follow"
+            },
+            {
+              "label": "c",
+              "text": "Only III follows"
+            },
+            {
+              "label": "d",
+              "text": "Only either I or IV and III follow"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Noodles ⊆ threads ⊆ boxes and trees ⊆ boxes, but nothing links noodles and trees directly.",
+            "So they may be disjoint (I) or overlap (IV): I and IV form a complementary pair — exactly one must hold.",
+            "Noodles ⊆ boxes guarantees 'some boxes are noodles' (III). Hence 'either I or IV, and III'."
+          ]
+        },
+        {
+          "q_slug": "syll-set-1-q3",
+          "order": 3,
+          "question_text": "**Statements:** (i) All khiladis are spectators. (ii) Some spectators are theatres. (iii) Some theatres are movies.\n\n**Conclusions:** I. Some movies are spectators. II. Some khiladis are movies. III. Some theatres are khiladis. IV. All spectators are khiladis.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Only II follows"
+            },
+            {
+              "label": "b",
+              "text": "None follows"
+            },
+            {
+              "label": "c",
+              "text": "Only II and IV follow"
+            },
+            {
+              "label": "d",
+              "text": "Only I and III follow"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "The spectator-theatre and theatre-movie links are only 'some', so no chain is forced through them.",
+            "Nothing makes any khiladi a movie or theatre, and 'all spectators are khiladis' wrongly reverses a subset.",
+            "So none of the conclusions follow."
+          ]
+        },
+        {
+          "q_slug": "syll-set-1-q4",
+          "order": 4,
+          "question_text": "**Statements:** (i) Some apples are bees. (ii) No bee is a papaya. (iii) All papayas are boys.\n\n**Conclusions:** I. Some apples are boys. II. Some boys are papayas. III. Some boys are apples. IV. Some bees are apples.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "None follows"
+            },
+            {
+              "label": "b",
+              "text": "Only II and IV follow"
+            },
+            {
+              "label": "c",
+              "text": "Only II and III follow"
+            },
+            {
+              "label": "d",
+              "text": "None of these"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "'All papayas are boys' converts to 'some boys are papayas' (II).",
+            "'Some apples are bees' converts to 'some bees are apples' (IV).",
+            "Apples and boys have no forced link (bees separate the apples from the papayas), so I and III fail; only II and IV follow."
+          ]
+        },
+        {
+          "q_slug": "syll-set-1-q5",
+          "order": 5,
+          "question_text": "**Statements:** (i) All ships are buses. (ii) No room is a bus. (iii) All boats are rooms.\n\n**Conclusions:** I. No boat is a ship. II. No bus is a boat. III. No ship is a room.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Only I and II follow"
+            },
+            {
+              "label": "b",
+              "text": "Only II and III follow"
+            },
+            {
+              "label": "c",
+              "text": "Only I and III follow"
+            },
+            {
+              "label": "d",
+              "text": "All follow"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Boats ⊆ rooms and no room is a bus, so no boat is a bus; since ships ⊆ buses, no boat is a ship (I).",
+            "'No bus is a boat' (II) is just the converse of 'no boat is a bus'.",
+            "Ships ⊆ buses are disjoint from rooms, so no ship is a room (III). All three follow."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "number-series",
+      "set_slug": "series-set-1",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Complete the series",
+      "title": "Find the missing number",
+      "setup": "Find the number that completes each series. Test the usual rules in turn: a constant or growing difference, a constant ratio, powers of n, or two interleaved sub-series.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch5 Series, PE1",
+      "questions": [
+        {
+          "q_slug": "series-set-1-q1",
+          "order": 1,
+          "question_text": "3, 7, 13, 21, 31, ___",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "43"
+            },
+            {
+              "label": "b",
+              "text": "34"
+            },
+            {
+              "label": "c",
+              "text": "56"
+            },
+            {
+              "label": "d",
+              "text": "45"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "The gaps grow by 2 each time: +4, +6, +8, +10.",
+            "The next gap is +12, so 31 + 12 = 43."
+          ]
+        },
+        {
+          "q_slug": "series-set-1-q2",
+          "order": 2,
+          "question_text": "1, 2, 4, 8, 16, ___",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "20"
+            },
+            {
+              "label": "b",
+              "text": "24"
+            },
+            {
+              "label": "c",
+              "text": "28"
+            },
+            {
+              "label": "d",
+              "text": "32"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Each term is double the previous one.",
+            "So the next term is 16 × 2 = 32."
+          ]
+        },
+        {
+          "q_slug": "series-set-1-q3",
+          "order": 3,
+          "question_text": "0, 7, 26, 63, 124, ___",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "195"
+            },
+            {
+              "label": "b",
+              "text": "208"
+            },
+            {
+              "label": "c",
+              "text": "215"
+            },
+            {
+              "label": "d",
+              "text": "240"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Each term is n³ − 1: 1−1, 8−1, 27−1, 64−1, 125−1.",
+            "The sixth term is 6³ − 1 = 216 − 1 = 215."
+          ]
+        },
+        {
+          "q_slug": "series-set-1-q4",
+          "order": 4,
+          "question_text": "1, 0, 3, 2, 5, 6, ___, 12, 9, 20",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "10"
+            },
+            {
+              "label": "b",
+              "text": "7"
+            },
+            {
+              "label": "c",
+              "text": "8"
+            },
+            {
+              "label": "d",
+              "text": "12"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Two series are interleaved. The odd positions read 1, 3, 5, ?, 9 — the odd numbers.",
+            "So the missing (7th) term is 7."
+          ]
+        },
+        {
+          "q_slug": "series-set-1-q5",
+          "order": 5,
+          "question_text": "23, 25, 53, 163, 657, ___",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "4096"
+            },
+            {
+              "label": "b",
+              "text": "2401"
+            },
+            {
+              "label": "c",
+              "text": "1764"
+            },
+            {
+              "label": "d",
+              "text": "3291"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The rule is ×1+2, ×2+3, ×3+4, ×4+5, ×5+6.",
+            "So the next term is 657 × 5 + 6 = 3291."
           ]
         }
       ]
