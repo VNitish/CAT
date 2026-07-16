@@ -410,6 +410,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/lr')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             LR Practice
           </button>
+          <button onClick={() => router.push('/lr-sets')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            LR Sets
+          </button>
           <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Blog
           </button>
@@ -541,6 +544,15 @@ export default function LandingPage() {
               points: ['Concept-first, one card at a time', 'Attempt, then reveal & analyse', 'Syllogism, blood relations, series, arrangement, directions'],
               cta: 'Start LR practice',
               href: '/lr',
+            },
+            {
+              accent: '#E8792B',
+              eyebrow: 'Logical Reasoning',
+              title: 'LR Practice Sets',
+              desc: 'The book’s Moderate and Advanced caselets, grouped by topic. Each topic gives one curated set chosen so every distinct pattern shows up — attempt each, then reveal the worked solution.',
+              points: ['Moderate & Advanced difficulty', 'Pattern-by-pattern coverage per topic', 'Full scenario, then step-by-step solutions'],
+              cta: 'Open LR sets',
+              href: '/lr-sets',
             },
           ].map(c => (
             <div key={c.title} style={{ background: '#ffffff', padding: '36px 34px', display: 'flex', flexDirection: 'column' }}>

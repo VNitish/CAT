@@ -1,0 +1,442 @@
+{
+  "topics": [
+    {
+      "slug": "sequencing-arrangement",
+      "name": "Sequencing & Arrangement",
+      "order": 1,
+      "accent": "#378ADD",
+      "tagline": "The workhorse of CAT LR: put people or events in order along a line, around a circle, or by comparison — and know when the order can't be pinned down.",
+      "pattern_types": [
+        "Strict / conditional sequencing",
+        "Circular arrangement (multiple cases)",
+        "Comparison & relative ordering",
+        "Linear arrangement (under-determined)"
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "topic_slug": "sequencing-arrangement",
+      "set_slug": "arr-seq-captains",
+      "order": 1,
+      "difficulty": "Advanced",
+      "pattern_type": "Strict / conditional sequencing",
+      "title": "Order of reports (captains & assistants)",
+      "setup": "Seven people attended a conference: four ship captains — **L, M, N and O** — and three first assistants — **A, D and G** (so exactly one captain attended without a first assistant). Each person in turn delivered a report, one after another, subject to:\n\n(i) each first assistant delivered their report **immediately after** their own captain;\n\n(ii) the first captain to speak was **M**, and captain **N** spoke at some point after M.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch15 Advanced, PE1 Q7-13",
+      "questions": [
+        {
+          "q_slug": "arr-seq-captains-q1",
+          "order": 1,
+          "question_text": "Which of the following is **not** a possible order of reports?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "M, A, N, G, O, L, D"
+            },
+            {
+              "label": "b",
+              "text": "M, D, N, G, L, O, A"
+            },
+            {
+              "label": "c",
+              "text": "M, N, A, L, D, O, G"
+            },
+            {
+              "label": "d",
+              "text": "M, N, G, D, O, L, A"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "An assistant must speak immediately after their **own** captain, so an assistant can never be immediately preceded by another assistant.",
+            "In option (d) the order runs …N, G, D… — G is an assistant and D is an assistant sitting back to back. D's captain would then have to be G, which is impossible.",
+            "Options (a), (b) and (c) each keep every assistant directly behind a captain, so only (d) breaks the rule."
+          ]
+        },
+        {
+          "q_slug": "arr-seq-captains-q2",
+          "order": 2,
+          "question_text": "If L speaks after A, and A is the third first assistant to speak, which statement is **untrue**?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "O spoke immediately after G"
+            },
+            {
+              "label": "b",
+              "text": "the order of the first four speakers was M, G, N, D"
+            },
+            {
+              "label": "c",
+              "text": "O's first assistant was present"
+            },
+            {
+              "label": "d",
+              "text": "A was the fourth speaker after M"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "With M first, N after M, A the third assistant to speak and L (a captain) after A, the order is forced to be **M G N D O A L** or **M D N G O A L**.",
+            "In both, A is the sixth speaker overall — the fifth speaker after M, not the fourth.",
+            "So (d) is necessarily untrue. Statements (a) and (b) each hold in one of the two valid orders, so they can be true."
+          ]
+        },
+        {
+          "q_slug": "arr-seq-captains-q3",
+          "order": 3,
+          "question_text": "Which statement **must** be true?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "If the second speaker was a captain, the seventh speaker was a first assistant"
+            },
+            {
+              "label": "b",
+              "text": "If the second speaker was a first assistant, the seventh speaker was a captain"
+            },
+            {
+              "label": "c",
+              "text": "If the third speaker was a first assistant, the seventh speaker was a captain"
+            },
+            {
+              "label": "d",
+              "text": "If the third speaker was a captain, the seventh speaker was a first assistant"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Suppose the second speaker is a captain. Since M is first and no assistant can precede its captain, that second captain must be N (N speaks after M).",
+            "Every assistant speaks immediately after their captain, so the run of seven ends with an assistant closing behind the last captain.",
+            "Hence the seventh (last) speaker must be a first assistant — statement (a) holds in every arrangement of this type."
+          ]
+        },
+        {
+          "q_slug": "arr-seq-captains-q4",
+          "order": 4,
+          "question_text": "Which single extra fact would make **M, D, N, G, L, O, A** the only possible order of speakers?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "D is M's assistant, G is N's assistant and A is O's assistant"
+            },
+            {
+              "label": "b",
+              "text": "D is M's assistant, G is N's assistant and A was the second person to speak after L"
+            },
+            {
+              "label": "c",
+              "text": "the order of the first four speakers was M, D, N, G"
+            },
+            {
+              "label": "d",
+              "text": "the order of the last three speakers was L, O, A"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "In the target order O speaks immediately after L, so L is the captain who has no assistant present.",
+            "That leaves D, G, A as the assistants of M, N, O respectively — which is exactly statement (a).",
+            "Pinning each assistant to a specific captain fixes the whole sequence, so (a) forces this unique order; the other facts still allow alternatives."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "sequencing-arrangement",
+      "set_slug": "arr-circle-pquv",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Circular arrangement (multiple cases)",
+      "title": "Seven around a circle",
+      "setup": "**P, Q, R, S, T, U and V** sit around a circle, all facing the centre.\n\n(i) **S** sits second to the right of **R**, and S is **not** immediately to the right of **V**.\n\n(ii) **U** is not between **V** and **T**.\n\n(iii) **P** sits between **R** and **Q**.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE4 Q5-9",
+      "questions": [
+        {
+          "q_slug": "arr-circle-pquv-q1",
+          "order": 1,
+          "question_text": "Which of the following statement(s) is/are wrong?\n\n(I) T is immediately to the left of R.\n\n(II) Q is immediately to the left of U.\n\n(III) U, S and T sit in sequence, one after the other.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "only I"
+            },
+            {
+              "label": "b",
+              "text": "only II"
+            },
+            {
+              "label": "c",
+              "text": "only III"
+            },
+            {
+              "label": "d",
+              "text": "I and II"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The clues fix P between R and Q and S two seats from R, but the seats of T, U and V are not fully determined — three arrangements survive.",
+            "Statement (III) is true in at least one of those arrangements, so it cannot be called wrong.",
+            "Statements (I) and (II) fail in the valid arrangements, so the wrong ones are I and II → option (d)."
+          ]
+        },
+        {
+          "q_slug": "arr-circle-pquv-q2",
+          "order": 2,
+          "question_text": "Which of the following are two pairs of adjacent members?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "VS and TR"
+            },
+            {
+              "label": "b",
+              "text": "SU and PQ"
+            },
+            {
+              "label": "c",
+              "text": "PR and TQ"
+            },
+            {
+              "label": "d",
+              "text": "None of these"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Because T, U and V can be placed in more than one way, no proposed pair of neighbours holds across all the valid arrangements.",
+            "Each of options (a), (b), (c) breaks in at least one case, so none is guaranteed → option (d)."
+          ]
+        },
+        {
+          "q_slug": "arr-circle-pquv-q3",
+          "order": 3,
+          "question_text": "Which of the following statement is correct?\n\n(I) V is third to the left of R.\n\n(II) U is between S and V.\n\n(III) Q is immediately to the left of P.",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "only I"
+            },
+            {
+              "label": "b",
+              "text": "only II"
+            },
+            {
+              "label": "c",
+              "text": "only III"
+            },
+            {
+              "label": "d",
+              "text": "II and III"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "The positions of V and U shift between the valid arrangements, so (I) and (II) are not always true.",
+            "P and Q are fixed by clue (iii): Q sits immediately to the left of P in every case.",
+            "So only statement (III) is always correct → option (c)."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "sequencing-arrangement",
+      "set_slug": "arr-compare-abc",
+      "order": 3,
+      "difficulty": "Moderate",
+      "pattern_type": "Comparison & relative ordering",
+      "title": "Two of three are fighting",
+      "setup": "Exactly two of **Anil, Balraj and Chandan** are fighting each other; the third is not involved.\n\n(i) The **shorter** of Anil and Balraj is the **older** of the two fighters.\n\n(ii) The **younger** of Balraj and Chandan is the **shorter** of the two fighters.\n\n(iii) The **taller** of Anil and Chandan is the **younger** of the two fighters.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE4 Q23-25",
+      "questions": [
+        {
+          "q_slug": "arr-compare-abc-q1",
+          "order": 1,
+          "question_text": "Who is not fighting?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Anil"
+            },
+            {
+              "label": "b",
+              "text": "Balraj"
+            },
+            {
+              "label": "c",
+              "text": "Chandan"
+            },
+            {
+              "label": "d",
+              "text": "Data inconsistent"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Clue (i) says Chandan is not the older fighter and clue (iii) says Balraj is not the younger fighter, leaving three cases for the pair of fighters.",
+            "Clue (ii) (the younger of Balraj and Chandan is the shorter) eliminates the case with Anil-and-Chandan and the case with Balraj-older-than-Chandan.",
+            "Only the case where **Balraj (older) and Anil (younger)** fight survives — so Chandan is not fighting."
+          ]
+        },
+        {
+          "q_slug": "arr-compare-abc-q2",
+          "order": 2,
+          "question_text": "Who is the tallest?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Anil"
+            },
+            {
+              "label": "b",
+              "text": "Balraj"
+            },
+            {
+              "label": "c",
+              "text": "Chandan"
+            },
+            {
+              "label": "d",
+              "text": "Data inconsistent"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "With Balraj and Anil as the fighters, clue (i) makes the shorter one (Balraj) the older, so Anil is taller than Balraj.",
+            "Clue (iii), applied to Anil and Chandan, works out with Anil taller than Chandan.",
+            "Anil is therefore taller than both Balraj and Chandan — Anil is the tallest."
+          ]
+        },
+        {
+          "q_slug": "arr-compare-abc-q3",
+          "order": 3,
+          "question_text": "Who is the youngest?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Anil"
+            },
+            {
+              "label": "b",
+              "text": "Balraj"
+            },
+            {
+              "label": "c",
+              "text": "Chandan"
+            },
+            {
+              "label": "d",
+              "text": "Data inconsistent"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "In the surviving case Anil is the younger of the two fighters, so Anil is younger than Balraj.",
+            "Clue (ii) then places Chandan as the eldest of the three.",
+            "So the age order is Chandan > Balraj > Anil — Anil is the youngest."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "sequencing-arrangement",
+      "set_slug": "arr-line-colours",
+      "order": 4,
+      "difficulty": "Moderate",
+      "pattern_type": "Linear arrangement (under-determined)",
+      "title": "Five boys in a row",
+      "setup": "Five boys stand in a row facing a wall. Each wears a dress of a different colour — **red, green, yellow, white or blue**.\n\n(i) The boy in **yellow** is not standing at either end of the row.\n\n(ii) The boy in **red** is not standing at either end of the row.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE4 Q10-11",
+      "questions": [
+        {
+          "q_slug": "arr-line-colours-q1",
+          "order": 1,
+          "question_text": "What colour dress is the boy in the middle wearing?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Green"
+            },
+            {
+              "label": "b",
+              "text": "Blue"
+            },
+            {
+              "label": "c",
+              "text": "Red"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The only firm fact is that yellow and red occupy two of the three inner positions (2, 3 or 4); the two ends must be green, white or blue in some order.",
+            "The middle seat (position 3) could be red, yellow, or the remaining inner colour — nothing forces one choice.",
+            "So the middle colour cannot be determined."
+          ]
+        },
+        {
+          "q_slug": "arr-line-colours-q2",
+          "order": 2,
+          "question_text": "What colour is worn by the boy standing to the right of the boy in yellow?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "White"
+            },
+            {
+              "label": "b",
+              "text": "Green"
+            },
+            {
+              "label": "c",
+              "text": "Blue"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Yellow can sit in position 2, 3 or 4, and its right-hand neighbour changes with each placement.",
+            "The clues never fix which colour sits to the right of yellow.",
+            "So this too cannot be determined — a reminder that some CAT sets are deliberately incomplete."
+          ]
+        }
+      ]
+    }
+  ]
+}

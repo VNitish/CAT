@@ -439,6 +439,59 @@ const LrTopic    = mongoose.model('LrTopic', lrTopicSchema);
 const LrQuestion = mongoose.model('LrQuestion', lrQuestionSchema);
 const LrAttempt  = mongoose.model('LrAttempt', lrAttemptSchema);
 
+// ── LR Practice Sets ──────────────────────────────────────────────────────────
+// A harder, SET-based practice section (distinct from the concept-card /lr mode):
+// the book's Moderate + Advanced caselets, grouped by topic. Per topic we curate
+// one set of caselets chosen so every distinct PATTERN in that topic is covered.
+// Each caselet has a shared setup + embedded sub-questions with answers/solutions.
+const lrpTopicSchema = new mongoose.Schema({
+  slug:          { type: String, unique: true, index: true },
+  name:          String,
+  order:         Number,
+  accent:        String,
+  tagline:       String,
+  pattern_types: [String],   // the distinct patterns this topic's set covers
+}, { collection: 'lrp_topics', timestamps: true });
+
+const lrpQuestionSchema = new mongoose.Schema({
+  q_slug:         { type: String, required: true },   // stable id (used for attempts)
+  order:          Number,
+  question_text:  String,
+  figure:         { type: String, default: '' },
+  options:        [{ _id: false, label: String, text: String }],
+  answer_format:  { type: String, enum: ['option', 'typed'], default: 'option' },
+  correct_answer: String,
+  solution_steps: [String],
+}, { _id: false });
+
+const lrpSetSchema = new mongoose.Schema({
+  topic_slug:   { type: String, index: true },
+  set_slug:     { type: String, unique: true, index: true },
+  order:        Number,
+  difficulty:   { type: String, enum: ['Moderate', 'Advanced'], default: 'Moderate' },
+  pattern_type: String,
+  title:        String,
+  setup:        { type: String, default: '' },
+  figure:       { type: String, default: '' },
+  source:       String,
+  questions:    [lrpQuestionSchema],
+}, { collection: 'lrp_sets', timestamps: true });
+lrpSetSchema.index({ topic_slug: 1, order: 1 });
+
+const lrpAttemptSchema = new mongoose.Schema({
+  user_id:    { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  q_slug:     String,
+  topic_slug: String,
+  set_slug:   String,
+  chosen:     String,
+  correct:    Boolean,
+}, { collection: 'lrp_attempts', timestamps: true });
+lrpAttemptSchema.index({ user_id: 1, q_slug: 1 }, { unique: true });
+
+const LrpTopic   = mongoose.model('LrpTopic', lrpTopicSchema);
+const LrpSet     = mongoose.model('LrpSet', lrpSetSchema);
+const LrpAttempt = mongoose.model('LrpAttempt', lrpAttemptSchema);
+
 // Optional-auth helper: attaches req.user if a valid token is present, else continues.
 async function optionalAuth(req, _res, next) {
   try {
@@ -2177,6 +2230,109 @@ app.get('/api/lr/progress', authMiddleware, async (req, res) => {
   try {
     const attempts = await LrAttempt.find(
       { user_id: req.user._id }, 'question_id topic_slug chosen correct'
+    ).lean();
+    res.json(attempts);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── LR Practice Sets routes ─────────────────────────────────────────────────
+// GET /api/lrp/topics — topics with set + question counts (+ progress if logged in)
+app.get('/api/lrp/topics', optionalAuth, async (req, res) => {
+  try {
+    const topics = await LrpTopic.find({}).sort({ order: 1 }).lean();
+    const sets = await LrpSet.find({}, 'topic_slug questions').lean();
+    const agg = {};
+    sets.forEach(s => {
+      agg[s.topic_slug] = agg[s.topic_slug] || { sets: 0, questions: 0 };
+      agg[s.topic_slug].sets += 1;
+      agg[s.topic_slug].questions += (s.questions || []).length;
+    });
+
+    let solvedBy = {};
+    if (req.user) {
+      const attempts = await LrpAttempt.find({ user_id: req.user._id }, 'topic_slug correct').lean();
+      attempts.forEach(a => {
+        solvedBy[a.topic_slug] = solvedBy[a.topic_slug] || { attempted: 0, correct: 0 };
+        solvedBy[a.topic_slug].attempted += 1;
+        if (a.correct) solvedBy[a.topic_slug].correct += 1;
+      });
+    }
+
+    res.json(topics.map(t => ({
+      slug: t.slug, name: t.name, order: t.order, accent: t.accent, tagline: t.tagline,
+      pattern_types: t.pattern_types || [],
+      sets: (agg[t.slug] || {}).sets || 0,
+      total: (agg[t.slug] || {}).questions || 0,
+      attempted: (solvedBy[t.slug] || {}).attempted || 0,
+      correct: (solvedBy[t.slug] || {}).correct || 0,
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/lrp/topic/:slug — the topic + all its sets (with embedded questions,
+// answers and solutions). Reveal is client-side. Per-user attempts merged if logged in.
+app.get('/api/lrp/topic/:slug', optionalAuth, async (req, res) => {
+  try {
+    const topic = await LrpTopic.findOne({ slug: req.params.slug }).lean();
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    const sets = await LrpSet.find({ topic_slug: req.params.slug }).sort({ order: 1 }).lean();
+
+    let attemptBy = {};
+    if (req.user) {
+      const attempts = await LrpAttempt.find(
+        { user_id: req.user._id, topic_slug: req.params.slug }
+      ).lean();
+      attempts.forEach(a => { attemptBy[a.q_slug] = { chosen: a.chosen, correct: a.correct }; });
+    }
+
+    res.json({
+      topic: {
+        slug: topic.slug, name: topic.name, accent: topic.accent, tagline: topic.tagline,
+        pattern_types: topic.pattern_types || [],
+      },
+      sets: sets.map(s => ({
+        set_slug: s.set_slug, order: s.order, difficulty: s.difficulty,
+        pattern_type: s.pattern_type, title: s.title, setup: s.setup || '',
+        figure: s.figure || '', source: s.source,
+        questions: (s.questions || []).map(q => ({
+          q_slug: q.q_slug, order: q.order, question_text: q.question_text,
+          figure: q.figure || '', options: q.options, answer_format: q.answer_format,
+          correct_answer: q.correct_answer, solution_steps: q.solution_steps || [],
+          attempt: attemptBy[q.q_slug] || null,
+        })),
+      })),
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/lrp/attempt — record (or update) the user's attempt on a set question
+app.post('/api/lrp/attempt', authMiddleware, async (req, res) => {
+  try {
+    const { q_slug, topic_slug, set_slug, chosen, correct } = req.body;
+    if (!q_slug) return res.status(400).json({ error: 'q_slug required' });
+    await LrpAttempt.updateOne(
+      { user_id: req.user._id, q_slug },
+      { $set: { topic_slug: topic_slug || '', set_slug: set_slug || '', chosen: chosen || '', correct: !!correct } },
+      { upsert: true }
+    );
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/lrp/progress — the user's attempts (for merging into the client)
+app.get('/api/lrp/progress', authMiddleware, async (req, res) => {
+  try {
+    const attempts = await LrpAttempt.find(
+      { user_id: req.user._id }, 'q_slug topic_slug set_slug chosen correct'
     ).lean();
     res.json(attempts);
   } catch (e) {
