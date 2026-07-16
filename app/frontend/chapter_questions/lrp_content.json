@@ -89,6 +89,41 @@
         "Interleaved series",
         "Multiply-and-add chain"
       ]
+    },
+    {
+      "slug": "input-output",
+      "name": "Input-Output",
+      "order": 8,
+      "accent": "#0C8599",
+      "tagline": "A machine reshuffles a line one step at a time by a hidden rule. Crack the rule from the worked example, then jump to any step — forwards or backwards.",
+      "pattern_types": [
+        "Word-shift machine (order by a key)"
+      ]
+    },
+    {
+      "slug": "boolean-logic",
+      "name": "Boolean Logic",
+      "order": 9,
+      "accent": "#5C940D",
+      "tagline": "Truth-tellers, liars and in-betweeners. Test each possibility against a claim and keep only the assignment that never contradicts itself.",
+      "pattern_types": [
+        "Truth-tellers & liars (self-reference)",
+        "Truth / lie / alternator"
+      ]
+    },
+    {
+      "slug": "logical-links",
+      "name": "Logical Links",
+      "order": 10,
+      "accent": "#4263EB",
+      "tagline": "Turn everyday 'only if', 'unless', 'either-or' and 'whenever' sentences into precise logic, and read off exactly what does — and does not — follow.",
+      "pattern_types": [
+        "Only-if (necessary condition)",
+        "Whenever (contrapositive)",
+        "Either-or",
+        "Unless",
+        "If-then with negation (De Morgan)"
+      ]
     }
   ],
   "sets": [
@@ -1821,6 +1856,518 @@
           "solution_steps": [
             "The rule is ×1+2, ×2+3, ×3+4, ×4+5, ×5+6.",
             "So the next term is 657 × 5 + 6 = 3291."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "input-output",
+      "set_slug": "io-word-machine",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Word-shift machine (order by a key)",
+      "title": "A word-arrangement machine",
+      "setup": "A word-arrangement machine, given an input line of words, produces one new arrangement per step until no further change is possible. Example:\n\nInput: She was interested in doing art film\n\nStep 1: art she was interested in doing film\n\nStep 2: art was she interested in doing film\n\nStep 3: art was in she interested doing film\n\nStep 4: art was in film she interested doing\n\nStep 5: art was in film doing she interested (last step)\n\n**Rule:** each step pulls one more word to the front so that, in the final line, the words sit in **reverse alphabetical order of their last letter**.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch10 Input-Output, PE1 Q20-22",
+      "questions": [
+        {
+          "q_slug": "io-word-machine-q1",
+          "order": 1,
+          "question_text": "Which of the following is the **last step** for the input: 'he is going out to search air'?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "out is air to going search he"
+            },
+            {
+              "label": "b",
+              "text": "out is air to search going he"
+            },
+            {
+              "label": "c",
+              "text": "search he out is air to going"
+            },
+            {
+              "label": "d",
+              "text": "None of the above"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Sort the words by last letter, latest in the alphabet first: out(t), is(s), air(r), to(o), search(h), going(g), he(e).",
+            "That gives 'out is air to search going he'."
+          ]
+        },
+        {
+          "q_slug": "io-word-machine-q2",
+          "order": 2,
+          "question_text": "If step 2 of an input is 'not is the casino considering legal action', which step is 'not is casino action legal the considering'?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Step 3"
+            },
+            {
+              "label": "b",
+              "text": "Step 6"
+            },
+            {
+              "label": "c",
+              "text": "Step 4"
+            },
+            {
+              "label": "d",
+              "text": "None of the above"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Continuing the machine: step 3 = 'not is casino the considering legal action', step 4 = 'not is casino action the considering legal', step 5 = 'not is casino action legal the considering'.",
+            "The target matches step 5, which is not offered — so 'None of the above'."
+          ]
+        },
+        {
+          "q_slug": "io-word-machine-q3",
+          "order": 3,
+          "question_text": "How many steps are needed to reach the final arrangement for the input: 'father needs to check on the boy'?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Four"
+            },
+            {
+              "label": "b",
+              "text": "Five"
+            },
+            {
+              "label": "c",
+              "text": "Six"
+            },
+            {
+              "label": "d",
+              "text": "None of the above"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "By last letter the final line is 'boy needs father to on check the'.",
+            "Working step by step the machine reaches it in 3 steps — not among the options, so 'None of the above'."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "boolean-logic",
+      "set_slug": "bool-xy",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Truth-tellers & liars (self-reference)",
+      "title": "The island of X and Y",
+      "setup": "On an island live two kinds of people: **X-type always tell the truth** and **Y-type always lie**. For each statement, test the speaker as X and as Y and keep the consistent case.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch12 Boolean Logic, PE1 Q1-5",
+      "questions": [
+        {
+          "q_slug": "bool-xy-q1",
+          "order": 1,
+          "question_text": "Munu says, 'I always lie.' Which type is she?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "X"
+            },
+            {
+              "label": "b",
+              "text": "Y"
+            },
+            {
+              "label": "c",
+              "text": "Either X or Y"
+            },
+            {
+              "label": "d",
+              "text": "The statement is infeasible"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "If Munu were X (truthful), 'I always lie' would be a true statement that says she lies — a contradiction.",
+            "If Munu were Y (liar), then 'I always lie' would be a true statement — but a liar cannot say something true.",
+            "Neither type works, so the statement is infeasible."
+          ]
+        },
+        {
+          "q_slug": "bool-xy-q2",
+          "order": 2,
+          "question_text": "Bhasker says, 'Sharma and I are of the same type.' What can we conclude?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Bhasker and Sharma are necessarily the same type"
+            },
+            {
+              "label": "b",
+              "text": "Sharma has to be type X"
+            },
+            {
+              "label": "c",
+              "text": "Bhasker and Sharma cannot be the same type"
+            },
+            {
+              "label": "d",
+              "text": "The statement is infeasible"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "If Bhasker is X, his claim is true, so Sharma is also X.",
+            "If Bhasker is Y, his claim is false, so they are of different types — making Sharma X.",
+            "Either way Sharma has to be type X."
+          ]
+        },
+        {
+          "q_slug": "bool-xy-q3",
+          "order": 3,
+          "question_text": "Rahul says, 'Pallavi and I are of different types.' What can we conclude?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Rahul is Y and Pallavi is X"
+            },
+            {
+              "label": "b",
+              "text": "Rahul and Pallavi cannot be the same type"
+            },
+            {
+              "label": "c",
+              "text": "Pallavi has to be type Y"
+            },
+            {
+              "label": "d",
+              "text": "None of these"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "If Rahul is X, his claim is true, so Pallavi is the other type — Y.",
+            "If Rahul is Y, his claim is false, so they are actually the same type — again making Pallavi Y.",
+            "Either way Pallavi has to be type Y."
+          ]
+        },
+        {
+          "q_slug": "bool-xy-q4",
+          "order": 4,
+          "question_text": "Booker says, 'At least one of Shane and I always lies.' What are Booker and Shane respectively?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Y, X"
+            },
+            {
+              "label": "b",
+              "text": "Y, Y"
+            },
+            {
+              "label": "c",
+              "text": "X, Y"
+            },
+            {
+              "label": "d",
+              "text": "It is not possible to deduce"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "If Booker were Y (liar), his statement would be false, meaning neither of them lies — but that contradicts Booker being a liar.",
+            "So Booker is X and his statement is true; since Booker (X) does not lie, the liar must be Shane.",
+            "Hence Booker is X and Shane is Y."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "boolean-logic",
+      "set_slug": "bool-alternator",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Truth / lie / alternator",
+      "title": "Three friends and their websites",
+      "setup": "Three friends **A, R and U**: one always tells the truth, one always lies, and one **alternates** (exactly one of their two statements is true). One owns facebook.com, one orkut.com, one terrificmail.com. Each is asked which site they own:\n\nA: I own facebook.com. U owns orkut.com.\n\nU: I own facebook.com. R owns terrificmail.com.\n\nR: A owns orkut.com. U owns facebook.com.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch12 Boolean Logic, PE1 Q12-16",
+      "questions": [
+        {
+          "q_slug": "bool-alternator-q1",
+          "order": 1,
+          "question_text": "Who among the three is the truth-teller?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "A"
+            },
+            {
+              "label": "b",
+              "text": "R"
+            },
+            {
+              "label": "c",
+              "text": "U"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Assume A tells the truth: then A owns facebook and U owns orkut, leaving terrificmail for R.",
+            "Checking the rest, U then has one true and one false statement (alternator) and R has both false (liar) — a consistent split of the three roles.",
+            "The other assumptions give two truth-tellers, which is not allowed, so A is the truth-teller."
+          ]
+        },
+        {
+          "q_slug": "bool-alternator-q2",
+          "order": 2,
+          "question_text": "Which website does U own?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "facebook.com"
+            },
+            {
+              "label": "b",
+              "text": "orkut.com"
+            },
+            {
+              "label": "c",
+              "text": "terrificmail.com"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Since A (truth-teller) says 'U owns orkut.com', that is true.",
+            "So U owns orkut.com."
+          ]
+        },
+        {
+          "q_slug": "bool-alternator-q3",
+          "order": 3,
+          "question_text": "Who is the liar (always lies)?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "A"
+            },
+            {
+              "label": "b",
+              "text": "R"
+            },
+            {
+              "label": "c",
+              "text": "U"
+            },
+            {
+              "label": "d",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "With A truthful, A owns facebook, U owns orkut and R owns terrificmail.",
+            "Both of R's statements ('A owns orkut', 'U owns facebook') are then false, so R always lies; U, with one true and one false, is the alternator."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "logical-links",
+      "set_slug": "links-set-1",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "What follows from the statement?",
+      "title": "Reading conditional statements",
+      "setup": "Each item gives one statement. Convert its connective to strict logic — 'A only if B' means A → B, 'A whenever B' means B → A, 'A unless B' means (not B) → A — then pick the conclusion that must hold (usually the contrapositive), avoiding the classic fallacies.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch3 Logical Links, PE1",
+      "questions": [
+        {
+          "q_slug": "links-set-1-q1",
+          "order": 1,
+          "question_text": "'I will buy the aeroplane **only if** it is the costliest and the fastest.' Which situation is possible?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "I did not buy it, and it is neither the fastest nor the costliest"
+            },
+            {
+              "label": "b",
+              "text": "I bought it, but it is neither the costliest nor the fastest"
+            },
+            {
+              "label": "c",
+              "text": "It is the fastest and the costliest, and I did not buy it"
+            },
+            {
+              "label": "d",
+              "text": "I bought it, and it is the fastest and the costliest"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "'Only if' makes 'costliest and fastest' a necessary condition for buying: buying ⇒ costliest and fastest.",
+            "So buying without both (option b) is impossible; but buying when both hold is fine.",
+            "Option (d) is the consistent case."
+          ]
+        },
+        {
+          "q_slug": "links-set-1-q2",
+          "order": 2,
+          "question_text": "'Raju gets a mild flu **whenever** he eats ice cream.' Which conclusion necessarily follows?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "If Raju gets a mild flu, then he ate ice cream"
+            },
+            {
+              "label": "b",
+              "text": "If Raju eats ice cream, then he does not get a mild flu"
+            },
+            {
+              "label": "c",
+              "text": "If Raju does not get a mild flu, then he did not eat ice cream"
+            },
+            {
+              "label": "d",
+              "text": "If Raju does not eat ice cream, then he does not get a mild flu"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "'Whenever he eats ice cream' means ice cream ⇒ mild flu.",
+            "Its contrapositive is: no mild flu ⇒ no ice cream — option (c).",
+            "Option (a) affirms the consequent and (d) denies the antecedent — both invalid."
+          ]
+        },
+        {
+          "q_slug": "links-set-1-q3",
+          "order": 3,
+          "question_text": "'Either Raghav is sick or he is stoned.' Which conclusion necessarily follows?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "If Raghav is sick, then he is not stoned"
+            },
+            {
+              "label": "b",
+              "text": "If Raghav is not stoned, then he is sick"
+            },
+            {
+              "label": "c",
+              "text": "If Raghav is sick, then he is stoned"
+            },
+            {
+              "label": "d",
+              "text": "If Raghav is stoned, then he is not sick"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "An inclusive 'either A or B' guarantees only that not-B forces A (and not-A forces B).",
+            "So 'not stoned ⇒ sick' — option (b).",
+            "It says nothing about what happens when one of them is true, so (a) and (d) do not follow."
+          ]
+        },
+        {
+          "q_slug": "links-set-1-q4",
+          "order": 4,
+          "question_text": "'You cannot clear the CAT **unless** you are hard-working.' Which conclusion necessarily follows?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "If you are hard-working, you can clear the CAT"
+            },
+            {
+              "label": "b",
+              "text": "If you can clear the CAT, then you are not hard-working"
+            },
+            {
+              "label": "c",
+              "text": "If you are not hard-working, you cannot clear the CAT"
+            },
+            {
+              "label": "d",
+              "text": "If you cannot clear the CAT, then you are not hard-working"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "'Cannot clear unless hard-working' means clearing the CAT ⇒ being hard-working.",
+            "Its contrapositive is: not hard-working ⇒ cannot clear — option (c).",
+            "Being hard-working is necessary, not sufficient, so (a) does not follow."
+          ]
+        },
+        {
+          "q_slug": "links-set-1-q5",
+          "order": 5,
+          "question_text": "'If the milk is not cold, then I will not go to school **and** will not have dinner.' Which conclusion necessarily follows?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "If I went to school or did not have dinner, then the milk is not cold"
+            },
+            {
+              "label": "b",
+              "text": "If I went to school and had dinner, then the milk is cold"
+            },
+            {
+              "label": "c",
+              "text": "If I went to school and did not have dinner, then the milk is cold"
+            },
+            {
+              "label": "d",
+              "text": "If I went to school or I had dinner, then the milk is cold"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The statement is: not cold ⇒ (not school AND not dinner).",
+            "Contrapositive: NOT(not school AND not dinner) ⇒ cold, i.e. (school OR dinner) ⇒ cold.",
+            "That is option (d)."
           ]
         }
       ]
