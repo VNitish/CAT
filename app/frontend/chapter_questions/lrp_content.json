@@ -12,6 +12,18 @@
         "Comparison & relative ordering",
         "Linear arrangement (under-determined)"
       ]
+    },
+    {
+      "slug": "team-selection",
+      "name": "Team Selection",
+      "order": 2,
+      "accent": "#00A37A",
+      "tagline": "Decide who goes in and who stays out: split people into teams, respect who can pair with whom, and follow the 'if this then that' selection rules.",
+      "pattern_types": [
+        "Grouping into teams (size & eligibility)",
+        "Compatibility — who can pair with whom",
+        "Conditional selection (forbidden pairs)"
+      ]
     }
   ],
   "sets": [
@@ -434,6 +446,355 @@
             "Yellow can sit in position 2, 3 or 4, and its right-hand neighbour changes with each placement.",
             "The clues never fix which colour sits to the right of yellow.",
             "So this too cannot be determined — a reminder that some CAT sets are deliberately incomplete."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-selection",
+      "set_slug": "team-committees-abc",
+      "order": 1,
+      "difficulty": "Advanced",
+      "pattern_type": "Grouping into teams (size & eligibility)",
+      "title": "Nine candidates, three committees",
+      "setup": "Nine individuals — **Z, Y, X, W, V, U, T, S and R** — are the only candidates for three committees **A, B and C**. Each candidate serves on exactly one committee.\n\n(i) Committee A has **exactly one member more** than committee B.\n\n(ii) Committee C may have **no members** at all.\n\n(iii) **Z, Y and X** cannot serve on committee A.\n\n(iv) **W, V and U** cannot serve on committee B.\n\n(v) **T, S and R** cannot serve on committee C.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch15 Advanced, PE1 Q18-23",
+      "questions": [
+        {
+          "q_slug": "team-committees-abc-q1",
+          "order": 1,
+          "question_text": "If T and Z are the two individuals serving on committee B, how many of the nine serve on committee C?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "3"
+            },
+            {
+              "label": "b",
+              "text": "4"
+            },
+            {
+              "label": "c",
+              "text": "5"
+            },
+            {
+              "label": "d",
+              "text": "6"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Committee B has 2 members (T and Z), and A must have exactly one more, so A has 3.",
+            "That accounts for 5 of the 9 people on A and B together.",
+            "The remaining 9 − 5 = 4 go to committee C."
+          ]
+        },
+        {
+          "q_slug": "team-committees-abc-q2",
+          "order": 2,
+          "question_text": "The largest number of the nine that can serve together on committee C is:",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "9"
+            },
+            {
+              "label": "b",
+              "text": "8"
+            },
+            {
+              "label": "c",
+              "text": "7"
+            },
+            {
+              "label": "d",
+              "text": "6"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "To free the most people for C, make A and B as small as possible.",
+            "B can be just 1 member, which forces A to 2 (one more than B) — 3 people used.",
+            "The other 9 − 3 = 6 can all sit on C, so the largest possible C is 6."
+          ]
+        },
+        {
+          "q_slug": "team-committees-abc-q3",
+          "order": 3,
+          "question_text": "If R is the only individual serving on committee B, which two must serve on committee A?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "W and S"
+            },
+            {
+              "label": "b",
+              "text": "V and U"
+            },
+            {
+              "label": "c",
+              "text": "V and T"
+            },
+            {
+              "label": "d",
+              "text": "T and S"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "B = {R}, so A must have exactly 2 members.",
+            "A cannot contain Z, Y or X (clue iii), so its members come from W, V, U, T, S.",
+            "T and S cannot serve on C (clue v) and are not on B, so both must land on A — filling its two seats."
+          ]
+        },
+        {
+          "q_slug": "team-committees-abc-q4",
+          "order": 4,
+          "question_text": "If T, S and X are the only individuals serving on committee B, who makes up committee C?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Z and Y"
+            },
+            {
+              "label": "b",
+              "text": "Z and W"
+            },
+            {
+              "label": "c",
+              "text": "Y and V"
+            },
+            {
+              "label": "d",
+              "text": "Y and U"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "B has 3 members, so A has 4; that leaves 9 − 7 = 2 for committee C.",
+            "Z and Y cannot be on A (clue iii) and are not on B here, so they must take the two C seats.",
+            "Hence committee C is exactly Z and Y."
+          ]
+        },
+        {
+          "q_slug": "team-committees-abc-q5",
+          "order": 5,
+          "question_text": "Which of the following could be the membership of committee C?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "Y and T"
+            },
+            {
+              "label": "b",
+              "text": "X and U"
+            },
+            {
+              "label": "c",
+              "text": "Y, X and W"
+            },
+            {
+              "label": "d",
+              "text": "W, V and U"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "T, S and R can never be on committee C (clue v), so 'Y and T' is out.",
+            "Whenever C is non-empty, A and B use up enough people that C holds at most two — so the 3-member options are impossible.",
+            "'X and U' breaks no rule (neither is barred from C), so it is the only possible membership."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-selection",
+      "set_slug": "team-essences",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Compatibility — who can pair with whom",
+      "title": "Blending five essences",
+      "setup": "A perfumer blends two or more of five essences — **L, M, N, O and P**. For a blend to be agreeable it must obey every rule below:\n\n(i) any blend with **L** must also contain **N**, with N in **twice** the quantity of L;\n\n(ii) any blend with **M** must also contain **O**, in **equal** proportion;\n\n(iii) **N and O** may not appear in the same blend;\n\n(iv) **O and P** may not be used together;\n\n(v) if **P** is used, the amount of P must be **greater** than the total of all the other essences.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch14 Moderate, PE3 Q22-26",
+      "questions": [
+        {
+          "q_slug": "team-essences-q1",
+          "order": 1,
+          "question_text": "Which of the following is an agreeable formula?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "one part L, one part P"
+            },
+            {
+              "label": "b",
+              "text": "two parts M, two parts L"
+            },
+            {
+              "label": "c",
+              "text": "three parts N, three parts L"
+            },
+            {
+              "label": "d",
+              "text": "four parts O, four parts M"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "(a) uses L without the required N; (b) uses M without the required O — each breaks a 'must accompany' rule.",
+            "(c) has L and N, but N must be twice L; 3 and 3 are equal, so it fails rule (i).",
+            "(d) is 4 parts O with 4 parts M: M is matched by an equal amount of O, there is no N-with-O or O-with-P clash, and no P — agreeable."
+          ]
+        },
+        {
+          "q_slug": "team-essences-q2",
+          "order": 2,
+          "question_text": "Adding which combination would make an unagreeable blend of two parts N and one part P agreeable?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "one part L"
+            },
+            {
+              "label": "b",
+              "text": "one part M"
+            },
+            {
+              "label": "c",
+              "text": "two parts N"
+            },
+            {
+              "label": "d",
+              "text": "two parts P"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "With 2 parts N and 1 part P, rule (v) fails: P (1) is not greater than the rest (2 parts N).",
+            "Adding 2 parts P makes it 2N and 3P; now P (3) exceeds the other essences (2), and no other rule is broken.",
+            "So adding two parts P fixes it."
+          ]
+        },
+        {
+          "q_slug": "team-essences-q3",
+          "order": 3,
+          "question_text": "Which pair of essences can never be used together in an agreeable blend?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "L and M"
+            },
+            {
+              "label": "b",
+              "text": "L and N"
+            },
+            {
+              "label": "c",
+              "text": "L and P"
+            },
+            {
+              "label": "d",
+              "text": "P and N"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Using L forces N into the blend (rule i); using M forces O into the blend (rule ii).",
+            "But rule (iii) forbids N and O together, so a blend with both L and M is impossible.",
+            "The other pairs can coexist, so the answer is L and M."
+          ]
+        },
+        {
+          "q_slug": "team-essences-q4",
+          "order": 4,
+          "question_text": "Which formula can be made agreeable by eliminating some or all of one essence?",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "one part L, one part M, one part N, four parts P"
+            },
+            {
+              "label": "b",
+              "text": "one part L, two parts N, one part O, four parts P"
+            },
+            {
+              "label": "c",
+              "text": "one part L, one part M, one part O, one part P"
+            },
+            {
+              "label": "d",
+              "text": "two parts M, one part N, two parts O, three parts P"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "(b) is 1L, 2N, 1O, 4P. Its only faults are N-with-O (iii) and O-with-P (iv) — both caused by the O.",
+            "Drop the O: 1L, 2N, 4P. Now N is twice L, there is no N-O or O-P clash, and P (4) exceeds the rest (3) — agreeable.",
+            "The other formulae cannot be repaired by removing just one essence."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-selection",
+      "set_slug": "team-committee5",
+      "order": 3,
+      "difficulty": "Advanced",
+      "pattern_type": "Conditional selection (forbidden pairs)",
+      "title": "A committee of five",
+      "setup": "A CEO must form a committee of five: **two MBAs** chosen from A, B, C and **three engineers** chosen from D, E, F, G, H.\n\n(i) **B and H** cannot both be on the committee.\n\n(ii) **G and F** cannot both be on the committee.\n\n(iii) **E and H** cannot both be on the committee.",
+      "figure": "",
+      "source": "Nishit Sinha LRDI 6e, Ch15 Advanced, PE1 Q25",
+      "questions": [
+        {
+          "q_slug": "team-committee5-q1",
+          "order": 1,
+          "question_text": "If C is not selected, then each of the following could be on the committee **except**:",
+          "figure": "",
+          "options": [
+            {
+              "label": "a",
+              "text": "D"
+            },
+            {
+              "label": "b",
+              "text": "H"
+            },
+            {
+              "label": "c",
+              "text": "E"
+            },
+            {
+              "label": "d",
+              "text": "G"
+            }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "With C left out, the two MBA seats must go to A and B — so B is definitely on the committee.",
+            "Rule (i) says B and H cannot both serve, so H is ruled out.",
+            "D, E and G each remain possible, so the one that cannot be included is H."
           ]
         }
       ]
