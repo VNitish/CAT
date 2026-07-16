@@ -1,0 +1,2417 @@
+{
+ "topics": [
+  {
+   "slug": "logical-links",
+   "name": "Logical Links",
+   "order": 1,
+   "accent": "#378ADD",
+   "tagline": "Follow what if-then, only-if and either-or actually let you conclude.",
+   "concept_title": "Sufficiency, necessity and the contrapositive",
+   "concept_explanation": "A logical link is a connective (if-then, only-if, either-or) that joins simple statements into a compound one and fixes how the ideas depend on each other. The whole game is direction: what forces what.\n\n- **If A then B**: A is *sufficient* for B (A guarantees B); B is *necessary* for A. Valid moves: A therefore B, and not-B therefore not-A (the contrapositive). Invalid: concluding anything from B alone or from not-A alone (B may occur for other reasons).\n- **Only if A then B**: A is *necessary* for B, so B therefore A. A by itself does not guarantee B.\n- **Either X or Y**: at least one holds; if one is false, the other must be true.",
+   "approach_steps": [
+    "Name the connective and write what is sufficient and what is necessary.",
+    "Apply only the valid moves: the direct one (A gives B) and the contrapositive (not-B gives not-A).",
+    "Reject reversals: B does not give A, and not-A gives nothing."
+   ]
+  },
+  {
+   "slug": "syllogism",
+   "name": "Syllogism",
+   "order": 2,
+   "accent": "#7B2FBE",
+   "tagline": "Decide which conclusions must follow from given statements.",
+   "concept_title": "Statements, premises and necessary conclusions",
+   "concept_explanation": "A syllogism gives you statements (premises) that you must treat as true, and asks which conclusions necessarily follow. Ignore real-world meaning; reason only from the statements.\n\nThe four standard statement types:\n- **All A are B** (universal affirmative): every A is inside B.\n- **No A is B** (universal negative): A and B do not overlap at all.\n- **Some A are B** (particular affirmative): at least one A is a B.\n- **Some A are not B** (particular negative): at least one A lies outside B.",
+   "approach_steps": [
+    "Draw the minimal Venn diagram the statements force (do not add overlaps that are not stated).",
+    "A conclusion follows only if it is true in every diagram the statements allow.",
+    "If two conclusions are contradictory and together cover all cases, the answer is 'either or'."
+   ]
+  },
+  {
+   "slug": "blood-relations",
+   "name": "Blood Relations",
+   "order": 3,
+   "accent": "#EC4899",
+   "tagline": "Translate a chain of relationships into a family tree.",
+   "concept_title": "Reading relations across generations",
+   "concept_explanation": "Blood-relation questions describe a chain of relationships; your job is to translate it into a family tree and read off the asked relation. The only real skill is mapping the statement to everyday family logic.\n\nHandy anchors:\n- **Only son of my father / grandfather's only son** usually resolves to a specific person (often 'me' or 'my father').\n- **Only daughter of my mother** often resolves to the speaker herself.\n- Track **generations**: grandparent, parent, self, child, grandchild.",
+   "approach_steps": [
+    "Work from the back of the sentence to the front ('daughter of the father of ...').",
+    "Place each person on a generation line; mark male or female where known.",
+    "Read the final relationship from the tree; watch for two possibilities (mother vs aunt)."
+   ]
+  },
+  {
+   "slug": "series",
+   "name": "Number and Letter Series",
+   "order": 4,
+   "accent": "#F59E0B",
+   "tagline": "Spot the rule, then extend the pattern.",
+   "concept_title": "Finding the rule behind a sequence",
+   "concept_explanation": "A series question shows a sequence built on a hidden rule; you identify the rule and extend it. Common rule families:\n- **Difference series**: look at gaps between terms (often themselves a pattern).\n- **Prime / square / cube based**: terms or their differences are primes, squares, cubes.\n- **Multiplicative**: each term times a factor, sometimes plus or minus a constant.\n- **Letter series**: convert letters to positions (A=1 ... Z=26) and treat as numbers.",
+   "approach_steps": [
+    "First check first differences; if not obvious, check second differences or ratios.",
+    "Test prime, square, cube and factorial patterns on the terms or the gaps.",
+    "For letters, convert to numbers, find the rule, then convert back."
+   ]
+  },
+  {
+   "slug": "linear-arrangement",
+   "name": "Linear and Circular Arrangement",
+   "order": 5,
+   "accent": "#00C48C",
+   "tagline": "Place people or objects from positional clues.",
+   "concept_title": "Building an arrangement from constraints",
+   "concept_explanation": "Arrangement questions place entities in a fixed order (a row, a stack, seats around a table) using positional clues. Each clue is a constraint; solve like a small logic grid.\n\n- **Linear**: a row of fixed positions; note the facing direction, which fixes left and right.\n- **Circular**: seats around a table; 'immediate left or right' depends on whether people face the centre or outward, so fix that first.",
+   "approach_steps": [
+    "Draw the empty slots and mark the facing direction.",
+    "Place the most restrictive clue first (an end, the middle, a fixed pair).",
+    "Fill the rest by elimination, keeping every clue satisfied."
+   ]
+  },
+  {
+   "slug": "team-selection",
+   "name": "Team Selection",
+   "order": 6,
+   "accent": "#EF4444",
+   "tagline": "Form a valid group under a set of selection rules.",
+   "concept_title": "Selecting a group under constraints",
+   "concept_explanation": "Team or committee questions ask you to form a group under selection rules. Treat each rule as a filter and test every candidate group against all of them.\n\n- **X and Y always together**: either both are in or both are out.\n- **X and Y never together**: at most one of them can be in.\n- **If X then Y**: choosing X forces Y in (but Y does not force X).",
+   "approach_steps": [
+    "List every selection rule before looking at the options.",
+    "For each candidate group, check it against every rule.",
+    "Eliminate any group that breaks even one rule; the survivor is the answer."
+   ]
+  },
+  {
+   "slug": "directions",
+   "name": "Directions and Distance",
+   "order": 7,
+   "accent": "#14B8A6",
+   "tagline": "Track turns and movements on a compass, then measure.",
+   "concept_title": "Turning and moving on a direction map",
+   "concept_explanation": "Direction questions test whether you can process movements and turns on a compass and then measure net displacement. Always draw the path.\n\n- The four mains are N, E, S, W; the corners (NE, SE, SW, NW) sit exactly at 45 degrees.\n- A right turn is clockwise; a left turn is anticlockwise.\n- Net straight-line distance often comes from a right triangle, so keep the 3-4-5 idea ready.",
+   "approach_steps": [
+    "Draw a compass and plot each leg of the journey in order.",
+    "For a turn, rotate from the current facing; right is clockwise, left is anticlockwise.",
+    "For distance, add up net east-west and net north-south, then use Pythagoras if needed."
+   ]
+  },
+  {
+   "slug": "input-output",
+   "name": "Input-Output",
+   "order": 8,
+   "accent": "#8B5CF6",
+   "tagline": "Infer the machine's rearranging rule, then extend it.",
+   "concept_title": "Reading a step-by-step rearrangement machine",
+   "concept_explanation": "An input-output machine takes a line of numbers or words and, at each step, rearranges it by a fixed hidden rule, moving one element at a time. You infer the rule from the given steps, then extend it.\n\n- **Reasoning-based** (sort ascending or descending, alphabetical order): the last step is the fully ordered line, and each step fixes one more element into place.\n- Because a reasoning rule loses information, you usually **cannot recover the input** (or an earlier step) from a later step.",
+   "approach_steps": [
+    "Compare consecutive steps to spot which element moved and why.",
+    "Check the last step: it shows the final order (sorted or alphabetical), which reveals the rule.",
+    "To find step N, apply the rule N times from the input; you cannot run it backwards."
+   ]
+  },
+  {
+   "slug": "cubes",
+   "name": "Cubes",
+   "order": 9,
+   "accent": "#D97706",
+   "tagline": "Count painted small cubes and cuts with clean formulas.",
+   "concept_title": "Painting and cutting a cube",
+   "concept_explanation": "A cube has 6 faces, 8 corners and 12 edges. Paint it on all faces and cut it into n x n x n identical small cubes; how much paint a small cube carries depends only on where it sits.\n\n- **3 faces painted** (the corners): always **8**.\n- **2 faces painted** (along the edges): **12(n - 2)**.\n- **1 face painted** (face centres): **6(n - 2)squared**.\n- **0 faces painted** (the inner core): **(n - 2) cubed**.\n- Total is n cubed, and the four counts add up to n cubed.\n- To cut a cube into n cubed pieces without rearranging, you need (n - 1) cuts per axis, i.e. 3(n - 1) cuts.",
+   "approach_steps": [
+    "Read n from the number of small cubes (small cubes = n cubed).",
+    "Pick the matching formula for 3, 2, 1 or 0 painted faces.",
+    "For cuts without rearrangement, count (n - 1) per axis across three axes."
+   ]
+  },
+  {
+   "slug": "boolean-logic",
+   "name": "Boolean Logic",
+   "order": 10,
+   "accent": "#0891B2",
+   "tagline": "Untangle knights (always truth) and knaves (always lie).",
+   "concept_title": "Knights, knaves and assumption testing",
+   "concept_explanation": "On the classic island, knights always tell the truth and knaves always lie (some variants add spies, who may do either). Assume a person is a knight and follow the consequences; if you reach a contradiction, they must be a knave, and the reverse.\n\n- A statement's truth must match the speaker's type: a knight's statement is true, a knave's is false.\n- 'I am a knave' can be said by neither type, so it is impossible.\n- To find a road from an unknown local, ask what a person of the OTHER type would say, then do the opposite.",
+   "approach_steps": [
+    "Test each person as a knight, then as a knave.",
+    "Keep the single assignment that is contradiction-free for everyone.",
+    "For yes/no route puzzles, use the 'what would the other type say' trick and reverse the answer."
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "topic_slug": "logical-links",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"If it rains, the match is cancelled.\" The match was NOT cancelled. What follows?",
+   "options": [
+    {
+     "label": "a",
+     "text": "It rained"
+    },
+    {
+     "label": "b",
+     "text": "It did not rain"
+    },
+    {
+     "label": "c",
+     "text": "It may or may not have rained"
+    },
+    {
+     "label": "d",
+     "text": "Nothing can be concluded"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "'If rain then cancelled' means rain is sufficient for cancellation.",
+    "The contrapositive is valid: not cancelled therefore not rain.",
+    "So it did not rain."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"If it rains, the match is cancelled.\" It rained. What follows?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The match was cancelled"
+    },
+    {
+     "label": "b",
+     "text": "The match was not cancelled"
+    },
+    {
+     "label": "c",
+     "text": "Cannot say"
+    },
+    {
+     "label": "d",
+     "text": "Nothing can be concluded"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Rain is sufficient for cancellation.",
+    "The direct move is valid: rain therefore cancelled.",
+    "So the match was cancelled."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"If it rains, the match is cancelled.\" The match WAS cancelled. What follows about the rain?",
+   "options": [
+    {
+     "label": "a",
+     "text": "It definitely rained"
+    },
+    {
+     "label": "b",
+     "text": "It definitely did not rain"
+    },
+    {
+     "label": "c",
+     "text": "It may or may not have rained"
+    },
+    {
+     "label": "d",
+     "text": "The statement is false"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "The statement makes rain sufficient for cancellation, not necessary.",
+    "The match could be cancelled for other reasons (a wet pitch, no umpire).",
+    "So from 'cancelled' alone, nothing about rain is forced: it may or may not have rained."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"Only if you are at least 18 can you vote.\" Ravi voted. What follows?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Ravi is at least 18"
+    },
+    {
+     "label": "b",
+     "text": "Ravi is under 18"
+    },
+    {
+     "label": "c",
+     "text": "Cannot say"
+    },
+    {
+     "label": "d",
+     "text": "Ravi is exactly 18"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "'Only if A then B' makes A necessary for B: voting requires being at least 18.",
+    "Ravi voted, so the necessary condition must hold.",
+    "Ravi is at least 18."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"If A then B\" is logically equivalent to which statement?",
+   "options": [
+    {
+     "label": "a",
+     "text": "If B then A"
+    },
+    {
+     "label": "b",
+     "text": "If not A then not B"
+    },
+    {
+     "label": "c",
+     "text": "If not B then not A"
+    },
+    {
+     "label": "d",
+     "text": "A only if not B"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A conditional is equivalent to its contrapositive: swap and negate both parts.",
+    "'If A then B' becomes 'If not B then not A'.",
+    "The others (converse and inverse) are not equivalent."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 6,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"Either the light is off or the fan is on.\" The light is on. What follows?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The fan is on"
+    },
+    {
+     "label": "b",
+     "text": "The fan is off"
+    },
+    {
+     "label": "c",
+     "text": "Cannot say"
+    },
+    {
+     "label": "d",
+     "text": "Nothing can be concluded"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "'Either X or Y' means at least one of X, Y is true.",
+    "The light being on makes 'the light is off' false.",
+    "So the other part must be true: the fan is on."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "logical-links",
+   "order": 7,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "\"If the alarm rings, then either the door is open or the window is broken.\" The alarm rang and the door is closed. What must be true?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The window is broken"
+    },
+    {
+     "label": "b",
+     "text": "The window is intact"
+    },
+    {
+     "label": "c",
+     "text": "The door is open"
+    },
+    {
+     "label": "d",
+     "text": "Nothing can be concluded"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "The alarm rang, so 'the door is open or the window is broken' must be true.",
+    "The door is closed, so 'the door is open' is false.",
+    "For the 'or' to hold, the window must be broken."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) All pens are books. (2) Some books are red.\nConclusions: (I) Some pens are red. (II) Some books are pens.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "All pens are books means pens sit entirely inside books, so at least those pens are books: 'some books are pens' is forced. II follows.",
+    "'Some books are red' need not touch the pens region; the red books can all be non-pen books, so I is not guaranteed.",
+    "Hence only II follows."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) All dogs are animals. (2) All animals are living things.\nConclusions: (I) All dogs are living things. (II) Some living things are dogs.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "Dogs are inside animals, and animals are inside living things, so every dog is a living thing. I follows.",
+    "Dogs exist and are living things, so some living things are dogs. II follows.",
+    "Both follow."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) No cat is a dog. (2) All dogs are pets.\nConclusions: (I) No cat is a pet. (II) Some pets are not cats.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "All dogs are pets and no dog is a cat, so the dogs are pets that are not cats: 'some pets are not cats' is forced. II follows.",
+    "Cats might still be pets (the statements never forbid it), so 'no cat is a pet' is not guaranteed. I does not follow.",
+    "Only II follows."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) Some students are teachers. (2) All teachers are graduates.\nConclusions: (I) Some students are graduates. (II) Some graduates are students.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "Some students are teachers, and all teachers are graduates, so those students are graduates. I follows.",
+    "The same overlap means some graduates are students. II follows.",
+    "Both follow."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) All A are B. (2) No B is C.\nConclusions: (I) No A is C. (II) Some B are not C.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A is inside B and B is completely separate from C, so A is also separate from C: no A is C. I follows.",
+    "No B is C means every B lies outside C, and B is non-empty (it contains A), so some B are not C. II follows.",
+    "Both follow."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 6,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) All cups are plates. (2) No plate is a glass.\nConclusions: (I) No cup is a glass. (II) Some plates are cups.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "Cups are inside plates and plates are separate from glasses, so cups are separate from glasses: no cup is a glass. I follows.",
+    "Cups exist and are plates, so some plates are cups. II follows.",
+    "Both follow."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 7,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) Some A are B. (2) All B are C.\nConclusions: (I) Some A are C. (II) All A are C.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Both follow"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Some A are B, and all B are C, so those A are also C: some A are C. I follows.",
+    "The A that are not B need not be C, so 'all A are C' is not forced. II does not follow.",
+    "Only I follows."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "syllogism",
+   "order": 8,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Statements: (1) Some books are pens. (2) Some pens are pencils.\nConclusions: (I) Some books are pencils. (II) No book is a pencil.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only I follows"
+    },
+    {
+     "label": "b",
+     "text": "Only II follows"
+    },
+    {
+     "label": "c",
+     "text": "Either I or II follows"
+    },
+    {
+     "label": "d",
+     "text": "Neither follows"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "Two 'some' statements linked through a middle term give no definite link between books and pencils, so neither I nor II follows on its own.",
+    "But I ('some books are pencils') and II ('no book is a pencil') are contradictory and cover every possibility: books and pencils either overlap or they do not.",
+    "When neither follows alone yet the pair is complementary, the answer is 'either I or II follows'."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Pointing to a photograph, a man said, \"She is the daughter of my grandfather's only son.\" How is the woman related to the man?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Sister"
+    },
+    {
+     "label": "b",
+     "text": "Mother"
+    },
+    {
+     "label": "c",
+     "text": "Aunt"
+    },
+    {
+     "label": "d",
+     "text": "Daughter"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Grandfather's only son is the man's own father.",
+    "The daughter of the man's father is the man's sister.",
+    "So the woman is his sister."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A is the brother of B. C is the father of A. How is C related to B?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Father"
+    },
+    {
+     "label": "b",
+     "text": "Brother"
+    },
+    {
+     "label": "c",
+     "text": "Uncle"
+    },
+    {
+     "label": "d",
+     "text": "Son"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "A is the brother of B, so A and B are siblings (children of the same parents).",
+    "C is the father of A, therefore C is also the father of B.",
+    "C is B's father."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Mother"
+    },
+    {
+     "label": "b",
+     "text": "Sister"
+    },
+    {
+     "label": "c",
+     "text": "Aunt"
+    },
+    {
+     "label": "d",
+     "text": "Grandmother"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "The only daughter of the woman's mother is the woman herself.",
+    "So 'his mother' is the woman.",
+    "The woman is the man's mother."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "P is the son of Q. R is the mother of Q. S is the father of R. How is P related to S?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Great-grandson"
+    },
+    {
+     "label": "b",
+     "text": "Grandson"
+    },
+    {
+     "label": "c",
+     "text": "Son"
+    },
+    {
+     "label": "d",
+     "text": "Great-grandfather"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Generations from S downward: S is the father of R, R is the mother of Q, Q is the parent of P.",
+    "That is four generations: S, then R, then Q, then P.",
+    "P is three generations below S, so P is S's great-grandson."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A man, pointing to a lady, said, \"Her son is my son's uncle.\" How is the lady related to the man?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Mother"
+    },
+    {
+     "label": "b",
+     "text": "Sister"
+    },
+    {
+     "label": "c",
+     "text": "Grandmother"
+    },
+    {
+     "label": "d",
+     "text": "Aunt"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "My son's uncle is my own brother.",
+    "So the lady's son is the man's brother, which means the lady is the mother of the man and his brother.",
+    "The lady is the man's mother."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 6,
+   "difficulty": "Moderate",
+   "setup": "Study the family: A is the father of B. C is the daughter of A. D is the brother of A. E is the son of B.",
+   "set_id": "blood-fam-1",
+   "question_text": "How is D related to C?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Uncle"
+    },
+    {
+     "label": "b",
+     "text": "Father"
+    },
+    {
+     "label": "c",
+     "text": "Brother"
+    },
+    {
+     "label": "d",
+     "text": "Grandfather"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "C is the daughter of A, and D is the brother of A.",
+    "D is therefore the brother of C's parent.",
+    "D is C's uncle."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "blood-relations",
+   "order": 7,
+   "difficulty": "Moderate",
+   "setup": "Study the family: A is the father of B. C is the daughter of A. D is the brother of A. E is the son of B.",
+   "set_id": "blood-fam-1",
+   "question_text": "How is E related to A?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Grandson"
+    },
+    {
+     "label": "b",
+     "text": "Son"
+    },
+    {
+     "label": "c",
+     "text": "Nephew"
+    },
+    {
+     "label": "d",
+     "text": "Brother"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "E is the son of B, and B is a child of A.",
+    "So E belongs to the generation below B, two below A.",
+    "E is A's grandson."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 2, 6, 12, 20, 30, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "40"
+    },
+    {
+     "label": "b",
+     "text": "42"
+    },
+    {
+     "label": "c",
+     "text": "44"
+    },
+    {
+     "label": "d",
+     "text": "36"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Differences between terms: 4, 6, 8, 10, which rise by 2 each time.",
+    "The next difference is 12, so the next term is 30 + 12 = 42.",
+    "(Equivalently the terms are n(n+1): 1x2, 2x3, ... 5x6, then 6x7 = 42.)"
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 3, 6, 11, 18, 27, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "36"
+    },
+    {
+     "label": "b",
+     "text": "38"
+    },
+    {
+     "label": "c",
+     "text": "40"
+    },
+    {
+     "label": "d",
+     "text": "42"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Differences: 3, 5, 7, 9, which are consecutive odd numbers.",
+    "The next difference is 11, so the next term is 27 + 11 = 38."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 4, 9, 25, 49, 121, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "143"
+    },
+    {
+     "label": "b",
+     "text": "169"
+    },
+    {
+     "label": "c",
+     "text": "168"
+    },
+    {
+     "label": "d",
+     "text": "165"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Each term is the square of a prime: 2^2, 3^2, 5^2, 7^2, 11^2.",
+    "The next prime is 13, so the next term is 13^2 = 169."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 1, 5, 14, 39, 88, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "209"
+    },
+    {
+     "label": "b",
+     "text": "199"
+    },
+    {
+     "label": "c",
+     "text": "180"
+    },
+    {
+     "label": "d",
+     "text": "175"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Differences are 4, 9, 25, 49, which are squares of primes 2, 3, 5, 7.",
+    "The next difference is 11^2 = 121, so the next term is 88 + 121 = 209."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next letter: B, D, G, K, P, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "U"
+    },
+    {
+     "label": "b",
+     "text": "V"
+    },
+    {
+     "label": "c",
+     "text": "W"
+    },
+    {
+     "label": "d",
+     "text": "T"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Positions: B=2, D=4, G=7, K=11, P=16.",
+    "Gaps are 2, 3, 4, 5, so the next gap is 6, giving position 22.",
+    "Position 22 is the letter V."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 6,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 1, 2, 6, 24, 120, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "600"
+    },
+    {
+     "label": "b",
+     "text": "720"
+    },
+    {
+     "label": "c",
+     "text": "700"
+    },
+    {
+     "label": "d",
+     "text": "840"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "These are factorials: 1!, 2!, 3!, 4!, 5!.",
+    "Equivalently each term is multiplied by 2, 3, 4, 5 in turn, so next is 120 x 6 = 720."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 7,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 7, 14, 28, 56, 112, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "196"
+    },
+    {
+     "label": "b",
+     "text": "210"
+    },
+    {
+     "label": "c",
+     "text": "224"
+    },
+    {
+     "label": "d",
+     "text": "168"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "Each term is double the previous one.",
+    "112 x 2 = 224."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 8,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next term: 0, 1, 1, 2, 3, 5, 8, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "11"
+    },
+    {
+     "label": "b",
+     "text": "12"
+    },
+    {
+     "label": "c",
+     "text": "13"
+    },
+    {
+     "label": "d",
+     "text": "15"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "This is the Fibonacci sequence: each term is the sum of the previous two.",
+    "5 + 8 = 13."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "series",
+   "order": 9,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Find the next letter: Z, W, T, Q, N, ?",
+   "options": [
+    {
+     "label": "a",
+     "text": "K"
+    },
+    {
+     "label": "b",
+     "text": "L"
+    },
+    {
+     "label": "c",
+     "text": "J"
+    },
+    {
+     "label": "d",
+     "text": "M"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Positions: Z=26, W=23, T=20, Q=17, N=14, decreasing by 3 each time.",
+    "The next position is 14 - 3 = 11, which is the letter K."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "P, Q, R, S and T sit in a row of five seats facing north. P is at the extreme left. Q is immediately to the right of P. T is exactly in the middle. S is not at either end. Who sits at the extreme right?",
+   "options": [
+    {
+     "label": "a",
+     "text": "P"
+    },
+    {
+     "label": "b",
+     "text": "Q"
+    },
+    {
+     "label": "c",
+     "text": "R"
+    },
+    {
+     "label": "d",
+     "text": "S"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "P is seat 1 and Q, immediately to P's right, is seat 2.",
+    "T is in the middle, seat 3. That leaves seats 4 and 5 for R and S.",
+    "S is not at an end, so S takes seat 4 and R takes seat 5. R is at the extreme right."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Five books are stacked. D is at the top. A is above B. E is between A and B. C is below B. Which book is exactly in the middle of the stack?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A"
+    },
+    {
+     "label": "b",
+     "text": "E"
+    },
+    {
+     "label": "c",
+     "text": "B"
+    },
+    {
+     "label": "d",
+     "text": "D"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "A is above B with E between them, so top to bottom they run A, E, B.",
+    "D is at the top and C is below B, giving the full order D, A, E, B, C.",
+    "The middle of five is the third book, which is E."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Seven people A to G sit in a row facing north. D is exactly in the middle. A is at the extreme left and G is at the extreme right. B is second from the left. C is immediately to the left of D. F is between D and G but not next to G. Which position from the left does E occupy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "3rd"
+    },
+    {
+     "label": "b",
+     "text": "4th"
+    },
+    {
+     "label": "c",
+     "text": "5th"
+    },
+    {
+     "label": "d",
+     "text": "6th"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "d",
+   "solution_steps": [
+    "Seven seats: D is seat 4, A is seat 1, G is seat 7, B is seat 2.",
+    "C immediately left of D means C is seat 3. F is between D and G (seats 5 or 6) but not next to G, so F is seat 5.",
+    "The only seat left is 6, so E is seat 6, that is, sixth from the left."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A, B, C, D and E sit around a circular table facing the centre. A is immediately to the right of B. C is immediately to the right of A. E is immediately to the right of C. D is immediately to the right of E. Who is immediately to the right of D?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A"
+    },
+    {
+     "label": "b",
+     "text": "B"
+    },
+    {
+     "label": "c",
+     "text": "C"
+    },
+    {
+     "label": "d",
+     "text": "E"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Going right (clockwise) from B: B, then A, then C, then E, then D.",
+    "After D the circle returns to B.",
+    "So B is immediately to the right of D."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Six people stand in a queue facing the counter. E is at the front and F is last. C is somewhere ahead of A, who is ahead of B. D stands immediately behind C. Who is fourth from the front?",
+   "options": [
+    {
+     "label": "a",
+     "text": "C"
+    },
+    {
+     "label": "b",
+     "text": "D"
+    },
+    {
+     "label": "c",
+     "text": "A"
+    },
+    {
+     "label": "d",
+     "text": "B"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "E is 1st and F is 6th. The middle four positions (2,3,4,5) hold C, D, A, B.",
+    "C is ahead of A ahead of B, and D is immediately behind C, giving C, D, A, B in that block.",
+    "So the order is E, C, D, A, B, F; the fourth from the front is A."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "linear-arrangement",
+   "order": 6,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Eight people sit around a circular table, equally spaced, facing the centre. A sits directly across from C. How many people sit between A and C along each side?",
+   "options": [
+    {
+     "label": "a",
+     "text": "2"
+    },
+    {
+     "label": "b",
+     "text": "3"
+    },
+    {
+     "label": "c",
+     "text": "4"
+    },
+    {
+     "label": "d",
+     "text": "1"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Directly across in a circle of 8 means A and C are 4 seats apart.",
+    "Between two seats that are 4 apart there are 4 - 1 = 3 seats on that side.",
+    "So 3 people sit between A and C on each side."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "team-selection",
+   "order": 1,
+   "difficulty": "Moderate",
+   "setup": "A committee of 3 is to be formed from six people P, Q, R, S, T, U under these rules: (i) P and Q cannot both be selected. (ii) If R is selected, S must be selected. (iii) T and U are always selected together or not at all.",
+   "set_id": "team-comm-1",
+   "question_text": "Which of these is a valid committee?",
+   "options": [
+    {
+     "label": "a",
+     "text": "P, Q, R"
+    },
+    {
+     "label": "b",
+     "text": "R, S, T"
+    },
+    {
+     "label": "c",
+     "text": "T, U, P"
+    },
+    {
+     "label": "d",
+     "text": "R, S, U"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "P, Q, R breaks rule (i): P and Q cannot both be in.",
+    "R, S, T breaks rule (iii): T is in without U. R, S, U breaks rule (iii): U is in without T.",
+    "T, U, P keeps T and U together, has no R issue, and has P without Q. It is valid."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "team-selection",
+   "order": 2,
+   "difficulty": "Moderate",
+   "setup": "A committee of 3 is to be formed from six people P, Q, R, S, T, U under these rules: (i) P and Q cannot both be selected. (ii) If R is selected, S must be selected. (iii) T and U are always selected together or not at all.",
+   "set_id": "team-comm-1",
+   "question_text": "If R is selected for the committee, which pair completes a valid committee of 3?",
+   "options": [
+    {
+     "label": "a",
+     "text": "S and T"
+    },
+    {
+     "label": "b",
+     "text": "S and P"
+    },
+    {
+     "label": "c",
+     "text": "S and U"
+    },
+    {
+     "label": "d",
+     "text": "T and U"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Rule (ii): R forces S in, so R and S take two of the three seats.",
+    "The third member cannot be just T or just U (rule iii needs both, which would make four), so it must be P or Q.",
+    "S and P works (R, S, P); S and T, S and U each break rule (iii). Answer: S and P."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "team-selection",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "From five players A, B, C, D, E, a team of 2 is chosen. A will not play with B. C plays only if D also plays. Which team is valid?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A and B"
+    },
+    {
+     "label": "b",
+     "text": "C and E"
+    },
+    {
+     "label": "c",
+     "text": "C and D"
+    },
+    {
+     "label": "d",
+     "text": "A and C"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A and B breaks the rule that A will not play with B.",
+    "C needs D alongside, so C and E and also A and C are invalid (C without D).",
+    "C and D satisfies every rule, so it is valid."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "team-selection",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A group of 4 is chosen from A, B, C, D, E, F. B and C are always together. D and E are never together. A must be included. Which group is valid?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A, B, C, D"
+    },
+    {
+     "label": "b",
+     "text": "A, D, E, F"
+    },
+    {
+     "label": "c",
+     "text": "A, B, D, E"
+    },
+    {
+     "label": "d",
+     "text": "A, C, D, F"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "A, D, E, F breaks 'D and E never together'.",
+    "A, B, D, E also has D and E together; A, C, D, F has C without B (B and C must be together).",
+    "A, B, C, D keeps B with C, has only D (not E), and includes A. It is valid."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "team-selection",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Three of five subjects (Maths, Physics, Chemistry, Biology, English) are chosen. Maths requires Physics to be chosen too. Chemistry and Biology cannot both be chosen. Which selection is valid?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Maths, Physics, Biology"
+    },
+    {
+     "label": "b",
+     "text": "Maths, Chemistry, Biology"
+    },
+    {
+     "label": "c",
+     "text": "Physics, Chemistry, Biology"
+    },
+    {
+     "label": "d",
+     "text": "Maths, Biology, English"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Maths, Chemistry, Biology and Physics, Chemistry, Biology both put Chemistry and Biology together, which is not allowed.",
+    "Maths, Biology, English has Maths without Physics, which is not allowed.",
+    "Maths, Physics, Biology has Physics for Maths and only Biology (not Chemistry). It is valid."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A man is facing north-west. He turns 90 degrees clockwise and then 135 degrees anticlockwise. Which direction is he facing now?",
+   "options": [
+    {
+     "label": "a",
+     "text": "East"
+    },
+    {
+     "label": "b",
+     "text": "West"
+    },
+    {
+     "label": "c",
+     "text": "North"
+    },
+    {
+     "label": "d",
+     "text": "South"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Start facing north-west. A 90 degree clockwise turn brings him to north-east.",
+    "From north-east, a 135 degree anticlockwise turn moves him back 135 degrees.",
+    "North-east minus 135 degrees lands on west, so he faces west."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A person walks 5 km north, turns right and walks 3 km, then turns right and walks 5 km. How far and in which direction is he from the start?",
+   "options": [
+    {
+     "label": "a",
+     "text": "3 km east"
+    },
+    {
+     "label": "b",
+     "text": "3 km west"
+    },
+    {
+     "label": "c",
+     "text": "5 km south"
+    },
+    {
+     "label": "d",
+     "text": "8 km east"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "North 5 km, then a right turn faces east: 3 km east. A second right turn faces south: 5 km south.",
+    "The 5 km south cancels the 5 km north, leaving only 3 km east.",
+    "He is 3 km east of the start."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A boy walks 4 km east and then 3 km north. What is the shortest distance from his starting point?",
+   "options": [
+    {
+     "label": "a",
+     "text": "5 km"
+    },
+    {
+     "label": "b",
+     "text": "7 km"
+    },
+    {
+     "label": "c",
+     "text": "1 km"
+    },
+    {
+     "label": "d",
+     "text": "6 km"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "East 4 km and north 3 km are at right angles.",
+    "The straight-line distance is the hypotenuse: square root of (4^2 + 3^2) = square root of 25.",
+    "That is 5 km (a 3-4-5 right triangle)."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "At sunrise a boy stands so that his shadow falls exactly to his right. Which direction is he facing?",
+   "options": [
+    {
+     "label": "a",
+     "text": "North"
+    },
+    {
+     "label": "b",
+     "text": "South"
+    },
+    {
+     "label": "c",
+     "text": "East"
+    },
+    {
+     "label": "d",
+     "text": "West"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "At sunrise the sun is in the east, so shadows point west.",
+    "If the westward shadow is to his right, then west is on his right side.",
+    "With west on the right, he is facing north."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 5,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A man starts at a point, walks 3 km north, 4 km east, 4 km south and 4 km west. Where is he relative to the start?",
+   "options": [
+    {
+     "label": "a",
+     "text": "1 km south"
+    },
+    {
+     "label": "b",
+     "text": "1 km north"
+    },
+    {
+     "label": "c",
+     "text": "7 km east"
+    },
+    {
+     "label": "d",
+     "text": "5 km north-east"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "North 3 then south 4 gives a net 1 km south.",
+    "East 4 then west 4 cancel out, giving no east-west shift.",
+    "So he ends 1 km south of the start."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 6,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A man walks 6 km north, then turns east and walks 8 km. How far is he from the start and in roughly which direction?",
+   "options": [
+    {
+     "label": "a",
+     "text": "10 km, north-east"
+    },
+    {
+     "label": "b",
+     "text": "14 km, east"
+    },
+    {
+     "label": "c",
+     "text": "10 km, south-east"
+    },
+    {
+     "label": "d",
+     "text": "2 km, north"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "North 6 km and east 8 km are perpendicular legs.",
+    "Distance = square root of (6^2 + 8^2) = square root of 100 = 10 km.",
+    "Being north and east of the start, the direction is north-east."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "directions",
+   "order": 7,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A man is facing east. He turns 135 degrees clockwise. Which direction is he facing now?",
+   "options": [
+    {
+     "label": "a",
+     "text": "South-west"
+    },
+    {
+     "label": "b",
+     "text": "South-east"
+    },
+    {
+     "label": "c",
+     "text": "North-west"
+    },
+    {
+     "label": "d",
+     "text": "West"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "From east, 90 degrees clockwise reaches south.",
+    "A further 45 degrees clockwise (135 total) reaches south-west.",
+    "So he faces south-west."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "input-output",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A word machine, at each step, moves the word that comes first in dictionary order to the front; the remaining words keep their order. Input: go for to by easy. What is Step I?",
+   "options": [
+    {
+     "label": "a",
+     "text": "by go for to easy"
+    },
+    {
+     "label": "b",
+     "text": "easy go for to by"
+    },
+    {
+     "label": "c",
+     "text": "by easy for go to"
+    },
+    {
+     "label": "d",
+     "text": "for go to by easy"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Among go, for, to, by, easy, the dictionary-first word is 'by'.",
+    "Move 'by' to the front; the rest keep their order: go, for, to, easy.",
+    "Step I is: by go for to easy."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "input-output",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Same word machine (dictionary-first word to the front each step). Input: sun rise east in the. What is the final step?",
+   "options": [
+    {
+     "label": "a",
+     "text": "east in rise sun the"
+    },
+    {
+     "label": "b",
+     "text": "east in sun rise the"
+    },
+    {
+     "label": "c",
+     "text": "the sun rise in east"
+    },
+    {
+     "label": "d",
+     "text": "in east rise sun the"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "The machine ends when the whole line is in dictionary order.",
+    "Sorting east, in, rise, sun, the alphabetically gives: east, in, rise, sun, the.",
+    "That is the final step."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "input-output",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A number machine moves the largest number not yet in place to the front-most open position each step (the passed-over block shifts right). Input: 5, 2, 8, 1, 6. What is Step II?",
+   "options": [
+    {
+     "label": "a",
+     "text": "8, 6, 5, 2, 1"
+    },
+    {
+     "label": "b",
+     "text": "8, 6, 5, 1, 2"
+    },
+    {
+     "label": "c",
+     "text": "6, 8, 5, 2, 1"
+    },
+    {
+     "label": "d",
+     "text": "8, 5, 6, 2, 1"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Step I brings the largest (8) to the front: 8, 5, 2, 1, 6.",
+    "Step II brings the next largest (6) to the second position, shifting 5, 2, 1 right: 8, 6, 5, 2, 1.",
+    "So Step II is 8, 6, 5, 2, 1 (the line is now fully descending)."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "input-output",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "The number machine sorts a line fully into descending order, fixing one number per step. For an input of 5 numbers, how many steps does it take to finish?",
+   "options": [
+    {
+     "label": "a",
+     "text": "3"
+    },
+    {
+     "label": "b",
+     "text": "4"
+    },
+    {
+     "label": "c",
+     "text": "5"
+    },
+    {
+     "label": "d",
+     "text": "2"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Each step locks one more number into its final place, from the front.",
+    "After four numbers are placed, the fifth is automatically in place.",
+    "So 5 numbers take 4 steps."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "input-output",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "You are shown only Step III of a reasoning-based (sorting) machine and asked to find the original input. What can you conclude?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The input can be uniquely found"
+    },
+    {
+     "label": "b",
+     "text": "The input cannot be determined"
+    },
+    {
+     "label": "c",
+     "text": "The input equals the reverse of Step III"
+    },
+    {
+     "label": "d",
+     "text": "The input equals Step III"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "A sorting rule discards the original ordering as it runs.",
+    "From a later step you cannot tell which earlier arrangement produced it.",
+    "So the input cannot be determined."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A cube painted on all faces is cut into 27 identical small cubes (3 x 3 x 3). How many small cubes have exactly 2 faces painted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "8"
+    },
+    {
+     "label": "b",
+     "text": "12"
+    },
+    {
+     "label": "c",
+     "text": "6"
+    },
+    {
+     "label": "d",
+     "text": "1"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Here n = 3 (since 3 cubed = 27).",
+    "Two-face-painted cubes lie along the edges: 12(n - 2) = 12(1) = 12.",
+    "So 12 small cubes have exactly 2 faces painted."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "The same 3 x 3 x 3 painted cube (27 small cubes). How many have no face painted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "0"
+    },
+    {
+     "label": "b",
+     "text": "1"
+    },
+    {
+     "label": "c",
+     "text": "8"
+    },
+    {
+     "label": "d",
+     "text": "27"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "No-face-painted cubes form the inner core: (n - 2) cubed.",
+    "With n = 3 that is 1 cubed = 1.",
+    "So exactly 1 small cube has no painted face."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A cube painted on all faces is cut into 64 identical small cubes (4 x 4 x 4). How many have exactly 1 face painted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "24"
+    },
+    {
+     "label": "b",
+     "text": "8"
+    },
+    {
+     "label": "c",
+     "text": "12"
+    },
+    {
+     "label": "d",
+     "text": "36"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Here n = 4 (since 4 cubed = 64).",
+    "One-face-painted cubes are the face centres: 6(n - 2) squared = 6(2 squared) = 6 x 4 = 24.",
+    "So 24 small cubes have exactly 1 painted face."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "For the same 4 x 4 x 4 painted cube, how many small cubes have exactly 3 faces painted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "8"
+    },
+    {
+     "label": "b",
+     "text": "12"
+    },
+    {
+     "label": "c",
+     "text": "24"
+    },
+    {
+     "label": "d",
+     "text": "4"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Three-face-painted cubes are always the 8 corners of the big cube.",
+    "This count is 8 for any n (n at least 2), regardless of size.",
+    "So 8 small cubes have exactly 3 painted faces."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A painted cube is cut into 125 identical small cubes (5 x 5 x 5). How many have no painted face?",
+   "options": [
+    {
+     "label": "a",
+     "text": "27"
+    },
+    {
+     "label": "b",
+     "text": "9"
+    },
+    {
+     "label": "c",
+     "text": "64"
+    },
+    {
+     "label": "d",
+     "text": "8"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "Here n = 5 (since 5 cubed = 125).",
+    "No-face-painted cubes form the core: (n - 2) cubed = 3 cubed = 27.",
+    "So 27 small cubes have no painted face."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 6,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "How many straight cuts are needed to divide a cube into 27 identical pieces (3 x 3 x 3) if the pieces cannot be rearranged between cuts?",
+   "options": [
+    {
+     "label": "a",
+     "text": "6"
+    },
+    {
+     "label": "b",
+     "text": "9"
+    },
+    {
+     "label": "c",
+     "text": "2"
+    },
+    {
+     "label": "d",
+     "text": "26"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "To get 3 layers along one axis you need 3 - 1 = 2 cuts on that axis.",
+    "With no rearranging, you do this on all three axes: 2 x 3 = 6 cuts.",
+    "So 6 cuts are needed."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "cubes",
+   "order": 7,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A cube is painted on all faces and cut into n cubed small cubes. Exactly 27 of them have no paint. What is n?",
+   "options": [
+    {
+     "label": "a",
+     "text": "5"
+    },
+    {
+     "label": "b",
+     "text": "3"
+    },
+    {
+     "label": "c",
+     "text": "4"
+    },
+    {
+     "label": "d",
+     "text": "27"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "a",
+   "solution_steps": [
+    "No-paint cubes number (n - 2) cubed.",
+    "Set (n - 2) cubed = 27, so n - 2 = 3.",
+    "Therefore n = 5."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 1,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "Knights always tell the truth; knaves always lie. A resident A says, \"I am a knave.\" What is A?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A knight"
+    },
+    {
+     "label": "b",
+     "text": "A knave"
+    },
+    {
+     "label": "c",
+     "text": "Impossible: no resident can say this"
+    },
+    {
+     "label": "d",
+     "text": "Cannot be determined"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A knight would never call himself a knave (that would be a lie).",
+    "A knave calling himself a knave would be telling the truth, which a knave never does.",
+    "So neither type can make this statement: it is impossible."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 2,
+   "difficulty": "Easy",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A resident A says, \"I am a knight.\" What is A?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A knight"
+    },
+    {
+     "label": "b",
+     "text": "A knave"
+    },
+    {
+     "label": "c",
+     "text": "Cannot be determined"
+    },
+    {
+     "label": "d",
+     "text": "Impossible"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A knight would truthfully say 'I am a knight'.",
+    "A knave would falsely also say 'I am a knight' (since he is not one).",
+    "Both types would make this statement, so A's type cannot be determined."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 3,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A says, \"A and B are both knaves.\" What are A and B?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A knight, B knave"
+    },
+    {
+     "label": "b",
+     "text": "A knave, B knight"
+    },
+    {
+     "label": "c",
+     "text": "Both knaves"
+    },
+    {
+     "label": "d",
+     "text": "Both knights"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "If A were a knight, his statement would be true, making him a knave: a contradiction. So A is a knave.",
+    "Since A is a knave, his statement is false, so 'both are knaves' is false.",
+    "A is already a knave, so for the statement to be false B must be a knight. A is a knave, B is a knight."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 4,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A says, \"B is a knave.\" B says, \"A and I are of different types.\" What are A and B?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A knight, B knave"
+    },
+    {
+     "label": "b",
+     "text": "A knave, B knight"
+    },
+    {
+     "label": "c",
+     "text": "Both knights"
+    },
+    {
+     "label": "d",
+     "text": "Both knaves"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "Suppose A is a knight; then B is a knave, so B's statement is a lie, meaning A and B are the same type, contradicting knight-vs-knave. So A is not a knight.",
+    "So A is a knave; then 'B is a knave' is false, so B is a knight, whose statement 'we are different types' is true.",
+    "A knave and B knight are indeed different types, which is consistent. A is a knave, B is a knight."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 5,
+   "difficulty": "Moderate",
+   "setup": "",
+   "set_id": null,
+   "question_text": "You reach a fork; one road leads to the city. A local, who is either a knight or a knave (you do not know which), stands there. What single question guarantees you find the right road?",
+   "options": [
+    {
+     "label": "a",
+     "text": "'Are you a knight?'"
+    },
+    {
+     "label": "b",
+     "text": "'Which road leads to the city?'"
+    },
+    {
+     "label": "c",
+     "text": "'Which road would the OTHER type say leads to the city?', then take the other road"
+    },
+    {
+     "label": "d",
+     "text": "'Is two plus two four?'"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "c",
+   "solution_steps": [
+    "A knight would point to the wrong road (truthfully reporting the knave's lie); a knave would also point to the wrong road (lying about the knight's truth).",
+    "Either way the answer names the wrong road.",
+    "So ask what the other type would say, then take the opposite road."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  },
+  {
+   "topic_slug": "boolean-logic",
+   "order": 6,
+   "difficulty": "Hard",
+   "setup": "",
+   "set_id": null,
+   "question_text": "A says, \"Exactly one of us (A and B) is a knight.\" What is B?",
+   "options": [
+    {
+     "label": "a",
+     "text": "A knight"
+    },
+    {
+     "label": "b",
+     "text": "A knave"
+    },
+    {
+     "label": "c",
+     "text": "Cannot be determined"
+    },
+    {
+     "label": "d",
+     "text": "Both are knights"
+    }
+   ],
+   "answer_format": "option",
+   "correct_answer": "b",
+   "solution_steps": [
+    "If A is a knight, his statement is true, so exactly one of them is a knight; since A is that knight, B must be a knave.",
+    "If A is a knave, his statement is false, so it is not the case that exactly one is a knight; A is not a knight, so for the count not to be one, B cannot be a knight either, making B a knave.",
+    "In both cases B is a knave (A's own type stays undetermined). So B is a knave."
+   ],
+   "source": "Nishit Sinha LRDI (Pearson, 6e)"
+  }
+ ]
+}

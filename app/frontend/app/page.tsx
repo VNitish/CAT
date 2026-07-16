@@ -407,6 +407,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/di')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             DI Mocks
           </button>
+          <button onClick={() => router.push('/lr')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            LR Practice
+          </button>
           <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Blog
           </button>
@@ -529,6 +532,15 @@ export default function LandingPage() {
               points: ['Foundation · Moderate · Advanced', 'Timed, scored, exam-style palette', 'Diagrams, answers & explanations'],
               cta: 'Start DI mocks',
               href: '/di',
+            },
+            {
+              accent: '#7B2FBE',
+              eyebrow: 'Logical Reasoning',
+              title: 'LR Practice',
+              desc: 'A self-paced learning mode: each topic is a deck of cards that explains the concept, lets you attempt a question, then reveals the full solution.',
+              points: ['Concept-first, one card at a time', 'Attempt, then reveal & analyse', 'Syllogism, blood relations, series, arrangement, directions'],
+              cta: 'Start LR practice',
+              href: '/lr',
             },
           ].map(c => (
             <div key={c.title} style={{ background: '#ffffff', padding: '36px 34px', display: 'flex', flexDirection: 'column' }}>

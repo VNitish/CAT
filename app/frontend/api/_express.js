@@ -396,6 +396,59 @@ diSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 const DiQuestion      = mongoose.model('DiQuestion', diQuestionSchema);
 const DiSession       = mongoose.model('DiSession', diSessionSchema);
 
+// ── Logical Reasoning (Nishit Sinha LRDI 6e — Part 1) ─────────────────────────
+// A self-paced LEARNING mode (not a timed exam): each topic has a concept, then a
+// deck of question cards flowing Concept -> Attempt -> Reveal (answer + solution).
+const lrTopicSchema = new mongoose.Schema({
+  slug:                 { type: String, unique: true, index: true },
+  name:                 String,
+  order:                Number,
+  accent:               String,
+  tagline:              String,
+  concept_title:        String,
+  concept_explanation:  String,
+  approach_steps:       [String],
+}, { collection: 'lr_topics', timestamps: true });
+
+const lrQuestionSchema = new mongoose.Schema({
+  topic_slug:      { type: String, index: true },
+  order:           Number,
+  difficulty:      { type: String, enum: ['Easy', 'Moderate', 'Hard'], default: 'Moderate' },
+  setup:           { type: String, default: '' },   // shared setup for a set of cards
+  set_id:          { type: String, default: null },
+  question_text:   String,
+  figure:          { type: String, default: '' },   // optional SVG / data-URI
+  options:         [{ _id: false, label: String, text: String }],
+  answer_format:   { type: String, enum: ['option', 'typed'], default: 'option' },
+  correct_answer:  String,
+  solution_steps:  [String],
+  source:          String,
+}, { collection: 'lr_questions', timestamps: true });
+lrQuestionSchema.index({ topic_slug: 1, order: 1 });
+
+const lrAttemptSchema = new mongoose.Schema({
+  user_id:     { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  question_id: { type: mongoose.Schema.Types.ObjectId, ref: 'LrQuestion' },
+  topic_slug:  String,
+  chosen:      String,
+  correct:     Boolean,
+}, { collection: 'lr_attempts', timestamps: true });
+lrAttemptSchema.index({ user_id: 1, question_id: 1 }, { unique: true });
+
+const LrTopic    = mongoose.model('LrTopic', lrTopicSchema);
+const LrQuestion = mongoose.model('LrQuestion', lrQuestionSchema);
+const LrAttempt  = mongoose.model('LrAttempt', lrAttemptSchema);
+
+// Optional-auth helper: attaches req.user if a valid token is present, else continues.
+async function optionalAuth(req, _res, next) {
+  try {
+    const h = req.headers.authorization || '';
+    const token = h.startsWith('Bearer ') ? h.slice(7) : null;
+    if (token) req.user = jwt.verify(token, JWT_SECRET);
+  } catch (_) { /* ignore, treat as anonymous */ }
+  next();
+}
+
 // ── Middleware ────────────────────────────────────────────────────────────────
 function authMiddleware(req, res, next) {
   const header = req.headers.authorization;
@@ -2020,6 +2073,112 @@ app.get('/api/asrc/history', authMiddleware, async (req, res) => {
       'test score finished_at createdAt'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+//  Logical Reasoning — self-paced learning cards
+// ════════════════════════════════════════════════════════════════════════════
+
+// GET /api/lr/topics — all topics with question counts (+ solved counts if logged in)
+app.get('/api/lr/topics', optionalAuth, async (req, res) => {
+  try {
+    const topics = await LrTopic.find({}).sort({ order: 1 }).lean();
+    const counts = await LrQuestion.aggregate([
+      { $group: { _id: '$topic_slug', n: { $sum: 1 } } },
+    ]);
+    const countBy = {};
+    counts.forEach(c => { countBy[c._id] = c.n; });
+
+    let solvedBy = {};
+    if (req.user) {
+      const attempts = await LrAttempt.find({ user_id: req.user._id }, 'topic_slug correct').lean();
+      attempts.forEach(a => {
+        solvedBy[a.topic_slug] = solvedBy[a.topic_slug] || { attempted: 0, correct: 0 };
+        solvedBy[a.topic_slug].attempted += 1;
+        if (a.correct) solvedBy[a.topic_slug].correct += 1;
+      });
+    }
+
+    res.json(topics.map(t => ({
+      slug: t.slug, name: t.name, order: t.order, accent: t.accent, tagline: t.tagline,
+      concept_title: t.concept_title,
+      total: countBy[t.slug] || 0,
+      attempted: (solvedBy[t.slug] || {}).attempted || 0,
+      correct: (solvedBy[t.slug] || {}).correct || 0,
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/lr/topic/:slug — the concept + the full deck of question cards for a topic.
+// This is a learning mode, so answers and solutions are sent to the client (the reveal
+// step is client-side). If logged in, each card carries the user's prior attempt.
+app.get('/api/lr/topic/:slug', optionalAuth, async (req, res) => {
+  try {
+    const topic = await LrTopic.findOne({ slug: req.params.slug }).lean();
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    const questions = await LrQuestion.find({ topic_slug: req.params.slug })
+      .sort({ order: 1 }).lean();
+
+    let attemptBy = {};
+    if (req.user) {
+      const attempts = await LrAttempt.find(
+        { user_id: req.user._id, topic_slug: req.params.slug }
+      ).lean();
+      attempts.forEach(a => { attemptBy[String(a.question_id)] = { chosen: a.chosen, correct: a.correct }; });
+    }
+
+    res.json({
+      topic: {
+        slug: topic.slug, name: topic.name, accent: topic.accent, tagline: topic.tagline,
+        concept_title: topic.concept_title, concept_explanation: topic.concept_explanation,
+        approach_steps: topic.approach_steps || [],
+      },
+      questions: questions.map(q => ({
+        _id: q._id, order: q.order, difficulty: q.difficulty,
+        setup: q.setup || '', set_id: q.set_id || null,
+        question_text: q.question_text, figure: q.figure || '',
+        options: q.options, answer_format: q.answer_format,
+        correct_answer: q.correct_answer, solution_steps: q.solution_steps || [],
+        attempt: attemptBy[String(q._id)] || null,
+      })),
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/lr/attempt — record (or update) the user's attempt on a card
+app.post('/api/lr/attempt', authMiddleware, async (req, res) => {
+  try {
+    const { question_id, chosen, correct } = req.body;
+    if (!question_id) return res.status(400).json({ error: 'question_id required' });
+    const q = await LrQuestion.findById(question_id, 'topic_slug').lean();
+    if (!q) return res.status(404).json({ error: 'Question not found' });
+
+    await LrAttempt.updateOne(
+      { user_id: req.user._id, question_id },
+      { $set: { topic_slug: q.topic_slug, chosen: chosen || '', correct: !!correct } },
+      { upsert: true }
+    );
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/lr/progress — the user's attempts (for merging into the client)
+app.get('/api/lr/progress', authMiddleware, async (req, res) => {
+  try {
+    const attempts = await LrAttempt.find(
+      { user_id: req.user._id }, 'question_id topic_slug chosen correct'
+    ).lean();
+    res.json(attempts);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
