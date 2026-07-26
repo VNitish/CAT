@@ -4,36 +4,37 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 
 const F = '"DM Sans", "Inter", "Segoe UI", Arial, sans-serif';
+// Matches the Quant Tests card on the homepage. Deliberately not in the orange
+// family — DI (#F59E0B) and LR Sets (#E8792B) already sit there in the same grid.
+const ACCENT = '#E5484D';
 
-const BLOCK_COLOR: Record<string, string> = {
-  'Block I':   '#378ADD',
-  'Block II':  '#00C48C',
-  'Block III': '#9B6DFF',
-  'Block IV':  '#F59E0B',
-  'Block V':   '#EF4444',
-  'Block VI':  '#EC4899',
-};
-
-interface Chapter {
-  chapter_id: number;
-  topic: string;
+interface QuantTest {
+  test: number;
   block: string;
-  counts: { total: number; easy: number; medium: number; hard: number };
+  questions: number;
+  duration_minutes: number;
+  marks: number;
+  topics: string[];
 }
 
-export default function QuantPage() {
+// Blurb per syllabus block, shown above that block's tests.
+const BLOCK_BLURB: Record<string, string> = {
+  'Block VI': 'Permutations & Combinations, Probability and Set Theory — every question a verified CAT past-year problem.',
+};
+
+export default function QuantTestsPage() {
   const router = useRouter();
   const { user, loading: authLoading, logout } = useAuth();
-  const [chapters, setChapters] = useState<Chapter[]>([]);
+  const [tests, setTests] = useState<QuantTest[]>([]);
   const [dbStatus, setDbStatus] = useState<'checking' | 'connected' | 'empty' | 'error'>('checking');
 
   useEffect(() => {
-    fetch('/api/quant-chapters')
+    fetch('/api/quant-tests')
       .then(r => r.json())
       .then(d => {
         if (Array.isArray(d)) {
-          setChapters(d);
-          setDbStatus(d.length > 0 ? 'connected' : 'empty');
+          setTests(d);
+          setDbStatus(d.some(t => t.questions > 0) ? 'connected' : 'empty');
         } else {
           setDbStatus('error');
         }
@@ -41,16 +42,12 @@ export default function QuantPage() {
       .catch(() => setDbStatus('error'));
   }, []);
 
-  const byBlock = chapters.reduce<Record<string, Chapter[]>>((acc, c) => {
-    (acc[c.block] ??= []).push(c);
-    return acc;
-  }, {});
-  const blocks = Object.keys(byBlock).sort();
+  const blocks = Array.from(new Set(tests.map(t => t.block))).sort();
 
   if (authLoading) {
     return (
       <div style={{ minHeight: '100vh', background: '#FAFAFA', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ width: 20, height: 20, border: '2px solid #378ADD', borderTopColor: 'transparent', animation: 'spin 0.8s linear infinite' }} />
+        <div style={{ width: 20, height: 20, border: `2px solid ${ACCENT}`, borderTopColor: 'transparent', animation: 'spin 0.8s linear infinite' }} />
       </div>
     );
   }
@@ -66,34 +63,28 @@ export default function QuantPage() {
             <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3, fontFamily: F }}>PaperRoom</span>
           </div>
           <div style={{ width: 1, height: 16, background: '#2a2a2a' }} />
-          <span style={{ fontSize: 13, color: '#555555', fontFamily: F }}>Quant Practice</span>
+          <span style={{ fontSize: 13, color: '#555555', fontFamily: F }}>Quant Tests</span>
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <div style={{ width: 6, height: 6, background: dbStatus === 'connected' ? '#00C48C' : dbStatus === 'error' ? '#ef4444' : dbStatus === 'empty' ? '#f59e0b' : '#f59e0b' }} />
+            <div style={{ width: 6, height: 6, background: dbStatus === 'connected' ? '#00C48C' : dbStatus === 'error' ? '#ef4444' : '#f59e0b' }} />
             <span style={{ fontSize: 11, color: '#444444', fontFamily: F }}>
-              {dbStatus === 'connected' ? `${chapters.length} chapters` : dbStatus === 'error' ? 'Offline' : dbStatus === 'empty' ? 'Not seeded' : '…'}
+              {dbStatus === 'connected' ? `${tests.length} test${tests.length !== 1 ? 's' : ''}` : dbStatus === 'error' ? 'Offline' : dbStatus === 'empty' ? 'Not seeded' : '…'}
             </span>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <button onClick={() => router.push('/quant-tests')} style={{ padding: '6px 14px', background: 'transparent', color: '#E5484D', fontWeight: 600, border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Quant Tests
+          <button onClick={() => router.push('/quant')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Quant Practice
+          </button>
+          <button onClick={() => router.push('/di')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            DI Sets
           </button>
           <button onClick={() => router.push('/varc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             VARC Mocks
           </button>
-          <button onClick={() => router.push('/rc')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            RC Tests
-          </button>
-          <button onClick={() => router.push('/di')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            DI Mocks
-          </button>
-          <button onClick={() => router.push('/papers')} style={{ padding: '6px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Papers
-          </button>
           {user ? (
             <>
               <div style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '5px 12px', background: 'rgba(255,255,255,0.06)', border: '1px solid #2a2a2a' }}>
-                <div style={{ width: 22, height: 22, background: '#378ADD', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 10, fontWeight: 700, color: '#fff', flexShrink: 0 }}>
+                <div style={{ width: 22, height: 22, background: ACCENT, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 10, fontWeight: 700, color: '#fff', flexShrink: 0 }}>
                   {user.name.charAt(0).toUpperCase()}
                 </div>
                 <span style={{ fontSize: 13, color: '#cccccc', fontWeight: 500, fontFamily: F }}>{user.name}</span>
@@ -119,21 +110,20 @@ export default function QuantPage() {
       <div style={{ borderBottom: '1px solid #e4e4e4', background: '#ffffff' }}>
         <div style={{ maxWidth: 960, margin: '0 auto', padding: '28px 40px' }}>
           <h1 style={{ margin: '0 0 5px', fontSize: 20, fontWeight: 700, color: '#121212', letterSpacing: -0.3, fontFamily: F }}>
-            Quant Practice
+            Quant Tests
           </h1>
           <p style={{ margin: 0, fontSize: 13, color: '#777777', fontFamily: F }}>
-            19 chapters &nbsp;&middot;&nbsp; 30 questions each &nbsp;&middot;&nbsp; LOD I & II &nbsp;&middot;&nbsp; Unlimited time &nbsp;&middot;&nbsp; Arun Sharma QA 8e
+            Full CAT-style QA sectionals &nbsp;&middot;&nbsp; real exam pace &nbsp;&middot;&nbsp; MCQ +3 / &minus;1, TITA +3 / 0 &nbsp;&middot;&nbsp; verified CAT past-year questions
           </p>
         </div>
       </div>
 
-      {/* Chapter grid */}
       <main style={{ maxWidth: 960, margin: '0 auto', padding: '32px 40px 80px' }}>
 
         {dbStatus === 'empty' && (
           <div style={{ textAlign: 'center', padding: '60px 0', color: '#aaa' }}>
             <div style={{ fontSize: 14, marginBottom: 8 }}>Question bank not seeded yet.</div>
-            <div style={{ fontSize: 12, color: '#ccc' }}>Run the seed endpoint or <code>node seed_quant.js</code> to populate.</div>
+            <div style={{ fontSize: 12, color: '#ccc' }}>Run <code>node api/seed_qt.js</code> to populate.</div>
           </div>
         )}
 
@@ -143,72 +133,84 @@ export default function QuantPage() {
           </div>
         )}
 
-        {blocks.map(block => (
-          <div key={block} style={{ marginBottom: 44 }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
-              <span style={{ fontSize: 11, fontWeight: 700, color: '#aaaaaa', letterSpacing: 1.5, textTransform: 'uppercase', fontFamily: F }}>{block}</span>
-              <div style={{ flex: 1, height: 1, background: '#eeeeee' }} />
-              <span style={{ fontSize: 11, color: '#cccccc', fontFamily: F }}>{byBlock[block].length} chapter{byBlock[block].length !== 1 ? 's' : ''}</span>
-            </div>
+        {blocks.map(block => {
+          const blockTests = tests.filter(t => t.block === block).sort((a, b) => a.test - b.test);
+          return (
+            <div key={block} style={{ marginBottom: 44 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 6 }}>
+                <span style={{ fontSize: 11, fontWeight: 700, color: ACCENT, letterSpacing: 1.5, textTransform: 'uppercase', fontFamily: F }}>{block}</span>
+                <div style={{ flex: 1, height: 1, background: '#eeeeee' }} />
+                <span style={{ fontSize: 11, color: '#cccccc', fontFamily: F }}>{blockTests.length} test{blockTests.length !== 1 ? 's' : ''}</span>
+              </div>
+              <p style={{ margin: '0 0 16px', fontSize: 12.5, color: '#999', fontFamily: F }}>
+                {BLOCK_BLURB[block] || ''}
+              </p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 1, background: '#e4e4e4' }}>
-              {byBlock[block].map(ch => {
-                const blockColor = BLOCK_COLOR[ch.block] ?? '#378ADD';
-                return (
+              {/* Cards carry their own border rather than sitting on a grey grid
+                  backdrop — with a single test that backdrop showed as an empty block. */}
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 16 }}>
+                {blockTests.map(t => (
                   <div
-                    key={ch.chapter_id}
-                    style={{ background: '#ffffff', transition: 'box-shadow 150ms' }}
+                    key={t.test}
+                    style={{ background: '#ffffff', border: '1px solid #e4e4e4', transition: 'box-shadow 150ms' }}
                     onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 20px rgba(0,0,0,0.09)'; }}
                     onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = 'none'; }}
                   >
-                    <div style={{ height: 3, background: blockColor }} />
+                    <div style={{ height: 3, background: ACCENT }} />
                     <div style={{ padding: '16px 18px 18px' }}>
-                      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 14 }}>
+                      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 12 }}>
                         <div>
-                          <div style={{ fontSize: 10, fontWeight: 700, color: '#aaaaaa', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 4, fontFamily: F }}>Ch {ch.chapter_id}</div>
-                          <div style={{ fontSize: 14, fontWeight: 600, color: '#121212', letterSpacing: -0.2, fontFamily: F }}>{ch.topic}</div>
+                          <div style={{ fontSize: 10, fontWeight: 700, color: '#aaaaaa', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 4, fontFamily: F }}>{block} Sectional</div>
+                          <div style={{ fontSize: 14, fontWeight: 600, color: '#121212', letterSpacing: -0.2, fontFamily: F }}>Quant Test {t.test}</div>
                         </div>
-                        <span style={{ fontSize: 11, color: '#777', background: '#f5f5f5', border: '1px solid #eeeeee', padding: '3px 8px', fontFamily: F, flexShrink: 0 }}>{ch.counts.total}Q</span>
+                        <span style={{ fontSize: 11, color: '#777', background: '#f5f5f5', border: '1px solid #eeeeee', padding: '3px 8px', fontFamily: F, flexShrink: 0 }}>{t.questions}Q</span>
                       </div>
 
-                      {/* LOD breakdown */}
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, marginBottom: 14 }}>
+                        {t.topics.map(topic => (
+                          <span key={topic} style={{ fontSize: 10.5, color: '#8f3338', background: '#fdf0f0', border: '1px solid #f7d6d7', padding: '3px 8px', fontFamily: F }}>
+                            {topic}
+                          </span>
+                        ))}
+                      </div>
+
                       <div style={{ display: 'flex', gap: 6, marginBottom: 14 }}>
                         {[
-                          { label: 'LOD I',   val: ch.counts.easy,   color: '#00C48C' },
-                          { label: 'LOD II',  val: ch.counts.medium, color: '#378ADD' },
-                          { label: 'LOD III', val: ch.counts.hard,   color: '#9B6DFF' },
-                        ].map(({ label, val, color }) => (
+                          { label: 'DURATION', val: `${t.duration_minutes}m` },
+                          { label: 'QUESTIONS', val: `${t.questions}` },
+                          { label: 'MAX MARKS', val: `${t.marks}` },
+                        ].map(({ label, val }) => (
                           <div key={label} style={{ flex: 1, background: '#FAFAFA', border: '1px solid #eeeeee', padding: '7px 0', textAlign: 'center' }}>
                             <div style={{ fontSize: 10, fontWeight: 600, color: '#aaaaaa', letterSpacing: 0.5, marginBottom: 3, fontFamily: F }}>{label}</div>
-                            <div style={{ fontSize: 13, fontWeight: 700, color: val > 0 ? color : '#dddddd', fontFamily: F }}>{val > 0 ? val : '—'}</div>
+                            <div style={{ fontSize: 13, fontWeight: 700, color: ACCENT, fontFamily: F }}>{val}</div>
                           </div>
                         ))}
                       </div>
 
                       {user ? (
                         <button
-                          onClick={() => router.push(`/quant/${ch.chapter_id}`)}
+                          onClick={() => router.push(`/quant-tests/${t.test}/instructions`)}
                           style={{ width: '100%', padding: '9px', background: '#00C48C', color: '#fff', border: 'none', fontSize: 12, fontWeight: 600, fontFamily: F, cursor: 'pointer', transition: 'background 150ms' }}
                           onMouseEnter={e => { e.currentTarget.style.background = '#00a876'; }}
                           onMouseLeave={e => { e.currentTarget.style.background = '#00C48C'; }}
                         >
-                          Practice
+                          Start Test
                         </button>
                       ) : (
                         <button
                           onClick={() => router.push('/login')}
                           style={{ width: '100%', padding: '9px', background: '#eef5ff', color: '#378ADD', border: '1px solid #c0d9f7', fontSize: 12, fontWeight: 600, fontFamily: F, cursor: 'pointer' }}
                         >
-                          Sign in to practice
+                          Sign in to start
                         </button>
                       )}
                     </div>
                   </div>
-                );
-              })}
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </main>
     </div>
   );

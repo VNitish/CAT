@@ -29,3 +29,7 @@ docs/pattern-guides/
 # Local extraction scratch & agent tooling
 .varc_extract/
 .claude/
+
+# Verification screenshots & browser-automation artifacts — scratch, not source
+/*.png
+.playwright-mcp/

@@ -395,6 +395,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/quant')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant Practice
           </button>
+          <button onClick={() => router.push('/quant-tests')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Quant Tests
+          </button>
           <button onClick={() => router.push('/varc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             VARC Mocks
           </button>
@@ -497,7 +500,7 @@ export default function LandingPage() {
       {/* Practice areas — Quant, VARC & RC */}
       <div style={{ maxWidth: 860, margin: '0 auto', padding: '72px 48px 0' }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', color: '#aaaaaa', marginBottom: 8, textAlign: 'center' }}>Practice by section</div>
-        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Four focused ways to prepare</div>
+        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Seven focused ways to prepare</div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 1, background: '#e4e4e4', border: '1px solid #e4e4e4' }}>
           {[
             {
@@ -508,6 +511,15 @@ export default function LandingPage() {
               points: ['Topic-wise question banks', 'Easy / medium / hard breakdown', 'Step-by-step worked solutions'],
               cta: 'Start Quant practice',
               href: '/quant',
+            },
+            {
+              accent: '#E5484D',
+              eyebrow: 'Quantitative Aptitude',
+              title: 'Quant Tests',
+              desc: 'Full CAT-style QA sectionals against the clock. Chapters from a block are interleaved the way the real exam mixes them, so you switch topics under pressure.',
+              points: ['30 questions · 55 minutes · verified CAT past-year', 'MCQ +3 / −1, TITA +3 / 0, on-screen calculator', 'Per-question timing and pattern-wise review'],
+              cta: 'Start a Quant test',
+              href: '/quant-tests',
             },
             {
               accent: '#9B6DFF',

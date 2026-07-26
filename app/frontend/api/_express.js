@@ -396,6 +396,69 @@ diSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 const DiQuestion      = mongoose.model('DiQuestion', diQuestionSchema);
 const DiSession       = mongoose.model('DiSession', diSessionSchema);
 
+// ── Quant Tests (CAT-style timed QA sectionals, grouped by syllabus block) ────
+// Unlike /quant practice (untimed, chapter-by-chapter), these are full sectional
+// mocks built from verified CAT past-year questions. A test mixes the chapters of
+// one block and interleaves them the way a real QA section does, so the candidate
+// switches topics under the clock. `pattern` labels the technique each question
+// tests, which drives the per-pattern breakdown on the results page.
+//
+// TITA questions carry answer_format 'numeric' and marks_incorrect 0 — CAT does not
+// penalise a wrong type-in answer, only a wrong MCQ.
+//
+// 30 questions in 55 minutes = 110 s/question, the same pace as the real CAT QA
+// section (22 questions in 40 minutes).
+const QT_DURATION_SECONDS = 55 * 60;
+
+const qtQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  test:            { type: Number, index: true },
+  section:         { type: String, default: 'QA' },
+  block:           { type: String, index: true },   // 'Block VI'
+  topic:           String,                          // chapter name
+  pattern:         String,                          // technique label, e.g. 'Lattice paths through a given point'
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'numeric'], default: 'option' },
+  directions:      { type: String, default: '' },
+  question_text:   String,
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  difficulty:      String,
+  question_number: Number,
+  source:          String,                          // 'CAT 2019, Slot 1'
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'qt_questions', timestamps: true });
+qtQuestionSchema.index({ test: 1, question_number: 1 });
+
+const qtSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test:            { type: Number },
+  block:           { type: String },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  // Seconds remaining. Goes NEGATIVE once the clock runs out: the test never
+  // auto-submits, it just keeps counting so the candidate sees the overrun.
+  time_left:       { type: Number, default: QT_DURATION_SECONDS },
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'qt_sessions', timestamps: true });
+qtSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
+const QtQuestion      = mongoose.model('QtQuestion', qtQuestionSchema);
+const QtSession       = mongoose.model('QtSession', qtSessionSchema);
+
 // ── Logical Reasoning (Nishit Sinha LRDI 6e — Part 1) ─────────────────────────
 // A self-paced LEARNING mode (not a timed exam): each topic has a concept, then a
 // deck of question cards flowing Concept -> Attempt -> Reveal (answer + solution).
@@ -1185,6 +1248,14 @@ function normalizeAnswer(ans, format) {
   if (ans == null) return '';
   const s = String(ans).trim();
   if (format === 'sequence') return s.toUpperCase().replace(/[^A-Z]/g, '');
+  // TITA: accept the answer however the candidate typed the number — "1,440",
+  // "1440", " 1440 ", "1440.00" and "+1440" all have to score the same. Fall back
+  // to the raw string if it is not parseable as a number.
+  if (format === 'numeric') {
+    const cleaned = s.replace(/[\s,]/g, '');
+    const n = Number(cleaned);
+    return Number.isFinite(n) && cleaned !== '' ? String(n) : cleaned.toLowerCase();
+  }
   return s.toLowerCase();
 }
 
@@ -1887,6 +1958,258 @@ app.get('/api/di/history', authMiddleware, async (req, res) => {
     const sessions = await DiSession.find(
       { user_id: req.user._id, status: 'submitted' },
       'test tier score finished_at createdAt'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════════════════
+//  Quant Tests — CAT-style timed QA sectionals (verified CAT past-year questions)
+// ════════════════════════════════════════════════════════════════════════════
+
+// Fields safe to expose before submission (withholds correct_answer + explanation)
+const QT_SAFE_PROJECTION =
+  'question_code test section block topic pattern question_type answer_format ' +
+  'directions question_text options marks_correct marks_incorrect question_number difficulty';
+
+function qtOrdered(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+// GET /api/quant-tests — list every test with its block, counts, duration + marks
+app.get('/api/quant-tests', async (req, res) => {
+  try {
+    const rows = await QtQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: {
+          _id:     { test: '$test', block: '$block' },
+          count:   { $sum: 1 },
+          marks:   { $sum: '$marks_correct' },
+          topics:  { $addToSet: '$topic' },
+      } },
+      { $sort: { '_id.test': 1 } },
+    ]);
+    const tests = rows.map(r => ({
+      test:             r._id.test,
+      block:            r._id.block,
+      questions:        r.count,
+      duration_minutes: Math.round(QT_DURATION_SECONDS / 60),
+      marks:            r.marks,
+      topics:           r.topics.sort(),
+    }));
+    res.json(tests);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/qt/start — resume-first, else create a fresh session for this test
+app.post('/api/qt/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await QtSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await QtQuestion
+      .find({ test, removed: { $ne: true } }, QT_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+
+    if (!session) {
+      session = await QtSession.create({
+        user_id:         req.user._id,
+        test,
+        block:           docs[0].block,
+        status:          'in_progress',
+        question_ids:    docs.map(q => q._id),
+        question_states: {},
+        time_left:       QT_DURATION_SECONDS,
+        started_at:      new Date(),
+      });
+    }
+
+    res.json({
+      session_id:      session._id,
+      test,
+      block:           session.block,
+      questions:       qtOrdered(session, docs),
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      status:          session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/qt/active?test=N — resume or read the latest session for this test
+app.get('/api/qt/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await QtSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await QtSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : QT_SAFE_PROJECTION;
+    const docs = await QtQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+
+    res.json({
+      state:           isFinished ? 'finished' : 'in_progress',
+      session_id:      session._id,
+      test,
+      block:           session.block,
+      questions:       qtOrdered(session, docs),
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      score:           isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/qt/:sid/save — persist question_states + time_left (no scoring).
+// time_left may be negative once the candidate has run past the clock.
+app.post('/api/qt/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await QtSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/qt/:sid/submit — server-side scoring, then reveal answers
+app.post('/api/qt/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await QtSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await QtQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue; // not attempted
+      if (given === normalizeAnswer(q.correct_answer, q.answer_format)) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        // TITA carries marks_incorrect 0, so a wrong type-in costs nothing.
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = {
+      total:     net,
+      attempted: correct + incorrect,
+      correct,
+      incorrect,
+      max_score: maxScore,
+    };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/qt/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/qt/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await QtSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const docs = await QtQuestion.find(
+      { _id: { $in: session.question_ids } },
+      reveal ? '' : QT_SAFE_PROJECTION,
+    ).lean();
+    const states = session.question_states || {};
+
+    const questions = qtOrdered(session, docs).map(q => {
+      const st = states[String(q._id)] || {};
+      const out = {
+        ...q,
+        user_answer: st.answer || '',
+        user_status: st.status || 'not-visited',
+        time_spent:  Number(st.time_spent) || 0,   // seconds on this question
+      };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id:      session._id,
+      test:            session.test,
+      block:           session.block,
+      status:          session.status,
+      score:           session.score || null,
+      time_left:       session.time_left,
+      duration_seconds: QT_DURATION_SECONDS,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/qt/history — list this user's submitted Quant Test sessions
+app.get('/api/qt/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await QtSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test block score finished_at createdAt time_left'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
   } catch (e) {
