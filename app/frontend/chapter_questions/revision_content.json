@@ -290,7 +290,82 @@
     ]
    }
   },
-  { "slug": "time-and-work",      "name": "Time & Work",         "order": 6, "status": "coming_soon" }
+  {
+   "slug": "averages",
+   "name": "Averages",
+   "order": 6,
+   "status": "ready",
+   "tagline": "Weighted combinations, replacements, and the total/count conversion that solves almost everything.",
+   "intro": "Averages is mostly about converting cleanly between totals and averages — weighted combinations, replacements, and extremal constraints all reduce to the same total/count logic. Tap a concept to see it worked in detail, then work through 7 real CAT questions, one per recurring pattern.",
+   "flagged_note": "7 patterns, 2 flagged as tricky",
+   "hero_image": "",
+   "thumb_image": "",
+   "overview_cards": [
+    {
+     "kind": "foundation",
+     "eyebrow": "The base relation",
+     "headline": "Average = Total / Count",
+     "chips": ["Total = Average × Count"],
+     "note": "**Why it works:** an average is just the total spread evenly across every member, so total and average always convert into each other via the count.\n\n- e.g. 5 numbers averaging 12 have a total of $5\\times12=60$.\n- Every averages question is really a total/count question in disguise — convert to totals first, then combine."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Weighted average of two groups",
+     "lines": ["Total = n₁a₁ + n₂a₂", "Average = Total / (n₁ + n₂)"],
+     "note": "**Why it works:** combining two groups just adds their totals and their counts — the combined average is never the simple average of the two group-averages unless the groups are equal-sized.\n\n- e.g. 20 boys and 30 girls, girls' average 5 more than boys', overall average 60: $20x+30(x+5)=50\\times60 \\Rightarrow x=57$ — boys averaged 57, girls 62.\n- The combined average always sits closer to the *larger* group's average."
+    },
+    {
+     "kind": "trap",
+     "eyebrow": "Removing a member shifts the average",
+     "headline": "New avg = (old total − leaver's total) / new count",
+     "subheadline": "the shift always points away from the leaver",
+     "note": "**Why it works:** removing someone below the average pulls the remaining average up; removing someone above it pulls the average down.\n\n- e.g. if a group's average is A and the members who leave averaged below A, the remaining group's average is guaranteed to rise above A.\n- Always work in totals: (old total) − (leaver's total) = (new total), then divide by the new count."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Replacing one value in a sequence",
+     "note": "**Why it works:** swapping one number for another changes the total by exactly the difference between the new and old value — nothing else in the group needs to be touched.\n\n- e.g. if $a_1$ in a sequence of N numbers is replaced by $6a_1$, the total increases by exactly $5a_1$, so the new average is $\\text{old average}+\\dfrac{5a_1}{N}$.\n- This is the fastest way to handle any \"one value changes\" question — never recompute the whole sum from scratch."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Combining more than two groups",
+     "note": "**Why it works:** the same total/count logic extends to any number of groups — add every group's total, add every group's count, then divide once at the end.\n\n- e.g. three sections of 10, 15 and 25 students averaging 40, 50 and 60: combined average $=\\dfrac{10(40)+15(50)+25(60)}{50}=\\dfrac{2650}{50}=53$.\n- Never average the averages directly unless every group is exactly the same size."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Extremal averages: push the rest to their limit",
+     "note": "**Why it works:** to maximise (or minimise) one subset's average, free up as much of the total as possible by pushing every other element to its allowed extreme — its minimum if you want to maximise your subset, its maximum if you want to minimise it.\n\n- e.g. 30 integers average 5 (total 150); if 20 of them are $\\le5$ and the other 10 are integers $>5$ (so $\\ge6$ each), the other 10's smallest possible total is 60, leaving $150-60=90$ for the 20 — their highest possible average is $90/20=4.5$."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Layered average conditions",
+     "note": "**Why it works:** when each new average is defined relative to the previous one (\"the average of the first three is X more than the average of the first two\"), walk forward one condition at a time — each one hands you the next term directly.\n\n- e.g. if the average of the first two numbers is 1 more than the first number itself, the second number is exactly (first number) + 2 — no simultaneous equations needed, just step forward term by term."
+    },
+    {
+     "kind": "trap",
+     "eyebrow": "Average of % changes isn't the simple average",
+     "headline": "Blended change = weighted average of the changes",
+     "subheadline": "pulled toward whichever group holds more of the total",
+     "note": "**Why it works:** a 20% hike on a big group and a 10% hike on a small group don't blend into a flat 15% hike overall — the blended change is a weighted average, pulled toward whichever group holds more of the total money.\n\n- e.g. hiking 5 managers' salaries by 20% and 25 engineers' by 10% does **not** give an overall 15% hike — the true blended hike depends on how much of the total salary each group actually holds.\n- Whenever a question mixes different percentage changes across groups, convert to totals before and after — never average the percentages themselves."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Average vs median",
+     "note": "**Why they can differ:** the average is pulled toward extreme values, while the median only cares about the middle position — a data set with a few very high or very low values can have a mean far from its median even though most values cluster together.\n\n- e.g. the scores 1, 2, 3, 4, 100 have a median of 3 but a mean of 22 — one extreme value drags the mean away from the median.\n- Mean = median only when the data is symmetric around its centre."
+    }
+   ],
+   "formula_sheet": {
+    "hero": { "label": "The base relation", "value": "Average = Total / Count" },
+    "items": [
+     { "title": "Weighted average", "body": "- Total = $n_1a_1+n_2a_2$\n- Average = Total/$(n_1+n_2)$" },
+     { "title": "Removing/adding members", "body": "- New total = old total − (leaver's total).\n- New average = new total / new count." },
+     { "title": "Replacing one value", "body": "- Change in total = new value − old value.\n- New average = old average + (change)/count.", "highlight": true },
+     { "title": "Extremal averages", "body": "- To max/min one subset's average, push every other element to its limit." },
+     { "title": "Percentage-hike blending", "body": "- A blended % change is a weighted average, not a simple one.\n- Always convert to totals before and after." }
+    ]
+   }
+  },
+  { "slug": "time-and-work",      "name": "Time & Work",         "order": 7, "status": "coming_soon" }
  ],
 
  "questions": [
@@ -854,6 +929,125 @@
    "concept": "- Same idea as \"common terms of two APs\": once you find where the two sequences first coincide, every later match is exactly $\\text{lcm}$ of the two step-sizes further along.\n- Bound the resulting common-term AP using whichever original sequence has the tighter (smaller) range, not just either one arbitrarily.",
    "answer_display": "14900",
    "solution": "1. **Find the range of each sequence:** $a_n=46+8n$ runs 54 to 846; $b_n=98+4n$ runs 102 to 498.\n2. **Find the new common difference:** common terms form an AP with difference $\\text{lcm}(8,4)=8$.\n3. **Find the first and last common terms:** the smallest possible is 102 (the minimum of the b-sequence, which does occur in both); the largest possible is 494 (staying within 498).\n4. **Count and sum:** count $=\\dfrac{494-102}{8}+1=50$; sum $=\\dfrac{50}{2}(102+494)=25\\times596=14900$.\n\n*Source: CAT 2023, Slot 3.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 1,
+   "tag": "Weighted average of two groups",
+   "difficulty": "Moderate",
+   "question_text": "A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was 5 more than that of the boys. If the average score of all the students was 60, the average score of the boys was",
+   "options": [
+    { "label": "a", "text": "56" },
+    { "label": "b", "text": "55" },
+    { "label": "c", "text": "57" },
+    { "label": "d", "text": "58" }
+   ],
+   "correct_answer": "c",
+   "concept": "- Translate the word problem into totals: (boys' total) + (girls' total) = overall total — this beats trying to average two averages directly.\n- Since the girls' average is a known amount more than the boys', express everything in terms of a single unknown (the boys' average) and solve one linear equation.",
+   "answer_display": "57",
+   "solution": "1. **Set up the unknown:** let the boys' average be $x$; the girls' average is then $x+5$.\n2. **Convert to totals:** $20x+30(x+5)=50\\times60=3000$.\n3. **Solve:** $50x+150=3000 \\Rightarrow 50x=2850 \\Rightarrow x=57$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 2,
+   "tag": "Average after a score change",
+   "difficulty": "Hard",
+   "question_text": "Ramesh and Gautam are among 22 students who write an examination. Ramesh scores 82.5. The average score of the 21 students other than Gautam is 62. The average score of all 22 students is 1 more than the average score of the 21 students other than Ramesh. What is Gautam's score?",
+   "options": [
+    { "label": "a", "text": "53" },
+    { "label": "b", "text": "51" },
+    { "label": "c", "text": "48" },
+    { "label": "d", "text": "49" }
+   ],
+   "correct_answer": "b",
+   "concept": "- \"21 students other than Gautam\" already includes Ramesh, so its total gives you everyone's score except Gautam's directly — add Gautam's unknown score to reach the full total of 22.\n- Translate \"average of all 22 is 1 more than average of 21 excluding Ramesh\" into one equation in a single unknown (Gautam's score), then clear denominators by multiplying through.",
+   "answer_display": "51",
+   "solution": "1. **Find the total excluding Gautam:** the average of 21 (which includes Ramesh) is 62, so their total $=21\\times62=1302$.\n2. **Express the total of all 22:** $1302+G$, where $G$ is Gautam's score.\n3. **Express the average excluding Ramesh:** $\\dfrac{1302+G-82.5}{21}=\\dfrac{1219.5+G}{21}$.\n4. **Set up the condition:** $\\dfrac{1302+G}{22}=1+\\dfrac{1219.5+G}{21}$.\n5. **Clear denominators (×462) and solve:** $21(1302+G)=462+22(1219.5+G) \\Rightarrow 27342+21G=27291+22G \\Rightarrow G=51$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 3,
+   "tag": "Extremal average under a constraint",
+   "difficulty": "Moderate",
+   "question_text": "The average of 30 integers is 5. Among these 30 integers, there are exactly 20 which do not exceed 5. What is the highest possible value of the average of these 20 integers?",
+   "options": [
+    { "label": "a", "text": "3.5" },
+    { "label": "b", "text": "4" },
+    { "label": "c", "text": "4.5" },
+    { "label": "d", "text": "5" }
+   ],
+   "correct_answer": "c",
+   "concept": "- To maximise the average of one subset, minimise how much of the total the *other* subset is allowed to take — push every other element to its smallest legal value.\n- The other 10 integers must each exceed 5, so as integers their smallest possible value is 6 — use that to free up the maximum total for the 20 you actually care about.",
+   "answer_display": "4.5",
+   "solution": "1. **Find the total:** $30\\times5=150$.\n2. **Minimise the other 10's total:** each must be an integer $>5$, so each is at least 6, giving a minimum total of 60.\n3. **Maximise the 20's total:** $150-60=90$.\n4. **Divide:** $90\\div20=4.5$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 4,
+   "tag": "Average age from ratios",
+   "difficulty": "Easy",
+   "question_text": "Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age (in years) is",
+   "options": [
+    { "label": "a", "text": "18" },
+    { "label": "b", "text": "9" },
+    { "label": "c", "text": "16" },
+    { "label": "d", "text": "15" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Express every age in terms of a single variable (Tom's age) using the given ratios, so the \"average\" condition becomes one equation in one unknown.\n- \"1 year less than the average\" translates directly into Dick's expression equalling (average − 1) — solve for the base variable, then compute whichever age is actually asked for.",
+   "answer_display": "18",
+   "solution": "1. **Name the base variable:** let Tom $=t$; then Dick $=3t$ and Harry $=2\\times3t=6t$.\n2. **Write the average:** $\\dfrac{t+3t+6t}{3}=\\dfrac{10t}{3}$.\n3. **Apply the condition:** Dick's age is 1 less than this average: $3t=\\dfrac{10t}{3}-1$.\n4. **Solve:** $9t=10t-3 \\Rightarrow t=3$.\n5. **Compute Harry's age:** $6t=18$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 5,
+   "tag": "Two-group average with a count difference",
+   "difficulty": "Hard",
+   "question_text": "In an examination, the average marks of students in sections A and B are 32 and 60, respectively. The number of students in section A is 10 more than section B. If the average marks for all the students is 44, then the number of students in section B is",
+   "options": [
+    { "label": "a", "text": "25" },
+    { "label": "b", "text": "40" },
+    { "label": "c", "text": "20" },
+    { "label": "d", "text": "30" }
+   ],
+   "correct_answer": "d",
+   "concept": "- With two unknowns (the two section sizes) linked by a fixed difference, express both counts in terms of one variable so the overall-average condition becomes a single linear equation.\n- Sanity-check your setup: since section B's average (60) is well above the overall average (44), section B must hold a real share of the weight — a negative or absurd count means the group sizes were assigned backwards.",
+   "answer_display": "30",
+   "solution": "1. **Set up the counts:** let section B have $n$ students, so section A has $n+10$.\n2. **Convert to totals:** $32(n+10)+60n = 44(2n+10)$.\n3. **Expand both sides:** $32n+320+60n = 88n+440$.\n4. **Simplify:** $92n+320=88n+440 \\Rightarrow 4n=120 \\Rightarrow n=30$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 6,
+   "tag": "Minimising the largest term",
+   "difficulty": "Hard",
+   "question_text": "The average of a non-decreasing sequence of N numbers a₁, a₂, ..., aₙ is 300. If a₁ is replaced by 6a₁, the new average becomes 400. Then the minimum value of aₙ is",
+   "options": [
+    { "label": "a", "text": "900" },
+    { "label": "b", "text": "500" },
+    { "label": "c", "text": "1000" },
+    { "label": "d", "text": "300" }
+   ],
+   "correct_answer": "d",
+   "concept": "- A replacement changes the total by a known, fixed amount — use that to pin down $a_1$ in terms of N directly, without needing any other term.\n- To minimise the largest term of a non-decreasing sequence with a fixed total, spread the remaining terms as evenly as possible — bunching them up only pushes the maximum higher than necessary.",
+   "answer_display": "300",
+   "solution": "1. **Use the replacement to find a₁:** the original total $=300N$; replacing $a_1$ with $6a_1$ adds $5a_1$ to the total, giving $300N+5a_1=400N \\Rightarrow a_1=20N$.\n2. **Bound N:** since $a_1$ is the smallest term, $a_1\\le300$ (the overall average) $\\Rightarrow 20N\\le300 \\Rightarrow N\\le15$.\n3. **Spread the rest evenly to minimise the largest term:** with $a_1$ fixed, the other $N-1$ terms share a total of $300N-20N=280N$; making them all equal minimises the maximum.\n4. **Push N to its limit (N=15):** each of the remaining 14 terms $=\\dfrac{280\\times15}{14}=300$.\n5. **Read off the minimum:** every term equals 300, so the minimum possible $a_N=300$.\n\n*Source: CAT, past year paper.*"
+  },
+  {
+   "chapter_slug": "averages",
+   "order": 7,
+   "tag": "Chained average conditions",
+   "difficulty": "Moderate",
+   "question_text": "There are four numbers such that the average of the first two numbers is 1 more than the first number, and the average of the first three numbers is 2 more than the average of the first two numbers. Also, the average of all four numbers is 3 more than the average of the first three. If the fourth number is 20, find the first number.",
+   "options": [
+    { "label": "a", "text": "7" },
+    { "label": "b", "text": "5" },
+    { "label": "c", "text": "8" },
+    { "label": "d", "text": "10" }
+   ],
+   "correct_answer": "b",
+   "concept": "- Walk forward one condition at a time: each \"average of the first k is (some amount) more\" hands you the next number directly, in terms of the first number — no need to set up simultaneous equations.\n- Once every number is expressed in terms of the first number, the final given value (the fourth number) turns into one simple equation to solve.",
+   "answer_display": "5",
+   "solution": "1. **Find the second number:** the average of the first two is $a+1$, so their sum is $2a+2$, giving the second number $=a+2$.\n2. **Find the third number:** the average of the first three is $(a+1)+2=a+3$, so their sum is $3a+9$; subtracting the first two gives the third number $=a+7$.\n3. **Find the fourth number:** the average of all four is $(a+3)+3=a+6$, so their sum is $4a+24$; subtracting the first three gives the fourth number $=a+15$.\n4. **Apply the given value:** $a+15=20 \\Rightarrow a=5$.\n\n*Source: CAT, past year paper.*"
   }
  ]
 }
