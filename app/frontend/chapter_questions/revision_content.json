@@ -182,7 +182,115 @@
     ]
    }
   },
-  { "slug": "time-and-work",      "name": "Time & Work",         "order": 5, "status": "coming_soon" }
+  {
+   "slug": "progressions",
+   "name": "Progressions",
+   "order": 5,
+   "status": "ready",
+   "tagline": "AP, GP, HP and the logical shortcuts that beat raw formulas under time pressure.",
+   "intro": "Progressions rewards logic over algebra: the average-and-corresponding-terms trick, the equal-sum symmetry, and knowing when to just substitute numbers into the options. Tap a concept to see it worked in detail, then work through 14 real CAT questions, one per recurring pattern.",
+   "flagged_note": "14 patterns, 3 flagged as tricky",
+   "hero_image": "",
+   "thumb_image": "",
+   "overview_cards": [
+    {
+     "kind": "foundation",
+     "eyebrow": "The most useful AP idea",
+     "headline": "Sum = n × Average",
+     "chips": ["Average = any pair of corresponding terms", "pair term-#s sum to n+1"],
+     "note": "**Why it works:** every AP has a single average, and any two terms whose positions add up to (n+1) — \"corresponding terms\" — share that exact average. So instead of building the full sum formula, just find one such pair.\n\n- e.g. a 17-term AP with 3rd term 8 and 8th term 28: since d=4, the 10th term is 36, which corresponds to the 8th ($8+10=18=17+1$) → average $=(28+36)/2=32$.\n- **Sum = terms × average:** $17\\times32=544$ — faster than plugging into $\\frac{n}{2}[2a+(n-1)d]$."
+    },
+    {
+     "kind": "trap",
+     "eyebrow": "The shortcut everyone misses",
+     "headline": "S₁₂ = S₁₈ ⟹ S₃₀ = 0",
+     "subheadline": "the two term-counts always add to the same total",
+     "note": "**Why it works:** this only happens for a series balanced around zero — if $S_{n_1}=S_{n_2}$, every step you take outward from $n_1$ and $n_2$ toward each other cancels, all the way down to $S_0=S_{n_1+n_2}=0$.\n\n- e.g. CAT 2004: given $S_{12}=S_{18}$, immediately $S_{30}=0$ — a ten-second solve with no equations.\n- Whenever a question hands you $S_{n_1}=S_{n_2}$, the sum at $n_1+n_2$ terms is always 0."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "AP core formulas",
+     "lines": ["Tᵣ = a + (r − 1)d", "S = n(a + L)/2 = (n/2)[2a + (n−1)d]"],
+     "note": "**Why it works:** each new term just adds one more d, so the r-th term has had d added $(r-1)$ times.\n\n- **Finding d from two given terms:** the difference in term-numbers tells you how many times d was added — divide the value gap by it. e.g. 3rd term 8, 8th term 28: 5 steps cover $+20$, so $d=20/5=4$.\n- Any two terms of an AP fix the whole series (two equations, two unknowns: a and d)."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "GP core formulas",
+     "lines": ["l = a·r^(n−1)", "S∞ = a / (1 − r), only if |r| < 1"],
+     "note": "**Why S∞ needs |r| < 1:** each term shrinks toward 0, so the infinite tail settles on a finite value; if $|r|\\ge1$ the terms don't shrink and the sum never settles.\n\n- e.g. $a=24$, $r=1/4$: $S_\\infty=\\dfrac{24}{1-1/4}=32$.\n- The index of r in any term is always one less than the term's position — same idea as AP's d."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "AM ≥ GM ≥ HM",
+     "rows": [
+      { "label": "AM", "value": "(a + b)/2" },
+      { "label": "GM", "value": "√(ab)" },
+      { "label": "HM", "value": "2ab/(a + b)" }
+     ],
+     "note": "**Why the ordering holds:** $G^2=AH$ (so G sits between A and H), and $A-G=\\dfrac{(\\sqrt a-\\sqrt b)^2}{2}\\ge0$ always — so A is never smaller than G, forcing $A\\ge G\\ge H$.\n\n- e.g. $a=2,b=8$: AM $=5$, GM $=\\sqrt{16}=4$, HM $=\\dfrac{2\\times2\\times8}{10}=3.2$ — exactly descending.\n- Equality ($A=G=H$) happens only when $a=b$."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Harmonic Progression",
+     "lines": ["Invert every term → get an AP", "No direct formula for an HP's sum"],
+     "note": "**Why inverting works:** an HP is defined entirely through its reciprocals being in AP — so there's nothing to memorise beyond \"flip, solve as an AP, flip back.\"\n\n- e.g. $\\dfrac12,\\dfrac15,\\dfrac18,\\ldots$ inverts to $2,5,8,\\ldots$ — a plain AP with $d=3$.\n- Harmonic mean of a and b: $H=\\dfrac{2ab}{a+b}$ — the AP-mean trick applied to the reciprocals."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Counting terms in a range",
+     "rows": [
+      { "label": "Both ends included", "value": "(n₂ − n₁)/x + 1" },
+      { "label": "One end included", "value": "(n₂ − n₁)/x" },
+      { "label": "Both ends excluded", "value": "(n₂ − n₁)/x − 1" }
+     ],
+     "note": "**Why it works:** counting in steps of x is just an AP with common difference x — the term-count formula is the same idea as finding n from $L=a+(n-1)d$.\n\n- e.g. multiples of 3 between 100 and 200: first 102, last 198 → $(198-102)/3+1=33$.\n- If the upper bound doesn't land exactly on the series, round down."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Common terms of two APs",
+     "note": "**Why it forms a new AP:** once you find the first shared value, every later common term is exactly $\\text{lcm}(d_1,d_2)$ further along — the two series only realign at multiples of that LCM.\n\n- e.g. 15, 19, 23,... (d=4) and 14, 19, 24,... (d=5): first common term 19, next common difference $=\\text{lcm}(4,5)=20$, giving 19, 39, 59,...\n- Count and sum the resulting AP exactly like any other AP."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Telescoping sums",
+     "note": "**Why the middle terms cancel:** splitting each fraction into a difference of two simpler fractions (partial fractions) means every term's second half cancels the next term's first half — only the very first and very last pieces survive.\n\n- e.g. $\\dfrac{1}{2\\times5}+\\dfrac{1}{5\\times8}+\\cdots$: each term $\\dfrac{1}{(3k-1)(3k+2)}=\\dfrac13\\left(\\dfrac{1}{3k-1}-\\dfrac{1}{3k+2}\\right)$, and the chain collapses to just the first and last fractions."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Convenient term assumptions",
+     "rows": [
+      { "label": "3 terms, AP", "value": "a − d, a, a + d" },
+      { "label": "3 terms, GP", "value": "a/r, a, ar" },
+      { "label": "5 terms, AP", "value": "a−2d, a−d, a, a+d, a+2d" }
+     ],
+     "note": "**Why it helps:** centring the terms symmetrically around a means the unknowns partly cancel when you add or multiply them, leaving fewer variables to solve for.\n\n- e.g. three numbers in AP summing to 30 with product 750: writing them as $a-d,a,a+d$ instantly gives $a=10$ from the sum, leaving only d to find from the product."
+    },
+    {
+     "kind": "trap",
+     "eyebrow": "Infinite GP needs |r| < 1",
+     "headline": "S∞ = a / (1 − r)",
+     "subheadline": "undefined / diverges if |r| ≥ 1",
+     "note": "**Why it fails otherwise:** if $|r|\\ge1$ the terms never shrink, so the running total never settles on a finite value.\n\n- **Approximation trick:** for a converging series, later terms become insignificant — add the first few terms, then use the answer options to pin down the rest.\n- e.g. $1+\\frac47+\\frac9{49}+\\cdots\\approx1.76$ after 5 terms; since the tail is tiny, only one option (49/27 ≈ 1.81) is close enough."
+    },
+    {
+     "kind": "plain",
+     "eyebrow": "Option substitution — very high yield",
+     "note": "**Why it's high-yield:** when both the question and the answer options are algebraic expressions, you don't need to solve anything symbolically — just plug in a small value and eliminate options that don't match.\n\n- e.g. to verify a general sum formula, test $n=1$ first (eliminate any option that doesn't match the direct calculation), then $n=2$ to isolate the one surviving option.\n- Roughly half of CAT QA questions can be partly or fully solved this way — usually faster than full algebra under time pressure."
+    }
+   ],
+   "formula_sheet": {
+    "hero": { "label": "The most useful AP idea", "value": "Sum = n × Average" },
+    "items": [
+     { "title": "AP formulas", "body": "- $T_r=a+(r-1)d$\n- $S=\\frac{n}{2}[2a+(n-1)d]$" },
+     { "title": "Corresponding terms", "body": "- Pair term-#s summing to $(n+1)$ share the AP's average.\n- Sum = terms × that average.", "highlight": true },
+     { "title": "GP formulas", "body": "- $l=ar^{n-1}$\n- $S_\\infty=\\dfrac{a}{1-r}$, only if $|r|<1$." },
+     { "title": "AM-GM-HM", "body": "- $A=\\frac{a+b}2$, $G=\\sqrt{ab}$, $H=\\frac{2ab}{a+b}$.\n- Always $A\\ge G\\ge H$." },
+     { "title": "Common terms of two APs", "body": "- New common difference = $\\text{lcm}(d_1,d_2)$.\n- Find the first shared term, then treat it as one AP." },
+     { "title": "Equal-sum trap", "body": "- $S_{n_1}=S_{n_2}\\Rightarrow S_{n_1+n_2}=0$." }
+    ]
+   }
+  },
+  { "slug": "time-and-work",      "name": "Time & Work",         "order": 6, "status": "coming_soon" }
  ],
 
  "questions": [
@@ -508,6 +616,244 @@
    "concept": "- When later digits are defined in terms of earlier ones, express everything in terms of a single starting variable.\n- Chain the relationships forward step by step rather than solving them all at once.\n- The \"every digit ≤ 9\" constraint is usually exactly what pins down the one valid value of your starting variable.",
    "answer_display": "7",
    "solution": "1. **Name the first digit:** call it $a$.\n2. **Chain the other digits from the clues:** digit 2 $=2a$, digit 3 $=a$, digit 5 $=a+2a=3a$, digit 6 $=a+2a+a=4a$.\n3. **Compute digit 4:** digit 4 = digit 5 + digit 6 $=3a+4a=7a$.\n4. **Cap every digit at 9:** $7a\\le9 \\Rightarrow a=1$ is the only option.\n5. **Read off digit 4:** $7a=7$ (the full number is 121734).\n\n*Source: CAT 2019, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 1,
+   "tag": "AP: term from a sum condition",
+   "difficulty": "Hard",
+   "question_text": "In the set of consecutive odd numbers {1, 3, 5, ..., 57}, there is a number k such that the sum of all the elements less than k is equal to the sum of all the elements greater than k. Then k equals",
+   "options": [
+    { "label": "a", "text": "41" },
+    { "label": "b", "text": "39" },
+    { "label": "c", "text": "37" },
+    { "label": "d", "text": "43" }
+   ],
+   "correct_answer": "a",
+   "concept": "- The set is itself an AP; think of k as splitting it into two equal-sum halves, each summing to half of (total − k).\n- Represent k as the m-th term of the AP so \"terms below k\" becomes a smaller AP whose sum you already know how to compute (sum of the first (m−1) odd numbers = $(m-1)^2$).",
+   "answer_display": "41",
+   "solution": "1. **Set up the split:** the AP {1,3,...,57} has 29 terms, so the total sum $=29^2=841$; if k splits it into equal halves S each, $2S+k=841$.\n2. **Represent k by its position:** let k be the m-th odd number, so $k=2m-1$; the terms below it are the first $(m-1)$ odd numbers, summing to $(m-1)^2$.\n3. **Solve the resulting equation:** $2(m-1)^2+(2m-1)=841 \\Rightarrow m^2-m=420 \\Rightarrow m=21$.\n4. **Read off k:** $k=2(21)-1=41$; check: below 41 sums to $20^2=400$, above sums to $400$ too.\n\n*Source: CAT 2025, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 2,
+   "tag": "AP: ratio to common difference",
+   "difficulty": "Moderate",
+   "question_text": "If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is",
+   "options": [
+    { "label": "a", "text": "2 : 3" },
+    { "label": "b", "text": "3 : 2" },
+    { "label": "c", "text": "3 : 4" },
+    { "label": "d", "text": "4 : 3" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Translate \"square of one term equals product of two others\" into algebra using $T_r=a+(r-1)d$ for each term, then expand and simplify — most terms cancel.\n- Since the progression has a positive common difference, you can safely divide through by d without flipping any inequality.",
+   "answer_display": "2 : 3",
+   "solution": "1. **Write the three terms:** $T_7=a+6d$, $T_3=a+2d$, $T_{17}=a+16d$.\n2. **Apply the condition:** $(a+6d)^2=(a+2d)(a+16d)$.\n3. **Expand both sides:** $a^2+12ad+36d^2=a^2+18ad+32d^2$.\n4. **Simplify:** $4d^2=6ad \\Rightarrow \\dfrac{a}{d}=\\dfrac{2}{3}$.\n\n*Source: CAT 2017, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 3,
+   "tag": "AP: sum with a multiplier",
+   "difficulty": "Moderate",
+   "question_text": "Let a₁, a₂, ..., a₃ₙ be an arithmetic progression with a₁ = 3 and a₂ = 7. If a₁ + a₂ + ... + a₃ₙ = 1830, then what is the smallest positive integer m such that m(a₁ + a₂ + ... + aₙ) > 1830?",
+   "options": [
+    { "label": "a", "text": "8" },
+    { "label": "b", "text": "9" },
+    { "label": "c", "text": "10" },
+    { "label": "d", "text": "11" }
+   ],
+   "correct_answer": "b",
+   "concept": "- Find the common difference from the first two given terms, then use the sum formula to turn the \"$a_1+\\cdots+a_{3n}=1830$\" condition into a solvable equation for n.\n- Once n and the partial sum are both known numbers, the multiplier question is just a simple inequality to round up from.",
+   "answer_display": "9",
+   "solution": "1. **Find d:** $a_1=3$, $a_2=7 \\Rightarrow d=4$.\n2. **Set up the 3n-term sum:** $\\dfrac{3n}{2}[2(3)+(3n-1)(4)]=3n(6n+1)=1830 \\Rightarrow n(6n+1)=610$.\n3. **Solve for n:** $n=10$ (since $10\\times61=610$).\n4. **Find the n-term sum:** $\\dfrac{10}{2}[2(3)+9(4)]=5\\times42=210$.\n5. **Solve the inequality:** $m\\times210>1830 \\Rightarrow m>8.71$, so the smallest integer is $m=9$.\n\n*Source: CAT 2017, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 4,
+   "tag": "Telescoping reciprocal series",
+   "difficulty": "Hard",
+   "question_text": "If a₁ = 1/(2×5), a₂ = 1/(5×8), a₃ = 1/(8×11), ..., then a₁ + a₂ + a₃ + ... + a₁₀₀ is",
+   "options": [
+    { "label": "a", "text": "25/151" },
+    { "label": "b", "text": "1/2" },
+    { "label": "c", "text": "1/4" },
+    { "label": "d", "text": "111/55" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Spot that each term is $\\frac{1}{(\\text{AP term})\\times(\\text{next AP term})}$ — the signal to split it into a difference of two simpler fractions (partial fractions).\n- Once split, write out the first couple and last couple of terms; everything in between cancels, leaving just the very first and very last pieces.",
+   "answer_display": "25/151",
+   "solution": "1. **Spot the pattern:** the k-th term is $\\dfrac{1}{(3k-1)(3k+2)}$.\n2. **Split into partial fractions:** $\\dfrac{1}{(3k-1)(3k+2)}=\\dfrac13\\left(\\dfrac{1}{3k-1}-\\dfrac{1}{3k+2}\\right)$.\n3. **Let the sum telescope:** everything cancels except the very first and last pieces: $\\dfrac13\\left(\\dfrac12-\\dfrac{1}{302}\\right)$.\n4. **Simplify:** $=\\dfrac13\\times\\dfrac{300}{604}=\\dfrac{100}{604}=\\dfrac{25}{151}$.\n\n*Source: CAT 2017.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 5,
+   "tag": "AP: sum of products",
+   "difficulty": "Hard",
+   "question_text": "The value of the sum 7 × 11 + 11 × 15 + 15 × 19 + ... + 95 × 99 is",
+   "options": [
+    { "label": "a", "text": "80707" },
+    { "label": "b", "text": "80751" },
+    { "label": "c", "text": "80730" },
+    { "label": "d", "text": "80773" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Write the general term as a product of two linear expressions in k, expand it into a polynomial in k, then sum each power of k separately using the standard $\\sum k$, $\\sum k^2$ formulas.\n- Work out how many terms there are first (from the last given term), since that fixes the upper limit of every sum.",
+   "answer_display": "80707",
+   "solution": "1. **Find the number of terms:** the general term is $(4k+3)(4k+7)$, and $4(23)+3=95$, so k runs from 1 to 23.\n2. **Expand the general term:** $(4k+3)(4k+7)=16k^2+40k+21$.\n3. **Sum each piece:** $16\\sum k^2+40\\sum k+21\\times23 = 16\\times4324+40\\times276+483$.\n4. **Add them up:** $69184+11040+483=80707$.\n\n*Source: CAT 2018, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 6,
+   "tag": "GP: terms from m-th & n-th",
+   "difficulty": "Hard",
+   "question_text": "Let the m-th and n-th terms of a geometric progression be 3/4 and 12, respectively, where m < n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n − m is",
+   "options": [
+    { "label": "a", "text": "−2" },
+    { "label": "b", "text": "2" },
+    { "label": "c", "text": "6" },
+    { "label": "d", "text": "4" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Divide the two given terms to eliminate a, leaving just $r^{n-m}$ — a single equation in the integer unknowns r and (n−m).\n- List every integer factorisation of that exponent equation, including negative r (checking whether an odd or even power can actually produce the required sign), then just compare the resulting values.",
+   "answer_display": "−2",
+   "solution": "1. **Divide the two terms:** $\\dfrac{ar^{n-1}}{ar^{m-1}}=r^{n-m}=\\dfrac{12}{3/4}=16$.\n2. **List integer (r, n−m) pairs:** $r=2,n{-}m=4$; $r=4,n{-}m=2$; $r=16,n{-}m=1$; $r=-2,n{-}m=4$; $r=-4,n{-}m=2$ (an odd power of a negative r can't give +16, so $r=-16$ is rejected).\n3. **Compute r + (n−m) for each:** 6, 6, 17, 2, and $-2$.\n4. **Pick the smallest:** $-2$, from $r=-4$, $n-m=2$.\n\n*Source: CAT 2020, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 7,
+   "tag": "Recovering terms from a running sum",
+   "difficulty": "Moderate",
+   "question_text": "Let a₁, a₂, ... be integers such that a₁ − a₂ + a₃ − a₄ + ... + (−1)ⁿ⁻¹aₙ = n, for all n ≥ 1. Then a₅₁ + a₅₂ + ... + a₁₀₂₃ equals",
+   "options": [
+    { "label": "a", "text": "−1" },
+    { "label": "b", "text": "1" },
+    { "label": "c", "text": "0" },
+    { "label": "d", "text": "10" }
+   ],
+   "correct_answer": "b",
+   "concept": "- Treat the given expression as a running (partial) alternating sum $S_n$; subtracting consecutive $S_n$ and $S_{n-1}$ isolates a single term.\n- Once you know that odd-indexed and even-indexed terms are each a fixed constant, the sum over a range is just (count of odd terms) − (count of even terms).",
+   "answer_display": "1",
+   "solution": "1. **Isolate a single term:** $S_n-S_{n-1}=(-1)^{n-1}a_n=n-(n-1)=1$, so $a_n=(-1)^{n-1}$ — odd-indexed terms are 1, even-indexed are $-1$.\n2. **Count each type from 51 to 1023:** odd indices 51,...,1023 → 487 terms; even indices 52,...,1022 → 486 terms.\n3. **Add them up:** $487\\times1+486\\times(-1)=1$.\n\n*Source: CAT 2019, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 8,
+   "tag": "Common terms of two APs",
+   "difficulty": "Moderate",
+   "question_text": "The number of common terms in the two sequences 15, 19, 23, 27, ..., 415 and 14, 19, 24, 29, ..., 464 is",
+   "options": [
+    { "label": "a", "text": "18" },
+    { "label": "b", "text": "21" },
+    { "label": "c", "text": "20" },
+    { "label": "d", "text": "19" }
+   ],
+   "correct_answer": "c",
+   "concept": "- The common terms of two APs always form a new AP whose common difference is the LCM of the two original differences.\n- Find the first shared term by inspection, then count how many multiples of that LCM fit inside the smaller of the two ranges.",
+   "answer_display": "20",
+   "solution": "1. **Find the first common term:** the two APs are 15,19,23,... (d=4) and 14,19,24,... (d=5); they first agree at 19.\n2. **Find the new common difference:** $\\text{lcm}(4,5)=20$, so common terms are 19, 39, 59, ....\n3. **Bound by the smaller range:** the last common term must be $\\le\\min(415,464)=415$; $19+20(t-1)\\le415 \\Rightarrow t\\le20$.\n4. **Count them:** 20 common terms.\n\n*Source: CAT 2019, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 9,
+   "tag": "Infinite GP defined by its tail",
+   "difficulty": "Hard",
+   "question_text": "An infinite geometric progression a₁, a₂, a₃, ... has the property that aₙ = 3(aₙ₊₁ + aₙ₊₂ + ...) for every n ≥ 1. If the sum a₁ + a₂ + a₃ + ... = 32, then a₅ is",
+   "options": [
+    { "label": "a", "text": "1/32" },
+    { "label": "b", "text": "2/32" },
+    { "label": "c", "text": "3/32" },
+    { "label": "d", "text": "4/32" }
+   ],
+   "correct_answer": "c",
+   "concept": "- \"Each term equals 3 times everything after it\" is a relationship between one term and the infinite-sum formula applied to the remaining tail — write both sides using $S_\\infty=\\frac{a}{1-r}$ and solve for r first.\n- Once r is known, use the total sum to back out the first term, then just apply $a_n=a_1r^{n-1}$ for whichever term is asked.",
+   "answer_display": "3/32",
+   "solution": "1. **Express the tail:** the sum from $a_{n+1}$ onward is $\\dfrac{a_nr}{1-r}$; the condition $a_n=3\\times(\\text{tail})$ gives $1=\\dfrac{3r}{1-r}$.\n2. **Solve for r:** $1-r=3r \\Rightarrow r=\\dfrac14$.\n3. **Find a₁ from the total sum:** $\\dfrac{a_1}{1-r}=32 \\Rightarrow a_1=32\\times\\dfrac34=24$.\n4. **Compute a₅:** $a_5=a_1r^4=24\\times\\left(\\dfrac14\\right)^4=\\dfrac{24}{256}=\\dfrac{3}{32}$.\n\n*Source: CAT 2017, Slot 2.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 10,
+   "tag": "Periodic recurrence sequence",
+   "difficulty": "Moderate",
+   "question_text": "If x₀ = 1, x₁ = 2, and xₙ₊₂ = (1 + xₙ₊₁)/xₙ, for n = 0, 1, 2, 3, ..., then x₂₀₂₁ is equal to",
+   "options": [
+    { "label": "a", "text": "4" },
+    { "label": "b", "text": "3" },
+    { "label": "c", "text": "1" },
+    { "label": "d", "text": "2" }
+   ],
+   "correct_answer": "d",
+   "concept": "- When a recurrence isn't a plain AP or GP, just compute several terms by hand — nonlinear recurrences often settle into a short repeating cycle.\n- Once you spot the period, reduce the target index mod the period length to read off the answer, exactly like units-digit cyclicity.",
+   "answer_display": "2",
+   "solution": "1. **Compute terms one by one:** $x_0=1,x_1=2,x_2=3,x_3=2,x_4=1,x_5=1,x_6=2,\\ldots$\n2. **Spot the cycle:** the values repeat every 5 steps: $1,2,3,2,1$.\n3. **Reduce the index:** $2021 \\bmod 5 = 1$.\n4. **Read off the term:** $x_{2021}=x_1=2$.\n\n*Source: CAT 2021, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 11,
+   "tag": "Sum within an expanding group",
+   "difficulty": "Moderate",
+   "question_text": "The natural numbers are divided into groups as (1), (2, 3, 4), (5, 6, 7, 8, 9), ... and so on. Then the sum of the numbers in the 15th group is equal to",
+   "options": [
+    { "label": "a", "text": "6119" },
+    { "label": "b", "text": "7471" },
+    { "label": "c", "text": "4941" },
+    { "label": "d", "text": "6090" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Figure out how many numbers are in each group and where a given group starts, then treat that group's numbers as their own mini-AP.\n- Sum that mini-AP with the average trick: (first + last)/2 × count.",
+   "answer_display": "6119",
+   "solution": "1. **Count the numbers in group k:** group k has $2k-1$ numbers.\n2. **Find where group 15 starts:** total numbers before it $=\\sum_{i=1}^{14}(2i-1)=14^2=196$, so group 15 starts at 197.\n3. **Find where it ends:** it has 29 numbers, so it ends at $197+29-1=225$.\n4. **Sum via the average:** $29\\times\\dfrac{197+225}{2}=29\\times211=6119$.\n\n*Source: CAT 2021, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 12,
+   "tag": "n-th term from a sum formula",
+   "difficulty": "Moderate",
+   "question_text": "If a₁ + a₂ + a₃ + ... + aₙ = 3(2ⁿ⁺¹ − 2), for every n ≥ 1, then a₁₁ equals",
+   "options": [
+    { "label": "a", "text": "6144" },
+    { "label": "b", "text": "3072" },
+    { "label": "c", "text": "12288" },
+    { "label": "d", "text": "6146" }
+   ],
+   "correct_answer": "a",
+   "concept": "- The n-th term of a sequence can always be recovered from consecutive partial sums: $a_n=S_n-S_{n-1}$.\n- Simplify the resulting expression algebraically before plugging in the specific n you need — it usually collapses to something much simpler than the original sum formula.",
+   "answer_display": "6144",
+   "solution": "1. **Recover the general term:** for $n\\ge2$, $a_n=S_n-S_{n-1}=3(2^{n+1}-2)-3(2^n-2)$.\n2. **Simplify:** $=3\\times2^n$.\n3. **Plug in n = 11:** $a_{11}=3\\times2^{11}=3\\times2048=6144$.\n\n*Source: CAT 2019, Slot 1.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 13,
+   "tag": "AP: two sum conditions",
+   "difficulty": "Hard",
+   "question_text": "In an arithmetic progression, if the sum of the fourth, seventh, and tenth terms is 99, and the sum of the first fourteen terms is 497, then the sum of the first five terms is",
+   "options": [
+    { "label": "a", "text": "65" },
+    { "label": "b", "text": "70" },
+    { "label": "c", "text": "60" },
+    { "label": "d", "text": "55" }
+   ],
+   "correct_answer": "a",
+   "concept": "- Two sum conditions on an AP are just two linear equations in a and d — translate each sentence directly into an equation and solve simultaneously.\n- Once a and d are both known numbers, any requested partial sum is a direct plug-in.",
+   "answer_display": "65",
+   "solution": "1. **Translate the first condition:** $(a+3d)+(a+6d)+(a+9d)=3a+18d=99 \\Rightarrow a+6d=33$.\n2. **Translate the second condition:** $\\dfrac{14}{2}(2a+13d)=497 \\Rightarrow 2a+13d=71$.\n3. **Solve simultaneously:** from $a+6d=33$, $2a+12d=66$; subtracting from $2a+13d=71$ gives $d=5$, then $a=3$.\n4. **Compute the sum of the first five terms:** $\\dfrac52(2a+4d)=\\dfrac52(6+20)=65$.\n\n*Source: CAT 2025, Slot 3.*"
+  },
+  {
+   "chapter_slug": "progressions",
+   "order": 14,
+   "tag": "Common terms, different steps",
+   "difficulty": "Hard",
+   "question_text": "Let aₙ = 46 + 8n and bₙ = 98 + 4n be two sequences for natural numbers n ≤ 100. Then the sum of all terms common to both sequences is",
+   "options": [
+    { "label": "a", "text": "15000" },
+    { "label": "b", "text": "14900" },
+    { "label": "c", "text": "14602" },
+    { "label": "d", "text": "14798" }
+   ],
+   "correct_answer": "b",
+   "concept": "- Same idea as \"common terms of two APs\": once you find where the two sequences first coincide, every later match is exactly $\\text{lcm}$ of the two step-sizes further along.\n- Bound the resulting common-term AP using whichever original sequence has the tighter (smaller) range, not just either one arbitrarily.",
+   "answer_display": "14900",
+   "solution": "1. **Find the range of each sequence:** $a_n=46+8n$ runs 54 to 846; $b_n=98+4n$ runs 102 to 498.\n2. **Find the new common difference:** common terms form an AP with difference $\\text{lcm}(8,4)=8$.\n3. **Find the first and last common terms:** the smallest possible is 102 (the minimum of the b-sequence, which does occur in both); the largest possible is 494 (staying within 498).\n4. **Count and sum:** count $=\\dfrac{494-102}{8}+1=50$; sum $=\\dfrac{50}{2}(102+494)=25\\times596=14900$.\n\n*Source: CAT 2023, Slot 3.*"
   }
  ]
 }
