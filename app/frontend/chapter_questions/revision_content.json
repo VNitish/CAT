@@ -6,7 +6,7 @@
    "order": 1,
    "status": "ready",
    "tagline": "Rebuild the one relationship, then the four shapes it takes: units, relative speed, trains, boats.",
-   "intro": "Everything in one place. Read it top to bottom to rebuild the whole picture, or download it for offline recall. When it feels solid, move on to the questions.",
+   "intro": "One relationship and the four shapes it takes: units, relative speed, trains, boats. Tap a concept to see it worked in detail, then work through 5 questions built around the traps that catch people out most.",
    "flagged_note": "2 flagged as tricky",
    "hero_image": "",
    "thumb_image": "",
@@ -16,20 +16,20 @@
      "eyebrow": "The foundation",
      "headline": "Speed = D / T",
      "chips": ["D = S × T", "T = D / S"],
-     "note": "For a fixed distance, speed and time are inversely proportional. If speed becomes 3/4, time becomes 4/3."
+     "note": "**Why it works:** speed is just distance covered per unit time — rearrange the same relationship to solve for whichever quantity is missing.\n\n- e.g. a car covers 150 km in 3 h → speed $=150/3=50$ km/h.\n- For a fixed distance, speed and time are inversely proportional: if speed becomes 3/4 of the original, time becomes 4/3."
     },
     {
      "kind": "trap",
      "eyebrow": "The #1 trap: average speed",
      "headline": "Total distance / total time",
      "subheadline": "equal legs: 2ab / (a+b)",
-     "note": "Never the plain average of the two speeds. You spend more time at the slower speed, so the true average is pulled toward it."
+     "note": "**Why the plain average is wrong:** you spend more time travelling at the slower speed, so it pulls the true average toward itself — total distance over total time captures that automatically.\n\n- e.g. 40 km/h then 60 km/h over two equal-distance legs: average $=\\dfrac{2\\times40\\times60}{40+60}=48$ km/h, not the naive 50.\n- **Equal-legs shortcut:** $\\dfrac{2ab}{a+b}$ — the harmonic mean of the two speeds."
     },
     {
      "kind": "plain",
      "eyebrow": "Unit conversion",
      "lines": ["km/h to m/s  × 5/18", "m/s to km/h  × 18/5"],
-     "note": "Anchors: **36 km/h = 10 m/s**, 72 km/h = 20 m/s."
+     "note": "**Why 5/18:** $1$ km/h $=\\dfrac{1000\\text{ m}}{3600\\text{ s}}=\\dfrac{5}{18}$ m/s — it falls straight out of unit cancellation.\n\n- Anchors: **36 km/h = 10 m/s**, 72 km/h = 20 m/s.\n- e.g. 90 km/h $\\to 90\\times5/18=25$ m/s."
     },
     {
      "kind": "plain",
@@ -38,7 +38,7 @@
       { "label": "Opposite directions", "value": "a + b" },
       { "label": "Same direction", "value": "a − b" }
      ],
-     "note": "Drives every meeting, overtaking and crossing problem."
+     "note": "**Why add or subtract:** moving toward each other, the gap closes at the combined rate; moving the same way, the faster one only pulls ahead at the *difference* in speeds.\n\n- e.g. two cars at 40 and 60 km/h toward each other close the gap at $100$ km/h; the same two cars going the same way close it at just $20$ km/h.\n- Drives every meeting, overtaking and crossing problem."
     },
     {
      "kind": "plain",
@@ -47,22 +47,24 @@
       { "label": "Crossing a pole", "value": "L" },
       { "label": "Crossing a platform", "value": "L + P" },
       { "label": "Two trains", "value": "L₁ + L₂" }
-     ]
+     ],
+     "note": "**Why the length gets added:** \"crossing\" means the front travels until the *back* of the train clears the obstacle — so the train's own length always joins whatever it's crossing.\n\n- e.g. a 150 m train crossing a 100 m platform covers $150+100=250$ m in total, not just 150 m."
     },
     {
      "kind": "plain",
      "eyebrow": "Boats & streams",
      "lines": ["downstream = b + s", "upstream = b − s"],
-     "subheadline": "b = (down+up)/2   s = (down−up)/2"
+     "subheadline": "b = (down+up)/2   s = (down−up)/2",
+     "note": "**Why add or subtract the stream:** it's just relative speed with the current as the second mover — the water helps you downstream and fights you upstream.\n\n- e.g. boat speed 8 km/h, stream 2 km/h → downstream $=10$, upstream $=6$ km/h.\n- Run the formulas in reverse to recover b and s from two measured travel speeds."
     }
    ],
    "formula_sheet": {
     "hero": { "label": "The one relationship", "value": "Speed = D / T" },
     "items": [
-     { "title": "Unit switch", "body": "km/h to m/s  × 5/18" },
-     { "title": "Relative speed", "body": "Opposite, add. Same way, subtract." },
-     { "title": "Boats & streams", "body": "down = b+s, up = b−s" },
-     { "title": "Average speed", "body": "Total distance over total time. Equal legs: 2ab/(a+b).", "highlight": true }
+     { "title": "Unit switch", "body": "- $1$ km/h $=5/18$ m/s (from $1000$ m $/\\, 3600$ s).\n- Anchor: 36 km/h = 10 m/s." },
+     { "title": "Relative speed", "body": "- Opposite directions: add the speeds. Same direction: subtract.\n- e.g. 40 & 60 km/h toward each other → 100 km/h combined." },
+     { "title": "Boats & streams", "body": "- Downstream = boat + stream; upstream = boat − stream.\n- e.g. boat 8, stream 2 → down 10, up 6." },
+     { "title": "Average speed", "body": "- Total distance ÷ total time — never the plain average of the speeds.\n- Equal-legs shortcut: $2ab/(a+b)$.", "highlight": true }
     ]
    }
   },
@@ -197,8 +199,9 @@
     { "label": "d", "text": "45 km/h" }
    ],
    "correct_answer": "b",
+   "concept": "- \"Average speed\" always means total distance ÷ total time — never the plain average of the two speeds.\n- For two equal-distance legs this collapses to the harmonic mean, $2ab/(a+b)$, which always sits below the plain average, pulled toward the slower speed.",
    "answer_display": "48 km/h",
-   "solution": "Equal distances, so use the harmonic mean: 2·40·60 / 100 = 48 km/h. More time is spent at the slower 40 km/h, so the average sits below the plain average of 50, which is the bait."
+   "solution": "1. **Spot the trap:** the two legs cover equal distances, so this is not a plain average of 40 and 60.\n2. **Apply the equal-legs formula:** average speed $=\\dfrac{2\\times40\\times60}{40+60}=\\dfrac{4800}{100}=48$ km/h.\n3. **Sanity check:** 48 sits below the naive average of 50, since more time was spent at the slower 40 km/h — the bait answer."
   },
   {
    "chapter_slug": "time-speed-distance",
@@ -213,8 +216,9 @@
     { "label": "d", "text": "45 km/h" }
    ],
    "correct_answer": "b",
+   "concept": "- Crossing a pole/point means covering exactly the train's own length — no platform, no second train to add.\n- Work out speed in m/s from the given data first, then convert to km/h (× 18/5) only at the end.",
    "answer_display": "54 km/h",
-   "solution": "Speed = 180 / 12 = 15 m/s. Convert with × 18/5 to get 54 km/h. Crossing a pole means covering just the train’s own length."
+   "solution": "1. **Identify the distance:** crossing a pole means covering just the train's own 180 m length.\n2. **Compute speed in m/s:** $180\\div12=15$ m/s.\n3. **Convert to km/h:** $15\\times18/5=54$ km/h."
   },
   {
    "chapter_slug": "time-speed-distance",
@@ -229,8 +233,9 @@
     { "label": "d", "text": "20 s" }
    ],
    "correct_answer": "a",
+   "concept": "- Moving toward each other, relative speed = the sum of the two speeds; the distance to cover is the sum of both train lengths.\n- Convert everything to the same unit (m/s or km/h) before combining.",
    "answer_display": "12 seconds",
-   "solution": "Opposite directions, so add the speeds: 90 km/h = 25 m/s. Combined length 300 m / 25 = 12 s."
+   "solution": "1. **Add the lengths:** combined distance to cover $=120+180=300$ m.\n2. **Add the speeds (opposite directions):** $40+50=90$ km/h $=25$ m/s.\n3. **Divide:** time $=300\\div25=12$ s."
   },
   {
    "chapter_slug": "time-speed-distance",
@@ -245,8 +250,9 @@
     { "label": "d", "text": "8 km/h" }
    ],
    "correct_answer": "c",
+   "concept": "- Downstream speed = boat + stream; upstream = boat − stream — two equations, two unknowns.\n- Given one direction's speed and the stream, isolate the boat's own speed by adding or subtracting the stream.",
    "answer_display": "6 km/h",
-   "solution": "Downstream speed = 24 / 3 = 8 km/h = boat + stream. So the boat is 8 − 2 = 6 km/h."
+   "solution": "1. **Find the downstream speed:** $24\\text{ km}\\div3\\text{ h}=8$ km/h.\n2. **Downstream = boat + stream:** $8=\\text{boat}+2$.\n3. **Solve for the boat:** boat speed $=8-2=6$ km/h."
   },
   {
    "chapter_slug": "time-speed-distance",
@@ -261,8 +267,9 @@
     { "label": "d", "text": "5 km" }
    ],
    "correct_answer": "d",
+   "concept": "- Two different speeds over the *same* distance give two different travel times — set up $\\text{time}_1-\\text{time}_2$ using $d/s$ for each.\n- Convert the \"late\" and \"early\" minutes into a single total time gap before solving for distance.",
    "answer_display": "5 km",
-   "solution": "Total time gap = 6 + 4 = 10 min = 1/6 h. So d/5 − d/6 = d/30 = 1/6, which gives d = 5 km."
+   "solution": "1. **Convert minutes to hours:** total time gap $=6+4=10$ min $=1/6$ h.\n2. **Set up the equation:** at 5 km/h he's 6 min late, at 6 km/h he's 4 min early, so $\\dfrac{d}{5}-\\dfrac{d}{6}=\\dfrac{1}{6}$.\n3. **Simplify the left side:** $\\dfrac{d}{30}=\\dfrac{1}{6}$.\n4. **Solve:** $d=5$ km."
   },
   {
    "chapter_slug": "number-system",
