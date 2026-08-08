@@ -395,6 +395,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/quant')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant Practice
           </button>
+          <button onClick={() => router.push('/revision')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Quant Revision
+          </button>
           <button onClick={() => router.push('/quant-tests')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant Tests
           </button>
@@ -500,7 +503,7 @@ export default function LandingPage() {
       {/* Practice areas — Quant, VARC & RC */}
       <div style={{ maxWidth: 860, margin: '0 auto', padding: '72px 48px 0' }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase', color: '#aaaaaa', marginBottom: 8, textAlign: 'center' }}>Practice by section</div>
-        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Seven focused ways to prepare</div>
+        <div style={{ fontSize: 28, fontWeight: 700, color: '#121212', letterSpacing: -0.6, textAlign: 'center', marginBottom: 40 }}>Eight focused ways to prepare</div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 1, background: '#e4e4e4', border: '1px solid #e4e4e4' }}>
           {[
             {
@@ -511,6 +514,15 @@ export default function LandingPage() {
               points: ['Topic-wise question banks', 'Easy / medium / hard breakdown', 'Step-by-step worked solutions'],
               cta: 'Start Quant practice',
               href: '/quant',
+            },
+            {
+              accent: '#00C48C',
+              eyebrow: 'Quantitative Aptitude',
+              title: 'Quant Revision',
+              desc: 'Rebuild a chapter from its formula overview, then prove you still have it on the handful of questions that most often catch people out.',
+              points: ['Complete formula sheet per chapter', 'A short, untimed set of tricky questions', 'Solution revealed the moment you answer'],
+              cta: 'Open Quant Revision',
+              href: '/revision',
             },
             {
               accent: '#E5484D',

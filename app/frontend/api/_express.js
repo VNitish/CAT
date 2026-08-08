@@ -406,8 +406,9 @@ const DiSession       = mongoose.model('DiSession', diSessionSchema);
 // TITA questions carry answer_format 'numeric' and marks_incorrect 0 — CAT does not
 // penalise a wrong type-in answer, only a wrong MCQ.
 //
-// 30 questions in 55 minutes = 110 s/question, the same pace as the real CAT QA
-// section (22 questions in 40 minutes).
+// Each test carries its own duration on its question docs (duration_seconds), so a
+// 30Q/55min sectional and a 22Q/45min block test can coexist. QT_DURATION_SECONDS is
+// only the fallback for older rows seeded before the field existed.
 const QT_DURATION_SECONDS = 55 * 60;
 
 const qtQuestionSchema = new mongoose.Schema({
@@ -415,6 +416,7 @@ const qtQuestionSchema = new mongoose.Schema({
   test:            { type: Number, index: true },
   section:         { type: String, default: 'QA' },
   block:           { type: String, index: true },   // 'Block VI'
+  duration_seconds:{ type: Number, default: QT_DURATION_SECONDS },  // per-test clock
   topic:           String,                          // chapter name
   pattern:         String,                          // technique label, e.g. 'Lattice paths through a given point'
   question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
@@ -444,6 +446,9 @@ const qtSessionSchema = new mongoose.Schema({
   // Seconds remaining. Goes NEGATIVE once the clock runs out: the test never
   // auto-submits, it just keeps counting so the candidate sees the overrun.
   time_left:       { type: Number, default: QT_DURATION_SECONDS },
+  // Snapshotted at session creation so a reseed with a new duration cannot change
+  // the clock of a test already in progress.
+  duration_seconds:{ type: Number, default: QT_DURATION_SECONDS },
   started_at:      { type: Date, default: Date.now },
   finished_at:     { type: Date, default: null },
   score: {
@@ -554,6 +559,83 @@ lrpAttemptSchema.index({ user_id: 1, q_slug: 1 }, { unique: true });
 const LrpTopic   = mongoose.model('LrpTopic', lrpTopicSchema);
 const LrpSet     = mongoose.model('LrpSet', lrpSetSchema);
 const LrpAttempt = mongoose.model('LrpAttempt', lrpAttemptSchema);
+
+// ── Quant Revision ────────────────────────────────────────────────────────────
+// A revise-then-prove-it mode (distinct from /quant drilling): each chapter opens
+// with a complete formula overview that rebuilds the whole picture, then a short
+// session of the questions that most often catch people out. No timer.
+//
+// The overview is a grid of cards. `kind` drives the card's colour and shape:
+//   'foundation' — the one relationship, accent-filled, headline + chips
+//   'trap'       — the classic mistake, secondary-filled, headline + subheadline
+//   'plain'      — neutral panel: `lines` (stacked formulas) and/or `rows` (label/value)
+// Every kind may carry a trailing `note`. Cards render whichever fields are set,
+// so a chapter can use as few or as many as its content needs.
+const revisionCardSchema = new mongoose.Schema({
+  kind:        { type: String, enum: ['foundation', 'trap', 'plain'], default: 'plain' },
+  eyebrow:     String,
+  headline:    { type: String, default: '' },
+  subheadline: { type: String, default: '' },
+  chips:       { type: [String], default: [] },
+  lines:       { type: [String], default: [] },
+  rows:        { type: [{ _id: false, label: String, value: String }], default: [] },
+  note:        { type: String, default: '' },
+}, { _id: false });
+
+// The sidebar carried alongside every question in a session: the same formulas,
+// compressed. `hero` is the single relationship pinned at the top.
+const revisionSheetItemSchema = new mongoose.Schema({
+  title:     String,
+  body:      String,
+  highlight: { type: Boolean, default: false },   // renders in the secondary accent
+}, { _id: false });
+
+const revisionChapterSchema = new mongoose.Schema({
+  slug:           { type: String, unique: true, index: true },
+  name:           String,
+  order:          Number,
+  status:         { type: String, enum: ['ready', 'coming_soon'], default: 'coming_soon' },
+  tagline:        { type: String, default: '' },   // home card subtitle
+  intro:          { type: String, default: '' },   // overview lead paragraph
+  flagged_note:   { type: String, default: '' },   // e.g. "2 flagged as tricky"
+  hero_image:     { type: String, default: '' },   // data-URI or /public path; optional
+  thumb_image:    { type: String, default: '' },   // optional
+  overview_cards: { type: [revisionCardSchema], default: [] },
+  formula_sheet:  {
+    hero:  { label: { type: String, default: '' }, value: { type: String, default: '' } },
+    items: { type: [revisionSheetItemSchema], default: [] },
+  },
+  source:         String,
+}, { collection: 'revision_chapters', timestamps: true });
+
+const revisionQuestionSchema = new mongoose.Schema({
+  chapter_slug:   { type: String, index: true },
+  order:          Number,
+  tag:            { type: String, default: '' },   // the pill above the prompt
+  difficulty:     { type: String, enum: ['Easy', 'Moderate', 'Hard'], default: 'Moderate' },
+  question_text:  String,
+  figure:         { type: String, default: '' },
+  options:        [{ _id: false, label: String, text: String }],
+  correct_answer: String,                          // option label, e.g. 'b'
+  concept:        { type: String, default: '' },   // the session sidebar: the tool this question needs, not its worked steps
+  answer_display: { type: String, default: '' },   // shown on the solution + recap rows
+  solution:       { type: String, default: '' },
+  source:         String,
+}, { collection: 'revision_questions', timestamps: true });
+revisionQuestionSchema.index({ chapter_slug: 1, order: 1 });
+
+const revisionAttemptSchema = new mongoose.Schema({
+  user_id:      { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  question_id:  { type: mongoose.Schema.Types.ObjectId, ref: 'RevisionQuestion' },
+  chapter_slug: String,
+  chosen:       String,
+  correct:      Boolean,
+}, { collection: 'revision_attempts', timestamps: true });
+revisionAttemptSchema.index({ user_id: 1, question_id: 1 }, { unique: true });
+
+const RevisionChapter  = mongoose.model('RevisionChapter', revisionChapterSchema);
+const RevisionQuestion = mongoose.model('RevisionQuestion', revisionQuestionSchema);
+const RevisionAttempt  = mongoose.model('RevisionAttempt', revisionAttemptSchema);
 
 // Optional-auth helper: attaches req.user if a valid token is present, else continues.
 async function optionalAuth(req, _res, next) {
@@ -1971,7 +2053,7 @@ app.get('/api/di/history', authMiddleware, async (req, res) => {
 
 // Fields safe to expose before submission (withholds correct_answer + explanation)
 const QT_SAFE_PROJECTION =
-  'question_code test section block topic pattern question_type answer_format ' +
+  'question_code test section block duration_seconds topic pattern question_type answer_format ' +
   'directions question_text options marks_correct marks_incorrect question_number difficulty';
 
 function qtOrdered(session, docs) {
@@ -1990,6 +2072,7 @@ app.get('/api/quant-tests', async (req, res) => {
           count:   { $sum: 1 },
           marks:   { $sum: '$marks_correct' },
           topics:  { $addToSet: '$topic' },
+          seconds: { $max: '$duration_seconds' },
       } },
       { $sort: { '_id.test': 1 } },
     ]);
@@ -1997,7 +2080,7 @@ app.get('/api/quant-tests', async (req, res) => {
       test:             r._id.test,
       block:            r._id.block,
       questions:        r.count,
-      duration_minutes: Math.round(QT_DURATION_SECONDS / 60),
+      duration_minutes: Math.round((r.seconds || QT_DURATION_SECONDS) / 60),
       marks:            r.marks,
       topics:           r.topics.sort(),
     }));
@@ -2023,16 +2106,19 @@ app.post('/api/qt/start', authMiddleware, async (req, res) => {
       .lean();
     if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
 
+    const durationSeconds = docs[0].duration_seconds || QT_DURATION_SECONDS;
+
     if (!session) {
       session = await QtSession.create({
-        user_id:         req.user._id,
+        user_id:          req.user._id,
         test,
-        block:           docs[0].block,
-        status:          'in_progress',
-        question_ids:    docs.map(q => q._id),
-        question_states: {},
-        time_left:       QT_DURATION_SECONDS,
-        started_at:      new Date(),
+        block:            docs[0].block,
+        status:           'in_progress',
+        question_ids:     docs.map(q => q._id),
+        question_states:  {},
+        time_left:        durationSeconds,
+        duration_seconds: durationSeconds,
+        started_at:       new Date(),
       });
     }
 
@@ -2196,7 +2282,7 @@ app.get('/api/qt/sessions/:sid', authMiddleware, async (req, res) => {
       status:          session.status,
       score:           session.score || null,
       time_left:       session.time_left,
-      duration_seconds: QT_DURATION_SECONDS,
+      duration_seconds: session.duration_seconds || QT_DURATION_SECONDS,
       questions,
     });
   } catch (e) {
@@ -2656,6 +2742,118 @@ app.get('/api/lrp/progress', authMiddleware, async (req, res) => {
   try {
     const attempts = await LrpAttempt.find(
       { user_id: req.user._id }, 'q_slug topic_slug set_slug chosen correct'
+    ).lean();
+    res.json(attempts);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── Quant Revision routes ─────────────────────────────────────────────────────
+// GET /api/revision/chapters — the chapter grid. Coming-soon chapters are listed
+// too (with total 0) so the landing page can show the full roadmap.
+app.get('/api/revision/chapters', optionalAuth, async (req, res) => {
+  try {
+    const chapters = await RevisionChapter.find(
+      {}, 'slug name order status tagline flagged_note thumb_image'
+    ).sort({ order: 1 }).lean();
+
+    const counts = await RevisionQuestion.aggregate([
+      { $group: { _id: '$chapter_slug', n: { $sum: 1 } } },
+    ]);
+    const countBy = {};
+    counts.forEach(c => { countBy[c._id] = c.n; });
+
+    const solvedBy = {};
+    if (req.user) {
+      const attempts = await RevisionAttempt.find(
+        { user_id: req.user._id }, 'chapter_slug correct'
+      ).lean();
+      attempts.forEach(a => {
+        solvedBy[a.chapter_slug] = solvedBy[a.chapter_slug] || { attempted: 0, correct: 0 };
+        solvedBy[a.chapter_slug].attempted += 1;
+        if (a.correct) solvedBy[a.chapter_slug].correct += 1;
+      });
+    }
+
+    res.json(chapters.map(c => ({
+      slug: c.slug, name: c.name, order: c.order, status: c.status,
+      tagline: c.tagline || '', flagged_note: c.flagged_note || '',
+      thumb_image: c.thumb_image || '',
+      total: countBy[c.slug] || 0,
+      attempted: (solvedBy[c.slug] || {}).attempted || 0,
+      correct: (solvedBy[c.slug] || {}).correct || 0,
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/revision/chapter/:slug — the overview cards, the session formula sheet
+// and the full question set. This is a revision mode, so answers and solutions go
+// to the client and the reveal is client-side (same contract as /api/lr/topic/:slug).
+app.get('/api/revision/chapter/:slug', optionalAuth, async (req, res) => {
+  try {
+    const chapter = await RevisionChapter.findOne({ slug: req.params.slug }).lean();
+    if (!chapter) return res.status(404).json({ error: 'Chapter not found' });
+
+    const questions = await RevisionQuestion.find({ chapter_slug: req.params.slug })
+      .sort({ order: 1 }).lean();
+
+    const attemptBy = {};
+    if (req.user) {
+      const attempts = await RevisionAttempt.find(
+        { user_id: req.user._id, chapter_slug: req.params.slug }
+      ).lean();
+      attempts.forEach(a => { attemptBy[String(a.question_id)] = { chosen: a.chosen, correct: a.correct }; });
+    }
+
+    res.json({
+      chapter: {
+        slug: chapter.slug, name: chapter.name, status: chapter.status,
+        tagline: chapter.tagline || '', intro: chapter.intro || '',
+        hero_image: chapter.hero_image || '',
+        overview_cards: chapter.overview_cards || [],
+        formula_sheet: chapter.formula_sheet || { hero: {}, items: [] },
+      },
+      questions: questions.map(q => ({
+        _id: q._id, order: q.order, tag: q.tag || '', difficulty: q.difficulty,
+        question_text: q.question_text, figure: q.figure || '',
+        options: q.options, correct_answer: q.correct_answer,
+        concept: q.concept || '',
+        answer_display: q.answer_display || '', solution: q.solution || '',
+        attempt: attemptBy[String(q._id)] || null,
+      })),
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/revision/attempt — record (or update) the user's attempt on a question
+app.post('/api/revision/attempt', authMiddleware, async (req, res) => {
+  try {
+    const { question_id, chosen, correct } = req.body;
+    if (!question_id) return res.status(400).json({ error: 'question_id required' });
+    const q = await RevisionQuestion.findById(question_id, 'chapter_slug').lean();
+    if (!q) return res.status(404).json({ error: 'Question not found' });
+
+    await RevisionAttempt.updateOne(
+      { user_id: req.user._id, question_id },
+      { $set: { chapter_slug: q.chapter_slug, chosen: chosen || '', correct: !!correct } },
+      { upsert: true }
+    );
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/revision/progress — the user's attempts (for merging into the client)
+app.get('/api/revision/progress', authMiddleware, async (req, res) => {
+  try {
+    const attempts = await RevisionAttempt.find(
+      { user_id: req.user._id }, 'question_id chapter_slug chosen correct'
     ).lean();
     res.json(attempts);
   } catch (e) {
