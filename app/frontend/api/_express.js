@@ -560,6 +560,120 @@ const LrpTopic   = mongoose.model('LrpTopic', lrpTopicSchema);
 const LrpSet     = mongoose.model('LrpSet', lrpSetSchema);
 const LrpAttempt = mongoose.model('LrpAttempt', lrpAttemptSchema);
 
+// ── LR Topics (real CAT DILR sets, topics derived from 2017-2025 papers) ─────
+// Untimed practice mode, same mechanics as LR Practice Sets above, but every
+// topic and pattern here was derived empirically from classifying all 116 real
+// CAT DILR sets 2017-2025 — not from a generic reasoning-book taxonomy. Every
+// set is a verbatim real CAT question with an official correct_answer.
+const dilrTopicSchema = new mongoose.Schema({
+  slug:          { type: String, unique: true, index: true },
+  name:          String,
+  order:         Number,
+  accent:        String,
+  tagline:       String,
+  pattern_types: [String],
+  occurrences:   { type: Number, default: 0 },  // how many real 2017-2025 sets matched this topic
+}, { collection: 'dilr_topics', timestamps: true });
+
+const dilrQuestionSchema = new mongoose.Schema({
+  q_slug:         { type: String, required: true },
+  order:          Number,
+  question_type:  { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  question_text:  String,
+  options:        [{ _id: false, label: String, text: String }],
+  answer_format:  { type: String, enum: ['option', 'typed'], default: 'option' },
+  correct_answer: String,
+  solution_steps: [String],
+}, { _id: false });
+
+const dilrSetSchema = new mongoose.Schema({
+  topic_slug:   { type: String, index: true },
+  set_slug:     { type: String, unique: true, index: true },
+  order:        Number,
+  difficulty:   { type: String, enum: ['Easy', 'Moderate', 'Hard'], default: 'Moderate' },
+  pattern_type: String,
+  title:        String,
+  setup:        { type: String, default: '' },
+  source:       String,   // 'CAT 2023, Slot 1'
+  questions:    [dilrQuestionSchema],
+}, { collection: 'dilr_sets', timestamps: true });
+dilrSetSchema.index({ topic_slug: 1, order: 1 });
+
+const dilrAttemptSchema = new mongoose.Schema({
+  user_id:    { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  q_slug:     String,
+  topic_slug: String,
+  set_slug:   String,
+  chosen:     String,
+  correct:    Boolean,
+}, { collection: 'dilr_attempts', timestamps: true });
+dilrAttemptSchema.index({ user_id: 1, q_slug: 1 }, { unique: true });
+
+const DilrTopic   = mongoose.model('DilrTopic', dilrTopicSchema);
+const DilrSet     = mongoose.model('DilrSet', dilrSetSchema);
+const DilrAttempt = mongoose.model('DilrAttempt', dilrAttemptSchema);
+
+// ── LR Sample Tests (full timed DILR mocks, LR-only sets from real CAT papers) ─
+// Unlike LR Topics (untimed, pattern-coverage practice), these are complete
+// timed sectionals built from one real CAT slot's DILR section, with any
+// Data-Interpretation set from that slot deliberately excluded.
+const DILRT_SECONDS_PER_Q = 150; // DILR is calculation/logic-heavy: 2.5 min per question
+
+// Fields safe to expose before submission (withholds correct_answer + explanation)
+const DILRT_SAFE_PROJECTION =
+  'question_code test section label topic pattern set_id set_position context_passage ' +
+  'question_type answer_format question_text options marks_correct marks_incorrect ' +
+  'difficulty question_number';
+
+const dilrtQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  test:            { type: Number, index: true },
+  section:         { type: String, default: 'DILR' },
+  label:           String,          // '2023 Slot 1', '2021 Slot 3'
+  topic:           String,          // topic label this set's pattern belongs to
+  pattern:         String,
+  set_id:          String,
+  set_position:    Number,
+  context_passage: { type: String, default: '' },
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'numeric'], default: 'option' },
+  question_text:   String,
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  difficulty:      String,
+  question_number: Number,
+  source:          String,
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'dilrt_questions', timestamps: true });
+dilrtQuestionSchema.index({ test: 1, question_number: 1 });
+
+const dilrtSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test:            { type: Number },
+  label:           { type: String },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  time_left:       { type: Number, default: 30 * 60 },
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'dilrt_sessions', timestamps: true });
+dilrtSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
+const DilrtQuestion = mongoose.model('DilrtQuestion', dilrtQuestionSchema);
+const DilrtSession  = mongoose.model('DilrtSession', dilrtSessionSchema);
+
 // ── Quant Revision ────────────────────────────────────────────────────────────
 // A revise-then-prove-it mode (distinct from /quant drilling): each chapter opens
 // with a complete formula overview that rebuilds the whole picture, then a short
@@ -2744,6 +2858,344 @@ app.get('/api/lrp/progress', authMiddleware, async (req, res) => {
       { user_id: req.user._id }, 'q_slug topic_slug set_slug chosen correct'
     ).lean();
     res.json(attempts);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── LR Topics routes (real-CAT-derived taxonomy; mirrors /api/lrp/* above) ────
+// GET /api/dilr/topics — topics with set + question counts (+ progress if logged in)
+app.get('/api/dilr/topics', optionalAuth, async (req, res) => {
+  try {
+    const topics = await DilrTopic.find({}).sort({ order: 1 }).lean();
+    const sets = await DilrSet.find({}, 'topic_slug questions').lean();
+    const agg = {};
+    sets.forEach(s => {
+      agg[s.topic_slug] = agg[s.topic_slug] || { sets: 0, questions: 0 };
+      agg[s.topic_slug].sets += 1;
+      agg[s.topic_slug].questions += (s.questions || []).length;
+    });
+
+    let solvedBy = {};
+    if (req.user) {
+      const attempts = await DilrAttempt.find({ user_id: req.user._id }, 'topic_slug correct').lean();
+      attempts.forEach(a => {
+        solvedBy[a.topic_slug] = solvedBy[a.topic_slug] || { attempted: 0, correct: 0 };
+        solvedBy[a.topic_slug].attempted += 1;
+        if (a.correct) solvedBy[a.topic_slug].correct += 1;
+      });
+    }
+
+    res.json(topics.map(t => ({
+      slug: t.slug, name: t.name, order: t.order, accent: t.accent, tagline: t.tagline,
+      pattern_types: t.pattern_types || [], occurrences: t.occurrences || 0,
+      sets: (agg[t.slug] || {}).sets || 0,
+      total: (agg[t.slug] || {}).questions || 0,
+      attempted: (solvedBy[t.slug] || {}).attempted || 0,
+      correct: (solvedBy[t.slug] || {}).correct || 0,
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/dilr/topic/:slug — the topic + all its sets (embedded questions,
+// answers and solutions). Reveal is client-side. Per-user attempts merged if logged in.
+app.get('/api/dilr/topic/:slug', optionalAuth, async (req, res) => {
+  try {
+    const topic = await DilrTopic.findOne({ slug: req.params.slug }).lean();
+    if (!topic) return res.status(404).json({ error: 'Topic not found' });
+
+    const sets = await DilrSet.find({ topic_slug: req.params.slug }).sort({ order: 1 }).lean();
+
+    let attemptBy = {};
+    if (req.user) {
+      const attempts = await DilrAttempt.find(
+        { user_id: req.user._id, topic_slug: req.params.slug }
+      ).lean();
+      attempts.forEach(a => { attemptBy[a.q_slug] = { chosen: a.chosen, correct: a.correct }; });
+    }
+
+    res.json({
+      topic: {
+        slug: topic.slug, name: topic.name, accent: topic.accent, tagline: topic.tagline,
+        pattern_types: topic.pattern_types || [],
+      },
+      sets: sets.map(s => ({
+        set_slug: s.set_slug, order: s.order, difficulty: s.difficulty,
+        pattern_type: s.pattern_type, title: s.title, setup: s.setup || '', source: s.source,
+        questions: (s.questions || []).map(q => ({
+          q_slug: q.q_slug, order: q.order, question_text: q.question_text,
+          options: q.options, answer_format: q.answer_format,
+          correct_answer: q.correct_answer, solution_steps: q.solution_steps || [],
+          attempt: attemptBy[q.q_slug] || null,
+        })),
+      })),
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/dilr/attempt — record (or update) the user's attempt on a set question
+app.post('/api/dilr/attempt', authMiddleware, async (req, res) => {
+  try {
+    const { q_slug, topic_slug, set_slug, chosen, correct } = req.body;
+    if (!q_slug) return res.status(400).json({ error: 'q_slug required' });
+    await DilrAttempt.updateOne(
+      { user_id: req.user._id, q_slug },
+      { $set: { topic_slug: topic_slug || '', set_slug: set_slug || '', chosen: chosen || '', correct: !!correct } },
+      { upsert: true }
+    );
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/dilr/progress — the user's attempts (for merging into the client)
+app.get('/api/dilr/progress', authMiddleware, async (req, res) => {
+  try {
+    const attempts = await DilrAttempt.find(
+      { user_id: req.user._id }, 'q_slug topic_slug set_slug chosen correct'
+    ).lean();
+    res.json(attempts);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── LR Sample Tests routes (timed, real-CAT DILR sectionals; mirrors /api/qt/* above) ─
+function dilrtOrdered(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+// GET /api/dilr-tests — list every sample test with its label, counts, duration + marks
+app.get('/api/dilr-tests', async (req, res) => {
+  try {
+    const rows = await DilrtQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: { _id: { test: '$test', label: '$label' }, count: { $sum: 1 }, marks: { $sum: '$marks_correct' } } },
+      { $sort: { '_id.test': 1 } },
+    ]);
+    const tests = rows.map(r => ({
+      test:             r._id.test,
+      label:            r._id.label,
+      questions:        r.count,
+      duration_minutes: Math.round((r.count * DILRT_SECONDS_PER_Q) / 60),
+      marks:            r.marks,
+    }));
+    res.json(tests);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/dilrt/start — resume-first, else create a fresh session for this test
+app.post('/api/dilrt/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await DilrtSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await DilrtQuestion
+      .find({ test, removed: { $ne: true } }, DILRT_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+
+    if (!session) {
+      session = await DilrtSession.create({
+        user_id:         req.user._id,
+        test,
+        label:           docs[0].label,
+        status:          'in_progress',
+        question_ids:    docs.map(q => q._id),
+        question_states: {},
+        time_left:       docs.length * DILRT_SECONDS_PER_Q,
+        started_at:      new Date(),
+      });
+    }
+
+    res.json({
+      session_id:      session._id,
+      test,
+      label:           session.label,
+      questions:       dilrtOrdered(session, docs),
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      status:          session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/dilrt/active?test=N — resume or read the latest session for this test
+app.get('/api/dilrt/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await DilrtSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await DilrtSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : DILRT_SAFE_PROJECTION;
+    const docs = await DilrtQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+
+    res.json({
+      state:           isFinished ? 'finished' : 'in_progress',
+      session_id:      session._id,
+      test,
+      label:           session.label,
+      questions:       dilrtOrdered(session, docs),
+      question_states: session.question_states || {},
+      time_left:       session.time_left,
+      score:           isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/dilrt/:sid/save — persist question_states + time_left (no scoring)
+app.post('/api/dilrt/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await DilrtSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/dilrt/:sid/submit — server-side scoring, then reveal answers
+app.post('/api/dilrt/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await DilrtSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await DilrtQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue;
+      if (given === normalizeAnswer(q.correct_answer, q.answer_format)) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = {
+      total:     net,
+      attempted: correct + incorrect,
+      correct,
+      incorrect,
+      max_score: maxScore,
+    };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/dilrt/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/dilrt/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await DilrtSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const docs = await DilrtQuestion.find(
+      { _id: { $in: session.question_ids } },
+      reveal ? '' : DILRT_SAFE_PROJECTION,
+    ).lean();
+    const states = session.question_states || {};
+
+    const questions = dilrtOrdered(session, docs).map(q => {
+      const st = states[String(q._id)] || {};
+      const out = {
+        ...q,
+        user_answer: st.answer || '',
+        user_status: st.status || 'not-visited',
+        time_spent:  Number(st.time_spent) || 0,
+      };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id: session._id,
+      test:       session.test,
+      label:      session.label,
+      status:     session.status,
+      score:      session.score || null,
+      time_left:  session.time_left,
+      duration_seconds: questions.length * DILRT_SECONDS_PER_Q,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/dilrt/history — list this user's submitted LR Sample Test sessions
+app.get('/api/dilrt/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await DilrtSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test label score finished_at createdAt time_left'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

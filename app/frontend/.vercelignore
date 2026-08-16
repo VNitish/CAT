@@ -1,0 +1,17 @@
+# These are CLI-only utility scripts, never invoked over HTTP — the real
+# deployed API handler is api/[...all].js. Left in the root api/ folder,
+# Vercel's zero-config detection wraps each one as its own serverless
+# function, which pushed this project over the Hobby plan's 12-function cap.
+# Excluding them here keeps them runnable locally (`node api/seed_x.js`)
+# without counting against the deployment's function quota.
+api/seed_asrc.js
+api/seed_di.js
+api/seed_dilr.js
+api/seed_dilrt.js
+api/seed_lr.js
+api/seed_lrp.js
+api/seed_qt.js
+api/seed_rc.js
+api/seed_revision.js
+api/seed_varc.js
+api/standalone.js

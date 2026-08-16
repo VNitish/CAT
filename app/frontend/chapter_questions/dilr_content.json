@@ -1,0 +1,2443 @@
+{
+  "topics": [
+    {
+      "slug": "numeric-grid-reconstruction",
+      "name": "Numeric Grid Reconstruction",
+      "order": 1,
+      "accent": "#0891B2",
+      "tagline": "The dominant modern LR pattern: rebuild a hidden table of numbers from indirect statistical clues, not from a chart.",
+      "pattern_types": ["Row/column sum equality", "Mean, median, mode & range", "Moving averages + rank table", "Partial min/max/known-value grid"],
+      "occurrences": 16
+    },
+    {
+      "slug": "venn-overlap-logic",
+      "name": "Set Overlap Logic",
+      "order": 2,
+      "accent": "#7C3AED",
+      "tagline": "Classic 2-, 3- and 4-set overlaps, resolved through ratio, percentage and simultaneous-equation clues rather than a drawn diagram.",
+      "pattern_types": ["Three-set overlap via ratios", "Two-way classification cross-tab", "Overlap via simultaneous equations"],
+      "occurrences": 11
+    },
+    {
+      "slug": "linear-circular-arrangement",
+      "name": "Linear & Circular Arrangement",
+      "order": 3,
+      "accent": "#DB2777",
+      "tagline": "Fewer classic seating puzzles than you'd expect in recent papers — most now involve movement around a circle over rounds, not a static seating chart.",
+      "pattern_types": ["Circular movement, CW/CCW turns", "Circular token/buck-passing over rounds"],
+      "occurrences": 7
+    },
+    {
+      "slug": "team-group-allocation",
+      "name": "Team, Group & Resource Allocation",
+      "order": 4,
+      "accent": "#059669",
+      "tagline": "Form groups, split assets, or assign people to roles under composition and compatibility rules.",
+      "pattern_types": ["Committee composition by ratio", "Fair/envy-based division of assets", "Role-constrained assignment"],
+      "occurrences": 7
+    },
+    {
+      "slug": "scheduling-sequencing",
+      "name": "Scheduling & Sequencing",
+      "order": 5,
+      "accent": "#EA580C",
+      "tagline": "Assign events, people or orders to time slots under queueing, capacity and cost rules.",
+      "pattern_types": ["Multi-counter queueing", "Timeline reconstruction from waiting/cost clues", "Service-order simulation"],
+      "occurrences": 11
+    },
+    {
+      "slug": "games-tournaments",
+      "name": "Games & Tournaments",
+      "order": 6,
+      "accent": "#CA8A04",
+      "tagline": "Scoring, ranking and bracket logic across rounds of a competition.",
+      "pattern_types": ["Ranked-order throwing/scoring reconstruction", "Group-stage + knockout bracket", "Round-robin schedule reconstruction"],
+      "occurrences": 7
+    },
+    {
+      "slug": "network-route-puzzles",
+      "name": "Network & Route Puzzles",
+      "order": 7,
+      "accent": "#2563EB",
+      "tagline": "Distances, connections and timings on a map or graph — shortest/longest paths, fleet sizing, or reconstructing who went where.",
+      "pattern_types": ["Shortest/longest path on a network", "Timing & fleet-size from frequencies", "Reconstructing routes from timestamps"],
+      "occurrences": 8
+    },
+    {
+      "slug": "grid-spatial-board-logic",
+      "name": "Grid & Spatial Board Logic",
+      "order": 8,
+      "accent": "#D97706",
+      "tagline": "Chessboard-style attack lines and adjacency/colouring grids — spatial reasoning rather than a data table.",
+      "pattern_types": ["Chessboard attack-line counting", "Minimum-colours adjacency grid"],
+      "occurrences": 3
+    },
+    {
+      "slug": "binary-attribute-conditional-logic",
+      "name": "Binary & Conditional-Rule Logic",
+      "order": 9,
+      "accent": "#0D9488",
+      "tagline": "Pass/fail testing grids, pooled-detection puzzles, and categorical (high/medium/low) assignment under positional rules.",
+      "pattern_types": ["Pooled-testing / minimum-test-count logic", "Positional categorical assignment", "Pass/fail network implying a size order"],
+      "occurrences": 6
+    },
+    {
+      "slug": "coding-symbolic-puzzles",
+      "name": "Coding & Symbolic Puzzles",
+      "order": 10,
+      "accent": "#B91C1C",
+      "tagline": "Letter-to-digit substitution codes decoded from sorted-digit word clues — a rare pattern, but it does still appear.",
+      "pattern_types": ["Sorted-digit letter-to-number coding"],
+      "occurrences": 2
+    }
+  ],
+  "sets": [
+    {
+      "topic_slug": "numeric-grid-reconstruction",
+      "set_slug": "numgrid-restaurant-ratings",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Rating matrix from row means + column mean/median/mode/range",
+      "title": "Restaurant Ratings for Gig Workers",
+      "source": "CAT 2023, Slot 1",
+      "setup": "Five restaurants, coded R1, R2, R3, R4 and R5, gave integer ratings (1 to 5) to five gig workers - Ullas, Vasu, Waman, Xavier and Yusuf.\n\nThe means of the ratings given by R1, R2, R3, R4 and R5 were 3.4, 2.2, 3.8, 2.8 and 3.4 respectively.\n\nThe summary statistics of these ratings for the five workers is given below:\n\n| | Ullas | Vasu | Waman | Xavier | Yusuf |\n|---|---|---|---|---|---|\n| Mean rating | 2.2 | 3.8 | 3.4 | 3.6 | 2.6 |\n| Median rating | 2 | 4 | 4 | 4 | 3 |\n| Modal rating | 2 | 4 | 5 | 5 | 1 and 4 |\n| Range of rating | 3 | 3 | 4 | 4 | 3 |\n\n(Range = difference between the maximum and minimum ratings awarded to a worker.)\n\nPartial information about ratings of 1 and 5:\n(a) R1 awarded a 5 to Waman, as did R2 to Xavier, R3 to Waman and Xavier, and R5 to Vasu.\n(b) R1 awarded a 1 to Ullas, as did R2 to Waman and Yusuf, and R3 to Yusuf.",
+      "questions": [
+        {
+          "q_slug": "numgrid-restaurant-ratings-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "How many individual ratings cannot be determined from the above information?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "0",
+          "solution_steps": [
+            "Row sums from the restaurant means (x5): R1=17, R2=11, R3=19, R4=14, R5=17.",
+            "The median/mode/range for each worker pin down their exact multiset of 5 ratings: Ullas={1,2,2,2,4}, Vasu={2,4,4,4,5}, Waman={1,2,4,5,5}, Xavier={1,3,4,5,5}, Yusuf={1,1,3,4,4}.",
+            "Combining these multisets with clues (a), (b) and the row-sum equations forces every one of the 25 cells uniquely.",
+            "Every rating is determined, so the answer is 0."
+          ]
+        },
+        {
+          "q_slug": "numgrid-restaurant-ratings-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "To how many workers did R2 give a rating of 4?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "0",
+          "solution_steps": [
+            "From the reconstructed grid, R2's row is Ullas=2, Vasu=2, Waman=1, Xavier=5, Yusuf=1.",
+            "None of these equals 4, so R2 gave a rating of 4 to 0 workers."
+          ]
+        },
+        {
+          "q_slug": "numgrid-restaurant-ratings-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "What rating did R1 give to Xavier?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "3",
+          "solution_steps": [
+            "R1's row is Ullas=1 (clue b), Vasu=4, Waman=5 (clue a), Xavier=3, Yusuf=4 — summing to 17, matching R1's mean of 3.4.",
+            "R1 rated Xavier 3."
+          ]
+        },
+        {
+          "q_slug": "numgrid-restaurant-ratings-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "What is the median of the ratings given by R3 to the five workers?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "R3's row is Ullas=4, Vasu=4, Waman=5, Xavier=5, Yusuf=1 (sum 19, matching mean 3.8).",
+            "Sorted: 1, 4, 4, 5, 5 — the median is 4."
+          ]
+        },
+        {
+          "q_slug": "numgrid-restaurant-ratings-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "Which among the following restaurants gave its median rating to exactly one of the workers?",
+          "options": [
+            { "label": "a", "text": "R5" },
+            { "label": "b", "text": "R2" },
+            { "label": "c", "text": "R3" },
+            { "label": "d", "text": "R4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Compute each restaurant's own median from its row and count how many of its 5 ratings equal that median.",
+            "R1: {1,3,4,4,5}, median 4, appears twice. R2: {1,1,2,2,5}, median 2, appears twice. R3: {1,4,4,5,5}, median 4, appears twice. R5: {2,2,4,4,5}, median 4, appears twice.",
+            "R4: {1,2,3,4,4}, median 3, appears exactly once (only Yusuf=3) — this is the only restaurant where the median rating is given to exactly one worker.",
+            "Answer: R4."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "numeric-grid-reconstruction",
+      "set_slug": "numgrid-random-draw",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Daily scores from 2-day moving averages + a rank table",
+      "title": "Akhil, Bimal and Chatur's Random Draw Competition",
+      "source": "CAT 2023, Slot 2",
+      "setup": "Three participants - Akhil, Bimal and Chatur - participate in a random draw competition for five days. Every day, each participant randomly picks a ball numbered 1 to 9, which determines his score that day. The total score of a day is the sum of the three participants' scores that day.\n\nThe 2-day average on a day (except Day 1) is the average of the total scores of that day and the previous day. Table 1 gives the 2-day averages for Days 2 through 5:\n\n| | Day 2 | Day 3 | Day 4 | Day 5 |\n|---|---|---|---|---|\n| 2-day average | 15 | 15.5 | 16 | 17 |\n\nParticipants are ranked each day, with the maximum score getting rank 1 (ties share the best available rank). Table 2 gives these ranks:\n\n| | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |\n|---|---|---|---|---|---|\n| Akhil | 1 | 2 | 2 | 3 | 3 |\n| Bimal | 2 | 3 | 2 | 1 | 1 |\n| Chatur | 3 | 1 | 1 | 2 | 2 |\n\nAlso known:\n1. Chatur always scores in multiples of 3. His score on Day 2 is the unique highest score in the competition. His minimum score is observed only on Day 1, and it matches Akhil's score on Day 4.\n2. The total score on Day 3 equals the total score on Day 4.\n3. Bimal's scores are the same on Day 1 and Day 3.",
+      "questions": [
+        {
+          "q_slug": "numgrid-random-draw-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What is Akhil's score on Day 1?",
+          "options": [
+            { "label": "a", "text": "5" },
+            { "label": "b", "text": "6" },
+            { "label": "c", "text": "7" },
+            { "label": "d", "text": "8" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "From the 2-day averages: T1+T2=30, T2+T3=31, T3+T4=32, T4+T5=34. Clue 2 gives T3=T4, so T3=T4=16, then T2=15, T1=15, T5=18.",
+            "Day 1 ranks (Akhil > Bimal > Chatur, all distinct) plus Chatur's clue (his Day-1 score is his own minimum, uniquely so, a multiple of 3) forces Chatur's Day 1 score to 3 — any higher multiple of 3 leaves Akhil+Bimal too small to satisfy Akhil > Bimal > 3.",
+            "So Akhil + Bimal = 12 on Day 1, with Akhil > Bimal > 3. Working out Day 3 fixes Bimal's Day-3 score at 5, and clue 3 (Bimal's Day 1 = Day 3) gives Bimal's Day-1 score as 5 too.",
+            "Akhil's Day 1 score = 12 - 5 = 7."
+          ]
+        },
+        {
+          "q_slug": "numgrid-random-draw-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Who attains the maximum total score?",
+          "options": [
+            { "label": "a", "text": "Chatur" },
+            { "label": "b", "text": "Bimal" },
+            { "label": "c", "text": "Cannot be determined" },
+            { "label": "d", "text": "Akhil" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Day 1 = (Akhil 7, Bimal 5, Chatur 3). Day 3 (T3=16, Chatur strictly highest, Akhil=Bimal tied per the rank table) gives Chatur=6, Akhil=Bimal=5.",
+            "Day 4 uses Akhil's Day-4 score = Chatur's Day-1 score = 3 (given clue), and T4=16 with Bimal > Chatur > Akhil, giving Chatur=6, Bimal=7.",
+            "Day 2: Chatur has the unique overall-highest score in the whole competition, and T2=15 — this forces Chatur's Day 2 score to 9 (the maximum possible), leaving Akhil+Bimal=6.",
+            "Day 5 keeps the Bimal > Chatur > Akhil rank order, T5=18, and Chatur's score must be a multiple of 3, not his unique minimum (3) nor a repeat of the unique maximum (9) — forcing Chatur's Day 5 score to 6.",
+            "Chatur's total = 3+9+6+6+6 = 30, which already exceeds what either Akhil or Bimal's totals can reach — so Chatur has the maximum total score."
+          ]
+        },
+        {
+          "q_slug": "numgrid-random-draw-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "What is the minimum possible total score of Bimal?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "25",
+          "solution_steps": [
+            "Bimal's total = 5(Day1) + Day2 + 5(Day3) + 7(Day4) + Day5 = 17 + Day2 + Day5.",
+            "On Day 2, Akhil+Bimal=6 with Akhil > Bimal, so (Bimal,Akhil) can be (1,5) or (2,4). On Day 5, Akhil+Bimal=12 with Akhil < Chatur(6) < Bimal and no score allowed to repeat the unique 9, so (Bimal,Akhil) can be (7,5) or (8,4).",
+            "The smallest Bimal total occurs at Bimal_Day2=1 and Bimal_Day5=7: 17+1+7 = 25."
+          ]
+        },
+        {
+          "q_slug": "numgrid-random-draw-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "If the total score of Bimal is a multiple of 3, what is the score of Akhil on Day 2?",
+          "options": [
+            { "label": "a", "text": "Cannot be determined" },
+            { "label": "b", "text": "4" },
+            { "label": "c", "text": "6" },
+            { "label": "d", "text": "5" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "The four feasible (Day2, Day5) combinations give Bimal's total as 17+1+7=25, 17+1+8=26, 17+2+7=26, or 17+2+8=27.",
+            "Only 27 is a multiple of 3, requiring Bimal_Day2=2 (so Akhil_Day2=4) and Bimal_Day5=8.",
+            "Akhil's Day 2 score is 4."
+          ]
+        },
+        {
+          "q_slug": "numgrid-random-draw-q5",
+          "order": 5,
+          "question_type": "TITA",
+          "question_text": "If Akhil attains a total score of 24, then what is the total score of Bimal?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "26",
+          "solution_steps": [
+            "Akhil's total = 7 + Day2 + 5 + 3 + Day5 = 15 + Day2 + Day5.",
+            "Of the four feasible combinations, Akhil's total works out to 25, 24, 24, or 23.",
+            "A total of 24 comes from either (Akhil_Day2=5, Akhil_Day5=4) paired with (Bimal_Day2=1, Bimal_Day5=8), or (Akhil_Day2=4, Akhil_Day5=5) paired with (Bimal_Day2=2, Bimal_Day5=7) — both give Bimal's total = 26.",
+            "Either way, Bimal's total is 26."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "numeric-grid-reconstruction",
+      "set_slug": "numgrid-betting-tournament",
+      "order": 3,
+      "difficulty": "Hard",
+      "pattern_type": "8-round balances from partial min/max/known-value clues + a pairing-rotation rule",
+      "title": "Pulak, Qasim, Ritesh and Suresh's Betting Tournament",
+      "source": "CAT 2022, Slot 3",
+      "setup": "Pulak, Qasim, Ritesh and Suresh played a tournament of eight rounds. Each round they formed two pairs (each person in exactly one pair), with the restriction that a person's pairing had to change from the previous round. Each round, a pair could choose not to play, or could bet Rs 1 or Rs 2, with the winner taking that amount from the loser.\n\nAll four players started with Rs 10 each. The table below shows every time a player had Rs 10 at the end of a round, plus every time a player hit their own minimum or maximum across the eight rounds:\n\n| | Pulak | Qasim | Ritesh | Suresh |\n|---|---|---|---|---|\n| Round 1 | | Rs 8 | Rs 10 | Rs 10 |\n| Round 2 | Rs 13 | Rs 10 | | Rs 8 |\n| Round 3 | | | | Rs 10 |\n| Round 4 | | | | |\n| Round 5 | Rs 10 | Rs 10 | | Rs 13 |\n| Round 6 | | | | |\n| Round 7 | | Rs 12 | Rs 4 | |\n| Round 8 | Rs 13 | | | Rs 10 |\n\nAlso known: Pulak and Qasim had the same amount of money at the end of Round 4.",
+      "questions": [
+        {
+          "q_slug": "numgrid-betting-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What BEST can be said about the amount of money that Ritesh had with him at the end of Round 8?",
+          "options": [
+            { "label": "a", "text": "Exactly Rs 6" },
+            { "label": "b", "text": "Rs 4 or Rs 5" },
+            { "label": "c", "text": "Exactly Rs 5" },
+            { "label": "d", "text": "Rs 5 or Rs 6" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Total money is always conserved at Rs 40. Combining the given min/max/Rs-10 markers with the pairing-rotation rule and the Rs-1/Rs-2 bet cap, the full 8-round grid can be pinned down uniquely round by round.",
+            "The reconstructed balances are: Pulak = 12,13,11,11,10,12,12,13; Qasim = 8,10,11,11,10,11,12,11; Ritesh = 10,9,8,6,7,5,4,6; Suresh = 10,8,10,12,13,12,12,10 (Rounds 1-8).",
+            "Ritesh's Round 8 balance is exactly Rs 6."
+          ]
+        },
+        {
+          "q_slug": "numgrid-betting-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "What BEST can be said about the amount of money that Pulak had with him at the end of Round 6?",
+          "options": [
+            { "label": "a", "text": "Exactly Rs 12" },
+            { "label": "b", "text": "Rs 11 or Rs 12" },
+            { "label": "c", "text": "Exactly Rs 11" },
+            { "label": "d", "text": "Rs 12 or Rs 13" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "From the same reconstructed grid, Pulak's round-by-round balances are 12,13,11,11,10,12,12,13, so his Round 6 balance is exactly Rs 12.",
+            "The only other candidate (Rs 11 at Round 6) would force a Round 6-to-7 change bigger than Rs 2 for Pulak, which the betting rule disallows."
+          ]
+        },
+        {
+          "q_slug": "numgrid-betting-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "How much money (in Rs) did Ritesh have at the end of Round 4?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "6",
+          "solution_steps": [
+            "The Rs 40 total-conservation constraint at Round 4 (Pulak=Qasim=11 by the given clue, Suresh=12) fixes Ritesh's balance at 6.",
+            "This also matches the Round 4-to-5 transition, where Ritesh rises from 6 to the known Round-5 value of 7, a valid Rs 1 change."
+          ]
+        },
+        {
+          "q_slug": "numgrid-betting-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "How many games were played with a bet of Rs 2?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "6",
+          "solution_steps": [
+            "Tracing every round's pair-by-pair transfer: R1 (Pulak beats Qasim by Rs 2), R2 (Pulak beats Ritesh by Rs 1; Qasim beats Suresh by Rs 2), R3 (Suresh beats Pulak by Rs 2; Qasim beats Ritesh by Rs 1), R4 (Suresh beats Ritesh by Rs 2), R5 (Suresh beats Pulak by Rs 1; Ritesh beats Qasim by Rs 1), R6 (Pulak beats Ritesh by Rs 2; Qasim beats Suresh by Rs 1), R7 (Qasim beats Ritesh by Rs 1), R8 (Pulak beats Qasim by Rs 1; Ritesh beats Suresh by Rs 2).",
+            "Counting the Rs 2 games: Rounds 1, 2, 3, 4, 6 and 8 — 6 games in total."
+          ]
+        },
+        {
+          "q_slug": "numgrid-betting-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "Which of the following pairings was made in Round 5?",
+          "options": [
+            { "label": "a", "text": "Pulak and Ritesh" },
+            { "label": "b", "text": "Pulak and Qasim" },
+            { "label": "c", "text": "Pulak and Suresh" },
+            { "label": "d", "text": "Qasim and Suresh" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Round 4's pairing was (Pulak,Qasim) and (Ritesh,Suresh). Round 5 must change per person.",
+            "Matching the required Round 4-to-5 deltas (Pulak and Qasim both drop by Rs 1, ruling out them pairing with each other again) forces the pairing (Pulak,Suresh) and (Qasim,Ritesh).",
+            "Round 5's pairing was Pulak and Suresh."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "venn-overlap-logic",
+      "set_slug": "venn-sports-enrollment",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Three-set overlap via ratio and count clues",
+      "title": "Fun Sports: Gilli-danda, Kho-Kho and Ludo Enrollment",
+      "source": "CAT 2018, Slot 2",
+      "setup": "Fun Sports (FS) provides training in three sports - Gilli-danda (G), Kho-Kho (K), and Ludo (L). It has an enrollment of 39 students, each enrolled in at least one of the three sports. The following is known:\n1. The number of students enrolled only in L is double the number enrolled in all three.\n2. There are 17 students enrolled in G in total.\n3. The number enrolled only in G is one less than the number enrolled only in L.\n4. The number enrolled only in K equals the number enrolled in both K and L.\n5. The maximum student enrollment is in L.\n6. Ten students enrolled in G are also enrolled in at least one more sport.",
+      "questions": [
+        {
+          "q_slug": "venn-sports-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "What is the minimum number of students enrolled in both G and L but not in K?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "Let a=only-G, b=only-K, c=only-L, d=G&K only, e=G&L only, f=K&L only, g=all three.",
+            "Clue 6: d+e+g=10 (the 10 G-students also in another sport). With total-G=17 (clue 2), a=17-10=7.",
+            "Clue 3: a=c-1, so c=8. Clue 1: c=2g, so g=4, hence d+e=10-4=6.",
+            "Clue 4: only-K equals the full K∩L overlap, i.e. b=f+g=f+4.",
+            "Summing all seven regions to 39 gives 2f+d+e=16; with d+e=6 that gives f=5, so b=9.",
+            "Total-K = 18+d, total-L = 17+e. Clue 5 (L strictly the largest) needs 17+e > 18+d, i.e. e ≥ d+2; combined with d+e=6, this forces e ≥ 4.",
+            "So the minimum value of e (G and L only, not K) is 4."
+          ]
+        },
+        {
+          "q_slug": "venn-sports-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "If the numbers of students enrolled in K and L are in the ratio 19:22, then what is the number of students enrolled in L?",
+          "options": [
+            { "label": "a", "text": "19" },
+            { "label": "b", "text": "18" },
+            { "label": "c", "text": "22" },
+            { "label": "d", "text": "17" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Total-K=18+d, total-L=17+e, with d+e=6.",
+            "Setting (18+d)/(17+e)=19/22 and substituting d=6-e gives e=5, d=1.",
+            "Total-L = 17+5 = 22 (and total-K = 18+1 = 19, matching the 19:22 ratio). The number enrolled in L is 22."
+          ]
+        },
+        {
+          "q_slug": "venn-sports-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "Due to academic pressure, students enrolled in all three sports were asked to withdraw from one of the three. After the withdrawal, the number enrolled in G was six less than the number enrolled in L, while the number enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and K?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "2",
+          "solution_steps": [
+            "Each of the g=4 triple-enrolled students drops exactly one sport: g_G drop G, g_K drop K, g_L drop L, with g_G+g_K+g_L=4.",
+            "'K went down by exactly 1' means g_K=1.",
+            "New-G = 17-g_G, new-L = 17+e-g_L. Setting new-G = new-L - 6 and simplifying gives g_G - g_L = d. With g_G+g_L=3 (since g_K=1) and e in {4,5,6}, the only integer solution is d=1, e=5, g_G=2, g_L=1.",
+            "After withdrawal, G∩K = old d + g_L (the g_L defectors from L join the G&K-only group) = 1+1 = 2."
+          ]
+        },
+        {
+          "q_slug": "venn-sports-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Due to academic pressure, students enrolled in all three sports were asked to withdraw from one of the three. After the withdrawal, the number enrolled in G was six less than the number enrolled in L, while the number enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and L?",
+          "options": [
+            { "label": "a", "text": "5" },
+            { "label": "b", "text": "8" },
+            { "label": "c", "text": "7" },
+            { "label": "d", "text": "6" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Continuing from the previous question's solved values (d=1, e=5, g_K=1, g_L=1, g_G=2): after withdrawal, G∩L = old e + g_K = 5+1 = 6."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "venn-overlap-logic",
+      "set_slug": "venn-campus-proposals",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Two-way overlap cross-tabbed against a voting preference",
+      "title": "Campus Proposals and Student Union Election",
+      "source": "CAT 2019, Slot 2",
+      "setup": "Students in a college are discussing two proposals: A (a dress code introduced by the authorities) and B (allowing multinational food franchises on campus). A student need not support either. In an upcoming student union election, every one of a surveyed sample of 500 students prefers one of two candidates - Sunita or Ragini.\n\nThe following was noted from the survey:\n1. 250 students supported proposal A and 250 supported proposal B.\n2. Among the 200 students who preferred Sunita, 80% supported proposal A.\n3. Among those who preferred Ragini, 30% supported proposal A.\n4. 20% of those who supported proposal B preferred Sunita.\n5. 40% of those who did not support proposal B preferred Ragini.\n6. Every student who preferred Sunita and supported proposal B also supported proposal A.\n7. Among those who preferred Ragini, 20% did not support either proposal.",
+      "questions": [
+        {
+          "q_slug": "venn-campus-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "Among the students surveyed who supported proposal A, what percentage preferred Sunita for student union president?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "64",
+          "solution_steps": [
+            "Sunita=200 (given), so Ragini=300.",
+            "Sunita∩A = 80% x 200 = 160. Ragini∩A = 30% x 300 = 90 (total A = 160+90 = 250, matching the given total — a good consistency check).",
+            "Among the 250 A-supporters, 160 preferred Sunita: 160/250 = 64%."
+          ]
+        },
+        {
+          "q_slug": "venn-campus-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "What percentage of the students surveyed who did not support proposal A preferred Ragini as student union president?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "84",
+          "solution_steps": [
+            "Not-A total = 500-250 = 250. Clue 7 gives Ragini∩neither = 20% x 300 = 60.",
+            "Clue 5 gives Ragini∩(not-B) = 40% x 250 = 100, so Ragini∩A-only = 100-60 = 40.",
+            "Since Ragini∩A = 90 splits into A-only=40 and both=50, Ragini∩B-only = Ragini(300) - A-only(40) - both(50) - neither(60) = 150.",
+            "Not-A among Ragini = B-only(150) + neither(60) = 210. As a percentage of not-A total (250): 210/250 = 84%."
+          ]
+        },
+        {
+          "q_slug": "venn-campus-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "What percentage of the students surveyed who supported both proposals A and B preferred Sunita as student union president?",
+          "options": [
+            { "label": "a", "text": "25" },
+            { "label": "b", "text": "50" },
+            { "label": "c", "text": "40" },
+            { "label": "d", "text": "20" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Sunita∩B = 20% x 250 = 50, and clue 6 says every such student also supports A, so Sunita∩(A∩B) = 50.",
+            "Ragini∩(A∩B) = 50 too (Ragini∩A=90 splits into A-only=40 and both=50).",
+            "Total supporting both A and B = 50+50 = 100. Percentage preferring Sunita = 50/100 = 50%."
+          ]
+        },
+        {
+          "q_slug": "venn-campus-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "How many of the students surveyed supported proposal B, did not support proposal A, and preferred Ragini as student union president?",
+          "options": [
+            { "label": "a", "text": "40" },
+            { "label": "b", "text": "210" },
+            { "label": "c", "text": "200" },
+            { "label": "d", "text": "150" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "This is exactly the Ragini∩B-only group computed above: 150 students supported B, did not support A, and preferred Ragini."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "venn-overlap-logic",
+      "set_slug": "venn-supermarket-products",
+      "order": 3,
+      "difficulty": "Moderate",
+      "pattern_type": "Two-way classification cross-tab with equation-driven overlaps",
+      "title": "Supermarket Products: Cosmetic/Nutrition, Foreign/Domestic, FDA/EU Approval",
+      "source": "CAT 2022, Slot 2",
+      "setup": "A speciality supermarket sells 320 products. Each was either a cosmetic or a nutrition product, and either a foreign or a domestic product. Each product had at least one of two approvals - FDA or EU.\n\nAlso known:\n1. There were equal numbers of domestic and foreign products.\n2. Half of the domestic products were FDA-approved cosmetic products.\n3. None of the foreign products had both approvals, while 60 domestic products had both.\n4. There were 140 nutrition products, half of them foreign.\n5. There were 200 FDA-approved products; 70 of them were foreign, and 120 of them were cosmetic.",
+      "questions": [
+        {
+          "q_slug": "venn-supermarket-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "How many foreign products were FDA-approved cosmetic products?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "40",
+          "solution_steps": [
+            "Domestic=Foreign=160 (clue 1). Nutrition=140, Foreign∩Nutrition=70 (clue 4), so Domestic∩Nutrition=70, and Cosmetic∩Domestic=90, Cosmetic∩Foreign=90.",
+            "FDA=200, with Foreign∩FDA=70 and Cosmetic∩FDA=120 (clue 5), so Domestic∩FDA=130 and Nutrition∩FDA=80.",
+            "Domestic∩FDA∩Cosmetic=80 (half of domestic, clue 2), so Domestic∩FDA∩Nutrition=130-80=50.",
+            "Foreign∩FDA∩Cosmetic = Cosmetic∩FDA(120) - Domestic∩FDA∩Cosmetic(80) = 40."
+          ]
+        },
+        {
+          "q_slug": "venn-supermarket-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "How many cosmetic products did not have FDA approval?",
+          "options": [
+            { "label": "a", "text": "Cannot be determined" },
+            { "label": "b", "text": "50" },
+            { "label": "c", "text": "10" },
+            { "label": "d", "text": "60" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Total cosmetic products = 320-140 = 180. FDA∩Cosmetic = 120 (given directly).",
+            "Cosmetic products without FDA approval = 180-120 = 60."
+          ]
+        },
+        {
+          "q_slug": "venn-supermarket-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which among the following options best represents the number of domestic cosmetic products that had both approvals?",
+          "options": [
+            { "label": "a", "text": "At least 10 and at most 60" },
+            { "label": "b", "text": "At least 20 and at most 50" },
+            { "label": "c", "text": "At least 10 and at most 80" },
+            { "label": "d", "text": "At least 20 and at most 70" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Let x = domestic cosmetic products with both approvals. Domestic∩FDA∩Cosmetic=80 splits into FDA-only(80-x) and both(x).",
+            "Domestic∩FDA∩EU total = 60 (clue 3) splits into Cosmetic-both(x) and Nutrition-both(60-x). Domestic∩Nutrition∩FDA=50 splits into Nutrition-FDA-only(x-10) and Nutrition-both(60-x).",
+            "Requiring every sub-count to stay non-negative gives x ≥ 10 and x ≤ 60.",
+            "So x ranges from 10 to 60 — 'at least 10 and at most 60'."
+          ]
+        },
+        {
+          "q_slug": "venn-supermarket-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "If 70 cosmetic products did not have EU approval, then how many nutrition products had both the approvals?",
+          "options": [
+            { "label": "a", "text": "10" },
+            { "label": "b", "text": "30" },
+            { "label": "c", "text": "50" },
+            { "label": "d", "text": "20" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Cosmetic-not-EU = Foreign∩Cosmetic∩FDA(40) + Domestic∩Cosmetic∩FDA-only(80-x) = 120-x.",
+            "Setting 120-x=70 gives x=50 (domestic cosmetic products with both approvals). Domestic nutrition-both = 60-x = 10.",
+            "Foreign nutrition-both is always 0. Total nutrition products with both approvals = 10+0 = 10."
+          ]
+        },
+        {
+          "q_slug": "venn-supermarket-q5",
+          "order": 5,
+          "question_type": "TITA",
+          "question_text": "If 50 nutrition products did not have EU approval, then how many domestic cosmetic products did not have EU approval?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "50",
+          "solution_steps": [
+            "Nutrition-not-EU = Foreign∩Nutrition∩FDA(30) + Domestic∩Nutrition∩FDA-only(x-10) = 20+x.",
+            "Setting 20+x=50 gives x=30 (domestic cosmetic products with both approvals, under this scenario).",
+            "Domestic cosmetic products without EU approval = Domestic∩Cosmetic∩FDA-only = 80-x = 80-30 = 50."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "linear-circular-arrangement",
+      "set_slug": "arrangement-seven-chairs",
+      "order": 1,
+      "difficulty": "Hard",
+      "pattern_type": "Circular seating (7 chairs), sequential turn-based CW/CCW relocation",
+      "title": "The Seven-Chair Shuffle",
+      "source": "CAT 2025, Slot 1",
+      "setup": "A round table has seven chairs around it, numbered 1 through 7 clockwise. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi sit next to each other, while Bashir and Davies each have an empty chair on either side of their own chair.\n\nThe friends take turns moving either clockwise or counterclockwise from their chair, occupying the first empty chair in whichever direction they choose. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, 4), then Aslam again, followed by Bashir and Chhavi (Turns 5, 6, 7).\n\nAlso known:\n1. The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.\n2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",
+      "questions": [
+        {
+          "q_slug": "arrangement-seven-chairs-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "What is the number of the chair initially occupied by Bashir?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "Davies moves only at Turn 4, so his position 'after Turn 1' is simply his starting chair: Chair 2.",
+            "Since Bashir and Davies each have empty chairs on both sides, Chairs 1 and 3 (Davies' neighbours) must be empty at the start, and Bashir cannot be adjacent to Davies — that forces Aslam, Bashir and Chhavi into chairs {4, 5, 6, 7} (one of these four also empty).",
+            "Chhavi moves only at Turn 3, so her position 'after Turn 2' is her starting chair: Chair 7. Since Aslam and Chhavi start adjacent, Aslam must start at Chair 6, leaving Chair 5 empty and Bashir at Chair 4 (whose neighbours, Chair 3 and Chair 5, are both empty, matching his isolation condition).",
+            "Bashir's starting chair is 4."
+          ]
+        },
+        {
+          "q_slug": "arrangement-seven-chairs-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Who sits on the chair numbered 4 at the end of Turn 3?",
+          "options": [
+            { "label": "a", "text": "Bashir" },
+            { "label": "b", "text": "Chhavi" },
+            { "label": "c", "text": "Davies" },
+            { "label": "d", "text": "No one" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Start: 1-empty, 2-Davies, 3-empty, 4-Bashir, 5-empty, 6-Aslam, 7-Chhavi.",
+            "Turn 1 (Aslam, from 6): CW, skipping occupied Chair 7, lands on the first empty chair, Chair 1.",
+            "Turn 2 (Bashir, from 4): moving CCW to Chair 3 gives occupied set {7,1,2,3} — a contiguous block, satisfying the 'adjacent only at Turn 2' rule.",
+            "Turn 3 (Chhavi, from 7): going CW would recreate an adjacent block at Turn 3 (not allowed), so Chhavi must go CCW to Chair 6 instead — leaving Chair 4 empty."
+          ]
+        },
+        {
+          "q_slug": "arrangement-seven-chairs-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which of the chairs are occupied at the end of Turn 6?",
+          "options": [
+            { "label": "a", "text": "Chairs numbered 1, 2, 3, and 4" },
+            { "label": "b", "text": "Chairs numbered 2, 3, 4, and 5" },
+            { "label": "c", "text": "Chairs numbered 1, 2, 6, and 7" },
+            { "label": "d", "text": "Chairs numbered 4, 5, 6, and 7" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Continuing from end of Turn 3 (1-Aslam, 2-Davies, 3-Bashir, 6-Chhavi): Turn 4 (Davies, from 2) moves CW to Chair 4 (matching the given 'Davies at Chair 4 after Turn 5' clue, since Turn 4 is his only move).",
+            "Turn 5 (Aslam, from 1): moving to Chair 7 (moving to Chair 2 would make Turn 6 unable to form a contiguous 4-block).",
+            "Turn 6 (Bashir, from 3): moving CW to Chair 5 gives occupied set {4,5,6,7} — four consecutive chairs, matching the required adjacency at Turn 6."
+          ]
+        },
+        {
+          "q_slug": "arrangement-seven-chairs-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Which of the following BEST describes the friends sitting on chairs adjacent to the one occupied by Bashir at the end of Turn 7?",
+          "options": [
+            { "label": "a", "text": "Aslam and Chhavi" },
+            { "label": "b", "text": "Chhavi only" },
+            { "label": "c", "text": "Davies only" },
+            { "label": "d", "text": "Chhavi and Davies" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "After Turn 6: 4-Davies, 5-Bashir, 6-Chhavi, 7-Aslam.",
+            "At Turn 7 only Chhavi moves (from Chair 6); Bashir stays at Chair 5.",
+            "Chhavi's move empties Chair 6, so Bashir's neighbours become Chair 4 (Davies) and the now-empty Chair 6 — only Davies sits adjacent to Bashir."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "linear-circular-arrangement",
+      "set_slug": "arrangement-buck-passing",
+      "order": 2,
+      "difficulty": "Hard",
+      "pattern_type": "Circular seating (7 people) reconstructed via a partial buck-passing move log",
+      "title": "Passing the Buck",
+      "source": "CAT 2025, Slot 3",
+      "setup": "Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, sit in a circle facing inside. The game is played over 10 rounds: in each round, the child holding the Buck passes it to a child sitting Immediately to the Left, Immediately to the Right, Second to the Left, or Second to the Right.\n\nThe game starts with Bina passing the Buck and ends with Chirag receiving it. The table below gives partial pass-type and receiver information ('?' = missing):\n\n| Round | Position | Name |\n|---|---|---|\n| 1 | Immediately to the left | Aarav |\n| 2 | Second to the right | ? |\n| 3 | Immediately to the right | Diya |\n| 4 | ? | ? |\n| 5 | ? | Aarav |\n| 6 | Second to the left | ? |\n| 7 | Immediately to the left | Gaurav |\n| 8 | Immediately to the left | ? |\n| 9 | ? | Farhan |\n| 10 | ? | Chirag |",
+      "questions": [
+        {
+          "q_slug": "arrangement-buck-passing-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Who is sitting immediately to the right of Bina?",
+          "options": [
+            { "label": "a", "text": "Chirag" },
+            { "label": "b", "text": "Aarav" },
+            { "label": "c", "text": "Farhan" },
+            { "label": "d", "text": "Eshan" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Model seats 0-6, with 'left' = +1 step. Round 1: Bina(0) → Imm.Left → Aarav, so Aarav=1. Round 2: Aarav → 2nd Right(-2) → seat -1=6 (call this child P2). Round 3: P2 → Imm.Right(-1) → Diya, so Diya = 5.",
+            "Round 5's receiver is Aarav(1) [given]; his Round-6 pass, '2nd Left(+2)', lands at seat 3 (P6). Round 7: P6 → Imm.Left(+1) → Gaurav, so Gaurav = 4.",
+            "Testing the remaining seats {2,3,6} against Rounds 8-10's consistency requirements gives Farhan=3, Chirag=2, Eshan=6 (=P2).",
+            "Full seating (left = +1): Bina(0)-Aarav(1)-Chirag(2)-Farhan(3)-Gaurav(4)-Diya(5)-Eshan(6). 'Immediately to the right' of Bina is the opposite direction, i.e. seat 6 = Eshan."
+          ]
+        },
+        {
+          "q_slug": "arrangement-buck-passing-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Who is sitting third to the left of Eshan?",
+          "options": [
+            { "label": "a", "text": "Aarav" },
+            { "label": "b", "text": "Chirag" },
+            { "label": "c", "text": "Gaurav" },
+            { "label": "d", "text": "Divya" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Using the derived seating (Bina0-Aarav1-Chirag2-Farhan3-Gaurav4-Diya5-Eshan6, 'left' = +1), Eshan is at seat 6.",
+            "Third to the left means +3 steps: 6+3 = 9 mod 7 = 2, which is Chirag's seat."
+          ]
+        },
+        {
+          "q_slug": "arrangement-buck-passing-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "For which of the following pass types can the total number of occurrences be uniquely determined?",
+          "options": [
+            { "label": "a", "text": "Second to the right" },
+            { "label": "b", "text": "Second to the left" },
+            { "label": "c", "text": "Immediately to the left" },
+            { "label": "d", "text": "Immediately to the right" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Rounds 3 and 10 are forced to be 'Immediately to the right' by the seating derivation; Rounds 4-5 are the only genuinely ambiguous pair, needing a net shift of +3 mod 7 from Diya's seat(5) to Aarav's seat(1).",
+            "That net shift is achievable either as {+1 (Imm.Left) and +2 (2nd Left)} in either order, or as {-2, -2} (two 'Second to the Right' passes) — both scenarios are valid.",
+            "Immediately-to-the-Right's count is untouched by this ambiguity (fixed at 2, from Rounds 3 and 10), while every other pass type's count varies depending on which scenario holds — so only 'Immediately to the right' has a uniquely determinable total."
+          ]
+        },
+        {
+          "q_slug": "arrangement-buck-passing-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "For which of the following children is it possible to determine how many times they received the Buck?",
+          "options": [
+            { "label": "a", "text": "Bina" },
+            { "label": "b", "text": "Gaurav" },
+            { "label": "c", "text": "Farhan" },
+            { "label": "d", "text": "Eshan" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Tallying the fixed rounds: Aarav receives in Rounds 1,5 (=2); Diya in 3,8 (=2); Gaurav in 7 (=1); Chirag in 10 (=1); Eshan in 2 (=1, plus possibly Round 4); Farhan in 6,9 (=2, plus possibly Round 4); Bina in none of the fixed rounds (=0, plus possibly Round 4).",
+            "Round 4's receiver is the only ambiguous slot (could be Eshan, Bina, or Farhan depending on the scenario), so their totals are not uniquely fixed.",
+            "Gaurav's count of exactly 1 (from Round 7 alone) is untouched by this ambiguity — the only one of the options that can be uniquely determined."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-group-allocation",
+      "set_slug": "team-three-committees",
+      "order": 1,
+      "difficulty": "Hard",
+      "pattern_type": "Group/committee formation via ratio, percentage and average constraints across three role-types",
+      "title": "Three Committees, Three Role-Types",
+      "source": "CAT 2018, Slot 1",
+      "setup": "Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. Also known:\n1. The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is 75% of the number of bureaucrats in the administration committee.\n2. The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.\n3. 60% of the politicians are in the administration committee, and 20% are in the teaching committee.",
+      "questions": [
+        {
+          "q_slug": "team-three-committees-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Based on the given information, which of the following statements MUST be FALSE?",
+          "options": [
+            { "label": "a", "text": "In the administration committee the number of bureaucrats is equal to the number of educationalists" },
+            { "label": "b", "text": "The size of the research committee is less than the size of the teaching committee" },
+            { "label": "c", "text": "The size of the research committee is less than the size of the administration committee" },
+            { "label": "d", "text": "In the teaching committee the number of educationalists is equal to the number of politicians" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Let Bu(R)=Bu(T)=3k, Bu(Ad)=4k (fact 1). Let politicians total 5m so Po(Ad)=3m, Po(T)=Po(R)=m (fact 3, ratio 3:1:1).",
+            "Total = 10k + Edsum + 5m = 24, with k,m ≥ 1 and Edsum ≥ 3 — this forces k=1, and testing m gives only m=1 as valid (m=2 breaks fact 2's integer requirement).",
+            "So Bu(R)=Bu(T)=3, Bu(Ad)=4, Po(R)=Po(T)=1, Po(Ad)=3, Edsum=9. Fact 2 (2·Ed(R)=Ed(T)+Ed(Ad)) with the total gives Ed(R)=3 always, with (Ed(T),Ed(Ad)) as (1,5) or (2,4).",
+            "Size(R) = 3+3+1 = 7 fixed. Size(T) = 4+Ed(T) is 5 or 6 in either scenario — always less than Size(R)=7, so 'Size(R) < Size(T)' is always false — it MUST be false."
+          ]
+        },
+        {
+          "q_slug": "team-three-committees-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "What is the number of bureaucrats in the administration committee?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "As derived above, k must equal 1 (the only value consistent with the total of 24 and the minimum-1-per-type requirement), giving Bu(Ad) = 4k = 4."
+          ]
+        },
+        {
+          "q_slug": "team-three-committees-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "What is the number of educationalists in the research committee?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "3",
+          "solution_steps": [
+            "With k=1, m=1 fixed, the educationalist total is 9. Fact 2 states Ed(R) is the average of Ed(T) and Ed(Ad), giving 3·Ed(R)=9, so Ed(R)=3 — pinned down regardless of how the remaining 6 split between Teaching and Administration."
+          ]
+        },
+        {
+          "q_slug": "team-three-committees-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Which of the following CANNOT be determined uniquely based on the given information?",
+          "options": [
+            { "label": "a", "text": "The total number of educationalists in the three committees" },
+            { "label": "b", "text": "The total number of bureaucrats in the three committees" },
+            { "label": "c", "text": "The size of the teaching committee" },
+            { "label": "d", "text": "The size of the research committee" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Total educationalists = 9 (fixed). Total bureaucrats = 3+3+4 = 10 (fixed). Size of Research = 7 (fixed).",
+            "But Ed(T) could be 1 or 2 (both valid), so Size(Teaching) = 4+Ed(T) is either 5 or 6 — not pinned to a single value."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-group-allocation",
+      "set_slug": "team-envious-five",
+      "order": 2,
+      "difficulty": "Hard",
+      "pattern_type": "Envy-based bundle allocation of 10 objects among 5 people using a person-object value matrix",
+      "title": "The Envious Five",
+      "source": "CAT 2021, Slot 2",
+      "setup": "Ten objects o1, o2, …, o10 were distributed among Amar, Barat, Charles, Disha, and Elise. Each person got exactly two items, called her/his bundle. The value of a bundle is the sum of that person's values of the objects in it. A person X envies person Y if X values Y's bundle more than X's own bundle.\n\nEach person's value for each object (o1 to o10):\n\n| | o1 | o2 | o3 | o4 | o5 | o6 | o7 | o8 | o9 | o10 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Amar | 4 | 9 | 9 | 3 | 7 | 3 | 8 | 7 | 9 | 5 |\n| Barat | 5 | 9 | 7 | 5 | 5 | 3 | 6 | 8 | 10 | 8 |\n| Charles | 8 | 8 | 8 | 3 | 6 | 4 | 5 | 8 | 9 | 6 |\n| Disha | 8 | 8 | 8 | 5 | 5 | 3 | 6 | 4 | 9 | 8 |\n| Elise | 6 | 8 | 9 | 5 | 6 | 5 | 6 | 3 | 7 | 10 |\n\nThe following facts are known about the actual distribution:\n1. If someone's value for an object is 10, then she/he received that object.\n2. Objects o1, o2, and o3 were given to three different people.\n3. Objects o1 and o8 were given to different people.\n4. Three people value their own bundles at 16. No one values her/his own bundle at a number higher than 16.\n5. Disha values her own bundle at an odd number. All others value their own bundles at an even number.\n6. Some people who value their own bundles less than 16 envy some other people who value their own bundle at 16. No one else envies others.",
+      "questions": [
+        {
+          "q_slug": "team-envious-five-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What BEST can be said about object o8?",
+          "options": [
+            { "label": "a", "text": "o8 was given to Disha" },
+            { "label": "b", "text": "o8 was given to Amar, Charles, or Disha" },
+            { "label": "c", "text": "o8 was given to Charles or Disha" },
+            { "label": "d", "text": "o8 was given to Charles" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "By clue 1, Barat receives o9 (value 10) and Elise receives o10 (value 10).",
+            "Testing the remaining objects against the bundle-value structure (three at 16, one — Disha — odd, none above 16) gives the unique allocation: Disha={o1,o4} (13, odd), Elise={o10,o5} (16), Barat={o9,o7} (16), Charles={o3,o8} (16), Amar={o2,o6} (12).",
+            "This is confirmed as the only allocation satisfying clue 6 (only sub-16 people envy 16-people, nothing else) — an alternative swap of o2/o3 between Amar and Charles would make Barat (a 16-valuer) envy Charles, breaking clue 6.",
+            "So o8 is uniquely given to Charles."
+          ]
+        },
+        {
+          "q_slug": "team-envious-five-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Who among the following envies someone else?",
+          "options": [
+            { "label": "a", "text": "Amar" },
+            { "label": "b", "text": "Barat" },
+            { "label": "c", "text": "Charles" },
+            { "label": "d", "text": "Elise" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "With the allocation Amar={o2,o6}, Barat={o9,o7}, Charles={o3,o8}, Disha={o1,o4}, Elise={o10,o5}: Amar values his own bundle at 12, but values Barat's bundle at 17 and Charles's at 16 — both higher, so Amar envies both.",
+            "Checking the others: Barat, Charles and Elise (each valuing their own bundle at 16) never value anyone else's bundle above their own.",
+            "So among the options, only Amar envies someone else."
+          ]
+        },
+        {
+          "q_slug": "team-envious-five-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "What is Amar's value for his own bundle?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "12",
+          "solution_steps": [
+            "Amar's bundle is {o2, o6}, valued by Amar at 9 and 3 respectively: 9+3 = 12."
+          ]
+        },
+        {
+          "q_slug": "team-envious-five-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Object o4 was given to",
+          "options": [
+            { "label": "a", "text": "Disha" },
+            { "label": "b", "text": "Barat" },
+            { "label": "c", "text": "Charles" },
+            { "label": "d", "text": "Elise" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "In the unique valid allocation, Disha's bundle is {o1, o4}, giving her the required odd own-bundle value of 13 (clue 5) while keeping every other clue satisfiable.",
+            "o4 was given to Disha."
+          ]
+        },
+        {
+          "q_slug": "team-envious-five-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "Object o5 was given to",
+          "options": [
+            { "label": "a", "text": "Amar" },
+            { "label": "b", "text": "Elise" },
+            { "label": "c", "text": "Charles" },
+            { "label": "d", "text": "Disha" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Elise receives o10 (clue 1). For her bundle to reach the required 16 (as one of the three 16-valuers), her second object must be o5 (10+6=16).",
+            "o5 was given to Elise."
+          ]
+        },
+        {
+          "q_slug": "team-envious-five-q6",
+          "order": 6,
+          "question_type": "MCQ",
+          "question_text": "What BEST can be said about the distribution of object o1?",
+          "options": [
+            { "label": "a", "text": "o1 was given to Charles or Disha" },
+            { "label": "b", "text": "o1 was given to Charles, Disha, or Elise" },
+            { "label": "c", "text": "o1 was given to Charles" },
+            { "label": "d", "text": "o1 was given to Disha" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Disha's bundle {o1, o4} is the only assignment that gives her the required odd own-bundle value (13) while keeping every other clue satisfiable.",
+            "o1 was given to Disha."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "team-group-allocation",
+      "set_slug": "team-eight-authors",
+      "order": 3,
+      "difficulty": "Hard",
+      "pattern_type": "Multi-attribute assignment (author x paper-count x issue x country x area) under count, country and area constraints",
+      "title": "Eight Authors, Four Issues",
+      "source": "CAT 2021, Slot 1",
+      "setup": "A journal plans to publish 18 research papers, written by eight authors (A, B, C, D, E, F, G, and H) in four issues (January, April, July, October). Five papers were scheduled in each of the first two issues, four in each of the last two. Every author wrote 1 to 3 papers. The total number of papers by A, D, G and H was double the total by the other four authors. Four authors were from India, two each from Japan and China. Each author belonged to exactly one of three areas — Manufacturing, Automation, Logistics. Four authors were from Logistics, two from Automation. No author had more than one paper in any single issue.\n\nAlso known:\n1. F, an Indian author from Logistics, wrote only one paper, scheduled in October.\n2. A was from Automation and had no paper in October.\n3. No Indian was from Manufacturing; no Japanese or Chinese author was from Automation.\n4. A and H were from different countries but had papers scheduled in exactly the same issues.\n5. C and E, both Chinese from different areas, had the same number of papers. E's papers were in consecutive issues, C's were not.\n6. B, from Logistics, had a paper in April.\n7. B and G belonged to the same country, and none of their papers were in the same issue.\n8. D, a Japanese author from Manufacturing, had no paper in July.\n9. C and H belonged to different areas.",
+      "questions": [
+        {
+          "q_slug": "team-eight-authors-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What is the correct sequence of number of papers written by B, C, E and G, respectively?",
+          "options": [
+            { "label": "a", "text": "3, 1, 1, 3" },
+            { "label": "b", "text": "1, 2, 2, 1" },
+            { "label": "c", "text": "1, 2, 2, 3" },
+            { "label": "d", "text": "1, 3, 3, 1" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Since Automation ⊆ Indian and Manufacturing ⊆ Japanese/Chinese (clue 3), A (Automation) is Indian; F,B (Logistics) are Indian; G is the 4th Indian, filling the second Automation slot.",
+            "C,E are Chinese; D is Japanese (Manufacturing); H is the remaining Japanese. Clues 5+9 force C=Manufacturing, E=Logistics, H=Logistics.",
+            "Total=18, {A,D,G,H}=2x{B,C,E,F}, so {B,C,E,F}=6, {A,D,G,H}=12, meaning A,D,G,H each write exactly 3. F=1, so B+C+E=5 with C=E=p (clue 5): if p=1, B=3, but then B and G (both 3 papers, never sharing an issue, clue 7) would need 6 slots across only 4 issues — impossible. So p=2, B=1.",
+            "Final counts: B=1, C=2, E=2, G=3 — sequence 1, 2, 2, 3."
+          ]
+        },
+        {
+          "q_slug": "team-eight-authors-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "How many papers were written by Indian authors?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "8",
+          "solution_steps": [
+            "Indian authors are A, B, F, and G, with paper counts 3, 1, 1, and 3 respectively.",
+            "Total = 3+1+1+3 = 8."
+          ]
+        },
+        {
+          "q_slug": "team-eight-authors-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statement(s) MUST be true?\nStatement A: Every issue had at least one paper by author(s) from each country.\nStatement B: Every issue had at most two papers by authors from each area.",
+          "options": [
+            { "label": "a", "text": "Only Statement A" },
+            { "label": "b", "text": "Neither of the statements" },
+            { "label": "c", "text": "Both the statements" },
+            { "label": "d", "text": "Only Statement B" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Full schedule (derived from clues 1,2,4,6,7,8): Jan={A,D,H,C,G}, Apr={A,D,H,E,B}, Jul={A,H,E,G}, Oct={D,F,C,G}.",
+            "Statement A: every issue has all 3 nationalities (e.g. Jan has India:A,G, Japan:D,H, China:C) — TRUE in all four.",
+            "Statement B: April has Logistics authors H, E, and B — 3 papers from one area, violating 'at most two' — FALSE.",
+            "So only Statement A must be true."
+          ]
+        },
+        {
+          "q_slug": "team-eight-authors-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statements is FALSE?",
+          "options": [
+            { "label": "a", "text": "Every issue had exactly one paper by a Chinese author." },
+            { "label": "b", "text": "Every issue had at least one paper by author(s) from Automation area." },
+            { "label": "c", "text": "Every issue had exactly two papers by authors from Logistics area." },
+            { "label": "d", "text": "Every issue had exactly two papers by Indian authors." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Using the schedule: Chinese (C,E) appear exactly once per issue — A true. Automation (A,G) appear at least once per issue — B true. Indian (A,B,F,G) appear exactly twice per issue — D true.",
+            "Logistics (B,E,F,H) per issue: Jan=1(H), Apr=3(H,E,B), Jul=2(H,E), Oct=1(F) — only July has exactly 2, so C is false."
+          ]
+        },
+        {
+          "q_slug": "team-eight-authors-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statements is FALSE?",
+          "options": [
+            { "label": "a", "text": "There was exactly one paper by an author from Logistics area in the October issue." },
+            { "label": "b", "text": "There was exactly one paper by an author from Manufacturing area in the April issue." },
+            { "label": "c", "text": "There were exactly two papers by authors from Manufacturing area in the July issue." },
+            { "label": "d", "text": "There were exactly two papers by authors from Manufacturing area in the January issue." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Manufacturing authors are C and D. Oct={D,F,C,G}: Logistics=F only(1) — A true. Apr={A,D,H,E,B}: Manufacturing=D only(1) — B true.",
+            "Jul={A,H,E,G}: neither C nor D is in July, so Manufacturing=0, not 2 — C is false.",
+            "Jan={A,D,H,C,G}: Manufacturing=D,C(2) — D true."
+          ]
+        },
+        {
+          "q_slug": "team-eight-authors-q6",
+          "order": 6,
+          "question_type": "MCQ",
+          "question_text": "Which of the following is the correct sequence of number of papers by authors from Automation, Manufacturing and Logistics areas, respectively?",
+          "options": [
+            { "label": "a", "text": "6, 5, 7" },
+            { "label": "b", "text": "6, 7, 5" },
+            { "label": "c", "text": "5, 6, 7" },
+            { "label": "d", "text": "6, 6, 6" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Automation = A(3) + G(3) = 6. Manufacturing = C(2) + D(3) = 5. Logistics = B(1) + E(2) + F(1) + H(3) = 7.",
+            "Sequence: 6, 5, 7."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "scheduling-sequencing",
+      "set_slug": "sched-visa-queues",
+      "order": 1,
+      "difficulty": "Hard",
+      "pattern_type": "Multi-counter queueing with category-specific processing times and slot arrivals",
+      "title": "Visa Processing Office Queues",
+      "source": "CAT 2023, Slot 1",
+      "setup": "A visa processing office (VPO) accepts applications in four categories - US, UK, Schengen, and Others - scheduled in twenty 15-minute slots from 9:00 am, ten applications per slot. Ten counters exist: 4 for US, 2 each for UK, Schengen, Others, working first-come-first-served whenever a counter frees. US and UK applications each need 10 minutes' processing; Schengen and Others' processing times vary by category but are fixed within a category.\n\nIra, Vijay and Nandini (in that order) had a 9:15 am Schengen slot but entered at 9:20 am; at that moment, exactly six of the ten counters were busy or ready to start their next application. Mahira and Osman were scheduled for the 9:30 am Others slot.\n\nAlso known:\n1. All slots were full.\n2. The number of applications per category was constant across all slots.\n3. 50% of the applications were US applications.\n4. All applicants except Ira, Vijay and Nandini arrived on time.\n5. Vijay was called to a counter at 9:25 am.",
+      "questions": [
+        {
+          "q_slug": "sched-visa-queues-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "How many UK applications were scheduled on that day?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "0",
+          "solution_steps": [
+            "Each slot has 10 applications, 50% US = 5/slot, leaving 5/slot for UK+Schengen+Others (constant split every slot).",
+            "Ira, Vijay, Nandini are THE Schengen applicants of the 9:15 slot, so Schengen = 3/slot. Mahira, Osman are THE Others applicants of the 9:30 slot, so Others = 2/slot.",
+            "3+2 = 5 already accounts for the full remainder, leaving 0 for UK — so UK = 0 for the whole day."
+          ]
+        },
+        {
+          "q_slug": "sched-visa-queues-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "What is the maximum possible value of the total time (in minutes, nearest integer) required to process all applications in the Others category on that day?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "200",
+          "solution_steps": [
+            "With Others = 2/slot and 2 Others counters, for both counters to be idle again by 9:20 am (needed so only 6 counters are busy when Ira/Vijay/Nandini arrive), the Others processing time must be at most 5 minutes.",
+            "The maximum possible total is then 40 Others applications/day (2/slot x 20 slots) x 5 minutes = 200 minutes."
+          ]
+        },
+        {
+          "q_slug": "sched-visa-queues-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which of the following is the closest to the time when Nandini's application process got over?",
+          "options": [
+            { "label": "a", "text": "9:35 am" },
+            { "label": "b", "text": "9:50 am" },
+            { "label": "c", "text": "9:37 am" },
+            { "label": "d", "text": "9:45 am" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Before Ira/Vijay/Nandini arrive, the 9:00 slot's 3 Schengen applicants use both counters; the 3rd starts at 9:00+p and finishes at 9:00+2p, where p is the Schengen processing time.",
+            "Since Vijay is called only at 9:25 (not immediately at 9:20), the other counter is busy until exactly 9:25, giving 9:00+2p=9:25, so p=12.5 min.",
+            "Ira starts 9:20 (finishes 9:32.5); Vijay starts 9:25 (finishes 9:37.5); Nandini waits for the first free counter (Ira's, at 9:32.5) and finishes at 9:32.5+12.5 = 9:45 am."
+          ]
+        },
+        {
+          "q_slug": "sched-visa-queues-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statements is false?",
+          "options": [
+            { "label": "a", "text": "The application process of Mahira was completed before Nandini's." },
+            { "label": "b", "text": "The application process of Osman was completed before Vijay's." },
+            { "label": "c", "text": "The application process of Osman was completed before 9:45 am." },
+            { "label": "d", "text": "The application process of Mahira started after Nandini's." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "The Others counters process the 9:00/9:15 batches well within the ≤5-minute processing time and are free again before 9:30, so Mahira and Osman start together at 9:30, finishing around 9:35 — making A, B, C all true.",
+            "Nandini only starts at 9:32.5 (after waiting behind Ira and Vijay). Since Mahira started at 9:30, before Nandini's 9:32.5 start, 'Mahira started after Nandini' is false."
+          ]
+        },
+        {
+          "q_slug": "sched-visa-queues-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "When did the application processing for all US applicants get over on that day?",
+          "options": [
+            { "label": "a", "text": "2:25 pm" },
+            { "label": "b", "text": "3:40 pm" },
+            { "label": "c", "text": "2:00 pm" },
+            { "label": "d", "text": "2:05 pm" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "US = 5 applicants/slot with 4 counters at 10 min each; capacity (6/15min) slightly exceeds demand (5/15min), giving a stable pattern where the slot's 5th applicant always finishes 20 minutes after the slot begins.",
+            "The last slot begins at 1:45 pm (9:00 am + 19x15 min), so its 5th US applicant finishes at 1:45 pm + 20 min = 2:05 pm."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "scheduling-sequencing",
+      "set_slug": "sched-park-rides",
+      "order": 2,
+      "difficulty": "Hard",
+      "pattern_type": "Timeline reconstruction of visitor rides from queueing/waiting and ticket-cost clues",
+      "title": "Entertainment Park Ride Queues",
+      "source": "CAT 2023, Slot 2",
+      "setup": "Anjali, Bipasha, and Chitra visited an entertainment park with four one-hour rides, each taking one visitor at a time. All rides begin at 9 am; Ride-3's last ride must complete by 1 pm, the others by 5 pm. Ride gates open every 30 minutes. Ticket prices are Rs 20, 50, 30, 40 for Rides 1-4. Each visitor took at least one ride, none repeated a ride.\n\nAlso known:\n1. Chitra never waited in queue and completed her visit by 11 am after spending Rs 50.\n2. Anjali took Ride-1 at 11 am after waiting 30 min for Chitra to complete it — the only ride where Anjali waited.\n3. Bipasha began her first of three rides at 11:30 am. All three visitors had spent the same amount by 12:15 pm.\n4. The last ride taken by Anjali and Bipasha was the same, with Bipasha waiting 30 min for Anjali. Before that queue, Bipasha took a 1-hour coffee break after her previous ride.",
+      "questions": [
+        {
+          "q_slug": "sched-park-rides-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What was the total amount spent on tickets (in Rs) by Bipasha?",
+          "options": [
+            { "label": "a", "text": "120" },
+            { "label": "b", "text": "110" },
+            { "label": "c", "text": "100" },
+            { "label": "d", "text": "90" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Chitra: Ride-3 (9-10 am) then Ride-1 (10-11 am), spending 30+20=50 — matches clue 1. By 12:15 pm, everyone must have spent the same amount, so Anjali's and Bipasha's first paid rides must also total 50.",
+            "Anjali's first ride must be Ride-3 (30+20=50, given Ride-1 at 11 am costs 20). Bipasha's only ticket by 12:15 pm is her 11:30 am first ride, which must alone total 50 — only possible if it's Ride-2.",
+            "Bipasha's 2nd ride is Ride-1 (12:30-1:30, since Ride-3 must finish by 1 pm and can't fit). Her 3rd ride is Ride-4, shared with Anjali (2:00-3:00 for Anjali; Bipasha, after a coffee break from 1:30-2:30, queues from 2:30, waits 30 min, rides 3:00-4:00).",
+            "Bipasha's total = Ride-2(50) + Ride-1(20) + Ride-4(40) = Rs 110."
+          ]
+        },
+        {
+          "q_slug": "sched-park-rides-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Which were all the rides that Anjali completed by 2:00 pm?",
+          "options": [
+            { "label": "a", "text": "Ride-1 and Ride-4" },
+            { "label": "b", "text": "Ride-1, Ride-2, and Ride-3" },
+            { "label": "c", "text": "Ride-1 and Ride-3" },
+            { "label": "d", "text": "Ride-1, Ride-2, and Ride-4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Anjali's rides: Ride-3 (9:30-10:30), Ride-1 (11:00-12:00, per clue 2), Ride-2 (12:30-1:30, once Bipasha vacates it, no wait — keeping Ride-1 as her only wait), and Ride-4 (2:00-3:00, shared with Bipasha).",
+            "By 2:00 pm, Anjali has completed Ride-3, Ride-1, Ride-2 — but Ride-4 only begins at 2:00 pm, so it's not yet complete."
+          ]
+        },
+        {
+          "q_slug": "sched-park-rides-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which ride was taken by all three visitors?",
+          "options": [
+            { "label": "a", "text": "Ride-3" },
+            { "label": "b", "text": "Ride-1" },
+            { "label": "c", "text": "Ride-4" },
+            { "label": "d", "text": "Ride-2" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Chitra: Ride-3, Ride-1. Anjali: Ride-3, Ride-1, Ride-2, Ride-4. Bipasha: Ride-2, Ride-1, Ride-4.",
+            "Ride-1 is the only ride appearing in all three itineraries."
+          ]
+        },
+        {
+          "q_slug": "sched-park-rides-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "How many rides did Anjali and Chitra take in total?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "6",
+          "solution_steps": [
+            "Chitra takes 2 rides (Ride-3, Ride-1). Anjali takes 4 rides (Ride-3, Ride-1, Ride-2, Ride-4).",
+            "Together: 2 + 4 = 6."
+          ]
+        },
+        {
+          "q_slug": "sched-park-rides-q5",
+          "order": 5,
+          "question_type": "TITA",
+          "question_text": "What was the total amount spent on tickets (in Rs) by Anjali?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "140",
+          "solution_steps": [
+            "Anjali's rides and prices: Ride-3(30), Ride-1(20), Ride-2(50), Ride-4(40).",
+            "Total = 30+20+50+40 = Rs 140."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "scheduling-sequencing",
+      "set_slug": "sched-doctors-queue",
+      "order": 3,
+      "difficulty": "Moderate",
+      "pattern_type": "Multi-server queue simulation with a room-assignment rule",
+      "title": "Three Doctors' Clinic Queue",
+      "source": "CAT 2019, Slot 2",
+      "setup": "Three doctors, Dr. Ben, Dr. Kane and Dr. Wayne, visit a clinic Monday-Saturday. Dr. Ben sees each patient for 10 minutes (Rs 100), Dr. Kane for 15 minutes (Rs 200), Dr. Wayne for 25 minutes (Rs 300). The clinic has 3 rooms assigned to the doctors on a rotating schedule (Rooms 1,2,3 cycle through Ben/Kane/Wayne combinations on Mon-Tue, Wed-Thu, Fri-Sat respectively). The clinic is open 9:00-11:30 am. Patients take numbered tokens on arrival, and whenever a room frees, the next patient in the queue enters it; if multiple rooms are free simultaneously, the patient enters the lowest-numbered room.",
+      "questions": [
+        {
+          "q_slug": "sched-doctors-queue-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What is the maximum number of patients that the clinic can cater to on any single day?",
+          "options": [
+            { "label": "a", "text": "15" },
+            { "label": "b", "text": "30" },
+            { "label": "c", "text": "31" },
+            { "label": "d", "text": "12" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "The clinic is open 150 minutes. If the queue never runs dry, each doctor works continuously regardless of which room he's in: Ben sees floor(150/10)=15, Kane floor(150/15)=10, Wayne floor(150/25)=6.",
+            "Maximum total = 15+10+6 = 31."
+          ]
+        },
+        {
+          "q_slug": "sched-doctors-queue-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "The queue is never empty on one particular Saturday. Which of the three doctors would earn the maximum amount in consultation charges on that day?",
+          "options": [
+            { "label": "a", "text": "Dr. Kane" },
+            { "label": "b", "text": "Dr. Wayne" },
+            { "label": "c", "text": "Dr. Ben" },
+            { "label": "d", "text": "Both Dr. Wayne and Dr. Kane" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Each doctor sees Ben=15, Kane=10, Wayne=6 patients (as above), independent of room assignment.",
+            "Revenue: Ben=15x100=1500, Kane=10x200=2000, Wayne=6x300=1800. Dr. Kane earns the most."
+          ]
+        },
+        {
+          "q_slug": "sched-doctors-queue-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Mr. Singh visited the clinic on Monday, Wednesday, and Friday of a particular week, arriving at 8:50 a.m. on each of the three days. His token number was 13 on all three days. On which day was he at the clinic for the maximum duration?",
+          "options": [
+            { "label": "a", "text": "Friday" },
+            { "label": "b", "text": "Wednesday" },
+            { "label": "c", "text": "Same duration on all three days" },
+            { "label": "d", "text": "Monday" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Simulating the FCFS/lowest-room rule with each day's room-doctor mapping: on Monday, token 13 ends up with Dr. Wayne (25-min), starting 9:50, finishing 10:15 — a duration of 85 minutes (8:50 to 10:15).",
+            "On Wednesday and Friday, token 13 lands with Dr. Ben (10-min) both times, finishing at 10:00 — a duration of only 70 minutes.",
+            "85 > 70, so Monday is the longest visit."
+          ]
+        },
+        {
+          "q_slug": "sched-doctors-queue-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "On a slow Thursday, only two patients are waiting at 9 a.m. After that two patients keep arriving at exact 15 minute intervals starting at 9:15 a.m. Then the total duration in minutes when all three doctors are simultaneously free is",
+          "options": [
+            { "label": "a", "text": "30" },
+            { "label": "b", "text": "10" },
+            { "label": "c", "text": "15" },
+            { "label": "d", "text": "0" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Thursday's rooms: Room1=Wayne(25min), Room2=Ben(10min), Room3=Kane(15min). At 9:00, only 2 patients take Room1 and Room2, leaving Room3 idle (no third patient yet).",
+            "Simulating forward, every 30 minutes all three rooms happen to free at exactly the same instant a fresh pair of patients arrives — since only 2 patients need seats, the 'all-three-free' state exists only for an instant, never a positive stretch of time.",
+            "Total duration = 0 minutes."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "games-tournaments",
+      "set_slug": "games-javelin",
+      "order": 1,
+      "difficulty": "Hard",
+      "pattern_type": "Ranked-order throwing/scoring reconstruction from partial throw results",
+      "title": "Javelin Throw Rankings",
+      "source": "CAT 2021, Slot 3",
+      "setup": "10 players - P1 to P10 (P1 ranked best going in) - competed in a javelin event over 6 rounds in two phases (Rounds 1-3, then 4-6). A player's score after a round is his best valid throw so far. In Phase-1 rounds, players throw in increasing order of current rank; the top 6 qualify for Phase 2, where they throw in decreasing order of current rank. Ranks 1, 2, 3 at the end of Round 6 win gold, silver, bronze.\n\nRound 1 valid throws: P1=82.9, P3=81.5, P5=86.4, P6=82.5, P7=87.2, P9=84.1 (all others invalid).\nRound 3 valid throws: P1=88.6, P3=79.0, P9=81.4.\n\nAlso known:\ni. In Round 2, only the last two throws were valid; both qualified for Phase 2, one with the least qualifying score. Neither won a medal.\nii. A player 'gets a double' if he throws first in a round having also thrown last in the previous round. Two players got a double.\niii. In each Phase-2 round, exactly one player improved his score, each improvement by the same amount.\niv. Gold and bronze improved in Rounds 5 and 6 respectively; one medal winner improved in Round 4.\nv. Gold-Silver gap = Silver-Bronze gap = 1.0 m.",
+      "questions": [
+        {
+          "q_slug": "games-javelin-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Which two players got the double?",
+          "options": [
+            { "label": "a", "text": "P1, P10" },
+            { "label": "b", "text": "P2, P4" },
+            { "label": "c", "text": "P1, P8" },
+            { "label": "d", "text": "P8, P10" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Round-1 order ranks P7>P5>P9>P1>P6>P3, with invalid throwers (P2,P4,P8,P10) tied last, broken by original rank. Round-2 order is thus P7,P5,P9,P1,P6,P3,P2,P4,P8,P10 — P8 throws 9th, P10 throws last.",
+            "Only P8's and P10's Round-2 throws were valid (clue i). For P10 to end up rank-1 (throwing first in Round 3), his throw must exceed P7's 87.2 — and since P10 was also last in Round 2, this gives him a double.",
+            "P8 only needs to beat P6's 82.5 to qualify, ending as the lowest of the six qualifiers. In Round 3's order, P8 is the last qualifier to throw; since Round 4 (Phase 2) throws in decreasing rank, the lowest-ranked qualifier (P8) throws first in Round 4 — giving P8 a double too."
+          ]
+        },
+        {
+          "q_slug": "games-javelin-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Who won the silver medal?",
+          "options": [
+            { "label": "a", "text": "P1" },
+            { "label": "b", "text": "P9" },
+            { "label": "c", "text": "P7" },
+            { "label": "d", "text": "P5" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Going into Round 4, top-6 scores are P1=88.6, P10(>87.2), P7=87.2, P5=86.4, P9=84.1, P8(lowest, >82.5). Neither P8 nor P10 medal (given), so medals are among P1, P7, P5, P9.",
+            "With one improvement per Phase-2 round and fixed 1.0 m medal gaps, P7 improves twice (Rounds 4,5) to reach 89.6, P1 stays at 88.6, P5 improves once (Round 6) to reach 87.6.",
+            "Final: P7(89.6)=gold, P1(88.6)=silver, P5(87.6)=bronze."
+          ]
+        },
+        {
+          "q_slug": "games-javelin-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Who threw the last javelin in the event?",
+          "options": [
+            { "label": "a", "text": "P1" },
+            { "label": "b", "text": "P7" },
+            { "label": "c", "text": "P9" },
+            { "label": "d", "text": "P10" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Phase-2 rounds throw in decreasing rank, so the current rank-1 player throws last in that round.",
+            "Going into Round 6, P7 has just improved (Round 5) to 89.6, becoming rank 1 — so P7 throws last in Round 6, the final throw of the event."
+          ]
+        },
+        {
+          "q_slug": "games-javelin-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "What was the final score (in m) of the silver-medalist?",
+          "options": [
+            { "label": "a", "text": "89.6" },
+            { "label": "b", "text": "87.2" },
+            { "label": "c", "text": "88.4" },
+            { "label": "d", "text": "88.6" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Silver medalist P1 reached 88.6 m via his Round-3 improvement and never throws again validly (only P7 and P5 improve in Phase 2, per clue iv).",
+            "P1's final score is 88.6 m."
+          ]
+        },
+        {
+          "q_slug": "games-javelin-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "Which of the following can be the final score (in m) of P8?",
+          "options": [
+            { "label": "a", "text": "0" },
+            { "label": "b", "text": "82.7" },
+            { "label": "c", "text": "81.9" },
+            { "label": "d", "text": "85.1" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "P8 threw validly in Round 2 (rules out 0), must exceed P6's 82.5 to have qualified ahead of him (rules out 81.9), and must be the lowest of the six qualifiers, below P9's 84.1 (rules out 85.1).",
+            "Only 82.7 fits the required window (82.5, 84.1)."
+          ]
+        },
+        {
+          "q_slug": "games-javelin-q6",
+          "order": 6,
+          "question_type": "MCQ",
+          "question_text": "By how much did the gold medalist improve his score (in m) in the second phase?",
+          "options": [
+            { "label": "a", "text": "1.2" },
+            { "label": "b", "text": "2.0" },
+            { "label": "c", "text": "2.4" },
+            { "label": "d", "text": "1.0" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Silver (P1) finishes at 88.6 m (unchanged). Gold-Silver gap = 1.0, so gold's final = 89.6.",
+            "Gold medalist P7 entered Phase 2 at 87.2, so his total improvement = 89.6 - 87.2 = 2.4 m."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "games-tournaments",
+      "set_slug": "games-chango",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Group-stage plus knockout bracket, results from games-played counts",
+      "title": "Chango Championship Bracket",
+      "source": "CAT 2021, Slot 2",
+      "setup": "12 players (no draws in Chango) were split into 4 groups of 3: Group A (Aruna, Azul, Arif); Group B (Brinda, Brij, Biju); Group C (Chitra, Chetan, Chhavi); Group D (Dipen, Donna, Deb). Within each group, ranks 2 and 3 play first; the winner plays rank 1; that winner is the group winner and advances to a semi-final (A vs B winner, C vs D winner). Semi winners meet in the final.\n\nAlso known:\n1. Chitra did not win the championship.\n2. Aruna did not play against Arif. Brij did not play against Brinda.\n3. Aruna, Biju, Chitra, and Dipen played three games each; Azul and Chetan played two each; everyone else played one each.",
+      "questions": [
+        {
+          "q_slug": "games-chango-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Who among the following was DEFINITELY NOT ranked first in his/her group?",
+          "options": [
+            { "label": "a", "text": "Chitra" },
+            { "label": "b", "text": "Aruna" },
+            { "label": "c", "text": "Dipen" },
+            { "label": "d", "text": "Brij" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Playing 3 games total is possible for a rank-1 player only via losing later (group win + semi win + final = 3), or for a rank-2/3 winner via winning 2 group games then losing later (game1+game2+semifinal loss = 3).",
+            "Aruna is rank-1 in Group A (the eventual champion, 3 games). Biju is Group B's rank-2/3 winner (3 games, loses semi). Chitra is rank-1 in Group C (3 games, loses final — consistent with clue 1). Dipen, by the same logic as Biju, must be Group D's rank-2/3 winner (3 games, loses semi).",
+            "So Dipen is definitely NOT ranked first, while Aruna and Chitra definitely ARE."
+          ]
+        },
+        {
+          "q_slug": "games-chango-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Which of the following pairs must have played against each other in the championship?",
+          "options": [
+            { "label": "a", "text": "Azul, Biju" },
+            { "label": "b", "text": "Donna, Chetan" },
+            { "label": "c", "text": "Deb, Donna" },
+            { "label": "d", "text": "Chitra, Dipen" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Chitra (Group C winner) and Dipen (Group D winner) meet in the second semi-final — a guaranteed meeting.",
+            "Azul lost his first group game and never advances; Donna/Chetan and Deb/Donna have no guaranteed meeting under the bracket structure."
+          ]
+        },
+        {
+          "q_slug": "games-chango-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Who won the championship?",
+          "options": [
+            { "label": "a", "text": "Brij" },
+            { "label": "b", "text": "Chitra" },
+            { "label": "c", "text": "Cannot be determined" },
+            { "label": "d", "text": "Aruna" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Aruna, a 3-game rank-1 player, wins her group, wins her semi (vs Biju), and wins the final.",
+            "Chitra, also a 3-game rank-1 player, wins her group and semi (vs Dipen) but loses the final (clue 1) — the runner-up.",
+            "So the final is Aruna vs Chitra, and Aruna wins."
+          ]
+        },
+        {
+          "q_slug": "games-chango-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Who among the following did NOT play against Chitra in the championship?",
+          "options": [
+            { "label": "a", "text": "Aruna" },
+            { "label": "b", "text": "Dipen" },
+            { "label": "c", "text": "Chetan" },
+            { "label": "d", "text": "Biju" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Chitra's opponents: Chetan (group stage winner of Chetan vs Chhavi), Dipen (semi-final), Aruna (final).",
+            "Biju's semi-final opponent is Aruna, not Chitra — Biju never played Chitra."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "games-tournaments",
+      "set_slug": "games-quiet-tournament",
+      "order": 3,
+      "difficulty": "Hard",
+      "pattern_type": "Round-robin schedule reconstruction from partial match-up clues",
+      "title": "QUIET Tournament Schedule",
+      "source": "CAT 2024, Slot 1",
+      "setup": "Six teams (1-6) play QUIET, split into two groups of 3. Each team plays each same-group team once and each other-group team twice, one game per round per team.\n\nAlso known:\n1. Each team played a cross-group team in Round 8.\n2. Round 4 and Round 7 had identical match-ups; Round 5 and Round 8 had identical match-ups.\n3. Team 4 played Team 6 in both Round 1 and Round 2.\n4. Team 1 played Team 5 ONLY once, in Round 2.\n5. Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.\n6. In Round 8, Team 3 played Team 6, Team 2 played Team 5.",
+      "questions": [
+        {
+          "q_slug": "games-quiet-tournament-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "How many rounds were there in the tournament?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "8",
+          "solution_steps": [
+            "Each team plays 2 same-group games once each (2) plus 3 other-group teams twice each (6) = 8 games per team, one per round.",
+            "The tournament runs for 8 rounds — confirmed by the full reconstruction fitting exactly, with no leftover games."
+          ]
+        },
+        {
+          "q_slug": "games-quiet-tournament-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "What is the number of the team that played Team 1 in Round 5?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "Team 4-Team 6 play twice (Rounds 1,2, clue 3) so they're cross-group; Team 1-Team 5 play once (clue 4) so they're same-group. From Round 8 (clue 6), groups are {1,5,6} and {2,3,4}.",
+            "Round 8's third game must be the remaining cross-group pair, Team 1 vs Team 4. Since Round 5 = Round 8's match-up (clue 2), Round 5 is also {1v4, 2v5, 3v6}.",
+            "Team 4 played Team 1 in Round 5."
+          ]
+        },
+        {
+          "q_slug": "games-quiet-tournament-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which team among the teams numbered 2, 3, 4, and 5 was not part of the same group?",
+          "options": [
+            { "label": "a", "text": "5" },
+            { "label": "b", "text": "2" },
+            { "label": "c", "text": "4" },
+            { "label": "d", "text": "3" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Groups are {2,3,4} and {1,5,6}, as derived above.",
+            "Among 2,3,4,5: teams 2,3,4 are all in the same group, while Team 5 is in the other — Team 5 is the odd one out."
+          ]
+        },
+        {
+          "q_slug": "games-quiet-tournament-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "What is the number of the team that played Team 1 in Round 7?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "3",
+          "solution_steps": [
+            "Team 1 needs 2 more meetings with cross-group Team 3, and Round 4 = Round 7 (clue 2) is the natural home for both occurrences of that pair.",
+            "This fits perfectly into Round4=Round7={1v3, 5v4, 6v2}, using every team exactly once with no fixture conflicts.",
+            "Team 3 played Team 1 in Round 7 (and Round 4)."
+          ]
+        },
+        {
+          "q_slug": "games-quiet-tournament-q5",
+          "order": 5,
+          "question_type": "TITA",
+          "question_text": "What is the number of the team that played Team 6 in Round 3?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "5",
+          "solution_steps": [
+            "Round 3 is Team3 vs Team4 (clue 5) plus two more games among {1,2,5,6}. Team1-Team5's one allowed meeting is already used (Round 2); Team1-Team6's is reserved for Round 6; Team2-Team5's two occurrences are already fixed at Rounds 5 and 8.",
+            "The only remaining valid pairing of {1,2,5,6} is Team1 vs Team2 and Team5 vs Team6.",
+            "Team 5 played Team 6 in Round 3."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "network-route-puzzles",
+      "set_slug": "network-walkways-lakes",
+      "order": 1,
+      "difficulty": "Hard",
+      "pattern_type": "Shortest/longest path on a grid network with three lakes",
+      "title": "Gated Community Walkways and Lakes",
+      "source": "CAT 2024, Slot 2",
+      "setup": "16 points (A through P) form a 4x4 grid of walkways with three rectangular lakes cut into it. Row 1 (top): A-B-C-D. Row 2: H-G-F-E. Row 3: I-J-K-L. Row 4 (bottom): P-O-N-M. Vertical paths: A-H-I-P, B-G-J-O, C-F-K-N, D-E-L-M. Two diagonal shortcuts: I-G and O-K. Three lakes: C-D-E-F (top-right), G-F-K-J (middle), K-L-M-N (bottom-right).\n\nSegment lengths — horizontal: col1-2 = 150 (AB=HG=IJ=PO), col2-3 = 300 (BC=GF=JK=ON), col3-4 = 300 (CD=FE=KL=NM); vertical: row1-2 = 400 (AH=BG=CF=DE), row2-3 = 200 (HI=GJ=FK=EL), row3-4 = 400 (IP=JO=KN=LM); diagonals: IG = 250, OK = 500.\n\nThe only entry/exit is at C. Residences line paths AH and ML (with residences at A, H, M, L specifically). The post office is at P; the bank is at B.",
+      "questions": [
+        {
+          "q_slug": "network-walkways-lakes-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "One resident whose house is located at L needs to visit the post office as well as the bank. What is the minimum distance (in m) he has to walk starting from his residence and returning to his residence after visiting both the post office and the bank?",
+          "options": [
+            { "label": "a", "text": "3200" },
+            { "label": "b", "text": "2700" },
+            { "label": "c", "text": "3000" },
+            { "label": "d", "text": "3400" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Shortest L to P: L-K-O-P via diagonal K-O (300+500+150 = 950).",
+            "Shortest P to bank B: P-I-G-B via diagonal I-G (400+250+400 = 1050).",
+            "Shortest B back to L: B-C-F-E-L (300+400+300+200 = 1200).",
+            "Total (either visiting order): 950 + 1050 + 1200 = 3200 m."
+          ]
+        },
+        {
+          "q_slug": "network-walkways-lakes-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "One person enters the gated area and decides to walk as much as possible before leaving the area without walking along any path more than once and always walking next to one of the lakes. Note that he may cross a point multiple times. How much distance (in m) will he walk within the gated area?",
+          "options": [
+            { "label": "a", "text": "3800" },
+            { "label": "b", "text": "2800" },
+            { "label": "c", "text": "3000" },
+            { "label": "d", "text": "3200" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Only the 12 lake-bordering edges qualify. Every point on this sub-network has an even number of lake-edges, so an Eulerian circuit exists using every lake-edge exactly once.",
+            "Starting/ending at C: C-D-E-F-K-L-M-N-K-J-G-F-C uses all 12 edges, summing to 3800 m — the maximum possible."
+          ]
+        },
+        {
+          "q_slug": "network-walkways-lakes-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "One resident takes a walk within the gated area starting from A and returning to A without going through any point (other than A) more than once. What is the maximum distance (in m) she can walk in this way?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "5100",
+          "solution_steps": [
+            "The walk is a simple cycle through a subset of the 16 points; the longest visits all 16 (a Hamiltonian cycle).",
+            "A-B-G-F-C-D-E-L-M-N-K-J-O-P-I-H-A sums to 5100 m — the maximum since a simple cycle can't exceed all 16 points."
+          ]
+        },
+        {
+          "q_slug": "network-walkways-lakes-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "Visitors coming for morning walks are allowed to enter as long as they do not pass by any of the residences and do not cross any point (except C) more than once. What is the maximum distance (in m) that such a visitor can walk within the gated area?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "3500",
+          "solution_steps": [
+            "Avoiding residences (A, H, M, L) leaves 12 usable points. The longest walk is a cycle through all 12, starting/ending at C.",
+            "C-D-E-F-K-N-O-P-I-J-G-B-C sums to 3500 m — the maximum, visiting every available point once."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "network-route-puzzles",
+      "set_slug": "network-metro",
+      "order": 2,
+      "difficulty": "Hard",
+      "pattern_type": "Metro network travel times, frequencies, and minimum fleet size",
+      "title": "City Metro Network",
+      "source": "CAT 2022, Slot 1",
+      "setup": "Two north-south lines (A-R-T-B and C-S-V-D) cross two east-west lines (M-R-S-N and P-T-V-Q) at junctions R, S, T, V. Trains halt 2 minutes at junctions, 1 minute at ordinary stations (already folded into the travel times below). East-west travel takes 2 min/station-gap, north-south 3 min/station-gap. Service runs 6 am to midnight, every 15 min on north-south lines, every 10 min on east-west lines. A train rests at least 15 minutes at a terminal before reversing.\n\nTravel times (already including ordinary-station halts, excluding junction halts): A-R=11, R-T=15, T-B=11 (mirrored for C-S-V-D); M-R=11, R-S=29, S-N=17 (mirrored for P-T-V-Q). Add 2 minutes at every junction crossed.",
+      "questions": [
+        {
+          "q_slug": "network-metro-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "If Hari is ready to board a train at 8:05 am from station M, then when is the earliest that he can reach station N?",
+          "options": [
+            { "label": "a", "text": "9:01 am" },
+            { "label": "b", "text": "9:13 am" },
+            { "label": "c", "text": "9:06 am" },
+            { "label": "d", "text": "9:11 am" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "M-R-S-N is one line, no change needed. Trains leave M every 10 min; next departure at/after 8:05 is 8:10.",
+            "M→R (11 min) arrive 8:21, halt 2 min, depart 8:23. R→S (29 min) arrive 8:52, halt 2 min, depart 8:54. S→N (17 min) arrive 9:11 am."
+          ]
+        },
+        {
+          "q_slug": "network-metro-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "If Priya is ready to board a train at 10:25 am from station T, then when is the earliest that she can reach station S?",
+          "options": [
+            { "label": "a", "text": "11:22 am" },
+            { "label": "b", "text": "11:28 am" },
+            { "label": "c", "text": "11:12 am" },
+            { "label": "d", "text": "11:07 am" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "T and S are on different lines, so Priya must change at a junction (R or V). Via R: next T-departure toward R at/after 10:25 is 10:28, arriving R at 10:43.",
+            "At R, an east-west train departs toward S exactly at 10:43 (she can catch a train leaving exactly when she arrives), reaching S 29 min later, at 11:12 am.",
+            "The alternative route via V gives 11:28 am, which is later — so via R (11:12 am) is earliest."
+          ]
+        },
+        {
+          "q_slug": "network-metro-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Haripriya is expected to reach station S late. What is the latest time by which she must be ready to board at station S if she must reach station B before 1 am via station R?",
+          "options": [
+            { "label": "a", "text": "11:35 pm" },
+            { "label": "b", "text": "11:39 pm" },
+            { "label": "c", "text": "11:43 pm" },
+            { "label": "d", "text": "11:49 am" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "The last A-to-B train departs A at midnight, reaches R at 12:11, and leaves R for B at 12:13 am — the last R-to-B connection.",
+            "Riding S to R takes 29 min, so she must depart S by 12:13 - 29 = 11:44 pm. The latest S-departure at or before that (N-to-M trains, every 10 min) is 11:39 pm.",
+            "Being ready any later (next train 11:49 pm) misses the 12:13 am connection. So the latest ready time is 11:39 pm."
+          ]
+        },
+        {
+          "q_slug": "network-metro-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "What is the minimum number of trains that are required to provide the service on the AB line (considering both north and south directions)?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "8",
+          "solution_steps": [
+            "One-way A to B: 11+2+15+2+11 = 41 minutes. Full cycle (there, rest, back, rest) = 41+15+41+15 = 112 minutes.",
+            "Fleet size = ceil(112/15) = 8 trains (departures every 15 min)."
+          ]
+        },
+        {
+          "q_slug": "network-metro-q5",
+          "order": 5,
+          "question_type": "TITA",
+          "question_text": "What is the minimum number of trains that are required to provide the service in this city?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "48",
+          "solution_steps": [
+            "CD mirrors AB, needing 8 trains too. For MN/PQ: one-way = 11+2+29+2+17 = 61 min; cycle = 61+15+61+15 = 152 min; fleet = ceil(152/10) = 16 trains each.",
+            "Total = AB(8) + CD(8) + MN(16) + PQ(16) = 48 trains."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "network-route-puzzles",
+      "set_slug": "network-patrol-routes",
+      "order": 3,
+      "difficulty": "Hard",
+      "pattern_type": "Reconstructing team routes on a station network from timestamped clues",
+      "title": "Six Police Stations - Patrol Routes",
+      "source": "CAT 2023, Slot 3",
+      "setup": "Six police stations A-F are connected: A is a hub connecting directly to B, C, E, F; B is a dead end (only A); F connects to A, E; E connects to A, F, D; C connects to A, D; D connects to C, E. Four teams patrol continuously 09:00-12:00, all starting and ending at A, taking 30 minutes to cross any street.\n\nAlso known:\n1. No street ever has more than one team on it in any direction at once.\n2. Teams 2 and 3 are the only ones at stations E and D respectively at 10:00.\n3. Teams 1 and 3 are the only ones at station E at 10:30.\n4. Teams 1 and 4 are the only ones at stations B and E respectively at 11:30.\n5. Only Team 1 and Team 4 ever patrol the A-E street.\n6. Team 4 never passes through B, D or F.",
+      "questions": [
+        {
+          "q_slug": "network-patrol-routes-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Which one among the following stations is visited the largest number of times?",
+          "options": [
+            { "label": "a", "text": "Station D" },
+            { "label": "b", "text": "Station C" },
+            { "label": "c", "text": "Station F" },
+            { "label": "d", "text": "Station E" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Clue 6 confines Team 4 to A, C, E: its route is A-E-A-C-A-E-A. Clue 5 restricts A-E to Teams 1 and 4, so Teams 2, 3 reach E, D (clue 2) via A-F-E and A-C-D respectively.",
+            "Team 2: A-F-E-F-A-F-A. Team 3: A-C-D-E-D-C-A (using D-E at 10:00-10:30 alongside Team 1's E visit, clue 3). Team 1: A-B-A-E-A-B-A (only option left at 9:00, matching clues 3,4).",
+            "Tallying visits: E is visited 5 times (most), versus C=3, F=3, D=2, B=2."
+          ]
+        },
+        {
+          "q_slug": "network-patrol-routes-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "How many times do the teams pass through Station B in a day?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "2",
+          "solution_steps": [
+            "Only Team 1 ever visits B, at 9:30 and 11:30 (route A-B-A-E-A-B-A).",
+            "So Station B is visited 2 times total."
+          ]
+        },
+        {
+          "q_slug": "network-patrol-routes-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which team patrols the street connecting Stations D and E at 10:15 hrs?",
+          "options": [
+            { "label": "a", "text": "Team 2" },
+            { "label": "b", "text": "Team 1" },
+            { "label": "c", "text": "Team 4" },
+            { "label": "d", "text": "Team 3" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "Only Team 3 ever uses D-E, travelling D(10:00) to E(10:30) as the third leg of A-C-D-E-D-C-A.",
+            "At 10:15, the midpoint, Team 3 is on the D-E street."
+          ]
+        },
+        {
+          "q_slug": "network-patrol-routes-q4",
+          "order": 4,
+          "question_type": "TITA",
+          "question_text": "How many times does Team 4 pass through Station E in a day?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "2",
+          "solution_steps": [
+            "Team 4's fixed route A-E-A-C-A-E-A visits E at 9:30 and 11:30 — 2 times."
+          ]
+        },
+        {
+          "q_slug": "network-patrol-routes-q5",
+          "order": 5,
+          "question_type": "MCQ",
+          "question_text": "How many teams pass through Station C in a day?",
+          "options": [
+            { "label": "a", "text": "2" },
+            { "label": "b", "text": "1" },
+            { "label": "c", "text": "3" },
+            { "label": "d", "text": "4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Team 3 (A-C-D-...-D-C-A) and Team 4 (A-E-A-C-A-E-A) both visit C; Team 1 (A,B,E only) and Team 2 (A,F,E only) never do.",
+            "2 teams pass through Station C."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "grid-spatial-board-logic",
+      "set_slug": "grid-chess-queen",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Chessboard queen attack-line counting",
+      "title": "Chessboard Queen Attacks",
+      "source": "CAT 2017, Slot 2",
+      "setup": "On an 8x8 chessboard, a queen can attack a piece in the same row, column, or diagonal, provided no other piece blocks the path. Columns are labelled a-h (left to right), rows 1-8 (bottom to top); a position like c5 means column c, row 5.",
+      "questions": [
+        {
+          "q_slug": "grid-chess-queen-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "If the queen is at c5, and the other pieces at positions c2, g1, g3, g5 and a3, how many are under attack by the queen?",
+          "options": [
+            { "label": "a", "text": "2" },
+            { "label": "b", "text": "3" },
+            { "label": "c", "text": "4" },
+            { "label": "d", "text": "5" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "c2 (same column, clear path) — attacked. g5 (same row, clear path) — attacked. a3 (down-left diagonal, clear) — attacked. g1 (down-right diagonal, clear) — attacked.",
+            "g3 is not aligned with c5 in row, column, or diagonal — not attacked.",
+            "Total attacked = 4 (c2, g5, a3, g1)."
+          ]
+        },
+        {
+          "q_slug": "grid-chess-queen-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "If the other pieces are only at positions a1, a3, b4, d7, h7 and h8, then which of the following positions of the queen results in the maximum number of pieces being under attack?",
+          "options": [
+            { "label": "a", "text": "f8" },
+            { "label": "b", "text": "a7" },
+            { "label": "c", "text": "c1" },
+            { "label": "d", "text": "d3" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "f8 attacks h8, b4 = 2. a7 attacks d7, a3 = 2. c1 attacks a1, a3 = 2.",
+            "d3 attacks a3 (row), d7 (column), h7 (diagonal, all clear) = 3.",
+            "d3 attacks the most pieces (3)."
+          ]
+        },
+        {
+          "q_slug": "grid-chess-queen-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "If the other pieces are only at positions a1, a3, b4, d7, h7 and h8, then from how many positions the queen cannot attack any of the pieces?",
+          "options": [
+            { "label": "a", "text": "0" },
+            { "label": "b", "text": "3" },
+            { "label": "c", "text": "4" },
+            { "label": "d", "text": "6" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "A safe square must avoid rows {1,3,4,7,8} and columns {a,b,d,h}, giving 12 candidates in empty rows/columns.",
+            "Checking diagonals eliminates 8 of these 12 (each aligning diagonally with some piece), leaving e2, f2, g2, g5 as fully safe.",
+            "4 safe squares."
+          ]
+        },
+        {
+          "q_slug": "grid-chess-queen-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Suppose the queen is the only piece on the board and it is at position d5. In how many positions can another piece be placed on the board such that it is safe from attack from the queen?",
+          "options": [
+            { "label": "a", "text": "32" },
+            { "label": "b", "text": "35" },
+            { "label": "c", "text": "36" },
+            { "label": "d", "text": "37" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "From d5: row 5 (7 squares) + column d (7 squares) + both diagonals (13 squares total) = 27 attacked squares.",
+            "Of the 63 other squares, 63-27 = 36 are safe."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "grid-spatial-board-logic",
+      "set_slug": "grid-notouch-matrix",
+      "order": 2,
+      "difficulty": "Moderate",
+      "pattern_type": "Minimum-colours adjacency (incl. diagonal) grid",
+      "title": "Minimum Numerals for a No-Touch Grid",
+      "source": "CAT 2018, Slot 1",
+      "setup": "An n x n square matrix is to be filled with numerals so that no two adjacent cells (touching horizontally, vertically, or diagonally) have the same numeral.",
+      "questions": [
+        {
+          "q_slug": "grid-notouch-matrix-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "What is the minimum number of different numerals needed to fill a 3x3 square matrix?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "Any 2x2 block of cells is a clique of 4 mutually-adjacent cells, forcing at least 4 numerals.",
+            "Tiling with the repeating pattern 1,2 / 3,4 satisfies the rule everywhere, so 4 numerals suffice."
+          ]
+        },
+        {
+          "q_slug": "grid-notouch-matrix-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "What is the minimum number of different numerals needed to fill a 5x5 square matrix?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "4",
+          "solution_steps": [
+            "The same 2x2 clique argument gives a minimum of 4 for any grid ≥2x2.",
+            "The repeating 2x2 pattern satisfies the constraint across the full 5x5 grid, so 4 suffices."
+          ]
+        },
+        {
+          "q_slug": "grid-notouch-matrix-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Suppose you are allowed to make one mistake, that is, one pair of adjacent cells can have the same numeral. What is the minimum number of different numerals required to fill a 5x5 matrix?",
+          "options": [
+            { "label": "a", "text": "4" },
+            { "label": "b", "text": "16" },
+            { "label": "c", "text": "9" },
+            { "label": "d", "text": "25" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "A 5x5 grid has 16 overlapping 2x2 cliques. With only 3 numerals, every one of these 16 cliques would need a repeated pair (pigeonhole), but one allowed mistake can only fix at most 2 of them.",
+            "So 3 numerals remain impossible even with one mistake — the minimum stays at 4."
+          ]
+        },
+        {
+          "q_slug": "grid-notouch-matrix-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Suppose that all the cells adjacent to any particular cell must have different numerals. What is the minimum number of different numerals needed to fill a 5x5 square matrix?",
+          "options": [
+            { "label": "a", "text": "9" },
+            { "label": "b", "text": "25" },
+            { "label": "c", "text": "16" },
+            { "label": "d", "text": "4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "This stronger condition means every pair of cells sharing a neighbour must also differ, forcing a period-3 repeating pattern in both directions.",
+            "A 3x3 tile of 9 distinct numerals, repeated, satisfies this; fewer than 9 cannot. Minimum = 9."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "binary-attribute-conditional-logic",
+      "set_slug": "binary-impurity-bottles",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Threshold-based mixture testing — bounding impurity from a detection threshold",
+      "title": "Impurity Testing in Bottles",
+      "source": "CAT 2021, Slot 3",
+      "setup": "Each bottle holds 50 ml of liquid, either 100% pure (P) or with some impurity (I), visually indistinguishable. A testing device detects impurity only if it makes up 10% or more of the tested content. For example, mixing 10 ml of pure liquid with 20 ml of 80%-P/20%-I liquid gives a detectable mixture, but mixing 10 ml of pure liquid with 5 ml of the same impure liquid does not.",
+      "questions": [
+        {
+          "q_slug": "binary-impurity-bottles-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "5 ml of content from bottle A is mixed with 5 ml of content from bottle B. The resultant mixture, when tested, detects the presence of I. If it is known that bottle A contains only P, what BEST can be concluded about the volume of I in bottle B?",
+          "options": [
+            { "label": "a", "text": "10 ml or more" },
+            { "label": "b", "text": "Less than 1 ml" },
+            { "label": "c", "text": "10 ml" },
+            { "label": "d", "text": "1 ml" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "Let x be the impurity fraction in bottle B. A 5 ml sample from B carries 5x ml of I; mixed with 5 ml pure A, the 10 ml mixture's impurity fraction is x/2.",
+            "Detection requires x/2 ≥ 10%, so x ≥ 20%. Bottle B holds 50 ml total, so its actual I volume is at least 20% x 50 = 10 ml.",
+            "We can only conclude B contains 10 ml or more of I."
+          ]
+        },
+        {
+          "q_slug": "binary-impurity-bottles-q2",
+          "order": 2,
+          "question_type": "TITA",
+          "question_text": "There are four bottles. Each bottle is known to contain only P or only I. They will be considered to be \"collectively ready for despatch\" if all of them contain only P. In minimum how many tests, is it possible to ascertain whether these four bottles are \"collectively ready for despatch\"?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "1",
+          "solution_steps": [
+            "Since each bottle is fully pure or fully impure, only one fact matters: is at least one bottle impure?",
+            "Mixing equal volumes from all four in one test: even a single impure bottle contributes 25% impurity to the pooled sample — well above the 10% threshold.",
+            "So a single pooled test suffices: detected means not ready, undetected means ready. Minimum = 1."
+          ]
+        },
+        {
+          "q_slug": "binary-impurity-bottles-q3",
+          "order": 3,
+          "question_type": "TITA",
+          "question_text": "There are four bottles. It is known that three of these bottles contain only P, while the remaining one contains 80% P and 20% I. What is the minimum number of tests required to definitely identify the bottle containing some amount of I?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "2",
+          "solution_steps": [
+            "With 4 candidates and each test giving only a binary outcome, at least ceil(log2(4))=2 tests are needed in principle.",
+            "Two suffice: Test 1 mixes bottles {1,2}, Test 2 mixes bottles {1,3} (equal parts). If the impure bottle is in a test, it's 50% of that test's volume, giving 10% impurity — exactly at the threshold, detected.",
+            "The (detect/no-detect) pattern across the two tests uniquely identifies the impure bottle (e.g. bottle1→(+,+), bottle4→(-,-)). Minimum = 2."
+          ]
+        },
+        {
+          "q_slug": "binary-impurity-bottles-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "There are four bottles. It is known that either one or two of these bottles contain(s) only P, while the remaining ones contain 85% P and 15% I. What is the minimum number of tests required to ascertain the exact number of bottles containing only P?",
+          "options": [
+            { "label": "a", "text": "1" },
+            { "label": "b", "text": "4" },
+            { "label": "c", "text": "3" },
+            { "label": "d", "text": "2" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "We only need to distinguish '1 pure bottle' (3 impure) from '2 pure bottles' (2 impure), not which specific ones.",
+            "Mixing equal volumes from all four: 3 impure bottles give 11.25% impurity (detected); 2 impure bottles give 7.5% (not detected).",
+            "One pooled test cleanly separates the two cases. Minimum = 1."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "binary-attribute-conditional-logic",
+      "set_slug": "binary-petrol-pumps",
+      "order": 2,
+      "difficulty": "Hard",
+      "pattern_type": "Positional & count-based attribute assignment with a forced-alternation clue",
+      "title": "Petrol Pump Contamination Levels",
+      "source": "CAT 2018, Slot 1",
+      "setup": "Fuel contamination levels at 20 petrol pumps (P1-P20) were recorded as high, medium, or low.\n1. Exactly three pumps among P1-P5 were recorded high.\n2. P6 was the only low pump among P1-P10.\n3. P7 and P8 were the only two consecutively numbered pumps with the same level.\n4. No pump among P16-P20 was recorded high.\n5. The number of high pumps was twice the number of low pumps.",
+      "questions": [
+        {
+          "q_slug": "binary-petrol-pumps-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "Which of the following MUST be true?",
+          "options": [
+            { "label": "a", "text": "The contamination level at P12 was recorded as high." },
+            { "label": "b", "text": "The contamination level at P20 was recorded as medium." },
+            { "label": "c", "text": "The contamination level at P10 was recorded as high." },
+            { "label": "d", "text": "The contamination level at P13 was recorded as low." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "Clue 3 means every consecutive pair except (P7,P8) differs. Since P1-P5 has no low (clue 2) and must alternate, matching 'exactly 3 high' forces P1-P5 = H,M,H,M,H.",
+            "P6=L; P7,P8 (equal, call it x), P9(≠x), P10(=x) are all H/M. Testing x=M forces an impossible arrangement for P11-P15 (a required M at P11 conflicts with adjacency to P10=M), so x=H is forced.",
+            "P10 is always high."
+          ]
+        },
+        {
+          "q_slug": "binary-petrol-pumps-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "What best can be said about the number of pumps at which the contamination levels were recorded as medium?",
+          "options": [
+            { "label": "a", "text": "Exactly 8" },
+            { "label": "b", "text": "At most 9" },
+            { "label": "c", "text": "At least 8" },
+            { "label": "d", "text": "More than 4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "With P7=P8=P10=H, P9=M forced, P1-P10 has 6 H's and 1 L. P16-P20 (only M/L) alternates strictly, giving 3M+2L or 2M+3L.",
+            "Combined with the total-H = 2 x total-L equation and the non-adjacency constraint on P11-P15, only two consistent combinations survive — both giving total L=4.",
+            "Since total=20=3xL_total+M_total, M_total = 20-12 = 8, forced in every valid arrangement."
+          ]
+        },
+        {
+          "q_slug": "binary-petrol-pumps-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "If the contamination level at P11 was recorded as low, then which of the following MUST be true?",
+          "options": [
+            { "label": "a", "text": "The contamination level at P18 was recorded as low." },
+            { "label": "b", "text": "The contamination level at P15 was recorded as medium." },
+            { "label": "c", "text": "The contamination level at P14 was recorded as medium." },
+            { "label": "d", "text": "The contamination level at P12 was recorded as high." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "P11=L pins us to the branch with 1 L in P11-P15 (2H, 2M elsewhere) and P16-P20 = M,L,M,L,M (P16=M).",
+            "P15≠P16=M forces P15=H, which forces the alternation M,H,M,H for P12-P15.",
+            "So P14=M."
+          ]
+        },
+        {
+          "q_slug": "binary-petrol-pumps-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "If contamination level at P15 was recorded as medium, then which of the following MUST be FALSE?",
+          "options": [
+            { "label": "a", "text": "Contamination levels at P11 and P16 were recorded as the same." },
+            { "label": "b", "text": "Contamination levels at P10 and P14 were recorded as the same." },
+            { "label": "c", "text": "Contamination level at P14 was recorded to be higher than that at P15." },
+            { "label": "d", "text": "Contamination levels at P13 and P17 were recorded as the same." }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "P15=M is only possible in the branch with 0 L's in P11-P15 (3 M's at P11,P13,P15; H at P12,P14) and P16-P20 = L,M,L,M,L (P16=L).",
+            "Checking: P11(M) vs P16(L) — different, so (A) is FALSE. P10(H)=P14(H) — true. P14(H)>P15(M) — true. P13(M)=P17(M) — true.",
+            "Only option A is necessarily false."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "binary-attribute-conditional-logic",
+      "set_slug": "binary-balls-hoops",
+      "order": 3,
+      "difficulty": "Moderate",
+      "pattern_type": "Pass/fail (ping) network between two object sets implying a strict size order",
+      "title": "Balls and Hoops Sizing",
+      "source": "CAT 2025, Slot 2",
+      "setup": "Six balls (B1-B6) and four hoops (H1-H4). Each ball is tested on each hoop: if the ball's diameter ≤ hoop's diameter, it 'pings' through; otherwise it gets stuck.\n\nAlso known:\n1. B1 and B6 each pinged on H4, but B5 did not.\n2. B4 pinged on H3, but B1 did not.\n3. All balls except B3 pinged on H1.\n4. None of the balls except B2 pinged on H2.",
+      "questions": [
+        {
+          "q_slug": "binary-balls-hoops-q1",
+          "order": 1,
+          "question_type": "TITA",
+          "question_text": "What was the total number of pings made by B1, B2, and B3?",
+          "options": [],
+          "answer_format": "typed",
+          "correct_answer": "6",
+          "solution_steps": [
+            "B3 fails H1 (the only ball that does) and H2, and — since H1 is the largest hoop (see the hoop-order question) — fails every hoop: 0 pings.",
+            "B1 pings H1 and H4, fails H2 and H3: 2 pings.",
+            "B2 pings H1 and H2 (the only ball that does); being ≤ H2, the smallest hoop, it also fits H3 and H4: 4 pings.",
+            "Total = 2 + 4 + 0 = 6."
+          ]
+        },
+        {
+          "q_slug": "binary-balls-hoops-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statements about the relative sizes of the balls is NOT NECESSARILY true?",
+          "options": [
+            { "label": "a", "text": "B4 < B5 < B3" },
+            { "label": "b", "text": "B1 < B6 < B3" },
+            { "label": "c", "text": "B1 < B5 < B3" },
+            { "label": "d", "text": "B2 < B1 < B5" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "Using H2<H3<H4<H1: B4≤H3<B1, B1≤H4<B5, B2≤H2<H3<B4, and every ball but B3 is ≤H1<B3. Chain: B2<B4<B1<B5<B3 — confirming A, C, D always hold.",
+            "For B6, we only know B6≤H4 and B6>H2 — its position relative to H3 (and hence B1) is never pinned down, so B6 could be smaller or larger than B1.",
+            "'B1 < B6 < B3' is not necessarily true."
+          ]
+        },
+        {
+          "q_slug": "binary-balls-hoops-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "Which of the following statements about the relative sizes of the hoops is true?",
+          "options": [
+            { "label": "a", "text": "H2 < H4 < H3 < H1" },
+            { "label": "b", "text": "H1 < H3 < H4 < H2" },
+            { "label": "c", "text": "H2 < H3 < H4 < H1" },
+            { "label": "d", "text": "H1 < H4 < H3 < H2" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "c",
+          "solution_steps": [
+            "B4 fits H3 but fails H2: H2<H3. B1 fits H4 but fails H3: H3<H4. B5 fits H1 but fails H4: H4<H1.",
+            "Chaining: H2 < H3 < H4 < H1."
+          ]
+        },
+        {
+          "q_slug": "binary-balls-hoops-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "What BEST can be said about the total number of pings from all the tests undertaken?",
+          "options": [
+            { "label": "a", "text": "13 or 14" },
+            { "label": "b", "text": "12 or 13" },
+            { "label": "c", "text": "At least 9" },
+            { "label": "d", "text": "12 or 13 or 14" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "b",
+          "solution_steps": [
+            "With hoop order H2<H3<H4<H1: B1 pings 2, B2 pings 4, B3 pings 0, B4 pings 3, B5 pings 1 — fixed total 10.",
+            "B6 definitely pings H1, H4 (2) and fails H2 (given); its H3 result is unresolved, adding 0 or 1.",
+            "Grand total = 12 or 13."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_slug": "coding-symbolic-puzzles",
+      "set_slug": "coding-peacock-sentence",
+      "order": 1,
+      "difficulty": "Moderate",
+      "pattern_type": "Sorted-digit letter-to-number coding",
+      "title": "The Peacock Sentence Code",
+      "source": "CAT 2018, Slot 2",
+      "setup": "The sentence \"Peacock is designated as the national bird of India\" is coded as: 5688999 35 1135556678 56 458 13666689 1334 79 13366\n\nRules:\n1. Case-insensitive.\n2. Each letter has a unique code, a single digit 1-9.\n3. Digit 9 codes exactly two letters; every other digit codes exactly three letters.\n4. A word's code is its letters' digits arranged in non-decreasing order.",
+      "questions": [
+        {
+          "q_slug": "coding-peacock-sentence-q1",
+          "order": 1,
+          "question_type": "MCQ",
+          "question_text": "What best can be concluded about the code for the letter L?",
+          "options": [
+            { "label": "a", "text": "6" },
+            { "label": "b", "text": "8" },
+            { "label": "c", "text": "1 or 8" },
+            { "label": "d", "text": "1" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "From IS=35 and AS=56, the shared letter S takes the common digit: S=5, I=3, A=6.",
+            "In NATIONAL (13666689): removing I=3, A=6,6 leaves {1,6,6,8,9} for N(x2),T,O,L; only 6 repeats, so N=6, leaving {1,8,9} for T,O,L.",
+            "OF=79 gives O=9 (F=7). THE=458 gives {T,H,E}={4,5,8}; T must be in remaining {1,8}, so T=8. That leaves L=1, the only value left."
+          ]
+        },
+        {
+          "q_slug": "coding-peacock-sentence-q2",
+          "order": 2,
+          "question_type": "MCQ",
+          "question_text": "What best can be concluded about the code for the letter B?",
+          "options": [
+            { "label": "a", "text": "1 or 3 or 4" },
+            { "label": "b", "text": "1" },
+            { "label": "c", "text": "3" },
+            { "label": "d", "text": "3 or 4" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "d",
+          "solution_steps": [
+            "BIRD=1334, with I=3, D=1 established. The remaining {3,4} must go to B and R in some order, with nothing in the sentence distinguishing them further.",
+            "B could be either 3 or 4."
+          ]
+        },
+        {
+          "q_slug": "coding-peacock-sentence-q3",
+          "order": 3,
+          "question_type": "MCQ",
+          "question_text": "For how many digits can the complete list of letters associated with that digit be identified?",
+          "options": [
+            { "label": "a", "text": "2" },
+            { "label": "b", "text": "1" },
+            { "label": "c", "text": "0" },
+            { "label": "d", "text": "3" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "PEACOCK=5688999 with E=5,A=6,O=9 fixed leaves {8,8,9,9} for P, C(x2), K. Testing C=9 (using both remaining 9's) leaves P=8, K=8, keeping digit 9 at exactly 2 letters {O,C}.",
+            "The alternative (C=8) would force P=K=9, giving digit 9 three letters — violating the rule. So C=9, P=8, K=8.",
+            "This fully identifies digit 8={T,P,K} and digit 9={O,C} — 2 digits completely known; every other digit still has unaccounted letters."
+          ]
+        },
+        {
+          "q_slug": "coding-peacock-sentence-q4",
+          "order": 4,
+          "question_type": "MCQ",
+          "question_text": "Which set of letters CANNOT be coded with the same digit?",
+          "options": [
+            { "label": "a", "text": "S , U , V" },
+            { "label": "b", "text": "X , Y , Z" },
+            { "label": "c", "text": "S , E , Z" },
+            { "label": "d", "text": "I , B , M" }
+          ],
+          "answer_format": "option",
+          "correct_answer": "a",
+          "solution_steps": [
+            "S is fixed at digit 5, which already holds S and E — only 1 free slot remains in digit 5.",
+            "For S, U, V to share a digit, that digit (5) would need to hold S, E, U, V — 4 letters, exceeding the 3-letter cap.",
+            "So S, U, V cannot share a digit; the other options remain possible in principle."
+          ]
+        }
+      ]
+    }
+  ]
+}
