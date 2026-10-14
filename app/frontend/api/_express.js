@@ -674,6 +674,71 @@ dilrtSessionSchema.index({ user_id: 1, test: 1, status: 1 });
 const DilrtQuestion = mongoose.model('DilrtQuestion', dilrtQuestionSchema);
 const DilrtSession  = mongoose.model('DilrtSession', dilrtSessionSchema);
 
+// ── CAT Past Year LRDI (complete real DILR sections, DI + LR sets both kept) ──
+// Unlike LR Sample Tests (which strip the DI sets), these are a real CAT slot's
+// DILR section in full, on a fixed per-test clock (duration_seconds on every
+// question doc). The clock never auto-submits: it runs into negative "Overtime"
+// and the candidate submits when ready. Diagrams live inside context_passage as
+// base64 data-URIs, exactly like the DI mocks, so nothing depends on static files.
+const PYL_DEFAULT_SECONDS = 40 * 60;
+
+const PYL_SAFE_PROJECTION =
+  'question_code test section label topic pattern set_id set_position context_passage ' +
+  'question_type answer_format question_text options marks_correct marks_incorrect ' +
+  'difficulty question_number duration_seconds';
+
+const pylQuestionSchema = new mongoose.Schema({
+  question_code:   { type: String, index: true },
+  source_code:     String,          // the row in `questions` this came from, e.g. CAT_2022_S1_DILR_Q06
+  test:            { type: Number, index: true },
+  section:         { type: String, default: 'DILR' },
+  label:           String,          // 'CAT 2022 Slot 1'
+  duration_seconds:{ type: Number, default: PYL_DEFAULT_SECONDS },
+  topic:           String,
+  pattern:         String,
+  set_id:          String,
+  set_position:    Number,
+  context_passage: { type: String, default: '' },
+  question_type:   { type: String, enum: ['MCQ', 'TITA'], default: 'MCQ' },
+  answer_format:   { type: String, enum: ['option', 'numeric'], default: 'option' },
+  question_text:   String,
+  options:         [{ _id: false, label: String, text: String }],
+  correct_answer:  String,
+  marks_correct:   { type: Number, default: 3 },
+  marks_incorrect: { type: Number, default: -1 },
+  explanation:     { type: String, default: '' },
+  difficulty:      String,
+  question_number: Number,
+  source:          String,
+  verified:        { type: Boolean, default: false },
+  removed:         { type: Boolean, default: false },
+}, { collection: 'pyl_questions', timestamps: true });
+pylQuestionSchema.index({ test: 1, question_number: 1 });
+
+const pylSessionSchema = new mongoose.Schema({
+  user_id:         { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test:            { type: Number },
+  label:           { type: String },
+  status:          { type: String, enum: ['in_progress', 'submitted'], default: 'in_progress' },
+  question_ids:    [mongoose.Schema.Types.ObjectId],
+  question_states: { type: mongoose.Schema.Types.Mixed, default: {} },
+  duration_seconds:{ type: Number, default: PYL_DEFAULT_SECONDS },
+  time_left:       { type: Number, default: PYL_DEFAULT_SECONDS },
+  started_at:      { type: Date, default: Date.now },
+  finished_at:     { type: Date, default: null },
+  score: {
+    total:      Number,
+    attempted:  Number,
+    correct:    Number,
+    incorrect:  Number,
+    max_score:  Number,
+  },
+}, { collection: 'pyl_sessions', timestamps: true });
+pylSessionSchema.index({ user_id: 1, test: 1, status: 1 });
+
+const PylQuestion = mongoose.model('PylQuestion', pylQuestionSchema);
+const PylSession  = mongoose.model('PylSession', pylSessionSchema);
+
 // ── Quant Revision ────────────────────────────────────────────────────────────
 // A revise-then-prove-it mode (distinct from /quant drilling): each chapter opens
 // with a complete formula overview that rebuilds the whole picture, then a short
@@ -3194,6 +3259,247 @@ app.get('/api/dilrt/history', authMiddleware, async (req, res) => {
     const sessions = await DilrtSession.find(
       { user_id: req.user._id, status: 'submitted' },
       'test label score finished_at createdAt time_left'
+    ).sort({ createdAt: -1 }).limit(50).lean();
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+
+// ── CAT Past Year LRDI routes ─────────────────────────────────────────────────
+function pylOrdered(session, docs) {
+  const map = {};
+  docs.forEach(d => { map[String(d._id)] = d; });
+  return session.question_ids.map(id => map[String(id)]).filter(Boolean);
+}
+
+// GET /api/pyl-tests — list every past-year section with label, counts, clock + marks
+app.get('/api/pyl-tests', async (req, res) => {
+  try {
+    const rows = await PylQuestion.aggregate([
+      { $match: { removed: { $ne: true } } },
+      { $group: {
+          _id:     { test: '$test', label: '$label' },
+          count:   { $sum: 1 },
+          marks:   { $sum: '$marks_correct' },
+          sets:    { $addToSet: '$set_id' },
+          seconds: { $max: '$duration_seconds' },
+      } },
+      { $sort: { '_id.test': 1 } },
+    ]);
+    res.json(rows.map(r => ({
+      test:             r._id.test,
+      label:            r._id.label,
+      questions:        r.count,
+      sets:             r.sets.length,
+      duration_minutes: Math.round((r.seconds || PYL_DEFAULT_SECONDS) / 60),
+      marks:            r.marks,
+    })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/pyl/start — resume-first, else create a fresh session for this test
+app.post('/api/pyl/start', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.body.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await PylSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 });
+
+    const docs = await PylQuestion
+      .find({ test, removed: { $ne: true } }, PYL_SAFE_PROJECTION)
+      .sort({ question_number: 1 })
+      .lean();
+    if (docs.length === 0) return res.status(404).json({ error: 'No questions for this test' });
+    const duration = docs[0].duration_seconds || PYL_DEFAULT_SECONDS;
+
+    if (!session) {
+      session = await PylSession.create({
+        user_id:          req.user._id,
+        test,
+        label:            docs[0].label,
+        status:           'in_progress',
+        question_ids:     docs.map(q => q._id),
+        question_states:  {},
+        duration_seconds: duration,
+        time_left:        duration,
+        started_at:       new Date(),
+      });
+    }
+
+    res.json({
+      session_id:       session._id,
+      test,
+      label:            session.label,
+      questions:        pylOrdered(session, docs),
+      question_states:  session.question_states || {},
+      duration_seconds: session.duration_seconds || duration,
+      time_left:        session.time_left,
+      status:           session.status,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/pyl/active?test=N — resume or read the latest session for this test
+app.get('/api/pyl/active', authMiddleware, async (req, res) => {
+  try {
+    const test = Number(req.query.test);
+    if (!Number.isInteger(test) || test < 1) return res.status(400).json({ error: 'invalid test' });
+
+    let session = await PylSession.findOne({
+      user_id: req.user._id, test, status: 'in_progress',
+    }).sort({ createdAt: -1 }).lean();
+    let isFinished = false;
+    if (!session) {
+      session = await PylSession.findOne({
+        user_id: req.user._id, test, status: 'submitted',
+      }).sort({ finished_at: -1 }).lean();
+      isFinished = !!session;
+    }
+    if (!session) return res.json({ state: 'none' });
+
+    const projection = isFinished ? '' : PYL_SAFE_PROJECTION;
+    const docs = await PylQuestion.find({ _id: { $in: session.question_ids } }, projection).lean();
+
+    res.json({
+      state:            isFinished ? 'finished' : 'in_progress',
+      session_id:       session._id,
+      test,
+      label:            session.label,
+      questions:        pylOrdered(session, docs),
+      question_states:  session.question_states || {},
+      duration_seconds: session.duration_seconds || PYL_DEFAULT_SECONDS,
+      time_left:        session.time_left,
+      score:            isFinished ? (session.score || null) : null,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/pyl/:sid/save — persist question_states + time_left (no scoring)
+app.post('/api/pyl/:sid/save', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await PylSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'in_progress') return res.status(400).json({ error: 'Session is not in progress' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+      session.markModified('question_states');
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    await session.save();
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/pyl/:sid/submit — server-side scoring, then reveal answers
+app.post('/api/pyl/:sid/submit', authMiddleware, async (req, res) => {
+  try {
+    const { question_states, time_left } = req.body;
+    const session = await PylSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(400).json({ error: 'Session already submitted' });
+
+    if (question_states && typeof question_states === 'object') {
+      session.question_states = question_states;
+    }
+    if (typeof time_left === 'number') session.time_left = time_left;
+    const states = session.question_states || {};
+
+    const docs = await PylQuestion.find({ _id: { $in: session.question_ids } }).lean();
+    const qMap = {};
+    docs.forEach(d => { qMap[String(d._id)] = d; });
+
+    let correct = 0, incorrect = 0, net = 0, maxScore = 0;
+    for (const qId of session.question_ids.map(String)) {
+      const q = qMap[qId];
+      if (!q) continue;
+      maxScore += (q.marks_correct ?? 3);
+      const given = normalizeAnswer((states[qId] || {}).answer, q.answer_format);
+      if (!given) continue;
+      if (given === normalizeAnswer(q.correct_answer, q.answer_format)) {
+        correct++;
+        net += (q.marks_correct ?? 3);
+      } else {
+        incorrect++;
+        net += (q.marks_incorrect ?? -1);
+      }
+    }
+
+    session.score = { total: net, attempted: correct + incorrect, correct, incorrect, max_score: maxScore };
+    session.status      = 'submitted';
+    session.finished_at = new Date();
+    session.markModified('question_states');
+    await session.save();
+
+    res.json({ session_id: session._id, score: session.score });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/pyl/sessions/:sid — full results (questions WITH answers + explanations)
+app.get('/api/pyl/sessions/:sid', authMiddleware, async (req, res) => {
+  try {
+    const session = await PylSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+
+    const reveal = session.status === 'submitted';
+    const docs = await PylQuestion.find(
+      { _id: { $in: session.question_ids } },
+      reveal ? '' : PYL_SAFE_PROJECTION,
+    ).lean();
+    const states = session.question_states || {};
+
+    const questions = pylOrdered(session, docs).map(q => {
+      const st = states[String(q._id)] || {};
+      const out = {
+        ...q,
+        user_answer: st.answer || '',
+        user_status: st.status || 'not-visited',
+        time_spent:  Number(st.time_spent) || 0,
+      };
+      if (reveal) {
+        out.is_correct =
+          !!st.answer &&
+          normalizeAnswer(st.answer, q.answer_format) === normalizeAnswer(q.correct_answer, q.answer_format);
+      }
+      return out;
+    });
+
+    res.json({
+      session_id:       session._id,
+      test:             session.test,
+      label:            session.label,
+      status:           session.status,
+      score:            session.score || null,
+      time_left:        session.time_left,
+      duration_seconds: session.duration_seconds || PYL_DEFAULT_SECONDS,
+      questions,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/pyl/history — list this user's submitted past-year LRDI sessions
+app.get('/api/pyl/history', authMiddleware, async (req, res) => {
+  try {
+    const sessions = await PylSession.find(
+      { user_id: req.user._id, status: 'submitted' },
+      'test label score finished_at createdAt time_left duration_seconds'
     ).sort({ createdAt: -1 }).limit(50).lean();
     res.json(sessions);
   } catch (e) {

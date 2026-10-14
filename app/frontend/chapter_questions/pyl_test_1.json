@@ -1,0 +1,754 @@
+[
+  {
+    "question_code": "PYL-T1-Q01",
+    "source_code": "CAT_2022_S1_DILR_Q01",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Set Theory & Percentages",
+    "pattern": "Nested interest groups: counting with percentages and exclusive categories",
+    "set_id": "2022S1-01",
+    "set_position": 1,
+    "context_passage": "There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.\n\nSome students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.\n\nThe following facts are also known:\n\n1. All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.\n\n2. Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.\n\n3. 70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.\n\n4. No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.\n\n5. The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "How many boys are there in the class?",
+    "correct_answer": "50",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Let the number of boys be B. 60% of the boys attend the 2-day event, and 70% of those are neither singers nor dancers, so 0.18B of the 2-day boys are singers or dancers. The 3-day group is a subset of the 2-day group and already contains all 4 male singers plus 2 dancers (no girl attends the 3-day event, so both dancers are boys), so 0.18B is at least 6; with 0.8B, 0.6B and 0.18B all whole numbers, B = 50. So 9 singer/dancer boys attend the 2-day event: the 4 singers and 5 of the 6 male dancers. If G girls attend the 2-day event, 40% of them are singers or dancers. Fact 5 gives (4 + girl singers) = (5 + girl dancers) + 1, so girl singers exceed girl dancers by 2; only 2 girls sing, so 2 girl singers and 0 girl dancers attend, and 0.4G = 2 gives G = 5.\n\nSo there are 50 boys.",
+    "difficulty": "Medium",
+    "question_number": 1,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q02",
+    "source_code": "CAT_2022_S1_DILR_Q02",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Set Theory & Percentages",
+    "pattern": "Nested interest groups: counting with percentages and exclusive categories",
+    "set_id": "2022S1-01",
+    "set_position": 2,
+    "context_passage": "There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.\n\nSome students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.\n\nThe following facts are also known:\n\n1. All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.\n\n2. Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.\n\n3. 70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.\n\n4. No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.\n\n5. The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Which of the following can be determined from the given information?\n\nI. The number of boys who are interested in attending a 1-day event and are neither dancers nor singers.\n\nII. The number of female dancers who are interested in attending a 1-day event.",
+    "correct_answer": "D",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let the number of boys be B. 60% of the boys attend the 2-day event, and 70% of those are neither singers nor dancers, so 0.18B of the 2-day boys are singers or dancers. The 3-day group is a subset of the 2-day group and already contains all 4 male singers plus 2 dancers (no girl attends the 3-day event, so both dancers are boys), so 0.18B is at least 6; with 0.8B, 0.6B and 0.18B all whole numbers, B = 50. So 9 singer/dancer boys attend the 2-day event: the 4 singers and 5 of the 6 male dancers. If G girls attend the 2-day event, 40% of them are singers or dancers. Fact 5 gives (4 + girl singers) = (5 + girl dancers) + 1, so girl singers exceed girl dancers by 2; only 2 girls sing, so 2 girl singers and 0 girl dancers attend, and 0.4G = 2 gives G = 5.\n\nStatement I: 40 boys attend the 1-day event. All 4 male singers are among them (they attend the 3-day event), but the sixth male dancer may be among the 10 boys who do not attend at all, so the male dancers attending are 5 or 6 and the \"neither\" count is 31 or 30: not determinable. Statement II: every girl attends the 1-day event, so all 4 female dancers do: exactly 4, determinable. Only II.",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither I nor II"
+      },
+      {
+        "label": "B",
+        "text": "Both I and II"
+      },
+      {
+        "label": "C",
+        "text": "Only I"
+      },
+      {
+        "label": "D",
+        "text": "Only II"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q03",
+    "source_code": "CAT_2022_S1_DILR_Q03",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Set Theory & Percentages",
+    "pattern": "Nested interest groups: counting with percentages and exclusive categories",
+    "set_id": "2022S1-01",
+    "set_position": 3,
+    "context_passage": "There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.\n\nSome students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.\n\nThe following facts are also known:\n\n1. All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.\n\n2. Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.\n\n3. 70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.\n\n4. No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.\n\n5. The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "What fraction of the class are interested in attending a 2-day event?",
+    "correct_answer": "C",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let the number of boys be B. 60% of the boys attend the 2-day event, and 70% of those are neither singers nor dancers, so 0.18B of the 2-day boys are singers or dancers. The 3-day group is a subset of the 2-day group and already contains all 4 male singers plus 2 dancers (no girl attends the 3-day event, so both dancers are boys), so 0.18B is at least 6; with 0.8B, 0.6B and 0.18B all whole numbers, B = 50. So 9 singer/dancer boys attend the 2-day event: the 4 singers and 5 of the 6 male dancers. If G girls attend the 2-day event, 40% of them are singers or dancers. Fact 5 gives (4 + girl singers) = (5 + girl dancers) + 1, so girl singers exceed girl dancers by 2; only 2 girls sing, so 2 girl singers and 0 girl dancers attend, and 0.4G = 2 gives G = 5.\n\n2-day attendees: 30 boys + 5 girls = 35 out of 65 students = 7/13.",
+    "difficulty": "Medium",
+    "question_number": 3,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "7/10"
+      },
+      {
+        "label": "B",
+        "text": "9/13"
+      },
+      {
+        "label": "C",
+        "text": "7/13"
+      },
+      {
+        "label": "D",
+        "text": "2/3"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q04",
+    "source_code": "CAT_2022_S1_DILR_Q04",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Set Theory & Percentages",
+    "pattern": "Nested interest groups: counting with percentages and exclusive categories",
+    "set_id": "2022S1-01",
+    "set_position": 4,
+    "context_passage": "There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.\n\nSome students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.\n\nThe following facts are also known:\n\n1. All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.\n\n2. Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.\n\n3. 70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.\n\n4. No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.\n\n5. The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "What BEST can be concluded about the number of male dancers who are interested in attending a 1-day event?",
+    "correct_answer": "A",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let the number of boys be B. 60% of the boys attend the 2-day event, and 70% of those are neither singers nor dancers, so 0.18B of the 2-day boys are singers or dancers. The 3-day group is a subset of the 2-day group and already contains all 4 male singers plus 2 dancers (no girl attends the 3-day event, so both dancers are boys), so 0.18B is at least 6; with 0.8B, 0.6B and 0.18B all whole numbers, B = 50. So 9 singer/dancer boys attend the 2-day event: the 4 singers and 5 of the 6 male dancers. If G girls attend the 2-day event, 40% of them are singers or dancers. Fact 5 gives (4 + girl singers) = (5 + girl dancers) + 1, so girl singers exceed girl dancers by 2; only 2 girls sing, so 2 girl singers and 0 girl dancers attend, and 0.4G = 2 gives G = 5.\n\nFive male dancers attend the 2-day event and so the 1-day event. The sixth is one of the 20 boys outside the 2-day group; 10 of those attend the 1-day event and 10 do not, and nothing fixes which group he is in. So 5 or 6.",
+    "difficulty": "Medium",
+    "question_number": 4,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "5 or 6"
+      },
+      {
+        "label": "B",
+        "text": "4 or 6"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q05",
+    "source_code": "CAT_2022_S1_DILR_Q05",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Set Theory & Percentages",
+    "pattern": "Nested interest groups: counting with percentages and exclusive categories",
+    "set_id": "2022S1-01",
+    "set_position": 5,
+    "context_passage": "There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.\n\nSome students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.\n\nThe following facts are also known:\n\n1. All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.\n\n2. Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.\n\n3. 70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.\n\n4. No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.\n\n5. The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "How many female dancers are interested in attending a 2-day event?",
+    "correct_answer": "A",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Let the number of boys be B. 60% of the boys attend the 2-day event, and 70% of those are neither singers nor dancers, so 0.18B of the 2-day boys are singers or dancers. The 3-day group is a subset of the 2-day group and already contains all 4 male singers plus 2 dancers (no girl attends the 3-day event, so both dancers are boys), so 0.18B is at least 6; with 0.8B, 0.6B and 0.18B all whole numbers, B = 50. So 9 singer/dancer boys attend the 2-day event: the 4 singers and 5 of the 6 male dancers. If G girls attend the 2-day event, 40% of them are singers or dancers. Fact 5 gives (4 + girl singers) = (5 + girl dancers) + 1, so girl singers exceed girl dancers by 2; only 2 girls sing, so 2 girl singers and 0 girl dancers attend, and 0.4G = 2 gives G = 5.\n\nThe girl dancer count in the 2-day group came out as 0.",
+    "difficulty": "Medium",
+    "question_number": 5,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "Cannot be determined"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q06",
+    "source_code": "CAT_2022_S1_DILR_Q06",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Timetable & Network Reasoning",
+    "pattern": "Metro schedule: travel times, connections and fleet sizing",
+    "set_id": "2022S1-02",
+    "set_position": 1,
+    "context_passage": "![Schematic map of the metro lines](data:image/jpeg;base64,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)\n\nGiven above is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "If Hari is ready to board a train at 8:05 am from station M, then when is the earliest that he can reach station N?",
+    "correct_answer": "D",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Reading the map: on M-N there are 3 stations between M and R, 9 between R and S, and 5 between S and N (20 hops); P-Q mirrors it. On A-B there are 2 stations between A and R, 3 between R and T, and 2 between T and B (10 hops); C-D mirrors it. East-west hops take 2 min, north-south hops 3 min, plus 1 min at each ordinary station and 2 min at each junction passed through.\n\nEastbound trains leave M every 10 minutes from 6 am, so Hari boards the 8:10. M to N is 20 hops x 2 = 40 min, plus 17 one-minute stops and 2 x 2 min at junctions R and S: 61 min. He reaches N at 9:11 am.",
+    "difficulty": "Hard",
+    "question_number": 6,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "9:01 am"
+      },
+      {
+        "label": "B",
+        "text": "9:13 am"
+      },
+      {
+        "label": "C",
+        "text": "9:06 am"
+      },
+      {
+        "label": "D",
+        "text": "9:11 am"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q07",
+    "source_code": "CAT_2022_S1_DILR_Q07",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Timetable & Network Reasoning",
+    "pattern": "Metro schedule: travel times, connections and fleet sizing",
+    "set_id": "2022S1-02",
+    "set_position": 2,
+    "context_passage": "![Schematic map of the metro lines](data:image/jpeg;base64,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)\n\nGiven above is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "If Priya is ready to board a train at 10:25 am from station T, then when is the earliest that she can reach station S?",
+    "correct_answer": "C",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Reading the map: on M-N there are 3 stations between M and R, 9 between R and S, and 5 between S and N (20 hops); P-Q mirrors it. On A-B there are 2 stations between A and R, 3 between R and T, and 2 between T and B (10 hops); C-D mirrors it. East-west hops take 2 min, north-south hops 3 min, plus 1 min at each ordinary station and 2 min at each junction passed through.\n\nRoute via R: northbound trains leave B on the quarter hour; B to T is 3 hops (9 min) plus 2 stops = 11 min, then a 2-min halt, so they leave T at :13, :28, :43, :58. Priya takes the 10:28. T to R is 4 hops (12) + 3 stops = 15 min: she reaches R at 10:43. Eastbound trains leave M every 10 min and reach R after 11 min, leaving at :13, :23, ..., :43: the 10:43 is leaving as she arrives and she may board it. R to S is 10 hops (20) + 9 stops = 29 min: 11:12 am. (Via T-V-S she would leave T at 10:33, reach V at 11:02, leave V at 11:13 and reach S at 11:28, which is later.)",
+    "difficulty": "Hard",
+    "question_number": 7,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "11:22 am"
+      },
+      {
+        "label": "B",
+        "text": "11:28 am"
+      },
+      {
+        "label": "C",
+        "text": "11:12 am"
+      },
+      {
+        "label": "D",
+        "text": "11:07 am"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q08",
+    "source_code": "CAT_2022_S1_DILR_Q08",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Timetable & Network Reasoning",
+    "pattern": "Metro schedule: travel times, connections and fleet sizing",
+    "set_id": "2022S1-02",
+    "set_position": 3,
+    "context_passage": "![Schematic map of the metro lines](data:image/jpeg;base64,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)\n\nGiven above is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Haripriya is expected to reach station S late. What is the latest time by which she must be ready to board at station S if she must reach station B before 1 am via station R?",
+    "correct_answer": "B",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Reading the map: on M-N there are 3 stations between M and R, 9 between R and S, and 5 between S and N (20 hops); P-Q mirrors it. On A-B there are 2 stations between A and R, 3 between R and T, and 2 between T and B (10 hops); C-D mirrors it. East-west hops take 2 min, north-south hops 3 min, plus 1 min at each ordinary station and 2 min at each junction passed through.\n\nSouthbound trains leave A every 15 min, reach R after 11 min and leave R after a 2-min halt at :13, :28, :43, :58; the last leaves A at midnight and R at 00:13. R to B is 7 hops (21) + 5 one-minute stops + 2 min at T = 28 min, so that train reaches B at 00:41, before 1 am. Westbound trains leave N every 10 min; N to S is 6 hops (12) + 5 stops = 17 min, so after the 2-min halt they leave S at :19, :29, :39, :49. S to R is 29 min, and she must be at R by 00:13, so she must leave S by 23:44: the 11:39 pm train (the 11:49 reaches R at 00:18, too late). Latest: 11:39 pm.",
+    "difficulty": "Hard",
+    "question_number": 8,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "11:35 pm"
+      },
+      {
+        "label": "B",
+        "text": "11:39 pm"
+      },
+      {
+        "label": "C",
+        "text": "11:43 pm"
+      },
+      {
+        "label": "D",
+        "text": "11:49 pm"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q09",
+    "source_code": "CAT_2022_S1_DILR_Q09",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Timetable & Network Reasoning",
+    "pattern": "Metro schedule: travel times, connections and fleet sizing",
+    "set_id": "2022S1-02",
+    "set_position": 4,
+    "context_passage": "![Schematic map of the metro lines](data:image/jpeg;base64,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)\n\nGiven above is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "What is the minimum number of trains that are required to provide the service on the AB line (considering both north and south directions)?",
+    "correct_answer": "8",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Reading the map: on M-N there are 3 stations between M and R, 9 between R and S, and 5 between S and N (20 hops); P-Q mirrors it. On A-B there are 2 stations between A and R, 3 between R and T, and 2 between T and B (10 hops); C-D mirrors it. East-west hops take 2 min, north-south hops 3 min, plus 1 min at each ordinary station and 2 min at each junction passed through.\n\nA to B is 10 hops x 3 = 30 min, plus 7 one-minute stops and 2 x 2 min at R and T: 41 min. A round trip with the two compulsory 15-minute rests takes 2 x (41 + 15) = 112 min. Departures run every 15 min from each end, so a train can only rejoin the schedule at a 15-minute slot: the cycle is 120 min, needing 120 / 15 = 8 trains.",
+    "difficulty": "Hard",
+    "question_number": 9,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q10",
+    "source_code": "CAT_2022_S1_DILR_Q10",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Timetable & Network Reasoning",
+    "pattern": "Metro schedule: travel times, connections and fleet sizing",
+    "set_id": "2022S1-02",
+    "set_position": 5,
+    "context_passage": "![Schematic map of the metro lines](data:image/jpeg;base64,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)\n\nGiven above is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "What is the minimum number of trains that are required to provide the service in this city?",
+    "correct_answer": "48",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Reading the map: on M-N there are 3 stations between M and R, 9 between R and S, and 5 between S and N (20 hops); P-Q mirrors it. On A-B there are 2 stations between A and R, 3 between R and T, and 2 between T and B (10 hops); C-D mirrors it. East-west hops take 2 min, north-south hops 3 min, plus 1 min at each ordinary station and 2 min at each junction passed through.\n\nA-B needs 8 trains (41-min trip, 120-min cycle, 15-min headway) and C-D, its mirror image, also 8. M-N is 61 min end to end; 2 x (61 + 15) = 152, rounded up to the 10-minute headway gives a 160-min cycle and 160 / 10 = 16 trains; P-Q, its mirror, also 16. Total 8 + 8 + 16 + 16 = 48.",
+    "difficulty": "Hard",
+    "question_number": 10,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q11",
+    "source_code": "CAT_2022_S1_DILR_Q11",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Games & Tournaments",
+    "pattern": "Goal distribution deduced from match-by-match constraints",
+    "set_id": "2022S1-03",
+    "set_position": 1,
+    "context_passage": "The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.\n\nThe following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.\n\n1. Only one goal was scored in every even numbered match.\n\n2. Harita scored more goals than Bimla.\n\n3. The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.\n\n4. Bimla scored a goal in Match 1 and one each in three other consecutive matches.\n\n5. An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.\n\n6. The match in which the highest number of goals was scored was unique and it was not Match 5.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "How many goals were scored in Match 7?",
+    "correct_answer": "D",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each even-numbered match had exactly 1 goal, so the four odd matches share the other 8. Totals are distinct, each at least 1, and sum to 12, with Harita above Bimla. Bimla scored in Match 1 and in three consecutive other matches, so she has at least 4 goals and cannot be the top scorer (who scored in only 3 matches); the totals are therefore 1, 2, 4, 5 with Bimla 4 and Harita 5. Harita scored in exactly Matches 4, 8 and one odd match, so Bimla's run avoids 4 and 8: she scored in Matches 1, 5, 6, 7. Match 7 then has exactly 1 goal, so Match 3 has 1 too (equal to 7, different from 1 and 5). That leaves M1 + M5 = 6 with neither equal to 1. Harita's 3 goals in Match 5 would make Match 5 the biggest match, which is barred, so they fall in Match 1: Match 1 = 4 and Match 5 = 2.\n\nMatch 7 had 1 goal (Bimla's).",
+    "difficulty": "Medium",
+    "question_number": 11,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "Cannot be determined"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q12",
+    "source_code": "CAT_2022_S1_DILR_Q12",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Games & Tournaments",
+    "pattern": "Goal distribution deduced from match-by-match constraints",
+    "set_id": "2022S1-03",
+    "set_position": 2,
+    "context_passage": "The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.\n\nThe following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.\n\n1. Only one goal was scored in every even numbered match.\n\n2. Harita scored more goals than Bimla.\n\n3. The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.\n\n4. Bimla scored a goal in Match 1 and one each in three other consecutive matches.\n\n5. An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.\n\n6. The match in which the highest number of goals was scored was unique and it was not Match 5.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Which of the following is the correct sequence of goals scored in matches 1, 3, 5 and 7?",
+    "correct_answer": "B",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each even-numbered match had exactly 1 goal, so the four odd matches share the other 8. Totals are distinct, each at least 1, and sum to 12, with Harita above Bimla. Bimla scored in Match 1 and in three consecutive other matches, so she has at least 4 goals and cannot be the top scorer (who scored in only 3 matches); the totals are therefore 1, 2, 4, 5 with Bimla 4 and Harita 5. Harita scored in exactly Matches 4, 8 and one odd match, so Bimla's run avoids 4 and 8: she scored in Matches 1, 5, 6, 7. Match 7 then has exactly 1 goal, so Match 3 has 1 too (equal to 7, different from 1 and 5). That leaves M1 + M5 = 6 with neither equal to 1. Harita's 3 goals in Match 5 would make Match 5 the biggest match, which is barred, so they fall in Match 1: Match 1 = 4 and Match 5 = 2.\n\nMatches 1, 3, 5, 7 had 4, 1, 2, 1 goals.",
+    "difficulty": "Medium",
+    "question_number": 12,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "3, 1, 2, 1"
+      },
+      {
+        "label": "B",
+        "text": "4, 1, 2, 1"
+      },
+      {
+        "label": "C",
+        "text": "5, 1, 0, 1"
+      },
+      {
+        "label": "D",
+        "text": "3, 2, 1, 2"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q13",
+    "source_code": "CAT_2022_S1_DILR_Q13",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Games & Tournaments",
+    "pattern": "Goal distribution deduced from match-by-match constraints",
+    "set_id": "2022S1-03",
+    "set_position": 3,
+    "context_passage": "The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.\n\nThe following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.\n\n1. Only one goal was scored in every even numbered match.\n\n2. Harita scored more goals than Bimla.\n\n3. The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.\n\n4. Bimla scored a goal in Match 1 and one each in three other consecutive matches.\n\n5. An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.\n\n6. The match in which the highest number of goals was scored was unique and it was not Match 5.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Which of the following statement(s) is/are true?\n\nStatement-1: Amla and Sarita never scored goals in the same match.\n\nStatement-2: Harita and Sarita never scored goals in the same match.",
+    "correct_answer": "B",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each even-numbered match had exactly 1 goal, so the four odd matches share the other 8. Totals are distinct, each at least 1, and sum to 12, with Harita above Bimla. Bimla scored in Match 1 and in three consecutive other matches, so she has at least 4 goals and cannot be the top scorer (who scored in only 3 matches); the totals are therefore 1, 2, 4, 5 with Bimla 4 and Harita 5. Harita scored in exactly Matches 4, 8 and one odd match, so Bimla's run avoids 4 and 8: she scored in Matches 1, 5, 6, 7. Match 7 then has exactly 1 goal, so Match 3 has 1 too (equal to 7, different from 1 and 5). That leaves M1 + M5 = 6 with neither equal to 1. Harita's 3 goals in Match 5 would make Match 5 the biggest match, which is barred, so they fall in Match 1: Match 1 = 4 and Match 5 = 2.\n\nMatch 1 was Harita 3 and Bimla 1; Harita's other goals are the single goals of Matches 4 and 8. Amla and Sarita share the three remaining single goals, one each in Matches 2, 3 and the second goal of Match 5, so they never score in the same match, and neither ever scores alongside Harita. Both statements are true.",
+    "difficulty": "Medium",
+    "question_number": 13,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement-1 only"
+      },
+      {
+        "label": "B",
+        "text": "Both the statements"
+      },
+      {
+        "label": "C",
+        "text": "None of the statements"
+      },
+      {
+        "label": "D",
+        "text": "Statement-2 only"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q14",
+    "source_code": "CAT_2022_S1_DILR_Q14",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Games & Tournaments",
+    "pattern": "Goal distribution deduced from match-by-match constraints",
+    "set_id": "2022S1-03",
+    "set_position": 4,
+    "context_passage": "The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.\n\nThe following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.\n\n1. Only one goal was scored in every even numbered match.\n\n2. Harita scored more goals than Bimla.\n\n3. The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.\n\n4. Bimla scored a goal in Match 1 and one each in three other consecutive matches.\n\n5. An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.\n\n6. The match in which the highest number of goals was scored was unique and it was not Match 5.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Which of the following statement(s) is/are false?\n\nStatement-1: In every match at least one player scored a goal.\n\nStatement-2: No two players scored goals in the same number of matches.",
+    "correct_answer": "A",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each even-numbered match had exactly 1 goal, so the four odd matches share the other 8. Totals are distinct, each at least 1, and sum to 12, with Harita above Bimla. Bimla scored in Match 1 and in three consecutive other matches, so she has at least 4 goals and cannot be the top scorer (who scored in only 3 matches); the totals are therefore 1, 2, 4, 5 with Bimla 4 and Harita 5. Harita scored in exactly Matches 4, 8 and one odd match, so Bimla's run avoids 4 and 8: she scored in Matches 1, 5, 6, 7. Match 7 then has exactly 1 goal, so Match 3 has 1 too (equal to 7, different from 1 and 5). That leaves M1 + M5 = 6 with neither equal to 1. Harita's 3 goals in Match 5 would make Match 5 the biggest match, which is barred, so they fall in Match 1: Match 1 = 4 and Match 5 = 2.\n\nEvery match had at least one goal (4, 1, 1, 1, 2, 1, 1, 1), so Statement 1 is true. Matches scored in: Bimla 4, Harita 3, and Amla and Sarita split the remaining three single goals as 1 and 2, so all four counts differ and Statement 2 is also true. Neither statement is false.",
+    "difficulty": "Medium",
+    "question_number": 14,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "None of the statements"
+      },
+      {
+        "label": "B",
+        "text": "Statement-1 only"
+      },
+      {
+        "label": "C",
+        "text": "Statement-2 only"
+      },
+      {
+        "label": "D",
+        "text": "Both the statements"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q15",
+    "source_code": "CAT_2022_S1_DILR_Q15",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Games & Tournaments",
+    "pattern": "Goal distribution deduced from match-by-match constraints",
+    "set_id": "2022S1-03",
+    "set_position": 5,
+    "context_passage": "The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.\n\nThe following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.\n\n1. Only one goal was scored in every even numbered match.\n\n2. Harita scored more goals than Bimla.\n\n3. The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.\n\n4. Bimla scored a goal in Match 1 and one each in three other consecutive matches.\n\n5. An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.\n\n6. The match in which the highest number of goals was scored was unique and it was not Match 5.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "If Harita scored goals in one more match as compared to Sarita, which of the following statement(s) is/are necessarily true?\n\nStatement-1: Amla scored goals in consecutive matches.\n\nStatement-2: Sarita scored goals in consecutive matches.",
+    "correct_answer": "A",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Each even-numbered match had exactly 1 goal, so the four odd matches share the other 8. Totals are distinct, each at least 1, and sum to 12, with Harita above Bimla. Bimla scored in Match 1 and in three consecutive other matches, so she has at least 4 goals and cannot be the top scorer (who scored in only 3 matches); the totals are therefore 1, 2, 4, 5 with Bimla 4 and Harita 5. Harita scored in exactly Matches 4, 8 and one odd match, so Bimla's run avoids 4 and 8: she scored in Matches 1, 5, 6, 7. Match 7 then has exactly 1 goal, so Match 3 has 1 too (equal to 7, different from 1 and 5). That leaves M1 + M5 = 6 with neither equal to 1. Harita's 3 goals in Match 5 would make Match 5 the biggest match, which is barred, so they fall in Match 1: Match 1 = 4 and Match 5 = 2.\n\nHarita scored in 3 matches, so Sarita scored in 2 and Amla in 1. Amla scored in only one match, so Statement 1 fails. Sarita's two goals are two of Match 2, Match 3 and Match 5: they could be Matches 2 and 3 (consecutive) or 3 and 5 (not), so Statement 2 is not forced either. Neither is necessarily true.",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "None of the statements"
+      },
+      {
+        "label": "B",
+        "text": "Statement-1 only"
+      },
+      {
+        "label": "C",
+        "text": "Both the statements"
+      },
+      {
+        "label": "D",
+        "text": "Statement-2 only"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q16",
+    "source_code": "CAT_2022_S1_DILR_Q16",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Factor-based Assignment",
+    "pattern": "Prime-factor tokens: matching interviewers to candidates",
+    "set_id": "2022S1-04",
+    "set_position": 1,
+    "context_passage": "Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.\n\nPragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.\n\nThe following additional facts are known:\n\n1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.\n\n2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther.\n\n3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "How many tokens did Qahira receive?",
+    "correct_answer": "2",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Factorise the fundings: 390 = 2x3x5x13, 210 = 2x3x5x7, 165 = 3x5x11, 77 = 7x11, 66 = 2x3x11. Fathima awarded four of the five candidates, and only the value 3 divides four amounts (all but 77), so Fathima = 3 and Qahira got 77. Adhara awarded only Pragnyaa, so Adhara = 13 and Pragnyaa got 390. Rasheeda has the most tokens, so she got 210 (four tokens: 2, 3, 5, 7); she got none from Esther, so Esther is 11 (13 is taken). Qahira's 77 = 7 x 11 came from Esther and Dhanavi, so Dhanavi = 7. Bithi is therefore 2 or 5 and Chhaya the other; Smera and Tantra hold 165 and 66 between them.\n\nQahira's funding is 77,000 = 7 x 11: two tokens.",
+    "difficulty": "Medium",
+    "question_number": 16,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q17",
+    "source_code": "CAT_2022_S1_DILR_Q17",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Factor-based Assignment",
+    "pattern": "Prime-factor tokens: matching interviewers to candidates",
+    "set_id": "2022S1-04",
+    "set_position": 2,
+    "context_passage": "Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.\n\nPragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.\n\nThe following additional facts are known:\n\n1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.\n\n2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther.\n\n3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Who among the following definitely received a token from Bithi but not from Dhanavi?",
+    "correct_answer": "C",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Factorise the fundings: 390 = 2x3x5x13, 210 = 2x3x5x7, 165 = 3x5x11, 77 = 7x11, 66 = 2x3x11. Fathima awarded four of the five candidates, and only the value 3 divides four amounts (all but 77), so Fathima = 3 and Qahira got 77. Adhara awarded only Pragnyaa, so Adhara = 13 and Pragnyaa got 390. Rasheeda has the most tokens, so she got 210 (four tokens: 2, 3, 5, 7); she got none from Esther, so Esther is 11 (13 is taken). Qahira's 77 = 7 x 11 came from Esther and Dhanavi, so Dhanavi = 7. Bithi is therefore 2 or 5 and Chhaya the other; Smera and Tantra hold 165 and 66 between them.\n\nWe need someone whose amount contains Bithi's value (2 or 5, unknown which) but not Dhanavi's 7. Pragnyaa's 390 = 2x3x5x13 contains both 2 and 5 and no 7, so she definitely qualifies. Rasheeda (210) has a 7; Qahira (77) has neither 2 nor 5; Tantra holds 165 or 66, each of which has only one of 2 and 5, so she is not definite.",
+    "difficulty": "Medium",
+    "question_number": 17,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "Qahira"
+      },
+      {
+        "label": "B",
+        "text": "Tantra"
+      },
+      {
+        "label": "C",
+        "text": "Pragnyaa"
+      },
+      {
+        "label": "D",
+        "text": "Rasheeda"
+      }
+    ]
+  },
+  {
+    "question_code": "PYL-T1-Q18",
+    "source_code": "CAT_2022_S1_DILR_Q18",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Factor-based Assignment",
+    "pattern": "Prime-factor tokens: matching interviewers to candidates",
+    "set_id": "2022S1-04",
+    "set_position": 3,
+    "context_passage": "Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.\n\nPragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.\n\nThe following additional facts are known:\n\n1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.\n\n2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther.\n\n3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "How many tokens did Chhaya award?",
+    "correct_answer": "3",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Factorise the fundings: 390 = 2x3x5x13, 210 = 2x3x5x7, 165 = 3x5x11, 77 = 7x11, 66 = 2x3x11. Fathima awarded four of the five candidates, and only the value 3 divides four amounts (all but 77), so Fathima = 3 and Qahira got 77. Adhara awarded only Pragnyaa, so Adhara = 13 and Pragnyaa got 390. Rasheeda has the most tokens, so she got 210 (four tokens: 2, 3, 5, 7); she got none from Esther, so Esther is 11 (13 is taken). Qahira's 77 = 7 x 11 came from Esther and Dhanavi, so Dhanavi = 7. Bithi is therefore 2 or 5 and Chhaya the other; Smera and Tantra hold 165 and 66 between them.\n\nChhaya is 2 or 5. The value 2 divides 390, 210 and 66; the value 5 divides 390, 210 and 165. Either way she awarded exactly 3 tokens.",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q19",
+    "source_code": "CAT_2022_S1_DILR_Q19",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Factor-based Assignment",
+    "pattern": "Prime-factor tokens: matching interviewers to candidates",
+    "set_id": "2022S1-04",
+    "set_position": 4,
+    "context_passage": "Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.\n\nPragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.\n\nThe following additional facts are known:\n\n1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.\n\n2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther.\n\n3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.",
+    "question_type": "TITA",
+    "answer_format": "numeric",
+    "question_text": "How many tokens did Smera receive?",
+    "correct_answer": "3",
+    "marks_correct": 3,
+    "marks_incorrect": 0,
+    "explanation": "Factorise the fundings: 390 = 2x3x5x13, 210 = 2x3x5x7, 165 = 3x5x11, 77 = 7x11, 66 = 2x3x11. Fathima awarded four of the five candidates, and only the value 3 divides four amounts (all but 77), so Fathima = 3 and Qahira got 77. Adhara awarded only Pragnyaa, so Adhara = 13 and Pragnyaa got 390. Rasheeda has the most tokens, so she got 210 (four tokens: 2, 3, 5, 7); she got none from Esther, so Esther is 11 (13 is taken). Qahira's 77 = 7 x 11 came from Esther and Dhanavi, so Dhanavi = 7. Bithi is therefore 2 or 5 and Chhaya the other; Smera and Tantra hold 165 and 66 between them.\n\nSmera received 165 = 3x5x11 or 66 = 2x3x11, depending on whether Bithi is 5 or 2; both are three tokens.",
+    "difficulty": "Medium",
+    "question_number": 19,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false
+  },
+  {
+    "question_code": "PYL-T1-Q20",
+    "source_code": "CAT_2022_S1_DILR_Q20",
+    "test": 1,
+    "section": "DILR",
+    "label": "CAT 2022 Slot 1",
+    "duration_seconds": 2400,
+    "topic": "Factor-based Assignment",
+    "pattern": "Prime-factor tokens: matching interviewers to candidates",
+    "set_id": "2022S1-04",
+    "set_position": 5,
+    "context_passage": "Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.\n\nPragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.\n\nThe following additional facts are known:\n\n1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.\n\n2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther.\n\n3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.",
+    "question_type": "MCQ",
+    "answer_format": "option",
+    "question_text": "Which of the following could be the amount of funding that Tantra received?\n\n(i) Rs. 66,000\n\n(ii) Rs. 165,000",
+    "correct_answer": "C",
+    "marks_correct": 3,
+    "marks_incorrect": -1,
+    "explanation": "Factorise the fundings: 390 = 2x3x5x13, 210 = 2x3x5x7, 165 = 3x5x11, 77 = 7x11, 66 = 2x3x11. Fathima awarded four of the five candidates, and only the value 3 divides four amounts (all but 77), so Fathima = 3 and Qahira got 77. Adhara awarded only Pragnyaa, so Adhara = 13 and Pragnyaa got 390. Rasheeda has the most tokens, so she got 210 (four tokens: 2, 3, 5, 7); she got none from Esther, so Esther is 11 (13 is taken). Qahira's 77 = 7 x 11 came from Esther and Dhanavi, so Dhanavi = 7. Bithi is therefore 2 or 5 and Chhaya the other; Smera and Tantra hold 165 and 66 between them.\n\nIf Bithi = 2 then Smera got 66 and Tantra 165; if Bithi = 5 then Smera got 165 and Tantra 66. Nothing rules out either, so Tantra could have received 66,000 or 165,000: both (i) and (ii).",
+    "difficulty": "Medium",
+    "question_number": 20,
+    "source": "CAT 2022, Slot 1",
+    "verified": true,
+    "removed": false,
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither (i) nor (ii)"
+      },
+      {
+        "label": "B",
+        "text": "Only (i)"
+      },
+      {
+        "label": "C",
+        "text": "Both (i) and (ii)"
+      },
+      {
+        "label": "D",
+        "text": "Only (ii)"
+      }
+    ]
+  }
+]
