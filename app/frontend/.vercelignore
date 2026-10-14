@@ -10,6 +10,7 @@ api/seed_dilr.js
 api/seed_dilrt.js
 api/seed_lr.js
 api/seed_lrp.js
+api/seed_pyl.js
 api/seed_qt.js
 api/seed_rc.js
 api/seed_revision.js
