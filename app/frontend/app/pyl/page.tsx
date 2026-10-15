@@ -19,7 +19,7 @@ interface PylTest {
 // complete DILR section, DI and LR sets both included.
 const TEST_BLURB: Record<number, string> = {
   1: 'CAT 2022, Slot 1 — the complete DILR section as it appeared in the exam: all 4 sets, 20 questions, DI and LR both included. The metro-map set carries its original diagram.',
-  2: 'A mixed mini-section: one RC passage (CAT 2022 Slot 1), one Data Interpretation set and one Logical Reasoning set (both CAT 2024 Slot 3). 13 questions, with the original table and road-network figure.',
+  2: 'A mixed mini-section: one RC passage (CAT 2022 Slot 1), plus the two hardest DILR sets of CAT 2022 Slot 2: the widget routing network (DI) and the supermarket approvals Venn (LR). 13 questions, with the original network figure.',
 };
 const TEST_EYEBROW: Record<number, string> = { 1: 'Real CAT DILR Section', 2: 'Mixed Set: VARC + DI + LR' };
 
