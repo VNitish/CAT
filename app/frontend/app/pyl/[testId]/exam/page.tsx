@@ -9,9 +9,12 @@ const DEFAULT_TIME = 40 * 60; // placeholder until the server returns the real p
 
 type QStatus = 'not-visited' | 'not-answered' | 'answered' | 'marked' | 'answered-marked';
 interface VOption { label: string; text: string; }
+const SECTION_NAME: Record<string, string> = { VARC: 'Verbal Ability & Reading Comprehension', DILR: 'Data Interpretation & Logical Reasoning', QA: 'Quantitative Aptitude' };
+
 interface VQuestion {
   _id: string;
   question_code: string;
+  section?: string;
   question_type: 'MCQ' | 'TITA';
   answer_format: 'option' | 'numeric';
   topic: string;
@@ -248,7 +251,7 @@ function PylExamInner() {
           <div style={{ fontSize: 12, fontWeight: 'bold', lineHeight: 1.2 }}>CAT Past Year LRDI<br /><span style={{ color: '#c7c9f5', fontSize: 10, fontWeight: 'normal' }}>{label ? `${label} · ` : ''}Test {testId}</span></div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', flex: 1, paddingLeft: 16 }}>
-          <div style={{ padding: '0 16px', background: '#4F46E5', display: 'flex', alignItems: 'center', height: '100%', fontSize: 13, fontWeight: 'bold' }}>Data Interpretation & Logical Reasoning</div>
+          <div style={{ padding: '0 16px', background: '#4F46E5', display: 'flex', alignItems: 'center', height: '100%', fontSize: 13, fontWeight: 'bold' }}>{SECTION_NAME[q.section || 'DILR'] || q.section}</div>
         </div>
 
         {/* Save indicator */}
@@ -363,7 +366,7 @@ function PylExamInner() {
         {!paletteCollapsed ? (
           <div style={{ width: 220, background: '#e8e8e8', borderLeft: '2px solid #ccc', display: 'flex', flexDirection: 'column', flexShrink: 0, overflow: 'hidden' }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '6px 10px', background: '#312e81', color: 'white' }}>
-              <span style={{ fontSize: 12, fontWeight: 'bold' }}>Data Interpretation & Logical Reasoning</span>
+              <span style={{ fontSize: 12, fontWeight: 'bold' }}>{SECTION_NAME[q.section || 'DILR'] || q.section}</span>
               <button onClick={() => setPaletteCollapsed(true)} style={{ background: 'none', border: '1px solid rgba(255,255,255,0.4)', color: 'white', borderRadius: 3, cursor: 'pointer', fontSize: 11, padding: '1px 6px' }}>◀</button>
             </div>
             <div style={{ padding: '8px 10px', background: 'white', borderBottom: '1px solid #ccc', fontSize: 11 }}>

@@ -8,6 +8,7 @@ interface VOption { label: string; text: string }
 interface VResultQ {
   _id: string;
   question_number: number;
+  section?: string;
   topic: string;
   pattern: string;
   difficulty: string;
@@ -338,7 +339,7 @@ function PylResultsInner() {
           return (
             <div key={q._id} style={{ background: 'white', border: `1px solid ${borderColor}`, borderRadius: 8, padding: '16px 20px', marginBottom: 12 }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6, gap: 10 }}>
-                <span style={{ fontSize: 12, fontWeight: 700, color: '#312e81' }}>Q{q.question_number} · {q.topic}</span>
+                <span style={{ fontSize: 12, fontWeight: 700, color: '#312e81' }}>Q{q.question_number} · {q.section && q.section !== 'DILR' ? `${q.section} · ` : ''}{q.topic}</span>
                 <span style={{ fontSize: 11, fontWeight: 700, background: badgeBg, color: badgeColor, padding: '3px 10px', borderRadius: 12, flexShrink: 0 }}>{badgeText}</span>
               </div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginBottom: 10, fontSize: 10.5 }}>
