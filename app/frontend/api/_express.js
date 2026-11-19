@@ -3619,10 +3619,12 @@ app.get('/api/revision/progress', authMiddleware, async (req, res) => {
   }
 });
 
-// ── GRE Quant daily tests (private study bank, Manhattan 5 lb ch7-30) ─────────
-// Questions, sets and the 30 fixed tests are seeded by api/seed_gre_quant.js and
-// api/seed_gre_tests.js; tests reference questions by a stable key "chNN_qN"
-// because the question _ids change on every reseed.
+// ── GRE daily tests: Quant (Manhattan 5 lb ch7-30) and Verbal (ch1,3-6,32) ─────
+// Private study bank. Quant questions/sets/tests are seeded by seed_gre_quant.js and
+// seed_gre_tests.js (tests 1-30); verbal questions/passages/tests by seed_gre_verbal.js
+// and seed_gre_verbal_tests.js (tests 101-122, subject 'verbal', shown as 1-22).
+// Tests reference questions by stable keys "chNN_qN" (quant) / "vNN_qN" (verbal)
+// because question _ids change on every reseed.
 //
 // Every answer is written the moment it changes (POST .../sync) — there is no
 // periodic autosave to fail silently. Each question state carries a client
@@ -3666,7 +3668,8 @@ function greOnly(req, res, next) {
   if (!GRE_ALLOWED.includes(String(req.user.email || '').toLowerCase())) return res.status(403).json({ error: 'Not available' });
   next();
 }
-const GRE_HIDDEN = { correct_answer: 0, solution_latex: 0, tags: 0, verified: 0, book_page: 0, source: 0 };
+const GRE_HIDDEN = { correct_answer: 0, solution_latex: 0, solution_text: 0, tags: 0, verified: 0, book_page: 0, source: 0 };
+const GRE_KEY = /^(ch|v)(\d+)_q(\d+)$/;
 const GRE_AREA = ch =>
   [7, 11, 12, 13, 14, 15].includes(ch) ? 'Arithmetic & Number Properties'
   : [8, 9, 10, 19].includes(ch) ? 'Algebra'
@@ -3675,25 +3678,46 @@ const GRE_AREA = ch =>
   : [25, 26, 27, 28, 29].includes(ch) ? 'Geometry'
   : 'Advanced';
 
-// Load a test's questions (and the chart sets they use) in test order.
+// Load a test's questions (plus the quant chart sets / verbal passages they use) in test order.
 async function greLoad(keys, reveal) {
-  const pairs = keys.map(k => { const m = /^ch(\d+)_q(\d+)$/.exec(k); return { chapter_no: +m[1], question_number: +m[2] }; });
-  const docs = await greCol('gre_quant_questions')
-    .find({ $or: pairs }, { projection: reveal ? {} : GRE_HIDDEN }).toArray();
+  const parsed = keys.map(k => { const m = GRE_KEY.exec(k); return { k, verbal: m[1] === 'v', chapter_no: +m[2], question_number: +m[3] }; });
+  const loadCol = (col, list) => list.length
+    ? greCol(col).find({ $or: list.map(p => ({ chapter_no: p.chapter_no, question_number: p.question_number })) }, { projection: reveal ? {} : GRE_HIDDEN }).toArray()
+    : [];
+  const [qDocs, vDocs] = await Promise.all([loadCol('gre_quant_questions', parsed.filter(p => !p.verbal)), loadCol('gre_verbal_questions', parsed.filter(p => p.verbal))]);
   const byKey = {};
-  docs.forEach(d => { byKey[`ch${String(d.chapter_no).padStart(2, '0')}_q${d.question_number}`] = d; });
-  const questions = keys.map(k => byKey[k] && { ...byKey[k], _id: undefined, key: k, area: GRE_AREA(byKey[k].chapter_no) }).filter(Boolean);
+  qDocs.forEach(d => { byKey[`ch${String(d.chapter_no).padStart(2, '0')}_q${d.question_number}`] = d; });
+  vDocs.forEach(d => { byKey[`v${String(d.chapter_no).padStart(2, '0')}_q${d.question_number}`] = d; });
+
+  const pIds = [...new Set(vDocs.map(d => d.passage_id).filter(Boolean))];
+  const passages = pIds.length ? await greCol('gre_verbal_passages').find({ passage_id: { $in: pIds } }, { projection: { _id: 0 } }).toArray() : [];
+  const kindOf = Object.fromEntries(passages.map(p => [p.passage_id, p.kind]));
+  const verbalArea = d => d.question_type === 'TC' ? 'Text Completion' : d.question_type === 'SE' ? 'Sentence Equivalence'
+    : kindOf[d.passage_id] === 'argument' ? 'Argument Analysis' : 'Reading Comprehension';
+
+  const questions = parsed.map(p => byKey[p.k] && {
+    ...byKey[p.k], _id: undefined, key: p.k,
+    area: p.verbal ? verbalArea(byKey[p.k]) : GRE_AREA(byKey[p.k].chapter_no),
+  }).filter(Boolean);
   const setIds = [...new Set(questions.map(q => q.set_id).filter(Boolean))];
   const sets = setIds.length ? await greCol('gre_quant_sets').find({ set_id: { $in: setIds } }, { projection: { _id: 0 } }).toArray() : [];
-  return { questions, sets };
+  return { questions, sets, passages };
 }
 
 function greIsCorrect(q, given) {
-  if (given === null || given === undefined || given === '' || (Array.isArray(given) && !given.length)) return null; // skipped
+  if (given === null || given === undefined || given === '' || (Array.isArray(given) && !given.some(x => x))) return null; // skipped
   const want = q.correct_answer;
+  const sameSet = () => Array.isArray(given) && [...given].sort().join(',') === [...want].sort().join(',');
+  const norm = x => String(x).replace(/\*\*\[\d+\]\*\*\s*/g, '').replace(/\s+/g, ' ').trim(); // ignore **[N]** line markers
   switch (q.question_type) {
     case 'MULTI':
-      return Array.isArray(given) && [...given].sort().join(',') === [...want].sort().join(',');
+    case 'RC_MULTI':
+    case 'SE':
+      return sameSet();
+    case 'TC': // every blank must be right; blanks stay in order
+      return Array.isArray(given) && want.every((w, i) => given[i] === w);
+    case 'RC_SELECT':
+      return norm(given) === norm(want);
     case 'NUMERIC': {
       const n = s => Number(String(s).replace(/,/g, '').trim());
       return Number.isFinite(n(given)) && Math.abs(n(given) - n(want)) < 1e-9;
@@ -3712,7 +3736,7 @@ function greIsCorrect(q, given) {
 async function greApplyStates(sessionId, userId, states, clock) {
   const ops = [];
   for (const [k, s] of Object.entries(states || {})) {
-    if (!/^ch\d+_q\d+$/.test(k) || !s || typeof s.seq !== 'number') continue;
+    if (!GRE_KEY.test(k) || !s || typeof s.seq !== 'number') continue;
     const st = { answer: s.answer ?? null, marked: !!s.marked, time_spent: Math.max(0, Number(s.time_spent) || 0), seq: s.seq };
     ops.push({ updateOne: {
       filter: { _id: sessionId, user_id: userId, status: { $ne: 'submitted' }, question_keys: k,
@@ -3736,17 +3760,20 @@ async function greApplyStates(sessionId, userId, states, clock) {
 function greView(session, loaded) {
   return {
     session_id: session._id, test_no: session.test_no, status: session.status,
-    questions: loaded.questions, sets: loaded.sets,
+    subject: session.test_no > 100 ? 'verbal' : 'quant',
+    display_no: session.test_no > 100 ? session.test_no - 100 : session.test_no,
+    questions: loaded.questions, sets: loaded.sets, passages: loaded.passages,
     states: session.states || {}, current_index: session.current_index,
     time_left: session.time_left, duration_seconds: session.duration_seconds,
     clock_seq: session.clock_seq, score: session.score || null,
   };
 }
 
-// GET /api/gre/tests — the 30 tests with this user's latest status/score on each
+// GET /api/gre/tests?subject=quant|verbal — the tests with this user's latest status/score on each
 app.get('/api/gre/tests', authMiddleware, greOnly, async (req, res) => {
   try {
-    const tests = await greCol('gre_tests').find({}, { projection: { _id: 0, question_keys: 0 } }).sort({ test_no: 1 }).toArray();
+    const filter = req.query.subject === 'verbal' ? { subject: 'verbal' } : { subject: { $ne: 'verbal' } };
+    const tests = await greCol('gre_tests').find(filter, { projection: { _id: 0, question_keys: 0 } }).sort({ test_no: 1 }).toArray();
     const sessions = await GreSession.find({ user_id: req.user._id }, 'test_no status score current_index time_left finished_at').sort({ createdAt: 1 }).lean();
     const latest = {};
     sessions.forEach(s => { latest[s.test_no] = s; });
