@@ -16,3 +16,5 @@ api/seed_rc.js
 api/seed_revision.js
 api/seed_varc.js
 api/standalone.js
+api/seed_gre_quant.js
+api/seed_gre_tests.js

@@ -33,3 +33,8 @@ docs/pattern-guides/
 # Verification screenshots & browser-automation artifacts — scratch, not source
 /*.png
 .playwright-mcp/
+.aimcat/
+.gre_extract/
+
+# GRE quant bank: copy of a commercial book kept for private study; lives in the DB, never in this public repo
+app/frontend/chapter_questions/gre_ch*.json

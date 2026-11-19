@@ -392,44 +392,8 @@ export default function LandingPage() {
           <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3 }}>PaperRoom</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <button onClick={() => router.push('/quant')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Quant Practice
-          </button>
-          <button onClick={() => router.push('/revision')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Quant Revision
-          </button>
-          <button onClick={() => router.push('/quant-tests')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Quant Tests
-          </button>
-          <button onClick={() => router.push('/varc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            VARC Mocks
-          </button>
-          <button onClick={() => router.push('/rc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            RC Tests
-          </button>
-          <button onClick={() => router.push('/asrc')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Arun Sharma VARC
-          </button>
-          <button onClick={() => router.push('/di')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            DI Mocks
-          </button>
-          <button onClick={() => router.push('/lr')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            LR Practice
-          </button>
-          <button onClick={() => router.push('/lr-sets')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            LR Sets
-          </button>
-          <button onClick={() => router.push('/dilr')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            LR Topics
-          </button>
-          <button onClick={() => router.push('/dilr-tests')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            LR Sample Tests
-          </button>
-          <button onClick={() => router.push('/pyl')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Past Year LRDI
-          </button>
-          <button onClick={() => router.push('/blog')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
-            Blog
+          <button onClick={() => router.push('/gre')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Quant GRE
           </button>
           {user ? (
             <>

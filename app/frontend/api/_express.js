@@ -3619,4 +3619,238 @@ app.get('/api/revision/progress', authMiddleware, async (req, res) => {
   }
 });
 
+// ── GRE Quant daily tests (private study bank, Manhattan 5 lb ch7-30) ─────────
+// Questions, sets and the 30 fixed tests are seeded by api/seed_gre_quant.js and
+// api/seed_gre_tests.js; tests reference questions by a stable key "chNN_qN"
+// because the question _ids change on every reseed.
+//
+// Every answer is written the moment it changes (POST .../sync) — there is no
+// periodic autosave to fail silently. Each question state carries a client
+// sequence number and the server only applies a state newer than the stored one,
+// so a backlog flushed after a re-login cannot overwrite a fresher answer.
+const greSessionSchema = new mongoose.Schema({
+  user_id:          { type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true },
+  test_no:          Number,
+  status:           { type: String, enum: ['in_progress', 'paused', 'submitted'], default: 'in_progress' },
+  question_keys:    [String],                       // snapshot, in test order
+  // { [qkey]: { answer, marked, time_spent, seq } }
+  //   answer: 'a'..'e' | ['a','c'] | '7.5' | { num, den } | null
+  states:           { type: mongoose.Schema.Types.Mixed, default: {} },
+  current_index:    { type: Number, default: 0 },
+  time_left:        Number,                         // seconds; may go negative (overrun is shown, not cut off)
+  clock_seq:        { type: Number, default: 0 },   // seq of the last time_left/current_index write
+  duration_seconds: Number,
+  started_at:       { type: Date, default: Date.now },
+  paused_at:        { type: Date, default: null },
+  finished_at:      { type: Date, default: null },
+  score: {
+    correct: Number, incorrect: Number, skipped: Number, total: Number,
+    time_used: Number,
+    by_area: mongoose.Schema.Types.Mixed,            // { area: { correct, total } }
+  },
+}, { collection: 'gre_sessions', timestamps: true, minimize: false });
+greSessionSchema.index({ user_id: 1, test_no: 1, status: 1 });
+// At most one open (in progress or paused) attempt per user per test, so two
+// racing /start calls cannot split answers across duplicate sessions.
+greSessionSchema.index({ user_id: 1, test_no: 1 },
+  { unique: true, partialFilterExpression: { status: { $in: ['in_progress', 'paused'] } }, name: 'one_open_attempt' });
+const GreSession = mongoose.model('GreSession', greSessionSchema);
+
+const greCol = name => mongoose.connection.db.collection(name);
+
+// The bank is a copy of a commercial book kept for the owner's own study, so every
+// GRE route is limited to an allowlist of accounts (comma-separated emails).
+const GRE_ALLOWED = (process.env.GRE_ALLOWED_EMAILS || 'nitishnaidu.iitb@gmail.com')
+  .split(',').map(e => e.trim().toLowerCase()).filter(Boolean);
+function greOnly(req, res, next) {
+  if (!GRE_ALLOWED.includes(String(req.user.email || '').toLowerCase())) return res.status(403).json({ error: 'Not available' });
+  next();
+}
+const GRE_HIDDEN = { correct_answer: 0, solution_latex: 0, tags: 0, verified: 0, book_page: 0, source: 0 };
+const GRE_AREA = ch =>
+  [7, 11, 12, 13, 14, 15].includes(ch) ? 'Arithmetic & Number Properties'
+  : [8, 9, 10, 19].includes(ch) ? 'Algebra'
+  : [16, 17, 18, 20].includes(ch) ? 'Word Problems'
+  : [21, 22, 23, 24].includes(ch) ? 'Data Analysis'
+  : [25, 26, 27, 28, 29].includes(ch) ? 'Geometry'
+  : 'Advanced';
+
+// Load a test's questions (and the chart sets they use) in test order.
+async function greLoad(keys, reveal) {
+  const pairs = keys.map(k => { const m = /^ch(\d+)_q(\d+)$/.exec(k); return { chapter_no: +m[1], question_number: +m[2] }; });
+  const docs = await greCol('gre_quant_questions')
+    .find({ $or: pairs }, { projection: reveal ? {} : GRE_HIDDEN }).toArray();
+  const byKey = {};
+  docs.forEach(d => { byKey[`ch${String(d.chapter_no).padStart(2, '0')}_q${d.question_number}`] = d; });
+  const questions = keys.map(k => byKey[k] && { ...byKey[k], _id: undefined, key: k, area: GRE_AREA(byKey[k].chapter_no) }).filter(Boolean);
+  const setIds = [...new Set(questions.map(q => q.set_id).filter(Boolean))];
+  const sets = setIds.length ? await greCol('gre_quant_sets').find({ set_id: { $in: setIds } }, { projection: { _id: 0 } }).toArray() : [];
+  return { questions, sets };
+}
+
+function greIsCorrect(q, given) {
+  if (given === null || given === undefined || given === '' || (Array.isArray(given) && !given.length)) return null; // skipped
+  const want = q.correct_answer;
+  switch (q.question_type) {
+    case 'MULTI':
+      return Array.isArray(given) && [...given].sort().join(',') === [...want].sort().join(',');
+    case 'NUMERIC': {
+      const n = s => Number(String(s).replace(/,/g, '').trim());
+      return Number.isFinite(n(given)) && Math.abs(n(given) - n(want)) < 1e-9;
+    }
+    case 'FRACTION': {
+      const num = Number(given && given.num), den = Number(given && given.den);
+      if (!Number.isFinite(num) || !Number.isFinite(den) || den === 0) return false;
+      return num * want.den === want.num * den;
+    }
+    default:
+      return String(given).toLowerCase() === String(want).toLowerCase();
+  }
+}
+
+// Apply client question states, each only if its seq is newer than what is stored.
+async function greApplyStates(sessionId, userId, states, clock) {
+  const ops = [];
+  for (const [k, s] of Object.entries(states || {})) {
+    if (!/^ch\d+_q\d+$/.test(k) || !s || typeof s.seq !== 'number') continue;
+    const st = { answer: s.answer ?? null, marked: !!s.marked, time_spent: Math.max(0, Number(s.time_spent) || 0), seq: s.seq };
+    ops.push({ updateOne: {
+      filter: { _id: sessionId, user_id: userId, status: { $ne: 'submitted' }, question_keys: k,
+                $or: [{ [`states.${k}.seq`]: { $exists: false } }, { [`states.${k}.seq`]: { $lt: s.seq } }] },
+      update: { $set: { [`states.${k}`]: st } },
+    } });
+  }
+  if (clock && typeof clock.seq === 'number') {
+    const set = {};
+    if (typeof clock.time_left === 'number') set.time_left = clock.time_left;
+    if (Number.isInteger(clock.current_index)) set.current_index = clock.current_index;
+    set.clock_seq = clock.seq;
+    ops.push({ updateOne: {
+      filter: { _id: sessionId, user_id: userId, status: { $ne: 'submitted' }, clock_seq: { $lt: clock.seq } },
+      update: { $set: set },
+    } });
+  }
+  if (ops.length) await GreSession.bulkWrite(ops, { ordered: false });
+}
+
+function greView(session, loaded) {
+  return {
+    session_id: session._id, test_no: session.test_no, status: session.status,
+    questions: loaded.questions, sets: loaded.sets,
+    states: session.states || {}, current_index: session.current_index,
+    time_left: session.time_left, duration_seconds: session.duration_seconds,
+    clock_seq: session.clock_seq, score: session.score || null,
+  };
+}
+
+// GET /api/gre/tests — the 30 tests with this user's latest status/score on each
+app.get('/api/gre/tests', authMiddleware, greOnly, async (req, res) => {
+  try {
+    const tests = await greCol('gre_tests').find({}, { projection: { _id: 0, question_keys: 0 } }).sort({ test_no: 1 }).toArray();
+    const sessions = await GreSession.find({ user_id: req.user._id }, 'test_no status score current_index time_left finished_at').sort({ createdAt: 1 }).lean();
+    const latest = {};
+    sessions.forEach(s => { latest[s.test_no] = s; });
+    res.json(tests.map(t => ({ ...t, session: latest[t.test_no] || null })));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/gre/tests/:no/start — resume the open (in progress or paused) attempt, else start one
+app.post('/api/gre/tests/:no/start', authMiddleware, greOnly, async (req, res) => {
+  try {
+    const testNo = Number(req.params.no);
+    const test = await greCol('gre_tests').findOne({ test_no: testNo });
+    if (!test) return res.status(404).json({ error: 'Test not found' });
+
+    const open = { user_id: req.user._id, test_no: testNo, status: { $in: ['in_progress', 'paused'] } };
+    const resume = () => GreSession.findOneAndUpdate(open, { $set: { status: 'in_progress', paused_at: null } },
+      { returnDocument: 'after', sort: { createdAt: -1 } });
+    let session = await resume();
+    if (!session) {
+      try {
+        session = await GreSession.create({
+          user_id: req.user._id, test_no: testNo, question_keys: test.question_keys,
+          time_left: test.duration_minutes * 60, duration_seconds: test.duration_minutes * 60,
+        });
+      } catch (e) {
+        if (e.code !== 11000) throw e;
+        session = await resume(); // a concurrent /start won the race; join its attempt
+      }
+    }
+    res.json(greView(session, await greLoad(session.question_keys, false)));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/gre/sessions/:sid/sync — { states: {qkey: state}, clock: { time_left, current_index, seq } }
+app.post('/api/gre/sessions/:sid/sync', authMiddleware, greOnly, async (req, res) => {
+  try {
+    const session = await GreSession.findOne({ _id: req.params.sid, user_id: req.user._id }, 'status').lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(409).json({ error: 'Test already submitted' });
+    await greApplyStates(session._id, req.user._id, req.body.states, req.body.clock);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/gre/sessions/:sid/pause — sync, then park the attempt for later
+app.post('/api/gre/sessions/:sid/pause', authMiddleware, greOnly, async (req, res) => {
+  try {
+    const session = await GreSession.findOne({ _id: req.params.sid, user_id: req.user._id }, 'status').lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status === 'submitted') return res.status(409).json({ error: 'Test already submitted' });
+    await greApplyStates(session._id, req.user._id, req.body.states, req.body.clock);
+    await GreSession.updateOne({ _id: session._id }, { $set: { status: 'paused', paused_at: new Date() } });
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// POST /api/gre/sessions/:sid/submit — final sync, score, reveal
+app.post('/api/gre/sessions/:sid/submit', authMiddleware, greOnly, async (req, res) => {
+  try {
+    let session = await GreSession.findOne({ _id: req.params.sid, user_id: req.user._id });
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'submitted') {
+      await greApplyStates(session._id, req.user._id, req.body.states, req.body.clock);
+      session = await GreSession.findById(session._id);
+      const loaded = await greLoad(session.question_keys, true);
+      const score = { correct: 0, incorrect: 0, skipped: 0, total: loaded.questions.length, by_area: {} };
+      for (const q of loaded.questions) {
+        const ok = greIsCorrect(q, (session.states[q.key] || {}).answer);
+        const a = score.by_area[q.area] || (score.by_area[q.area] = { correct: 0, total: 0 });
+        a.total++;
+        if (ok === null) score.skipped++;
+        else if (ok) { score.correct++; a.correct++; }
+        else score.incorrect++;
+      }
+      score.time_used = session.duration_seconds - session.time_left;
+      await GreSession.updateOne({ _id: session._id, status: { $ne: 'submitted' } },
+        { $set: { status: 'submitted', finished_at: new Date(), score } });
+    }
+    res.json({ ok: true, session_id: session._id });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// GET /api/gre/sessions/:sid/result — full reveal for a submitted attempt
+app.get('/api/gre/sessions/:sid/result', authMiddleware, greOnly, async (req, res) => {
+  try {
+    const session = await GreSession.findOne({ _id: req.params.sid, user_id: req.user._id }).lean();
+    if (!session) return res.status(404).json({ error: 'Session not found' });
+    if (session.status !== 'submitted') return res.status(409).json({ error: 'Test not submitted yet' });
+    const loaded = await greLoad(session.question_keys, true);
+    loaded.questions.forEach(q => { q.result = greIsCorrect(q, (session.states[q.key] || {}).answer); });
+    res.json(greView(session, loaded));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
 module.exports = app;
