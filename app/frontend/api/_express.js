@@ -3662,7 +3662,7 @@ const greCol = name => mongoose.connection.db.collection(name);
 
 // The bank is a copy of a commercial book kept for the owner's own study, so every
 // GRE route is limited to an allowlist of accounts (comma-separated emails).
-const GRE_ALLOWED = (process.env.GRE_ALLOWED_EMAILS || 'nitishnaidu.iitb@gmail.com')
+const GRE_ALLOWED = (process.env.GRE_ALLOWED_EMAILS || 'nitishnaidu.iitb@gmail.com,shreyaa.ganguly@gmail.com')
   .split(',').map(e => e.trim().toLowerCase()).filter(Boolean);
 function greOnly(req, res, next) {
   if (!GRE_ALLOWED.includes(String(req.user.email || '').toLowerCase())) return res.status(403).json({ error: 'Not available' });
