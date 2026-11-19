@@ -8,7 +8,8 @@ import { useParams, useRouter } from 'next/navigation';
 import { apiFetch } from '@/lib/auth';
 import MathText from '@/app/components/MathText';
 import QuestionView from '../../QuestionView';
-import { GreSessionView, formatAnswer, formatClock, setLabel } from '@/lib/gre';
+import VerbalQuestionView from '../../VerbalQuestionView';
+import { GreSessionView, formatAnswer, formatClock, passageLabel, setLabel } from '@/lib/gre';
 
 const F = '"DM Sans", "Inter", "Segoe UI", Arial, sans-serif';
 const COLOR = { right: '#16A34A', wrong: '#DC2626', skipped: '#94A3B8' };
@@ -44,13 +45,16 @@ function GreResultInner() {
   const q = view.questions[sel];
   const st = view.states[q.key];
   const set = q.set_id ? view.sets.find(x => x.set_id === q.set_id) : undefined;
+  const verbal = view.subject === 'verbal';
+  const passage = q.passage_id ? view.passages?.find(p => p.passage_id === q.passage_id) : undefined;
+  const solution = q.solution_latex || q.solution_text;
   const tone = (r: boolean | null | undefined) => (r === true ? COLOR.right : r === false ? COLOR.wrong : COLOR.skipped);
 
   return (
     <div style={{ minHeight: '100vh', background: '#F8FAFC', fontFamily: F, color: '#0F172A' }}>
       <nav style={{ background: '#0F172A', color: '#fff', height: 52, display: 'flex', alignItems: 'center', padding: '0 16px', gap: 12 }}>
-        <button onClick={() => router.push('/gre')} style={{ background: 'none', border: 'none', color: '#fff', cursor: 'pointer', fontSize: 14, fontFamily: F }}>← All tests</button>
-        <strong style={{ fontSize: 14 }}>Test {view.test_no} · Evaluation</strong>
+        <button onClick={() => router.push(verbal ? '/gre/verbal' : '/gre')} style={{ background: 'none', border: 'none', color: '#fff', cursor: 'pointer', fontSize: 14, fontFamily: F }}>← All tests</button>
+        <strong style={{ fontSize: 14 }}>GRE {verbal ? 'Verbal' : 'Quant'} · Test {view.display_no} · Evaluation</strong>
       </nav>
 
       <main style={{ maxWidth: 1700, margin: '0 auto', padding: '24px 32px 64px' }}>
@@ -99,7 +103,9 @@ function GreResultInner() {
             <span>· {Math.round((st?.time_spent || 0) / 60 * 10) / 10} min spent</span>
           </div>
 
-          <QuestionView q={q} set={set} setLabel={setLabel(view.questions, q.set_id)} answer={st?.answer ?? null} reveal={showAnswer} />
+          {verbal
+            ? <VerbalQuestionView q={q} passage={passage} passageLabel={passageLabel(view.questions, q.passage_id)} answer={st?.answer ?? null} reveal={showAnswer} />
+            : <QuestionView q={q} set={set} setLabel={setLabel(view.questions, q.set_id)} answer={st?.answer ?? null} reveal={showAnswer} />}
 
           <div style={{ display: 'flex', gap: 10, marginTop: 18 }}>
             <button onClick={() => setShowSolution(v => !v)} style={toggle(showSolution)}>{showSolution ? 'Hide Solution' : 'Show Solution'}</button>
@@ -112,9 +118,9 @@ function GreResultInner() {
               <span style={{ color: '#64748B' }}> · Yours: {formatAnswer(q, st?.answer ?? null)}</span>
             </div>
           )}
-          {showSolution && q.solution_latex && (
+          {showSolution && solution && (
             <div style={{ marginTop: 14, padding: 16, background: '#F8FAFC', borderLeft: '3px solid #2563EB', fontSize: 20, lineHeight: 1.75 }}>
-              <MathText>{q.solution_latex}</MathText>
+              <MathText>{solution}</MathText>
             </div>
           )}
 

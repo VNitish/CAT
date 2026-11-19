@@ -18,3 +18,5 @@ api/seed_varc.js
 api/standalone.js
 api/seed_gre_quant.js
 api/seed_gre_tests.js
+api/seed_gre_verbal.js
+api/seed_gre_verbal_tests.js

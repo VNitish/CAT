@@ -123,7 +123,7 @@ function build() {
     const items = [...singles.slice(0, at), ...setBlock, ...singles.slice(at)];
     const tally = f => items.reduce((m, x) => ((m[x[f]] = (m[x[f]] || 0) + 1), m), {});
     return {
-      test_no: t.test_no, title: `GRE Quant Test ${t.test_no}`, duration_minutes: MINUTES,
+      test_no: t.test_no, subject: 'quant', title: `GRE Quant Test ${t.test_no}`, duration_minutes: MINUTES,
       question_keys: items.map(x => x.key),
       repeat_keys: items.filter(x => x.repeat).map(x => x.key),
       mix: { by_area: tally('area'), by_type: tally('type'), chapters: Object.keys(tally('chapter_no')).length },
@@ -139,7 +139,7 @@ function build() {
   fs.writeFileSync(path.join(QDIR, 'gre_tests.json'), JSON.stringify(tests, null, 1));
   const client = await MongoClient.connect(process.env.MONGODB_STRING);
   const col = client.db().collection('gre_tests');
-  await col.deleteMany({});
+  await col.deleteMany({ subject: { $ne: 'verbal' } }); // verbal tests (101+) are seeded by seed_gre_verbal_tests.js
   await col.insertMany(tests.map(t => ({ ...t, createdAt: new Date() })));
   await col.createIndex({ test_no: 1 }, { unique: true });
   await client.close();

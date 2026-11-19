@@ -1,7 +1,8 @@
-// Shared types and helpers for the GRE Quant daily tests (/gre).
+// Shared types and helpers for the GRE daily tests: Quant (/gre) and Verbal (/gre/verbal).
 
-export type GreType = 'QC' | 'MCQ' | 'MULTI' | 'NUMERIC' | 'FRACTION';
-export type GreAnswer = string | string[] | { num: string; den: string } | null;
+export type GreType = 'QC' | 'MCQ' | 'MULTI' | 'NUMERIC' | 'FRACTION' | 'TC' | 'SE' | 'RC_MCQ' | 'RC_MULTI' | 'RC_SELECT';
+// TC answers are one letter (or null) per blank; SE/MULTI a list; RC_SELECT the chosen sentence.
+export type GreAnswer = string | (string | null)[] | { num: string; den: string } | null;
 
 export interface GreQuestion {
   key: string;                       // "ch07_q14"
@@ -20,11 +21,18 @@ export interface GreQuestion {
   answer_unit: string | null;
   answer_prefix: string | null;
   images: string[];
+  // verbal
+  passage_id?: string | null;
+  question_text?: string;
+  blanks?: { label: string; options: Record<string, string> }[] | null;
   // only after submit
   correct_answer?: string | string[] | { num: number; den: number };
   solution_latex?: string;
+  solution_text?: string;
   result?: boolean | null;           // true right, false wrong, null skipped
 }
+
+export interface GrePassage { passage_id: string; kind: 'short' | 'long' | 'argument'; text: string; question_numbers: number[] }
 
 export interface GreSet { set_id: string; intro_latex: string; images: string[]; question_numbers: number[] }
 
@@ -38,6 +46,9 @@ export interface GreScore {
 export interface GreSessionView {
   session_id: string;
   test_no: number;
+  subject: 'quant' | 'verbal';
+  display_no: number;
+  passages?: GrePassage[];
   status: 'in_progress' | 'paused' | 'submitted';
   questions: GreQuestion[];
   sets: GreSet[];
@@ -63,7 +74,7 @@ export function optionsFor(q: GreQuestion): Record<string, string> {
 
 export function isAnswered(a: GreAnswer | undefined): boolean {
   if (a === null || a === undefined || a === '') return false;
-  if (Array.isArray(a)) return a.length > 0;
+  if (Array.isArray(a)) return a.some(x => x);
   if (typeof a === 'object') return a.num !== '' && a.den !== '';
   return true;
 }
@@ -75,7 +86,12 @@ export function formatClock(s: number) {
 
 export function formatAnswer(q: GreQuestion, a: GreAnswer | GreQuestion['correct_answer'] | undefined): string {
   if (a === null || a === undefined || a === '' || (Array.isArray(a) && !a.length)) return '—';
-  if (Array.isArray(a)) return a.map(x => x.toUpperCase()).join(', ');
+  if (q.question_type === 'TC' && Array.isArray(a)) {
+    return a.map((x, i) => (x && q.blanks?.[i]?.options[x]) || '—').join(' · ');
+  }
+  if (q.question_type === 'SE' && Array.isArray(a)) return a.map(x => (x && q.options?.[x]) || '—').join(', ');
+  if (q.question_type === 'RC_SELECT') return typeof a === 'string' ? `“${a}”` : '—';
+  if (Array.isArray(a)) return a.map(x => (x || '—').toUpperCase()).join(', ');
   if (typeof a === 'object') return `${a.num}/${a.den}`;
   if (q.question_type === 'NUMERIC') return `${q.answer_prefix || ''}${a}${q.answer_unit ? ' ' + q.answer_unit : ''}`;
   return a.toUpperCase();
@@ -100,4 +116,11 @@ export function setLabel(qs: { set_id: string | null }[], setId: string | null) 
   if (!setId) return undefined;
   const nums = qs.map((x, i) => (x.set_id === setId ? i + 1 : 0)).filter(Boolean);
   return `Questions ${nums[0]}–${nums[nums.length - 1]} refer to the data below`;
+}
+
+// "Questions 4–6 are based on this passage", in this test's numbering.
+export function passageLabel(qs: { passage_id?: string | null }[], pid?: string | null) {
+  if (!pid) return undefined;
+  const nums = qs.map((x, i) => (x.passage_id === pid ? i + 1 : 0)).filter(Boolean);
+  return nums.length > 1 ? `Questions ${nums[0]}–${nums[nums.length - 1]} are based on this passage` : `Question ${nums[0]} is based on this passage`;
 }
