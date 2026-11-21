@@ -395,6 +395,9 @@ export default function LandingPage() {
           <button onClick={() => router.push('/gre')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
             Quant GRE
           </button>
+          <button onClick={() => router.push('/gre/verbal')} style={{ padding: '7px 14px', background: 'transparent', color: '#666666', border: 'none', fontSize: 13, fontFamily: F, cursor: 'pointer' }}>
+            Verbal GRE
+          </button>
           {user ? (
             <>
               <span style={{ fontSize: 13, color: '#555555' }}>Hi, {user.name.split(' ')[0]}</span>
